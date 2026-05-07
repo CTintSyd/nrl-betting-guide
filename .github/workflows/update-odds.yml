@@ -1,0 +1,39 @@
+name: Update NRL Odds
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'   # Every 6 hours (~120 API calls/month, well within free tier)
+  workflow_dispatch:          # Manual trigger from GitHub Actions tab
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/fetch-odds.js'
+
+permissions:
+  contents: write
+
+jobs:
+  update-odds:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Fetch NRL odds
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+        run: node scripts/fetch-odds.js
+
+      - name: Commit updated odds
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add src/live-odds.json
+          git diff --staged --quiet && echo "No changes" || (
+            git commit -m "chore: update NRL odds $(date -u '+%Y-%m-%d %H:%M UTC')" &&
+            git push
+          )

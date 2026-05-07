@@ -325,8 +325,39 @@ function renderScenarios() {
   `).join('');
 }
 
+/* ── Live Odds Loader ── */
+async function loadLiveOdds() {
+  try {
+    const res = await fetch(`src/live-odds.json?v=${Date.now()}`);
+    if (!res.ok) throw new Error('No live-odds.json');
+    const data = await res.json();
+
+    if (!data.games || !data.games.length) throw new Error('Empty games array');
+
+    // Transform API games → NRL_GAMES format using oddsEngine
+    const liveGames = data.games.map((g, i) => buildGameEntry(g, i + 1));
+
+    // Replace global NRL_GAMES and re-render
+    NRL_GAMES.length = 0;
+    liveGames.forEach(g => NRL_GAMES.push(g));
+
+    renderGames(document.querySelector('.filter-btn.active')?.dataset.filter ?? 'all');
+
+    // Update the "last updated" badge if present
+    const badge = document.getElementById('oddsUpdated');
+    if (badge && data.updated) {
+      const d = new Date(data.updated);
+      badge.textContent = `Odds updated: ${d.toLocaleString('en-AU', { timeZone: 'Australia/Sydney', dateStyle: 'short', timeStyle: 'short' })}`;
+      badge.style.display = 'inline';
+    }
+  } catch (e) {
+    console.info('Live odds unavailable, using static data:', e.message);
+  }
+}
+
 /* ── Init ── */
 renderGames('all');
 renderScenarios();
 updateCalc();
 updateMultiBuilder();
+loadLiveOdds();

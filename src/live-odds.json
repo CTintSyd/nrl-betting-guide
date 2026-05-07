@@ -1,0 +1,395 @@
+{
+  "updated": "2026-05-07T14:23:29Z",
+  "games": [
+    {
+      "id": "ccd4552b32f85bbc11f12ab1343a7ed7",
+      "homeTeam": "Sydney Roosters",
+      "awayTeam": "Gold Coast Titans",
+      "commenceTime": "2026-05-08T08:00:00Z",
+      "bookmaker": "sportsbet",
+      "h2h": {
+        "home": 1.13,
+        "away": 6.05
+      },
+      "line": {
+        "home": {
+          "odd": 1.96,
+          "point": -18.5
+        },
+        "away": {
+          "odd": 1.85,
+          "point": 18.5
+        }
+      },
+      "ou": {
+        "total": 54.5,
+        "overOdd": 1.9,
+        "underOdd": 1.9
+      }
+    },
+    {
+      "id": "40f275651b49cab703bfee9eadedb3ef",
+      "homeTeam": "North Queensland Cowboys",
+      "awayTeam": "Parramatta Eels",
+      "commenceTime": "2026-05-08T10:00:00Z",
+      "bookmaker": "sportsbet",
+      "h2h": {
+        "home": 1.31,
+        "away": 3.5
+      },
+      "line": {
+        "home": {
+          "odd": 1.91,
+          "point": -10.5
+        },
+        "away": {
+          "odd": 1.89,
+          "point": 10.5
+        }
+      },
+      "ou": {
+        "total": 54.5,
+        "overOdd": 1.93,
+        "underOdd": 1.87
+      }
+    },
+    {
+      "id": "d68274c8aa67402ab10dce5f91498a47",
+      "homeTeam": "St George Illawarra Dragons",
+      "awayTeam": "Newcastle Knights",
+      "commenceTime": "2026-05-09T05:00:00Z",
+      "bookmaker": "sportsbet",
+      "h2h": {
+        "home": 3.16,
+        "away": 1.36
+      },
+      "line": {
+        "home": {
+          "odd": 1.87,
+          "point": 8.5
+        },
+        "away": {
+          "odd": 1.93,
+          "point": -8.5
+        }
+      },
+      "ou": {
+        "total": 52.5,
+        "overOdd": 2.0,
+        "underOdd": 1.81
+      }
+    },
+    {
+      "id": "339c2c490b75fb13d6ad65cd2e53bdb0",
+      "homeTeam": "South Sydney Rabbitohs",
+      "awayTeam": "Cronulla Sutherland Sharks",
+      "commenceTime": "2026-05-09T07:30:00Z",
+      "bookmaker": "sportsbet",
+      "h2h": {
+        "home": 2.23,
+        "away": 1.66
+      },
+      "line": {
+        "home": {
+          "odd": 1.92,
+          "point": 3.5
+        },
+        "away": {
+          "odd": 1.88,
+          "point": -3.5
+        }
+      },
+      "ou": {
+        "total": 53.5,
+        "overOdd": 1.81,
+        "underOdd": 2.0
+      }
+    },
+    {
+      "id": "da7c34ff495a4acb614cd3cc5698d6dd",
+      "homeTeam": "Manly Warringah Sea Eagles",
+      "awayTeam": "Brisbane Broncos",
+      "commenceTime": "2026-05-09T09:35:00Z",
+      "bookmaker": "sportsbet",
+      "h2h": {
+        "home": 1.63,
+        "away": 2.28
+      },
+      "line": {
+        "home": {
+          "odd": 1.9,
+          "point": -2.5
+        },
+        "away": {
+          "odd": 1.9,
+          "point": 2.5
+        }
+      },
+      "ou": {
+        "total": 50.5,
+        "overOdd": 1.9,
+        "underOdd": 1.9
+      }
+    },
+    {
+      "id": "f88a8cb2ae06c12f2274d19a0d1087fc",
+      "homeTeam": "Melbourne Storm",
+      "awayTeam": "Wests Tigers",
+      "commenceTime": "2026-05-10T04:00:00Z",
+      "bookmaker": "sportsbet",
+      "h2h": {
+        "home": 1.52,
+        "away": 2.52
+      },
+      "line": {
+        "home": {
+          "odd": 1.97,
+          "point": -6.5
+        },
+        "away": {
+          "odd": 1.84,
+          "point": 6.5
+        }
+      },
+      "ou": {
+        "total": 53.5,
+        "overOdd": 1.83,
+        "underOdd": 1.98
+      }
+    },
+    {
+      "id": "fff365ac1beade5b1086164db06a2450",
+      "homeTeam": "Canberra Raiders",
+      "awayTeam": "Penrith Panthers",
+      "commenceTime": "2026-05-10T06:05:00Z",
+      "bookmaker": "sportsbet",
+      "h2h": {
+        "home": 3.73,
+        "away": 1.28
+      },
+      "line": {
+        "home": {
+          "odd": 1.9,
+          "point": 10.5
+        },
+        "away": {
+          "odd": 1.9,
+          "point": -10.5
+        }
+      },
+      "ou": {
+        "total": 50.5,
+        "overOdd": 1.9,
+        "underOdd": 1.9
+      }
+    },
+    {
+      "id": "2eb8c03af1f7e3ae8cf309913f92b51a",
+      "homeTeam": "Cronulla Sutherland Sharks",
+      "awayTeam": "Canterbury Bulldogs",
+      "commenceTime": "2026-05-15T08:00:00Z",
+      "bookmaker": "sportsbet",
+      "h2h": {
+        "home": 1.42,
+        "away": 2.9
+      },
+      "line": {
+        "home": {
+          "odd": 1.83,
+          "point": -7.5
+        },
+        "away": {
+          "odd": 1.98,
+          "point": 7.5
+        }
+      },
+      "ou": {
+        "total": 50.5,
+        "overOdd": 1.92,
+        "underOdd": 1.87
+      }
+    },
+    {
+      "id": "56e233da2c77b9d81506e5a412d1d43b",
+      "homeTeam": "South Sydney Rabbitohs",
+      "awayTeam": "Dolphins",
+      "commenceTime": "2026-05-15T10:05:00Z",
+      "bookmaker": "sportsbet",
+      "h2h": {
+        "home": 1.71,
+        "away": 2.14
+      },
+      "line": {
+        "home": {
+          "odd": 1.99,
+          "point": -2.5
+        },
+        "away": {
+          "odd": 1.82,
+          "point": 2.5
+        }
+      },
+      "ou": {
+        "total": 55.5,
+        "overOdd": 1.9,
+        "underOdd": 1.9
+      }
+    },
+    {
+      "id": "edd035aab9bc0ea43e28561fec91c5b9",
+      "homeTeam": "Wests Tigers",
+      "awayTeam": "Manly Warringah Sea Eagles",
+      "commenceTime": "2026-05-16T05:00:00Z",
+      "bookmaker": "sportsbet",
+      "h2h": {
+        "home": 2.79,
+        "away": 1.44
+      },
+      "line": {
+        "home": {
+          "odd": 1.92,
+          "point": 7.5
+        },
+        "away": {
+          "odd": 1.88,
+          "point": -7.5
+        }
+      },
+      "ou": {
+        "total": 52.5,
+        "overOdd": 1.99,
+        "underOdd": 1.82
+      }
+    },
+    {
+      "id": "5434f1ad6147f4de010571c48e023dce",
+      "homeTeam": "Sydney Roosters",
+      "awayTeam": "North Queensland Cowboys",
+      "commenceTime": "2026-05-16T07:30:00Z",
+      "bookmaker": "sportsbet",
+      "h2h": {
+        "home": 1.38,
+        "away": 3.09
+      },
+      "line": {
+        "home": {
+          "odd": 1.92,
+          "point": -8.5
+        },
+        "away": {
+          "odd": 1.88,
+          "point": 8.5
+        }
+      },
+      "ou": {
+        "total": 55.5,
+        "overOdd": 1.84,
+        "underOdd": 1.97
+      }
+    },
+    {
+      "id": "d52fa4696ab1c19d906045ef0472db37",
+      "homeTeam": "Parramatta Eels",
+      "awayTeam": "Melbourne Storm",
+      "commenceTime": "2026-05-16T09:45:00Z",
+      "bookmaker": "sportsbet",
+      "h2h": {
+        "home": 2.8,
+        "away": 1.44
+      },
+      "line": {
+        "home": {
+          "odd": 1.9,
+          "point": 6.5
+        },
+        "away": {
+          "odd": 1.9,
+          "point": -6.5
+        }
+      },
+      "ou": {
+        "total": 52.5,
+        "overOdd": 1.99,
+        "underOdd": 1.82
+      }
+    },
+    {
+      "id": "6fe9f632e21ea1f3b92df6220aca064c",
+      "homeTeam": "Gold Coast Titans",
+      "awayTeam": "Newcastle Knights",
+      "commenceTime": "2026-05-17T04:00:00Z",
+      "bookmaker": "sportsbet",
+      "h2h": {
+        "home": 2.54,
+        "away": 1.52
+      },
+      "line": {
+        "home": {
+          "odd": 1.91,
+          "point": 5.5
+        },
+        "away": {
+          "odd": 1.89,
+          "point": -5.5
+        }
+      },
+      "ou": {
+        "total": 55.5,
+        "overOdd": 1.82,
+        "underOdd": 1.99
+      }
+    },
+    {
+      "id": "510fca860e2ddf4ab267538de444e1a7",
+      "homeTeam": "New Zealand Warriors",
+      "awayTeam": "Brisbane Broncos",
+      "commenceTime": "2026-05-17T06:05:00Z",
+      "bookmaker": "sportsbet",
+      "h2h": {
+        "home": 1.67,
+        "away": 2.21
+      },
+      "line": {
+        "home": {
+          "odd": 1.9,
+          "point": -2.5
+        },
+        "away": {
+          "odd": 1.9,
+          "point": 2.5
+        }
+      },
+      "ou": {
+        "total": 51.5,
+        "overOdd": 1.81,
+        "underOdd": 2.0
+      }
+    },
+    {
+      "id": "b1fb842b8e545098cc64b374400b0e40",
+      "homeTeam": "Penrith Panthers",
+      "awayTeam": "St George Illawarra Dragons",
+      "commenceTime": "2026-05-17T08:25:00Z",
+      "bookmaker": "sportsbet",
+      "h2h": {
+        "home": 1.08,
+        "away": 8.0
+      },
+      "line": {
+        "home": {
+          "odd": 1.91,
+          "point": -20.5
+        },
+        "away": {
+          "odd": 1.89,
+          "point": 20.5
+        }
+      },
+      "ou": {
+        "total": 55.5,
+        "overOdd": 1.83,
+        "underOdd": 1.98
+      }
+    }
+  ]
+}
