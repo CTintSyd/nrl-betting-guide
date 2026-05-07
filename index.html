@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NRL Betting Guide — Learn Smart, Bet Informed</title>
+  <link rel="stylesheet" href="src/styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Barlow+Condensed:wght@600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="nav">
+    <div class="nav__inner container">
+      <div class="nav__logo">
+        <span class="logo-icon">🏉</span>
+        <span class="logo-text">NRL<strong>Betting</strong>Guide</span>
+      </div>
+      <nav class="nav__links">
+        <a href="#bet-types">Bet Types</a>
+        <a href="#live-odds">Live Odds</a>
+        <a href="#analysis">Analysis</a>
+        <a href="#calculator">Calculator</a>
+      </nav>
+      <div class="nav__badge">
+        <span class="pulse"></span> Round 12 — Live
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero__bg"></div>
+    <div class="container hero__content">
+      <div class="hero__label">Beginner's Guide</div>
+      <h1 class="hero__title">Understand NRL Betting<br /><em>Before You Place a Cent</em></h1>
+      <p class="hero__sub">We break down every bet type, show you real-style odds, and give you the analysis tools to make informed decisions — not guesses.</p>
+      <div class="hero__ctas">
+        <a href="#bet-types" class="btn btn--primary">Explore Bet Types</a>
+        <a href="#live-odds" class="btn btn--ghost">See Today's Odds</a>
+      </div>
+      <div class="hero__disclaimer">
+        ⚠️ Odds shown are <strong>educational examples</strong> based on real-market structures. Always gamble responsibly. 18+
+      </div>
+    </div>
+    <div class="hero__stats">
+      <div class="container">
+        <div class="stats-row">
+          <div class="stat">
+            <span class="stat__num">35</span>
+            <span class="stat__label">Bet Types Explained</span>
+          </div>
+          <div class="stat">
+            <span class="stat__num">6</span>
+            <span class="stat__label">Games This Round</span>
+          </div>
+          <div class="stat">
+            <span class="stat__num">100%</span>
+            <span class="stat__label">Beginner Friendly</span>
+          </div>
+          <div class="stat">
+            <span class="stat__num">Free</span>
+            <span class="stat__label">No Sign-Up Needed</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BET TYPES -->
+  <section class="section" id="bet-types">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-label">Start Here</div>
+        <h2 class="section-title">Types of NRL Bets</h2>
+        <p class="section-sub">Click any card to learn how the bet works, see an example, and get a risk rating.</p>
+      </div>
+
+      <div class="category-filters">
+        <button class="cat-btn active" data-cat="all">All (35)</button>
+        <button class="cat-btn" data-cat="match">Match Result</button>
+        <button class="cat-btn" data-cat="points">Points Markets</button>
+        <button class="cat-btn" data-cat="try">Try Scorers</button>
+        <button class="cat-btn" data-cat="half">Half Markets</button>
+        <button class="cat-btn" data-cat="multi">Multi &amp; Special</button>
+        <button class="cat-btn" data-cat="futures">Futures</button>
+      </div>
+
+      <div class="bet-type-cards" id="betTypeCards">
+        <!-- Match Result -->
+        <div class="bt-card" data-tab="h2h" data-cat="match"><span class="bt-icon">🏆</span><div class="bt-info"><strong>Head to Head</strong><span>Pick the winner</span></div><span class="bt-risk risk--low">Low</span></div>
+        <div class="bt-card" data-tab="line" data-cat="match"><span class="bt-icon">📏</span><div class="bt-info"><strong>Line Betting</strong><span>Handicap market</span></div><span class="bt-risk risk--medium">Med</span></div>
+        <div class="bt-card" data-tab="margin" data-cat="match"><span class="bt-icon">🔢</span><div class="bt-info"><strong>Winning Margin</strong><span>Winner + margin band</span></div><span class="bt-risk risk--high">High</span></div>
+        <div class="bt-card" data-tab="bigwin" data-cat="match"><span class="bt-icon">💥</span><div class="bt-info"><strong>Big Win Little Win</strong><span>1–12pt or 13+ margin</span></div><span class="bt-risk risk--low">Low</span></div>
+        <div class="bt-card" data-tab="pickyourline" data-cat="match"><span class="bt-icon">🎛️</span><div class="bt-info"><strong>Pick Your Own Line</strong><span>Custom handicap price</span></div><span class="bt-risk risk--medium">Med</span></div>
+        <div class="bt-card" data-tab="halftime" data-cat="match"><span class="bt-icon">⏱️</span><div class="bt-info"><strong>Half-Time / Full-Time</strong><span>Leaders at both breaks</span></div><span class="bt-risk risk--medium">Med</span></div>
+        <!-- Points Markets -->
+        <div class="bt-card" data-tab="ou" data-cat="points"><span class="bt-icon">📈</span><div class="bt-info"><strong>Over / Under</strong><span>Total points scored</span></div><span class="bt-risk risk--low">Low</span></div>
+        <div class="bt-card" data-tab="teamtotal" data-cat="points"><span class="bt-icon">🎯</span><div class="bt-info"><strong>Team Total Points</strong><span>One team's score O/U</span></div><span class="bt-risk risk--low">Low</span></div>
+        <div class="bt-card" data-tab="tries" data-cat="points"><span class="bt-icon">✋</span><div class="bt-info"><strong>Total Tries</strong><span>Over/under on try count</span></div><span class="bt-risk risk--low">Low</span></div>
+        <div class="bt-card" data-tab="teamscorecombo" data-cat="points"><span class="bt-icon">🔀</span><div class="bt-info"><strong>Team Score Combo</strong><span>Score range for both teams</span></div><span class="bt-risk risk--high">High</span></div>
+        <div class="bt-card" data-tab="race" data-cat="points"><span class="bt-icon">🏎️</span><div class="bt-info"><strong>Race to 10 Points</strong><span>Who scores 10 pts first</span></div><span class="bt-risk risk--medium">Med</span></div>
+        <!-- Try Scorers -->
+        <div class="bt-card" data-tab="fts" data-cat="try"><span class="bt-icon">⚡</span><div class="bt-info"><strong>First Try Scorer</strong><span>Who scores the first try</span></div><span class="bt-risk risk--high">High</span></div>
+        <div class="bt-card" data-tab="lts" data-cat="try"><span class="bt-icon">🔚</span><div class="bt-info"><strong>Last Try Scorer</strong><span>Who scores the last try</span></div><span class="bt-risk risk--high">High</span></div>
+        <div class="bt-card" data-tab="anytime" data-cat="try"><span class="bt-icon">🌟</span><div class="bt-info"><strong>1+ Try Scorer</strong><span>Score at any point</span></div><span class="bt-risk risk--medium">Med</span></div>
+        <div class="bt-card" data-tab="twoplus" data-cat="try"><span class="bt-icon">✌️</span><div class="bt-info"><strong>2+ Try Scorer</strong><span>Player scores 2 or more</span></div><span class="bt-risk risk--high">High</span></div>
+        <div class="bt-card" data-tab="threeplus" data-cat="try"><span class="bt-icon">3️⃣</span><div class="bt-info"><strong>3+ Try Scorer</strong><span>Hat-trick or more</span></div><span class="bt-risk risk--high">High</span></div>
+        <div class="bt-card" data-tab="firstsecondthird" data-cat="try"><span class="bt-icon">🥉</span><div class="bt-info"><strong>1st, 2nd or 3rd Try</strong><span>Score in first 3 tries</span></div><span class="bt-risk risk--medium">Med</span></div>
+        <div class="bt-card" data-tab="bothhalf" data-cat="try"><span class="bt-icon">🔁</span><div class="bt-info"><strong>Try Scorer Both Halves</strong><span>Score in each half</span></div><span class="bt-risk risk--high">High</span></div>
+        <div class="bt-card" data-tab="scorecast" data-cat="try"><span class="bt-icon">🎪</span><div class="bt-info"><strong>Scorecast</strong><span>First try scorer + winner</span></div><span class="bt-risk risk--high">High</span></div>
+        <div class="bt-card" data-tab="firstandlast" data-cat="try"><span class="bt-icon">🎬</span><div class="bt-info"><strong>1st &amp; Last to Score</strong><span>First AND last try scorer</span></div><span class="bt-risk risk--high">High</span></div>
+        <div class="bt-card" data-tab="mosttries" data-cat="try"><span class="bt-icon">⚔️</span><div class="bt-info"><strong>Most Tries H2H</strong><span>Which player scores more</span></div><span class="bt-risk risk--medium">Med</span></div>
+        <div class="bt-card" data-tab="timeofmarkets" data-cat="try"><span class="bt-icon">⌚</span><div class="bt-info"><strong>Time of Try Markets</strong><span>Exact minute window</span></div><span class="bt-risk risk--high">High</span></div>
+        <!-- Team Markets -->
+        <div class="bt-card" data-tab="firstteam" data-cat="points"><span class="bt-icon">🚀</span><div class="bt-info"><strong>First Try Scoring Team</strong><span>Which team scores first</span></div><span class="bt-risk risk--low">Low</span></div>
+        <div class="bt-card" data-tab="bothteams" data-cat="points"><span class="bt-icon">🤝</span><div class="bt-info"><strong>Both Teams to Score</strong><span>Will both teams get a try?</span></div><span class="bt-risk risk--low">Low</span></div>
+        <div class="bt-card" data-tab="winboth" data-cat="points"><span class="bt-icon">🔒</span><div class="bt-info"><strong>Team to Win Both Halves</strong><span>Lead in each half</span></div><span class="bt-risk risk--medium">Med</span></div>
+        <div class="bt-card" data-tab="score20" data-cat="points"><span class="bt-icon">🔥</span><div class="bt-info"><strong>Team to Score 20+/30+</strong><span>Points milestone market</span></div><span class="bt-risk risk--medium">Med</span></div>
+        <!-- Half Markets -->
+        <div class="bt-card" data-tab="firsthalf" data-cat="half"><span class="bt-icon">1️⃣</span><div class="bt-info"><strong>First Half Markets</strong><span>H2H &amp; O/U for first 40</span></div><span class="bt-risk risk--medium">Med</span></div>
+        <div class="bt-card" data-tab="secondhalf" data-cat="half"><span class="bt-icon">2️⃣</span><div class="bt-info"><strong>Second Half Markets</strong><span>H2H &amp; O/U for last 40</span></div><span class="bt-risk risk--medium">Med</span></div>
+        <!-- Multi & Special -->
+        <div class="bt-card" data-tab="multi" data-cat="multi"><span class="bt-icon">🎰</span><div class="bt-info"><strong>Multi Bets</strong><span>Combine multiple games</span></div><span class="bt-risk risk--high">High</span></div>
+        <div class="bt-card" data-tab="sgm" data-cat="multi"><span class="bt-icon">🔗</span><div class="bt-info"><strong>Same Game Multi</strong><span>Multiple picks, one game</span></div><span class="bt-risk risk--high">High</span></div>
+        <div class="bt-card" data-tab="playercombo" data-cat="multi"><span class="bt-icon">🧩</span><div class="bt-info"><strong>Player Combo Markets</strong><span>Combine player stat legs</span></div><span class="bt-risk risk--high">High</span></div>
+        <div class="bt-card" data-tab="metres" data-cat="multi"><span class="bt-icon">📏</span><div class="bt-info"><strong>Player Metres Run</strong><span>Over/under on run metres</span></div><span class="bt-risk risk--medium">Med</span></div>
+        <div class="bt-card" data-tab="tackles" data-cat="multi"><span class="bt-icon">🦺</span><div class="bt-info"><strong>Player Tackles Made</strong><span>Over/under on tackles</span></div><span class="bt-risk risk--medium">Med</span></div>
+        <div class="bt-card" data-tab="performance" data-cat="multi"><span class="bt-icon">⭐</span><div class="bt-info"><strong>Player Performance Pts</strong><span>Composite fantasy score</span></div><span class="bt-risk risk--medium">Med</span></div>
+        <!-- Futures -->
+        <div class="bt-card" data-tab="futures" data-cat="futures"><span class="bt-icon">🏅</span><div class="bt-info"><strong>Season Futures</strong><span>Premiership, Top 8, awards</span></div><span class="bt-risk risk--medium">Med</span></div>
+      </div>
+
+      <!-- Detail panel — rendered by JS on card click -->
+      <div class="panel-detail hidden" id="panelDetail"></div>
+    </div>
+  </section>
+
+  <!-- LIVE ODDS -->
+  <section class="section section--dark" id="live-odds">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-label">Round 12 — 2026</div>
+        <h2 class="section-title">Today's Odds</h2>
+        <p class="section-sub">Example odds based on real NRL market structures. Click any odds to add to your Multi Builder. <strong>These are educational examples — always check Sportsbet.com.au for live odds.</strong></p>
+      </div>
+
+      <div class="odds-filter">
+        <button class="filter-btn active" data-filter="all">All Games</button>
+        <button class="filter-btn" data-filter="h2h">H2H</button>
+        <button class="filter-btn" data-filter="line">Line</button>
+        <button class="filter-btn" data-filter="ou">Over/Under</button>
+      </div>
+
+      <div class="games-grid" id="gamesGrid"></div>
+    </div>
+  </section>
+
+  <!-- ANALYSIS TOOL -->
+  <section class="section" id="analysis">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-label">Make Better Decisions</div>
+        <h2 class="section-title">Bet Analysis Tool</h2>
+        <p class="section-sub">Enter the odds and our tool will show you the implied probability, expected value, and a risk assessment.</p>
+      </div>
+
+      <div class="analysis-grid">
+        <div class="analysis-inputs card">
+          <h3>Enter Your Bet</h3>
+          <div class="form-group">
+            <label>Decimal Odds</label>
+            <input type="number" id="anaOdds" value="2.10" step="0.05" min="1.01" />
+          </div>
+          <div class="form-group">
+            <label>Your Stake ($)</label>
+            <input type="number" id="anaStake" value="10" min="1" />
+          </div>
+          <div class="form-group">
+            <label>Your estimated win probability (%)</label>
+            <input type="number" id="anaProb" value="50" min="1" max="99" />
+            <small>Be honest — overconfidence is the #1 betting mistake</small>
+          </div>
+          <button class="btn btn--primary full-width" id="analyseBtn">Analyse Bet</button>
+        </div>
+
+        <div class="analysis-results card" id="anaResults">
+          <h3>Results</h3>
+          <div class="result-grid">
+            <div class="result-box">
+              <span class="result-label">Implied Probability</span>
+              <span class="result-val" id="anaImplied">—</span>
+              <span class="result-sub">What the bookmaker thinks</span>
+            </div>
+            <div class="result-box">
+              <span class="result-label">Your Estimate</span>
+              <span class="result-val" id="anaYours">—</span>
+              <span class="result-sub">What you think</span>
+            </div>
+            <div class="result-box">
+              <span class="result-label">Potential Return</span>
+              <span class="result-val" id="anaReturn">—</span>
+              <span class="result-sub">Includes stake</span>
+            </div>
+            <div class="result-box" id="anaEVBox">
+              <span class="result-label">Expected Value</span>
+              <span class="result-val" id="anaEV">—</span>
+              <span class="result-sub">Per $10 bet on average</span>
+            </div>
+          </div>
+          <div class="verdict-box" id="anaVerdict">Run the analysis to see your verdict here.</div>
+        </div>
+
+        <div class="card analysis-tips">
+          <h3>How to Read This</h3>
+          <ul class="tips-list">
+            <li><strong>Implied probability</strong> = 1 ÷ odds. If odds are $2.00, the bookmaker implies a 50% chance.</li>
+            <li><strong>Expected Value (EV)</strong> = does this bet make mathematical sense? Positive EV means you have an edge; negative EV means the bookmaker does.</li>
+            <li><strong>The goal</strong> is to find bets where your estimated probability is <em>higher</em> than the implied probability — that's where value lives.</li>
+            <li><strong>Warning:</strong> Most recreational bets are negative EV. That's fine — but know what you're signing up for.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CALCULATOR -->
+  <section class="section section--dark" id="calculator">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-label">Practical Tool</div>
+        <h2 class="section-title">Payout Calculator</h2>
+        <p class="section-sub">Quickly work out what you'll win before placing any bet.</p>
+      </div>
+
+      <div class="calc-layout">
+        <div class="card calc-card">
+          <h3>Single Bet</h3>
+          <div class="form-group">
+            <label>Odds</label>
+            <input type="number" id="calcOdds" value="2.10" step="0.05" min="1.01" />
+          </div>
+          <div class="form-group">
+            <label>Stake ($)</label>
+            <input type="number" id="calcStake" value="20" min="1" />
+          </div>
+          <div class="calc-result">
+            <div class="calc-row"><span>Total Return</span><span id="calcReturn">$42.00</span></div>
+            <div class="calc-row profit"><span>Profit</span><span id="calcProfit">$22.00</span></div>
+          </div>
+        </div>
+
+        <div class="card calc-card">
+          <h3>Quick Scenarios</h3>
+          <div class="scenarios" id="scenarios"></div>
+        </div>
+
+        <div class="card calc-card">
+          <h3>Stake Sizing Guide</h3>
+          <div class="sizing-guide">
+            <div class="sizing-row">
+              <div class="sizing-label">Conservative</div>
+              <div class="sizing-detail">1–2% of bankroll per bet<br /><small>e.g. $5–$10 on a $500 bankroll</small></div>
+            </div>
+            <div class="sizing-row">
+              <div class="sizing-label sizing--moderate">Moderate</div>
+              <div class="sizing-detail">2–5% per bet<br /><small>More active, still disciplined</small></div>
+            </div>
+            <div class="sizing-row">
+              <div class="sizing-label sizing--risky">Risky</div>
+              <div class="sizing-detail">5%+ per bet<br /><small>High variance, easy to lose bankroll fast</small></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MULTI BUILDER (floating, populated from Live Odds) -->
+  <div class="multi-floating" id="multiFloating" style="display:none">
+    <div class="multi-header">
+      <span>🎰 Multi Builder</span>
+      <span class="multi-count" id="multiCount">0 legs</span>
+    </div>
+    <div class="multi-legs" id="multiLegs">
+      <div class="multi-empty">Click any odds button to add a leg.</div>
+    </div>
+    <div class="multi-result">
+      <div class="multi-row"><span>Combined Odds</span><span id="multiOdds">—</span></div>
+      <div class="multi-row"><span>$10 stake returns</span><span id="multiReturn">—</span></div>
+      <div class="multi-row"><span>Est. win chance</span><span id="multiChance">—</span></div>
+    </div>
+  </div>
+
+  <!-- RESPONSIBLE GAMBLING -->
+  <section class="rg-section">
+    <div class="container">
+      <div class="rg-card">
+        <div class="rg-icon">🛡️</div>
+        <div class="rg-content">
+          <h3>Gamble Responsibly</h3>
+          <p>This site is for <strong>educational purposes only</strong>. Gambling should be fun — never chase losses, never bet more than you can afford to lose, and take regular breaks. If gambling stops being fun, help is available.</p>
+          <div class="rg-links">
+            <a href="https://www.gamblinghelponline.org.au" target="_blank" rel="noopener">Gambling Help Online</a>
+            <a href="tel:1800858858">1800 858 858 (Free call)</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__logo">🏉 NRL Betting Guide</div>
+      <p>Educational use only. Odds shown are illustrative examples only — not live odds from any bookmaker. Always check Sportsbet.com.au or your preferred bookmaker for current prices. 18+ only. Please gamble responsibly.</p>
+    </div>
+  </footer>
+
+  <script src="src/data.js"></script>
+  <script src="src/betTypes.js"></script>
+  <script src="src/app.js"></script>
+</body>
+</html>
