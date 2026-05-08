@@ -103,7 +103,10 @@ function renderGames(filter) {
     return `
     <div class="game-card">
       <div class="game-header">
-        <span class="game-time">⏰ ${game.time} · ${game.venue}</span>
+        <div class="game-header-left">
+          <span class="game-time">⏰ ${game.time}</span>
+          <span class="game-broadcaster">📍 ${game.venue} · ${game.broadcaster ?? '📺 Fox League'}</span>
+        </div>
         ${game.isLive
           ? '<span class="game-live-badge">● LIVE</span>'
           : '<span class="game-upcoming-badge">UPCOMING</span>'}
@@ -354,6 +357,15 @@ async function loadLiveOdds() {
     console.info('Live odds unavailable, using static data:', e.message);
   }
 }
+
+/* ── Player Strip — seamless marquee loop ── */
+(function initPlayerStrip() {
+  const strip = document.querySelector('.players-strip');
+  if (!strip) return;
+  // Clone all children and append so strip is 2× wide for infinite scroll
+  const origCards = Array.from(strip.children);
+  origCards.forEach(card => strip.appendChild(card.cloneNode(true)));
+})();
 
 /* ── Init ── */
 renderGames('all');

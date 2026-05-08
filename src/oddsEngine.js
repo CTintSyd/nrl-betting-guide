@@ -303,6 +303,19 @@ function deriveAllMarkets(baseOdds) {
   };
 }
 
+/* ── Broadcaster helper ────────────────────────────────────────────────────── */
+// All NRL games are on Fox League. Thursday & select Friday/Sunday games also on Nine.
+
+function getBroadcaster(utcDate) {
+  const day = new Date(utcDate).toLocaleString('en-AU', { weekday: 'short', timeZone: 'Australia/Sydney' });
+  const hour = parseInt(new Date(utcDate).toLocaleString('en-AU', { hour: 'numeric', hour12: false, timeZone: 'Australia/Sydney' }));
+  // Thursday night → always Nine + Fox League
+  if (day === 'Thu') return '📺 Nine · Fox League';
+  // Friday/Sunday primetime (6 pm+) featured game → Nine + Fox League
+  if ((day === 'Fri' || day === 'Sun') && hour >= 17) return '📺 Nine · Fox League';
+  return '📺 Fox League';
+}
+
 /* ── Transform API game → NRL_GAMES entry ──────────────────────────────────── */
 
 function buildGameEntry(apiGame, id) {
@@ -312,9 +325,7 @@ function buildGameEntry(apiGame, id) {
   const derived = deriveAllMarkets(apiGame);
 
   const dt = new Date(apiGame.commenceTime);
-  // AEST = UTC+10
-  const aest = new Date(dt.getTime() + 10 * 3600 * 1000);
-  const timeStr = aest.toLocaleString('en-AU', {
+  const timeStr = dt.toLocaleString('en-AU', {
     weekday: 'short', month: 'short', day: 'numeric',
     hour: '2-digit', minute: '2-digit', hour12: true, timeZone: 'Australia/Sydney',
   });
@@ -324,7 +335,8 @@ function buildGameEntry(apiGame, id) {
     homeTeam: { name: apiGame.homeTeam, emoji: homeData.emoji, shortName: homeData.shortName, record: '' },
     awayTeam: { name: apiGame.awayTeam, emoji: awayData.emoji, shortName: awayData.shortName, record: '' },
     time: timeStr,
-    venue: 'TBC',
+    venue: homeData.venue ?? 'TBC',
+    broadcaster: getBroadcaster(dt),
     isLive: false,
     h2h:  { home: apiGame.h2h.home ?? 1.90, away: apiGame.h2h.away ?? 1.90 },
     line: {

@@ -3,7 +3,7 @@
 
 const NRL_TEAM_DATA = {
   'Brisbane Broncos': {
-    emoji: '🐻', shortName: 'Broncos',
+    emoji: '🐻', shortName: 'Broncos', venue: 'Suncorp Stadium',
     players: [
       { name: 'Selwyn Cobbo',    pos: 'wing',      tryRate: 0.55 },
       { name: 'Reece Walsh',     pos: 'fullback',   tryRate: 0.40 },
@@ -13,7 +13,7 @@ const NRL_TEAM_DATA = {
     ],
   },
   'Canberra Raiders': {
-    emoji: '🔋', shortName: 'Raiders',
+    emoji: '🔋', shortName: 'Raiders', venue: 'GIO Stadium',
     players: [
       { name: 'Xavier Savage',     pos: 'wing',    tryRate: 0.52 },
       { name: 'Jordan Rapana',     pos: 'wing',    tryRate: 0.45 },
@@ -23,7 +23,7 @@ const NRL_TEAM_DATA = {
     ],
   },
   'Canterbury Bulldogs': {
-    emoji: '🐕', shortName: 'Bulldogs',
+    emoji: '🐕', shortName: 'Bulldogs', venue: 'Accor Stadium',
     players: [
       { name: 'Josh Addo-Carr',    pos: 'wing',    tryRate: 0.62 },
       { name: 'Bronson Xerri',     pos: 'centre',  tryRate: 0.45 },
@@ -33,7 +33,7 @@ const NRL_TEAM_DATA = {
     ],
   },
   'Cronulla Sutherland Sharks': {
-    emoji: '🦈', shortName: 'Sharks',
+    emoji: '🦈', shortName: 'Sharks', venue: 'PointsBet Stadium',
     players: [
       { name: 'Ronaldo Mulitalo',  pos: 'wing',    tryRate: 0.58 },
       { name: 'Siosifa Talakai',   pos: 'centre',  tryRate: 0.50 },
@@ -43,7 +43,7 @@ const NRL_TEAM_DATA = {
     ],
   },
   'Dolphins': {
-    emoji: '🐬', shortName: 'Dolphins',
+    emoji: '🐬', shortName: 'Dolphins', venue: 'Suncorp Stadium',
     players: [
       { name: 'Hamiso Tabuai-Fidow', pos: 'fullback', tryRate: 0.65 },
       { name: 'Jamayne Isaako',      pos: 'wing',     tryRate: 0.50 },
@@ -53,7 +53,7 @@ const NRL_TEAM_DATA = {
     ],
   },
   'Gold Coast Titans': {
-    emoji: '🌊', shortName: 'Titans',
+    emoji: '🌊', shortName: 'Titans', venue: 'Cbus Super Stadium',
     players: [
       { name: 'AJ Brimson',              pos: 'fullback', tryRate: 0.42 },
       { name: 'Alofiana Khan-Pereira',   pos: 'wing',     tryRate: 0.50 },
@@ -63,7 +63,7 @@ const NRL_TEAM_DATA = {
     ],
   },
   'Manly Warringah Sea Eagles': {
-    emoji: '🦅', shortName: 'Sea Eagles',
+    emoji: '🦅', shortName: 'Sea Eagles', venue: '4 Pines Park',
     players: [
       { name: 'Jason Saab',          pos: 'wing',     tryRate: 0.62 },
       { name: 'Tom Trbojevic',       pos: 'fullback', tryRate: 0.55 },
@@ -73,7 +73,7 @@ const NRL_TEAM_DATA = {
     ],
   },
   'Melbourne Storm': {
-    emoji: '⛈️', shortName: 'Storm',
+    emoji: '⛈️', shortName: 'Storm', venue: 'AAMI Park',
     players: [
       { name: 'Xavier Coates',   pos: 'wing',       tryRate: 0.68 },
       { name: 'Will Warbrick',   pos: 'wing',       tryRate: 0.55 },
@@ -83,7 +83,7 @@ const NRL_TEAM_DATA = {
     ],
   },
   'Newcastle Knights': {
-    emoji: '⚔️', shortName: 'Knights',
+    emoji: '⚔️', shortName: 'Knights', venue: 'McDonald Jones Stadium',
     players: [
       { name: 'Dominic Young',    pos: 'wing',    tryRate: 0.58 },
       { name: 'Greg Marzhew',     pos: 'wing',    tryRate: 0.52 },
@@ -93,7 +93,7 @@ const NRL_TEAM_DATA = {
     ],
   },
   'New Zealand Warriors': {
-    emoji: '⚔️', shortName: 'Warriors',
+    emoji: '⚔️', shortName: 'Warriors', venue: 'Go Media Stadium',
     players: [
       { name: 'Dallin Watene-Zelezniak', pos: 'wing',    tryRate: 0.55 },
       { name: 'Marcelo Montoya',         pos: 'wing',    tryRate: 0.50 },
@@ -103,7 +103,7 @@ const NRL_TEAM_DATA = {
     ],
   },
   'North Queensland Cowboys': {
-    emoji: '🤠', shortName: 'Cowboys',
+    emoji: '🤠', shortName: 'Cowboys', venue: 'Qld Country Bank Stadium',
     players: [
       { name: 'Murray Taulagi',   pos: 'wing',     tryRate: 0.58 },
       { name: 'Kyle Feldt',       pos: 'wing',     tryRate: 0.52 },
@@ -113,7 +113,7 @@ const NRL_TEAM_DATA = {
     ],
   },
   'Parramatta Eels': {
-    emoji: '🐟', shortName: 'Eels',
+    emoji: '🐟', shortName: 'Eels', venue: 'CommBank Stadium',
     players: [
       { name: 'Maika Sivo',       pos: 'wing',     tryRate: 0.62 },
       { name: 'Haze Dunster',     pos: 'wing',     tryRate: 0.45 },
@@ -123,7 +123,7 @@ const NRL_TEAM_DATA = {
     ],
   },
   'Penrith Panthers': {
-    emoji: '🐾', shortName: 'Panthers',
+    emoji: '🐾', shortName: 'Panthers', venue: 'BlueBet Stadium',
     players: [
       { name: "Brian To'o",      pos: 'wing',     tryRate: 0.72 },
       { name: 'Sunia Turuva',    pos: 'wing',     tryRate: 0.55 },
@@ -133,7 +133,7 @@ const NRL_TEAM_DATA = {
     ],
   },
   'South Sydney Rabbitohs': {
-    emoji: '🐰', shortName: 'Rabbitohs',
+    emoji: '🐰', shortName: 'Rabbitohs', venue: 'Accor Stadium',
     players: [
       { name: 'Alex Johnston',    pos: 'wing',     tryRate: 0.72 },
       { name: 'Latrell Mitchell', pos: 'fullback', tryRate: 0.55 },
@@ -143,7 +143,7 @@ const NRL_TEAM_DATA = {
     ],
   },
   'St George Illawarra Dragons': {
-    emoji: '🐉', shortName: 'Dragons',
+    emoji: '🐉', shortName: 'Dragons', venue: 'Netstrata Jubilee Oval',
     players: [
       { name: 'Zac Lomax',          pos: 'wing',     tryRate: 0.55 },
       { name: 'Mikaele Ravalawa',   pos: 'wing',     tryRate: 0.55 },
@@ -153,7 +153,7 @@ const NRL_TEAM_DATA = {
     ],
   },
   'Sydney Roosters': {
-    emoji: '🐓', shortName: 'Roosters',
+    emoji: '🐓', shortName: 'Roosters', venue: 'Allianz Stadium',
     players: [
       { name: 'Daniel Tupou',              pos: 'wing',     tryRate: 0.62 },
       { name: 'Mark Nawaqanitawase',       pos: 'wing',     tryRate: 0.55 },
@@ -163,7 +163,7 @@ const NRL_TEAM_DATA = {
     ],
   },
   'Wests Tigers': {
-    emoji: '🐯', shortName: 'Tigers',
+    emoji: '🐯', shortName: 'Tigers', venue: 'Campbelltown Stadium',
     players: [
       { name: "Starford To'a",    pos: 'wing',     tryRate: 0.52 },
       { name: 'David Nofoaluma', pos: 'wing',     tryRate: 0.55 },
