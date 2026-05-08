@@ -1,3 +1,30 @@
+/* ── Team Logo Cache ── */
+const TEAM_LOGOS = {}; // teamName → image URL
+
+async function loadTeamLogos() {
+  const teams = Object.entries(NRL_TEAM_DATA).filter(([, v]) => v.wikiPage);
+  await Promise.allSettled(teams.map(async ([name, data]) => {
+    try {
+      const res = await fetch(
+        `https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(data.wikiPage)}`,
+        { headers: { Accept: 'application/json' } }
+      );
+      if (!res.ok) return;
+      const json = await res.json();
+      if (json.thumbnail?.source) TEAM_LOGOS[name] = json.thumbnail.source;
+    } catch (_) {}
+  }));
+}
+
+function teamLogoHtml(name, size = 52) {
+  const src = TEAM_LOGOS[name];
+  const emoji = NRL_TEAM_DATA[name]?.emoji ?? '🏉';
+  if (src) {
+    return `<img class="team-logo" src="${src}" alt="${name}" width="${size}" height="${size}" style="object-fit:contain">`;
+  }
+  return `<span class="team-emoji">${emoji}</span>`;
+}
+
 /* ── Bet Type Card Grid ── */
 let activeTab = null;
 
@@ -114,13 +141,13 @@ function renderGames(filter) {
       <div class="game-teams">
         <div class="team-matchup">
           <div class="team-info">
-            <div class="team-emoji">${game.homeTeam.emoji}</div>
+            <div class="team-logo-wrap">${teamLogoHtml(game.homeTeam.name)}</div>
             <div class="team-name">${game.homeTeam.name}</div>
             <div class="team-record">${game.homeTeam.record}</div>
           </div>
           <div class="match-vs">VS</div>
           <div class="team-info">
-            <div class="team-emoji">${game.awayTeam.emoji}</div>
+            <div class="team-logo-wrap">${teamLogoHtml(game.awayTeam.name)}</div>
             <div class="team-name">${game.awayTeam.name}</div>
             <div class="team-record">${game.awayTeam.record}</div>
           </div>
@@ -182,36 +209,9 @@ function renderGames(filter) {
           </div>` : ''}
         </div>
       </div>
-      <button class="game-analysis-toggle" onclick="toggleAnalysis(${game.id})">
-        📊 Show Analysis ▾
-      </button>
-      <div class="game-analysis-panel" id="analysis-${game.id}">
-        <div class="analysis-row">
-          <span>Favourite</span>
-          <strong>${a.favourite} (${a.confidenceLevel} confidence)</strong>
-        </div>
-        <div class="analysis-row">
-          <span>${game.homeTeam.name} last 5</span>
-          <strong>${a.homeFormLast5}</strong>
-        </div>
-        <div class="analysis-row">
-          <span>${game.awayTeam.name} last 5</span>
-          <strong>${a.awayFormLast5}</strong>
-        </div>
-        <div class="analysis-row">
-          <span>Weather</span>
-          <strong>${a.weatherForecast}</strong>
-        </div>
-        <div class="analysis-row">
-          <span>Margins</span>
-          <strong>${a.avgMargin}</strong>
-        </div>
-        <div class="analysis-row">
-          <span>Key Factor</span>
-          <strong style="text-align:right;max-width:60%">${a.keyFactor}</strong>
-        </div>
-        <div class="analysis-rec">💡 ${a.recommendation}</div>
-      </div>
+      <a class="game-analysis-toggle" href="analysis.html?id=${game.id}" target="_blank">
+        📊 Full Match Analysis ↗
+      </a>
     </div>`;
   }).join('');
 }
@@ -242,14 +242,6 @@ function handleOddClick(btn) {
   updateMultiBuilder();
 }
 
-function toggleAnalysis(gameId) {
-  const panel = document.getElementById('analysis-' + gameId);
-  const btn = panel.previousElementSibling;
-  panel.classList.toggle('open');
-  btn.textContent = panel.classList.contains('open')
-    ? '📊 Hide Analysis ▴'
-    : '📊 Show Analysis ▾';
-}
 
 /* ── Odds Filter ── */
 document.querySelectorAll('.filter-btn').forEach(btn => {
@@ -358,18 +350,67 @@ async function loadLiveOdds() {
   }
 }
 
-/* ── Player Strip — seamless marquee loop ── */
-(function initPlayerStrip() {
+/* ── Player Photos — fetch from Wikipedia API ── */
+async function loadPlayerPhotos() {
   const strip = document.querySelector('.players-strip');
   if (!strip) return;
-  // Clone all children and append so strip is 2× wide for infinite scroll
+
+  const cards = strip.querySelectorAll('.player-card[data-wiki]');
+  const fetches = Array.from(cards).map(async card => {
+    const wiki = card.dataset.wiki;
+    try {
+      const res = await fetch(
+        `https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(wiki)}`,
+        { headers: { 'Accept': 'application/json' } }
+      );
+      if (!res.ok) return;
+      const data = await res.json();
+      const url = data.thumbnail?.source;
+      if (!url) return;
+      const img  = card.querySelector('.player-avatar img');
+      const init = card.querySelector('.avatar-init');
+      if (img && init) {
+        img.src = url;
+        img.style.display = 'block';
+        init.style.display = 'none';
+      }
+    } catch (_) { /* keep initials */ }
+  });
+
+  await Promise.allSettled(fetches);
+}
+
+/* ── Player Strip — seamless marquee loop ── */
+function initPlayerStrip() {
+  const strip = document.querySelector('.players-strip');
+  if (!strip) return;
   const origCards = Array.from(strip.children);
   origCards.forEach(card => strip.appendChild(card.cloneNode(true)));
-})();
+}
+
+/* ── Player strip team logo badges ── */
+function applyStripTeamLogos() {
+  document.querySelectorAll('.player-card[data-team]').forEach(card => {
+    const teamName = card.dataset.team;
+    const logo = TEAM_LOGOS[teamName];
+    const span = card.querySelector('.player-team');
+    if (logo && span) {
+      const shortName = span.textContent.replace(/^\S+\s/, ''); // strip emoji
+      span.innerHTML = `<img src="${logo}" alt="${teamName}" class="team-logo-xs"> ${shortName}`;
+    }
+  });
+}
 
 /* ── Init ── */
-renderGames('all');
 renderScenarios();
 updateCalc();
 updateMultiBuilder();
-loadLiveOdds();
+
+// Load team logos first → re-render games with real logos → then load live odds
+loadTeamLogos().then(() => {
+  renderGames('all');
+  loadLiveOdds();
+  applyStripTeamLogos();
+  // Load player photos then clone strip for seamless marquee
+  loadPlayerPhotos().finally(initPlayerStrip);
+});

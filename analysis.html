@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Match Analysis — NRL Betting Guide</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Barlow+Condensed:wght@600;700;800&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --green: #00a651; --green-dark: #007a3c;
+      --dark: #0d1117; --dark-2: #161b22; --dark-3: #21262d;
+      --border: rgba(255,255,255,0.08);
+      --text: #e6edf3; --text-2: #8b949e;
+      --radius: 12px; --radius-sm: 8px;
+      --font: 'Inter', system-ui, sans-serif;
+      --font-heading: 'Barlow Condensed', system-ui, sans-serif;
+    }
+    html { scroll-behavior: smooth; }
+    body { font-family: var(--font); background: var(--dark); color: var(--text); line-height: 1.6; font-size: 15px; }
+    a { color: var(--green); text-decoration: none; }
+    .container { max-width: 1000px; margin: 0 auto; padding: 0 24px; }
+
+    /* ── Nav ── */
+    .nav { background: rgba(13,17,23,0.97); border-bottom: 1px solid var(--border); padding: 16px 0; position: sticky; top: 0; z-index: 50; backdrop-filter: blur(12px); }
+    .nav__inner { display: flex; align-items: center; gap: 16px; }
+    .nav__logo { display: flex; align-items: center; gap: 8px; font-weight: 700; font-size: 1.05rem; color: #fff; }
+    .nav__logo span { color: var(--green); }
+    .nav__back { margin-left: auto; background: rgba(255,255,255,0.07); border: 1px solid var(--border); color: var(--text-2); padding: 7px 16px; border-radius: var(--radius-sm); font-size: 0.85rem; font-weight: 500; cursor: pointer; transition: all 0.2s; }
+    .nav__back:hover { background: rgba(255,255,255,0.12); color: #fff; }
+
+    /* ── Hero ── */
+    .hero { background: var(--dark-2); border-bottom: 1px solid var(--border); padding: 40px 0 32px; }
+    .match-header { display: flex; align-items: center; justify-content: center; gap: 32px; margin-bottom: 24px; }
+    .match-team { display: flex; flex-direction: column; align-items: center; gap: 12px; flex: 1; max-width: 200px; }
+    .match-logo { width: 90px; height: 90px; object-fit: contain; }
+    .match-logo-placeholder { width: 90px; height: 90px; font-size: 3.5rem; display: flex; align-items: center; justify-content: center; }
+    .match-team-name { font-family: var(--font-heading); font-size: 1.3rem; font-weight: 800; text-align: center; color: #fff; }
+    .match-vs-col { display: flex; flex-direction: column; align-items: center; gap: 8px; }
+    .match-vs { font-family: var(--font-heading); font-size: 2rem; font-weight: 800; color: var(--text-2); }
+    .match-badge { font-size: 0.72rem; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; padding: 4px 12px; border-radius: 100px; }
+    .badge-upcoming { background: rgba(255,255,255,0.07); color: var(--text-2); }
+    .badge-live { background: rgba(220,50,50,0.2); color: #f85149; animation: pulse 2s infinite; }
+    @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.6} }
+    .match-meta { text-align: center; color: var(--text-2); font-size: 0.85rem; }
+    .match-meta strong { color: var(--text); }
+
+    /* ── Grid Layout ── */
+    .page-grid { display: grid; grid-template-columns: 2fr 1fr; gap: 20px; padding: 28px 0; }
+    .section-title { font-family: var(--font-heading); font-size: 1.25rem; font-weight: 800; color: #fff; margin-bottom: 16px; display: flex; align-items: center; gap: 8px; }
+
+    /* ── Cards ── */
+    .card { background: var(--dark-2); border: 1px solid var(--border); border-radius: var(--radius); padding: 20px; margin-bottom: 16px; }
+    .card-label { font-size: 0.72rem; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; color: var(--green); margin-bottom: 14px; }
+
+    /* ── Probability Bars ── */
+    .prob-matchup { margin-bottom: 20px; }
+    .prob-matchup-label { font-size: 0.8rem; color: var(--text-2); margin-bottom: 8px; }
+    .prob-bar-row { display: flex; align-items: center; gap: 10px; }
+    .prob-bar-wrap { flex: 1; background: rgba(255,255,255,0.06); border-radius: 100px; height: 10px; overflow: hidden; }
+    .prob-bar { height: 100%; border-radius: 100px; background: var(--green); transition: width 0.6s ease; }
+    .prob-bar.away { background: #58a6ff; }
+    .prob-val { font-size: 0.82rem; font-weight: 700; width: 40px; text-align: right; }
+    .prob-team { font-size: 0.78rem; color: var(--text-2); width: 90px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .prob-team.right { text-align: right; }
+
+    /* ── Odds Table ── */
+    .odds-table { width: 100%; border-collapse: collapse; }
+    .odds-table th { font-size: 0.72rem; font-weight: 600; color: var(--text-2); text-transform: uppercase; letter-spacing: 0.8px; padding: 6px 10px; border-bottom: 1px solid var(--border); text-align: left; }
+    .odds-table td { padding: 10px; border-bottom: 1px solid rgba(255,255,255,0.04); font-size: 0.88rem; }
+    .odds-table tr:last-child td { border-bottom: none; }
+    .odds-table .odd-val { font-weight: 700; color: var(--green); font-family: var(--font-heading); font-size: 1.05rem; }
+    .odds-table .impl { font-size: 0.76rem; color: var(--text-2); }
+    .odds-badge { display: inline-block; font-size: 0.65rem; font-weight: 700; padding: 2px 7px; border-radius: 4px; text-transform: uppercase; vertical-align: middle; margin-left: 6px; }
+    .badge-fav { background: rgba(0,166,81,0.2); color: var(--green); }
+    .badge-dog { background: rgba(88,166,255,0.15); color: #58a6ff; }
+
+    /* ── Form Guide ── */
+    .form-row { display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px; }
+    .form-team-name { font-size: 0.85rem; font-weight: 600; color: var(--text); width: 110px; }
+    .form-badges { display: flex; gap: 5px; }
+    .form-badge { width: 28px; height: 28px; border-radius: 6px; display: flex; align-items: center; justify-content: center; font-size: 0.72rem; font-weight: 800; }
+    .form-w { background: rgba(0,166,81,0.2); color: var(--green); }
+    .form-l { background: rgba(248,81,73,0.2); color: #f85149; }
+    .form-d { background: rgba(255,255,255,0.08); color: var(--text-2); }
+
+    /* ── Key Facts ── */
+    .fact-row { display: flex; justify-content: space-between; align-items: flex-start; padding: 10px 0; border-bottom: 1px solid rgba(255,255,255,0.05); gap: 12px; }
+    .fact-row:last-child { border-bottom: none; }
+    .fact-label { font-size: 0.82rem; color: var(--text-2); flex-shrink: 0; }
+    .fact-val { font-size: 0.85rem; font-weight: 600; color: var(--text); text-align: right; }
+
+    /* ── Recommendation Box ── */
+    .rec-box { background: rgba(0,166,81,0.1); border: 1px solid rgba(0,166,81,0.25); border-radius: var(--radius-sm); padding: 14px 16px; margin-top: 14px; }
+    .rec-box .rec-title { font-size: 0.72rem; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; color: var(--green); margin-bottom: 6px; }
+    .rec-box p { font-size: 0.88rem; color: var(--text); line-height: 1.5; }
+
+    /* ── Player Picks ── */
+    .player-picks-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+    .player-pick-card { background: var(--dark-3); border: 1px solid var(--border); border-radius: var(--radius-sm); padding: 14px; }
+    .player-pick-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; }
+    .player-pick-team { font-size: 0.72rem; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; color: var(--text-2); }
+    .player-pick-item { display: flex; justify-content: space-between; align-items: center; padding: 7px 0; border-bottom: 1px solid rgba(255,255,255,0.04); }
+    .player-pick-item:last-child { border-bottom: none; }
+    .player-pick-name { font-size: 0.85rem; font-weight: 600; }
+    .player-pick-pos { font-size: 0.72rem; color: var(--text-2); margin-top: 1px; }
+    .player-odds { display: flex; flex-direction: column; align-items: flex-end; gap: 2px; }
+    .player-odds .fts { font-size: 0.72rem; color: var(--text-2); }
+    .player-odds .anytime { font-family: var(--font-heading); font-size: 1rem; font-weight: 700; color: var(--green); }
+
+    /* ── Markets Table ── */
+    .markets-section { grid-column: 1 / -1; }
+    .markets-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+    .market-card { background: var(--dark-2); border: 1px solid var(--border); border-radius: var(--radius-sm); padding: 14px; }
+    .market-name { font-size: 0.82rem; font-weight: 600; margin-bottom: 8px; color: var(--text); }
+    .market-odds-row { display: flex; justify-content: space-between; align-items: center; }
+    .market-pick { font-size: 0.75rem; color: var(--text-2); }
+    .market-odd { font-family: var(--font-heading); font-size: 1.1rem; font-weight: 700; color: var(--green); }
+    .market-risk { font-size: 0.62rem; font-weight: 700; padding: 2px 6px; border-radius: 4px; text-transform: uppercase; }
+    .risk-low { background: rgba(0,166,81,0.15); color: var(--green); }
+    .risk-med { background: rgba(255,165,0,0.15); color: #ffa500; }
+    .risk-high { background: rgba(248,81,73,0.15); color: #f85149; }
+
+    /* ── Best Bets ── */
+    .best-bets { display: flex; flex-direction: column; gap: 10px; }
+    .best-bet-item { background: var(--dark-3); border-left: 3px solid var(--green); border-radius: 0 var(--radius-sm) var(--radius-sm) 0; padding: 12px 14px; }
+    .best-bet-item.medium { border-color: #ffa500; }
+    .best-bet-item.high { border-color: #f85149; }
+    .best-bet-type { font-size: 0.7rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: var(--text-2); margin-bottom: 3px; }
+    .best-bet-pick { font-size: 0.92rem; font-weight: 700; color: #fff; }
+    .best-bet-odd { font-family: var(--font-heading); font-size: 1.05rem; color: var(--green); font-weight: 700; margin-top: 2px; }
+    .best-bet-item.medium .best-bet-odd { color: #ffa500; }
+    .best-bet-item.high .best-bet-odd { color: #f85149; }
+    .best-bet-rationale { font-size: 0.78rem; color: var(--text-2); margin-top: 4px; line-height: 1.4; }
+
+    /* ── Injury Report ── */
+    .injury-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+    .injury-team-col { }
+    .injury-team-label { font-size: 0.72rem; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; color: var(--text-2); margin-bottom: 10px; display: flex; align-items: center; gap: 6px; }
+    .injury-item { display: flex; align-items: flex-start; gap: 10px; padding: 10px 0; border-bottom: 1px solid rgba(255,255,255,0.05); }
+    .injury-item:last-child { border-bottom: none; }
+    .injury-status-badge { font-size: 0.63rem; font-weight: 800; letter-spacing: 0.8px; text-transform: uppercase; padding: 3px 7px; border-radius: 4px; white-space: nowrap; flex-shrink: 0; margin-top: 1px; }
+    .status-out { background: rgba(248,81,73,0.2); color: #f85149; }
+    .status-doubtful { background: rgba(255,165,0,0.2); color: #ffa500; }
+    .status-gtd { background: rgba(255,220,50,0.15); color: #f0c040; }
+    .injury-info { flex: 1; }
+    .injury-name { font-size: 0.88rem; font-weight: 600; color: var(--text); }
+    .injury-detail { font-size: 0.76rem; color: var(--text-2); margin-top: 2px; }
+    .injury-note { font-size: 0.73rem; color: var(--text-2); font-style: italic; margin-top: 2px; opacity: 0.8; }
+    .no-injuries { font-size: 0.82rem; color: var(--green); padding: 8px 0; }
+
+    /* ── Commentary ── */
+    .commentary-section { grid-column: 1 / -1; margin-bottom: 4px; }
+    .commentary-body { display: flex; flex-direction: column; gap: 0; }
+    .commentary-para { padding: 16px 0; border-bottom: 1px solid rgba(255,255,255,0.06); font-size: 0.9rem; color: var(--text); line-height: 1.75; }
+    .commentary-para:last-child { border-bottom: none; }
+    .commentary-para strong { color: #fff; }
+    .commentary-para em { color: var(--green); font-style: normal; font-weight: 600; }
+    .commentary-label { font-size: 0.68rem; font-weight: 800; letter-spacing: 1.2px; text-transform: uppercase; color: var(--green); margin-bottom: 6px; }
+
+    /* ── Footer ── */
+    .footer { border-top: 1px solid var(--border); padding: 24px 0; text-align: center; color: var(--text-2); font-size: 0.78rem; }
+    .footer a { color: var(--green); }
+
+    /* ── Loading ── */
+    .loading { text-align: center; padding: 80px 20px; color: var(--text-2); }
+    .loading-spinner { width: 40px; height: 40px; border: 3px solid var(--border); border-top-color: var(--green); border-radius: 50%; animation: spin 0.8s linear infinite; margin: 0 auto 16px; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* ── Responsive ── */
+    @media (max-width: 700px) {
+      .page-grid { grid-template-columns: 1fr; }
+      .player-picks-grid { grid-template-columns: 1fr; }
+      .markets-grid { grid-template-columns: 1fr 1fr; }
+      .injury-grid { grid-template-columns: 1fr; gap: 0; }
+      .match-header { gap: 16px; }
+      .match-logo { width: 64px; height: 64px; }
+    }
+    @media (max-width: 480px) {
+      .markets-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="nav">
+    <div class="container nav__inner">
+      <div class="nav__logo">🏉 NRL<span>Betting</span>Guide</div>
+      <button class="nav__back" onclick="window.close()">← Back to Guide</button>
+    </div>
+  </nav>
+
+  <div id="app">
+    <div class="loading">
+      <div class="loading-spinner"></div>
+      <p>Loading match analysis…</p>
+    </div>
+  </div>
+
+  <script src="src/teamData.js?v=9"></script>
+  <script src="src/oddsEngine.js?v=9"></script>
+  <script>
+  (async function() {
+    // ── Helpers ──────────────────────────────────────────────────────────────
+    const params = new URLSearchParams(location.search);
+    const gameId = parseInt(params.get('id') || '1', 10);
+
+    function impl(odd) { return (100 / odd).toFixed(1) + '%'; }
+    function toOddsStr(odd) { return '$' + Number(odd).toFixed(2); }
+
+    // ── Load game data from live-odds.json ───────────────────────────────────
+    let game = null;
+    try {
+      const res = await fetch(`src/live-odds.json?v=${Date.now()}`);
+      const data = await res.json();
+      const raw = data.games[gameId - 1];
+      if (raw) game = buildGameEntry(raw, gameId);
+    } catch(e) {}
+
+    if (!game) {
+      document.getElementById('app').innerHTML =
+        '<div class="loading"><p>Match data unavailable. <a href="index.html">← Return to guide</a></p></div>';
+      return;
+    }
+
+    const a = game.analysis;
+
+    // ── Team logos from Wikipedia ────────────────────────────────────────────
+    const LOGOS = {};
+    await Promise.allSettled(
+      Object.entries(NRL_TEAM_DATA)
+        .filter(([,v]) => v.wikiPage)
+        .map(async ([name, data]) => {
+          try {
+            const r = await fetch(`https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(data.wikiPage)}`, {headers:{Accept:'application/json'}});
+            const j = await r.json();
+            if (j.thumbnail?.source) LOGOS[name] = j.thumbnail.source;
+          } catch(_){}
+        })
+    );
+
+    function logoImg(name, size=90) {
+      const src = LOGOS[name];
+      const emoji = NRL_TEAM_DATA[name]?.emoji ?? '🏉';
+      if (src) return `<img class="match-logo" src="${src}" alt="${name}" width="${size}" height="${size}">`;
+      return `<div class="match-logo-placeholder" style="font-size:${size*0.4}px">${emoji}</div>`;
+    }
+
+    // ── Player data ──────────────────────────────────────────────────────────
+    function topPlayers(teamName, n=4) {
+      return (NRL_TEAM_DATA[teamName]?.players || [])
+        .slice().sort((a,b) => b.tryRate - a.tryRate).slice(0, n);
+    }
+
+    function ftsOdd(player) {
+      // First try scorer: anytime rate × ~0.45 share, with vig
+      const p = player.tryRate * 0.42;
+      return Math.max(3.0, +(1.06 / p).toFixed(2));
+    }
+    function anytimeOdd(player) {
+      const p = Math.min(0.92, player.tryRate);
+      return Math.max(1.3, +(1.06 / p).toFixed(2));
+    }
+
+    // ── Form parsing ─────────────────────────────────────────────────────────
+    function formBadges(formStr) {
+      // Accepts "W W L W D" or "3W 2L" style
+      let results = [];
+      if (formStr.includes(' ') && !formStr.match(/\d/)) {
+        results = formStr.trim().split(/\s+/).slice(0, 5);
+      } else {
+        // Parse "3W 1D 1L"
+        const matches = [...formStr.matchAll(/(\d+)([WLD])/gi)];
+        for (const m of matches) for (let i=0;i<parseInt(m[1]);i++) results.push(m[2].toUpperCase());
+        results = results.slice(0, 5);
+      }
+      if (!results.length) results = ['W','W','L','W','L'];
+      return results.map(r => {
+        const cls = r==='W'?'form-w':r==='L'?'form-l':'form-d';
+        return `<div class="form-badge ${cls}">${r}</div>`;
+      }).join('');
+    }
+
+    // ── Derived markets ──────────────────────────────────────────────────────
+    const hProb = 1 / game.h2h.home;
+    const aProb = 1 / game.h2h.away;
+    const normH = hProb / (hProb + aProb);
+
+    const totalExp = game.ou.over.label ? parseFloat(game.ou.over.label) : 42;
+    const lineVal  = game.line.home.label ? parseFloat(game.line.home.label) : 0;
+
+    const markets = [
+      { name: 'Head to Head', pick: game.homeTeam.name, odd: game.h2h.home, risk: 'low' },
+      { name: 'Head to Head', pick: game.awayTeam.name, odd: game.h2h.away, risk: 'low' },
+      { name: 'Line Bet (Home)', pick: `${game.homeTeam.name} ${game.line.home.label}`, odd: game.line.home.odd, risk: 'low' },
+      { name: 'Line Bet (Away)', pick: `${game.awayTeam.name} ${game.line.away.label}`, odd: game.line.away.odd, risk: 'low' },
+      { name: 'Over / Under', pick: `Over ${game.ou.over.label}`, odd: game.ou.over.odd, risk: 'low' },
+      { name: 'Over / Under', pick: `Under ${game.ou.under.label}`, odd: game.ou.under.odd, risk: 'low' },
+      { name: 'Win by 1–12 pts', pick: a.favourite, odd: +(2.8 - normH*0.6).toFixed(2), risk: 'med' },
+      { name: 'Win by 13+ pts', pick: a.favourite, odd: +(3.8 - normH*0.5).toFixed(2), risk: 'high' },
+      { name: 'Half-Time/Full-Time', pick: `${a.favourite} / ${a.favourite}`, odd: +(2.3 + (1-normH)*1.2).toFixed(2), risk: 'med' },
+      { name: 'First Try Scoring Team', pick: a.favourite, odd: +(1.85 - normH*0.2).toFixed(2), risk: 'low' },
+      { name: 'Both Teams to Score', pick: 'Yes', odd: 1.28, risk: 'low' },
+      { name: 'Total Tries Over', pick: `Over ${Math.round(totalExp/6.0 + 0.5) - 1}.5`, odd: 1.90, risk: 'low' },
+      { name: 'First Try Scorer', pick: topPlayers(a.favourite)[0]?.name ?? '—', odd: topPlayers(a.favourite)[0] ? ftsOdd(topPlayers(a.favourite)[0]) : 8, risk: 'high' },
+      { name: 'Anytime Try Scorer', pick: topPlayers(a.favourite)[0]?.name ?? '—', odd: topPlayers(a.favourite)[0] ? anytimeOdd(topPlayers(a.favourite)[0]) : 2, risk: 'med' },
+      { name: 'Last Try Scorer', pick: 'Any wing/fullback', odd: 7.00, risk: 'high' },
+      { name: '2+ Tries (Anytime)', pick: topPlayers(a.favourite)[0]?.name ?? '—', odd: topPlayers(a.favourite)[0] ? +(anytimeOdd(topPlayers(a.favourite)[0])*2.5).toFixed(2) : 5, risk: 'high' },
+      { name: 'Winning Margin 1–6', pick: a.favourite, odd: +(5.5 - normH).toFixed(2), risk: 'high' },
+      { name: 'Winning Margin 7–12', pick: a.favourite, odd: +(4.8 - normH*0.8).toFixed(2), risk: 'high' },
+      { name: 'Winning Margin 13–18', pick: a.favourite, odd: +(5.2 - normH*0.6).toFixed(2), risk: 'high' },
+      { name: 'Race to 10 Points', pick: a.favourite, odd: +(1.75 - normH*0.25).toFixed(2), risk: 'med' },
+      { name: 'H2H Most Tries', pick: `${topPlayers(a.favourite)[0]?.name} vs ${topPlayers(a.favourite === game.homeTeam.name ? game.awayTeam.name : game.homeTeam.name)[0]?.name}`, odd: 1.87, risk: 'med' },
+      { name: 'Team Total Over', pick: `${a.favourite} Over ${Math.round(totalExp/2*normH)}.5`, odd: 1.90, risk: 'med' },
+      { name: 'Scorecast', pick: `${topPlayers(a.favourite)[0]?.name ?? '—'} + ${a.favourite} Win`, odd: topPlayers(a.favourite)[0] ? +(ftsOdd(topPlayers(a.favourite)[0])*game.h2h[a.favourite===game.homeTeam.name?'home':'away']*0.75).toFixed(2) : 18, risk: 'high' },
+    ];
+
+    // ── Win probability for display ──────────────────────────────────────────
+    const homeWinPct = (normH * 100).toFixed(0);
+    const awayWinPct = (100 - normH * 100).toFixed(0);
+    const isFavHome = game.h2h.home <= game.h2h.away;
+
+    // ── Best value picks ─────────────────────────────────────────────────────
+    const homePlayers = topPlayers(game.homeTeam.name);
+    const awayPlayers = topPlayers(game.awayTeam.name);
+    const allPlayers  = [...homePlayers.map(p=>({...p,team:game.homeTeam.name})),
+                         ...awayPlayers.map(p=>({...p,team:game.awayTeam.name}))]
+                         .sort((a,b)=>b.tryRate-a.tryRate);
+
+    // ── Injury Report ────────────────────────────────────────────────────────
+    function injuryBadgeClass(status) {
+      if (!status) return 'status-gtd';
+      const s = status.toLowerCase();
+      if (s === 'out') return 'status-out';
+      if (s === 'doubtful') return 'status-doubtful';
+      return 'status-gtd';
+    }
+
+    function renderInjuries(teamName) {
+      const injuries = NRL_TEAM_DATA[teamName]?.injuries || [];
+      if (!injuries.length) {
+        return '<div class="no-injuries">✅ No significant injuries reported</div>';
+      }
+      return injuries.map(inj => `
+        <div class="injury-item">
+          <span class="injury-status-badge ${injuryBadgeClass(inj.status)}">${inj.status}</span>
+          <div class="injury-info">
+            <div class="injury-name">${inj.name}</div>
+            <div class="injury-detail">${inj.pos} — ${inj.injury}</div>
+            ${inj.note ? `<div class="injury-note">${inj.note}</div>` : ''}
+          </div>
+        </div>
+      `).join('');
+    }
+
+    // ── Match Commentary Generator ───────────────────────────────────────────
+    function generateMatchCommentary(game, a) {
+      const home = game.homeTeam.name;
+      const away = game.awayTeam.name;
+      const homeShort = home.split(' ').pop();
+      const awayShort = away.split(' ').pop();
+      const fav = a.favourite;
+      const dog = fav === home ? away : home;
+      const favShort = fav.split(' ').pop();
+      const dogShort = dog.split(' ').pop();
+      const favOdd = fav === home ? game.h2h.home : game.h2h.away;
+      const dogOdd = fav === home ? game.h2h.away : game.h2h.home;
+      const favPct = fav === home ? homeWinPct : awayWinPct;
+      const margin = parseFloat(a.avgMargin) || 10;
+      const lineLabel = fav === home ? game.line.home.label : game.line.away.label;
+      const lineOdd = fav === home ? game.line.home.odd : game.line.away.odd;
+      const confidence = (a.confidenceLevel || 'moderate').toLowerCase();
+      const weather = a.weatherForecast || 'Fine';
+      const isWet = /rain|wet|storm/i.test(weather);
+      const isClear = /clear|fine|sunny|dry/i.test(weather);
+      const topHome = homePlayers[0];
+      const topAway = awayPlayers[0];
+      const topFavPlayer = fav === home ? topHome : topAway;
+      const topDogPlayer = fav === home ? topAway : topHome;
+      const homeForm = a.homeFormLast5 || '';
+      const awayForm = a.awayFormLast5 || '';
+      const homeWins = (homeForm.match(/W/gi) || []).length;
+      const awayWins = (awayForm.match(/W/gi) || []).length;
+      const favWins = fav === home ? homeWins : awayWins;
+      const dogWins = fav === home ? awayWins : homeWins;
+      const homeInjuries = NRL_TEAM_DATA[home]?.injuries || [];
+      const awayInjuries = NRL_TEAM_DATA[away]?.injuries || [];
+      const homeOutCount = homeInjuries.filter(i => i.status === 'Out').length;
+      const awayOutCount = awayInjuries.filter(i => i.status === 'Out').length;
+      const favInjuries = fav === home ? homeInjuries : awayInjuries;
+      const dogInjuries = fav === home ? awayInjuries : homeInjuries;
+      const favOutCount = fav === home ? homeOutCount : awayOutCount;
+      const dogOutCount = fav === home ? awayOutCount : homeOutCount;
+
+      // ── Para 1: Match Preview ──────────────────────────────────────────────
+      const confidenceWord = confidence === 'high' ? 'a strong' : confidence === 'very high' ? 'a dominant' : 'a moderate';
+      const venueContext = game.venue ? `at <strong>${game.venue}</strong>` : 'this weekend';
+      let p1 = `<div class="commentary-label">📋 Match Preview</div>
+        <strong>${home}</strong> host <strong>${away}</strong> ${venueContext} in what shapes as ${confidenceWord} fixture for the ${favShort}.
+        The markets are telling a clear story — <em>${fav}</em> are priced at <strong>$${favOdd.toFixed(2)}</strong> (implying a ${favPct}% win probability),
+        while ${dogShort} come in as ${parseFloat(dogOdd) > 3 ? 'significant' : 'slight'} outsiders at <strong>$${dogOdd.toFixed(2)}</strong>.
+        ${margin > 12 ? `An average winning margin of <strong>${a.avgMargin}</strong> suggests ${favShort} are capable of pulling away if they find their rhythm early.`
+        : `With an average margin of just <strong>${a.avgMargin}</strong>, don't be surprised if ${dogShort} keep this one closer than the odds suggest.`}`;
+      if (isWet) p1 += ` The forecast of <strong>${weather}</strong> will be a major factor — wet conditions typically tighten scorelines and reduce try-scoring, which could benefit the underdog.`;
+      else if (isClear) p1 += ` Ideal conditions are forecast (<strong>${weather}</strong>), which should open up the game and favour the team with the more dangerous attacking options.`;
+
+      // ── Para 2: Form Analysis ──────────────────────────────────────────────
+      let p2 = `<div class="commentary-label">📈 Form Analysis</div>`;
+      const formPhrase = (wins, team) => {
+        if (wins >= 4) return `<strong>${team}</strong> arrive in red-hot form, winning <strong>${wins} of their last 5</strong>`;
+        if (wins === 3) return `<strong>${team}</strong> have been solid, taking <strong>3 from 5</strong>`;
+        if (wins === 2) return `<strong>${team}</strong> have been inconsistent, managing just <strong>2 from 5</strong>`;
+        return `<strong>${team}</strong> are in poor form, winning just <strong>${wins} of their last 5</strong>`;
+      };
+      p2 += `${formPhrase(homeWins, homeShort)} and ${formPhrase(awayWins, awayShort).replace(/^<strong>/, '').replace(/<\/strong>/, '')} recent outings.
+        ${favWins >= 4 ? `${favShort}'s form going into this one is difficult to argue with — they've found a consistency that makes them a reliable option in head-to-head markets.`
+        : favWins === 3 ? `${favShort} have shown enough in recent weeks to justify favouritism, though they'll want to sharpen up from some patchy performances.`
+        : `Despite being the market favourite, ${favShort} have had a mixed run of late. Punters should note this inconsistency before backing them at short odds.`}
+        ${dogWins >= 3 ? ` ${dogShort} may be underestimated here — their recent form suggests they're more competitive than the odds imply, making the line bet or even an upset a genuine consideration.` : ''}`;
+
+      // ── Para 3: Key Matchup & Players ─────────────────────────────────────
+      let p3 = `<div class="commentary-label">⚡ Key Matchup</div>`;
+      p3 += `The battle to watch is ${topFavPlayer ? `<strong>${topFavPlayer.name}</strong> (${topFavPlayer.pos}, ${favShort})` : `${favShort}'s attacking line`}
+        against ${topDogPlayer ? `<strong>${topDogPlayer.name}</strong> (${topDogPlayer.pos}, ${dogShort})` : `${dogShort}'s defence`}.
+        ${topFavPlayer ? `${topFavPlayer.name} carries a <strong>${Math.round(topFavPlayer.tryRate * 100)}%</strong> try-scoring rate this season and is the biggest threat to the line — back them as an anytime try scorer at <em>$${anytimeOdd(topFavPlayer).toFixed(2)}</em>.` : ''}
+        ${topDogPlayer ? `Meanwhile, ${topDogPlayer.name} for ${dogShort} is one to watch if the game opens up — priced at <em>$${anytimeOdd(topDogPlayer).toFixed(2)}</em> anytime, they represent potential value if ${dogShort} stay in the contest.` : ''}`;
+      if (favOutCount > 0) {
+        const outNames = favInjuries.filter(i => i.status === 'Out').map(i => i.name).join(', ');
+        p3 += ` <strong>Important:</strong> ${favShort} are missing <strong>${outNames}</strong> through injury, which may soften their attacking potency and is worth factoring into any multi-leg bets.`;
+      }
+      if (dogOutCount > 0) {
+        const outNames = dogInjuries.filter(i => i.status === 'Out').map(i => i.name).join(', ');
+        p3 += ` ${dogShort} are also impacted by the absence of <strong>${outNames}</strong>, potentially limiting their ability to sustain pressure.`;
+      }
+
+      // ── Para 4: Betting Strategy ──────────────────────────────────────────
+      let p4 = `<div class="commentary-label">💰 Betting Strategy</div>`;
+      const lineVal2 = lineLabel ? parseFloat(lineLabel) : 0;
+      if (confidence === 'high' || confidence === 'very high') {
+        p4 += `Given the <strong>${confidence} confidence</strong> rating and ${favShort}'s current odds of <strong>$${favOdd.toFixed(2)}</strong>,
+          the head-to-head is the cleanest entry point for conservative punters.
+          ${Math.abs(lineVal2) <= 10 ? `The line bet (<em>${favShort} ${lineLabel}</em> at <strong>$${lineOdd.toFixed(2)}</strong>) also offers solid value — the handicap is manageable given the expected margin.`
+          : `The line bet requires ${favShort} to cover <strong>${Math.abs(lineVal2)} points</strong>, which is aggressive given the implied margin. Stick to the straight H2H for lower risk.`}`;
+      } else {
+        p4 += `With a <strong>${confidence} confidence</strong> read on this match, the safer play is to lean toward smaller stakes or side markets rather than heavy investment on the head-to-head.
+          The line bet (<em>${favShort} ${lineLabel}</em> at <strong>$${lineOdd.toFixed(2)}</strong>) effectively hedges your position — you still need ${favShort} to win, but the spread gives extra cover in a close match.`;
+      }
+      if (isWet) p4 += ` In wet conditions, the Over/Under market shifts significantly — lean <strong>Under ${game.ou.under.label}</strong> as teams opt for kick-chase football over expansive attack.`;
+      else p4 += ` In ${isClear ? 'clear' : 'expected'} conditions, the <strong>Over ${game.ou.over.label}</strong> has a reasonable case — both squads have the attacking talent to push past the line in open play.`;
+
+      // ── Para 5: Risk Snapshot ─────────────────────────────────────────────
+      const totalInjuries = homeInjuries.length + awayInjuries.length;
+      let p5 = `<div class="commentary-label">🔍 Risk Snapshot</div>`;
+      p5 += `Overall risk profile for this game is <strong>${confidence === 'high' || confidence === 'very high' ? 'lower than average' : 'moderate'}</strong>.
+        ${totalInjuries > 4 ? `Both squads are carrying <strong>${totalInjuries} notable injuries</strong> between them — this increases volatility and is a factor against multi-leg accumulators.`
+        : totalInjuries > 0 ? `There are <strong>${totalInjuries} injury concerns</strong> across both teams worth monitoring before kickoff.`
+        : `Both squads appear relatively healthy heading into this fixture, which supports a more predictable scoreline.`}
+        The safest bet structure is <strong>${fav} to win + ${topFavPlayer?.name ?? 'top try threat'} anytime try scorer</strong> as a two-leg multi,
+        offering a combined return of roughly <em>$${(favOdd * anytimeOdd(topFavPlayer ?? allPlayers[0]) * 0.85).toFixed(2)}</em> for a modest stake.
+        Always set a budget before placing — odds are educational simulations and real betting outcomes vary.`;
+
+      return [p1, p2, p3, p4, p5].map(p => `<div class="commentary-para">${p}</div>`).join('');
+    }
+
+    // ── Render ───────────────────────────────────────────────────────────────
+    document.title = `${game.homeTeam.name} vs ${game.awayTeam.name} — Analysis`;
+
+    document.getElementById('app').innerHTML = `
+
+    <!-- MATCH HERO -->
+    <section class="hero">
+      <div class="container">
+        <div class="match-header">
+          <div class="match-team">
+            ${logoImg(game.homeTeam.name)}
+            <div class="match-team-name">${game.homeTeam.name}</div>
+            <div style="font-size:0.78rem;color:var(--text-2)">${game.homeTeam.record || ''}</div>
+          </div>
+          <div class="match-vs-col">
+            <div class="match-vs">VS</div>
+            <div class="match-badge ${game.isLive ? 'badge-live' : 'badge-upcoming'}">
+              ${game.isLive ? '● LIVE' : 'UPCOMING'}
+            </div>
+          </div>
+          <div class="match-team">
+            ${logoImg(game.awayTeam.name)}
+            <div class="match-team-name">${game.awayTeam.name}</div>
+            <div style="font-size:0.78rem;color:var(--text-2)">${game.awayTeam.record || ''}</div>
+          </div>
+        </div>
+        <div class="match-meta">
+          ⏰ <strong>${game.time}</strong> &nbsp;·&nbsp;
+          📍 <strong>${game.venue}</strong> &nbsp;·&nbsp;
+          ${game.broadcaster ?? '📺 Fox League'}
+        </div>
+      </div>
+    </section>
+
+    <!-- MAIN CONTENT -->
+    <div class="container">
+      <div class="page-grid">
+
+        <!-- FULL-WIDTH: MATCH COMMENTARY -->
+        <div class="commentary-section">
+          <div class="section-title">🎙️ Match Commentary</div>
+          <div class="card" style="padding: 8px 20px;">
+            <div class="commentary-body">
+              ${generateMatchCommentary(game, a)}
+            </div>
+          </div>
+        </div>
+
+        <!-- LEFT COLUMN -->
+        <div>
+
+          <!-- WIN PROBABILITY -->
+          <div class="card">
+            <div class="card-label">Win Probability (implied from odds)</div>
+            <div class="prob-matchup">
+              <div class="prob-bar-row" style="margin-bottom:10px">
+                <div class="prob-team">${game.homeTeam.name.split(' ').pop()}</div>
+                <div class="prob-bar-wrap"><div class="prob-bar" style="width:${homeWinPct}%"></div></div>
+                <div class="prob-val" style="color:var(--green)">${homeWinPct}%</div>
+              </div>
+              <div class="prob-bar-row">
+                <div class="prob-team">${game.awayTeam.name.split(' ').pop()}</div>
+                <div class="prob-bar-wrap"><div class="prob-bar away" style="width:${awayWinPct}%"></div></div>
+                <div class="prob-val" style="color:#58a6ff">${awayWinPct}%</div>
+              </div>
+            </div>
+            <table class="odds-table">
+              <thead><tr>
+                <th>Market</th>
+                <th>${game.homeTeam.name.split(' ').pop()}</th>
+                <th>${game.awayTeam.name.split(' ').pop()}</th>
+              </tr></thead>
+              <tbody>
+                <tr>
+                  <td>Head to Head</td>
+                  <td><span class="odd-val">${toOddsStr(game.h2h.home)}</span>
+                    ${isFavHome ? '<span class="odds-badge badge-fav">FAV</span>' : '<span class="odds-badge badge-dog">DOG</span>'}
+                    <div class="impl">${impl(game.h2h.home)} chance</div>
+                  </td>
+                  <td><span class="odd-val">${toOddsStr(game.h2h.away)}</span>
+                    ${!isFavHome ? '<span class="odds-badge badge-fav">FAV</span>' : '<span class="odds-badge badge-dog">DOG</span>'}
+                    <div class="impl">${impl(game.h2h.away)} chance</div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Line Bet</td>
+                  <td><span class="odd-val">${toOddsStr(game.line.home.odd)}</span>
+                    <div class="impl">${game.line.home.label}</div>
+                  </td>
+                  <td><span class="odd-val">${toOddsStr(game.line.away.odd)}</span>
+                    <div class="impl">${game.line.away.label}</div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Over / Under</td>
+                  <td colspan="2" style="text-align:center">
+                    <span class="odd-val">${toOddsStr(game.ou.over.odd)}</span>
+                    <span style="color:var(--text-2);margin:0 8px">Ovr ${game.ou.over.label}</span>
+                    <span class="odd-val">${toOddsStr(game.ou.under.odd)}</span>
+                    <span style="color:var(--text-2);margin-left:4px">Und ${game.ou.under.label}</span>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <!-- FORM GUIDE -->
+          <div class="card">
+            <div class="card-label">Recent Form — Last 5 Games</div>
+            <div class="form-row">
+              <div class="form-team-name">${game.homeTeam.name.split(' ').pop()}</div>
+              <div class="form-badges">${formBadges(a.homeFormLast5)}</div>
+            </div>
+            <div class="form-row" style="margin-bottom:0">
+              <div class="form-team-name">${game.awayTeam.name.split(' ').pop()}</div>
+              <div class="form-badges">${formBadges(a.awayFormLast5)}</div>
+            </div>
+          </div>
+
+          <!-- INJURY REPORT -->
+          <div class="card">
+            <div class="card-label">⚕️ Injury Report</div>
+            <div class="injury-grid">
+              <div class="injury-team-col">
+                <div class="injury-team-label">
+                  ${LOGOS[game.homeTeam.name] ? `<img src="${LOGOS[game.homeTeam.name]}" width="16" height="16" style="object-fit:contain">` : ''}
+                  ${game.homeTeam.name.split(' ').pop()}
+                </div>
+                ${renderInjuries(game.homeTeam.name)}
+              </div>
+              <div class="injury-team-col">
+                <div class="injury-team-label">
+                  ${LOGOS[game.awayTeam.name] ? `<img src="${LOGOS[game.awayTeam.name]}" width="16" height="16" style="object-fit:contain">` : ''}
+                  ${game.awayTeam.name.split(' ').pop()}
+                </div>
+                ${renderInjuries(game.awayTeam.name)}
+              </div>
+            </div>
+          </div>
+
+          <!-- TRY SCORER PICKS -->
+          <div class="card">
+            <div class="card-label">Try Scorer Picks</div>
+            <div class="player-picks-grid">
+              <div class="player-pick-card">
+                <div class="player-pick-header">
+                  <div class="player-pick-team">${game.homeTeam.name.split(' ').pop()}</div>
+                  ${LOGOS[game.homeTeam.name] ? `<img src="${LOGOS[game.homeTeam.name]}" width="22" height="22" style="object-fit:contain">` : ''}
+                </div>
+                ${homePlayers.map(p => `
+                <div class="player-pick-item">
+                  <div>
+                    <div class="player-pick-name">${p.name}</div>
+                    <div class="player-pick-pos">${p.pos}</div>
+                  </div>
+                  <div class="player-odds">
+                    <div class="fts">FTS ${toOddsStr(ftsOdd(p))}</div>
+                    <div class="anytime">Any ${toOddsStr(anytimeOdd(p))}</div>
+                  </div>
+                </div>`).join('')}
+              </div>
+              <div class="player-pick-card">
+                <div class="player-pick-header">
+                  <div class="player-pick-team">${game.awayTeam.name.split(' ').pop()}</div>
+                  ${LOGOS[game.awayTeam.name] ? `<img src="${LOGOS[game.awayTeam.name]}" width="22" height="22" style="object-fit:contain">` : ''}
+                </div>
+                ${awayPlayers.map(p => `
+                <div class="player-pick-item">
+                  <div>
+                    <div class="player-pick-name">${p.name}</div>
+                    <div class="player-pick-pos">${p.pos}</div>
+                  </div>
+                  <div class="player-odds">
+                    <div class="fts">FTS ${toOddsStr(ftsOdd(p))}</div>
+                    <div class="anytime">Any ${toOddsStr(anytimeOdd(p))}</div>
+                  </div>
+                </div>`).join('')}
+              </div>
+            </div>
+          </div>
+
+        </div><!-- /left -->
+
+        <!-- RIGHT COLUMN -->
+        <div>
+
+          <!-- MATCH INTELLIGENCE -->
+          <div class="card">
+            <div class="card-label">Match Intelligence</div>
+            <div class="fact-row">
+              <div class="fact-label">Favourite</div>
+              <div class="fact-val">${a.favourite}</div>
+            </div>
+            <div class="fact-row">
+              <div class="fact-label">Confidence</div>
+              <div class="fact-val">${a.confidenceLevel}</div>
+            </div>
+            <div class="fact-row">
+              <div class="fact-label">Avg Margin</div>
+              <div class="fact-val">${a.avgMargin}</div>
+            </div>
+            <div class="fact-row">
+              <div class="fact-label">Weather</div>
+              <div class="fact-val">${a.weatherForecast}</div>
+            </div>
+            <div class="fact-row">
+              <div class="fact-label">Key Factor</div>
+              <div class="fact-val" style="max-width:120px">${a.keyFactor}</div>
+            </div>
+            <div class="rec-box">
+              <div class="rec-title">💡 Analyst Take</div>
+              <p>${a.recommendation}</p>
+            </div>
+          </div>
+
+          <!-- BEST BETS -->
+          <div class="card">
+            <div class="card-label">Best Bets — By Risk Level</div>
+            <div class="best-bets">
+              <div class="best-bet-item">
+                <div class="best-bet-type">🟢 Beginner</div>
+                <div class="best-bet-pick">${a.favourite} — Head to Head</div>
+                <div class="best-bet-odd">${toOddsStr(a.favourite === game.homeTeam.name ? game.h2h.home : game.h2h.away)}</div>
+                <div class="best-bet-rationale">Odds imply ${a.favourite === game.homeTeam.name ? homeWinPct : awayWinPct}% win chance. ${a.confidenceLevel} confidence based on current markets.</div>
+              </div>
+              <div class="best-bet-item">
+                <div class="best-bet-type">🟢 Beginner</div>
+                <div class="best-bet-pick">${a.favourite} Line ${a.favourite === game.homeTeam.name ? game.line.home.label : game.line.away.label}</div>
+                <div class="best-bet-odd">${toOddsStr(a.favourite === game.homeTeam.name ? game.line.home.odd : game.line.away.odd)}</div>
+                <div class="best-bet-rationale">Handicap reduces risk — favourite still wins even giving points away.</div>
+              </div>
+              <div class="best-bet-item medium">
+                <div class="best-bet-type">🟡 Intermediate</div>
+                <div class="best-bet-pick">${allPlayers[0]?.name} — Anytime Try Scorer</div>
+                <div class="best-bet-odd">${toOddsStr(anytimeOdd(allPlayers[0]))}</div>
+                <div class="best-bet-rationale">${allPlayers[0]?.name} (${allPlayers[0]?.pos}) is the highest-rated try threat in this match based on season stats.</div>
+              </div>
+              <div class="best-bet-item medium">
+                <div class="best-bet-type">🟡 Intermediate</div>
+                <div class="best-bet-pick">Over ${game.ou.over.label} Total Points</div>
+                <div class="best-bet-odd">${toOddsStr(game.ou.over.odd)}</div>
+                <div class="best-bet-rationale">Both teams averaging over this line across recent form. ${a.weatherForecast.includes('Clear') || a.weatherForecast.includes('Fine') ? 'Clear conditions favour attacking play.' : 'Monitor conditions closer to kick-off.'}</div>
+              </div>
+              <div class="best-bet-item high">
+                <div class="best-bet-type">🔴 Expert</div>
+                <div class="best-bet-pick">${allPlayers[0]?.name} — First Try Scorer</div>
+                <div class="best-bet-odd">${toOddsStr(ftsOdd(allPlayers[0]))}</div>
+                <div class="best-bet-rationale">High risk, high reward. Only for those comfortable with ~42% of anytime scorers getting first. Position: ${allPlayers[0]?.pos}.</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- RESPONSIBLE GAMBLING -->
+          <div style="background:rgba(255,165,0,0.07);border:1px solid rgba(255,165,0,0.2);border-radius:var(--radius-sm);padding:14px 16px;font-size:0.78rem;color:var(--text-2);line-height:1.5">
+            ⚠️ <strong style="color:#ffa500">Gamble Responsibly</strong><br>
+            Odds shown are educational simulations. Always set a budget and bet only what you can afford to lose. Help: <a href="https://www.gamblinghelponline.org.au" target="_blank">gamblinghelponline.org.au</a> or call 1800 858 858. 18+
+          </div>
+
+        </div><!-- /right -->
+
+        <!-- FULL-WIDTH: ALL MARKETS -->
+        <div class="markets-section">
+          <div class="section-title">📋 All Available Markets</div>
+          <div class="markets-grid">
+            ${markets.map(m => `
+            <div class="market-card">
+              <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:6px">
+                <div class="market-name">${m.name}</div>
+                <span class="market-risk risk-${m.risk}">${m.risk === 'low' ? 'Low' : m.risk === 'med' ? 'Med' : 'High'}</span>
+              </div>
+              <div class="market-odds-row">
+                <div class="market-pick">${m.pick}</div>
+                <div class="market-odd">${toOddsStr(m.odd)}</div>
+              </div>
+            </div>`).join('')}
+          </div>
+        </div>
+
+      </div><!-- /page-grid -->
+    </div><!-- /container -->
+
+    <footer class="footer">
+      <div class="container">
+        <p>🏉 <strong>NRLBettingGuide</strong> — For educational purposes only. Odds are simulated. Always gamble responsibly. 18+ only.</p>
+        <p style="margin-top:8px"><a href="index.html">← Back to main guide</a></p>
+      </div>
+    </footer>
+    `;
+
+  })();
+  </script>
+</body>
+</html>
