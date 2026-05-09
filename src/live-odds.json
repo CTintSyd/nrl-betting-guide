@@ -1,33 +1,7 @@
 {
-  "updated": "2026-05-08T21:36:54.677Z",
-  "quotaRemaining": 485,
+  "updated": "2026-05-09T07:23:43.402Z",
+  "quotaRemaining": 482,
   "games": [
-    {
-      "id": "d68274c8aa67402ab10dce5f91498a47",
-      "homeTeam": "St George Illawarra Dragons",
-      "awayTeam": "Newcastle Knights",
-      "commenceTime": "2026-05-09T05:00:00Z",
-      "bookmaker": "sportsbet",
-      "h2h": {
-        "home": 3.2,
-        "away": 1.35
-      },
-      "line": {
-        "home": {
-          "odd": 1.89,
-          "point": 8.5
-        },
-        "away": {
-          "odd": 1.91,
-          "point": -8.5
-        }
-      },
-      "ou": {
-        "total": 51.5,
-        "overOdd": 1.81,
-        "underOdd": 2
-      }
-    },
     {
       "id": "339c2c490b75fb13d6ad65cd2e53bdb0",
       "homeTeam": "South Sydney Rabbitohs",
@@ -35,23 +9,23 @@
       "commenceTime": "2026-05-09T07:30:00Z",
       "bookmaker": "sportsbet",
       "h2h": {
-        "home": 2.18,
-        "away": 1.69
+        "home": 2.63,
+        "away": 1.49
       },
       "line": {
         "home": {
-          "odd": 1.9,
-          "point": 3.5
+          "odd": 1.97,
+          "point": 5.5
         },
         "away": {
-          "odd": 1.9,
-          "point": -3.5
+          "odd": 1.85,
+          "point": -5.5
         }
       },
       "ou": {
-        "total": 54.5,
-        "overOdd": 1.96,
-        "underOdd": 1.85
+        "total": 53.5,
+        "overOdd": 1.91,
+        "underOdd": 1.91
       }
     },
     {
@@ -61,23 +35,23 @@
       "commenceTime": "2026-05-09T09:35:00Z",
       "bookmaker": "sportsbet",
       "h2h": {
-        "home": 2,
-        "away": 1.85
+        "home": 1.94,
+        "away": 1.9
       },
       "line": {
         "home": {
-          "odd": 1.9,
+          "odd": 1.91,
           "point": 1.5
         },
         "away": {
-          "odd": 1.9,
+          "odd": 1.89,
           "point": -1.5
         }
       },
       "ou": {
         "total": 50.5,
-        "overOdd": 1.98,
-        "underOdd": 1.83
+        "overOdd": 1.9,
+        "underOdd": 1.9
       }
     },
     {
@@ -87,23 +61,23 @@
       "commenceTime": "2026-05-10T04:00:00Z",
       "bookmaker": "sportsbet",
       "h2h": {
-        "home": 1.52,
-        "away": 2.52
+        "home": 1.48,
+        "away": 2.65
       },
       "line": {
         "home": {
-          "odd": 1.97,
-          "point": -6.5
+          "odd": 1.89,
+          "point": -7.5
         },
         "away": {
-          "odd": 1.84,
-          "point": 6.5
+          "odd": 1.91,
+          "point": 7.5
         }
       },
       "ou": {
-        "total": 53.5,
-        "overOdd": 1.83,
-        "underOdd": 1.98
+        "total": 54.5,
+        "overOdd": 1.98,
+        "underOdd": 1.83
       }
     },
     {
@@ -269,23 +243,23 @@
       "commenceTime": "2026-05-17T04:00:00Z",
       "bookmaker": "sportsbet",
       "h2h": {
-        "home": 2.77,
-        "away": 1.45
+        "home": 3.22,
+        "away": 1.35
       },
       "line": {
         "home": {
-          "odd": 1.88,
-          "point": 6.5
+          "odd": 1.9,
+          "point": 8.5
         },
         "away": {
-          "odd": 1.91,
-          "point": -6.5
+          "odd": 1.9,
+          "point": -8.5
         }
       },
       "ou": {
-        "total": 56.5,
-        "overOdd": 1.98,
-        "underOdd": 1.83
+        "total": 55.5,
+        "overOdd": 1.82,
+        "underOdd": 1.99
       }
     },
     {
@@ -321,23 +295,23 @@
       "commenceTime": "2026-05-17T08:25:00Z",
       "bookmaker": "sportsbet",
       "h2h": {
-        "home": 1.08,
-        "away": 8
+        "home": 1.04,
+        "away": 11.5
       },
       "line": {
         "home": {
-          "odd": 1.91,
-          "point": -20.5
+          "odd": 1.9,
+          "point": -24.5
         },
         "away": {
-          "odd": 1.89,
-          "point": 20.5
+          "odd": 1.9,
+          "point": 24.5
         }
       },
       "ou": {
-        "total": 55.5,
-        "overOdd": 1.83,
-        "underOdd": 1.98
+        "total": 56.5,
+        "overOdd": 1.99,
+        "underOdd": 1.82
       }
     }
   ]
