@@ -134,21 +134,33 @@
     .best-bet-item.high .best-bet-odd { color: #f85149; }
     .best-bet-rationale { font-size: 0.78rem; color: var(--text-2); margin-top: 4px; line-height: 1.4; }
 
-    /* ── Injury Report ── */
+    /* ── Named Teams ── */
+    .team-list-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+    .team-list-col { }
+    .team-list-col-label { font-size: 0.72rem; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; color: var(--text-2); margin-bottom: 10px; display: flex; align-items: center; gap: 6px; }
+    .team-list-player { display: flex; align-items: center; gap: 8px; padding: 6px 0; border-bottom: 1px solid rgba(255,255,255,0.05); font-size: 0.82rem; }
+    .team-list-player:last-child { border-bottom: none; }
+    .player-num { width: 18px; font-weight: 700; color: var(--text-2); font-size: 0.73rem; flex-shrink: 0; text-align: right; }
+    .player-name-cell { flex: 1; font-weight: 500; color: var(--text); }
+    .player-pos-badge { font-size: 0.62rem; font-weight: 700; padding: 2px 6px; border-radius: 3px; background: rgba(255,255,255,0.07); color: var(--text-2); white-space: nowrap; }
+    .team-list-section-label { font-size: 0.68rem; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; color: var(--text-2); opacity: 0.55; margin: 10px 0 4px; padding-top: 8px; border-top: 1px solid rgba(255,255,255,0.06); }
+    .team-list-pending { font-size: 0.82rem; color: var(--text-2); padding: 8px 0; }
+    .team-list-source { font-size: 0.71rem; color: var(--text-2); margin-top: 12px; opacity: 0.7; border-top: 1px solid rgba(255,255,255,0.05); padding-top: 10px; }
+
+    /* ── Injury Report (real data) ── */
     .injury-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
-    .injury-team-col { }
-    .injury-team-label { font-size: 0.72rem; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; color: var(--text-2); margin-bottom: 10px; display: flex; align-items: center; gap: 6px; }
-    .injury-item { display: flex; align-items: flex-start; gap: 10px; padding: 10px 0; border-bottom: 1px solid rgba(255,255,255,0.05); }
+    .injury-col-label { font-size: 0.72rem; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; color: var(--text-2); margin-bottom: 10px; display: flex; align-items: center; gap: 6px; }
+    .injury-item { display: flex; align-items: flex-start; gap: 10px; padding: 8px 0; border-bottom: 1px solid rgba(255,255,255,0.05); }
     .injury-item:last-child { border-bottom: none; }
-    .injury-status-badge { font-size: 0.63rem; font-weight: 800; letter-spacing: 0.8px; text-transform: uppercase; padding: 3px 7px; border-radius: 4px; white-space: nowrap; flex-shrink: 0; margin-top: 1px; }
-    .status-out { background: rgba(248,81,73,0.2); color: #f85149; }
-    .status-doubtful { background: rgba(255,165,0,0.2); color: #ffa500; }
-    .status-gtd { background: rgba(255,220,50,0.15); color: #f0c040; }
-    .injury-info { flex: 1; }
-    .injury-name { font-size: 0.88rem; font-weight: 600; color: var(--text); }
-    .injury-detail { font-size: 0.76rem; color: var(--text-2); margin-top: 2px; }
-    .injury-note { font-size: 0.73rem; color: var(--text-2); font-style: italic; margin-top: 2px; opacity: 0.8; }
-    .no-injuries { font-size: 0.82rem; color: var(--green); padding: 8px 0; }
+    .injury-return { font-size: 0.63rem; font-weight: 800; letter-spacing: 0.6px; text-transform: uppercase; padding: 3px 7px; border-radius: 4px; white-space: nowrap; flex-shrink: 0; margin-top: 1px; }
+    .return-soon  { background: rgba(255,165,0,0.18); color: #ffa500; }
+    .return-later { background: rgba(255,255,255,0.07); color: var(--text-2); }
+    .return-tbc   { background: rgba(248,81,73,0.15); color: #f85149; }
+    .injury-info { flex: 1; min-width: 0; }
+    .injury-name  { font-size: 0.85rem; font-weight: 600; color: var(--text); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .injury-type  { font-size: 0.75rem; color: var(--text-2); margin-top: 1px; }
+    .no-casualties { font-size: 0.82rem; color: var(--nrl-green, #00a651); padding: 6px 0; }
+    .injury-source { font-size: 0.71rem; color: var(--text-2); margin-top: 12px; opacity: 0.7; border-top: 1px solid rgba(255,255,255,0.05); padding-top: 10px; }
 
     /* ── Commentary ── */
     .commentary-section { grid-column: 1 / -1; margin-bottom: 4px; }
@@ -173,6 +185,7 @@
       .page-grid { grid-template-columns: 1fr; }
       .player-picks-grid { grid-template-columns: 1fr; }
       .markets-grid { grid-template-columns: 1fr 1fr; }
+      .team-list-grid { grid-template-columns: 1fr; gap: 0; }
       .injury-grid { grid-template-columns: 1fr; gap: 0; }
       .match-header { gap: 16px; }
       .match-logo { width: 64px; height: 64px; }
@@ -198,8 +211,8 @@
     </div>
   </div>
 
-  <script src="src/teamData.js?v=9"></script>
-  <script src="src/oddsEngine.js?v=9"></script>
+  <script src="src/teamData.js?v=14"></script>
+  <script src="src/oddsEngine.js?v=14"></script>
   <script>
   (async function() {
     // ── Helpers ──────────────────────────────────────────────────────────────
@@ -209,14 +222,73 @@
     function impl(odd) { return (100 / odd).toFixed(1) + '%'; }
     function toOddsStr(odd) { return '$' + Number(odd).toFixed(2); }
 
-    // ── Load game data from live-odds.json ───────────────────────────────────
+    // ── Load game data + real form strings in parallel ──────────────────────
     let game = null;
-    try {
-      const res = await fetch(`src/live-odds.json?v=${Date.now()}`);
-      const data = await res.json();
-      const raw = data.games[gameId - 1];
+    let formData = null;
+    const [oddsRes, formRes, teamListRes] = await Promise.allSettled([
+      fetch(`src/live-odds.json?v=${Date.now()}`).then(r => r.json()),
+      fetch(`src/form-data.json?v=${Date.now()}`).then(r => r.json()),
+      fetch(`src/team-lists.json?v=${Date.now()}`).then(r => r.json()),
+    ]);
+
+    // ── Venue → coordinates map for Open-Meteo weather ──────────────────────
+    const VENUE_COORDS = {
+      'Suncorp Stadium':           { lat: -27.4648, lon: 153.0095, tz: 'Australia/Brisbane' },
+      'GIO Stadium':               { lat: -35.2396, lon: 149.0930, tz: 'Australia/Sydney'   },
+      'Accor Stadium':             { lat: -33.8468, lon: 151.0039, tz: 'Australia/Sydney'   },
+      'PointsBet Stadium':         { lat: -34.0236, lon: 151.0872, tz: 'Australia/Sydney'   },
+      'Cbus Super Stadium':        { lat: -27.9698, lon: 153.3830, tz: 'Australia/Brisbane' },
+      '4 Pines Park':              { lat: -33.7946, lon: 151.2777, tz: 'Australia/Sydney'   },
+      'AAMI Park':                 { lat: -37.8227, lon: 144.9831, tz: 'Australia/Melbourne'},
+      'McDonald Jones Stadium':    { lat: -32.9259, lon: 151.7608, tz: 'Australia/Sydney'   },
+      'Go Media Stadium':          { lat: -36.8755, lon: 174.7432, tz: 'Pacific/Auckland'   },
+      'Qld Country Bank Stadium':  { lat: -19.2615, lon: 146.7879, tz: 'Australia/Brisbane' },
+      'CommBank Stadium':          { lat: -33.8131, lon: 151.0037, tz: 'Australia/Sydney'   },
+      'BlueBet Stadium':           { lat: -33.7510, lon: 150.6942, tz: 'Australia/Sydney'   },
+      'Netstrata Jubilee Oval':    { lat: -33.9717, lon: 151.1060, tz: 'Australia/Sydney'   },
+      'Allianz Stadium':           { lat: -33.8916, lon: 151.2252, tz: 'Australia/Sydney'   },
+      'Campbelltown Stadium':      { lat: -34.0674, lon: 150.8127, tz: 'Australia/Sydney'   },
+    };
+
+    const WMO_DESC = {
+      0:'Clear', 1:'Mainly clear', 2:'Partly cloudy', 3:'Overcast',
+      45:'Foggy', 48:'Foggy', 51:'Light drizzle', 53:'Drizzle', 55:'Heavy drizzle',
+      61:'Light rain', 63:'Rain', 65:'Heavy rain', 71:'Light snow', 73:'Snow', 75:'Heavy snow',
+      80:'Showers', 81:'Showers', 82:'Heavy showers', 95:'Thunderstorm', 96:'Thunderstorm', 99:'Thunderstorm',
+    };
+
+    async function fetchWeather(venue, commenceTime) {
+      const coords = VENUE_COORDS[venue];
+      if (!coords || !commenceTime) return null;
+      try {
+        const url = `https://api.open-meteo.com/v1/forecast?latitude=${coords.lat}&longitude=${coords.lon}` +
+          `&hourly=temperature_2m,precipitation_probability,weathercode&timezone=${encodeURIComponent(coords.tz)}&forecast_days=14`;
+        const res = await fetch(url);
+        const data = await res.json();
+        // Find closest hour to kickoff time
+        const kickoff = new Date(commenceTime);
+        const times = data.hourly.time.map(t => new Date(t + ':00').getTime());
+        let closest = 0, minDiff = Infinity;
+        times.forEach((t, i) => { const d = Math.abs(t - kickoff); if (d < minDiff) { minDiff = d; closest = i; } });
+        const code  = data.hourly.weathercode[closest];
+        const temp  = Math.round(data.hourly.temperature_2m[closest]);
+        const precip = data.hourly.precipitation_probability[closest];
+        const desc  = WMO_DESC[code] ?? 'Cloudy';
+        return `${desc}, ${temp}°C${precip > 40 ? ` (${precip}% rain chance)` : ''}`;
+      } catch (e) {
+        return null;
+      }
+    }
+
+    if (oddsRes.status === 'fulfilled') {
+      const cutoff = Date.now() - 3 * 60 * 60 * 1000;
+      const upcoming = oddsRes.value.games.filter(g => new Date(g.commenceTime).getTime() > cutoff);
+      const raw = upcoming[gameId - 1];
       if (raw) game = buildGameEntry(raw, gameId);
-    } catch(e) {}
+    }
+    if (formRes.status === 'fulfilled') formData = formRes.value;
+    let teamLists = null;
+    if (teamListRes.status === 'fulfilled') teamLists = teamListRes.value;
 
     if (!game) {
       document.getElementById('app').innerHTML =
@@ -225,6 +297,19 @@
     }
 
     const a = game.analysis;
+
+    // ── Fetch real weather from Open-Meteo ───────────────────────────────────
+    const realWeather = await fetchWeather(game.venue, game.commenceTime);
+    if (realWeather) game.analysis.weatherForecast = realWeather;
+
+    // ── Inject real form strings if available ────────────────────────────────
+    if (formData?.teams) {
+      const hForm = formData.teams[game.homeTeam.name]?.last5;
+      const aForm = formData.teams[game.awayTeam.name]?.last5;
+      if (hForm) a.homeFormLast5 = hForm;
+      if (aForm) a.awayFormLast5 = aForm;
+      if (formData.round) a._formRound = formData.round;
+    }
 
     // ── Team logos from Wikipedia ────────────────────────────────────────────
     const LOGOS = {};
@@ -328,27 +413,56 @@
                          ...awayPlayers.map(p=>({...p,team:game.awayTeam.name}))]
                          .sort((a,b)=>b.tryRate-a.tryRate);
 
-    // ── Injury Report ────────────────────────────────────────────────────────
-    function injuryBadgeClass(status) {
-      if (!status) return 'status-gtd';
-      const s = status.toLowerCase();
-      if (s === 'out') return 'status-out';
-      if (s === 'doubtful') return 'status-doubtful';
-      return 'status-gtd';
+    // ── Named Team List ───────────────────────────────────────────────────────
+    function renderTeamList(teamName) {
+      const players = teamLists?.teams?.[teamName];
+      if (!players || !players.length) {
+        return '<div class="team-list-pending">⏳ Team not yet announced</div>';
+      }
+      const starters    = players.filter(p => p.category === 'starting');
+      const interchange = players.filter(p => p.category === 'interchange');
+      const reserves    = players.filter(p => p.category === 'reserve');
+
+      const row = p => `
+        <div class="team-list-player">
+          <span class="player-num">${p.number}</span>
+          <span class="player-name-cell">${p.name}</span>
+          <span class="player-pos-badge">${p.position}</span>
+        </div>`;
+
+      let html = starters.map(row).join('');
+      if (interchange.length) {
+        html += `<div class="team-list-section-label">Interchange</div>` + interchange.map(row).join('');
+      }
+      if (reserves.length) {
+        html += `<div class="team-list-section-label">Reserves</div>` + reserves.map(row).join('');
+      }
+      return html;
     }
 
-    function renderInjuries(teamName) {
-      const injuries = NRL_TEAM_DATA[teamName]?.injuries || [];
-      if (!injuries.length) {
-        return '<div class="no-injuries">✅ No significant injuries reported</div>';
+    // ── Injury Report (real NRL Casualty Ward data) ──────────────────────────
+    function returnClass(ret) {
+      if (!ret || ret === 'TBC' || ret === 'Indefinite' || ret === 'Next Season') return 'return-tbc';
+      const m = ret.match(/Round (\d+)/i);
+      if (m) {
+        const r = parseInt(m[1]);
+        const current = teamLists?.round ?? 0;
+        return (r - current) <= 2 ? 'return-soon' : 'return-later';
+      }
+      return 'return-tbc';
+    }
+
+    function renderCasualties(teamName) {
+      const injuries = teamLists?.casualties?.[teamName];
+      if (!injuries || !injuries.length) {
+        return '<div class="no-casualties">✅ No players on the casualty list</div>';
       }
       return injuries.map(inj => `
         <div class="injury-item">
-          <span class="injury-status-badge ${injuryBadgeClass(inj.status)}">${inj.status}</span>
+          <span class="injury-return ${returnClass(inj.expectedReturn)}">${inj.expectedReturn}</span>
           <div class="injury-info">
             <div class="injury-name">${inj.name}</div>
-            <div class="injury-detail">${inj.pos} — ${inj.injury}</div>
-            ${inj.note ? `<div class="injury-note">${inj.note}</div>` : ''}
+            <div class="injury-type">${inj.injury}</div>
           </div>
         </div>
       `).join('');
@@ -384,14 +498,14 @@
       const awayWins = (awayForm.match(/W/gi) || []).length;
       const favWins = fav === home ? homeWins : awayWins;
       const dogWins = fav === home ? awayWins : homeWins;
-      const homeInjuries = NRL_TEAM_DATA[home]?.injuries || [];
-      const awayInjuries = NRL_TEAM_DATA[away]?.injuries || [];
-      const homeOutCount = homeInjuries.filter(i => i.status === 'Out').length;
-      const awayOutCount = awayInjuries.filter(i => i.status === 'Out').length;
-      const favInjuries = fav === home ? homeInjuries : awayInjuries;
-      const dogInjuries = fav === home ? awayInjuries : homeInjuries;
-      const favOutCount = fav === home ? homeOutCount : awayOutCount;
-      const dogOutCount = fav === home ? awayOutCount : homeOutCount;
+      const homeNamed = !!(teamLists?.teams?.[home]?.length);
+      const awayNamed = !!(teamLists?.teams?.[away]?.length);
+      const homeCasualties = teamLists?.casualties?.[home] || [];
+      const awayCasualties = teamLists?.casualties?.[away] || [];
+      const homeMissing = homeCasualties.filter(c => c.expectedReturn === 'TBC' || c.expectedReturn === 'Indefinite' || parseInt((c.expectedReturn.match(/\d+/)||[])[0]||99) > (teamLists?.round||0) + 1);
+      const awayMissing = awayCasualties.filter(c => c.expectedReturn === 'TBC' || c.expectedReturn === 'Indefinite' || parseInt((c.expectedReturn.match(/\d+/)||[])[0]||99) > (teamLists?.round||0) + 1);
+      const favMissing = fav === home ? homeMissing : awayMissing;
+      const dogMissing = fav === home ? awayMissing : homeMissing;
 
       // ── Para 1: Match Preview ──────────────────────────────────────────────
       const confidenceWord = confidence === 'high' ? 'a strong' : confidence === 'very high' ? 'a dominant' : 'a moderate';
@@ -425,13 +539,11 @@
         against ${topDogPlayer ? `<strong>${topDogPlayer.name}</strong> (${topDogPlayer.pos}, ${dogShort})` : `${dogShort}'s defence`}.
         ${topFavPlayer ? `${topFavPlayer.name} carries a <strong>${Math.round(topFavPlayer.tryRate * 100)}%</strong> try-scoring rate this season and is the biggest threat to the line — back them as an anytime try scorer at <em>$${anytimeOdd(topFavPlayer).toFixed(2)}</em>.` : ''}
         ${topDogPlayer ? `Meanwhile, ${topDogPlayer.name} for ${dogShort} is one to watch if the game opens up — priced at <em>$${anytimeOdd(topDogPlayer).toFixed(2)}</em> anytime, they represent potential value if ${dogShort} stay in the contest.` : ''}`;
-      if (favOutCount > 0) {
-        const outNames = favInjuries.filter(i => i.status === 'Out').map(i => i.name).join(', ');
-        p3 += ` <strong>Important:</strong> ${favShort} are missing <strong>${outNames}</strong> through injury, which may soften their attacking potency and is worth factoring into any multi-leg bets.`;
-      }
-      if (dogOutCount > 0) {
-        const outNames = dogInjuries.filter(i => i.status === 'Out').map(i => i.name).join(', ');
-        p3 += ` ${dogShort} are also impacted by the absence of <strong>${outNames}</strong>, potentially limiting their ability to sustain pressure.`;
+      if (favMissing.length > 0) {
+        const names = favMissing.slice(0, 2).map(c => c.name).join(', ');
+        p3 += ` <strong>Note:</strong> ${favShort} are without <strong>${names}${favMissing.length > 2 ? ` and ${favMissing.length - 2} others` : ''}</strong> — see the Injury Report for full details.`;
+      } else if (homeNamed || awayNamed) {
+        p3 += ` Check the <strong>Named Teams</strong> card for the official 1–17 — any surprise omissions are worth factoring into your selections.`;
       }
 
       // ── Para 4: Betting Strategy ──────────────────────────────────────────
@@ -450,12 +562,13 @@
       else p4 += ` In ${isClear ? 'clear' : 'expected'} conditions, the <strong>Over ${game.ou.over.label}</strong> has a reasonable case — both squads have the attacking talent to push past the line in open play.`;
 
       // ── Para 5: Risk Snapshot ─────────────────────────────────────────────
-      const totalInjuries = homeInjuries.length + awayInjuries.length;
       let p5 = `<div class="commentary-label">🔍 Risk Snapshot</div>`;
       p5 += `Overall risk profile for this game is <strong>${confidence === 'high' || confidence === 'very high' ? 'lower than average' : 'moderate'}</strong>.
-        ${totalInjuries > 4 ? `Both squads are carrying <strong>${totalInjuries} notable injuries</strong> between them — this increases volatility and is a factor against multi-leg accumulators.`
-        : totalInjuries > 0 ? `There are <strong>${totalInjuries} injury concerns</strong> across both teams worth monitoring before kickoff.`
-        : `Both squads appear relatively healthy heading into this fixture, which supports a more predictable scoreline.`}
+        ${homeCasualties.length + awayCasualties.length > 6
+          ? `Both squads have significant injury concerns — <strong>${homeCasualties.length + awayCasualties.length} players</strong> are on the casualty list between them. Check the Injury Report card for full details and expected return dates.`
+          : (homeNamed && awayNamed)
+            ? `Both official 17s have been named — check the Named Teams and Injury Report cards for any notable absences before finalising your selections.`
+            : `Teams are yet to be officially announced — monitor NRL.com Thursday night for the named squads, as key absences can shift the market significantly.`}
         The safest bet structure is <strong>${fav} to win + ${topFavPlayer?.name ?? 'top try threat'} anytime try scorer</strong> as a two-leg multi,
         offering a combined return of roughly <em>$${(favOdd * anytimeOdd(topFavPlayer ?? allPlayers[0]) * 0.85).toFixed(2)}</em> for a modest stake.
         Always set a budget before placing — odds are educational simulations and real betting outcomes vary.`;
@@ -580,26 +693,62 @@
               <div class="form-team-name">${game.awayTeam.name.split(' ').pop()}</div>
               <div class="form-badges">${formBadges(a.awayFormLast5)}</div>
             </div>
+            <div style="margin-top:12px;font-size:0.7rem;color:var(--text-2);">
+              ${a._formRound
+                ? `📡 Live data — NRL.com results through Round ${a._formRound}`
+                : `⚠️ Form data not available — showing estimates`}
+            </div>
           </div>
 
-          <!-- INJURY REPORT -->
+          <!-- NAMED TEAMS -->
           <div class="card">
-            <div class="card-label">⚕️ Injury Report</div>
-            <div class="injury-grid">
-              <div class="injury-team-col">
-                <div class="injury-team-label">
+            <div class="card-label">📋 Named Teams</div>
+            <div class="team-list-grid">
+              <div class="team-list-col">
+                <div class="team-list-col-label">
                   ${LOGOS[game.homeTeam.name] ? `<img src="${LOGOS[game.homeTeam.name]}" width="16" height="16" style="object-fit:contain">` : ''}
                   ${game.homeTeam.name.split(' ').pop()}
                 </div>
-                ${renderInjuries(game.homeTeam.name)}
+                ${renderTeamList(game.homeTeam.name)}
               </div>
-              <div class="injury-team-col">
-                <div class="injury-team-label">
+              <div class="team-list-col">
+                <div class="team-list-col-label">
                   ${LOGOS[game.awayTeam.name] ? `<img src="${LOGOS[game.awayTeam.name]}" width="16" height="16" style="object-fit:contain">` : ''}
                   ${game.awayTeam.name.split(' ').pop()}
                 </div>
-                ${renderInjuries(game.awayTeam.name)}
+                ${renderTeamList(game.awayTeam.name)}
               </div>
+            </div>
+            <div class="team-list-source">
+              ${teamLists?.round
+                ? `📡 Official NRL.com squads — Round ${teamLists.round}`
+                : `⚠️ Team list data unavailable`}
+            </div>
+          </div>
+
+          <!-- INJURY REPORT (NRL Casualty Ward) -->
+          <div class="card">
+            <div class="card-label">⚕️ Injury Report</div>
+            <div class="injury-grid">
+              <div>
+                <div class="injury-col-label">
+                  ${LOGOS[game.homeTeam.name] ? `<img src="${LOGOS[game.homeTeam.name]}" width="16" height="16" style="object-fit:contain">` : ''}
+                  ${game.homeTeam.name.split(' ').pop()}
+                </div>
+                ${renderCasualties(game.homeTeam.name)}
+              </div>
+              <div>
+                <div class="injury-col-label">
+                  ${LOGOS[game.awayTeam.name] ? `<img src="${LOGOS[game.awayTeam.name]}" width="16" height="16" style="object-fit:contain">` : ''}
+                  ${game.awayTeam.name.split(' ').pop()}
+                </div>
+                ${renderCasualties(game.awayTeam.name)}
+              </div>
+            </div>
+            <div class="injury-source">
+              ${teamLists
+                ? `📡 <a href="https://www.nrl.com/casualty-ward/?competition=111" target="_blank" rel="noopener">NRL.com Casualty Ward</a> — updated Round ${teamLists.round}`
+                : `⚠️ Injury data unavailable`}
             </div>
           </div>
 

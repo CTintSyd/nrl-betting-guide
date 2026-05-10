@@ -1,0 +1,997 @@
+{
+  "generatedAt": "2026-05-10T02:38:50.488598+00:00",
+  "round": 10,
+  "games": [
+    {
+      "matchCentreUrl": "/draw/nrl-premiership/2026/round-10/storm-v-wests-tigers/",
+      "kickoff": "2026-05-10T04:00:00Z",
+      "homeTeam": "Melbourne Storm",
+      "awayTeam": "Wests Tigers"
+    },
+    {
+      "matchCentreUrl": "/draw/nrl-premiership/2026/round-10/raiders-v-panthers/",
+      "kickoff": "2026-05-10T06:05:00Z",
+      "homeTeam": "Canberra Raiders",
+      "awayTeam": "Penrith Panthers"
+    }
+  ],
+  "teams": {
+    "Melbourne Storm": [
+      {
+        "number": 1,
+        "name": "Sualauvi Faalogo",
+        "position": "Fullback",
+        "category": "starting"
+      },
+      {
+        "number": 2,
+        "name": "Will Warbrick",
+        "position": "Winger",
+        "category": "starting"
+      },
+      {
+        "number": 3,
+        "name": "Jack Howarth",
+        "position": "Centre",
+        "category": "starting"
+      },
+      {
+        "number": 4,
+        "name": "Nick Meaney",
+        "position": "Centre",
+        "category": "starting"
+      },
+      {
+        "number": 5,
+        "name": "Hugo Peel",
+        "position": "Winger",
+        "category": "starting"
+      },
+      {
+        "number": 6,
+        "name": "Cameron Munster",
+        "position": "Five-Eighth",
+        "category": "starting"
+      },
+      {
+        "number": 7,
+        "name": "Jahrome Hughes",
+        "position": "Halfback",
+        "category": "starting"
+      },
+      {
+        "number": 8,
+        "name": "Stefano Utoikamanu",
+        "position": "Prop",
+        "category": "starting"
+      },
+      {
+        "number": 9,
+        "name": "Harry Grant",
+        "position": "Hooker",
+        "category": "starting"
+      },
+      {
+        "number": 10,
+        "name": "Josh King",
+        "position": "Prop",
+        "category": "starting"
+      },
+      {
+        "number": 11,
+        "name": "Shawn Blore",
+        "position": "2nd Row",
+        "category": "starting"
+      },
+      {
+        "number": 12,
+        "name": "Ativalu Lisati",
+        "position": "2nd Row",
+        "category": "starting"
+      },
+      {
+        "number": 13,
+        "name": "Trent Loiero",
+        "position": "Lock",
+        "category": "starting"
+      },
+      {
+        "number": 14,
+        "name": "Trent Toelau",
+        "position": "Interchange",
+        "category": "interchange"
+      },
+      {
+        "number": 15,
+        "name": "Joe Chan",
+        "position": "Interchange",
+        "category": "interchange"
+      },
+      {
+        "number": 16,
+        "name": "Davvy Moale",
+        "position": "Interchange",
+        "category": "interchange"
+      },
+      {
+        "number": 17,
+        "name": "Cooper Clarke",
+        "position": "Interchange",
+        "category": "interchange"
+      },
+      {
+        "number": 18,
+        "name": "Stanley Huen",
+        "position": "Interchange",
+        "category": "reserve"
+      },
+      {
+        "number": 20,
+        "name": "Jack Hetherington",
+        "position": "Interchange",
+        "category": "reserve"
+      }
+    ],
+    "Wests Tigers": [
+      {
+        "number": 1,
+        "name": "Heath Mason",
+        "position": "Fullback",
+        "category": "starting"
+      },
+      {
+        "number": 2,
+        "name": "Sunia Turuva",
+        "position": "Winger",
+        "category": "starting"
+      },
+      {
+        "number": 3,
+        "name": "Patrick Herbert",
+        "position": "Centre",
+        "category": "starting"
+      },
+      {
+        "number": 4,
+        "name": "Taylan May",
+        "position": "Centre",
+        "category": "starting"
+      },
+      {
+        "number": 5,
+        "name": "Luke Laulilii",
+        "position": "Winger",
+        "category": "starting"
+      },
+      {
+        "number": 6,
+        "name": "Jarome Luai",
+        "position": "Five-Eighth",
+        "category": "starting"
+      },
+      {
+        "number": 7,
+        "name": "Jock Madden",
+        "position": "Halfback",
+        "category": "starting"
+      },
+      {
+        "number": 9,
+        "name": "Tristan Hope",
+        "position": "Hooker",
+        "category": "starting"
+      },
+      {
+        "number": 10,
+        "name": "Fonua Pole",
+        "position": "Prop",
+        "category": "starting"
+      },
+      {
+        "number": 11,
+        "name": "Sione Fainu",
+        "position": "2nd Row",
+        "category": "starting"
+      },
+      {
+        "number": 12,
+        "name": "Kai Pearce-Paul",
+        "position": "2nd Row",
+        "category": "starting"
+      },
+      {
+        "number": 13,
+        "name": "Alex Twal",
+        "position": "Lock",
+        "category": "starting"
+      },
+      {
+        "number": 14,
+        "name": "Latu Fainu",
+        "position": "Interchange",
+        "category": "interchange"
+      },
+      {
+        "number": 15,
+        "name": "Bunty Afoa",
+        "position": "Prop",
+        "category": "interchange"
+      },
+      {
+        "number": 16,
+        "name": "Alex Seyfarth",
+        "position": "Interchange",
+        "category": "interchange"
+      },
+      {
+        "number": 17,
+        "name": "Royce Hunt",
+        "position": "Interchange",
+        "category": "interchange"
+      },
+      {
+        "number": 18,
+        "name": "Mavrik Geyer",
+        "position": "Interchange",
+        "category": "reserve"
+      },
+      {
+        "number": 19,
+        "name": "Jeral Skelton",
+        "position": "Interchange",
+        "category": "reserve"
+      },
+      {
+        "number": 20,
+        "name": "Charlie Murray",
+        "position": "Interchange",
+        "category": "reserve"
+      }
+    ],
+    "Canberra Raiders": [
+      {
+        "number": 1,
+        "name": "Kaeo Weekes",
+        "position": "Fullback",
+        "category": "starting"
+      },
+      {
+        "number": 2,
+        "name": "Savelio Tamale",
+        "position": "Winger",
+        "category": "starting"
+      },
+      {
+        "number": 3,
+        "name": "Sebastian Kris",
+        "position": "Centre",
+        "category": "starting"
+      },
+      {
+        "number": 4,
+        "name": "Matthew Timoko",
+        "position": "Centre",
+        "category": "starting"
+      },
+      {
+        "number": 5,
+        "name": "Jed Stuart",
+        "position": "Winger",
+        "category": "starting"
+      },
+      {
+        "number": 6,
+        "name": "Ethan Strange",
+        "position": "Five-Eighth",
+        "category": "starting"
+      },
+      {
+        "number": 7,
+        "name": "Ethan Sanders",
+        "position": "Halfback",
+        "category": "starting"
+      },
+      {
+        "number": 8,
+        "name": "Corey Horsburgh",
+        "position": "Prop",
+        "category": "starting"
+      },
+      {
+        "number": 9,
+        "name": "Tom Starling",
+        "position": "Hooker",
+        "category": "starting"
+      },
+      {
+        "number": 10,
+        "name": "Joseph Tapine",
+        "position": "Prop",
+        "category": "starting"
+      },
+      {
+        "number": 11,
+        "name": "Hudson Young",
+        "position": "2nd Row",
+        "category": "starting"
+      },
+      {
+        "number": 12,
+        "name": "Simi Sasagi",
+        "position": "2nd Row",
+        "category": "starting"
+      },
+      {
+        "number": 13,
+        "name": "Jayden Brailey",
+        "position": "Lock",
+        "category": "starting"
+      },
+      {
+        "number": 14,
+        "name": "Owen Pattie",
+        "position": "Interchange",
+        "category": "interchange"
+      },
+      {
+        "number": 15,
+        "name": "Daine Laurie",
+        "position": "Interchange",
+        "category": "interchange"
+      },
+      {
+        "number": 16,
+        "name": "Ata Mariota",
+        "position": "Interchange",
+        "category": "interchange"
+      },
+      {
+        "number": 17,
+        "name": "Morgan Smithies",
+        "position": "Interchange",
+        "category": "interchange"
+      },
+      {
+        "number": 18,
+        "name": "Chevy Stewart",
+        "position": "Interchange",
+        "category": "reserve"
+      },
+      {
+        "number": 19,
+        "name": "Jordan Uta",
+        "position": "Interchange",
+        "category": "reserve"
+      },
+      {
+        "number": 20,
+        "name": "Ethan Alaia",
+        "position": "Reserve",
+        "category": "reserve"
+      }
+    ],
+    "Penrith Panthers": [
+      {
+        "number": 1,
+        "name": "Dylan Edwards",
+        "position": "Fullback",
+        "category": "starting"
+      },
+      {
+        "number": 2,
+        "name": "Thomas Jenkins",
+        "position": "Winger",
+        "category": "starting"
+      },
+      {
+        "number": 3,
+        "name": "Paul Alamoti",
+        "position": "Centre",
+        "category": "starting"
+      },
+      {
+        "number": 4,
+        "name": "Casey McLean",
+        "position": "Centre",
+        "category": "starting"
+      },
+      {
+        "number": 5,
+        "name": "Brian To'o",
+        "position": "Winger",
+        "category": "starting"
+      },
+      {
+        "number": 6,
+        "name": "Blaize Talagi",
+        "position": "Five-Eighth",
+        "category": "starting"
+      },
+      {
+        "number": 7,
+        "name": "Nathan Cleary",
+        "position": "Halfback",
+        "category": "starting"
+      },
+      {
+        "number": 8,
+        "name": "Moses Leota",
+        "position": "Prop",
+        "category": "starting"
+      },
+      {
+        "number": 9,
+        "name": "Freddy Lussick",
+        "position": "Hooker",
+        "category": "starting"
+      },
+      {
+        "number": 10,
+        "name": "Lindsay Smith",
+        "position": "Prop",
+        "category": "starting"
+      },
+      {
+        "number": 11,
+        "name": "Isaiah Papali'i",
+        "position": "2nd Row",
+        "category": "starting"
+      },
+      {
+        "number": 12,
+        "name": "Luke Garner",
+        "position": "2nd Row",
+        "category": "starting"
+      },
+      {
+        "number": 13,
+        "name": "Isaah Yeo",
+        "position": "Lock",
+        "category": "starting"
+      },
+      {
+        "number": 14,
+        "name": "Jack Cole",
+        "position": "Interchange",
+        "category": "interchange"
+      },
+      {
+        "number": 15,
+        "name": "Scott Sorensen",
+        "position": "Interchange",
+        "category": "interchange"
+      },
+      {
+        "number": 16,
+        "name": "Liam Henry",
+        "position": "Interchange",
+        "category": "interchange"
+      },
+      {
+        "number": 17,
+        "name": "Izack Tago",
+        "position": "Interchange",
+        "category": "interchange"
+      },
+      {
+        "number": 18,
+        "name": "Billy Phillips",
+        "position": "Interchange",
+        "category": "reserve"
+      },
+      {
+        "number": 19,
+        "name": "Billy Scott",
+        "position": "Interchange",
+        "category": "reserve"
+      },
+      {
+        "number": 21,
+        "name": "Sione Fonua",
+        "position": "Reserve",
+        "category": "reserve"
+      }
+    ]
+  },
+  "casualties": {
+    "Brisbane Broncos": [
+      {
+        "name": "Kotoni Staggs",
+        "injury": "Suspension",
+        "expectedReturn": "Round 12"
+      },
+      {
+        "name": "Benjamin Te Kura",
+        "injury": "Personal",
+        "expectedReturn": "Round 12"
+      },
+      {
+        "name": "Blake Mozer",
+        "injury": "Jaw",
+        "expectedReturn": "Round 13"
+      },
+      {
+        "name": "Payne Haas",
+        "injury": "Knee",
+        "expectedReturn": "Round 14"
+      },
+      {
+        "name": "Delouise Hoeter",
+        "injury": "Leg",
+        "expectedReturn": "Round 15"
+      },
+      {
+        "name": "Grant Anderson",
+        "injury": "Knee",
+        "expectedReturn": "Round 16"
+      },
+      {
+        "name": "Corey Jensen",
+        "injury": "Lung",
+        "expectedReturn": "TBC"
+      },
+      {
+        "name": "Deine Mariner",
+        "injury": "Thigh",
+        "expectedReturn": "TBC"
+      },
+      {
+        "name": "Brendan Piakura",
+        "injury": "Knee",
+        "expectedReturn": "TBC"
+      },
+      {
+        "name": "Adam Reynolds",
+        "injury": "Head knock",
+        "expectedReturn": "TBC"
+      },
+      {
+        "name": "Billy Walters",
+        "injury": "ACL",
+        "expectedReturn": "TBC"
+      }
+    ],
+    "Canterbury Bulldogs": [
+      {
+        "name": "Matt Burton",
+        "injury": "Illness",
+        "expectedReturn": "Round 11"
+      },
+      {
+        "name": "Jacob Kiraz",
+        "injury": "Knee",
+        "expectedReturn": "Round 12"
+      },
+      {
+        "name": "Viliame Kikau",
+        "injury": "Pectoral",
+        "expectedReturn": "Round 20"
+      },
+      {
+        "name": "Max King",
+        "injury": "Jaw",
+        "expectedReturn": "TBC"
+      },
+      {
+        "name": "Kurt Mann",
+        "injury": "Head knock",
+        "expectedReturn": "TBC"
+      },
+      {
+        "name": "Jake Turpin",
+        "injury": "Biceps",
+        "expectedReturn": "TBC"
+      },
+      {
+        "name": "Mitchell Woods",
+        "injury": "Hamstring",
+        "expectedReturn": "TBC"
+      }
+    ],
+    "North Queensland Cowboys": [
+      {
+        "name": "Murray Taulagi",
+        "injury": "Concussion",
+        "expectedReturn": "Round 12"
+      },
+      {
+        "name": "Jeremiah Nanai",
+        "injury": "Shoulder",
+        "expectedReturn": "Round 13"
+      },
+      {
+        "name": "Soni Luke",
+        "injury": "Knee",
+        "expectedReturn": "Round 14"
+      },
+      {
+        "name": "Tom Dearden",
+        "injury": "Ankle",
+        "expectedReturn": "Round 16"
+      }
+    ],
+    "Dolphins": [
+      {
+        "name": "Kurt Donoghoe",
+        "injury": "Hamstring",
+        "expectedReturn": "Round 11"
+      },
+      {
+        "name": "Jake Averillo",
+        "injury": "Hand",
+        "expectedReturn": "Round 15"
+      },
+      {
+        "name": "Francis Molo",
+        "injury": "Ankle",
+        "expectedReturn": "TBC"
+      },
+      {
+        "name": "Daniel Saifiti",
+        "injury": "Shoulder",
+        "expectedReturn": "TBC"
+      }
+    ],
+    "St George Illawarra Dragons": [
+      {
+        "name": "Daniel Atkinson",
+        "injury": "Hand",
+        "expectedReturn": "Round 11"
+      },
+      {
+        "name": "Luciano Leilua",
+        "injury": "Suspension",
+        "expectedReturn": "Round 11"
+      },
+      {
+        "name": "Moses Suli",
+        "injury": "Back",
+        "expectedReturn": "Round 11"
+      },
+      {
+        "name": "Jaydn Su'A",
+        "injury": "Suspension",
+        "expectedReturn": "Round 12"
+      },
+      {
+        "name": "David Fale",
+        "injury": "Hamstring",
+        "expectedReturn": "TBC"
+      },
+      {
+        "name": "Mathew Feagai",
+        "injury": "Back",
+        "expectedReturn": "TBC"
+      },
+      {
+        "name": "Valentine Holmes",
+        "injury": "Shoulder",
+        "expectedReturn": "TBC"
+      },
+      {
+        "name": "Nathan Lawson",
+        "injury": "Head knock",
+        "expectedReturn": "TBC"
+      },
+      {
+        "name": "Jacob Liddle",
+        "injury": "Hamstring",
+        "expectedReturn": "TBC"
+      }
+    ],
+    "Parramatta Eels": [
+      {
+        "name": "Jonah Pezet",
+        "injury": "Suspension",
+        "expectedReturn": "Round 11"
+      },
+      {
+        "name": "Ryley Smith",
+        "injury": "Sternum",
+        "expectedReturn": "Round 11"
+      },
+      {
+        "name": "Isaiah Iongi",
+        "injury": "Ankle",
+        "expectedReturn": "Round 13"
+      },
+      {
+        "name": "Sam Tuivaiti",
+        "injury": "Shoulder",
+        "expectedReturn": "Round 13"
+      },
+      {
+        "name": "Apa Twidle",
+        "injury": "Shoulder",
+        "expectedReturn": "Round 13"
+      },
+      {
+        "name": "Will Penisini",
+        "injury": "Groin",
+        "expectedReturn": "TBC"
+      },
+      {
+        "name": "Bailey Simonsson",
+        "injury": "Ankle",
+        "expectedReturn": "TBC"
+      },
+      {
+        "name": "Matt Doorey",
+        "injury": "Knee",
+        "expectedReturn": "Next Season"
+      },
+      {
+        "name": "J'maine Hopgood",
+        "injury": "ACL",
+        "expectedReturn": "Next Season"
+      }
+    ],
+    "Newcastle Knights": [
+      {
+        "name": "Thomas Cant",
+        "injury": "Calf",
+        "expectedReturn": "Round 11"
+      }
+    ],
+    "Penrith Panthers": [
+      {
+        "name": "Mitch Kenny",
+        "injury": "Leg",
+        "expectedReturn": "Round 17"
+      },
+      {
+        "name": "Liam Martin",
+        "injury": "Knee",
+        "expectedReturn": "TBC"
+      }
+    ],
+    "South Sydney Rabbitohs": [
+      {
+        "name": "David Fifita",
+        "injury": "Hamstring",
+        "expectedReturn": "Round 12"
+      },
+      {
+        "name": "Jamie Humphreys",
+        "injury": "Knee",
+        "expectedReturn": "Round 12"
+      },
+      {
+        "name": "Latrell Mitchell",
+        "injury": "Back",
+        "expectedReturn": "Round 12"
+      },
+      {
+        "name": "Jack Wighton",
+        "injury": "Arm",
+        "expectedReturn": "Round 18"
+      },
+      {
+        "name": "Brandon Smith",
+        "injury": "Calf",
+        "expectedReturn": "TBC"
+      },
+      {
+        "name": "Isaiah Tass",
+        "injury": "ACL",
+        "expectedReturn": "TBC"
+      },
+      {
+        "name": "Jai Arrow",
+        "injury": "Shoulder",
+        "expectedReturn": "Indefinite"
+      }
+    ],
+    "Canberra Raiders": [
+      {
+        "name": "Josh Papalii",
+        "injury": "Calf",
+        "expectedReturn": "Round 14"
+      },
+      {
+        "name": "Joe Roddy",
+        "injury": "Hand",
+        "expectedReturn": "Round 14"
+      },
+      {
+        "name": "Xavier Savage",
+        "injury": "Ankle",
+        "expectedReturn": "Round 14"
+      },
+      {
+        "name": "Noah Martin",
+        "injury": "Ankle",
+        "expectedReturn": "TBC"
+      },
+      {
+        "name": "Zac Hosking",
+        "injury": "Concussion",
+        "expectedReturn": "Indefinite"
+      }
+    ],
+    "Sydney Roosters": [
+      {
+        "name": "Billy Smith",
+        "injury": "Knee",
+        "expectedReturn": "Round 11"
+      },
+      {
+        "name": "Tommy Talau",
+        "injury": "Calf",
+        "expectedReturn": "Round 11"
+      },
+      {
+        "name": "Mark Nawaqanitawase",
+        "injury": "Ankle",
+        "expectedReturn": "Round 15"
+      },
+      {
+        "name": "Lindsay Collins",
+        "injury": "Head knock",
+        "expectedReturn": "TBC"
+      },
+      {
+        "name": "Blake Steep",
+        "injury": "ACL",
+        "expectedReturn": "Next Season"
+      }
+    ],
+    "Manly Warringah Sea Eagles": [
+      {
+        "name": "Jamal Fogarty",
+        "injury": "Groin",
+        "expectedReturn": "Round 11"
+      },
+      {
+        "name": "Tom Trbojevic",
+        "injury": "Hamstring",
+        "expectedReturn": "Round 13"
+      },
+      {
+        "name": "Corey Waddell",
+        "injury": "Pectoral",
+        "expectedReturn": "Round 21"
+      },
+      {
+        "name": "Kobe Hetherington",
+        "injury": "Concussion",
+        "expectedReturn": "TBC"
+      },
+      {
+        "name": "Caleb Navale",
+        "injury": "ACL",
+        "expectedReturn": "TBC"
+      },
+      {
+        "name": "Siosiua Taukeiaho",
+        "injury": "Leg",
+        "expectedReturn": "TBC"
+      }
+    ],
+    "Cronulla Sutherland Sharks": [
+      {
+        "name": "Jesse Ramien",
+        "injury": "Knee",
+        "expectedReturn": "Round 11"
+      },
+      {
+        "name": "Sione Katoa",
+        "injury": "Ankle",
+        "expectedReturn": "Round 14"
+      },
+      {
+        "name": "Blayke Brailey",
+        "injury": "Head knock",
+        "expectedReturn": "TBC"
+      },
+      {
+        "name": "Liam Ison",
+        "injury": "Knee",
+        "expectedReturn": "TBC"
+      },
+      {
+        "name": "Ronaldo Mulitalo",
+        "injury": "ACL",
+        "expectedReturn": "TBC"
+      }
+    ],
+    "Melbourne Storm": [
+      {
+        "name": "Xavier Coates",
+        "injury": "Achilles",
+        "expectedReturn": "Round 12"
+      },
+      {
+        "name": "Tyran Wishart",
+        "injury": "Ankle",
+        "expectedReturn": "Round 15"
+      },
+      {
+        "name": "Alec MacDonald",
+        "injury": "Hamstring",
+        "expectedReturn": "TBC"
+      },
+      {
+        "name": "Marion Seve",
+        "injury": "Triceps",
+        "expectedReturn": "TBC"
+      },
+      {
+        "name": "Eliesa Katoa",
+        "injury": "Concussion",
+        "expectedReturn": "Indefinite"
+      }
+    ],
+    "Gold Coast Titans": [
+      {
+        "name": "Tukimihia Simpkins",
+        "injury": "Knee",
+        "expectedReturn": "Round 12"
+      },
+      {
+        "name": "Sialetili Faeamani",
+        "injury": "Knee",
+        "expectedReturn": "Round 13"
+      },
+      {
+        "name": "Brock Gray",
+        "injury": "ACL",
+        "expectedReturn": "TBC"
+      },
+      {
+        "name": "Jaimin Jolliffe",
+        "injury": "Knee",
+        "expectedReturn": "Next Season"
+      }
+    ],
+    "New Zealand Warriors": [
+      {
+        "name": "Rocco Berry",
+        "injury": "Shoulder",
+        "expectedReturn": "Round 11"
+      },
+      {
+        "name": "Jye Linnane",
+        "injury": "Knee",
+        "expectedReturn": "Round 12"
+      },
+      {
+        "name": "Wayde Egan",
+        "injury": "Head knock",
+        "expectedReturn": "TBC"
+      },
+      {
+        "name": "Roger Tuivasa-Sheck",
+        "injury": "Shoulder",
+        "expectedReturn": "TBC"
+      }
+    ],
+    "Wests Tigers": [
+      {
+        "name": "Apisai Koroisau",
+        "injury": "Suspension",
+        "expectedReturn": "Round 13"
+      },
+      {
+        "name": "Heamasi Makasini",
+        "injury": "Foot",
+        "expectedReturn": "Round 13"
+      },
+      {
+        "name": "Jahream Bula",
+        "injury": "Shoulder",
+        "expectedReturn": "Round 15"
+      },
+      {
+        "name": "Adam Doueihi",
+        "injury": "Shoulder",
+        "expectedReturn": "Round 16"
+      },
+      {
+        "name": "Samuela Fainu",
+        "injury": "Foot",
+        "expectedReturn": "Round 22"
+      }
+    ]
+  }
+}

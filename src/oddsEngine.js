@@ -335,6 +335,7 @@ function buildGameEntry(apiGame, id) {
     homeTeam: { name: apiGame.homeTeam, emoji: homeData.emoji, shortName: homeData.shortName, record: '' },
     awayTeam: { name: apiGame.awayTeam, emoji: awayData.emoji, shortName: awayData.shortName, record: '' },
     time: timeStr,
+    commenceTime: apiGame.commenceTime,
     venue: homeData.venue ?? 'TBC',
     broadcaster: getBroadcaster(dt),
     isLive: false,

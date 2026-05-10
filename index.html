@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>NRL Betting Guide — Learn Smart, Bet Informed</title>
-  <link rel="stylesheet" href="src/styles.css?v=8" />
+  <link rel="stylesheet" href="src/styles.css?v=22" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Barlow+Condensed:wght@600;700;800&display=swap" rel="stylesheet" />
 </head>
@@ -24,7 +24,7 @@
         <a href="#calculator">Calculator</a>
       </nav>
       <div class="nav__badge">
-        <span class="pulse"></span> Round 12 — Live
+        <span class="pulse"></span> <span id="roundBadgeLabel">Round 10 — Live</span>
       </div>
     </div>
   </header>
@@ -164,7 +164,7 @@
       <div class="container">
         <div class="stats-row">
           <div class="stat">
-            <span class="stat__num">35</span>
+            <span class="stat__num">41</span>
             <span class="stat__label">Bet Types Explained</span>
           </div>
           <div class="stat">
@@ -184,6 +184,53 @@
     </div>
   </section>
 
+  <!-- LADDER -->
+  <section class="section" id="ladder">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-label">NRL Premiership</div>
+        <h2 class="section-title">2026 Ladder</h2>
+        <p class="section-sub" id="ladderSub">Loading ladder…</p>
+      </div>
+      <div class="ladder-wrap">
+        <table class="ladder-table" id="ladderTable">
+          <thead>
+            <tr>
+              <th class="col-pos">#</th>
+              <th class="col-team">Team</th>
+              <th class="col-num">P</th>
+              <th class="col-num">W</th>
+              <th class="col-num">L</th>
+              <th class="col-num">Diff</th>
+              <th class="col-pts">Pts</th>
+              <th class="col-streak">Streak</th>
+            </tr>
+          </thead>
+          <tbody id="ladderBody">
+            <tr><td colspan="8" class="ladder-loading">Loading…</td></tr>
+          </tbody>
+        </table>
+        <div class="ladder-legend">
+          <span class="legend-item">
+            <span class="legend-swatch legend-swatch--top4"></span>Positions 1–4 (Top 4)
+          </span>
+          <span class="legend-item">
+            <span class="legend-swatch legend-swatch--top8"></span>Positions 5–8 (Finals zone)
+          </span>
+          <span class="legend-item">
+            <span class="legend-dash"></span>Finals cut-off line
+          </span>
+          <span class="legend-item">
+            <span class="legend-streak legend-streak--w">3W</span>&nbsp;Win streak
+          </span>
+          <span class="legend-item">
+            <span class="legend-streak legend-streak--l">2L</span>&nbsp;Loss streak
+          </span>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- BET TYPES -->
   <section class="section" id="bet-types">
     <div class="container">
@@ -194,56 +241,91 @@
       </div>
 
       <div class="category-filters">
-        <button class="cat-btn active" data-cat="all">All (35)</button>
-        <button class="cat-btn" data-cat="match">Match Result</button>
-        <button class="cat-btn" data-cat="points">Points Markets</button>
-        <button class="cat-btn" data-cat="try">Try Scorers</button>
-        <button class="cat-btn" data-cat="half">Half Markets</button>
-        <button class="cat-btn" data-cat="multi">Multi &amp; Special</button>
+        <button class="cat-btn active" data-cat="all">All (41)</button>
+        <button class="cat-btn" data-cat="win">Win</button>
+        <button class="cat-btn" data-cat="handicap">Handicap</button>
+        <button class="cat-btn" data-cat="match">Match</button>
+        <button class="cat-btn" data-cat="margin">Margin</button>
+        <button class="cat-btn" data-cat="totalpoints">Total Points</button>
+        <button class="cat-btn" data-cat="totaltries">Total Tries</button>
+        <button class="cat-btn" data-cat="tryscorer">Tryscorer</button>
+        <button class="cat-btn" data-cat="player">Player</button>
+        <button class="cat-btn" data-cat="playercombo">Player Combo</button>
+        <button class="cat-btn" data-cat="playerpoints">Player Points</button>
+        <button class="cat-btn" data-cat="exacttries">Exact Tries</button>
+        <button class="cat-btn" data-cat="mosttries">Most Tries H2H</button>
+        <button class="cat-btn" data-cat="firstandlast">1st &amp; Last</button>
+        <button class="cat-btn" data-cat="firsthalf">1st Half</button>
+        <button class="cat-btn" data-cat="secondhalf">2nd Half</button>
+        <button class="cat-btn" data-cat="timeof">Time Of</button>
+        <button class="cat-btn" data-cat="doubles">Doubles</button>
+        <button class="cat-btn" data-cat="earlypayout">Early Payouts</button>
         <button class="cat-btn" data-cat="futures">Futures</button>
       </div>
 
       <div class="bet-type-cards" id="betTypeCards">
-        <!-- Match Result -->
-        <div class="bt-card" data-tab="h2h" data-cat="match"><span class="bt-icon">🏆</span><div class="bt-info"><strong>Head to Head</strong><span>Pick the winner</span></div><span class="bt-risk risk--low">Low</span></div>
-        <div class="bt-card" data-tab="line" data-cat="match"><span class="bt-icon">📏</span><div class="bt-info"><strong>Line Betting</strong><span>Handicap market</span></div><span class="bt-risk risk--medium">Med</span></div>
-        <div class="bt-card" data-tab="margin" data-cat="match"><span class="bt-icon">🔢</span><div class="bt-info"><strong>Winning Margin</strong><span>Winner + margin band</span></div><span class="bt-risk risk--high">High</span></div>
-        <div class="bt-card" data-tab="bigwin" data-cat="match"><span class="bt-icon">💥</span><div class="bt-info"><strong>Big Win Little Win</strong><span>1–12pt or 13+ margin</span></div><span class="bt-risk risk--low">Low</span></div>
-        <div class="bt-card" data-tab="pickyourline" data-cat="match"><span class="bt-icon">🎛️</span><div class="bt-info"><strong>Pick Your Own Line</strong><span>Custom handicap price</span></div><span class="bt-risk risk--medium">Med</span></div>
+        <!-- Win Markets -->
+        <div class="bt-card" data-tab="h2h" data-cat="win"><span class="bt-icon">🏆</span><div class="bt-info"><strong>Head to Head</strong><span>Pick the winner</span></div><span class="bt-risk risk--low">Low</span></div>
+        <div class="bt-card" data-tab="bigwin" data-cat="win"><span class="bt-icon">💥</span><div class="bt-info"><strong>Big Win Little Win</strong><span>1–12pt or 13+ margin</span></div><span class="bt-risk risk--low">Low</span></div>
+        <!-- Handicap Markets -->
+        <div class="bt-card" data-tab="line" data-cat="handicap"><span class="bt-icon">📏</span><div class="bt-info"><strong>Line Betting</strong><span>Handicap market</span></div><span class="bt-risk risk--medium">Med</span></div>
+        <div class="bt-card" data-tab="pickyourline" data-cat="handicap"><span class="bt-icon">🎛️</span><div class="bt-info"><strong>Pick Your Own Line</strong><span>Custom handicap price</span></div><span class="bt-risk risk--medium">Med</span></div>
+        <!-- Match Markets -->
         <div class="bt-card" data-tab="halftime" data-cat="match"><span class="bt-icon">⏱️</span><div class="bt-info"><strong>Half-Time / Full-Time</strong><span>Leaders at both breaks</span></div><span class="bt-risk risk--medium">Med</span></div>
-        <!-- Points Markets -->
-        <div class="bt-card" data-tab="ou" data-cat="points"><span class="bt-icon">📈</span><div class="bt-info"><strong>Over / Under</strong><span>Total points scored</span></div><span class="bt-risk risk--low">Low</span></div>
-        <div class="bt-card" data-tab="teamtotal" data-cat="points"><span class="bt-icon">🎯</span><div class="bt-info"><strong>Team Total Points</strong><span>One team's score O/U</span></div><span class="bt-risk risk--low">Low</span></div>
-        <div class="bt-card" data-tab="tries" data-cat="points"><span class="bt-icon">✋</span><div class="bt-info"><strong>Total Tries</strong><span>Over/under on try count</span></div><span class="bt-risk risk--low">Low</span></div>
-        <div class="bt-card" data-tab="teamscorecombo" data-cat="points"><span class="bt-icon">🔀</span><div class="bt-info"><strong>Team Score Combo</strong><span>Score range for both teams</span></div><span class="bt-risk risk--high">High</span></div>
-        <div class="bt-card" data-tab="race" data-cat="points"><span class="bt-icon">🏎️</span><div class="bt-info"><strong>Race to 10 Points</strong><span>Who scores 10 pts first</span></div><span class="bt-risk risk--medium">Med</span></div>
-        <!-- Try Scorers -->
-        <div class="bt-card" data-tab="fts" data-cat="try"><span class="bt-icon">⚡</span><div class="bt-info"><strong>First Try Scorer</strong><span>Who scores the first try</span></div><span class="bt-risk risk--high">High</span></div>
-        <div class="bt-card" data-tab="lts" data-cat="try"><span class="bt-icon">🔚</span><div class="bt-info"><strong>Last Try Scorer</strong><span>Who scores the last try</span></div><span class="bt-risk risk--high">High</span></div>
-        <div class="bt-card" data-tab="anytime" data-cat="try"><span class="bt-icon">🌟</span><div class="bt-info"><strong>1+ Try Scorer</strong><span>Score at any point</span></div><span class="bt-risk risk--medium">Med</span></div>
-        <div class="bt-card" data-tab="twoplus" data-cat="try"><span class="bt-icon">✌️</span><div class="bt-info"><strong>2+ Try Scorer</strong><span>Player scores 2 or more</span></div><span class="bt-risk risk--high">High</span></div>
-        <div class="bt-card" data-tab="threeplus" data-cat="try"><span class="bt-icon">3️⃣</span><div class="bt-info"><strong>3+ Try Scorer</strong><span>Hat-trick or more</span></div><span class="bt-risk risk--high">High</span></div>
-        <div class="bt-card" data-tab="firstsecondthird" data-cat="try"><span class="bt-icon">🥉</span><div class="bt-info"><strong>1st, 2nd or 3rd Try</strong><span>Score in first 3 tries</span></div><span class="bt-risk risk--medium">Med</span></div>
-        <div class="bt-card" data-tab="bothhalf" data-cat="try"><span class="bt-icon">🔁</span><div class="bt-info"><strong>Try Scorer Both Halves</strong><span>Score in each half</span></div><span class="bt-risk risk--high">High</span></div>
-        <div class="bt-card" data-tab="scorecast" data-cat="try"><span class="bt-icon">🎪</span><div class="bt-info"><strong>Scorecast</strong><span>First try scorer + winner</span></div><span class="bt-risk risk--high">High</span></div>
-        <div class="bt-card" data-tab="firstandlast" data-cat="try"><span class="bt-icon">🎬</span><div class="bt-info"><strong>1st &amp; Last to Score</strong><span>First AND last try scorer</span></div><span class="bt-risk risk--high">High</span></div>
-        <div class="bt-card" data-tab="mosttries" data-cat="try"><span class="bt-icon">⚔️</span><div class="bt-info"><strong>Most Tries H2H</strong><span>Which player scores more</span></div><span class="bt-risk risk--medium">Med</span></div>
-        <div class="bt-card" data-tab="timeofmarkets" data-cat="try"><span class="bt-icon">⌚</span><div class="bt-info"><strong>Time of Try Markets</strong><span>Exact minute window</span></div><span class="bt-risk risk--high">High</span></div>
-        <!-- Team Markets -->
-        <div class="bt-card" data-tab="firstteam" data-cat="points"><span class="bt-icon">🚀</span><div class="bt-info"><strong>First Try Scoring Team</strong><span>Which team scores first</span></div><span class="bt-risk risk--low">Low</span></div>
-        <div class="bt-card" data-tab="bothteams" data-cat="points"><span class="bt-icon">🤝</span><div class="bt-info"><strong>Both Teams to Score</strong><span>Will both teams get a try?</span></div><span class="bt-risk risk--low">Low</span></div>
-        <div class="bt-card" data-tab="winboth" data-cat="points"><span class="bt-icon">🔒</span><div class="bt-info"><strong>Team to Win Both Halves</strong><span>Lead in each half</span></div><span class="bt-risk risk--medium">Med</span></div>
-        <div class="bt-card" data-tab="score20" data-cat="points"><span class="bt-icon">🔥</span><div class="bt-info"><strong>Team to Score 20+/30+</strong><span>Points milestone market</span></div><span class="bt-risk risk--medium">Med</span></div>
-        <!-- Half Markets -->
-        <div class="bt-card" data-tab="firsthalf" data-cat="half"><span class="bt-icon">1️⃣</span><div class="bt-info"><strong>First Half Markets</strong><span>H2H &amp; O/U for first 40</span></div><span class="bt-risk risk--medium">Med</span></div>
-        <div class="bt-card" data-tab="secondhalf" data-cat="half"><span class="bt-icon">2️⃣</span><div class="bt-info"><strong>Second Half Markets</strong><span>H2H &amp; O/U for last 40</span></div><span class="bt-risk risk--medium">Med</span></div>
-        <!-- Multi & Special -->
-        <div class="bt-card" data-tab="multi" data-cat="multi"><span class="bt-icon">🎰</span><div class="bt-info"><strong>Multi Bets</strong><span>Combine multiple games</span></div><span class="bt-risk risk--high">High</span></div>
-        <div class="bt-card" data-tab="sgm" data-cat="multi"><span class="bt-icon">🔗</span><div class="bt-info"><strong>Same Game Multi</strong><span>Multiple picks, one game</span></div><span class="bt-risk risk--high">High</span></div>
-        <div class="bt-card" data-tab="playercombo" data-cat="multi"><span class="bt-icon">🧩</span><div class="bt-info"><strong>Player Combo Markets</strong><span>Combine player stat legs</span></div><span class="bt-risk risk--high">High</span></div>
-        <div class="bt-card" data-tab="metres" data-cat="multi"><span class="bt-icon">📏</span><div class="bt-info"><strong>Player Metres Run</strong><span>Over/under on run metres</span></div><span class="bt-risk risk--medium">Med</span></div>
-        <div class="bt-card" data-tab="tackles" data-cat="multi"><span class="bt-icon">🦺</span><div class="bt-info"><strong>Player Tackles Made</strong><span>Over/under on tackles</span></div><span class="bt-risk risk--medium">Med</span></div>
-        <div class="bt-card" data-tab="performance" data-cat="multi"><span class="bt-icon">⭐</span><div class="bt-info"><strong>Player Performance Pts</strong><span>Composite fantasy score</span></div><span class="bt-risk risk--medium">Med</span></div>
+        <div class="bt-card" data-tab="bothteams" data-cat="match"><span class="bt-icon">🤝</span><div class="bt-info"><strong>Both Teams to Score</strong><span>Will both teams get a try?</span></div><span class="bt-risk risk--low">Low</span></div>
+        <div class="bt-card" data-tab="winboth" data-cat="match"><span class="bt-icon">🔒</span><div class="bt-info"><strong>Team to Win Both Halves</strong><span>Lead in each half</span></div><span class="bt-risk risk--medium">Med</span></div>
+        <div class="bt-card" data-tab="score20" data-cat="match"><span class="bt-icon">🔥</span><div class="bt-info"><strong>Team to Score 20+/30+</strong><span>Points milestone market</span></div><span class="bt-risk risk--medium">Med</span></div>
+        <div class="bt-card" data-tab="teamscorecombo" data-cat="match"><span class="bt-icon">🔀</span><div class="bt-info"><strong>Team Score Combo</strong><span>Score range for both teams</span></div><span class="bt-risk risk--high">High</span></div>
+        <!-- Margin Markets -->
+        <div class="bt-card" data-tab="margin" data-cat="margin"><span class="bt-icon">🔢</span><div class="bt-info"><strong>Winning Margin</strong><span>Winner + margin band</span></div><span class="bt-risk risk--high">High</span></div>
+        <!-- Total Points Markets -->
+        <div class="bt-card" data-tab="ou" data-cat="totalpoints"><span class="bt-icon">📈</span><div class="bt-info"><strong>Over / Under</strong><span>Total points scored</span></div><span class="bt-risk risk--low">Low</span></div>
+        <div class="bt-card" data-tab="teamtotal" data-cat="totalpoints"><span class="bt-icon">🎯</span><div class="bt-info"><strong>Team Total Points</strong><span>One team's score O/U</span></div><span class="bt-risk risk--low">Low</span></div>
+        <div class="bt-card" data-tab="race" data-cat="totalpoints"><span class="bt-icon">🏎️</span><div class="bt-info"><strong>Race to 10 Points</strong><span>Who scores 10 pts first</span></div><span class="bt-risk risk--medium">Med</span></div>
+        <div class="bt-card" data-tab="firstteam" data-cat="totalpoints"><span class="bt-icon">🚀</span><div class="bt-info"><strong>First Try Scoring Team</strong><span>Which team scores first</span></div><span class="bt-risk risk--low">Low</span></div>
+        <!-- Total Tries Markets -->
+        <div class="bt-card" data-tab="tries" data-cat="totaltries"><span class="bt-icon">✋</span><div class="bt-info"><strong>Total Tries</strong><span>Over/under on try count</span></div><span class="bt-risk risk--low">Low</span></div>
+        <!-- Tryscorer Markets -->
+        <div class="bt-card" data-tab="fts" data-cat="tryscorer"><span class="bt-icon">⚡</span><div class="bt-info"><strong>First Try Scorer</strong><span>Who scores the first try</span></div><span class="bt-risk risk--high">High</span></div>
+        <div class="bt-card" data-tab="lts" data-cat="tryscorer"><span class="bt-icon">🔚</span><div class="bt-info"><strong>Last Try Scorer</strong><span>Who scores the last try</span></div><span class="bt-risk risk--high">High</span></div>
+        <div class="bt-card" data-tab="anytime" data-cat="tryscorer"><span class="bt-icon">🌟</span><div class="bt-info"><strong>1+ Try Scorer</strong><span>Score at any point</span></div><span class="bt-risk risk--medium">Med</span></div>
+        <div class="bt-card" data-tab="twoplus" data-cat="tryscorer"><span class="bt-icon">✌️</span><div class="bt-info"><strong>2+ Try Scorer</strong><span>Player scores 2 or more</span></div><span class="bt-risk risk--high">High</span></div>
+        <div class="bt-card" data-tab="threeplus" data-cat="tryscorer"><span class="bt-icon">3️⃣</span><div class="bt-info"><strong>3+ Try Scorer</strong><span>Hat-trick or more</span></div><span class="bt-risk risk--high">High</span></div>
+        <div class="bt-card" data-tab="firstsecondthird" data-cat="tryscorer"><span class="bt-icon">🥉</span><div class="bt-info"><strong>1st, 2nd or 3rd Try</strong><span>Score in first 3 tries</span></div><span class="bt-risk risk--medium">Med</span></div>
+        <div class="bt-card" data-tab="bothhalf" data-cat="tryscorer"><span class="bt-icon">🔁</span><div class="bt-info"><strong>Try Scorer Both Halves</strong><span>Score in each half</span></div><span class="bt-risk risk--high">High</span></div>
+        <div class="bt-card" data-tab="scorecast" data-cat="tryscorer"><span class="bt-icon">🎪</span><div class="bt-info"><strong>Scorecast</strong><span>First try scorer + winner</span></div><span class="bt-risk risk--high">High</span></div>
+        <!-- Player Markets -->
+        <div class="bt-card" data-tab="metres" data-cat="player"><span class="bt-icon">📏</span><div class="bt-info"><strong>Player Metres Run</strong><span>Over/under on run metres</span></div><span class="bt-risk risk--medium">Med</span></div>
+        <div class="bt-card" data-tab="tackles" data-cat="player"><span class="bt-icon">🦺</span><div class="bt-info"><strong>Player Tackles Made</strong><span>Over/under on tackles</span></div><span class="bt-risk risk--medium">Med</span></div>
+        <div class="bt-card" data-tab="performance" data-cat="player"><span class="bt-icon">⭐</span><div class="bt-info"><strong>Player Performance Pts</strong><span>Composite fantasy score</span></div><span class="bt-risk risk--medium">Med</span></div>
+        <div class="bt-card" data-tab="props" data-cat="player"><span class="bt-icon">🎲</span><div class="bt-info"><strong>Player Props</strong><span>Goals, errors, offloads</span></div><span class="bt-risk risk--medium">Med</span></div>
+        <!-- Player Combo Markets -->
+        <div class="bt-card" data-tab="playercombo" data-cat="playercombo"><span class="bt-icon">🧩</span><div class="bt-info"><strong>Player Combo Markets</strong><span>Combine player stat legs</span></div><span class="bt-risk risk--high">High</span></div>
+        <!-- Player Points Scored -->
+        <div class="bt-card" data-tab="playerpoints" data-cat="playerpoints"><span class="bt-icon">🔢</span><div class="bt-info"><strong>Player Points Scored</strong><span>Over/under player's total pts</span></div><span class="bt-risk risk--medium">Med</span></div>
+        <!-- Player Exact Tries Scored -->
+        <div class="bt-card" data-tab="exacttries" data-cat="exacttries"><span class="bt-icon">🎯</span><div class="bt-info"><strong>Player Exact Tries</strong><span>0, 1, 2, or 3+ tries exactly</span></div><span class="bt-risk risk--high">High</span></div>
+        <!-- Most Tries H2H -->
+        <div class="bt-card" data-tab="mosttries" data-cat="mosttries"><span class="bt-icon">⚔️</span><div class="bt-info"><strong>Most Tries H2H</strong><span>Which player scores more</span></div><span class="bt-risk risk--medium">Med</span></div>
+        <!-- 1st & Last to Score -->
+        <div class="bt-card" data-tab="firstandlast" data-cat="firstandlast"><span class="bt-icon">🎬</span><div class="bt-info"><strong>1st &amp; Last to Score</strong><span>First AND last try scorer</span></div><span class="bt-risk risk--high">High</span></div>
+        <!-- 1st Half Markets -->
+        <div class="bt-card" data-tab="firsthalf" data-cat="firsthalf"><span class="bt-icon">1️⃣</span><div class="bt-info"><strong>1st Half Markets</strong><span>H2H &amp; O/U for first 40</span></div><span class="bt-risk risk--medium">Med</span></div>
+        <!-- 2nd Half Markets -->
+        <div class="bt-card" data-tab="secondhalf" data-cat="secondhalf"><span class="bt-icon">2️⃣</span><div class="bt-info"><strong>2nd Half Markets</strong><span>H2H &amp; O/U for last 40</span></div><span class="bt-risk risk--medium">Med</span></div>
+        <!-- Time Of Markets -->
+        <div class="bt-card" data-tab="timeofmarkets" data-cat="timeof"><span class="bt-icon">⌚</span><div class="bt-info"><strong>Time Of Markets</strong><span>10-min window of first try</span></div><span class="bt-risk risk--high">High</span></div>
+        <!-- Exact Minute of 1st Try -->
+        <div class="bt-card" data-tab="exactminute" data-cat="timeof"><span class="bt-icon">🕐</span><div class="bt-info"><strong>Exact Minute of 1st Try</strong><span>Min 1–40 or 40+ catchall</span></div><span class="bt-risk risk--high">High</span></div>
+        <!-- Exact Minute of Last Try -->
+        <div class="bt-card" data-tab="exactminutelast" data-cat="timeof"><span class="bt-icon">🏁</span><div class="bt-info"><strong>Exact Minute of Last Try</strong><span>Min 1–40 or 40+ catchall</span></div><span class="bt-risk risk--high">High</span></div>
+        <!-- Time of 1st Team Try -->
+        <div class="bt-card" data-tab="timeofteam" data-cat="timeof"><span class="bt-icon">🏟️</span><div class="bt-info"><strong>Time of 1st Team Try</strong><span>Home &amp; away team timing</span></div><span class="bt-risk risk--high">High</span></div>
+        <!-- Doubles Markets -->
+        <div class="bt-card" data-tab="multi" data-cat="doubles"><span class="bt-icon">🎰</span><div class="bt-info"><strong>Multi / Doubles</strong><span>Combine 2+ games</span></div><span class="bt-risk risk--high">High</span></div>
+        <div class="bt-card" data-tab="sgm" data-cat="doubles"><span class="bt-icon">🔗</span><div class="bt-info"><strong>Same Game Multi</strong><span>Multiple picks, one game</span></div><span class="bt-risk risk--high">High</span></div>
+        <!-- Early Payouts -->
+        <div class="bt-card" data-tab="earlypayout" data-cat="earlypayout"><span class="bt-icon">💸</span><div class="bt-info"><strong>Early Payouts</strong><span>Paid if team builds big lead</span></div><span class="bt-risk risk--low">Low</span></div>
         <!-- Futures -->
         <div class="bt-card" data-tab="futures" data-cat="futures"><span class="bt-icon">🏅</span><div class="bt-info"><strong>Season Futures</strong><span>Premiership, Top 8, awards</span></div><span class="bt-risk risk--medium">Med</span></div>
       </div>
@@ -263,82 +345,37 @@
         <span id="oddsUpdated" style="display:none;font-size:0.75rem;color:var(--nrl-green);margin-top:4px;display:block"></span>
       </div>
 
-      <div class="odds-filter">
-        <button class="filter-btn active" data-filter="all">All Games</button>
-        <button class="filter-btn" data-filter="h2h">H2H</button>
-        <button class="filter-btn" data-filter="line">Line</button>
-        <button class="filter-btn" data-filter="ou">Over/Under</button>
+      <div class="odds-filter" id="oddsFilter">
+        <button class="filter-btn active" data-filter="all">All Markets</button>
+        <div class="filter-divider"></div>
+        <button class="filter-btn" data-filter="win">Win</button>
+        <button class="filter-btn" data-filter="handicap">Handicap</button>
+        <button class="filter-btn" data-filter="match">Match</button>
+        <button class="filter-btn" data-filter="margin">Margin</button>
+        <button class="filter-btn" data-filter="totalPoints">Total Points</button>
+        <button class="filter-btn" data-filter="totalTries">Total Tries</button>
+        <button class="filter-btn" data-filter="tryscorer">Tryscorer</button>
+        <button class="filter-btn" data-filter="player">Player</button>
+        <button class="filter-btn" data-filter="playerCombo">Player Combo</button>
+        <button class="filter-btn" data-filter="playerPoints">Player Points</button>
+        <button class="filter-btn" data-filter="playerExact">Exact Tries</button>
+        <button class="filter-btn" data-filter="mostTries">Most Tries H2H</button>
+        <button class="filter-btn" data-filter="firstLast">1st &amp; Last</button>
+        <button class="filter-btn" data-filter="firstHalf">1st Half</button>
+        <button class="filter-btn" data-filter="secondHalf">2nd Half</button>
+        <button class="filter-btn" data-filter="timeOf">Time Of 1st Try</button>
+        <button class="filter-btn" data-filter="exactMinute">Exact Min 1st Try</button>
+        <button class="filter-btn" data-filter="exactMinuteLast">Exact Min Last Try</button>
+        <button class="filter-btn" data-filter="timeOfTeam">Time Of Team Try</button>
+        <button class="filter-btn" data-filter="doubles">Doubles</button>
+        <button class="filter-btn" data-filter="earlyPayout">Early Payout</button>
+        <button class="filter-btn" data-filter="byo">BYO</button>
       </div>
+      <p id="est-notice" style="display:none;font-size:0.76rem;color:var(--text-3,#8b949e);margin-top:-4px;margin-bottom:12px">
+        ⚡ Estimated odds — mathematically derived from live H2H prices. For educational reference only.
+      </p>
 
       <div class="games-grid" id="gamesGrid"></div>
-    </div>
-  </section>
-
-  <!-- ANALYSIS TOOL -->
-  <section class="section" id="analysis">
-    <div class="container">
-      <div class="section-header">
-        <div class="section-label">Make Better Decisions</div>
-        <h2 class="section-title">Bet Analysis Tool</h2>
-        <p class="section-sub">Enter the odds and our tool will show you the implied probability, expected value, and a risk assessment.</p>
-      </div>
-
-      <div class="analysis-grid">
-        <div class="analysis-inputs card">
-          <h3>Enter Your Bet</h3>
-          <div class="form-group">
-            <label>Decimal Odds</label>
-            <input type="number" id="anaOdds" value="2.10" step="0.05" min="1.01" />
-          </div>
-          <div class="form-group">
-            <label>Your Stake ($)</label>
-            <input type="number" id="anaStake" value="10" min="1" />
-          </div>
-          <div class="form-group">
-            <label>Your estimated win probability (%)</label>
-            <input type="number" id="anaProb" value="50" min="1" max="99" />
-            <small>Be honest — overconfidence is the #1 betting mistake</small>
-          </div>
-          <button class="btn btn--primary full-width" id="analyseBtn">Analyse Bet</button>
-        </div>
-
-        <div class="analysis-results card" id="anaResults">
-          <h3>Results</h3>
-          <div class="result-grid">
-            <div class="result-box">
-              <span class="result-label">Implied Probability</span>
-              <span class="result-val" id="anaImplied">—</span>
-              <span class="result-sub">What the bookmaker thinks</span>
-            </div>
-            <div class="result-box">
-              <span class="result-label">Your Estimate</span>
-              <span class="result-val" id="anaYours">—</span>
-              <span class="result-sub">What you think</span>
-            </div>
-            <div class="result-box">
-              <span class="result-label">Potential Return</span>
-              <span class="result-val" id="anaReturn">—</span>
-              <span class="result-sub">Includes stake</span>
-            </div>
-            <div class="result-box" id="anaEVBox">
-              <span class="result-label">Expected Value</span>
-              <span class="result-val" id="anaEV">—</span>
-              <span class="result-sub">Per $10 bet on average</span>
-            </div>
-          </div>
-          <div class="verdict-box" id="anaVerdict">Run the analysis to see your verdict here.</div>
-        </div>
-
-        <div class="card analysis-tips">
-          <h3>How to Read This</h3>
-          <ul class="tips-list">
-            <li><strong>Implied probability</strong> = 1 ÷ odds. If odds are $2.00, the bookmaker implies a 50% chance.</li>
-            <li><strong>Expected Value (EV)</strong> = does this bet make mathematical sense? Positive EV means you have an edge; negative EV means the bookmaker does.</li>
-            <li><strong>The goal</strong> is to find bets where your estimated probability is <em>higher</em> than the implied probability — that's where value lives.</li>
-            <li><strong>Warning:</strong> Most recreational bets are negative EV. That's fine — but know what you're signing up for.</li>
-          </ul>
-        </div>
-      </div>
     </div>
   </section>
 
@@ -435,10 +472,10 @@
     </div>
   </footer>
 
-  <script src="src/data.js?v=8"></script>
-  <script src="src/teamData.js?v=8"></script>
-  <script src="src/oddsEngine.js?v=8"></script>
-  <script src="src/betTypes.js?v=8"></script>
-  <script src="src/app.js?v=8"></script>
+  <script src="src/data.js?v=22"></script>
+  <script src="src/teamData.js?v=22"></script>
+  <script src="src/oddsEngine.js?v=22"></script>
+  <script src="src/betTypes.js?v=22"></script>
+  <script src="src/app.js?v=22"></script>
 </body>
 </html>

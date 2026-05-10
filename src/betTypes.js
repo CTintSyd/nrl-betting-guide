@@ -785,6 +785,101 @@ const BET_TYPES = {
       </div>`,
   },
 
+  exactminute: {
+    icon: '🕐', name: 'Exact Minute of 1st Try', risk: 'high', riskLabel: 'High Risk',
+    tagline: 'Pick the exact minute (1–40) the first try of the match is scored.',
+    desc: '<strong>Exact Minute of 1st Try</strong> lets you bet on the precise minute in which the game\'s first try is scored. You pick any individual minute from <strong>1 through 40</strong>, or back the <strong>"40+ min"</strong> catchall if you think the first try comes in the second half or later. Each minute is a separate selection — the odds reflect the probability of a try landing in that exact 60-second window based on historical NRL scoring patterns.',
+    example: 'You back <strong>Minute 8</strong> at <strong>$22</strong>. The first try arrives in the 8th minute. Your $10 bet returns <strong>$220.00</strong>.',
+    tips: [
+      { icon: '🚀', title: 'Minutes 6–10 are the sweet spot', body: 'Statistically the most common window for the first try in NRL — teams are warmed up but defences haven\'t yet settled. Odds around $22–24 for these minutes.' },
+      { icon: '💰', title: '"40+ min" is the value play', body: 'Roughly 30% of NRL games see no first-half try. "40+ min" pays ~$3.50 and covers the entire second half — a solid single-selection play.' },
+      { icon: '⚠️', title: 'Each minute is mutually exclusive', body: 'A try in minute 9 wins the "Min 9" bet only. Minutes 8 and 10 both lose. Precision is everything — combine with team scoring stats before picking.' },
+    ],
+    oddsHtml: `
+      <div class="odds-preview-card">
+        <div class="odds-match"><span>First Try of Match — Exact Minute (1–40) or 40+</span></div>
+        <div class="margin-table">
+          <div class="margin-row header"><span>Minute</span><span>Est. Odds</span></div>
+          <div class="margin-row"><span>Min 1</span><span>$66</span></div>
+          <div class="margin-row"><span>Min 2</span><span>$48</span></div>
+          <div class="margin-row"><span>Min 3</span><span>$39</span></div>
+          <div class="margin-row"><span>Min 4</span><span>$32</span></div>
+          <div class="margin-row"><span>Min 5</span><span>$28</span></div>
+          <div class="margin-row best-value"><span>Min 6</span><span>$24</span></div>
+          <div class="margin-row best-value"><span>Min 7</span><span>$22</span></div>
+          <div class="margin-row best-value"><span>Min 8</span><span>$22</span></div>
+          <div class="margin-row best-value"><span>Min 9</span><span>$24</span></div>
+          <div class="margin-row best-value"><span>Min 10</span><span>$28</span></div>
+          <div class="margin-row"><span>Min 11–15</span><span>$32–$53</span></div>
+          <div class="margin-row"><span>Min 16–20</span><span>$59–$82</span></div>
+          <div class="margin-row"><span>Min 21–30</span><span>$88–$151</span></div>
+          <div class="margin-row"><span>Min 31–40</span><span>$177–$303</span></div>
+          <div class="margin-row separator"><span></span></div>
+          <div class="margin-row best-value"><span>40+ min (catchall)</span><span>~$3.50</span></div>
+        </div>
+        <div class="odds-note">41 selections total: individual mins 1–40, plus one "40+ min" catchall. Estimated odds only.</div>
+      </div>`,
+  },
+
+  exactminutelast: {
+    icon: '🏁', name: 'Exact Minute of Last Try', risk: 'high', riskLabel: 'High Risk',
+    tagline: 'Pick the exact minute (1–40) the final try of the match is scored — or back the 40+ catchall.',
+    desc: '<strong>Exact Minute of Last Try</strong> mirrors the "Exact Minute of 1st Try" market but focuses on the <strong>final try</strong> scored in the match. You select any individual minute from <strong>1 through 40</strong>, or take the <strong>"40+ min"</strong> catchall which covers any last try scored in the second half. Because last tries overwhelmingly occur in the second half, the catchall pays around <strong>$1.60</strong> — while backing early minutes can return $100+.',
+    example: 'You back <strong>"40+ min" catchall</strong> at <strong>$1.63</strong>. The game\'s last try is scored in the 74th minute. Your $50 bet returns <strong>$81.50</strong>.',
+    tips: [
+      { icon: '💰', title: '"40+ min" is the standout play', body: 'In NRL, the last try almost always comes in the second half — the "40+ min" catchall covers ~65% of games at roughly $1.60. One of the safest single-market bets in this category.' },
+      { icon: '🎯', title: 'Late minutes of first half for value', body: 'Minutes 36–40 are the most common first-half window for a last try. Odds in the $38–$50 range — decent value if you think a side scores just before the break and the lead holds.' },
+      { icon: '⚠️', title: 'High odds early = very rare', body: 'A try in minute 1 being the last try of the game would require no further scoring — effectively a 1-0 nil-all scenario. Those $500 odds exist for a reason.' },
+    ],
+    oddsHtml: `
+      <div class="odds-preview-card">
+        <div class="odds-match"><span>Last Try of Match — Exact Minute (1–40) or 40+</span></div>
+        <div class="margin-table">
+          <div class="margin-row header"><span>Minute</span><span>Est. Odds</span></div>
+          <div class="margin-row"><span>Min 1–5</span><span>$501 (capped)</span></div>
+          <div class="margin-row"><span>Min 6–10</span><span>$530–$816</span></div>
+          <div class="margin-row"><span>Min 11–15</span><span>$303–$482</span></div>
+          <div class="margin-row"><span>Min 16–20</span><span>$186–$272</span></div>
+          <div class="margin-row"><span>Min 21–25</span><span>$119–$168</span></div>
+          <div class="margin-row"><span>Min 26–30</span><span>$80–$109</span></div>
+          <div class="margin-row"><span>Min 31–35</span><span>$55–$74</span></div>
+          <div class="margin-row best-value"><span>Min 36–40</span><span>$38–$51</span></div>
+          <div class="margin-row separator"><span></span></div>
+          <div class="margin-row best-value"><span>40+ min (catchall)</span><span>~$1.63</span></div>
+        </div>
+        <div class="odds-note">41 selections total: individual mins 1–40, plus one "40+ min" catchall. Estimated odds only.</div>
+      </div>`,
+  },
+
+  timeofteam: {
+    icon: '🏟️', name: 'Time of 1st Team Try', risk: 'high', riskLabel: 'High Risk',
+    tagline: 'Bet on when a specific team scores their first try of the match.',
+    desc: '<strong>Time of 1st Team Try</strong> lets you back a specific <strong>10-minute window</strong> for when either the home team or the away team scores their <em>first</em> try of the match. Unlike the general "Time of 1st Try" market, here you must pick which team scores first AND the time window. A "No Try" option is available if you think the team won\'t score at all.',
+    example: 'You back <strong>Melbourne Storm 1st Try: 11–20 min</strong> at <strong>$7.50</strong>. Melbourne\'s first try comes in the 17th minute. Your $10 bet returns <strong>$75.00</strong>.',
+    tips: [
+      { icon: '🏆', title: 'Favourite teams pay shorter', body: 'The stronger team is more likely to score in any given window — their odds will be lower than the underdog\'s. Back the underdog for better value if you think they score early.' },
+      { icon: '🛡️', title: '"No Try" for big mismatches', body: 'In heavy one-sided matchups, the underdog might not score at all. The "No Try" option for the weaker team often pays in the $4–$7 range.' },
+      { icon: '📊', title: 'Same strategy as general Time Of', body: 'Mins 0–20 see most first-team tries. If both teams are attack-minded, target the early windows for both sides.' },
+    ],
+    oddsHtml: `
+      <div class="odds-preview-card">
+        <div class="odds-match"><span>Melbourne Storm vs Wests Tigers — Time of 1st Team Try</span></div>
+        <div class="margin-table">
+          <div class="margin-row header"><span>Window</span><span>Storm (Fav)</span><span>Tigers (Dog)</span></div>
+          <div class="margin-row"><span>0–10 min</span><span>$6.50</span><span>$9.50</span></div>
+          <div class="margin-row best-value"><span>11–20 min</span><span>$5.50</span><span>$8.00</span></div>
+          <div class="margin-row"><span>21–30 min</span><span>$7.00</span><span>$10.00</span></div>
+          <div class="margin-row"><span>31–40 min</span><span>$8.00</span><span>$12.00</span></div>
+          <div class="margin-row"><span>41–50 min</span><span>$8.00</span><span>$12.00</span></div>
+          <div class="margin-row"><span>51–60 min</span><span>$7.00</span><span>$10.00</span></div>
+          <div class="margin-row"><span>61–70 min</span><span>$9.00</span><span>$13.00</span></div>
+          <div class="margin-row"><span>71–80 min</span><span>$11.00</span><span>$16.00</span></div>
+          <div class="margin-row"><span>No Try</span><span>$9.00</span><span>$5.00</span></div>
+        </div>
+        <div class="odds-note">9 selections per team (8 windows + No Try). Estimated odds only — adjust for team form.</div>
+      </div>`,
+  },
+
   mosttries: {
     icon: '⚔️', name: 'Most Tries Head to Head', risk: 'medium', riskLabel: 'Medium Risk',
     tagline: 'Which of two players will score more tries today?',
@@ -853,6 +948,73 @@ const BET_TYPES = {
           <div class="margin-row"><span>Isaako / Tabuai-Fidow</span><span>$29.00</span></div>
         </div>
         <div class="odds-note">Both picks must be correct. High risk — perfect for small-stake punts.</div>
+      </div>`,
+  },
+
+  playerpoints: {
+    icon: '🔢', name: 'Player Points Scored', risk: 'medium', riskLabel: 'Medium Risk',
+    tagline: 'Bet over or under a player\'s total points contribution for the match.',
+    desc: 'The Player Points Scored market lets you bet on how many points an individual player will contribute — including tries (4pts each), conversions (2pts), penalty goals (2pts), and drop goals (1pt). Bookmakers set an over/under line per player, and you choose whether they\'ll exceed or fall short of it. Halves and five-eighths tend to kick goals and score tries, giving them higher lines.',
+    example: 'Nathan Cleary has a line of <strong>Over/Under 8.5 points</strong>. You back <strong>Over at $1.85</strong>. He scores 1 try (4pts) and kicks 3 goals (6pts) for <strong>10 total points</strong>. You win.',
+    tips: [
+      { icon: '🦵', title: 'Kickers have the highest lines', body: 'A regular kicker like Nathan Cleary can score 10–14pts without even crossing the try line — factor in conversions.' },
+      { icon: '🏃', title: 'Try-scoring wingers rack up fast', body: 'Wingers and fullbacks with high try rates can hit their line with a single score (4pts) or two (8pts).' },
+      { icon: '⚠️', title: 'Watch for injury replacements', body: 'If your player is subbed off early, they\'re unlikely to hit their line. Check final team lists at kickoff.' },
+    ],
+    oddsHtml: `
+      <div class="odds-preview-card">
+        <div class="odds-match"><span>Player Points Over/Under</span></div>
+        <div class="fts-list">
+          <div class="fts-item best-value"><span class="fts-name">Nathan Cleary<small>Over 8.5 pts</small></span><span class="fts-odd">$1.85</span></div>
+          <div class="fts-item best-value"><span class="fts-name">Nathan Cleary<small>Under 8.5 pts</small></span><span class="fts-odd">$1.95</span></div>
+          <div class="fts-item"><span class="fts-name">Brian To'o<small>Over 4.5 pts</small></span><span class="fts-odd">$1.90</span></div>
+          <div class="fts-item"><span class="fts-name">Brian To'o<small>Under 4.5 pts</small></span><span class="fts-odd">$1.90</span></div>
+        </div>
+        <div class="odds-note">Kickers like Cleary often carry the highest lines due to conversion points.</div>
+      </div>`,
+  },
+
+  exacttries: {
+    icon: '🎯', name: 'Player Exact Tries Scored', risk: 'high', riskLabel: 'High Risk',
+    tagline: 'Bet on the exact number of tries a player scores — 0, 1, 2, or 3+.',
+    desc: 'Instead of betting whether a player scores at all (Anytime) or whether they score 2+ (Two-Plus), the Exact Tries market asks you to predict the precise number of tries. You choose 0 tries, exactly 1 try, exactly 2 tries, or 3+. The odds are higher because you need the exact outcome — scoring 2 tries when you backed exactly 1 is a losing bet.',
+    example: 'You back <strong>Alex Johnston to score exactly 2 tries</strong> at <strong>$7.00</strong>. He scores two tries but not a third. Your $10 bet returns <strong>$70.00</strong>.',
+    tips: [
+      { icon: '🎯', title: 'Exactly 1 try is the most likely outcome', body: 'For wing/fullback positions, "exactly 1 try" is statistically the most common try-scoring result.' },
+      { icon: '📊', title: 'Compare to Anytime odds', body: 'If Anytime is $2.50 and Exactly 1 is $3.50, you\'re being compensated for excluding the 2+ scenario.' },
+      { icon: '💡', title: 'Good for big underdogs', body: 'An underdog team\'s top scorer might sit at $15 for exactly 2 tries — a big-value shot in a blowout loss.' },
+    ],
+    oddsHtml: `
+      <div class="odds-preview-card">
+        <div class="odds-match"><span>Alex Johnston — Exact Tries</span></div>
+        <div class="fts-list">
+          <div class="fts-item"><span class="fts-name">0 Tries<small>Doesn't score at all</small></span><span class="fts-odd">$1.65</span></div>
+          <div class="fts-item best-value"><span class="fts-name">Exactly 1 Try<small>Scores once, not twice</small></span><span class="fts-odd">$3.50</span></div>
+          <div class="fts-item"><span class="fts-name">Exactly 2 Tries<small>Scores twice, not three</small></span><span class="fts-odd">$7.00</span></div>
+          <div class="fts-item"><span class="fts-name">3+ Tries<small>Hat-trick or more</small></span><span class="fts-odd">$21.00</span></div>
+        </div>
+        <div class="odds-note">All four options must cover 100% of outcomes — choose only one.</div>
+      </div>`,
+  },
+
+  earlypayout: {
+    icon: '💸', name: 'Early Payouts', risk: 'low', riskLabel: 'Low Risk',
+    tagline: 'Get paid out early if your team hits a certain lead — win before full time.',
+    desc: 'Early Payout markets are special promotions where Sportsbet will settle your bet early if a certain condition is met during the game — usually your team building a 12-point or 24-point lead at any stage. If that lead is reached (even temporarily), your bet is paid immediately regardless of the final score. This is different to the Cash Out feature, which lets you manually settle for a live market price.',
+    example: 'You back <strong>Melbourne Storm Head to Head at $1.80</strong> under the Early Payout promo. Storm lead by 12+ points in the 55th minute — <strong>Sportsbet pays your bet out immediately</strong>, even if Storm let the lead slip and lose.',
+    tips: [
+      { icon: '🛡️', title: 'Effectively reduces your risk', body: 'If you back a strong favourite, the 12-point early payout trigger is likely to be hit in many games — making the bet more like $1.40–1.50 true risk.' },
+      { icon: '💡', title: 'Combine with other markets', body: 'Early payout promos can sometimes be applied to SGM or Line bets — always check current Sportsbet promo terms.' },
+      { icon: '⚠️', title: 'Promo terms change weekly', body: 'Early payout threshold (12pt vs 24pt) varies by promotion and game. Always read the fine print before betting.' },
+    ],
+    oddsHtml: `
+      <div class="odds-preview-card">
+        <div class="odds-match"><span>Early Payout Example</span></div>
+        <div class="fts-list">
+          <div class="fts-item best-value"><span class="fts-name">Melbourne Storm H2H<small>Paid early if Storm lead by 12+</small></span><span class="fts-odd">$1.75</span></div>
+          <div class="fts-item"><span class="fts-name">Penrith Panthers H2H<small>Paid early if Panthers lead by 24+</small></span><span class="fts-odd">$1.45</span></div>
+        </div>
+        <div class="odds-note">⚡ Triggered automatically — no action needed from you once the lead is reached.</div>
       </div>`,
   },
 
