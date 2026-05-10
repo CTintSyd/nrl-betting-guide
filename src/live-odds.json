@@ -1,33 +1,7 @@
 {
-  "updated": "2026-05-10T07:49:11.396Z",
-  "quotaRemaining": 473,
+  "updated": "2026-05-10T15:32:59.813Z",
+  "quotaRemaining": 470,
   "games": [
-    {
-      "id": "fff365ac1beade5b1086164db06a2450",
-      "homeTeam": "Canberra Raiders",
-      "awayTeam": "Penrith Panthers",
-      "commenceTime": "2026-05-10T06:05:00Z",
-      "bookmaker": "pointsbetau",
-      "h2h": {
-        "home": 26,
-        "away": 1
-      },
-      "line": {
-        "home": {
-          "odd": null,
-          "point": null
-        },
-        "away": {
-          "odd": null,
-          "point": null
-        }
-      },
-      "ou": {
-        "total": null,
-        "overOdd": null,
-        "underOdd": null
-      }
-    },
     {
       "id": "2eb8c03af1f7e3ae8cf309913f92b51a",
       "homeTeam": "Cronulla Sutherland Sharks",
@@ -92,18 +66,18 @@
       },
       "line": {
         "home": {
-          "odd": 1.9,
+          "odd": 1.91,
           "point": 9.5
         },
         "away": {
-          "odd": 1.9,
+          "odd": 1.89,
           "point": -9.5
         }
       },
       "ou": {
-        "total": 52.5,
-        "overOdd": 1.99,
-        "underOdd": 1.82
+        "total": 54.5,
+        "overOdd": 2,
+        "underOdd": 1.81
       }
     },
     {
@@ -114,22 +88,22 @@
       "bookmaker": "sportsbet",
       "h2h": {
         "home": 1.24,
-        "away": 4.1
+        "away": 4.2
       },
       "line": {
         "home": {
-          "odd": 1.9,
-          "point": -12.5
+          "odd": 1.86,
+          "point": -13.5
         },
         "away": {
-          "odd": 1.9,
-          "point": 12.5
+          "odd": 1.95,
+          "point": 13.5
         }
       },
       "ou": {
         "total": 56.5,
-        "overOdd": 1.99,
-        "underOdd": 1.82
+        "overOdd": 1.9,
+        "underOdd": 1.9
       }
     },
     {
@@ -139,23 +113,23 @@
       "commenceTime": "2026-05-16T09:45:00Z",
       "bookmaker": "sportsbet",
       "h2h": {
-        "home": 2.63,
-        "away": 1.49
+        "home": 2.66,
+        "away": 1.48
       },
       "line": {
         "home": {
-          "odd": 1.85,
+          "odd": 1.9,
           "point": 6.5
         },
         "away": {
-          "odd": 1.96,
+          "odd": 1.9,
           "point": -6.5
         }
       },
       "ou": {
         "total": 52.5,
-        "overOdd": 1.97,
-        "underOdd": 1.84
+        "overOdd": 1.91,
+        "underOdd": 1.89
       }
     },
     {
@@ -165,23 +139,23 @@
       "commenceTime": "2026-05-17T04:00:00Z",
       "bookmaker": "sportsbet",
       "h2h": {
-        "home": 3.01,
-        "away": 1.39
+        "home": 3.5,
+        "away": 1.31
       },
       "line": {
         "home": {
-          "odd": 1.82,
-          "point": 8.5
+          "odd": 1.87,
+          "point": 10.5
         },
         "away": {
-          "odd": 1.99,
-          "point": -8.5
+          "odd": 1.93,
+          "point": -10.5
         }
       },
       "ou": {
         "total": 56.5,
-        "overOdd": 1.98,
-        "underOdd": 1.83
+        "overOdd": 1.9,
+        "underOdd": 1.9
       }
     },
     {
@@ -208,6 +182,32 @@
         "total": 52.5,
         "overOdd": 1.98,
         "underOdd": 1.83
+      }
+    },
+    {
+      "id": "b1fb842b8e545098cc64b374400b0e40",
+      "homeTeam": "Penrith Panthers",
+      "awayTeam": "St George Illawarra Dragons",
+      "commenceTime": "2026-05-17T08:25:00Z",
+      "bookmaker": "sportsbet",
+      "h2h": {
+        "home": 1.04,
+        "away": 10.5
+      },
+      "line": {
+        "home": {
+          "odd": 1.83,
+          "point": -25.5
+        },
+        "away": {
+          "odd": 1.98,
+          "point": 25.5
+        }
+      },
+      "ou": {
+        "total": 57.5,
+        "overOdd": 1.9,
+        "underOdd": 1.9
       }
     }
   ]
