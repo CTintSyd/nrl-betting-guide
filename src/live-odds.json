@@ -1,85 +1,7 @@
 {
-  "updated": "2026-05-08T13:07:34.178Z",
-  "quotaRemaining": 488,
+  "updated": "2026-05-09T20:09:54.901Z",
+  "quotaRemaining": 476,
   "games": [
-    {
-      "id": "d68274c8aa67402ab10dce5f91498a47",
-      "homeTeam": "St George Illawarra Dragons",
-      "awayTeam": "Newcastle Knights",
-      "commenceTime": "2026-05-09T05:00:00Z",
-      "bookmaker": "sportsbet",
-      "h2h": {
-        "home": 3.2,
-        "away": 1.35
-      },
-      "line": {
-        "home": {
-          "odd": 1.89,
-          "point": 8.5
-        },
-        "away": {
-          "odd": 1.91,
-          "point": -8.5
-        }
-      },
-      "ou": {
-        "total": 51.5,
-        "overOdd": 1.81,
-        "underOdd": 2
-      }
-    },
-    {
-      "id": "339c2c490b75fb13d6ad65cd2e53bdb0",
-      "homeTeam": "South Sydney Rabbitohs",
-      "awayTeam": "Cronulla Sutherland Sharks",
-      "commenceTime": "2026-05-09T07:30:00Z",
-      "bookmaker": "sportsbet",
-      "h2h": {
-        "home": 2.18,
-        "away": 1.69
-      },
-      "line": {
-        "home": {
-          "odd": 1.9,
-          "point": 3.5
-        },
-        "away": {
-          "odd": 1.9,
-          "point": -3.5
-        }
-      },
-      "ou": {
-        "total": 54.5,
-        "overOdd": 1.96,
-        "underOdd": 1.85
-      }
-    },
-    {
-      "id": "da7c34ff495a4acb614cd3cc5698d6dd",
-      "homeTeam": "Manly Warringah Sea Eagles",
-      "awayTeam": "Brisbane Broncos",
-      "commenceTime": "2026-05-09T09:35:00Z",
-      "bookmaker": "sportsbet",
-      "h2h": {
-        "home": 2,
-        "away": 1.85
-      },
-      "line": {
-        "home": {
-          "odd": 1.9,
-          "point": 1.5
-        },
-        "away": {
-          "odd": 1.9,
-          "point": -1.5
-        }
-      },
-      "ou": {
-        "total": 50.5,
-        "overOdd": 1.98,
-        "underOdd": 1.83
-      }
-    },
     {
       "id": "f88a8cb2ae06c12f2274d19a0d1087fc",
       "homeTeam": "Melbourne Storm",
@@ -87,23 +9,23 @@
       "commenceTime": "2026-05-10T04:00:00Z",
       "bookmaker": "sportsbet",
       "h2h": {
-        "home": 1.52,
-        "away": 2.52
+        "home": 1.48,
+        "away": 2.65
       },
       "line": {
         "home": {
-          "odd": 1.97,
-          "point": -6.5
+          "odd": 1.89,
+          "point": -7.5
         },
         "away": {
-          "odd": 1.84,
-          "point": 6.5
+          "odd": 1.91,
+          "point": 7.5
         }
       },
       "ou": {
-        "total": 53.5,
-        "overOdd": 1.83,
-        "underOdd": 1.98
+        "total": 54.5,
+        "overOdd": 1.98,
+        "underOdd": 1.83
       }
     },
     {
@@ -139,23 +61,23 @@
       "commenceTime": "2026-05-15T08:00:00Z",
       "bookmaker": "sportsbet",
       "h2h": {
-        "home": 1.42,
-        "away": 2.9
+        "home": 1.47,
+        "away": 2.69
       },
       "line": {
         "home": {
-          "odd": 1.83,
-          "point": -7.5
+          "odd": 1.9,
+          "point": -6.5
         },
         "away": {
-          "odd": 1.98,
-          "point": 7.5
+          "odd": 1.9,
+          "point": 6.5
         }
       },
       "ou": {
         "total": 50.5,
-        "overOdd": 1.92,
-        "underOdd": 1.87
+        "overOdd": 1.9,
+        "underOdd": 1.9
       }
     },
     {
@@ -165,21 +87,21 @@
       "commenceTime": "2026-05-15T10:05:00Z",
       "bookmaker": "sportsbet",
       "h2h": {
-        "home": 1.83,
-        "away": 2.01
+        "home": 1.64,
+        "away": 2.26
       },
       "line": {
         "home": {
-          "odd": 1.93,
-          "point": -1.5
+          "odd": 1.9,
+          "point": -2.5
         },
         "away": {
-          "odd": 1.87,
-          "point": 1.5
+          "odd": 1.9,
+          "point": 2.5
         }
       },
       "ou": {
-        "total": 54.5,
+        "total": 55.5,
         "overOdd": 1.9,
         "underOdd": 1.9
       }
@@ -191,17 +113,69 @@
       "commenceTime": "2026-05-16T05:00:00Z",
       "bookmaker": "sportsbet",
       "h2h": {
-        "home": 2.79,
-        "away": 1.44
+        "home": 3.17,
+        "away": 1.36
       },
       "line": {
         "home": {
-          "odd": 1.92,
-          "point": 7.5
+          "odd": 1.9,
+          "point": 9.5
         },
         "away": {
-          "odd": 1.88,
-          "point": -7.5
+          "odd": 1.9,
+          "point": -9.5
+        }
+      },
+      "ou": {
+        "total": 52.5,
+        "overOdd": 2,
+        "underOdd": 1.81
+      }
+    },
+    {
+      "id": "5434f1ad6147f4de010571c48e023dce",
+      "homeTeam": "Sydney Roosters",
+      "awayTeam": "North Queensland Cowboys",
+      "commenceTime": "2026-05-16T07:30:00Z",
+      "bookmaker": "sportsbet",
+      "h2h": {
+        "home": 1.22,
+        "away": 4.3
+      },
+      "line": {
+        "home": {
+          "odd": 1.9,
+          "point": -13.5
+        },
+        "away": {
+          "odd": 1.9,
+          "point": 13.5
+        }
+      },
+      "ou": {
+        "total": 56.5,
+        "overOdd": 1.99,
+        "underOdd": 1.82
+      }
+    },
+    {
+      "id": "d52fa4696ab1c19d906045ef0472db37",
+      "homeTeam": "Parramatta Eels",
+      "awayTeam": "Melbourne Storm",
+      "commenceTime": "2026-05-16T09:45:00Z",
+      "bookmaker": "sportsbet",
+      "h2h": {
+        "home": 2.75,
+        "away": 1.46
+      },
+      "line": {
+        "home": {
+          "odd": 1.89,
+          "point": 6.5
+        },
+        "away": {
+          "odd": 1.91,
+          "point": -6.5
         }
       },
       "ou": {
@@ -217,23 +191,23 @@
       "commenceTime": "2026-05-17T04:00:00Z",
       "bookmaker": "sportsbet",
       "h2h": {
-        "home": 2.77,
-        "away": 1.45
+        "home": 3.22,
+        "away": 1.35
       },
       "line": {
         "home": {
-          "odd": 1.88,
-          "point": 6.5
+          "odd": 1.9,
+          "point": 8.5
         },
         "away": {
-          "odd": 1.91,
-          "point": -6.5
+          "odd": 1.9,
+          "point": -8.5
         }
       },
       "ou": {
-        "total": 56.5,
-        "overOdd": 1.98,
-        "underOdd": 1.83
+        "total": 55.5,
+        "overOdd": 1.82,
+        "underOdd": 1.99
       }
     },
     {
@@ -243,23 +217,23 @@
       "commenceTime": "2026-05-17T06:05:00Z",
       "bookmaker": "sportsbet",
       "h2h": {
-        "home": 1.85,
-        "away": 2
+        "home": 1.67,
+        "away": 2.21
       },
       "line": {
         "home": {
-          "odd": 1.9,
-          "point": -1.5
+          "odd": 1.89,
+          "point": -3.5
         },
         "away": {
-          "odd": 1.9,
-          "point": 1.5
+          "odd": 1.91,
+          "point": 3.5
         }
       },
       "ou": {
-        "total": 52.5,
-        "overOdd": 1.99,
-        "underOdd": 1.82
+        "total": 51.5,
+        "overOdd": 1.82,
+        "underOdd": 1.99
       }
     },
     {
@@ -269,23 +243,23 @@
       "commenceTime": "2026-05-17T08:25:00Z",
       "bookmaker": "sportsbet",
       "h2h": {
-        "home": 1.08,
-        "away": 8
+        "home": 1.04,
+        "away": 11
       },
       "line": {
         "home": {
-          "odd": 1.91,
-          "point": -20.5
+          "odd": 1.9,
+          "point": -24.5
         },
         "away": {
-          "odd": 1.89,
-          "point": 20.5
+          "odd": 1.9,
+          "point": 24.5
         }
       },
       "ou": {
-        "total": 55.5,
-        "overOdd": 1.83,
-        "underOdd": 1.98
+        "total": 56.5,
+        "overOdd": 1.99,
+        "underOdd": 1.82
       }
     }
   ]
