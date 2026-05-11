@@ -700,6 +700,16 @@
             <div class="commentary-body">
               ${generateMatchCommentary(game, a)}
             </div>
+            <div style="border-top:1px solid rgba(255,255,255,0.07);margin-top:4px;padding-top:14px;padding-bottom:6px">
+              <div class="card-label" style="margin-bottom:10px">📰 Pre-match Reading</div>
+              <div class="zt-articles">
+                ${renderArticles(game.homeTeam.name, game.awayTeam.name)}
+              </div>
+              <div class="zt-source">
+                📡 <a href="https://www.zerotackle.com" target="_blank" rel="noopener">Zero Tackle</a>
+                ${ztArticles?.updated ? `— updated ${new Date(ztArticles.updated).toLocaleString('en-AU', {dateStyle:'medium', timeStyle:'short'})}` : ''}
+              </div>
+            </div>
           </div>
         </div>
 
@@ -953,18 +963,6 @@
                 <div class="best-bet-odd odd-derived">${toOddsStr(ftsOdd(allPlayers[0]))}</div>
                 <div class="best-bet-rationale">High risk, high reward. Only for those comfortable with ~42% of anytime scorers getting first. Position: ${allPlayers[0]?.pos}.</div>
               </div>
-            </div>
-          </div>
-
-          <!-- PRE-MATCH READING -->
-          <div class="card">
-            <div class="card-label">📰 Pre-match Reading</div>
-            <div class="zt-articles">
-              ${renderArticles(game.homeTeam.name, game.awayTeam.name)}
-            </div>
-            <div class="zt-source">
-              📡 <a href="https://www.zerotackle.com" target="_blank" rel="noopener">Zero Tackle</a>
-              ${ztArticles?.updated ? `— updated ${new Date(ztArticles.updated).toLocaleString('en-AU', {dateStyle:'medium', timeStyle:'short'})}` : ''}
             </div>
           </div>
 
