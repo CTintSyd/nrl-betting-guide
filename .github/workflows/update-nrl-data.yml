@@ -12,9 +12,9 @@ on:
     # ── Game days: every 30 min across the window games are played ───────────
     # NRL games typically run 3pm–10pm AEST (5am–12pm UTC) Fri/Sat/Sun.
     # Running every 30min captures results within ~30min of each game finishing.
-    - cron: '0,30 4-12 * * 5'    # Friday   (2pm–10pm AEST)
-    - cron: '0,30 4-12 * * 6'    # Saturday (2pm–10pm AEST)
-    - cron: '0,30 4-12 * * 0'    # Sunday   (2pm–10pm AEST)
+    - cron: '0,15,30,45 4-12 * * 5'    # Friday   (2pm–10pm AEST)
+    - cron: '0,15,30,45 4-12 * * 6'    # Saturday (2pm–10pm AEST)
+    - cron: '0,15,30,45 4-12 * * 0'    # Sunday   (2pm–10pm AEST)
     - cron: '0 4,6,8,10,12 * * 1'    # Monday   (every 2h — occasional games only)
 
   workflow_dispatch:        # Manual trigger from GitHub Actions tab
