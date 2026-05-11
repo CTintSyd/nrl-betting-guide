@@ -2,7 +2,7 @@ name: Update NRL Odds
 
 on:
   schedule:
-    - cron: '0 */6 * * *'   # Every 6 hours (~120 API calls/month, well within free tier)
+    - cron: '0 */3 * * *'   # Every 3 hours (~240 API calls/month, within 500/month free tier)
   workflow_dispatch:          # Manual trigger from GitHub Actions tab
   push:
     branches: [main]
