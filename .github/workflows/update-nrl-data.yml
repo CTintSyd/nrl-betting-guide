@@ -45,11 +45,14 @@ jobs:
       - name: Update team lists + injury report (NRL.com Casualty Ward)
         run: python3 scripts/update-team-lists.py
 
+      - name: Fetch Zero Tackle articles (RSS)
+        run: python3 scripts/fetch-zerotackle.py
+
       - name: Commit updated data files
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add src/player-stats.json src/teamData.js src/form-data.json src/team-lists.json
+          git add src/player-stats.json src/teamData.js src/form-data.json src/team-lists.json src/zerotackle-articles.json
           git diff --staged --quiet && echo "No changes to commit" || (
             git commit -m "chore: update NRL data $(date -u '+%Y-%m-%d %H:%M UTC')" &&
             git push

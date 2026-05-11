@@ -162,6 +162,17 @@
     .injury-source { font-size: 0.71rem; color: var(--text-2); margin-top: 12px; opacity: 0.7; border-top: 1px solid rgba(255,255,255,0.05); padding-top: 10px; }
 
     /* ── Commentary ── */
+    /* ── Zero Tackle articles ── */
+    .zt-articles { display: flex; flex-direction: column; }
+    .zt-article { padding: 10px 0; border-bottom: 1px solid rgba(255,255,255,0.05); }
+    .zt-article:last-child { border-bottom: none; }
+    .zt-article-tag { font-size: 0.62rem; font-weight: 800; letter-spacing: 0.8px; text-transform: uppercase; color: var(--green); margin-bottom: 4px; }
+    .zt-article a { font-size: 0.84rem; font-weight: 600; color: var(--text); text-decoration: none; line-height: 1.4; display: block; margin-bottom: 3px; }
+    .zt-article a:hover { color: var(--green); }
+    .zt-article-desc { font-size: 0.72rem; color: var(--text-2); line-height: 1.45; }
+    .zt-empty { font-size: 0.82rem; color: var(--text-2); }
+    .zt-source { font-size: 0.71rem; color: var(--text-2); margin-top: 12px; opacity: 0.7; border-top: 1px solid rgba(255,255,255,0.05); padding-top: 10px; }
+
     .commentary-section { grid-column: 1 / -1; margin-bottom: 4px; }
     .commentary-body { display: flex; flex-direction: column; gap: 0; }
     .commentary-para { padding: 16px 0; border-bottom: 1px solid rgba(255,255,255,0.06); font-size: 0.9rem; color: var(--text); line-height: 1.75; }
@@ -230,11 +241,12 @@
     // ── Load game data + real form strings in parallel ──────────────────────
     let game = null;
     let formData = null;
-    const [oddsRes, formRes, teamListRes, statsRes] = await Promise.allSettled([
+    const [oddsRes, formRes, teamListRes, statsRes, ztRes] = await Promise.allSettled([
       fetch(`src/live-odds.json?v=${Date.now()}`).then(r => r.json()),
       fetch(`src/form-data.json?v=${Date.now()}`).then(r => r.json()),
       fetch(`src/team-lists.json?v=${Date.now()}`).then(r => r.json()),
       fetch('src/player-stats.json').then(r => r.json()),
+      fetch(`src/zerotackle-articles.json?v=${Date.now()}`).then(r => r.json()),
     ]);
 
     // ── Venue → coordinates map for Open-Meteo weather ──────────────────────
@@ -286,6 +298,9 @@
         return null;
       }
     }
+
+    let ztArticles = null;
+    if (ztRes.status === 'fulfilled') ztArticles = ztRes.value;
 
     if (oddsRes.status === 'fulfilled') {
       const cutoff = Date.now() - 3 * 60 * 60 * 1000;
@@ -435,6 +450,41 @@
     // ── Injury Report (real NRL Casualty Ward data) ──────────────────────────
     const _sp = statsRes.status === 'fulfilled' ? (statsRes.value?.players || {}) : {};
     const _currentRound = teamLists?.round ?? 0;
+
+    function renderArticles(homeTeam, awayTeam) {
+      if (!ztArticles?.articles?.length) {
+        return '<div class="zt-empty">No articles available yet — check back closer to game day.</div>';
+      }
+
+      // Team-specific articles first, then general round previews
+      const teamMatches = ztArticles.articles.filter(a =>
+        a.teams.includes(homeTeam) || a.teams.includes(awayTeam)
+      );
+      const roundOnly = ztArticles.articles.filter(a =>
+        a.isRound && !teamMatches.includes(a)
+      );
+      const combined = [...teamMatches, ...roundOnly].slice(0, 5);
+
+      if (!combined.length) {
+        return '<div class="zt-empty">No articles found for this match yet — check back mid-week.</div>';
+      }
+
+      return combined.map(art => {
+        const matchedTeams = art.teams.filter(t => t === homeTeam || t === awayTeam);
+        const tag = matchedTeams.length
+          ? matchedTeams.map(t => t.split(' ').pop()).join(' · ')
+          : 'Round Preview';
+        const desc = art.description
+          ? `<div class="zt-article-desc">${art.description.slice(0, 130)}${art.description.length > 130 ? '…' : ''}</div>`
+          : '';
+        return `
+          <div class="zt-article">
+            <div class="zt-article-tag">${tag}</div>
+            <a href="${art.url}" target="_blank" rel="noopener">${art.title}</a>
+            ${desc}
+          </div>`;
+      }).join('');
+    }
 
     function injurySeverity(inj) {
       const ret = inj.expectedReturn;
@@ -903,6 +953,18 @@
                 <div class="best-bet-odd odd-derived">${toOddsStr(ftsOdd(allPlayers[0]))}</div>
                 <div class="best-bet-rationale">High risk, high reward. Only for those comfortable with ~42% of anytime scorers getting first. Position: ${allPlayers[0]?.pos}.</div>
               </div>
+            </div>
+          </div>
+
+          <!-- PRE-MATCH READING -->
+          <div class="card">
+            <div class="card-label">📰 Pre-match Reading</div>
+            <div class="zt-articles">
+              ${renderArticles(game.homeTeam.name, game.awayTeam.name)}
+            </div>
+            <div class="zt-source">
+              📡 <a href="https://www.zerotackle.com" target="_blank" rel="noopener">Zero Tackle</a>
+              ${ztArticles?.updated ? `— updated ${new Date(ztArticles.updated).toLocaleString('en-AU', {dateStyle:'medium', timeStyle:'short'})}` : ''}
             </div>
           </div>
 
