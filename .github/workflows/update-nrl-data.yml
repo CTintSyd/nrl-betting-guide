@@ -2,8 +2,21 @@ name: Update NRL Data
 
 on:
   schedule:
-    - cron: '0 2 * * *'   # Daily at 2am UTC = 12pm AEST (catches post-round updates)
-    - cron: '0 10 * * 4'  # Extra run Thursdays at 10am UTC = 8pm AEST (team list night)
+    # ── Non-game days: once daily at 2am UTC (12pm AEST) ──────────────────────
+    - cron: '0 2 * * 2,3'    # Tue & Wed — quiet days, one refresh is enough
+
+    # ── Thursday: daily run + evening team-list announcement ──────────────────
+    - cron: '0 2  * * 4'     # Thu 12pm AEST — daytime refresh
+    - cron: '0 10 * * 4'     # Thu 8pm AEST  — team lists announced this evening
+
+    # ── Game days: every 2 hours across the window games are played ───────────
+    # NRL games typically run 3pm–10pm AEST (5am–12pm UTC) Fri/Sat/Sun/Mon.
+    # Running every 2h from 4am–12pm UTC captures results shortly after each game.
+    - cron: '0 4,6,8,10,12 * * 5'    # Friday   (6pm–10pm AEST)
+    - cron: '0 4,6,8,10,12 * * 6'    # Saturday (2pm–10pm AEST)
+    - cron: '0 4,6,8,10,12 * * 0'    # Sunday   (2pm–10pm AEST)
+    - cron: '0 4,6,8,10,12 * * 1'    # Monday   (2pm–10pm AEST, occasional games)
+
   workflow_dispatch:        # Manual trigger from GitHub Actions tab
 
 permissions:
