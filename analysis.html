@@ -37,6 +37,11 @@
     .match-logo { width: 90px; height: 90px; object-fit: contain; }
     .match-logo-placeholder { width: 90px; height: 90px; font-size: 3.5rem; display: flex; align-items: center; justify-content: center; }
     .match-team-name { font-family: var(--font-heading); font-size: 1.3rem; font-weight: 800; text-align: center; color: #fff; }
+    .match-team-meta { display: flex; align-items: center; justify-content: center; gap: 6px; flex-wrap: wrap; margin-top: 2px; }
+    .match-ladder-pos { font-size: 0.72rem; font-weight: 700; color: rgba(255,255,255,0.55); background: rgba(255,255,255,0.08); padding: 2px 8px; border-radius: 4px; }
+    .match-ha { font-size: 0.66rem; font-weight: 800; letter-spacing: 0.5px; text-transform: uppercase; padding: 2px 8px; border-radius: 4px; }
+    .match-ha--home { background: rgba(0,166,81,0.18); color: #00a651; }
+    .match-ha--away { background: rgba(255,255,255,0.07); color: rgba(255,255,255,0.4); }
     .match-vs-col { display: flex; flex-direction: column; align-items: center; gap: 8px; }
     .match-vs { font-family: var(--font-heading); font-size: 2rem; font-weight: 800; color: var(--text-2); }
     .match-badge { font-size: 0.72rem; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; padding: 4px 12px; border-radius: 100px; }
@@ -311,6 +316,11 @@
     if (formRes.status === 'fulfilled') formData = formRes.value;
     let teamLists = null;
     if (teamListRes.status === 'fulfilled') teamLists = teamListRes.value;
+
+    // ── Ladder position lookup ───────────────────────────────────────────────
+    const LADDER_POS = {};
+    (formData?.ladder || []).forEach(row => { LADDER_POS[row.name] = row.pos; });
+    function ordinal(n) { return n + (['st','nd','rd'][n - 1] || 'th'); }
 
     // ── Inject real try rates from player-stats.json ─────────────────────────
     if (statsRes.status === 'fulfilled' && statsRes.value?.players) {
@@ -667,6 +677,10 @@
           <div class="match-team">
             ${logoImg(game.homeTeam.name)}
             <div class="match-team-name">${game.homeTeam.name}</div>
+            <div class="match-team-meta">
+              ${LADDER_POS[game.homeTeam.name] ? `<span class="match-ladder-pos">${ordinal(LADDER_POS[game.homeTeam.name])}</span>` : ''}
+              <span class="match-ha match-ha--home">Home</span>
+            </div>
             <div style="font-size:0.78rem;color:var(--text-2)">${game.homeTeam.record || ''}</div>
           </div>
           <div class="match-vs-col">
@@ -678,6 +692,10 @@
           <div class="match-team">
             ${logoImg(game.awayTeam.name)}
             <div class="match-team-name">${game.awayTeam.name}</div>
+            <div class="match-team-meta">
+              ${LADDER_POS[game.awayTeam.name] ? `<span class="match-ladder-pos">${ordinal(LADDER_POS[game.awayTeam.name])}</span>` : ''}
+              <span class="match-ha match-ha--away">Away</span>
+            </div>
             <div style="font-size:0.78rem;color:var(--text-2)">${game.awayTeam.record || ''}</div>
           </div>
         </div>
