@@ -26,7 +26,7 @@
   --font-heading: 'Barlow Condensed', system-ui, sans-serif;
 }
 
-html { scroll-behavior: smooth; }
+html { scroll-behavior: smooth; overflow-x: hidden; }
 
 body {
   font-family: var(--font);
@@ -34,6 +34,7 @@ body {
   background: var(--surface);
   line-height: 1.6;
   font-size: 15px;
+  overflow-x: hidden;
 }
 
 .container {
@@ -252,6 +253,8 @@ a:hover { text-decoration: underline; }
   margin-left: -24px;
   margin-right: -24px;
   width: calc(100% + 48px);
+  /* Force compositing layer so child transforms are properly contained on iOS Safari */
+  transform: translateZ(0);
 }
 
 .hero__players::before,
@@ -288,13 +291,13 @@ a:hover { text-decoration: underline; }
 .players-strip {
   display: flex;
   gap: 16px;
-  overflow-x: auto;
+  /* No overflow-x:auto here — conflicts with translateX animation on iOS Safari */
   padding: 8px 80px 12px;
-  scroll-snap-type: x mandatory;
-  -webkit-overflow-scrolling: touch;
   scrollbar-width: none;
   /* auto-scroll via animation */
   animation: scroll-players 40s linear infinite;
+  will-change: transform;
+  backface-visibility: hidden;
 }
 
 .players-strip:hover {
@@ -1550,6 +1553,28 @@ a:hover { text-decoration: underline; }
   .games-grid { grid-template-columns: 1fr; }
   .bet-type-tabs { gap: 3px; }
   .tab-btn { padding: 7px 10px; font-size: 0.78rem; }
+
+  /* Disable auto-scroll animation on mobile — use manual swipe instead */
+  .players-strip {
+    animation: none;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-type: x mandatory;
+    padding: 8px 24px 12px;
+    justify-content: flex-start;
+  }
+  .player-card { scroll-snap-align: start; }
+
+  /* Pull hero__players flush on mobile without the negative margin trick */
+  .hero__players {
+    margin-left: -24px;
+    margin-right: -24px;
+    width: calc(100% + 48px);
+  }
+
+  /* Hide the fade gradients on mobile (they obscure cards on small screens) */
+  .hero__players::before,
+  .hero__players::after { display: none; }
 }
 
 /* ── Ladder ── */

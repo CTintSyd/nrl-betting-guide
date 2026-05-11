@@ -106,21 +106,9 @@
     .player-pick-name { font-size: 0.85rem; font-weight: 600; }
     .player-pick-pos { font-size: 0.72rem; color: var(--text-2); margin-top: 1px; }
     .player-odds { display: flex; flex-direction: column; align-items: flex-end; gap: 2px; }
-    .player-odds .fts { font-size: 0.72rem; color: var(--text-2); }
-    .player-odds .anytime { font-family: var(--font-heading); font-size: 1rem; font-weight: 700; color: var(--green); }
+    .player-odds .fts { font-size: 0.72rem; color: #f0a500; }
+    .player-odds .anytime { font-family: var(--font-heading); font-size: 1rem; font-weight: 700; color: #f0a500; }
 
-    /* ── Markets Table ── */
-    .markets-section { grid-column: 1 / -1; }
-    .markets-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
-    .market-card { background: var(--dark-2); border: 1px solid var(--border); border-radius: var(--radius-sm); padding: 14px; }
-    .market-name { font-size: 0.82rem; font-weight: 600; margin-bottom: 8px; color: var(--text); }
-    .market-odds-row { display: flex; justify-content: space-between; align-items: center; }
-    .market-pick { font-size: 0.75rem; color: var(--text-2); }
-    .market-odd { font-family: var(--font-heading); font-size: 1.1rem; font-weight: 700; color: var(--green); }
-    .market-risk { font-size: 0.62rem; font-weight: 700; padding: 2px 6px; border-radius: 4px; text-transform: uppercase; }
-    .risk-low { background: rgba(0,166,81,0.15); color: var(--green); }
-    .risk-med { background: rgba(255,165,0,0.15); color: #ffa500; }
-    .risk-high { background: rgba(248,81,73,0.15); color: #f85149; }
 
     /* ── Best Bets ── */
     .best-bets { display: flex; flex-direction: column; gap: 10px; }
@@ -150,16 +138,27 @@
     /* ── Injury Report (real data) ── */
     .injury-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
     .injury-col-label { font-size: 0.72rem; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; color: var(--text-2); margin-bottom: 10px; display: flex; align-items: center; gap: 6px; }
-    .injury-item { display: flex; align-items: flex-start; gap: 10px; padding: 8px 0; border-bottom: 1px solid rgba(255,255,255,0.05); }
+    .injury-item { display: flex; align-items: flex-start; gap: 10px; padding: 10px 0; border-bottom: 1px solid rgba(255,255,255,0.05); }
     .injury-item:last-child { border-bottom: none; }
-    .injury-return { font-size: 0.63rem; font-weight: 800; letter-spacing: 0.6px; text-transform: uppercase; padding: 3px 7px; border-radius: 4px; white-space: nowrap; flex-shrink: 0; margin-top: 1px; }
-    .return-soon  { background: rgba(255,165,0,0.18); color: #ffa500; }
-    .return-later { background: rgba(255,255,255,0.07); color: var(--text-2); }
-    .return-tbc   { background: rgba(248,81,73,0.15); color: #f85149; }
+    .inj-photo { width: 42px; height: 42px; border-radius: 50%; object-fit: cover; flex-shrink: 0; background: var(--dark-3); border: 1px solid var(--border); }
+    .inj-photo-placeholder { width: 42px; height: 42px; border-radius: 50%; flex-shrink: 0; background: var(--dark-3); border: 1px solid var(--border); display: flex; align-items: center; justify-content: center; font-size: 1.1rem; }
     .injury-info { flex: 1; min-width: 0; }
-    .injury-name  { font-size: 0.85rem; font-weight: 600; color: var(--text); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-    .injury-type  { font-size: 0.75rem; color: var(--text-2); margin-top: 1px; }
-    .no-casualties { font-size: 0.82rem; color: var(--nrl-green, #00a651); padding: 6px 0; }
+    .inj-header { display: flex; align-items: flex-start; justify-content: space-between; gap: 6px; }
+    .injury-name { font-size: 0.85rem; font-weight: 600; color: var(--text); line-height: 1.3; }
+    .injury-name a { color: inherit; }
+    .injury-name a:hover { color: var(--green); }
+    .inj-sev { font-size: 0.6rem; font-weight: 800; letter-spacing: 0.6px; text-transform: uppercase; padding: 2px 7px; border-radius: 4px; white-space: nowrap; flex-shrink: 0; margin-top: 2px; }
+    .sev-minor      { background: rgba(0,166,81,0.15); color: var(--green); }
+    .sev-moderate   { background: rgba(255,165,0,0.18); color: #ffa500; }
+    .sev-serious    { background: rgba(248,81,73,0.15); color: #f85149; }
+    .sev-longterm   { background: rgba(248,81,73,0.1); color: #f85149; }
+    .sev-suspended  { background: rgba(88,166,255,0.15); color: #58a6ff; }
+    .inj-pos { font-size: 0.71rem; color: var(--text-2); margin-top: 2px; }
+    .inj-detail { margin-top: 5px; font-size: 0.76rem; color: var(--text-2); display: flex; flex-wrap: wrap; align-items: center; gap: 4px; }
+    .inj-type-tag { font-weight: 600; color: var(--text); background: rgba(255,255,255,0.07); padding: 1px 6px; border-radius: 3px; font-size: 0.72rem; }
+    .inj-return-text { color: var(--text-2); }
+    .inj-return-rounds { font-weight: 600; color: var(--text); }
+    .no-casualties { font-size: 0.82rem; color: var(--green); padding: 6px 0; }
     .injury-source { font-size: 0.71rem; color: var(--text-2); margin-top: 12px; opacity: 0.7; border-top: 1px solid rgba(255,255,255,0.05); padding-top: 10px; }
 
     /* ── Commentary ── */
@@ -170,6 +169,12 @@
     .commentary-para strong { color: #fff; }
     .commentary-para em { color: var(--green); font-style: normal; font-weight: 600; }
     .commentary-label { font-size: 0.68rem; font-weight: 800; letter-spacing: 1.2px; text-transform: uppercase; color: var(--green); margin-bottom: 6px; }
+
+    /* ── Odds colour coding ── */
+    /* Real odds sourced directly from The Odds API */
+    .odd-real   { color: var(--green) !important; font-weight: 700; }
+    /* Estimated/derived odds calculated from season stats or formulas */
+    .odd-derived { color: #f0a500 !important; font-weight: 600; }
 
     /* ── Footer ── */
     .footer { border-top: 1px solid var(--border); padding: 24px 0; text-align: center; color: var(--text-2); font-size: 0.78rem; }
@@ -211,8 +216,8 @@
     </div>
   </div>
 
-  <script src="src/teamData.js?v=14"></script>
-  <script src="src/oddsEngine.js?v=14"></script>
+  <script src="src/teamData.js?v=20"></script>
+  <script src="src/oddsEngine.js?v=20"></script>
   <script>
   (async function() {
     // ── Helpers ──────────────────────────────────────────────────────────────
@@ -225,10 +230,11 @@
     // ── Load game data + real form strings in parallel ──────────────────────
     let game = null;
     let formData = null;
-    const [oddsRes, formRes, teamListRes] = await Promise.allSettled([
+    const [oddsRes, formRes, teamListRes, statsRes] = await Promise.allSettled([
       fetch(`src/live-odds.json?v=${Date.now()}`).then(r => r.json()),
       fetch(`src/form-data.json?v=${Date.now()}`).then(r => r.json()),
       fetch(`src/team-lists.json?v=${Date.now()}`).then(r => r.json()),
+      fetch('src/player-stats.json').then(r => r.json()),
     ]);
 
     // ── Venue → coordinates map for Open-Meteo weather ──────────────────────
@@ -261,13 +267,14 @@
       const coords = VENUE_COORDS[venue];
       if (!coords || !commenceTime) return null;
       try {
+        // Use UTC so time strings can be compared directly with commenceTime (which is UTC)
         const url = `https://api.open-meteo.com/v1/forecast?latitude=${coords.lat}&longitude=${coords.lon}` +
-          `&hourly=temperature_2m,precipitation_probability,weathercode&timezone=${encodeURIComponent(coords.tz)}&forecast_days=14`;
+          `&hourly=temperature_2m,precipitation_probability,weathercode&timezone=UTC&forecast_days=14`;
         const res = await fetch(url);
         const data = await res.json();
-        // Find closest hour to kickoff time
+        // Find closest hour to kickoff time (both in UTC)
         const kickoff = new Date(commenceTime);
-        const times = data.hourly.time.map(t => new Date(t + ':00').getTime());
+        const times = data.hourly.time.map(t => new Date(t + 'Z').getTime());
         let closest = 0, minDiff = Infinity;
         times.forEach((t, i) => { const d = Math.abs(t - kickoff); if (d < minDiff) { minDiff = d; closest = i; } });
         const code  = data.hourly.weathercode[closest];
@@ -289,6 +296,17 @@
     if (formRes.status === 'fulfilled') formData = formRes.value;
     let teamLists = null;
     if (teamListRes.status === 'fulfilled') teamLists = teamListRes.value;
+
+    // ── Inject real try rates from player-stats.json ─────────────────────────
+    if (statsRes.status === 'fulfilled' && statsRes.value?.players) {
+      const sp = statsRes.value.players;
+      Object.values(NRL_TEAM_DATA).forEach(team => {
+        (team.players || []).forEach(p => {
+          const real = sp[p.name];
+          if (real) p.tryRate = real.tryRate;
+        });
+      });
+    }
 
     if (!game) {
       document.getElementById('app').innerHTML =
@@ -367,39 +385,13 @@
       }).join('');
     }
 
-    // ── Derived markets ──────────────────────────────────────────────────────
+    // ── Win probability helpers ──────────────────────────────────────────────
     const hProb = 1 / game.h2h.home;
     const aProb = 1 / game.h2h.away;
     const normH = hProb / (hProb + aProb);
 
     const totalExp = game.ou.over.label ? parseFloat(game.ou.over.label) : 42;
     const lineVal  = game.line.home.label ? parseFloat(game.line.home.label) : 0;
-
-    const markets = [
-      { name: 'Head to Head', pick: game.homeTeam.name, odd: game.h2h.home, risk: 'low' },
-      { name: 'Head to Head', pick: game.awayTeam.name, odd: game.h2h.away, risk: 'low' },
-      { name: 'Line Bet (Home)', pick: `${game.homeTeam.name} ${game.line.home.label}`, odd: game.line.home.odd, risk: 'low' },
-      { name: 'Line Bet (Away)', pick: `${game.awayTeam.name} ${game.line.away.label}`, odd: game.line.away.odd, risk: 'low' },
-      { name: 'Over / Under', pick: `Over ${game.ou.over.label}`, odd: game.ou.over.odd, risk: 'low' },
-      { name: 'Over / Under', pick: `Under ${game.ou.under.label}`, odd: game.ou.under.odd, risk: 'low' },
-      { name: 'Win by 1–12 pts', pick: a.favourite, odd: +(2.8 - normH*0.6).toFixed(2), risk: 'med' },
-      { name: 'Win by 13+ pts', pick: a.favourite, odd: +(3.8 - normH*0.5).toFixed(2), risk: 'high' },
-      { name: 'Half-Time/Full-Time', pick: `${a.favourite} / ${a.favourite}`, odd: +(2.3 + (1-normH)*1.2).toFixed(2), risk: 'med' },
-      { name: 'First Try Scoring Team', pick: a.favourite, odd: +(1.85 - normH*0.2).toFixed(2), risk: 'low' },
-      { name: 'Both Teams to Score', pick: 'Yes', odd: 1.28, risk: 'low' },
-      { name: 'Total Tries Over', pick: `Over ${Math.round(totalExp/6.0 + 0.5) - 1}.5`, odd: 1.90, risk: 'low' },
-      { name: 'First Try Scorer', pick: topPlayers(a.favourite)[0]?.name ?? '—', odd: topPlayers(a.favourite)[0] ? ftsOdd(topPlayers(a.favourite)[0]) : 8, risk: 'high' },
-      { name: 'Anytime Try Scorer', pick: topPlayers(a.favourite)[0]?.name ?? '—', odd: topPlayers(a.favourite)[0] ? anytimeOdd(topPlayers(a.favourite)[0]) : 2, risk: 'med' },
-      { name: 'Last Try Scorer', pick: 'Any wing/fullback', odd: 7.00, risk: 'high' },
-      { name: '2+ Tries (Anytime)', pick: topPlayers(a.favourite)[0]?.name ?? '—', odd: topPlayers(a.favourite)[0] ? +(anytimeOdd(topPlayers(a.favourite)[0])*2.5).toFixed(2) : 5, risk: 'high' },
-      { name: 'Winning Margin 1–6', pick: a.favourite, odd: +(5.5 - normH).toFixed(2), risk: 'high' },
-      { name: 'Winning Margin 7–12', pick: a.favourite, odd: +(4.8 - normH*0.8).toFixed(2), risk: 'high' },
-      { name: 'Winning Margin 13–18', pick: a.favourite, odd: +(5.2 - normH*0.6).toFixed(2), risk: 'high' },
-      { name: 'Race to 10 Points', pick: a.favourite, odd: +(1.75 - normH*0.25).toFixed(2), risk: 'med' },
-      { name: 'H2H Most Tries', pick: `${topPlayers(a.favourite)[0]?.name} vs ${topPlayers(a.favourite === game.homeTeam.name ? game.awayTeam.name : game.homeTeam.name)[0]?.name}`, odd: 1.87, risk: 'med' },
-      { name: 'Team Total Over', pick: `${a.favourite} Over ${Math.round(totalExp/2*normH)}.5`, odd: 1.90, risk: 'med' },
-      { name: 'Scorecast', pick: `${topPlayers(a.favourite)[0]?.name ?? '—'} + ${a.favourite} Win`, odd: topPlayers(a.favourite)[0] ? +(ftsOdd(topPlayers(a.favourite)[0])*game.h2h[a.favourite===game.homeTeam.name?'home':'away']*0.75).toFixed(2) : 18, risk: 'high' },
-    ];
 
     // ── Win probability for display ──────────────────────────────────────────
     const homeWinPct = (normH * 100).toFixed(0);
@@ -441,15 +433,30 @@
     }
 
     // ── Injury Report (real NRL Casualty Ward data) ──────────────────────────
-    function returnClass(ret) {
-      if (!ret || ret === 'TBC' || ret === 'Indefinite' || ret === 'Next Season') return 'return-tbc';
+    const _sp = statsRes.status === 'fulfilled' ? (statsRes.value?.players || {}) : {};
+    const _currentRound = teamLists?.round ?? 0;
+
+    function injurySeverity(inj) {
+      const ret = inj.expectedReturn;
+      if (/suspension/i.test(inj.injury)) return { label: 'Suspended', cls: 'sev-suspended' };
+      if (!ret || ret === 'TBC' || ret === 'Indefinite' || ret === 'Next Season') return { label: 'Long-term', cls: 'sev-longterm' };
       const m = ret.match(/Round (\d+)/i);
-      if (m) {
-        const r = parseInt(m[1]);
-        const current = teamLists?.round ?? 0;
-        return (r - current) <= 2 ? 'return-soon' : 'return-later';
+      if (!m) return { label: 'TBC', cls: 'sev-longterm' };
+      const roundsOut = parseInt(m[1]) - _currentRound;
+      if (roundsOut <= 1) return { label: 'Minor', cls: 'sev-minor' };
+      if (roundsOut <= 3) return { label: 'Moderate', cls: 'sev-moderate' };
+      return { label: 'Serious', cls: 'sev-serious' };
+    }
+
+    function returnDetail(ret) {
+      if (!ret || ret === 'TBC' || ret === 'Indefinite' || ret === 'Next Season') {
+        return { when: ret || 'TBC', rounds: null };
       }
-      return 'return-tbc';
+      const m = ret.match(/Round (\d+)/i);
+      if (!m) return { when: ret, rounds: null };
+      const roundsOut = parseInt(m[1]) - _currentRound;
+      const roundsText = roundsOut <= 0 ? 'available now' : roundsOut === 1 ? 'next game' : `${roundsOut} rounds away`;
+      return { when: ret, rounds: roundsText };
     }
 
     function renderCasualties(teamName) {
@@ -457,15 +464,37 @@
       if (!injuries || !injuries.length) {
         return '<div class="no-casualties">✅ No players on the casualty list</div>';
       }
-      return injuries.map(inj => `
-        <div class="injury-item">
-          <span class="injury-return ${returnClass(inj.expectedReturn)}">${inj.expectedReturn}</span>
-          <div class="injury-info">
-            <div class="injury-name">${inj.name}</div>
-            <div class="injury-type">${inj.injury}</div>
-          </div>
-        </div>
-      `).join('');
+      return injuries.map(inj => {
+        const sev = injurySeverity(inj);
+        const ret = returnDetail(inj.expectedReturn);
+        const playerStats = _sp[inj.name];
+        const pos = playerStats?.position || '';
+        const imgSrc = inj.imageUrl
+          ? (inj.imageUrl.startsWith('/') ? 'https://www.nrl.com' + inj.imageUrl : inj.imageUrl)
+          : '';
+        const nameHtml = inj.profileUrl
+          ? `<a href="${inj.profileUrl}" target="_blank" rel="noopener">${inj.name}</a>`
+          : inj.name;
+        const photoHtml = imgSrc
+          ? `<img class="inj-photo" src="${imgSrc}" alt="${inj.name}" loading="lazy" onerror="this.replaceWith(Object.assign(document.createElement('div'),{className:'inj-photo-placeholder',textContent:'🏉'}))">`
+          : `<div class="inj-photo-placeholder">🏉</div>`;
+        return `
+          <div class="injury-item">
+            ${photoHtml}
+            <div class="injury-info">
+              <div class="inj-header">
+                <div class="injury-name">${nameHtml}</div>
+                <span class="inj-sev ${sev.cls}">${sev.label}</span>
+              </div>
+              ${pos ? `<div class="inj-pos">${pos}</div>` : ''}
+              <div class="inj-detail">
+                <span class="inj-type-tag">${inj.injury}</span>
+                <span>·</span>
+                <span class="inj-return-text">Back <span class="inj-return-rounds">${ret.when}</span>${ret.rounds ? ` <span style="opacity:0.6">(${ret.rounds})</span>` : ''}</span>
+              </div>
+            </div>
+          </div>`;
+      }).join('');
     }
 
     // ── Match Commentary Generator ───────────────────────────────────────────
@@ -512,8 +541,8 @@
       const venueContext = game.venue ? `at <strong>${game.venue}</strong>` : 'this weekend';
       let p1 = `<div class="commentary-label">📋 Match Preview</div>
         <strong>${home}</strong> host <strong>${away}</strong> ${venueContext} in what shapes as ${confidenceWord} fixture for the ${favShort}.
-        The markets are telling a clear story — <em>${fav}</em> are priced at <strong>$${favOdd.toFixed(2)}</strong> (implying a ${favPct}% win probability),
-        while ${dogShort} come in as ${parseFloat(dogOdd) > 3 ? 'significant' : 'slight'} outsiders at <strong>$${dogOdd.toFixed(2)}</strong>.
+        The markets are telling a clear story — <em>${fav}</em> are priced at <span class="odd-real">$${favOdd.toFixed(2)}</span> (implying a ${favPct}% win probability),
+        while ${dogShort} come in as ${parseFloat(dogOdd) > 3 ? 'significant' : 'slight'} outsiders at <span class="odd-real">$${dogOdd.toFixed(2)}</span>.
         ${margin > 12 ? `An average winning margin of <strong>${a.avgMargin}</strong> suggests ${favShort} are capable of pulling away if they find their rhythm early.`
         : `With an average margin of just <strong>${a.avgMargin}</strong>, don't be surprised if ${dogShort} keep this one closer than the odds suggest.`}`;
       if (isWet) p1 += ` The forecast of <strong>${weather}</strong> will be a major factor — wet conditions typically tighten scorelines and reduce try-scoring, which could benefit the underdog.`;
@@ -537,8 +566,8 @@
       let p3 = `<div class="commentary-label">⚡ Key Matchup</div>`;
       p3 += `The battle to watch is ${topFavPlayer ? `<strong>${topFavPlayer.name}</strong> (${topFavPlayer.pos}, ${favShort})` : `${favShort}'s attacking line`}
         against ${topDogPlayer ? `<strong>${topDogPlayer.name}</strong> (${topDogPlayer.pos}, ${dogShort})` : `${dogShort}'s defence`}.
-        ${topFavPlayer ? `${topFavPlayer.name} carries a <strong>${Math.round(topFavPlayer.tryRate * 100)}%</strong> try-scoring rate this season and is the biggest threat to the line — back them as an anytime try scorer at <em>$${anytimeOdd(topFavPlayer).toFixed(2)}</em>.` : ''}
-        ${topDogPlayer ? `Meanwhile, ${topDogPlayer.name} for ${dogShort} is one to watch if the game opens up — priced at <em>$${anytimeOdd(topDogPlayer).toFixed(2)}</em> anytime, they represent potential value if ${dogShort} stay in the contest.` : ''}`;
+        ${topFavPlayer ? `${topFavPlayer.name} is averaging <strong>${topFavPlayer.tryRate >= 1 ? topFavPlayer.tryRate.toFixed(2) + ' tries per game' : Math.round(topFavPlayer.tryRate * 100) + '% try-scoring rate'}</strong> this season and is the biggest threat to the line — back them as an anytime try scorer at <span class="odd-derived">$${anytimeOdd(topFavPlayer).toFixed(2)}</span>.` : ''}
+        ${topDogPlayer ? `Meanwhile, ${topDogPlayer.name} for ${dogShort} is one to watch if the game opens up — priced at <span class="odd-derived">$${anytimeOdd(topDogPlayer).toFixed(2)}</span> anytime, they represent potential value if ${dogShort} stay in the contest.` : ''}`;
       if (favMissing.length > 0) {
         const names = favMissing.slice(0, 2).map(c => c.name).join(', ');
         p3 += ` <strong>Note:</strong> ${favShort} are without <strong>${names}${favMissing.length > 2 ? ` and ${favMissing.length - 2} others` : ''}</strong> — see the Injury Report for full details.`;
@@ -550,13 +579,13 @@
       let p4 = `<div class="commentary-label">💰 Betting Strategy</div>`;
       const lineVal2 = lineLabel ? parseFloat(lineLabel) : 0;
       if (confidence === 'high' || confidence === 'very high') {
-        p4 += `Given the <strong>${confidence} confidence</strong> rating and ${favShort}'s current odds of <strong>$${favOdd.toFixed(2)}</strong>,
+        p4 += `Given the <strong>${confidence} confidence</strong> rating and ${favShort}'s current odds of <span class="odd-real">$${favOdd.toFixed(2)}</span>,
           the head-to-head is the cleanest entry point for conservative punters.
-          ${Math.abs(lineVal2) <= 10 ? `The line bet (<em>${favShort} ${lineLabel}</em> at <strong>$${lineOdd.toFixed(2)}</strong>) also offers solid value — the handicap is manageable given the expected margin.`
+          ${Math.abs(lineVal2) <= 10 ? `The line bet (<em>${favShort} ${lineLabel}</em> at <span class="odd-real">$${lineOdd.toFixed(2)}</span>) also offers solid value — the handicap is manageable given the expected margin.`
           : `The line bet requires ${favShort} to cover <strong>${Math.abs(lineVal2)} points</strong>, which is aggressive given the implied margin. Stick to the straight H2H for lower risk.`}`;
       } else {
         p4 += `With a <strong>${confidence} confidence</strong> read on this match, the safer play is to lean toward smaller stakes or side markets rather than heavy investment on the head-to-head.
-          The line bet (<em>${favShort} ${lineLabel}</em> at <strong>$${lineOdd.toFixed(2)}</strong>) effectively hedges your position — you still need ${favShort} to win, but the spread gives extra cover in a close match.`;
+          The line bet (<em>${favShort} ${lineLabel}</em> at <span class="odd-real">$${lineOdd.toFixed(2)}</span>) effectively hedges your position — you still need ${favShort} to win, but the spread gives extra cover in a close match.`;
       }
       if (isWet) p4 += ` In wet conditions, the Over/Under market shifts significantly — lean <strong>Under ${game.ou.under.label}</strong> as teams opt for kick-chase football over expansive attack.`;
       else p4 += ` In ${isClear ? 'clear' : 'expected'} conditions, the <strong>Over ${game.ou.over.label}</strong> has a reasonable case — both squads have the attacking talent to push past the line in open play.`;
@@ -570,7 +599,7 @@
             ? `Both official 17s have been named — check the Named Teams and Injury Report cards for any notable absences before finalising your selections.`
             : `Teams are yet to be officially announced — monitor NRL.com Thursday night for the named squads, as key absences can shift the market significantly.`}
         The safest bet structure is <strong>${fav} to win + ${topFavPlayer?.name ?? 'top try threat'} anytime try scorer</strong> as a two-leg multi,
-        offering a combined return of roughly <em>$${(favOdd * anytimeOdd(topFavPlayer ?? allPlayers[0]) * 0.85).toFixed(2)}</em> for a modest stake.
+        offering a combined return of roughly <span class="odd-derived">$${(favOdd * anytimeOdd(topFavPlayer ?? allPlayers[0]) * 0.85).toFixed(2)}</span> for a modest stake.
         Always set a budget before placing — odds are educational simulations and real betting outcomes vary.`;
 
       return [p1, p2, p3, p4, p5].map(p => `<div class="commentary-para">${p}</div>`).join('');
@@ -680,6 +709,9 @@
                 </tr>
               </tbody>
             </table>
+            <div style="margin-top:12px;font-size:0.7rem;color:var(--text-2)">
+              📡 Live odds from The Odds API &nbsp;·&nbsp; <span class="odd-real">●</span> Real &nbsp; <span class="odd-derived">●</span> Estimated
+            </div>
           </div>
 
           <!-- FORM GUIDE -->
@@ -745,6 +777,13 @@
                 ${renderCasualties(game.awayTeam.name)}
               </div>
             </div>
+            <div style="margin-top:12px;font-size:0.7rem;color:var(--text-2);display:flex;flex-wrap:wrap;gap:8px">
+              <span><span class="inj-sev sev-minor" style="font-size:0.58rem">Minor</span> 1 round</span>
+              <span><span class="inj-sev sev-moderate" style="font-size:0.58rem">Moderate</span> 2–3 rounds</span>
+              <span><span class="inj-sev sev-serious" style="font-size:0.58rem">Serious</span> 4+ rounds</span>
+              <span><span class="inj-sev sev-longterm" style="font-size:0.58rem">Long-term</span> TBC/Indefinite</span>
+              <span><span class="inj-sev sev-suspended" style="font-size:0.58rem">Suspended</span></span>
+            </div>
             <div class="injury-source">
               ${teamLists
                 ? `📡 <a href="https://www.nrl.com/casualty-ward/?competition=111" target="_blank" rel="noopener">NRL.com Casualty Ward</a> — updated Round ${teamLists.round}`
@@ -791,6 +830,9 @@
                 </div>`).join('')}
               </div>
             </div>
+            <div style="margin-top:12px;font-size:0.7rem;color:var(--text-2)">
+              📊 Odds estimated from 2026 season try-scoring rates &nbsp;·&nbsp; <span class="odd-derived">●</span> Estimated
+            </div>
           </div>
 
         </div><!-- /left -->
@@ -834,31 +876,31 @@
               <div class="best-bet-item">
                 <div class="best-bet-type">🟢 Beginner</div>
                 <div class="best-bet-pick">${a.favourite} — Head to Head</div>
-                <div class="best-bet-odd">${toOddsStr(a.favourite === game.homeTeam.name ? game.h2h.home : game.h2h.away)}</div>
+                <div class="best-bet-odd odd-real">${toOddsStr(a.favourite === game.homeTeam.name ? game.h2h.home : game.h2h.away)}</div>
                 <div class="best-bet-rationale">Odds imply ${a.favourite === game.homeTeam.name ? homeWinPct : awayWinPct}% win chance. ${a.confidenceLevel} confidence based on current markets.</div>
               </div>
               <div class="best-bet-item">
                 <div class="best-bet-type">🟢 Beginner</div>
                 <div class="best-bet-pick">${a.favourite} Line ${a.favourite === game.homeTeam.name ? game.line.home.label : game.line.away.label}</div>
-                <div class="best-bet-odd">${toOddsStr(a.favourite === game.homeTeam.name ? game.line.home.odd : game.line.away.odd)}</div>
+                <div class="best-bet-odd odd-real">${toOddsStr(a.favourite === game.homeTeam.name ? game.line.home.odd : game.line.away.odd)}</div>
                 <div class="best-bet-rationale">Handicap reduces risk — favourite still wins even giving points away.</div>
               </div>
               <div class="best-bet-item medium">
                 <div class="best-bet-type">🟡 Intermediate</div>
                 <div class="best-bet-pick">${allPlayers[0]?.name} — Anytime Try Scorer</div>
-                <div class="best-bet-odd">${toOddsStr(anytimeOdd(allPlayers[0]))}</div>
+                <div class="best-bet-odd odd-derived">${toOddsStr(anytimeOdd(allPlayers[0]))}</div>
                 <div class="best-bet-rationale">${allPlayers[0]?.name} (${allPlayers[0]?.pos}) is the highest-rated try threat in this match based on season stats.</div>
               </div>
               <div class="best-bet-item medium">
                 <div class="best-bet-type">🟡 Intermediate</div>
                 <div class="best-bet-pick">Over ${game.ou.over.label} Total Points</div>
-                <div class="best-bet-odd">${toOddsStr(game.ou.over.odd)}</div>
+                <div class="best-bet-odd odd-real">${toOddsStr(game.ou.over.odd)}</div>
                 <div class="best-bet-rationale">Both teams averaging over this line across recent form. ${a.weatherForecast.includes('Clear') || a.weatherForecast.includes('Fine') ? 'Clear conditions favour attacking play.' : 'Monitor conditions closer to kick-off.'}</div>
               </div>
               <div class="best-bet-item high">
                 <div class="best-bet-type">🔴 Expert</div>
                 <div class="best-bet-pick">${allPlayers[0]?.name} — First Try Scorer</div>
-                <div class="best-bet-odd">${toOddsStr(ftsOdd(allPlayers[0]))}</div>
+                <div class="best-bet-odd odd-derived">${toOddsStr(ftsOdd(allPlayers[0]))}</div>
                 <div class="best-bet-rationale">High risk, high reward. Only for those comfortable with ~42% of anytime scorers getting first. Position: ${allPlayers[0]?.pos}.</div>
               </div>
             </div>
@@ -872,23 +914,6 @@
 
         </div><!-- /right -->
 
-        <!-- FULL-WIDTH: ALL MARKETS -->
-        <div class="markets-section">
-          <div class="section-title">📋 All Available Markets</div>
-          <div class="markets-grid">
-            ${markets.map(m => `
-            <div class="market-card">
-              <div style="display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:6px">
-                <div class="market-name">${m.name}</div>
-                <span class="market-risk risk-${m.risk}">${m.risk === 'low' ? 'Low' : m.risk === 'med' ? 'Med' : 'High'}</span>
-              </div>
-              <div class="market-odds-row">
-                <div class="market-pick">${m.pick}</div>
-                <div class="market-odd">${toOddsStr(m.odd)}</div>
-              </div>
-            </div>`).join('')}
-          </div>
-        </div>
 
       </div><!-- /page-grid -->
     </div><!-- /container -->

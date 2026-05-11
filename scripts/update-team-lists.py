@@ -112,6 +112,8 @@ def fetch_casualties():
                 'name':           f"{c.get('firstName', '')} {c.get('lastName', '')}".strip(),
                 'injury':         c.get('injury', ''),
                 'expectedReturn': c.get('expectedReturn', 'TBC'),
+                'imageUrl':       c.get('imageUrl', ''),
+                'profileUrl':     c.get('url', ''),
             })
         print(f'🏥  Casualty Ward: {sum(len(v) for v in by_team.values())} injuries across {len(by_team)} teams')
         return by_team
