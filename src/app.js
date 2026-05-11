@@ -754,7 +754,21 @@ Promise.all([loadTeamLogos(), formDataPromise]).then(([, formData]) => {
   /* ── Round badge ── */
   if (formData?.round) {
     const el = document.getElementById('roundBadgeLabel');
-    if (el) el.textContent = `Round ${formData.round} — Live`;
+    if (el) {
+      // formData.round = latest *completed* round.
+      // NRL_GAMES is populated by loadLiveOdds with upcoming fixtures.
+      // If there are upcoming games they belong to the next round (formData.round + 1).
+      const updateBadge = () => {
+        const hasUpcoming = NRL_GAMES.length > 0;
+        el.textContent = hasUpcoming
+          ? `Round ${formData.round + 1} — Upcoming`
+          : `Round ${formData.round} — Complete`;
+      };
+      // Run now (live odds may already be loaded) and again after a short delay
+      // to catch the case where loadLiveOdds resolves after formDataPromise.
+      updateBadge();
+      setTimeout(updateBadge, 1500);
+    }
   }
 
   /* ── Ladder ── */

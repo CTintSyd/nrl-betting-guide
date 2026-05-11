@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-05-10T02:11:08.254456+00:00",
+  "generatedAt": "2026-05-11T10:39:26.890156+00:00",
   "round": 10,
   "ladder": [
     {
       "pos": 1,
       "nick": "Panthers",
       "name": "Penrith Panthers",
-      "played": 9,
-      "wins": 8,
+      "played": 10,
+      "wins": 9,
       "losses": 1,
       "drawn": 0,
-      "ptsFor": 291,
-      "ptsAgainst": 122,
-      "diff": 169,
-      "pts": 16,
-      "streak": "3W"
+      "ptsFor": 321,
+      "ptsAgainst": 140,
+      "diff": 181,
+      "pts": 18,
+      "streak": "4W"
     },
     {
       "pos": 2,
@@ -76,15 +76,15 @@
       "pos": 6,
       "nick": "Wests Tigers",
       "name": "Wests Tigers",
-      "played": 8,
+      "played": 9,
       "wins": 5,
-      "losses": 3,
+      "losses": 4,
       "drawn": 0,
-      "ptsFor": 219,
-      "ptsAgainst": 179,
-      "diff": 40,
+      "ptsFor": 235,
+      "ptsAgainst": 223,
+      "diff": 12,
       "pts": 12,
-      "streak": "1L"
+      "streak": "2L"
     },
     {
       "pos": 7,
@@ -160,15 +160,15 @@
       "pos": 12,
       "nick": "Raiders",
       "name": "Canberra Raiders",
-      "played": 9,
+      "played": 10,
       "wins": 4,
-      "losses": 5,
+      "losses": 6,
       "drawn": 0,
-      "ptsFor": 183,
-      "ptsAgainst": 249,
-      "diff": -66,
+      "ptsFor": 201,
+      "ptsAgainst": 279,
+      "diff": -78,
       "pts": 8,
-      "streak": "1W"
+      "streak": "1L"
     },
     {
       "pos": 13,
@@ -200,6 +200,20 @@
     },
     {
       "pos": 15,
+      "nick": "Storm",
+      "name": "Melbourne Storm",
+      "played": 10,
+      "wins": 3,
+      "losses": 7,
+      "drawn": 0,
+      "ptsFor": 242,
+      "ptsAgainst": 276,
+      "diff": -34,
+      "pts": 6,
+      "streak": "1W"
+    },
+    {
+      "pos": 16,
       "nick": "Titans",
       "name": "Gold Coast Titans",
       "played": 9,
@@ -211,20 +225,6 @@
       "diff": -62,
       "pts": 6,
       "streak": "3L"
-    },
-    {
-      "pos": 16,
-      "nick": "Storm",
-      "name": "Melbourne Storm",
-      "played": 9,
-      "wins": 2,
-      "losses": 7,
-      "drawn": 0,
-      "ptsFor": 198,
-      "ptsAgainst": 260,
-      "diff": -62,
-      "pts": 4,
-      "streak": "5L"
     },
     {
       "pos": 17,
@@ -283,15 +283,8 @@
       ]
     },
     "Canberra Raiders": {
-      "last5": "L W W L W",
+      "last5": "W W L W L",
       "games": [
-        {
-          "round": 5,
-          "result": "L",
-          "opponent": "Newcastle Knights",
-          "home": false,
-          "score": "32\u201312"
-        },
         {
           "round": 6,
           "result": "W",
@@ -319,6 +312,13 @@
           "opponent": "Gold Coast Titans",
           "home": false,
           "score": "12\u201328"
+        },
+        {
+          "round": 10,
+          "result": "L",
+          "opponent": "Penrith Panthers",
+          "home": true,
+          "score": "18\u201330"
         }
       ]
     },
@@ -523,15 +523,8 @@
       ]
     },
     "Melbourne Storm": {
-      "last5": "L L L L L",
+      "last5": "L L L L W",
       "games": [
-        {
-          "round": 5,
-          "result": "L",
-          "opponent": "Penrith Panthers",
-          "home": false,
-          "score": "50\u201310"
-        },
         {
           "round": 6,
           "result": "L",
@@ -559,6 +552,13 @@
           "opponent": "Dolphins",
           "home": false,
           "score": "28\u201310"
+        },
+        {
+          "round": 10,
+          "result": "W",
+          "opponent": "Wests Tigers",
+          "home": true,
+          "score": "44\u201316"
         }
       ]
     },
@@ -723,15 +723,8 @@
       ]
     },
     "Penrith Panthers": {
-      "last5": "W L W W W",
+      "last5": "L W W W W",
       "games": [
-        {
-          "round": 5,
-          "result": "W",
-          "opponent": "Melbourne Storm",
-          "home": true,
-          "score": "50\u201310"
-        },
         {
           "round": 6,
           "result": "L",
@@ -759,6 +752,13 @@
           "opponent": "Manly Warringah Sea Eagles",
           "home": true,
           "score": "18\u201316"
+        },
+        {
+          "round": 10,
+          "result": "W",
+          "opponent": "Canberra Raiders",
+          "home": false,
+          "score": "18\u201330"
         }
       ]
     },
@@ -883,15 +883,8 @@
       ]
     },
     "Wests Tigers": {
-      "last5": "W W L W L",
+      "last5": "W L W L L",
       "games": [
-        {
-          "round": 5,
-          "result": "W",
-          "opponent": "Parramatta Eels",
-          "home": false,
-          "score": "20\u201322"
-        },
         {
           "round": 6,
           "result": "W",
@@ -919,6 +912,13 @@
           "opponent": "Cronulla Sutherland Sharks",
           "home": false,
           "score": "52\u201310"
+        },
+        {
+          "round": 10,
+          "result": "L",
+          "opponent": "Melbourne Storm",
+          "home": false,
+          "score": "44\u201316"
         }
       ]
     }
