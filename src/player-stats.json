@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-10T02:52:45.952240+00:00",
+  "generatedAt": "2026-05-11T18:25:48.359097+00:00",
   "round": 10,
   "players": {
     "Kalyn Ponga": {
@@ -126,14 +126,14 @@
       "games": 10,
       "tryRate": 0.6,
       "team": "Newcastle Knights",
-      "position": "Reserve"
+      "position": "Interchange"
     },
     "Francis Manuleleua": {
       "tries": 0,
       "games": 7,
       "tryRate": 0.0,
       "team": "Newcastle Knights",
-      "position": "Interchange"
+      "position": "Reserve"
     },
     "Scott Drinkwater": {
       "tries": 6,
@@ -413,7 +413,7 @@
       "games": 7,
       "tryRate": 0.1429,
       "team": "St George Illawarra Dragons",
-      "position": "Reserve"
+      "position": "Interchange"
     },
     "Moses Suli": {
       "tries": 2,
@@ -441,7 +441,7 @@
       "games": 8,
       "tryRate": 0.0,
       "team": "St George Illawarra Dragons",
-      "position": "Interchange"
+      "position": "Reserve"
     },
     "Daniel Atkinson": {
       "tries": 0,
@@ -511,14 +511,14 @@
       "games": 9,
       "tryRate": 0.0,
       "team": "St George Illawarra Dragons",
-      "position": "Interchange"
+      "position": "Reserve"
     },
     "Ryan Couchman": {
       "tries": 0,
       "games": 5,
       "tryRate": 0.0,
       "team": "St George Illawarra Dragons",
-      "position": "Reserve"
+      "position": "Interchange"
     },
     "Lyhkan King-Togia": {
       "tries": 0,
@@ -535,23 +535,23 @@
       "position": "Winger"
     },
     "Sualauvi Faalogo": {
-      "tries": 11,
-      "games": 9,
-      "tryRate": 1.2222,
+      "tries": 12,
+      "games": 10,
+      "tryRate": 1.2,
       "team": "Melbourne Storm",
       "position": "Fullback"
     },
     "Will Warbrick": {
-      "tries": 7,
-      "games": 9,
-      "tryRate": 0.7778,
+      "tries": 9,
+      "games": 10,
+      "tryRate": 0.9,
       "team": "Melbourne Storm",
       "position": "Winger"
     },
     "Jack Howarth": {
       "tries": 3,
-      "games": 8,
-      "tryRate": 0.375,
+      "games": 9,
+      "tryRate": 0.3333,
       "team": "Melbourne Storm",
       "position": "Centre"
     },
@@ -564,57 +564,57 @@
     },
     "Nick Meaney": {
       "tries": 2,
-      "games": 8,
-      "tryRate": 0.25,
+      "games": 9,
+      "tryRate": 0.2222,
       "team": "Melbourne Storm",
       "position": "Centre"
     },
     "Cameron Munster": {
-      "tries": 0,
-      "games": 9,
-      "tryRate": 0.0,
+      "tries": 2,
+      "games": 10,
+      "tryRate": 0.2,
       "team": "Melbourne Storm",
       "position": "Five-Eighth"
     },
     "Jahrome Hughes": {
-      "tries": 1,
-      "games": 8,
-      "tryRate": 0.125,
+      "tries": 2,
+      "games": 9,
+      "tryRate": 0.2222,
       "team": "Melbourne Storm",
       "position": "Halfback"
     },
     "Stefano Utoikamanu": {
       "tries": 0,
-      "games": 9,
+      "games": 10,
       "tryRate": 0.0,
       "team": "Melbourne Storm",
       "position": "Prop"
     },
     "Harry Grant": {
-      "tries": 3,
-      "games": 9,
-      "tryRate": 0.3333,
+      "tries": 4,
+      "games": 10,
+      "tryRate": 0.4,
       "team": "Melbourne Storm",
       "position": "Hooker"
     },
     "Josh King": {
       "tries": 0,
-      "games": 9,
+      "games": 10,
       "tryRate": 0.0,
       "team": "Melbourne Storm",
       "position": "Prop"
     },
     "Joe Chan": {
       "tries": 2,
-      "games": 9,
-      "tryRate": 0.2222,
+      "games": 10,
+      "tryRate": 0.2,
       "team": "Melbourne Storm",
       "position": "Interchange"
     },
     "Ativalu Lisati": {
-      "tries": 1,
-      "games": 3,
-      "tryRate": 0.3333,
+      "tries": 2,
+      "games": 4,
+      "tryRate": 0.5,
       "team": "Melbourne Storm",
       "position": "2nd Row"
     },
@@ -634,8 +634,8 @@
     },
     "Cooper Clarke": {
       "tries": 1,
-      "games": 9,
-      "tryRate": 0.1111,
+      "games": 10,
+      "tryRate": 0.1,
       "team": "Melbourne Storm",
       "position": "Interchange"
     },
@@ -648,7 +648,7 @@
     },
     "Davvy Moale": {
       "tries": 0,
-      "games": 9,
+      "games": 10,
       "tryRate": 0.0,
       "team": "Melbourne Storm",
       "position": "Interchange"
@@ -1201,56 +1201,56 @@
     },
     "Dylan Edwards": {
       "tries": 9,
-      "games": 9,
-      "tryRate": 1.0,
+      "games": 10,
+      "tryRate": 0.9,
       "team": "Penrith Panthers",
       "position": "Fullback"
     },
     "Paul Alamoti": {
       "tries": 1,
-      "games": 9,
-      "tryRate": 0.1111,
+      "games": 10,
+      "tryRate": 0.1,
       "team": "Penrith Panthers",
       "position": "Centre"
     },
     "Izack Tago": {
       "tries": 2,
-      "games": 9,
-      "tryRate": 0.2222,
+      "games": 10,
+      "tryRate": 0.2,
       "team": "Penrith Panthers",
       "position": "Interchange"
     },
     "Casey McLean": {
-      "tries": 3,
-      "games": 8,
-      "tryRate": 0.375,
+      "tries": 4,
+      "games": 9,
+      "tryRate": 0.4444,
       "team": "Penrith Panthers",
       "position": "Centre"
     },
     "Brian To'o": {
       "tries": 6,
-      "games": 9,
-      "tryRate": 0.6667,
+      "games": 10,
+      "tryRate": 0.6,
       "team": "Penrith Panthers",
       "position": "Winger"
     },
     "Blaize Talagi": {
-      "tries": 3,
-      "games": 9,
-      "tryRate": 0.3333,
+      "tries": 5,
+      "games": 10,
+      "tryRate": 0.5,
       "team": "Penrith Panthers",
       "position": "Five-Eighth"
     },
     "Nathan Cleary": {
-      "tries": 3,
-      "games": 9,
-      "tryRate": 0.3333,
+      "tries": 4,
+      "games": 10,
+      "tryRate": 0.4,
       "team": "Penrith Panthers",
       "position": "Halfback"
     },
     "Moses Leota": {
       "tries": 0,
-      "games": 9,
+      "games": 10,
       "tryRate": 0.0,
       "team": "Penrith Panthers",
       "position": "Prop"
@@ -1264,29 +1264,29 @@
     },
     "Lindsay Smith": {
       "tries": 1,
-      "games": 9,
-      "tryRate": 0.1111,
+      "games": 10,
+      "tryRate": 0.1,
       "team": "Penrith Panthers",
       "position": "Prop"
     },
     "Scott Sorensen": {
       "tries": 0,
-      "games": 9,
+      "games": 10,
       "tryRate": 0.0,
       "team": "Penrith Panthers",
       "position": "Interchange"
     },
     "Luke Garner": {
       "tries": 1,
-      "games": 9,
-      "tryRate": 0.1111,
+      "games": 10,
+      "tryRate": 0.1,
       "team": "Penrith Panthers",
       "position": "2nd Row"
     },
     "Isaah Yeo": {
       "tries": 1,
-      "games": 9,
-      "tryRate": 0.1111,
+      "games": 10,
+      "tryRate": 0.1,
       "team": "Penrith Panthers",
       "position": "Lock"
     },
@@ -1299,8 +1299,8 @@
     },
     "Isaiah Papali'i": {
       "tries": 1,
-      "games": 9,
-      "tryRate": 0.1111,
+      "games": 10,
+      "tryRate": 0.1,
       "team": "Penrith Panthers",
       "position": "2nd Row"
     },
@@ -1313,22 +1313,22 @@
     },
     "Thomas Jenkins": {
       "tries": 16,
-      "games": 9,
-      "tryRate": 1.7778,
+      "games": 10,
+      "tryRate": 1.6,
       "team": "Penrith Panthers",
       "position": "Winger"
     },
     "Freddy Lussick": {
       "tries": 2,
-      "games": 9,
-      "tryRate": 0.2222,
+      "games": 10,
+      "tryRate": 0.2,
       "team": "Penrith Panthers",
       "position": "Hooker"
     },
     "Billy Phillips": {
-      "tries": 0,
-      "games": 9,
-      "tryRate": 0.0,
+      "tries": 1,
+      "games": 10,
+      "tryRate": 0.1,
       "team": "Penrith Panthers",
       "position": "Interchange"
     },
@@ -1732,30 +1732,30 @@
       "position": "Interchange"
     },
     "Kaeo Weekes": {
-      "tries": 6,
-      "games": 9,
-      "tryRate": 0.6667,
+      "tries": 7,
+      "games": 10,
+      "tryRate": 0.7,
       "team": "Canberra Raiders",
-      "position": "Five-Eighth"
+      "position": "Fullback"
     },
     "Savelio Tamale": {
       "tries": 5,
-      "games": 8,
-      "tryRate": 0.625,
+      "games": 9,
+      "tryRate": 0.5556,
       "team": "Canberra Raiders",
       "position": "Winger"
     },
     "Simi Sasagi": {
       "tries": 4,
-      "games": 8,
-      "tryRate": 0.5,
+      "games": 9,
+      "tryRate": 0.4444,
       "team": "Canberra Raiders",
       "position": "2nd Row"
     },
     "Sebastian Kris": {
-      "tries": 1,
-      "games": 9,
-      "tryRate": 0.1111,
+      "tries": 2,
+      "games": 10,
+      "tryRate": 0.2,
       "team": "Canberra Raiders",
       "position": "Centre"
     },
@@ -1768,15 +1768,15 @@
     },
     "Ethan Strange": {
       "tries": 3,
-      "games": 8,
-      "tryRate": 0.375,
+      "games": 9,
+      "tryRate": 0.3333,
       "team": "Canberra Raiders",
       "position": "Five-Eighth"
     },
     "Ethan Sanders": {
-      "tries": 1,
-      "games": 9,
-      "tryRate": 0.1111,
+      "tries": 2,
+      "games": 10,
+      "tryRate": 0.2,
       "team": "Canberra Raiders",
       "position": "Halfback"
     },
@@ -1789,22 +1789,22 @@
     },
     "Tom Starling": {
       "tries": 0,
-      "games": 9,
+      "games": 10,
       "tryRate": 0.0,
       "team": "Canberra Raiders",
       "position": "Hooker"
     },
     "Joseph Tapine": {
       "tries": 0,
-      "games": 9,
+      "games": 10,
       "tryRate": 0.0,
       "team": "Canberra Raiders",
       "position": "Prop"
     },
     "Hudson Young": {
       "tries": 3,
-      "games": 7,
-      "tryRate": 0.4286,
+      "games": 8,
+      "tryRate": 0.375,
       "team": "Canberra Raiders",
       "position": "2nd Row"
     },
@@ -1817,14 +1817,14 @@
     },
     "Corey Horsburgh": {
       "tries": 1,
-      "games": 9,
-      "tryRate": 0.1111,
+      "games": 10,
+      "tryRate": 0.1,
       "team": "Canberra Raiders",
       "position": "Prop"
     },
     "Jayden Brailey": {
       "tries": 0,
-      "games": 9,
+      "games": 10,
       "tryRate": 0.0,
       "team": "Canberra Raiders",
       "position": "Interchange"
@@ -1838,28 +1838,28 @@
     },
     "Ata Mariota": {
       "tries": 0,
-      "games": 9,
+      "games": 10,
       "tryRate": 0.0,
       "team": "Canberra Raiders",
       "position": "Interchange"
     },
     "Morgan Smithies": {
       "tries": 0,
-      "games": 9,
+      "games": 10,
       "tryRate": 0.0,
       "team": "Canberra Raiders",
       "position": "Lock"
     },
     "Daine Laurie": {
       "tries": 0,
-      "games": 8,
+      "games": 9,
       "tryRate": 0.0,
       "team": "Canberra Raiders",
-      "position": "Fullback"
+      "position": "Interchange"
     },
     "Jed Stuart": {
       "tries": 0,
-      "games": 7,
+      "games": 8,
       "tryRate": 0.0,
       "team": "Canberra Raiders",
       "position": "Winger"
@@ -2093,7 +2093,7 @@
       "games": 9,
       "tryRate": 0.0,
       "team": "South Sydney Rabbitohs",
-      "position": "Interchange"
+      "position": "Reserve"
     },
     "Tallis Duncan": {
       "tries": 5,
@@ -2160,8 +2160,8 @@
     },
     "Matthew Timoko": {
       "tries": 2,
-      "games": 5,
-      "tryRate": 0.4,
+      "games": 6,
+      "tryRate": 0.3333,
       "team": "Canberra Raiders",
       "position": "Centre"
     },
@@ -2202,15 +2202,15 @@
     },
     "Sunia Turuva": {
       "tries": 4,
-      "games": 8,
-      "tryRate": 0.5,
+      "games": 9,
+      "tryRate": 0.4444,
       "team": "Wests Tigers",
-      "position": "Fullback"
+      "position": "Winger"
     },
     "Taylan May": {
-      "tries": 3,
-      "games": 4,
-      "tryRate": 0.75,
+      "tries": 5,
+      "games": 5,
+      "tryRate": 1.0,
       "team": "Wests Tigers",
       "position": "Centre"
     },
@@ -2222,16 +2222,16 @@
       "position": "Winger"
     },
     "Luke Laulilii": {
-      "tries": 4,
-      "games": 7,
-      "tryRate": 0.5714,
+      "tries": 5,
+      "games": 8,
+      "tryRate": 0.625,
       "team": "Wests Tigers",
       "position": "Winger"
     },
     "Jarome Luai": {
       "tries": 1,
-      "games": 5,
-      "tryRate": 0.2,
+      "games": 6,
+      "tryRate": 0.1667,
       "team": "Wests Tigers",
       "position": "Five-Eighth"
     },
@@ -2258,7 +2258,7 @@
     },
     "Fonua Pole": {
       "tries": 0,
-      "games": 8,
+      "games": 9,
       "tryRate": 0.0,
       "team": "Wests Tigers",
       "position": "Prop"
@@ -2272,57 +2272,57 @@
     },
     "Kai Pearce-Paul": {
       "tries": 3,
-      "games": 7,
-      "tryRate": 0.4286,
+      "games": 8,
+      "tryRate": 0.375,
       "team": "Wests Tigers",
       "position": "2nd Row"
     },
     "Alex Twal": {
       "tries": 0,
-      "games": 8,
+      "games": 9,
       "tryRate": 0.0,
       "team": "Wests Tigers",
       "position": "Lock"
     },
     "Jock Madden": {
       "tries": 1,
-      "games": 8,
-      "tryRate": 0.125,
+      "games": 9,
+      "tryRate": 0.1111,
       "team": "Wests Tigers",
-      "position": "Interchange"
+      "position": "Halfback"
     },
     "Sione Fainu": {
       "tries": 0,
-      "games": 8,
+      "games": 9,
       "tryRate": 0.0,
       "team": "Wests Tigers",
-      "position": "Interchange"
+      "position": "2nd Row"
     },
     "Royce Hunt": {
       "tries": 2,
-      "games": 8,
-      "tryRate": 0.25,
+      "games": 9,
+      "tryRate": 0.2222,
       "team": "Wests Tigers",
       "position": "Interchange"
     },
     "Alex Seyfarth": {
       "tries": 0,
-      "games": 8,
+      "games": 9,
       "tryRate": 0.0,
       "team": "Wests Tigers",
       "position": "Interchange"
     },
     "Tristan Hope": {
       "tries": 0,
-      "games": 7,
+      "games": 8,
       "tryRate": 0.0,
       "team": "Wests Tigers",
       "position": "Hooker"
     },
     "Jeral Skelton": {
       "tries": 1,
-      "games": 6,
-      "tryRate": 0.1667,
+      "games": 7,
+      "tryRate": 0.1429,
       "team": "Wests Tigers",
       "position": "Reserve"
     },
@@ -2349,10 +2349,10 @@
     },
     "Jack Hetherington": {
       "tries": 0,
-      "games": 6,
+      "games": 7,
       "tryRate": 0.0,
       "team": "Melbourne Storm",
-      "position": "Interchange"
+      "position": "Reserve"
     },
     "Angus Hinchey": {
       "tries": 0,
@@ -2440,14 +2440,14 @@
     },
     "Jack Cole": {
       "tries": 0,
-      "games": 3,
+      "games": 4,
       "tryRate": 0.0,
       "team": "Penrith Panthers",
       "position": "Reserve"
     },
     "Trent Loiero": {
       "tries": 0,
-      "games": 7,
+      "games": 8,
       "tryRate": 0.0,
       "team": "Melbourne Storm",
       "position": "Lock"
@@ -2545,10 +2545,10 @@
     },
     "Patrick Herbert": {
       "tries": 1,
-      "games": 4,
-      "tryRate": 0.25,
+      "games": 5,
+      "tryRate": 0.2,
       "team": "Wests Tigers",
-      "position": "Interchange"
+      "position": "Centre"
     },
     "Jacob Liddle": {
       "tries": 1,
@@ -2608,10 +2608,10 @@
     },
     "Latu Fainu": {
       "tries": 0,
-      "games": 5,
+      "games": 6,
       "tryRate": 0.0,
       "team": "Wests Tigers",
-      "position": "Reserve"
+      "position": "Interchange"
     },
     "Va'a Semu": {
       "tries": 0,
@@ -2727,7 +2727,7 @@
     },
     "Billy Scott": {
       "tries": 0,
-      "games": 2,
+      "games": 3,
       "tryRate": 0.0,
       "team": "Penrith Panthers",
       "position": "Reserve"
@@ -2762,10 +2762,10 @@
     },
     "Chevy Stewart": {
       "tries": 0,
-      "games": 3,
+      "games": 4,
       "tryRate": 0.0,
       "team": "Canberra Raiders",
-      "position": "Interchange"
+      "position": "Reserve"
     },
     "Apa Twidle": {
       "tries": 2,
@@ -2916,14 +2916,14 @@
     },
     "Shawn Blore": {
       "tries": 0,
-      "games": 3,
+      "games": 4,
       "tryRate": 0.0,
       "team": "Melbourne Storm",
       "position": "2nd Row"
     },
     "Hugo Peel": {
       "tries": 0,
-      "games": 3,
+      "games": 4,
       "tryRate": 0.0,
       "team": "Melbourne Storm",
       "position": "Winger"
@@ -3007,7 +3007,7 @@
     },
     "Owen Pattie": {
       "tries": 0,
-      "games": 2,
+      "games": 3,
       "tryRate": 0.0,
       "team": "Canberra Raiders",
       "position": "Interchange"
@@ -3038,7 +3038,7 @@
       "games": 3,
       "tryRate": 0.0,
       "team": "Dolphins",
-      "position": "Interchange"
+      "position": "Reserve"
     },
     "John Fineanganofo": {
       "tries": 0,
@@ -3084,14 +3084,14 @@
     },
     "Trent Toelau": {
       "tries": 0,
-      "games": 1,
+      "games": 2,
       "tryRate": 0.0,
       "team": "Melbourne Storm",
-      "position": "Interchange"
+      "position": "Reserve"
     },
     "Jordan Uta": {
       "tries": 0,
-      "games": 1,
+      "games": 2,
       "tryRate": 0.0,
       "team": "Canberra Raiders",
       "position": "Reserve"
@@ -3115,7 +3115,7 @@
       "games": 2,
       "tryRate": 0.0,
       "team": "South Sydney Rabbitohs",
-      "position": "Reserve"
+      "position": "Interchange"
     },
     "Blake Wilson": {
       "tries": 0,
@@ -3129,7 +3129,7 @@
       "games": 1,
       "tryRate": 1.0,
       "team": "Dolphins",
-      "position": "Reserve"
+      "position": "Interchange"
     },
     "Reece Foley": {
       "tries": 0,
@@ -3158,6 +3158,48 @@
       "tryRate": 0.0,
       "team": "Brisbane Broncos",
       "position": "Reserve"
+    },
+    "Stanley Huen": {
+      "tries": 0,
+      "games": 1,
+      "tryRate": 0.0,
+      "team": "Melbourne Storm",
+      "position": "Interchange"
+    },
+    "Heath Mason": {
+      "tries": 0,
+      "games": 1,
+      "tryRate": 0.0,
+      "team": "Wests Tigers",
+      "position": "Fullback"
+    },
+    "Bunty Afoa": {
+      "tries": 0,
+      "games": 1,
+      "tryRate": 0.0,
+      "team": "Wests Tigers",
+      "position": "Prop"
+    },
+    "Mavrik Geyer": {
+      "tries": 0,
+      "games": 1,
+      "tryRate": 0.0,
+      "team": "Wests Tigers",
+      "position": "Interchange"
+    },
+    "Charlie Murray": {
+      "tries": 0,
+      "games": 1,
+      "tryRate": 0.0,
+      "team": "Wests Tigers",
+      "position": "Reserve"
+    },
+    "Liam Henry": {
+      "tries": 0,
+      "games": 1,
+      "tryRate": 0.0,
+      "team": "Penrith Panthers",
+      "position": "Interchange"
     }
   }
 }
