@@ -1,6 +1,6 @@
 {
-  "updated": "2026-05-10T20:11:34.166Z",
-  "quotaRemaining": 467,
+  "updated": "2026-05-11T14:20:39.346Z",
+  "quotaRemaining": 464,
   "games": [
     {
       "id": "2eb8c03af1f7e3ae8cf309913f92b51a",
@@ -35,23 +35,23 @@
       "commenceTime": "2026-05-15T10:05:00Z",
       "bookmaker": "sportsbet",
       "h2h": {
-        "home": 1.7,
-        "away": 2.16
+        "home": 2,
+        "away": 1.84
       },
       "line": {
         "home": {
-          "odd": 1.91,
-          "point": -2.5
+          "odd": 1.87,
+          "point": 1.5
         },
         "away": {
-          "odd": 1.89,
-          "point": 2.5
+          "odd": 1.93,
+          "point": -1.5
         }
       },
       "ou": {
-        "total": 55.5,
-        "overOdd": 1.9,
-        "underOdd": 1.9
+        "total": 54.5,
+        "overOdd": 1.91,
+        "underOdd": 1.89
       }
     },
     {
@@ -113,23 +113,23 @@
       "commenceTime": "2026-05-16T09:45:00Z",
       "bookmaker": "sportsbet",
       "h2h": {
-        "home": 2.66,
-        "away": 1.48
+        "home": 2.92,
+        "away": 1.41
       },
       "line": {
         "home": {
-          "odd": 1.9,
-          "point": 6.5
+          "odd": 1.99,
+          "point": 7.5
         },
         "away": {
-          "odd": 1.9,
-          "point": -6.5
+          "odd": 1.82,
+          "point": -7.5
         }
       },
       "ou": {
-        "total": 52.5,
-        "overOdd": 1.91,
-        "underOdd": 1.89
+        "total": 53.5,
+        "overOdd": 1.9,
+        "underOdd": 1.9
       }
     },
     {
