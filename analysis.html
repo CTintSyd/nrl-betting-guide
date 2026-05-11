@@ -166,6 +166,45 @@
     .no-casualties { font-size: 0.82rem; color: var(--green); padding: 6px 0; }
     .injury-source { font-size: 0.71rem; color: var(--text-2); margin-top: 12px; opacity: 0.7; border-top: 1px solid rgba(255,255,255,0.05); padding-top: 10px; }
 
+    /* ── H2H record ── */
+    .h2h-summary { display: flex; justify-content: space-between; align-items: center; background: rgba(255,255,255,0.04); border-radius: 8px; padding: 12px 16px; margin-bottom: 14px; gap: 8px; text-align: center; }
+    .h2h-team-block { flex: 1; }
+    .h2h-team-name { font-size: 0.68rem; font-weight: 700; color: var(--text-2); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 4px; }
+    .h2h-team-wins { font-size: 1.6rem; font-weight: 800; color: #fff; font-family: var(--font-heading); line-height: 1; }
+    .h2h-team-wins.dominant { color: var(--green); }
+    .h2h-mid { font-size: 0.72rem; color: var(--text-2); line-height: 1.5; }
+    .h2h-played { font-size: 1.1rem; font-weight: 700; color: var(--text); }
+    .h2h-matches { display: flex; flex-direction: column; gap: 0; }
+    .h2h-match { display: flex; align-items: center; justify-content: space-between; padding: 8px 0; border-bottom: 1px solid rgba(255,255,255,0.05); font-size: 0.8rem; gap: 8px; }
+    .h2h-match:last-child { border-bottom: none; }
+    .h2h-match-round { font-size: 0.68rem; color: var(--text-2); min-width: 64px; }
+    .h2h-match-teams { flex: 1; color: var(--text); font-weight: 500; }
+    .h2h-match-score { font-weight: 700; color: #fff; font-variant-numeric: tabular-nums; }
+    .h2h-match-winner { font-size: 0.65rem; font-weight: 800; letter-spacing: 0.5px; text-transform: uppercase; padding: 1px 6px; border-radius: 3px; background: rgba(0,166,81,0.15); color: var(--green); min-width: 52px; text-align: center; }
+    .h2h-no-data { font-size: 0.82rem; color: var(--text-2); }
+
+    /* ── Named 17s ── */
+    .named-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    .named-team-label { font-size: 0.68rem; font-weight: 800; letter-spacing: 1px; text-transform: uppercase; color: var(--text-2); margin-bottom: 10px; }
+    .named-player { display: flex; align-items: center; gap: 8px; padding: 5px 0; border-bottom: 1px solid rgba(255,255,255,0.04); font-size: 0.82rem; }
+    .named-player:last-child { border-bottom: none; }
+    .named-num { font-size: 0.72rem; font-weight: 700; color: var(--text-2); width: 20px; flex-shrink: 0; }
+    .named-player-name { flex: 1; color: var(--text); font-weight: 500; }
+    .named-pos { font-size: 0.65rem; color: var(--text-2); background: rgba(255,255,255,0.06); padding: 1px 5px; border-radius: 3px; }
+    .named-divider { font-size: 0.62rem; font-weight: 800; letter-spacing: 1px; text-transform: uppercase; color: var(--text-2); padding: 6px 0 4px; opacity: 0.6; border-top: 1px solid rgba(255,255,255,0.07); margin-top: 4px; }
+    .named-not-yet { font-size: 0.82rem; color: var(--text-2); padding: 4px 0; }
+
+    /* ── Line movement ── */
+    .move-up   { color: #ff6b6b; font-size: 0.72rem; font-weight: 700; margin-left: 4px; }
+    .move-down { color: var(--green); font-size: 0.72rem; font-weight: 700; margin-left: 4px; }
+    .move-none { color: var(--text-2); font-size: 0.72rem; margin-left: 4px; }
+
+    /* ── Value indicator ── */
+    .value-badge { display: inline-block; font-size: 0.68rem; font-weight: 800; letter-spacing: 0.5px; text-transform: uppercase; padding: 2px 8px; border-radius: 4px; }
+    .value-badge--yes  { background: rgba(0,166,81,0.18); color: var(--green); }
+    .value-badge--no   { background: rgba(255,255,255,0.07); color: var(--text-2); }
+    .value-badge--fair { background: rgba(255,165,0,0.12); color: #ffa500; }
+
     /* ── Commentary ── */
     /* ── Zero Tackle articles ── */
     .zt-articles { display: flex; flex-direction: column; }
@@ -246,12 +285,14 @@
     // ── Load game data + real form strings in parallel ──────────────────────
     let game = null;
     let formData = null;
-    const [oddsRes, formRes, teamListRes, statsRes, ztRes] = await Promise.allSettled([
+    const [oddsRes, formRes, teamListRes, statsRes, ztRes, h2hRes, openingRes] = await Promise.allSettled([
       fetch(`src/live-odds.json?v=${Date.now()}`).then(r => r.json()),
       fetch(`src/form-data.json?v=${Date.now()}`).then(r => r.json()),
       fetch(`src/team-lists.json?v=${Date.now()}`).then(r => r.json()),
       fetch('src/player-stats.json').then(r => r.json()),
       fetch(`src/zerotackle-articles.json?v=${Date.now()}`).then(r => r.json()),
+      fetch(`src/h2h-data.json?v=${Date.now()}`).then(r => r.json()),
+      fetch(`src/odds-opening.json?v=${Date.now()}`).then(r => r.json()),
     ]);
 
     // ── Venue → coordinates map for Open-Meteo weather ──────────────────────
@@ -306,6 +347,10 @@
 
     let ztArticles = null;
     if (ztRes.status === 'fulfilled') ztArticles = ztRes.value;
+    let h2hData = null;
+    if (h2hRes.status === 'fulfilled') h2hData = h2hRes.value;
+    let openingOdds = null;
+    if (openingRes.status === 'fulfilled') openingOdds = openingRes.value;
 
     if (oddsRes.status === 'fulfilled') {
       const cutoff = Date.now() - 3 * 60 * 60 * 1000;
@@ -460,6 +505,137 @@
     // ── Injury Report (real NRL Casualty Ward data) ──────────────────────────
     const _sp = statsRes.status === 'fulfilled' ? (statsRes.value?.players || {}) : {};
     const _currentRound = teamLists?.round ?? 0;
+
+    // ── H2H record card ──────────────────────────────────────────────────────
+    function renderH2H(homeTeam, awayTeam) {
+      const key = `${homeTeam} vs ${awayTeam}`;
+      const d = h2hData?.matches?.[key];
+      if (!d) return '<div class="h2h-no-data">H2H data unavailable.</div>';
+
+      const { overall, recent } = d;
+      const totalH2H = overall.played || 0;
+      // Count actual wins for each named team across all time
+      // overall.homeWins/awayWins reflect fixture role, not team identity
+      // Use recent matches to determine per-team win counts in last meetings
+      const h1 = recent.team1Wins;
+      const h2 = recent.team2Wins;
+      const recentPlayed = recent.matches.length;
+      const draws = recentPlayed - h1 - h2;
+
+      // For overall, derive from overall.homeWins + awayWins (these are role-based)
+      // We show this as total played + recent breakdown
+      const homeShort = homeTeam.split(' ').pop();
+      const awayShort = awayTeam.split(' ').pop();
+
+      const summaryHtml = `
+        <div class="h2h-summary">
+          <div class="h2h-team-block">
+            <div class="h2h-team-name">${homeShort}</div>
+            <div class="h2h-team-wins ${h1 > h2 ? 'dominant' : ''}">${h1}</div>
+            <div style="font-size:0.65rem;color:var(--text-2)">last ${recentPlayed}</div>
+          </div>
+          <div class="h2h-mid">
+            <div class="h2h-played">${totalH2H}</div>
+            <div>all time</div>
+            ${draws > 0 ? `<div>${draws} draw${draws > 1 ? 's' : ''}</div>` : ''}
+          </div>
+          <div class="h2h-team-block">
+            <div class="h2h-team-name">${awayShort}</div>
+            <div class="h2h-team-wins ${h2 > h1 ? 'dominant' : ''}">${h2}</div>
+            <div style="font-size:0.65rem;color:var(--text-2)">last ${recentPlayed}</div>
+          </div>
+        </div>`;
+
+      const matchRows = recent.matches.map(m => {
+        const winnerShort = m.winner.split(' ').pop();
+        return `
+          <div class="h2h-match">
+            <div class="h2h-match-round">${m.round}</div>
+            <div class="h2h-match-teams">${m.homeTeam.split(' ').pop()} v ${m.awayTeam.split(' ').pop()}</div>
+            <div class="h2h-match-score">${m.homeScore}–${m.awayScore}</div>
+            <div class="h2h-match-winner">${winnerShort}</div>
+          </div>`;
+      }).join('');
+
+      return summaryHtml + `<div class="h2h-matches">${matchRows || '<div class="h2h-no-data">No recent meetings on record.</div>'}</div>`;
+    }
+
+    // ── Named 17s card ───────────────────────────────────────────────────────
+    function renderNamedTeam(teamName) {
+      const players = teamLists?.teams?.[teamName];
+      if (!players?.length) {
+        return '<div class="named-not-yet">⏳ Not yet announced — check back Thursday night.</div>';
+      }
+      const starters     = players.filter(p => p.category === 'starting');
+      const interchange  = players.filter(p => p.category === 'interchange');
+
+      const rows = (list, label) => {
+        if (!list.length) return '';
+        return list.map((p, i) => `
+          <div class="named-player">
+            <div class="named-num">${p.number || i + 1}</div>
+            <div class="named-player-name">${p.name}</div>
+            ${p.position ? `<div class="named-pos">${p.position}</div>` : ''}
+          </div>`).join('');
+      };
+
+      return `
+        ${rows(starters, 'Starting 13')}
+        ${interchange.length ? `<div class="named-divider">Interchange</div>${rows(interchange)}` : ''}`;
+    }
+
+    // ── Line movement helper ─────────────────────────────────────────────────
+    function movementHtml(current, opening) {
+      if (!opening || !current || opening === null) return '';
+      const diff = (current - opening).toFixed(2);
+      if (Math.abs(diff) < 0.04) return `<span class="move-none">—</span>`;
+      return diff > 0
+        ? `<span class="move-up">▲${Math.abs(diff)}</span>`
+        : `<span class="move-down">▼${Math.abs(diff)}</span>`;
+    }
+
+    // ── Value indicator ──────────────────────────────────────────────────────
+    function calcValue(game, formData) {
+      // Market implied probabilities (vig-removed)
+      const ho = game.h2h.home, ao = game.h2h.away;
+      if (!ho || !ao) return null;
+      const total = 1/ho + 1/ao;
+      const mktHomePct = (1/ho / total) * 100;
+
+      // Simple form-based model
+      const homeForm = formData?.teams?.[game.homeTeam.name]?.last5 || '';
+      const awayForm = formData?.teams?.[game.awayTeam.name]?.last5 || '';
+      const homeWins = (homeForm.match(/W/g) || []).length;
+      const awayWins = (awayForm.match(/W/g) || []).length;
+
+      const homePos = LADDER_POS[game.homeTeam.name] || 9;
+      const awayPos = LADDER_POS[game.awayTeam.name] || 9;
+
+      // Model: 50% base + form edge + ladder edge + home advantage
+      const formEdge    = (homeWins - awayWins) * 4;       // ±4% per win difference
+      const ladderEdge  = (awayPos - homePos) * 1.5;       // ±1.5% per ladder place
+      const homeAdv     = 3;                                 // 3% generic home advantage
+      let modelHomePct  = 50 + formEdge + ladderEdge + homeAdv;
+      modelHomePct = Math.max(20, Math.min(80, modelHomePct)); // cap at reasonable range
+
+      const gap = modelHomePct - mktHomePct;
+
+      let valueTeam, badge, detail;
+      if (gap > 6) {
+        valueTeam = game.homeTeam.name.split(' ').pop();
+        badge = `<span class="value-badge value-badge--yes">Value: ${valueTeam}</span>`;
+        detail = `Model suggests ${Math.round(modelHomePct)}% vs market's ${Math.round(mktHomePct)}%`;
+      } else if (gap < -6) {
+        valueTeam = game.awayTeam.name.split(' ').pop();
+        badge = `<span class="value-badge value-badge--yes">Value: ${valueTeam}</span>`;
+        detail = `Model suggests ${Math.round(100 - modelHomePct)}% vs market's ${Math.round(100 - mktHomePct)}%`;
+      } else {
+        badge = `<span class="value-badge value-badge--fair">Fair price</span>`;
+        detail = `Model (${Math.round(modelHomePct)}%) close to market (${Math.round(mktHomePct)}%)`;
+      }
+
+      return { badge, detail, modelHomePct, mktHomePct };
+    }
 
     function renderArticles(homeTeam, awayTeam) {
       if (!ztArticles?.articles?.length) {
@@ -756,35 +932,39 @@
                 <th>${game.awayTeam.name.split(' ').pop()}</th>
               </tr></thead>
               <tbody>
+                ${(() => {
+                  const op = openingOdds?.[game.id];
+                  return `
                 <tr>
                   <td>Head to Head</td>
-                  <td><span class="odd-val">${toOddsStr(game.h2h.home)}</span>
+                  <td><span class="odd-val">${toOddsStr(game.h2h.home)}</span>${movementHtml(game.h2h.home, op?.h2h?.home)}
                     ${isFavHome ? '<span class="odds-badge badge-fav">FAV</span>' : '<span class="odds-badge badge-dog">DOG</span>'}
                     <div class="impl">${impl(game.h2h.home)} chance</div>
                   </td>
-                  <td><span class="odd-val">${toOddsStr(game.h2h.away)}</span>
+                  <td><span class="odd-val">${toOddsStr(game.h2h.away)}</span>${movementHtml(game.h2h.away, op?.h2h?.away)}
                     ${!isFavHome ? '<span class="odds-badge badge-fav">FAV</span>' : '<span class="odds-badge badge-dog">DOG</span>'}
                     <div class="impl">${impl(game.h2h.away)} chance</div>
                   </td>
                 </tr>
                 <tr>
                   <td>Line Bet</td>
-                  <td><span class="odd-val">${toOddsStr(game.line.home.odd)}</span>
+                  <td><span class="odd-val">${toOddsStr(game.line.home.odd)}</span>${movementHtml(game.line.home.odd, op?.line?.home?.odd)}
                     <div class="impl">${game.line.home.label}</div>
                   </td>
-                  <td><span class="odd-val">${toOddsStr(game.line.away.odd)}</span>
+                  <td><span class="odd-val">${toOddsStr(game.line.away.odd)}</span>${movementHtml(game.line.away.odd, op?.line?.away?.odd)}
                     <div class="impl">${game.line.away.label}</div>
                   </td>
                 </tr>
                 <tr>
                   <td>Over / Under</td>
                   <td colspan="2" style="text-align:center">
-                    <span class="odd-val">${toOddsStr(game.ou.over.odd)}</span>
+                    <span class="odd-val">${toOddsStr(game.ou.over.odd)}</span>${movementHtml(game.ou.over.odd, op?.ou?.overOdd)}
                     <span style="color:var(--text-2);margin:0 8px">Ovr ${game.ou.over.label}</span>
-                    <span class="odd-val">${toOddsStr(game.ou.under.odd)}</span>
+                    <span class="odd-val">${toOddsStr(game.ou.under.odd)}</span>${movementHtml(game.ou.under.odd, op?.ou?.underOdd)}
                     <span style="color:var(--text-2);margin-left:4px">Und ${game.ou.under.label}</span>
                   </td>
-                </tr>
+                </tr>`;
+                })()}
               </tbody>
             </table>
             <div style="margin-top:12px;font-size:0.7rem;color:var(--text-2)">
@@ -833,6 +1013,39 @@
               ${teamLists?.round
                 ? `📡 Official NRL.com squads — Round ${teamLists.round}`
                 : `⚠️ Team list data unavailable`}
+            </div>
+          </div>
+
+          <!-- HEAD-TO-HEAD RECORD -->
+          <div class="card">
+            <div class="card-label">Head-to-Head Record</div>
+            ${renderH2H(game.homeTeam.name, game.awayTeam.name)}
+            <div style="margin-top:10px;font-size:0.68rem;color:var(--text-2);opacity:0.7;border-top:1px solid rgba(255,255,255,0.05);padding-top:10px">
+              📡 NRL.com match centre — recent meetings shown
+            </div>
+          </div>
+
+          <!-- NAMED 17s -->
+          <div class="card">
+            <div class="card-label">Named Teams (1–17)</div>
+            <div class="named-grid">
+              <div>
+                <div class="named-team-label">
+                  ${LOGOS[game.homeTeam.name] ? `<img src="${LOGOS[game.homeTeam.name]}" width="14" height="14" style="object-fit:contain;vertical-align:middle;margin-right:4px">` : ''}
+                  ${game.homeTeam.name.split(' ').pop()}
+                </div>
+                ${renderNamedTeam(game.homeTeam.name)}
+              </div>
+              <div>
+                <div class="named-team-label">
+                  ${LOGOS[game.awayTeam.name] ? `<img src="${LOGOS[game.awayTeam.name]}" width="14" height="14" style="object-fit:contain;vertical-align:middle;margin-right:4px">` : ''}
+                  ${game.awayTeam.name.split(' ').pop()}
+                </div>
+                ${renderNamedTeam(game.awayTeam.name)}
+              </div>
+            </div>
+            <div style="margin-top:10px;font-size:0.68rem;color:var(--text-2);opacity:0.7;border-top:1px solid rgba(255,255,255,0.05);padding-top:10px">
+              📡 NRL.com official squads — announced Thursday night
             </div>
           </div>
 
@@ -941,6 +1154,19 @@
               <div class="fact-label">Key Factor</div>
               <div class="fact-val" style="max-width:120px">${a.keyFactor}</div>
             </div>
+            ${(() => {
+              const v = calcValue(game, formData);
+              if (!v) return '';
+              return `
+            <div class="fact-row" style="align-items:flex-start">
+              <div class="fact-label">Value Rating</div>
+              <div class="fact-val" style="text-align:right">
+                ${v.badge}
+                <div style="font-size:0.68rem;color:var(--text-2);margin-top:4px;line-height:1.4">${v.detail}</div>
+                <div style="font-size:0.62rem;color:var(--text-2);opacity:0.6;margin-top:2px">Form + ladder model</div>
+              </div>
+            </div>`;
+            })()}
             <div class="rec-box">
               <div class="rec-title">💡 Analyst Take</div>
               <p>${a.recommendation}</p>

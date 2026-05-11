@@ -20,6 +20,45 @@ async function main() {
 
   const transformed = games.map(transformGame).filter(Boolean);
 
+  // ── Opening odds tracking ─────────────────────────────────────────────────
+  const openingPath = path.join(__dirname, '../src/odds-opening.json');
+  let opening = {};
+  if (fs.existsSync(openingPath)) {
+    try { opening = JSON.parse(fs.readFileSync(openingPath, 'utf8')); } catch (_) {}
+  }
+
+  const THIRTY_DAYS = 30 * 24 * 60 * 60 * 1000;
+  const now = Date.now();
+
+  // Remove stale entries (game finished >30 days ago)
+  for (const [id, entry] of Object.entries(opening)) {
+    if (now - new Date(entry.firstSeen).getTime() > THIRTY_DAYS) {
+      delete opening[id];
+    }
+  }
+
+  // Record opening odds for games we haven't seen before
+  for (const g of transformed) {
+    if (!opening[g.id]) {
+      opening[g.id] = {
+        homeTeam:  g.homeTeam,
+        awayTeam:  g.awayTeam,
+        firstSeen: new Date().toISOString(),
+        h2h:  { home: g.h2h.home,  away: g.h2h.away },
+        line: {
+          home: { odd: g.line.home.odd, point: g.line.home.point },
+          away: { odd: g.line.away.odd, point: g.line.away.point },
+        },
+        ou: { total: g.ou.total, overOdd: g.ou.overOdd, underOdd: g.ou.underOdd },
+      };
+      console.log(`Opening odds recorded: ${g.homeTeam} vs ${g.awayTeam}`);
+    }
+  }
+
+  fs.writeFileSync(openingPath, JSON.stringify(opening, null, 2));
+  console.log(`Opening odds: ${Object.keys(opening).length} games tracked → src/odds-opening.json`);
+  // ─────────────────────────────────────────────────────────────────────────
+
   const out = {
     updated: new Date().toISOString(),
     quotaRemaining: Number(remaining),
