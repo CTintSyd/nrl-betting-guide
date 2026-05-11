@@ -567,12 +567,20 @@ function renderGames(filter) {
             <div class="team-logo-wrap">${teamLogoHtml(game.homeTeam.name)}</div>
             <div class="team-name">${game.homeTeam.name}</div>
             <div class="team-record">${game.homeTeam.record}</div>
+            <div class="team-meta">
+              ${LADDER_POS[game.homeTeam.name] ? `<span class="team-ladder-pos">${LADDER_POS[game.homeTeam.name]}${['st','nd','rd'][LADDER_POS[game.homeTeam.name]-1]||'th'}</span>` : ''}
+              <span class="team-ha team-ha--home">Home</span>
+            </div>
           </div>
           <div class="match-vs">VS</div>
           <div class="team-info">
             <div class="team-logo-wrap">${teamLogoHtml(game.awayTeam.name)}</div>
             <div class="team-name">${game.awayTeam.name}</div>
             <div class="team-record">${game.awayTeam.record}</div>
+            <div class="team-meta">
+              ${LADDER_POS[game.awayTeam.name] ? `<span class="team-ladder-pos">${LADDER_POS[game.awayTeam.name]}${['st','nd','rd'][LADDER_POS[game.awayTeam.name]-1]||'th'}</span>` : ''}
+              <span class="team-ha team-ha--away">Away</span>
+            </div>
           </div>
         </div>
         <div class="game-odds">
@@ -744,8 +752,15 @@ renderScenarios();
 updateCalc();
 updateMultiBuilder();
 
+// Build ladder position lookup: teamName → position (1-based)
+// Populated once form data loads; used by renderGames for card display.
+const LADDER_POS = {};  // e.g. { 'Penrith Panthers': 1, 'Sydney Roosters': 2, … }
+
 // Load team logos + form data in parallel, then render everything
 Promise.all([loadTeamLogos(), formDataPromise]).then(([, formData]) => {
+  // Populate ladder position lookup from form data
+  (formData?.ladder || []).forEach(row => { LADDER_POS[row.name] = row.pos; });
+
   renderGames('all');
   loadLiveOdds();
   applyStripTeamLogos();

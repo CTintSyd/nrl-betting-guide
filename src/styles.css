@@ -1190,6 +1190,45 @@ a:hover { text-decoration: underline; }
   margin-top: 2px;
 }
 
+.team-meta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  margin-top: 4px;
+  flex-wrap: wrap;
+}
+
+.team-ladder-pos {
+  font-size: 0.68rem;
+  font-weight: 700;
+  color: rgba(255,255,255,0.55);
+  background: rgba(255,255,255,0.08);
+  padding: 1px 6px;
+  border-radius: 3px;
+  white-space: nowrap;
+}
+
+.team-ha {
+  font-size: 0.62rem;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  padding: 1px 6px;
+  border-radius: 3px;
+  white-space: nowrap;
+}
+
+.team-ha--home {
+  background: rgba(0,166,81,0.18);
+  color: #00a651;
+}
+
+.team-ha--away {
+  background: rgba(255,255,255,0.07);
+  color: rgba(255,255,255,0.4);
+}
+
 .match-vs {
   font-size: 0.75rem;
   font-weight: 700;
