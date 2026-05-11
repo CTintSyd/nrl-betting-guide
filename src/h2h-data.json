@@ -1,9 +1,30 @@
 {
-  "generatedAt": "2026-05-11T14:14:51Z",
+  "generatedAt": "2026-05-11T14:26:37Z",
   "matches": {
     "Cronulla Sutherland Sharks vs Canterbury Bulldogs": {
       "homeTeam": "Cronulla Sutherland Sharks",
       "awayTeam": "Canterbury Bulldogs",
+      "referee": null,
+      "groundConditions": null,
+      "weather": null,
+      "seasonStats": {
+        "home": {
+          "winPct": 44.0,
+          "completionRate": 80.0,
+          "avgScored": 28.0,
+          "avgConceded": 27.0,
+          "winsAtVenue": 37.0,
+          "winsOverall": 49.0
+        },
+        "away": {
+          "winPct": 33.0,
+          "completionRate": 77.0,
+          "avgScored": 17.0,
+          "avgConceded": 26.0,
+          "winsAtVenue": 29.0,
+          "winsOverall": 49.0
+        }
+      },
       "overall": {
         "played": 42,
         "homeWins": 21,
@@ -102,6 +123,27 @@
     "South Sydney Rabbitohs vs Dolphins": {
       "homeTeam": "South Sydney Rabbitohs",
       "awayTeam": "Dolphins",
+      "referee": null,
+      "groundConditions": null,
+      "weather": null,
+      "seasonStats": {
+        "home": {
+          "winPct": 67.0,
+          "completionRate": 80.0,
+          "avgScored": 32.0,
+          "avgConceded": 22.0,
+          "winsAtVenue": 44.0,
+          "winsOverall": 44.0
+        },
+        "away": {
+          "winPct": 44.0,
+          "completionRate": 75.0,
+          "avgScored": 25.0,
+          "avgConceded": 23.0,
+          "winsAtVenue": 53.0,
+          "winsOverall": 44.0
+        }
+      },
       "overall": {
         "played": 5,
         "homeWins": 3,
@@ -200,6 +242,27 @@
     "Wests Tigers vs Manly Warringah Sea Eagles": {
       "homeTeam": "Wests Tigers",
       "awayTeam": "Manly Warringah Sea Eagles",
+      "referee": null,
+      "groundConditions": null,
+      "weather": null,
+      "seasonStats": {
+        "home": {
+          "winPct": 56.0,
+          "completionRate": 78.0,
+          "avgScored": 26.0,
+          "avgConceded": 24.0,
+          "winsAtVenue": 42.0,
+          "winsOverall": 39.0
+        },
+        "away": {
+          "winPct": 56.0,
+          "completionRate": 79.0,
+          "avgScored": 28.0,
+          "avgConceded": 20.0,
+          "winsAtVenue": 43.0,
+          "winsOverall": 50.0
+        }
+      },
       "overall": {
         "played": 39,
         "homeWins": 16,
@@ -298,6 +361,27 @@
     "Sydney Roosters vs North Queensland Cowboys": {
       "homeTeam": "Sydney Roosters",
       "awayTeam": "North Queensland Cowboys",
+      "referee": null,
+      "groundConditions": null,
+      "weather": null,
+      "seasonStats": {
+        "home": {
+          "winPct": 78.0,
+          "completionRate": 78.0,
+          "avgScored": 31.0,
+          "avgConceded": 23.0,
+          "winsAtVenue": 52.0,
+          "winsOverall": 56.0
+        },
+        "away": {
+          "winPct": 60.0,
+          "completionRate": 75.0,
+          "avgScored": 26.0,
+          "avgConceded": 26.0,
+          "winsAtVenue": 42.0,
+          "winsOverall": 44.0
+        }
+      },
       "overall": {
         "played": 42,
         "homeWins": 28,
@@ -396,6 +480,27 @@
     "Parramatta Eels vs Melbourne Storm": {
       "homeTeam": "Parramatta Eels",
       "awayTeam": "Melbourne Storm",
+      "referee": null,
+      "groundConditions": null,
+      "weather": null,
+      "seasonStats": {
+        "home": {
+          "winPct": 40.0,
+          "completionRate": 77.0,
+          "avgScored": 22.0,
+          "avgConceded": 34.0,
+          "winsAtVenue": 47.0,
+          "winsOverall": 48.0
+        },
+        "away": {
+          "winPct": 30.0,
+          "completionRate": 79.0,
+          "avgScored": 24.0,
+          "avgConceded": 27.0,
+          "winsAtVenue": 70.0,
+          "winsOverall": 64.0
+        }
+      },
       "overall": {
         "played": 49,
         "homeWins": 18,
@@ -494,6 +599,27 @@
     "Gold Coast Titans vs Newcastle Knights": {
       "homeTeam": "Gold Coast Titans",
       "awayTeam": "Newcastle Knights",
+      "referee": null,
+      "groundConditions": null,
+      "weather": null,
+      "seasonStats": {
+        "home": {
+          "winPct": 22.0,
+          "completionRate": 76.0,
+          "avgScored": 18.0,
+          "avgConceded": 25.0,
+          "winsAtVenue": 34.0,
+          "winsOverall": 37.0
+        },
+        "away": {
+          "winPct": 60.0,
+          "completionRate": 77.0,
+          "avgScored": 27.0,
+          "avgConceded": 27.0,
+          "winsAtVenue": 50.0,
+          "winsOverall": 44.0
+        }
+      },
       "overall": {
         "played": 32,
         "homeWins": 15,
@@ -592,6 +718,27 @@
     "New Zealand Warriors vs Brisbane Broncos": {
       "homeTeam": "New Zealand Warriors",
       "awayTeam": "Brisbane Broncos",
+      "referee": null,
+      "groundConditions": null,
+      "weather": null,
+      "seasonStats": {
+        "home": {
+          "winPct": 78.0,
+          "completionRate": 84.0,
+          "avgScored": 30.0,
+          "avgConceded": 18.0,
+          "winsAtVenue": 33.0,
+          "winsOverall": 44.0
+        },
+        "away": {
+          "winPct": 50.0,
+          "completionRate": 76.0,
+          "avgScored": 21.0,
+          "avgConceded": 24.0,
+          "winsAtVenue": 59.0,
+          "winsOverall": 54.0
+        }
+      },
       "overall": {
         "played": 46,
         "homeWins": 22,
@@ -690,6 +837,27 @@
     "Penrith Panthers vs St George Illawarra Dragons": {
       "homeTeam": "Penrith Panthers",
       "awayTeam": "St George Illawarra Dragons",
+      "referee": null,
+      "groundConditions": null,
+      "weather": null,
+      "seasonStats": {
+        "home": {
+          "winPct": 90.0,
+          "completionRate": 78.0,
+          "avgScored": 32.0,
+          "avgConceded": 14.0,
+          "winsAtVenue": 56.0,
+          "winsOverall": 53.0
+        },
+        "away": {
+          "winPct": 0.0,
+          "completionRate": 77.0,
+          "avgScored": 13.0,
+          "avgConceded": 34.0,
+          "winsAtVenue": 38.0,
+          "winsOverall": 46.0
+        }
+      },
       "overall": {
         "played": 41,
         "homeWins": 20,

@@ -9,6 +9,13 @@ if (!API_KEY) { console.error('ODDS_API_KEY not set'); process.exit(1); }
 
 const API_URL = `https://api.the-odds-api.com/v4/sports/rugbyleague_nrl/odds/?apiKey=${API_KEY}&regions=au&markets=h2h,spreads,totals`;
 const PREFERRED = ['sportsbet', 'tab', 'betright', 'ladbrokes_au', 'pointsbetau'];
+const BOOKIE_LABELS = {
+  sportsbet:    'Sportsbet',
+  tab:          'TAB',
+  betright:     'BetRight',
+  ladbrokes_au: 'Ladbrokes',
+  pointsbetau:  'PointsBet',
+};
 
 async function main() {
   const res = await fetch(API_URL);
@@ -83,6 +90,23 @@ function transformGame(game) {
 
   const get = (market, name) => market?.outcomes.find(o => o.name === name);
 
+  // Build bookmaker comparison (up to 4 bookies with H2H odds)
+  const bookmakerComparison = PREFERRED
+    .map(key => {
+      const b = game.bookmakers.find(bk2 => bk2.key === key);
+      if (!b) return null;
+      const bH2h = b.markets.find(m => m.key === 'h2h');
+      if (!bH2h) return null;
+      return {
+        key:  key,
+        name: BOOKIE_LABELS[key] || key,
+        home: bH2h.outcomes.find(o => o.name === game.home_team)?.price ?? null,
+        away: bH2h.outcomes.find(o => o.name === game.away_team)?.price ?? null,
+      };
+    })
+    .filter(Boolean)
+    .slice(0, 4);
+
   return {
     id: game.id,
     homeTeam: game.home_team,
@@ -102,6 +126,7 @@ function transformGame(game) {
       overOdd:  get(total, 'Over')?.price ?? null,
       underOdd: get(total, 'Under')?.price ?? null,
     },
+    bookmakerComparison,
   };
 }
 

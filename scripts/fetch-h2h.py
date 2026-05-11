@@ -84,6 +84,42 @@ def format_h2h_matches(matches):
     return out
 
 
+def extract_season_stats(data):
+    """Pull season averages, venue wins and other key stats from stats.groups."""
+    groups = data.get('stats', {}).get('groups', [])
+    home_stats, away_stats = {}, {}
+
+    STAT_MAP = {
+        'Average Points Scored':   'avgScored',
+        'Average Points Conceded': 'avgConceded',
+        'Completion Rate':         'completionRate',
+        'Wins at this venue':      'winsAtVenue',
+        'Wins overall':            'winsOverall',
+        'Wins this season':        'winPct',
+    }
+
+    for group in groups:
+        for stat in group.get('stats', []):
+            key = STAT_MAP.get(stat['title'])
+            if key:
+                home_stats[key] = stat['homeValue']['value']
+                away_stats[key] = stat['awayValue']['value']
+
+    return {'home': home_stats, 'away': away_stats}
+
+
+def extract_referee(data):
+    """Return the match referee if officials have been announced."""
+    for official in data.get('officials', []):
+        if official.get('position') == 'Referee':
+            return {
+                'name': f"{official.get('firstName', '')} {official.get('lastName', '')}".strip(),
+                'url':  official.get('url', ''),
+                'img':  official.get('headImage', ''),
+            }
+    return None
+
+
 def main():
     # Read upcoming fixtures from team-lists.json (already fetched by update-team-lists.py)
     tl_path = Path(__file__).parent.parent / 'src' / 'team-lists.json'
@@ -119,10 +155,14 @@ def main():
             print(f'  ⚠  Failed: {exc}')
             continue
 
-        history    = data.get('stats', {}).get('history', {})
-        home_form  = format_form(data.get('homeTeam', {}).get('recentForm', []))
-        away_form  = format_form(data.get('awayTeam', {}).get('recentForm', []))
-        h2h_recent = format_h2h_matches(history.get('recentMatches', []))
+        history      = data.get('stats', {}).get('history', {})
+        home_form    = format_form(data.get('homeTeam', {}).get('recentForm', []))
+        away_form    = format_form(data.get('awayTeam', {}).get('recentForm', []))
+        h2h_recent   = format_h2h_matches(history.get('recentMatches', []))
+        season_stats = extract_season_stats(data)
+        referee      = extract_referee(data)
+        ground_cond  = data.get('groundConditions', None)
+        weather      = data.get('weather', None)
 
         played    = history.get('played', 0)
         home_wins = history.get('homeWins', 0)   # wins as home team overall
@@ -136,6 +176,10 @@ def main():
         results[key] = {
             'homeTeam': home,
             'awayTeam': away,
+            'referee':       referee,
+            'groundConditions': ground_cond,
+            'weather':       weather,
+            'seasonStats':   season_stats,
             'overall': {
                 'played':   played,
                 'homeWins': home_wins,
@@ -144,8 +188,8 @@ def main():
             },
             'recent': {
                 'matches':    h2h_recent,
-                'team1Wins':  team1_wins,   # home team wins in last 5
-                'team2Wins':  team2_wins,   # away team wins in last 5
+                'team1Wins':  team1_wins,
+                'team2Wins':  team2_wins,
             },
             'homeForm': home_form,
             'awayForm': away_form,

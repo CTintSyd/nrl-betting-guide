@@ -231,6 +231,57 @@
     /* Estimated/derived odds calculated from season stats or formulas */
     .odd-derived { color: #f0a500 !important; font-weight: 600; }
 
+    /* ── Scoring patterns ── */
+    .scoring-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 14px; }
+    .scoring-team-label { font-size: 0.68rem; font-weight: 800; letter-spacing: 0.8px; text-transform: uppercase; color: var(--text-2); margin-bottom: 8px; }
+    .scoring-stat { display: flex; justify-content: space-between; align-items: center; padding: 5px 0; border-bottom: 1px solid rgba(255,255,255,0.04); font-size: 0.8rem; }
+    .scoring-stat:last-child { border-bottom: none; }
+    .scoring-stat-label { color: var(--text-2); }
+    .scoring-stat-val { font-weight: 700; color: var(--text); }
+    .scoring-stat-val.good { color: var(--green); }
+    .scoring-stat-val.bad  { color: #ff6b6b; }
+    .ou-trend { background: rgba(255,255,255,0.04); border-radius: 6px; padding: 10px 12px; margin-top: 4px; font-size: 0.8rem; }
+    .ou-trend-title { font-size: 0.68rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.8px; color: var(--text-2); margin-bottom: 6px; }
+    .ou-pips { display: flex; gap: 4px; flex-wrap: wrap; }
+    .ou-pip { width: 22px; height: 22px; border-radius: 4px; display: flex; align-items: center; justify-content: center; font-size: 0.65rem; font-weight: 800; }
+    .ou-pip.over  { background: rgba(0,166,81,0.2); color: var(--green); }
+    .ou-pip.under { background: rgba(255,255,255,0.07); color: var(--text-2); }
+    .streak-badge { display: inline-flex; align-items: center; gap: 4px; font-size: 0.72rem; font-weight: 800; padding: 2px 8px; border-radius: 4px; }
+    .streak-badge.win  { background: rgba(0,166,81,0.15); color: var(--green); }
+    .streak-badge.loss { background: rgba(255,107,107,0.15); color: #ff6b6b; }
+
+    /* ── Bookmaker comparison ── */
+    .bookie-toggle { font-size: 0.72rem; color: var(--green); cursor: pointer; background: none; border: none; padding: 0; font-family: inherit; }
+    .bookie-toggle:hover { text-decoration: underline; }
+    .bookie-comp { margin-top: 10px; overflow: hidden; }
+    .bookie-table { width: 100%; border-collapse: collapse; font-size: 0.82rem; }
+    .bookie-table th { font-size: 0.68rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.6px; color: var(--text-2); padding: 5px 8px; border-bottom: 1px solid var(--border); text-align: left; }
+    .bookie-table td { padding: 8px; border-bottom: 1px solid rgba(255,255,255,0.04); }
+    .bookie-table tr:last-child td { border-bottom: none; }
+    .bookie-table .bk-odd { font-weight: 700; color: var(--green); font-family: var(--font-heading); font-size: 0.95rem; }
+    .bookie-table .bk-best { color: #ffd700; }
+
+    /* ── Bet slip ── */
+    #betSlip { position: fixed; bottom: 24px; right: 24px; width: 290px; background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); box-shadow: 0 8px 32px rgba(0,0,0,0.5); z-index: 1000; overflow: hidden; transform: translateY(120%); transition: transform 0.3s ease; }
+    #betSlip.open { transform: translateY(0); }
+    .betslip-header { display: flex; align-items: center; justify-content: space-between; padding: 12px 14px; background: rgba(0,166,81,0.1); border-bottom: 1px solid var(--border); }
+    .betslip-title { font-size: 0.82rem; font-weight: 800; color: var(--green); }
+    .betslip-clear { font-size: 0.72rem; color: var(--text-2); background: none; border: none; cursor: pointer; font-family: inherit; }
+    .betslip-clear:hover { color: #ff6b6b; }
+    .betslip-items { max-height: 200px; overflow-y: auto; }
+    .betslip-item { display: flex; align-items: center; justify-content: space-between; padding: 9px 14px; border-bottom: 1px solid rgba(255,255,255,0.04); font-size: 0.78rem; gap: 8px; }
+    .betslip-item-desc { flex: 1; color: var(--text); line-height: 1.3; }
+    .betslip-item-odd { font-weight: 700; color: var(--green); font-family: var(--font-heading); white-space: nowrap; }
+    .betslip-remove { background: none; border: none; color: var(--text-2); cursor: pointer; font-size: 0.9rem; padding: 0; line-height: 1; }
+    .betslip-remove:hover { color: #ff6b6b; }
+    .betslip-footer { padding: 12px 14px; background: rgba(255,255,255,0.03); }
+    .betslip-combined { display: flex; justify-content: space-between; font-size: 0.82rem; margin-bottom: 6px; }
+    .betslip-combined strong { color: var(--green); font-family: var(--font-heading); font-size: 1rem; }
+    .betslip-return { font-size: 0.72rem; color: var(--text-2); }
+    .add-multi-btn { font-size: 0.65rem; font-weight: 700; padding: 2px 7px; border-radius: 3px; background: rgba(0,166,81,0.12); color: var(--green); border: 1px solid rgba(0,166,81,0.25); cursor: pointer; font-family: inherit; white-space: nowrap; margin-left: 6px; }
+    .add-multi-btn:hover { background: rgba(0,166,81,0.22); }
+    .add-multi-btn.added { background: rgba(0,166,81,0.25); color: #fff; }
+
     /* ── Footer ── */
     .footer { border-top: 1px solid var(--border); padding: 24px 0; text-align: center; color: var(--text-2); font-size: 0.78rem; }
     .footer a { color: var(--green); }
@@ -637,6 +688,117 @@
       return { badge, detail, modelHomePct, mktHomePct };
     }
 
+    // ── Streak helper ────────────────────────────────────────────────────────
+    function calcStreak(form) {
+      if (!form?.length) return null;
+      const type = form[0].result; // 'Won' or 'Lost'
+      let count = 0;
+      for (const f of form) { if (f.result === type) count++; else break; }
+      return { count, isWin: type === 'Won' };
+    }
+
+    function streakBadge(form) {
+      const s = calcStreak(form);
+      if (!s) return '';
+      const cls = s.isWin ? 'win' : 'loss';
+      const label = s.isWin ? `🔥 W${s.count} streak` : `❄️ L${s.count} streak`;
+      return `<span class="streak-badge ${cls}">${label}</span>`;
+    }
+
+    // ── Scoring patterns card ────────────────────────────────────────────────
+    function renderScoringPatterns(homeTeam, awayTeam) {
+      const key = `${homeTeam} vs ${awayTeam}`;
+      const d = h2hData?.matches?.[key];
+      if (!d) return '<div class="h2h-no-data">Scoring data unavailable.</div>';
+
+      const hs = d.seasonStats?.home || {};
+      const as_ = d.seasonStats?.away || {};
+      const ouLine = game.ou?.total;
+
+      // Parse score strings for O/U trend
+      const parseScores = form => form.map(f => {
+        const parts = (f.score || '0-0').split('-').map(Number);
+        return { forTeam: parts[0] || 0, against: parts[1] || 0, total: (parts[0] || 0) + (parts[1] || 0) };
+      });
+      const homeScores = parseScores(d.homeForm || []);
+      const awayScores = parseScores(d.awayForm || []);
+
+      const statRow = (label, val, better) => {
+        const cls = better === 'high' && val > 0 ? 'good' : better === 'low' && val < 30 ? 'good' : '';
+        return `<div class="scoring-stat">
+          <span class="scoring-stat-label">${label}</span>
+          <span class="scoring-stat-val ${cls}">${val ?? '—'}</span>
+        </div>`;
+      };
+
+      const teamPanel = (label, stats, scores) => `
+        <div>
+          <div class="scoring-team-label">${label}</div>
+          ${statRow('Avg scored', stats.avgScored)}
+          ${statRow('Avg conceded', stats.avgConceded)}
+          ${statRow('Completion %', stats.completionRate ? stats.completionRate + '%' : null)}
+          ${statRow('Venue wins', stats.winsAtVenue)}
+        </div>`;
+
+      // O/U pip strip
+      let ouHtml = '';
+      if (ouLine) {
+        const allScores = [...homeScores, ...awayScores];
+        const teams = [
+          { label: homeTeam.split(' ').pop(), scores: homeScores },
+          { label: awayTeam.split(' ').pop(), scores: awayScores },
+        ];
+        ouHtml = teams.map(t => {
+          const overCount = t.scores.filter(s => s.total > ouLine).length;
+          const pips = t.scores.map(s =>
+            `<div class="ou-pip ${s.total > ouLine ? 'over' : 'under'}" title="${s.forTeam}–${s.against} (${s.total} pts)">${s.total > ouLine ? 'O' : 'U'}</div>`
+          ).join('');
+          return `
+            <div style="margin-bottom:8px">
+              <div style="font-size:0.68rem;color:var(--text-2);margin-bottom:4px">${t.label} — last 5 vs O/U ${ouLine}: <strong style="color:${overCount >= 3 ? 'var(--green)' : 'var(--text)'}">${overCount}/5 over</strong></div>
+              <div class="ou-pips">${pips}</div>
+            </div>`;
+        }).join('');
+      }
+
+      return `
+        <div class="scoring-grid">
+          ${teamPanel(homeTeam.split(' ').pop(), hs, homeScores)}
+          ${teamPanel(awayTeam.split(' ').pop(), as_, awayScores)}
+        </div>
+        ${ouLine ? `<div class="ou-trend"><div class="ou-trend-title">📊 O/U ${ouLine} Trend — last 5 games</div>${ouHtml}</div>` : ''}`;
+    }
+
+    // ── Bookmaker comparison ─────────────────────────────────────────────────
+    function renderBookmakerComparison(g) {
+      const bks = g.bookmakerComparison;
+      if (!bks?.length) return '';
+
+      // Find best (highest) odd for each side
+      const bestHome = Math.max(...bks.map(b => b.home || 0));
+      const bestAway = Math.max(...bks.map(b => b.away || 0));
+
+      const rows = bks.map(b => `
+        <tr>
+          <td style="color:var(--text)">${b.name}</td>
+          <td><span class="bk-odd${b.home === bestHome ? ' bk-best' : ''}">${b.home ? '$' + b.home.toFixed(2) : '—'}</span></td>
+          <td><span class="bk-odd${b.away === bestAway ? ' bk-best' : ''}">${b.away ? '$' + b.away.toFixed(2) : '—'}</span></td>
+        </tr>`).join('');
+
+      return `
+        <div class="bookie-comp" id="bookieComp" style="display:none">
+          <table class="bookie-table">
+            <thead><tr>
+              <th>Bookmaker</th>
+              <th>${g.homeTeam.split(' ').pop()}</th>
+              <th>${g.awayTeam.split(' ').pop()}</th>
+            </tr></thead>
+            <tbody>${rows}</tbody>
+          </table>
+          <div style="font-size:0.65rem;color:var(--text-2);margin-top:6px">🏆 <span style="color:#ffd700">Gold</span> = best available odd</div>
+        </div>`;
+    }
+
     function renderArticles(homeTeam, awayTeam) {
       if (!ztArticles?.articles?.length) {
         return '<div class="zt-empty">No articles available yet — check back closer to game day.</div>';
@@ -969,6 +1131,8 @@
             </table>
             <div style="margin-top:12px;font-size:0.7rem;color:var(--text-2)">
               📡 Live odds from The Odds API &nbsp;·&nbsp; <span class="odd-real">●</span> Real &nbsp; <span class="odd-derived">●</span> Estimated
+              ${game.bookmakerComparison?.length > 1 ? `&nbsp;·&nbsp; <button class="bookie-toggle" onclick="document.getElementById('bookieComp').style.display = document.getElementById('bookieComp').style.display === 'none' ? 'block' : 'none'">Compare bookies ▾</button>` : ''}
+              ${renderBookmakerComparison(game)}
             </div>
           </div>
 
@@ -1023,6 +1187,12 @@
             <div style="margin-top:10px;font-size:0.68rem;color:var(--text-2);opacity:0.7;border-top:1px solid rgba(255,255,255,0.05);padding-top:10px">
               📡 NRL.com match centre — recent meetings shown
             </div>
+          </div>
+
+          <!-- SCORING PATTERNS -->
+          <div class="card">
+            <div class="card-label">📊 Scoring Patterns</div>
+            ${renderScoringPatterns(game.homeTeam.name, game.awayTeam.name)}
           </div>
 
           <!-- NAMED 17s -->
@@ -1150,6 +1320,36 @@
               <div class="fact-label">Weather</div>
               <div class="fact-val">${a.weatherForecast}</div>
             </div>
+            ${(() => {
+              const key = `${game.homeTeam.name} vs ${game.awayTeam.name}`;
+              const d = h2hData?.matches?.[key];
+              const ref = d?.referee;
+              const ss = d?.seasonStats;
+              const homeStreak = streakBadge(d?.homeForm);
+              const awayStreak = streakBadge(d?.awayForm);
+              return `
+            ${(homeStreak || awayStreak) ? `
+            <div class="fact-row" style="align-items:flex-start">
+              <div class="fact-label">Form Streak</div>
+              <div class="fact-val" style="text-align:right;line-height:1.8">
+                ${homeStreak || ''}<br>${awayStreak || ''}
+              </div>
+            </div>` : ''}
+            ${ss ? `
+            <div class="fact-row">
+              <div class="fact-label">Venue Wins</div>
+              <div class="fact-val" style="font-size:0.8rem">${game.homeTeam.name.split(' ').pop()} ${ss.home.winsAtVenue ?? '—'} · ${game.awayTeam.name.split(' ').pop()} ${ss.away.winsAtVenue ?? '—'}</div>
+            </div>` : ''}
+            ${ref ? `
+            <div class="fact-row">
+              <div class="fact-label">Referee</div>
+              <div class="fact-val"><a href="${ref.url}" target="_blank" rel="noopener" style="color:var(--text);text-decoration:none">${ref.name}</a></div>
+            </div>` : `
+            <div class="fact-row">
+              <div class="fact-label">Referee</div>
+              <div class="fact-val" style="color:var(--text-2);font-size:0.78rem">TBA — Thu night</div>
+            </div>`}`;
+            })()}
             <div class="fact-row">
               <div class="fact-label">Key Factor</div>
               <div class="fact-val" style="max-width:120px">${a.keyFactor}</div>
@@ -1177,36 +1377,37 @@
           <div class="card">
             <div class="card-label">Best Bets — By Risk Level</div>
             <div class="best-bets">
-              <div class="best-bet-item">
-                <div class="best-bet-type">🟢 Beginner</div>
-                <div class="best-bet-pick">${a.favourite} — Head to Head</div>
-                <div class="best-bet-odd odd-real">${toOddsStr(a.favourite === game.homeTeam.name ? game.h2h.home : game.h2h.away)}</div>
-                <div class="best-bet-rationale">Odds imply ${a.favourite === game.homeTeam.name ? homeWinPct : awayWinPct}% win chance. ${a.confidenceLevel} confidence based on current markets.</div>
-              </div>
-              <div class="best-bet-item">
-                <div class="best-bet-type">🟢 Beginner</div>
-                <div class="best-bet-pick">${a.favourite} Line ${a.favourite === game.homeTeam.name ? game.line.home.label : game.line.away.label}</div>
-                <div class="best-bet-odd odd-real">${toOddsStr(a.favourite === game.homeTeam.name ? game.line.home.odd : game.line.away.odd)}</div>
-                <div class="best-bet-rationale">Handicap reduces risk — favourite still wins even giving points away.</div>
-              </div>
-              <div class="best-bet-item medium">
-                <div class="best-bet-type">🟡 Intermediate</div>
-                <div class="best-bet-pick">${allPlayers[0]?.name} — Anytime Try Scorer</div>
-                <div class="best-bet-odd odd-derived">${toOddsStr(anytimeOdd(allPlayers[0]))}</div>
-                <div class="best-bet-rationale">${allPlayers[0]?.name} (${allPlayers[0]?.pos}) is the highest-rated try threat in this match based on season stats.</div>
-              </div>
-              <div class="best-bet-item medium">
-                <div class="best-bet-type">🟡 Intermediate</div>
-                <div class="best-bet-pick">Over ${game.ou.over.label} Total Points</div>
-                <div class="best-bet-odd odd-real">${toOddsStr(game.ou.over.odd)}</div>
-                <div class="best-bet-rationale">Both teams averaging over this line across recent form. ${a.weatherForecast.includes('Clear') || a.weatherForecast.includes('Fine') ? 'Clear conditions favour attacking play.' : 'Monitor conditions closer to kick-off.'}</div>
-              </div>
-              <div class="best-bet-item high">
-                <div class="best-bet-type">🔴 Expert</div>
-                <div class="best-bet-pick">${allPlayers[0]?.name} — First Try Scorer</div>
-                <div class="best-bet-odd odd-derived">${toOddsStr(ftsOdd(allPlayers[0]))}</div>
-                <div class="best-bet-rationale">High risk, high reward. Only for those comfortable with ~42% of anytime scorers getting first. Position: ${allPlayers[0]?.pos}.</div>
-              </div>
+              ${[
+                { pick: `${a.favourite} — Head to Head`,
+                  odd: a.favourite === game.homeTeam.name ? game.h2h.home : game.h2h.away,
+                  type: '🟢 Beginner', cls: '',
+                  rationale: `Odds imply ${a.favourite === game.homeTeam.name ? homeWinPct : awayWinPct}% win chance. ${a.confidenceLevel} confidence based on current markets.` },
+                { pick: `${a.favourite} Line ${a.favourite === game.homeTeam.name ? game.line.home.label : game.line.away.label}`,
+                  odd: a.favourite === game.homeTeam.name ? game.line.home.odd : game.line.away.odd,
+                  type: '🟢 Beginner', cls: '',
+                  rationale: 'Handicap reduces risk — favourite still wins even giving points away.' },
+                { pick: `${allPlayers[0]?.name} — Anytime Try Scorer`,
+                  odd: anytimeOdd(allPlayers[0]),
+                  type: '🟡 Intermediate', cls: 'medium',
+                  rationale: `${allPlayers[0]?.name} (${allPlayers[0]?.pos}) is the highest-rated try threat in this match based on season stats.` },
+                { pick: `Over ${game.ou.over.label} Total Points`,
+                  odd: game.ou.over.odd,
+                  type: '🟡 Intermediate', cls: 'medium',
+                  rationale: `Both teams averaging over this line across recent form. ${a.weatherForecast.includes('Clear') || a.weatherForecast.includes('Fine') ? 'Clear conditions favour attacking play.' : 'Monitor conditions closer to kick-off.'}` },
+                { pick: `${allPlayers[0]?.name} — First Try Scorer`,
+                  odd: ftsOdd(allPlayers[0]),
+                  type: '🔴 Expert', cls: 'high',
+                  rationale: `High risk, high reward. Only for those comfortable with ~42% of anytime scorers getting first. Position: ${allPlayers[0]?.pos}.` },
+              ].map(b => `
+                <div class="best-bet-item ${b.cls}">
+                  <div style="display:flex;align-items:center;justify-content:space-between">
+                    <div class="best-bet-type">${b.type}</div>
+                    <button class="add-multi-btn" onclick="addToMulti(this,'${b.pick.replace(/'/g,'\\\'')}',${ Number(b.odd).toFixed(2)})">+ Multi</button>
+                  </div>
+                  <div class="best-bet-pick">${b.pick}</div>
+                  <div class="best-bet-odd">${toOddsStr(b.odd)}</div>
+                  <div class="best-bet-rationale">${b.rationale}</div>
+                </div>`).join('')}
             </div>
           </div>
 
@@ -1231,6 +1432,77 @@
     `;
 
   })();
+
+  // ── Bet Slip ────────────────────────────────────────────────────────────────
+  const SLIP_KEY = 'nrl_betslip';
+  let slip = JSON.parse(localStorage.getItem(SLIP_KEY) || '[]');
+
+  // Inject slip HTML into page
+  document.body.insertAdjacentHTML('beforeend', `
+    <div id="betSlip">
+      <div class="betslip-header">
+        <span class="betslip-title">🎯 Bet Slip</span>
+        <button class="betslip-clear" onclick="clearSlip()">Clear all</button>
+      </div>
+      <div class="betslip-items" id="slipItems"></div>
+      <div class="betslip-footer">
+        <div class="betslip-combined" id="slipCombined"></div>
+        <div class="betslip-return" id="slipReturn"></div>
+      </div>
+    </div>`);
+
+  function renderSlip() {
+    const el = document.getElementById('betSlip');
+    if (!el) return;
+    if (!slip.length) { el.classList.remove('open'); return; }
+    el.classList.add('open');
+
+    document.getElementById('slipItems').innerHTML = slip.map((b, i) => `
+      <div class="betslip-item">
+        <div class="betslip-item-desc">${b.pick}</div>
+        <div class="betslip-item-odd">$${Number(b.odd).toFixed(2)}</div>
+        <button class="betslip-remove" onclick="removeFromSlip(${i})">✕</button>
+      </div>`).join('');
+
+    const multiOdd = slip.reduce((acc, b) => acc * Number(b.odd), 1);
+    document.getElementById('slipCombined').innerHTML = `Combined: <strong>$${multiOdd.toFixed(2)}</strong>`;
+    document.getElementById('slipReturn').textContent = `$10 stake → $${(10 * multiOdd).toFixed(2)} return`;
+  }
+
+  function saveSlip() { localStorage.setItem(SLIP_KEY, JSON.stringify(slip)); }
+
+  function addToMulti(btn, pick, odd) {
+    const idx = slip.findIndex(b => b.pick === pick);
+    if (idx >= 0) {
+      slip.splice(idx, 1);
+      btn.classList.remove('added');
+      btn.textContent = '+ Multi';
+    } else {
+      slip.push({ pick, odd });
+      btn.classList.add('added');
+      btn.textContent = '✓ Added';
+    }
+    saveSlip();
+    renderSlip();
+  }
+
+  function removeFromSlip(i) {
+    slip.splice(i, 1);
+    saveSlip();
+    renderSlip();
+  }
+
+  function clearSlip() {
+    slip = [];
+    saveSlip();
+    renderSlip();
+    document.querySelectorAll('.add-multi-btn').forEach(b => {
+      b.classList.remove('added');
+      b.textContent = '+ Multi';
+    });
+  }
+
+  renderSlip();
   </script>
 </body>
 </html>
