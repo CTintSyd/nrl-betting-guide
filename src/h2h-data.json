@@ -1,12 +1,16 @@
 {
-  "generatedAt": "2026-05-11T18:26:03Z",
+  "generatedAt": "2026-05-12T11:05:00Z",
   "matches": {
     "Cronulla Sutherland Sharks vs Canterbury Bulldogs": {
       "homeTeam": "Cronulla Sutherland Sharks",
       "awayTeam": "Canterbury Bulldogs",
-      "referee": null,
-      "groundConditions": null,
-      "weather": null,
+      "referee": {
+        "name": "Gerard Sutton",
+        "url": "https://www.nrl.com/operations/the-officials/match-officials/gerard-sutton/",
+        "img": "https://www.nrl.com/contentassets/edf145e59b4740599097b4e68dc011fc/suttong-referees-2023_nrl_0152-head-shot.png?center=0.38%2C0.51"
+      },
+      "groundConditions": "Good",
+      "weather": "Fine",
       "seasonStats": {
         "home": {
           "winPct": 44.0,
@@ -123,9 +127,13 @@
     "South Sydney Rabbitohs vs Dolphins": {
       "homeTeam": "South Sydney Rabbitohs",
       "awayTeam": "Dolphins",
-      "referee": null,
-      "groundConditions": null,
-      "weather": null,
+      "referee": {
+        "name": "Adam Gee",
+        "url": "https://www.nrl.com/operations/the-officials/match-officials/adam-gee/",
+        "img": "https://www.nrl.com/contentassets/e6dd07beef3848e49742de47445fda18/geea-referees-2023_nrl_0071-head-shot.png?center=0.37%2C0.52"
+      },
+      "groundConditions": "Good",
+      "weather": "Fine",
       "seasonStats": {
         "home": {
           "winPct": 67.0,
@@ -242,9 +250,13 @@
     "Wests Tigers vs Manly Warringah Sea Eagles": {
       "homeTeam": "Wests Tigers",
       "awayTeam": "Manly Warringah Sea Eagles",
-      "referee": null,
-      "groundConditions": null,
-      "weather": null,
+      "referee": {
+        "name": "Grant Atkins",
+        "url": "https://www.nrl.com/operations/the-officials/match-officials/grant-atkins/",
+        "img": "https://www.nrl.com/contentassets/0586ab6a55114404b178558792347181/atkinsg-referees-2023_nrl_0125-head-shot.png?center=0.38%2C0.51"
+      },
+      "groundConditions": "Good",
+      "weather": "Fine",
       "seasonStats": {
         "home": {
           "winPct": 56.0,
@@ -361,9 +373,13 @@
     "Sydney Roosters vs North Queensland Cowboys": {
       "homeTeam": "Sydney Roosters",
       "awayTeam": "North Queensland Cowboys",
-      "referee": null,
-      "groundConditions": null,
-      "weather": null,
+      "referee": {
+        "name": "Todd Smith",
+        "url": "https://www.nrl.com/operations/the-officials/match-officials/todd-smith/",
+        "img": "https://www.nrl.com/contentassets/765ef5db144a4768a36293699599c0a8/smitht-referees-2023_nrl_0100-head-shot.png?center=0.41%2C0.5"
+      },
+      "groundConditions": "Good",
+      "weather": "Fine",
       "seasonStats": {
         "home": {
           "winPct": 78.0,
@@ -480,9 +496,13 @@
     "Parramatta Eels vs Melbourne Storm": {
       "homeTeam": "Parramatta Eels",
       "awayTeam": "Melbourne Storm",
-      "referee": null,
-      "groundConditions": null,
-      "weather": null,
+      "referee": {
+        "name": "Peter Gough",
+        "url": "https://www.nrl.com/operations/the-officials/match-officials/peter-gough/",
+        "img": "https://www.nrl.com/contentassets/3e69d0457cc5443491becdf1b0f266fc/goughp-referees-2023_nrl_0144-head-shot.png?center=0.39%2C0.51"
+      },
+      "groundConditions": "Good",
+      "weather": "Fine",
       "seasonStats": {
         "home": {
           "winPct": 40.0,
@@ -599,9 +619,13 @@
     "Gold Coast Titans vs Newcastle Knights": {
       "homeTeam": "Gold Coast Titans",
       "awayTeam": "Newcastle Knights",
-      "referee": null,
-      "groundConditions": null,
-      "weather": null,
+      "referee": {
+        "name": "Wyatt Raymond",
+        "url": "https://www.nrl.com/operations/the-officials/match-officials/wyatt-raymond/",
+        "img": "https://www.nrl.com/contentassets/34ac6810f7c94b009f0b5f0cdb10a21e/raymondwyatt-referees-2023_nrl_0065-head-shot.png?center=0.38%2C0.51"
+      },
+      "groundConditions": "Good",
+      "weather": "Fine",
       "seasonStats": {
         "home": {
           "winPct": 22.0,
@@ -718,9 +742,13 @@
     "New Zealand Warriors vs Brisbane Broncos": {
       "homeTeam": "New Zealand Warriors",
       "awayTeam": "Brisbane Broncos",
-      "referee": null,
-      "groundConditions": null,
-      "weather": null,
+      "referee": {
+        "name": "Ashley Klein",
+        "url": "https://www.nrl.com/operations/the-officials/match-officials/ashley-klein/",
+        "img": "https://www.nrl.com/contentassets/83877c45ca144f2690d06991113ef234/kleina-referees-2023_nrl_0054-head-shot.png?center=0.37%2C0.52"
+      },
+      "groundConditions": "Good",
+      "weather": "Fine",
       "seasonStats": {
         "home": {
           "winPct": 78.0,
@@ -838,8 +866,8 @@
       "homeTeam": "Penrith Panthers",
       "awayTeam": "St George Illawarra Dragons",
       "referee": null,
-      "groundConditions": null,
-      "weather": null,
+      "groundConditions": "Good",
+      "weather": "Fine",
       "seasonStats": {
         "home": {
           "winPct": 90.0,
