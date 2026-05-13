@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-12T11:04:59.878560+00:00",
+  "generatedAt": "2026-05-13T11:18:33.280365+00:00",
   "round": 11,
   "games": [
     {
@@ -272,12 +272,6 @@
         "category": "interchange"
       },
       {
-        "number": 15,
-        "name": "Samuel Hughes",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
         "number": 16,
         "name": "Harry Hayes",
         "position": "Interchange",
@@ -302,20 +296,20 @@
         "category": "reserve"
       },
       {
-        "number": 21,
-        "name": "Josh Curran",
-        "position": "Reserve",
-        "category": "reserve"
-      },
-      {
         "number": 22,
         "name": "Sean O'Sullivan",
-        "position": "Reserve",
+        "position": "Interchange",
         "category": "reserve"
       },
       {
         "number": 23,
         "name": "Jed Reardon",
+        "position": "Reserve",
+        "category": "reserve"
+      },
+      {
+        "number": 25,
+        "name": "Jack Underhill",
         "position": "Reserve",
         "category": "reserve"
       }
@@ -2321,6 +2315,20 @@
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/bulldogs/viliame-kikau/"
       },
       {
+        "name": "Josh Curran",
+        "injury": "Ribs",
+        "expectedReturn": "TBC",
+        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500010/CURRAN%2CJ_20251212_4081.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/bulldogs/josh-curran/"
+      },
+      {
+        "name": "Samuel Hughes",
+        "injury": "Neck",
+        "expectedReturn": "TBC",
+        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500010/HUGHES%2CS_20251212_3010.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/bulldogs/samuel-hughes/"
+      },
+      {
         "name": "Jake Turpin",
         "injury": "Biceps",
         "expectedReturn": "TBC",
@@ -2617,18 +2625,18 @@
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/raiders/xavier-savage/"
       },
       {
+        "name": "Simi Sasagi",
+        "injury": "Shoulder",
+        "expectedReturn": "Round 16",
+        "imageUrl": "/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500013/Simi%20Sasagi%20_260121_Raiders_MK803.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/raiders/simi-sasagi/"
+      },
+      {
         "name": "Noah Martin",
         "injury": "Ankle",
         "expectedReturn": "TBC",
         "imageUrl": "/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500013/Noah%20Martin%20_260121_Raiders_MK1680.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/raiders/noah-martin/"
-      },
-      {
-        "name": "Simi Sasagi",
-        "injury": "Shoulder",
-        "expectedReturn": "TBC",
-        "imageUrl": "/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500013/Simi%20Sasagi%20_260121_Raiders_MK803.png?center=0.5%2C0.5",
-        "profileUrl": "https://www.nrl.com/players/nrl-premiership/raiders/simi-sasagi/"
       },
       {
         "name": "Zac Hosking",
@@ -2701,7 +2709,7 @@
         "name": "Brandon Wakeham",
         "injury": "Suspension",
         "expectedReturn": "Round 11",
-        "imageUrl": "/Resources/Images/fallback/body-shot.png",
+        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500002/Brandon_Wakeham_744.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/sea-eagles/brandon-wakeham/"
       },
       {
@@ -2772,9 +2780,16 @@
     ],
     "Melbourne Storm": [
       {
+        "name": "Alec MacDonald",
+        "injury": "Hamstring",
+        "expectedReturn": "Round 12",
+        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500021/Macdonald%2CA_260204_AR_2.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/storm/alec-macdonald/"
+      },
+      {
         "name": "Xavier Coates",
         "injury": "Achilles",
-        "expectedReturn": "Round 12",
+        "expectedReturn": "Round 14",
         "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500021/Coates%2CX_260204_AR_2.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/storm/xavier-coates/"
       },
@@ -2793,16 +2808,9 @@
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/storm/hugo-peel/"
       },
       {
-        "name": "Alec MacDonald",
-        "injury": "Hamstring",
-        "expectedReturn": "TBC",
-        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500021/Macdonald%2CA_260204_AR_2.png?center=0.5%2C0.5",
-        "profileUrl": "https://www.nrl.com/players/nrl-premiership/storm/alec-macdonald/"
-      },
-      {
         "name": "Marion Seve",
         "injury": "Triceps",
-        "expectedReturn": "TBC",
+        "expectedReturn": "Round 17",
         "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500021/Seve%2CM_260204_AR_26.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/storm/marion-seve/"
       },
