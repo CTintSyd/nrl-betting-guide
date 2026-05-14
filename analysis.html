@@ -291,6 +291,31 @@
     .loading-spinner { width: 40px; height: 40px; border: 3px solid var(--border); border-top-color: var(--green); border-radius: 50%; animation: spin 0.8s linear infinite; margin: 0 auto 16px; }
     @keyframes spin { to { transform: rotate(360deg); } }
 
+    /* ── Game Navigation ── */
+    .game-nav { background: var(--dark-2); border-bottom: 1px solid var(--border); padding: 8px 0; }
+    .game-nav-inner { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+    .game-nav-btn { font-size: 0.78rem; font-weight: 600; color: var(--text-2); text-decoration: none; padding: 5px 12px; border-radius: 6px; border: 1px solid var(--border); background: rgba(255,255,255,0.04); transition: all 0.2s; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 220px; display: inline-block; }
+    .game-nav-btn:hover { background: rgba(255,255,255,0.09); color: #fff; border-color: rgba(255,255,255,0.15); }
+    .game-nav-btn--disabled { opacity: 0.3; pointer-events: none; }
+    .game-nav-count { font-size: 0.72rem; color: var(--text-2); white-space: nowrap; flex-shrink: 0; text-align: center; }
+
+    /* ── Odds movement alert ── */
+    .movement-alert { background: rgba(240,165,0,0.07); border: 1px solid rgba(240,165,0,0.28); border-radius: var(--radius-sm); padding: 12px 16px; margin-bottom: 20px; }
+    .movement-alert-title { font-size: 0.72rem; font-weight: 800; color: #f0a500; text-transform: uppercase; letter-spacing: 0.7px; margin-bottom: 8px; }
+    .movement-alert-item { font-size: 0.82rem; color: var(--text); padding: 4px 0; display: flex; align-items: center; flex-wrap: wrap; gap: 8px; }
+    .movement-alert-item + .movement-alert-item { border-top: 1px solid rgba(255,255,255,0.05); }
+    .alert-sharp { font-size: 0.72rem; color: #ff6b6b; font-weight: 700; }
+    .alert-drift { font-size: 0.72rem; color: var(--green); font-weight: 700; }
+    .alert-note  { font-size: 0.72rem; color: var(--text-2); }
+
+    /* ── Collapsible cards (mobile) ── */
+    .card-toggle { float: right; font-size: 0.88rem; font-weight: 400; color: var(--text-2); margin-left: 6px; line-height: 1; }
+    @media (max-width: 700px) {
+      .card.collapsed .card-body { display: none; }
+      .card.collapsed .card-label { margin-bottom: 0; }
+      .card-label { cursor: pointer; user-select: none; }
+    }
+
     /* ── Responsive ── */
     @media (max-width: 700px) {
       .page-grid { grid-template-columns: 1fr; }
@@ -311,7 +336,8 @@
   <nav class="nav">
     <div class="container nav__inner">
       <div class="nav__logo">🏉 NRL<span>Betting</span>Guide</div>
-      <button class="nav__back" onclick="window.close()">← Back to Guide</button>
+      <a class="nav__back" href="index.html">← Back to Guide</a>
+      <a class="nav__back" href="season.html" style="margin-left:8px">📊 Season</a>
     </div>
   </nav>
 
@@ -1006,10 +1032,121 @@
       return [p1, p2, p3, p4, p5].map(p => `<div class="commentary-para">${p}</div>`).join('');
     }
 
+    // ── Game navigation bar ──────────────────────────────────────────────────
+    function buildGameNav() {
+      if (upcoming.length <= 1) return '';
+      const prevRaw = gameId > 1 ? upcoming[gameId - 2] : null;
+      const nextRaw = gameId < upcoming.length ? upcoming[gameId] : null;
+      const short = t => t.split(' ').pop();
+      const prevHtml = prevRaw
+        ? `<a class="game-nav-btn" href="analysis.html?id=${gameId - 1}">← ${short(prevRaw.homeTeam)} v ${short(prevRaw.awayTeam)}</a>`
+        : `<span class="game-nav-btn game-nav-btn--disabled">← First</span>`;
+      const nextHtml = nextRaw
+        ? `<a class="game-nav-btn" href="analysis.html?id=${gameId + 1}" style="text-align:right">${short(nextRaw.homeTeam)} v ${short(nextRaw.awayTeam)} →</a>`
+        : `<span class="game-nav-btn game-nav-btn--disabled" style="text-align:right">Last →</span>`;
+      return `
+      <div class="game-nav">
+        <div class="container">
+          <div class="game-nav-inner">
+            ${prevHtml}
+            <span class="game-nav-count">Game ${gameId} of ${upcoming.length}</span>
+            ${nextHtml}
+          </div>
+        </div>
+      </div>`;
+    }
+
+    // ── Odds movement alerts ─────────────────────────────────────────────────
+    function buildMovementAlerts() {
+      const op = openingOdds?.[game.id];
+      if (!op) return '';
+      const alerts = [];
+
+      // H2H movement (≥ $0.12 change)
+      if (op.h2h?.home != null && Math.abs(game.h2h.home - op.h2h.home) >= 0.12) {
+        const shortened = game.h2h.home < op.h2h.home;
+        const team = game.homeTeam.name.split(' ').pop();
+        alerts.push(`<div class="movement-alert-item">
+          <strong>${team} H2H</strong>: $${op.h2h.home.toFixed(2)} → $${game.h2h.home.toFixed(2)}
+          <span class="${shortened ? 'alert-sharp' : 'alert-drift'}">${shortened ? '🔴 Shortened — sharp money' : '🟢 Drifting — market fading'}</span>
+        </div>`);
+      }
+      if (op.h2h?.away != null && Math.abs(game.h2h.away - op.h2h.away) >= 0.12) {
+        const shortened = game.h2h.away < op.h2h.away;
+        const team = game.awayTeam.name.split(' ').pop();
+        alerts.push(`<div class="movement-alert-item">
+          <strong>${team} H2H</strong>: $${op.h2h.away.toFixed(2)} → $${game.h2h.away.toFixed(2)}
+          <span class="${shortened ? 'alert-sharp' : 'alert-drift'}">${shortened ? '🔴 Shortened — sharp money' : '🟢 Drifting — market fading'}</span>
+        </div>`);
+      }
+
+      // Line movement (≥ 1.0 pt change)
+      if (op.line?.home?.point != null) {
+        const currPt = parseFloat(game.line.home.label) || 0;
+        const openPt = op.line.home.point;
+        const diff   = Math.abs(currPt - openPt);
+        if (diff >= 1.0) {
+          const home = game.homeTeam.name.split(' ').pop();
+          const note = currPt < openPt ? `${home} now giving more points` : `${home} giving fewer points`;
+          alerts.push(`<div class="movement-alert-item">
+            <strong>Line moved ${diff.toFixed(1)} pts</strong>: ${openPt > 0 ? '+' : ''}${openPt} → ${currPt > 0 ? '+' : ''}${currPt}
+            <span class="alert-note">${note}</span>
+          </div>`);
+        }
+      }
+
+      // O/U movement (≥ 1.5 pts)
+      if (op.ou?.total != null && game.ou?.total != null) {
+        const ouDiff = Math.abs(game.ou.total - op.ou.total);
+        if (ouDiff >= 1.5) {
+          const dir = game.ou.total > op.ou.total ? 'moved up' : 'moved down';
+          alerts.push(`<div class="movement-alert-item">
+            <strong>Total ${dir} ${ouDiff.toFixed(1)} pts</strong>: ${op.ou.total} → ${game.ou.total}
+            <span class="alert-note">O/U line has shifted — check new pricing</span>
+          </div>`);
+        }
+      }
+
+      if (!alerts.length) return '';
+
+      const since = new Date(op.firstSeen);
+      const sinceStr = since.toLocaleDateString('en-AU', { day:'numeric', month:'short' })
+        + ' ' + since.toLocaleTimeString('en-AU', { hour:'2-digit', minute:'2-digit' });
+
+      return `
+      <div class="movement-alert">
+        <div class="movement-alert-title">⚡ Market Movement — since opening (${sinceStr} AEST)</div>
+        ${alerts.join('')}
+      </div>`;
+    }
+
+    // ── Collapsible cards (mobile) ───────────────────────────────────────────
+    function initCollapsibleCards() {
+      if (window.innerWidth > 700) return;
+      document.querySelectorAll('.card').forEach(card => {
+        const label = card.querySelector('.card-label');
+        if (!label) return;
+        const children = Array.from(card.children).filter(c => c !== label);
+        if (!children.length) return;
+        const body = document.createElement('div');
+        body.className = 'card-body';
+        children.forEach(c => body.appendChild(c));
+        card.appendChild(body);
+        label.insertAdjacentHTML('beforeend', '<span class="card-toggle">▾</span>');
+        label.addEventListener('click', () => {
+          const isCollapsed = card.classList.toggle('collapsed');
+          const tog = label.querySelector('.card-toggle');
+          if (tog) tog.textContent = isCollapsed ? '▸' : '▾';
+        });
+      });
+    }
+
     // ── Render ───────────────────────────────────────────────────────────────
     document.title = `${game.homeTeam.name} vs ${game.awayTeam.name} — Analysis`;
 
     document.getElementById('app').innerHTML = `
+
+    ${buildGameNav()}
 
     <!-- MATCH HERO -->
     <section class="hero">
@@ -1050,6 +1187,7 @@
 
     <!-- MAIN CONTENT -->
     <div class="container">
+      ${buildMovementAlerts()}
       <div class="page-grid">
 
         <!-- FULL-WIDTH: MATCH COMMENTARY -->
@@ -1448,10 +1586,17 @@
     <footer class="footer">
       <div class="container">
         <p>🏉 <strong>NRLBettingGuide</strong> — For educational purposes only. Odds are simulated. Always gamble responsibly. 18+ only.</p>
-        <p style="margin-top:8px"><a href="index.html">← Back to main guide</a></p>
+        <p style="margin-top:8px">
+          <a href="index.html">← Back to main guide</a>
+          &nbsp;·&nbsp;
+          <a href="season.html">📊 Season Dashboard</a>
+        </p>
       </div>
     </footer>
     `;
+
+    // Activate collapsible cards on mobile after HTML is in the DOM
+    initCollapsibleCards();
 
   })();
 
