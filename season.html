@@ -311,28 +311,26 @@
       if (!players) return '<p style="color:var(--text-2);font-size:0.85rem">Player stats unavailable.</p>';
 
       const list = Object.entries(players)
-        .filter(([, p]) => p.gamesPlayed >= 3 && p.totalTries >= 1)
-        .sort((a, b) => b[1].totalTries - a[1].totalTries || b[1].tryRate - a[1].tryRate);
+        .filter(([, p]) => p.games >= 3 && p.tries >= 1)
+        .sort((a, b) => b[1].tries - a[1].tries || b[1].tryRate - a[1].tryRate);
 
       const top20 = list.slice(0, 20);
       const mid = Math.ceil(top20.length / 2);
       const left = top20.slice(0, mid);
       const right = top20.slice(mid);
 
-      const rows = (players) => players.map(([name, p], i) => {
-        const iBase = top20.indexOf([name, p].find(() => true) !== undefined
-          ? top20.find(x => x[0] === name) : null);
-        const rank = top20.findIndex(x => x[0] === name) + 1;
+      const rows = (chunk, offset) => chunk.map(([name, p], i) => {
+        const rank = offset + i + 1;
         const rateCls = p.tryRate >= 0.8 ? 'high' : p.tryRate <= 0.35 ? 'low' : '';
         const teamShort = (p.team || '').split(' ').pop();
         return `<div class="trend-row">
           <div class="trend-rank">${rank}</div>
           <div class="trend-name">
             <div style="font-weight:600">${name}</div>
-            <div style="font-size:0.68rem;color:var(--text-2)">${teamShort} · ${p.gamesPlayed}G</div>
+            <div style="font-size:0.68rem;color:var(--text-2)">${teamShort} · ${p.games}G</div>
           </div>
           <div style="text-align:right">
-            <div class="trend-val ${rateCls}">${p.totalTries}</div>
+            <div class="trend-val ${rateCls}">${p.tries}</div>
             <div style="font-size:0.65rem;color:var(--text-2)">${(p.tryRate * 100).toFixed(0)}%/g</div>
           </div>
         </div>`;
@@ -342,11 +340,11 @@
         <div class="trend-grid">
           <div>
             <div class="trend-team-label">Top try scorers (1–${mid})</div>
-            ${rows(left)}
+            ${rows(left, 0)}
           </div>
           <div>
             <div class="trend-team-label">Top try scorers (${mid + 1}–${top20.length})</div>
-            ${rows(right)}
+            ${rows(right, mid)}
           </div>
         </div>
         <div style="margin-top:12px;font-size:0.7rem;color:var(--text-2)">
