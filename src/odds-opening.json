@@ -190,5 +190,125 @@
       "overOdd": 1.9,
       "underOdd": 1.9
     }
+  },
+  "dc3a839b414cf6208907768ea4875761": {
+    "homeTeam": "Canberra Raiders",
+    "awayTeam": "Dolphins",
+    "firstSeen": "2026-05-14T07:35:43.894Z",
+    "h2h": {
+      "home": 1.94,
+      "away": 1.9
+    },
+    "line": {
+      "home": {
+        "odd": 1.91,
+        "point": 0.5
+      },
+      "away": {
+        "odd": 1.89,
+        "point": -0.5
+      }
+    },
+    "ou": {
+      "total": 49.5,
+      "overOdd": 1.81,
+      "underOdd": 2
+    }
+  },
+  "ce0092f9a4b592d7f3c6eeb0002e3793": {
+    "homeTeam": "Canterbury Bulldogs",
+    "awayTeam": "Melbourne Storm",
+    "firstSeen": "2026-05-14T07:35:43.895Z",
+    "h2h": {
+      "home": 1.71,
+      "away": 2.14
+    },
+    "line": {
+      "home": {
+        "odd": 2,
+        "point": -2.5
+      },
+      "away": {
+        "odd": 1.81,
+        "point": 2.5
+      }
+    },
+    "ou": {
+      "total": 49.5,
+      "overOdd": 1.89,
+      "underOdd": 1.91
+    }
+  },
+  "da5a6d81b30ac7a9fa6096dc65a45b3e": {
+    "homeTeam": "St George Illawarra Dragons",
+    "awayTeam": "New Zealand Warriors",
+    "firstSeen": "2026-05-14T07:35:43.895Z",
+    "h2h": {
+      "home": 3.66,
+      "away": 1.29
+    },
+    "line": {
+      "home": {
+        "odd": 1.89,
+        "point": 10.5
+      },
+      "away": {
+        "odd": 1.91,
+        "point": -10.5
+      }
+    },
+    "ou": {
+      "total": 50.5,
+      "overOdd": 1.9,
+      "underOdd": 1.9
+    }
+  },
+  "3154b0903b68d7116ca99b2385d43ccb": {
+    "homeTeam": "Manly Warringah Sea Eagles",
+    "awayTeam": "Gold Coast Titans",
+    "firstSeen": "2026-05-14T07:35:43.895Z",
+    "h2h": {
+      "home": 1.27,
+      "away": 3.8
+    },
+    "line": {
+      "home": {
+        "odd": 1.9,
+        "point": -11.5
+      },
+      "away": {
+        "odd": 1.9,
+        "point": 11.5
+      }
+    },
+    "ou": {
+      "total": 53.5,
+      "overOdd": 1.9,
+      "underOdd": 1.9
+    }
+  },
+  "022abdc85ece95490ea98028463eebcf": {
+    "homeTeam": "North Queensland Cowboys",
+    "awayTeam": "South Sydney Rabbitohs",
+    "firstSeen": "2026-05-14T07:35:43.895Z",
+    "h2h": {
+      "home": 1.83,
+      "away": 2.01
+    },
+    "line": {
+      "home": {
+        "odd": 1.94,
+        "point": -1.5
+      },
+      "away": {
+        "odd": 1.86,
+        "point": 1.5
+      }
+    },
+    "ou": {
+      "total": 53.5,
+      "overOdd": 1.85,
+      "underOdd": 1.96
+    }
   }
 }
