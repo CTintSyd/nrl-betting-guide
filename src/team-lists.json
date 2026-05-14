@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-13T11:18:33.280365+00:00",
+  "generatedAt": "2026-05-14T10:39:06.860880+00:00",
   "round": 11,
   "games": [
     {
@@ -144,12 +144,6 @@
         "category": "interchange"
       },
       {
-        "number": 16,
-        "name": "Oregon Kaufusi",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
         "number": 17,
         "name": "Thomas Hazelton",
         "position": "Interchange",
@@ -170,18 +164,12 @@
       {
         "number": 20,
         "name": "Braden Uele",
-        "position": "Reserve",
+        "position": "Interchange",
         "category": "reserve"
       },
       {
         "number": 21,
         "name": "Riley Jones",
-        "position": "Reserve",
-        "category": "reserve"
-      },
-      {
-        "number": 22,
-        "name": "Niwhai Puru",
         "position": "Reserve",
         "category": "reserve"
       }
@@ -296,12 +284,6 @@
         "category": "reserve"
       },
       {
-        "number": 22,
-        "name": "Sean O'Sullivan",
-        "position": "Interchange",
-        "category": "reserve"
-      },
-      {
         "number": 23,
         "name": "Jed Reardon",
         "position": "Reserve",
@@ -310,7 +292,7 @@
       {
         "number": 25,
         "name": "Jack Underhill",
-        "position": "Reserve",
+        "position": "Interchange",
         "category": "reserve"
       }
     ],
@@ -430,18 +412,6 @@
         "category": "reserve"
       },
       {
-        "number": 20,
-        "name": "Moala Graham-Taufa",
-        "position": "Reserve",
-        "category": "reserve"
-      },
-      {
-        "number": 21,
-        "name": "Thomas Fletcher",
-        "position": "Reserve",
-        "category": "reserve"
-      },
-      {
         "number": 22,
         "name": "Peter Mamouzelos",
         "position": "Reserve",
@@ -504,12 +474,6 @@
         "category": "starting"
       },
       {
-        "number": 10,
-        "name": "Francis Molo",
-        "position": "Prop",
-        "category": "starting"
-      },
-      {
         "number": 11,
         "name": "Connelly Lemuelu",
         "position": "2nd Row",
@@ -548,7 +512,7 @@
       {
         "number": 17,
         "name": "Felise Kaufusi",
-        "position": "Interchange",
+        "position": "Prop",
         "category": "interchange"
       },
       {
@@ -564,12 +528,6 @@
         "category": "reserve"
       },
       {
-        "number": 20,
-        "name": "Trai Fuller",
-        "position": "Reserve",
-        "category": "reserve"
-      },
-      {
         "number": 21,
         "name": "Tevita Naufahu",
         "position": "Reserve",
@@ -578,7 +536,7 @@
       {
         "number": 22,
         "name": "Kurt Donoghoe",
-        "position": "Reserve",
+        "position": "Interchange",
         "category": "reserve"
       }
     ],
@@ -2389,18 +2347,18 @@
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/dolphins/kurt-donoghoe/"
       },
       {
+        "name": "Francis Molo",
+        "injury": "Ankle",
+        "expectedReturn": "Round 12",
+        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500723/Bodyshot-Molo.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/dolphins/francis-molo/"
+      },
+      {
         "name": "Jake Averillo",
         "injury": "Hand",
         "expectedReturn": "Round 15",
         "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500723/Bodyshot-Averillo.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/dolphins/jake-averillo/"
-      },
-      {
-        "name": "Francis Molo",
-        "injury": "Ankle",
-        "expectedReturn": "TBC",
-        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500723/Bodyshot-Molo.png?center=0.5%2C0.5",
-        "profileUrl": "https://www.nrl.com/players/nrl-premiership/dolphins/francis-molo/"
       }
     ],
     "St George Illawarra Dragons": [
@@ -2796,7 +2754,7 @@
       {
         "name": "Tyran Wishart",
         "injury": "Ankle",
-        "expectedReturn": "Round 15",
+        "expectedReturn": "Round 16",
         "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500021/Wishart%2CT__260204_AR_3.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/storm/tyran-wishart/"
       },
@@ -2831,7 +2789,7 @@
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/titans/tukimihia-simpkins/"
       },
       {
-        "name": "Sialetili Faeamani",
+        "name": "Siale Faeamani",
         "injury": "Knee",
         "expectedReturn": "Round 13",
         "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500004/FAEAMANI%2C%20Siale-%20Bodyshot.png?center=0.5%2C0.5",
