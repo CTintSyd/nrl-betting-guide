@@ -1735,3 +1735,58 @@ a:hover { text-decoration: underline; }
 @media (max-width: 600px) {
   .col-streak { display: none; }
 }
+
+/* ── Results History Bar ── */
+.results-heading {
+  font-weight: 700;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  white-space: nowrap;
+}
+.results-divider {
+  width: 1px;
+  height: 28px;
+  background: var(--border);
+  flex-shrink: 0;
+}
+.results-stat {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.results-label {
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+.results-value {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+.results-value--good { color: #3fb950; }
+.results-value--mid  { color: #f0a500; }
+.results-value--bad  { color: #f85149; }
+.results-pct {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--text-muted);
+}
+.results-form {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  margin-left: auto;
+}
+.rf-pip {
+  font-size: 0.62rem;
+  font-weight: 700;
+  padding: 3px 5px;
+  border-radius: 4px;
+  white-space: nowrap;
+}
+.rf-good { background: rgba(63,185,80,.18); color: #3fb950; }
+.rf-mid  { background: rgba(240,165,0,.18); color: #f0a500; }
+.rf-bad  { background: rgba(248,81,73,.18); color: #f85149; }

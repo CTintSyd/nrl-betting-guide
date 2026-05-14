@@ -92,7 +92,24 @@ document.querySelectorAll('.cat-btn').forEach(btn => {
 });
 
 /* ── Multi Builder State ── */
+const SLIP_KEY = 'nrl_betslip';
 const multiSelections = [];
+
+function saveSlip() {
+  localStorage.setItem(SLIP_KEY, JSON.stringify(multiSelections));
+}
+
+function loadSlip() {
+  try {
+    const saved = JSON.parse(localStorage.getItem(SLIP_KEY) || '[]');
+    // Load both home-page and analysis-page bets
+    saved.forEach(s => multiSelections.push(s));
+  } catch (_) {}
+}
+
+function clearSlipStorage() {
+  localStorage.removeItem(SLIP_KEY);
+}
 
 function updateMultiBuilder() {
   const floating = document.getElementById('multiFloating');
@@ -115,18 +132,23 @@ function updateMultiBuilder() {
 
   if (floating) floating.style.display = 'block';
 
-  if (legsEl) legsEl.innerHTML = multiSelections.map((s, i) =>
-    `<div class="multi-leg-item">
-      <span><strong>${s.team}</strong> <span style="color:var(--nrl-green);font-weight:800">$${s.odd}</span></span>
+  if (legsEl) legsEl.innerHTML = multiSelections.map((s, i) => {
+    const label = s.source === 'analysis'
+      ? `<span style="font-size:0.7rem;color:var(--nrl-green);opacity:0.7">📊 </span><strong>${s.pick || s.team}</strong>`
+      : `<strong>${s.team}</strong>`;
+    const game = s.game ? `<div style="font-size:0.72rem;opacity:0.55;margin-top:1px">${s.game}</div>` : '';
+    return `<div class="multi-leg-item">
+      <span>${label}${game}<span style="color:var(--nrl-green);font-weight:800;margin-left:4px">$${Number(s.odd).toFixed(2)}</span></span>
       <button class="remove-leg" data-idx="${i}">✕</button>
-    </div>`
-  ).join('');
+    </div>`;
+  }).join('');
 
   document.querySelectorAll('.remove-leg').forEach(btn => {
     btn.addEventListener('click', () => {
       const idx = parseInt(btn.dataset.idx);
       const removed = multiSelections.splice(idx, 1)[0];
       document.querySelectorAll(`[data-selection-id="${removed.id}"]`).forEach(el => el.classList.remove('selected'));
+      saveSlip();
       updateMultiBuilder();
     });
   });
@@ -605,18 +627,21 @@ function handleOddClick(btn) {
   } else {
     if (multiSelections.find(s => s.id === selId)) return;
     btn.classList.add('selected');
+    // Find game name for this button
+    const gameId = btn.dataset.game;
+    const gameObj = NRL_GAMES.find(g => String(g.id) === String(gameId));
+    const gameName = gameObj ? `${gameObj.homeTeam.name} vs ${gameObj.awayTeam.name}` : '';
     multiSelections.push({
-      id: selId,
-      team: btn.dataset.team,
-      type: btn.dataset.type,
-      odd: parseFloat(btn.dataset.odd),
+      id:     selId,
+      team:   btn.dataset.team,
+      pick:   `${btn.dataset.team} (${btn.dataset.type})`,
+      type:   btn.dataset.type,
+      odd:    parseFloat(btn.dataset.odd),
+      game:   gameName,
+      source: 'home',
     });
-    // Jump to multi tab if not already there
-    const multiTab = document.querySelector('[data-tab="multi"]');
-    if (!multiTab.classList.contains('active')) {
-      // Briefly flash to indicate selection added
-    }
   }
+  saveSlip();
   updateMultiBuilder();
 }
 
@@ -750,6 +775,7 @@ function applyStripTeamLogos() {
 /* ── Init ── */
 renderScenarios();
 updateCalc();
+loadSlip();         // restore persisted selections from localStorage
 updateMultiBuilder();
 
 // Build ladder position lookup: teamName → position (1-based)
@@ -762,6 +788,10 @@ Promise.all([loadTeamLogos(), formDataPromise]).then(([, formData]) => {
   (formData?.ladder || []).forEach(row => { LADDER_POS[row.name] = row.pos; });
 
   renderGames('all');
+  // Re-mark any buttons that were restored from localStorage
+  multiSelections.forEach(s => {
+    if (s.id) document.querySelectorAll(`[data-selection-id="${s.id}"]`).forEach(el => el.classList.add('selected'));
+  });
   loadLiveOdds();
   applyStripTeamLogos();
   loadPlayerPhotos().finally(initPlayerStrip);
@@ -822,3 +852,62 @@ Promise.all([loadTeamLogos(), formDataPromise]).then(([, formData]) => {
     </tr>`;
   }).join('');
 });
+
+/* ── Results History — populate #resultsBar on index.html ── */
+fetch('src/results-history.json')
+  .then(r => r.json())
+  .then(data => {
+    const bar = document.getElementById('resultsBar');
+    const section = document.getElementById('results-section');
+    if (!bar || !section) return;
+
+    const rounds = data.rounds || [];
+    if (!rounds.length) return;
+
+    // Last completed round
+    const last = rounds[rounds.length - 1];
+    const [favW, favL] = (last.favRecord || '0-0').split('-').map(Number);
+    const lastTotal = favW + favL;
+    const lastPct = lastTotal ? Math.round((favW / lastTotal) * 100) : 0;
+    const lastEmoji = lastPct >= 60 ? '✅' : lastPct >= 50 ? '➡️' : '⚠️';
+
+    // Season totals
+    const [sW, sL] = (data.totalFavRecord || '0-0').split('-').map(Number);
+    const sTotal = sW + sL;
+    const sPct = sTotal ? Math.round((sW / sTotal) * 100) : 0;
+
+    // Line record (may be sparse)
+    const [lW, lL] = (data.totalLineRecord || '0-0').split('-').map(Number);
+    const lineHtml = (lW + lL) > 0
+      ? `<div class="results-stat">
+           <span class="results-label">Line coverage</span>
+           <span class="results-value">${lW}-${lL}</span>
+         </div>`
+      : '';
+
+    bar.innerHTML = `
+      <div class="results-heading">📊 Season ${data.season} — Favourite Tracking</div>
+      <div class="results-divider"></div>
+      <div class="results-stat">
+        <span class="results-label">${lastEmoji} Round ${last.round} favourites</span>
+        <span class="results-value results-value--${lastPct >= 60 ? 'good' : lastPct >= 50 ? 'mid' : 'bad'}">${last.favRecord}</span>
+      </div>
+      <div class="results-stat">
+        <span class="results-label">📅 Season total</span>
+        <span class="results-value">${data.totalFavRecord} <span class="results-pct">(${sPct}%)</span></span>
+      </div>
+      ${lineHtml}
+      <div class="results-form">
+        ${rounds.slice(-8).map(r => {
+          const [w, l] = (r.favRecord || '0-0').split('-').map(Number);
+          const t = w + l;
+          const p = t ? Math.round((w / t) * 100) : 0;
+          const cls = p >= 60 ? 'rf-good' : p >= 50 ? 'rf-mid' : 'rf-bad';
+          return `<span class="rf-pip ${cls}" title="R${r.round}: ${r.favRecord}">R${r.round}</span>`;
+        }).join('')}
+      </div>
+    `;
+
+    section.style.display = '';
+  })
+  .catch(() => { /* results section stays hidden */ });

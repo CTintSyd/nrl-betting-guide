@@ -336,7 +336,7 @@
     // ── Load game data + real form strings in parallel ──────────────────────
     let game = null;
     let formData = null;
-    const [oddsRes, formRes, teamListRes, statsRes, ztRes, h2hRes, openingRes] = await Promise.allSettled([
+    const [oddsRes, formRes, teamListRes, statsRes, ztRes, h2hRes, openingRes, propsRes] = await Promise.allSettled([
       fetch(`src/live-odds.json?v=${Date.now()}`).then(r => r.json()),
       fetch(`src/form-data.json?v=${Date.now()}`).then(r => r.json()),
       fetch(`src/team-lists.json?v=${Date.now()}`).then(r => r.json()),
@@ -344,6 +344,7 @@
       fetch(`src/zerotackle-articles.json?v=${Date.now()}`).then(r => r.json()),
       fetch(`src/h2h-data.json?v=${Date.now()}`).then(r => r.json()),
       fetch(`src/odds-opening.json?v=${Date.now()}`).then(r => r.json()),
+      fetch(`src/player-props.json?v=${Date.now()}`).then(r => r.json()),
     ]);
 
     // ── Venue → coordinates map for Open-Meteo weather ──────────────────────
@@ -402,6 +403,8 @@
     if (h2hRes.status === 'fulfilled') h2hData = h2hRes.value;
     let openingOdds = null;
     if (openingRes.status === 'fulfilled') openingOdds = openingRes.value;
+    let playerProps = null;
+    if (propsRes.status === 'fulfilled') playerProps = propsRes.value;
 
     if (oddsRes.status === 'fulfilled') {
       const cutoff = Date.now() - 3 * 60 * 60 * 1000;
@@ -1253,48 +1256,67 @@
           </div>
 
           <!-- TRY SCORER PICKS -->
+          ${(() => {
+            const propsKey = `${game.homeTeam.name} vs ${game.awayTeam.name}`;
+            const realProps = playerProps?.games?.[propsKey];
+            const hasRealOdds = realProps?.available && realProps?.players?.length;
+
+            // Helper: look up real odds for a player by name
+            const realOdds = name => {
+              if (!hasRealOdds) return null;
+              // Fuzzy match: check if any real player name contains our name or vice versa
+              const norm = n => n.toLowerCase().replace(/[^a-z]/g,'');
+              return realProps.players.find(rp =>
+                norm(rp.name).includes(norm(name)) || norm(name).includes(norm(rp.name))
+              ) || null;
+            };
+
+            const renderPlayer = p => {
+              const real = realOdds(p.name);
+              const fts = real?.first ?? ftsOdd(p);
+              const any = real?.anytime ?? anytimeOdd(p);
+              const ftsClass = real?.first ? 'odd-real' : 'odd-derived';
+              const anyClass = real?.anytime ? 'odd-real' : 'odd-derived';
+              return `
+              <div class="player-pick-item">
+                <div>
+                  <div class="player-pick-name">${p.name}</div>
+                  <div class="player-pick-pos">${p.pos}</div>
+                </div>
+                <div class="player-odds">
+                  <div class="fts ${ftsClass}">FTS ${toOddsStr(fts)}</div>
+                  <div class="anytime ${anyClass}">Any ${toOddsStr(any)}</div>
+                </div>
+              </div>`;
+            };
+
+            return `
           <div class="card">
             <div class="card-label">Try Scorer Picks</div>
+            ${hasRealOdds ? `<div style="font-size:0.7rem;color:var(--green);margin-bottom:10px;font-weight:600">✅ Real odds from ${realProps.bookmaker}</div>` : ''}
             <div class="player-picks-grid">
               <div class="player-pick-card">
                 <div class="player-pick-header">
                   <div class="player-pick-team">${game.homeTeam.name.split(' ').pop()}</div>
                   ${LOGOS[game.homeTeam.name] ? `<img src="${LOGOS[game.homeTeam.name]}" width="22" height="22" style="object-fit:contain">` : ''}
                 </div>
-                ${homePlayers.map(p => `
-                <div class="player-pick-item">
-                  <div>
-                    <div class="player-pick-name">${p.name}</div>
-                    <div class="player-pick-pos">${p.pos}</div>
-                  </div>
-                  <div class="player-odds">
-                    <div class="fts">FTS ${toOddsStr(ftsOdd(p))}</div>
-                    <div class="anytime">Any ${toOddsStr(anytimeOdd(p))}</div>
-                  </div>
-                </div>`).join('')}
+                ${homePlayers.map(renderPlayer).join('')}
               </div>
               <div class="player-pick-card">
                 <div class="player-pick-header">
                   <div class="player-pick-team">${game.awayTeam.name.split(' ').pop()}</div>
                   ${LOGOS[game.awayTeam.name] ? `<img src="${LOGOS[game.awayTeam.name]}" width="22" height="22" style="object-fit:contain">` : ''}
                 </div>
-                ${awayPlayers.map(p => `
-                <div class="player-pick-item">
-                  <div>
-                    <div class="player-pick-name">${p.name}</div>
-                    <div class="player-pick-pos">${p.pos}</div>
-                  </div>
-                  <div class="player-odds">
-                    <div class="fts">FTS ${toOddsStr(ftsOdd(p))}</div>
-                    <div class="anytime">Any ${toOddsStr(anytimeOdd(p))}</div>
-                  </div>
-                </div>`).join('')}
+                ${awayPlayers.map(renderPlayer).join('')}
               </div>
             </div>
             <div style="margin-top:12px;font-size:0.7rem;color:var(--text-2)">
-              📊 Odds estimated from 2026 season try-scoring rates &nbsp;·&nbsp; <span class="odd-derived">●</span> Estimated
+              ${hasRealOdds
+                ? `📡 Real odds from The Odds API (${realProps.bookmaker}) &nbsp;·&nbsp; <span class="odd-real">●</span> Real &nbsp; <span class="odd-derived">●</span> Estimated`
+                : `📊 Odds estimated from 2026 season try-scoring rates &nbsp;·&nbsp; <span class="odd-derived">●</span> Estimated`}
             </div>
-          </div>
+          </div>`;
+          })()}
 
         </div><!-- /left -->
 
@@ -1457,12 +1479,19 @@
     if (!slip.length) { el.classList.remove('open'); return; }
     el.classList.add('open');
 
-    document.getElementById('slipItems').innerHTML = slip.map((b, i) => `
+    document.getElementById('slipItems').innerHTML = slip.map((b, i) => {
+      const sourceLabel = b.source === 'home'
+        ? `<span style="font-size:0.65rem;color:var(--green);opacity:0.6">🏠 </span>`
+        : `<span style="font-size:0.65rem;color:var(--green);opacity:0.6">📊 </span>`;
+      const gameCtx = b.game && b.source === 'home'
+        ? `<div style="font-size:0.68rem;color:var(--text-2);margin-top:1px">${b.game}</div>` : '';
+      return `
       <div class="betslip-item">
-        <div class="betslip-item-desc">${b.pick}</div>
+        <div class="betslip-item-desc">${sourceLabel}${b.pick}${gameCtx}</div>
         <div class="betslip-item-odd">$${Number(b.odd).toFixed(2)}</div>
         <button class="betslip-remove" onclick="removeFromSlip(${i})">✕</button>
-      </div>`).join('');
+      </div>`;
+    }).join('');
 
     const multiOdd = slip.reduce((acc, b) => acc * Number(b.odd), 1);
     document.getElementById('slipCombined').innerHTML = `Combined: <strong>$${multiOdd.toFixed(2)}</strong>`;
@@ -1472,13 +1501,20 @@
   function saveSlip() { localStorage.setItem(SLIP_KEY, JSON.stringify(slip)); }
 
   function addToMulti(btn, pick, odd) {
-    const idx = slip.findIndex(b => b.pick === pick);
+    const idx = slip.findIndex(b => b.pick === pick && b.source === 'analysis');
     if (idx >= 0) {
       slip.splice(idx, 1);
       btn.classList.remove('added');
       btn.textContent = '+ Multi';
     } else {
-      slip.push({ pick, odd });
+      slip.push({
+        id:     `analysis-${pick.replace(/\s+/g,'-').toLowerCase()}`,
+        pick,
+        team:   pick,
+        odd,
+        game:   game ? `${game.homeTeam.name} vs ${game.awayTeam.name}` : '',
+        source: 'analysis',
+      });
       btn.classList.add('added');
       btn.textContent = '✓ Added';
     }

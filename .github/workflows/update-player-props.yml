@@ -1,0 +1,40 @@
+name: Update Player Props
+
+on:
+  schedule:
+    # Once per day Mon-Fri (team lists announced Thu, props update overnight)
+    # 10pm AEST = 12pm UTC. Avoids wasting calls before teams are announced.
+    - cron: '0 12 * * 1-5'
+    # Saturday & Sunday morning before games kick off
+    - cron: '0 22 * * 5'   # Sat 8am AEST
+    - cron: '0 22 * * 6'   # Sun 8am AEST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-props:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Fetch NRL player props (try scorer odds)
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
+        run: node scripts/fetch-player-props.js
+
+      - name: Commit updated player props
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add src/player-props.json
+          git diff --staged --quiet && echo "No changes" || (
+            git commit -m "chore: update player props $(date -u '+%Y-%m-%d %H:%M UTC')" &&
+            git push
+          )
