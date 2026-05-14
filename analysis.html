@@ -432,9 +432,10 @@
     let playerProps = null;
     if (propsRes.status === 'fulfilled') playerProps = propsRes.value;
 
+    let upcoming = [];
     if (oddsRes.status === 'fulfilled') {
       const cutoff = Date.now() - 3 * 60 * 60 * 1000;
-      const upcoming = oddsRes.value.games.filter(g => new Date(g.commenceTime).getTime() > cutoff);
+      upcoming = oddsRes.value.games.filter(g => new Date(g.commenceTime).getTime() > cutoff);
       const raw = upcoming[gameId - 1];
       if (raw) game = buildGameEntry(raw, gameId);
     }
