@@ -1,6 +1,6 @@
 {
-  "updated": "2026-05-14T07:35:43.895Z",
-  "quotaRemaining": 437,
+  "updated": "2026-05-14T16:26:13.612Z",
+  "quotaRemaining": 434,
   "games": [
     {
       "id": "2eb8c03af1f7e3ae8cf309913f92b51a",
@@ -9,21 +9,21 @@
       "commenceTime": "2026-05-15T08:00:00Z",
       "bookmaker": "sportsbet",
       "h2h": {
-        "home": 1.54,
-        "away": 2.5
+        "home": 1.52,
+        "away": 2.55
       },
       "line": {
         "home": {
           "odd": 1.9,
-          "point": -4.5
+          "point": -5.5
         },
         "away": {
           "odd": 1.9,
-          "point": 4.5
+          "point": 5.5
         }
       },
       "ou": {
-        "total": 50.5,
+        "total": 51.5,
         "overOdd": 1.9,
         "underOdd": 1.9
       },
@@ -31,19 +31,19 @@
         {
           "key": "sportsbet",
           "name": "Sportsbet",
-          "home": 1.54,
-          "away": 2.5
+          "home": 1.52,
+          "away": 2.55
         },
         {
           "key": "tab",
           "name": "TAB",
-          "home": 1.55,
-          "away": 2.45
+          "home": 1.58,
+          "away": 2.4
         },
         {
           "key": "betright",
           "name": "BetRight",
-          "home": 1.53,
+          "home": 1.52,
           "away": 2.55
         },
         {
@@ -61,8 +61,8 @@
       "commenceTime": "2026-05-15T10:05:00Z",
       "bookmaker": "sportsbet",
       "h2h": {
-        "home": 2.08,
-        "away": 1.78
+        "home": 2.1,
+        "away": 1.77
       },
       "line": {
         "home": {
@@ -75,16 +75,16 @@
         }
       },
       "ou": {
-        "total": 55.5,
-        "overOdd": 1.83,
-        "underOdd": 1.98
+        "total": 56.5,
+        "overOdd": 1.97,
+        "underOdd": 1.84
       },
       "bookmakerComparison": [
         {
           "key": "sportsbet",
           "name": "Sportsbet",
-          "home": 2.08,
-          "away": 1.78
+          "home": 2.1,
+          "away": 1.77
         },
         {
           "key": "tab",
