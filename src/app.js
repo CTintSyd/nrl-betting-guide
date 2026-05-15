@@ -19,11 +19,15 @@ playerStatsPromise.then(stats => {
 const TEAM_LOGOS = {}; // teamName → image URL
 
 async function loadTeamLogos() {
-  const teams = Object.entries(NRL_TEAM_DATA).filter(([, v]) => v.wikiPage);
+  const teams = Object.entries(NRL_TEAM_DATA).filter(([, v]) => v.wikiPage || v.logoFile);
   await Promise.allSettled(teams.map(async ([name, data]) => {
     try {
+      // Prefer File: page for the logo file — its thumbnail IS always the logo
+      const page = data.logoFile
+        ? `File:${data.logoFile}`
+        : data.wikiPage;
       const res = await fetch(
-        `https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(data.wikiPage)}`,
+        `https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(page)}`,
         { headers: { Accept: 'application/json' } }
       );
       if (!res.ok) return;
