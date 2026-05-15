@@ -1,7 +1,7 @@
 {
   "updated": "2026-05-15T17:16:29.674Z",
   "quotaRemaining": 425,
-  "venueOverride": "Suncorp Stadium",
+  "venueOverride": { "venue": "Suncorp Stadium", "until": "2026-05-18T00:00:00Z" },
   "games": [
     {
       "id": "edd035aab9bc0ea43e28561fec91c5b9",
