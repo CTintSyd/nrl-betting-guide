@@ -78,6 +78,13 @@ async function main() {
     if (existing[key] !== undefined) preserved[key] = existing[key];
   }
 
+  // If venueOverride is a plain string (old format), drop it — only keep the object form
+  // with an explicit 'until' date so it doesn't bleed into future rounds.
+  if (typeof preserved.venueOverride === 'string') {
+    console.log('Dropping plain-string venueOverride (no until date) — set it as an object to keep it.');
+    delete preserved.venueOverride;
+  }
+
   const out = {
     updated: new Date().toISOString(),
     quotaRemaining: Number(remaining),
