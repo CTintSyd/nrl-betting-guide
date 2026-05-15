@@ -35,5 +35,6 @@ jobs:
           git add src/live-odds.json src/odds-opening.json
           git diff --staged --quiet && echo "No changes" || (
             git commit -m "chore: update NRL odds $(date -u '+%Y-%m-%d %H:%M UTC')" &&
+            git pull --rebase origin main &&
             git push
           )

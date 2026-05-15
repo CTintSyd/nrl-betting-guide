@@ -61,5 +61,6 @@ jobs:
           git add src/player-stats.json src/teamData.js src/form-data.json src/team-lists.json src/zerotackle-articles.json src/h2h-data.json src/results-history.json
           git diff --staged --quiet && echo "No changes to commit" || (
             git commit -m "chore: update NRL data $(date -u '+%Y-%m-%d %H:%M UTC')" &&
+            git pull --rebase origin main &&
             git push
           )
