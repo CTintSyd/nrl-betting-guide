@@ -523,7 +523,27 @@ function renderGames(filter) {
   const isEst = EST_FILTERS.has(filter);
   if (estNotice) estNotice.style.display = isEst ? 'block' : 'none';
 
+  // Group games by round — games within 4 days of the first game = current round
+  const currentRound = (typeof FORM_ROUND !== 'undefined' && FORM_ROUND) || null;
+  const firstTime = NRL_GAMES.length ? new Date(NRL_GAMES[0].commenceTime).getTime() : 0;
+  const ROUND_WINDOW_MS = 4 * 24 * 60 * 60 * 1000; // 4 days
+  let lastRoundLabel = null;
+
   grid.innerHTML = NRL_GAMES.map(game => {
+    const gameTime = new Date(game.commenceTime).getTime();
+    const roundOffset = Math.floor((gameTime - firstTime) / ROUND_WINDOW_MS);
+    const roundNum = currentRound ? currentRound + roundOffset : null;
+    const roundLabel = roundNum ? `Round ${roundNum}` : (roundOffset === 0 ? 'Current Round' : 'Next Round');
+
+    let header = '';
+    if (roundLabel !== lastRoundLabel) {
+      lastRoundLabel = roundLabel;
+      const isNext = roundOffset > 0;
+      header = `<div class="round-group-header${isNext ? ' round-group-header--next' : ''}">
+        <span class="round-group-label">${roundLabel}</span>
+        ${isNext ? '<span class="round-group-tag">Upcoming</span>' : '<span class="round-group-tag round-group-tag--live">This Week</span>'}
+      </div>`;
+    }
     const est = derivedMarkets(game);
 
     function realOddBtn(selId, dataGame, dataType, dataTeam, dataOdd, labelHtml) {
@@ -578,7 +598,7 @@ function renderGames(filter) {
     // In 'all' mode, also show a sample of the top tryscorers
     const allExtra = filter === 'all' ? getEstRows('tryscorer', est).slice(0,1).map(([label, items]) => oddRow(label, items.slice(0,4), true)).join('') : '';
 
-    return `
+    const card = `
     <div class="game-card">
       <div class="game-header">
         <div class="game-header-left">
@@ -617,6 +637,7 @@ function renderGames(filter) {
         📊 Full Match Analysis ↗
       </a>
     </div>`;
+    return header + card;
   }).join('');
 }
 
@@ -800,11 +821,13 @@ updateMultiBuilder();
 // Build ladder position lookup: teamName → position (1-based)
 // Populated once form data loads; used by renderGames for card display.
 const LADDER_POS = {};  // e.g. { 'Penrith Panthers': 1, 'Sydney Roosters': 2, … }
+let FORM_ROUND = null;  // latest completed round number from form-data.json
 
 // Load team logos + form data in parallel, then render everything
 Promise.all([loadTeamLogos(), formDataPromise]).then(([, formData]) => {
   // Populate ladder position lookup from form data
   (formData?.ladder || []).forEach(row => { LADDER_POS[row.name] = row.pos; });
+  if (formData?.round) FORM_ROUND = formData.round + 1; // upcoming games are next round
 
   renderGames('all');
   // Re-mark any buttons that were restored from localStorage

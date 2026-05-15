@@ -1088,6 +1088,41 @@ a:hover { text-decoration: underline; }
   gap: 16px;
 }
 
+/* ── Round Group Headers ── */
+.round-group-header {
+  grid-column: 1 / -1;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 0 4px;
+  margin-top: 8px;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 4px;
+}
+.round-group-header:first-child { margin-top: 0; }
+.round-group-label {
+  font-size: 0.95rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--text-primary);
+  font-family: 'Barlow Condensed', system-ui, sans-serif;
+}
+.round-group-tag {
+  font-size: 0.65rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  padding: 2px 8px;
+  border-radius: 4px;
+  background: rgba(255,255,255,0.07);
+  color: var(--text-muted);
+}
+.round-group-tag--live {
+  background: rgba(0,166,81,0.15);
+  color: var(--nrl-green);
+}
+
 .game-card {
   background: rgba(255,255,255,0.04);
   border: 1px solid rgba(255,255,255,0.1);
