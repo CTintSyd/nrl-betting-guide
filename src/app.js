@@ -700,6 +700,11 @@ async function loadLiveOdds() {
     const upcomingGames = data.games.filter(g => new Date(g.commenceTime).getTime() > cutoff);
     if (!upcomingGames.length) throw new Error('No upcoming games in odds file');
 
+    // Apply top-level venue override to each game (e.g. Magic Round at Suncorp)
+    if (data.venueOverride) {
+      upcomingGames.forEach(g => { g.venueOverride = data.venueOverride; });
+    }
+
     // Transform API games → NRL_GAMES format using oddsEngine
     const liveGames = upcomingGames.map((g, i) => buildGameEntry(g, i + 1));
 
