@@ -1,8 +1,8 @@
 /* ── form-data.json — fetched once, shared by round badge + ladder ── */
-const formDataPromise = fetch('src/form-data.json').then(r => r.json()).catch(() => null);
+const formDataPromise = fetch(`src/form-data.json?v=${Date.now()}`).then(r => r.json()).catch(() => null);
 
 /* ── player-stats.json — real season try rates from NRL.com ── */
-const playerStatsPromise = fetch('src/player-stats.json').then(r => r.json()).catch(() => null);
+const playerStatsPromise = fetch(`src/player-stats.json?v=${Date.now()}`).then(r => r.json()).catch(() => null);
 
 /* ── Inject real try rates into NRL_TEAM_DATA once stats are loaded ── */
 playerStatsPromise.then(stats => {
@@ -873,7 +873,7 @@ Promise.all([loadTeamLogos(), formDataPromise]).then(([, formData]) => {
 });
 
 /* ── Results History — populate #resultsBar on index.html ── */
-fetch('src/results-history.json')
+fetch(`src/results-history.json?v=${Date.now()}`)
   .then(r => r.json())
   .then(data => {
     const bar = document.getElementById('resultsBar');
