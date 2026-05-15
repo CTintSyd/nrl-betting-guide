@@ -708,6 +708,7 @@ async function loadLiveOdds() {
     liveGames.forEach(g => NRL_GAMES.push(g));
 
     renderGames(document.querySelector('.filter-btn.active')?.dataset.filter ?? 'all');
+    updateCountdown();
 
     // Update the "last updated" badge if present
     const badge = document.getElementById('oddsUpdated');
@@ -939,11 +940,8 @@ function updateCountdown() {
   section.style.display = '';
 }
 
-// Start countdown once live odds have loaded (retry after 1.5s then refresh every 30s)
-setTimeout(() => {
-  updateCountdown();
-  setInterval(updateCountdown, 30000);
-}, 1500);
+// Refresh countdown every 30s (initial call is triggered by loadLiveOdds on completion)
+setInterval(updateCountdown, 30000);
 
 /* ── Bankroll Tracker ────────────────────────────────────────────────────── */
 const BANK_KEY = 'nrl_bank';
