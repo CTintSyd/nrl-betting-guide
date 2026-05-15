@@ -355,6 +355,7 @@
       <div class="nav__logo">🏉 NRL<span>Betting</span>Guide</div>
       <a class="nav__back" href="index.html">← Back to Guide</a>
       <a class="nav__back" href="season.html" style="margin-left:8px">📊 Season</a>
+      <button class="nav__back" id="shareBtn" onclick="shareAnalysis()" style="margin-left:8px;cursor:pointer;border:1px solid var(--border);background:rgba(255,255,255,0.07)">🔗 Share</button>
     </div>
   </nav>
 
@@ -703,21 +704,57 @@
       const total = 1/ho + 1/ao;
       const mktHomePct = (1/ho / total) * 100;
 
-      // Simple form-based model
+      // ── Form component ──
       const homeForm = formData?.teams?.[game.homeTeam.name]?.last5 || '';
       const awayForm = formData?.teams?.[game.awayTeam.name]?.last5 || '';
       const homeWins = (homeForm.match(/W/g) || []).length;
       const awayWins = (awayForm.match(/W/g) || []).length;
+      const formEdge = (homeWins - awayWins) * 3.5; // ±3.5% per win difference
 
+      // ── Ladder component ──
       const homePos = LADDER_POS[game.homeTeam.name] || 9;
       const awayPos = LADDER_POS[game.awayTeam.name] || 9;
+      const ladderEdge = (awayPos - homePos) * 1.5; // ±1.5% per ladder place
 
-      // Model: 50% base + form edge + ladder edge + home advantage
-      const formEdge    = (homeWins - awayWins) * 4;       // ±4% per win difference
-      const ladderEdge  = (awayPos - homePos) * 1.5;       // ±1.5% per ladder place
-      const homeAdv     = 3;                                 // 3% generic home advantage
-      let modelHomePct  = 50 + formEdge + ladderEdge + homeAdv;
-      modelHomePct = Math.max(20, Math.min(80, modelHomePct)); // cap at reasonable range
+      // ── Home advantage ──
+      const homeAdv = 3;
+
+      // ── H2H dominance component (NEW) ──
+      let h2hEdge = 0;
+      const h2hKey = `${game.homeTeam.name} vs ${game.awayTeam.name}`;
+      const h2hEntry = h2hData?.matches?.[h2hKey];
+      if (h2hEntry?.recent?.matches?.length >= 3) {
+        const hW = h2hEntry.recent.team1Wins || 0;
+        const aW = h2hEntry.recent.team2Wins || 0;
+        const played = h2hEntry.recent.matches.length;
+        // ±7% for complete head-to-head dominance (5-0)
+        h2hEdge = ((hW - aW) / played) * 7;
+      }
+
+      // ── Injury impact component (NEW) ──
+      let injuryEdge = 0;
+      if (teamLists?.casualties) {
+        const round = teamLists.round || 0;
+        const missing = teamName => (teamLists.casualties[teamName] || []).filter(c => {
+          if (/suspension/i.test(c.injury)) return true;
+          const m = (c.expectedReturn || '').match(/Round (\d+)/i);
+          return !m || parseInt(m[1]) > round + 1;
+        }).length;
+        const homeMissing = missing(game.homeTeam.name);
+        const awayMissing = missing(game.awayTeam.name);
+        // Each net missing player worth ~1.5% shift
+        injuryEdge = (awayMissing - homeMissing) * 1.5;
+      }
+
+      const components = [
+        formEdge   !== 0 ? `form ${formEdge   > 0 ? '+' : ''}${formEdge.toFixed(0)}%`   : null,
+        ladderEdge !== 0 ? `ladder ${ladderEdge > 0 ? '+' : ''}${ladderEdge.toFixed(0)}%` : null,
+        h2hEdge    !== 0 ? `H2H ${h2hEdge     > 0 ? '+' : ''}${h2hEdge.toFixed(0)}%`   : null,
+        injuryEdge !== 0 ? `injuries ${injuryEdge > 0 ? '+' : ''}${injuryEdge.toFixed(0)}%` : null,
+      ].filter(Boolean).join(' · ') || 'balanced matchup';
+
+      let modelHomePct = 50 + formEdge + ladderEdge + homeAdv + h2hEdge + injuryEdge;
+      modelHomePct = Math.max(20, Math.min(80, modelHomePct));
 
       const gap = modelHomePct - mktHomePct;
 
@@ -725,14 +762,14 @@
       if (gap > 6) {
         valueTeam = game.homeTeam.name.split(' ').pop();
         badge = `<span class="value-badge value-badge--yes">Value: ${valueTeam}</span>`;
-        detail = `Model suggests ${Math.round(modelHomePct)}% vs market's ${Math.round(mktHomePct)}%`;
+        detail = `Model ${Math.round(modelHomePct)}% vs market ${Math.round(mktHomePct)}% · ${components}`;
       } else if (gap < -6) {
         valueTeam = game.awayTeam.name.split(' ').pop();
         badge = `<span class="value-badge value-badge--yes">Value: ${valueTeam}</span>`;
-        detail = `Model suggests ${Math.round(100 - modelHomePct)}% vs market's ${Math.round(100 - mktHomePct)}%`;
+        detail = `Model ${Math.round(100 - modelHomePct)}% vs market ${Math.round(100 - mktHomePct)}% · ${components}`;
       } else {
         badge = `<span class="value-badge value-badge--fair">Fair price</span>`;
-        detail = `Model (${Math.round(modelHomePct)}%) close to market (${Math.round(mktHomePct)}%)`;
+        detail = `Model ${Math.round(modelHomePct)}% ≈ market ${Math.round(mktHomePct)}% · ${components}`;
       }
 
       return { badge, detail, modelHomePct, mktHomePct };
@@ -1501,10 +1538,11 @@
                 ${awayPlayers.map(renderPlayer).join('')}
               </div>
             </div>
-            <div style="margin-top:12px;font-size:0.7rem;color:var(--text-2)">
-              ${hasRealOdds
+            <div style="margin-top:12px;font-size:0.7rem;color:var(--text-2);display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px">
+              <span>${hasRealOdds
                 ? `📡 Real odds from The Odds API (${realProps.bookmaker}) &nbsp;·&nbsp; <span class="odd-real">●</span> Real &nbsp; <span class="odd-derived">●</span> Estimated`
-                : `📊 Odds estimated from 2026 season try-scoring rates &nbsp;·&nbsp; <span class="odd-derived">●</span> Estimated`}
+                : `📊 Odds estimated from 2026 season try-scoring rates &nbsp;·&nbsp; <span class="odd-derived">●</span> Estimated`}</span>
+              <a href="https://www.sportsbet.com.au/betting/rugby-league-nrl" target="_blank" rel="noopener" style="font-size:0.72rem;font-weight:700;color:var(--green);white-space:nowrap">Check Sportsbet ↗</a>
             </div>
           </div>`;
           })()}
@@ -1576,7 +1614,7 @@
               <div class="fact-val" style="text-align:right">
                 ${v.badge}
                 <div style="font-size:0.68rem;color:var(--text-2);margin-top:4px;line-height:1.4">${v.detail}</div>
-                <div style="font-size:0.62rem;color:var(--text-2);opacity:0.6;margin-top:2px">Form + ladder model</div>
+                <div style="font-size:0.62rem;color:var(--text-2);opacity:0.6;margin-top:2px">Form · ladder · H2H · injuries</div>
               </div>
             </div>`;
             })()}
@@ -1652,6 +1690,23 @@
     initCollapsibleCards();
 
   })();
+
+  // ── Share ───────────────────────────────────────────────────────────────────
+  function shareAnalysis() {
+    const url = window.location.href;
+    const btn = document.getElementById('shareBtn');
+    const reset = () => { if (btn) btn.textContent = '🔗 Share'; };
+    if (navigator.share) {
+      navigator.share({ title: document.title, url }).catch(() => {});
+      return;
+    }
+    navigator.clipboard.writeText(url).then(() => {
+      if (btn) btn.textContent = '✓ Copied!';
+      setTimeout(reset, 2000);
+    }).catch(() => {
+      prompt('Copy this link:', url);
+    });
+  }
 
   // ── Bet Slip ────────────────────────────────────────────────────────────────
   const SLIP_KEY = 'nrl_betslip';

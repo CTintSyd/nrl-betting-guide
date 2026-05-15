@@ -911,3 +911,231 @@ fetch('src/results-history.json')
     section.style.display = '';
   })
   .catch(() => { /* results section stays hidden */ });
+
+/* ── Next-game countdown ─────────────────────────────────────────────────── */
+function updateCountdown() {
+  const chip    = document.getElementById('countdownChip');
+  const section = document.getElementById('countdownSection');
+  if (!chip || !section) return;
+
+  const now = Date.now();
+  const upcoming = NRL_GAMES
+    .filter(g => g.commenceTime && new Date(g.commenceTime).getTime() > now)
+    .sort((a, b) => new Date(a.commenceTime) - new Date(b.commenceTime));
+
+  if (!upcoming.length) { section.style.display = 'none'; return; }
+
+  const next = upcoming[0];
+  const diff = new Date(next.commenceTime).getTime() - now;
+  const h  = Math.floor(diff / 3600000);
+  const m  = Math.floor((diff % 3600000) / 60000);
+  const s  = Math.floor((diff % 60000) / 1000);
+
+  const home = next.homeTeam.name.split(' ').pop();
+  const away = next.awayTeam.name.split(' ').pop();
+  const timeStr = h > 0 ? `${h}h ${m}m` : m > 0 ? `${m}m ${s}s` : `${s}s`;
+
+  chip.innerHTML = `⏱ <strong>${home} vs ${away}</strong> kicks off in <strong>${timeStr}</strong>`;
+  section.style.display = '';
+}
+
+// Start countdown once live odds have loaded (retry after 1.5s then refresh every 30s)
+setTimeout(() => {
+  updateCountdown();
+  setInterval(updateCountdown, 30000);
+}, 1500);
+
+/* ── Bankroll Tracker ────────────────────────────────────────────────────── */
+const BANK_KEY = 'nrl_bank';
+
+function loadBank() {
+  try {
+    return JSON.parse(localStorage.getItem(BANK_KEY)) || null;
+  } catch { return null; }
+}
+
+function saveBank(data) {
+  localStorage.setItem(BANK_KEY, JSON.stringify(data));
+}
+
+function initBank() {
+  const input = document.getElementById('bankStartInput');
+  const amount = parseFloat(input?.value);
+  if (!amount || amount <= 0) { alert('Please enter a valid starting bankroll.'); return; }
+  const data = { startingBank: amount, currentBank: amount, bets: [] };
+  saveBank(data);
+  renderBankroll();
+}
+
+function logBet() {
+  const bank = loadBank();
+  if (!bank) { alert('Please set your starting bankroll first.'); return; }
+
+  const game  = document.getElementById('betGame')?.value.trim();
+  const pick  = document.getElementById('betPick')?.value.trim();
+  const odd   = parseFloat(document.getElementById('betOdd')?.value);
+  const stake = parseFloat(document.getElementById('betStake')?.value);
+
+  if (!game || !pick)           { alert('Please enter the game and pick.'); return; }
+  if (!odd || odd < 1.01)       { alert('Please enter valid odds (min 1.01).'); return; }
+  if (!stake || stake <= 0)     { alert('Please enter a valid stake.'); return; }
+  if (stake > bank.currentBank) { alert('Stake exceeds current bankroll.'); return; }
+
+  const bet = {
+    id: Date.now(),
+    date: new Date().toLocaleDateString('en-AU', { day: '2-digit', month: 'short' }),
+    game, pick, odd, stake,
+    status: 'pending',
+    potReturn: +(stake * odd).toFixed(2)
+  };
+
+  bank.bets.unshift(bet);
+  bank.currentBank = +(bank.currentBank - stake).toFixed(2);
+  saveBank(bank);
+
+  // clear form
+  ['betGame','betPick','betOdd','betStake'].forEach(id => {
+    const el = document.getElementById(id);
+    if (el) el.value = '';
+  });
+
+  renderBankroll();
+}
+
+function settleBet(id, result) {
+  const bank = loadBank();
+  if (!bank) return;
+  const bet = bank.bets.find(b => b.id === id);
+  if (!bet || bet.status !== 'pending') return;
+
+  bet.status = result; // 'won' | 'lost'
+  if (result === 'won') {
+    bet.return = bet.potReturn;
+    bank.currentBank = +(bank.currentBank + bet.potReturn).toFixed(2);
+  } else {
+    bet.return = 0;
+  }
+  saveBank(bank);
+  renderBankroll();
+}
+
+function deleteBet(id) {
+  const bank = loadBank();
+  if (!bank) return;
+  const idx = bank.bets.findIndex(b => b.id === id);
+  if (idx === -1) return;
+  const bet = bank.bets[idx];
+  // refund stake if pending
+  if (bet.status === 'pending') {
+    bank.currentBank = +(bank.currentBank + bet.stake).toFixed(2);
+  }
+  bank.bets.splice(idx, 1);
+  saveBank(bank);
+  renderBankroll();
+}
+
+function resetBank() {
+  if (!confirm('Reset bankroll? All bets will be deleted.')) return;
+  localStorage.removeItem(BANK_KEY);
+  renderBankroll();
+}
+
+function renderBankroll() {
+  const bank = loadBank();
+  const setupEl = document.getElementById('bankSetup');
+  const statsEl = document.getElementById('bankStats');
+  const formEl  = document.getElementById('bankForm');
+  const tableWrap = document.getElementById('bankTableWrap');
+
+  if (!bank) {
+    if (setupEl)  setupEl.style.display  = '';
+    if (statsEl)  statsEl.style.display  = 'none';
+    if (formEl)   formEl.style.display   = 'none';
+    if (tableWrap) tableWrap.style.display = 'none';
+    return;
+  }
+
+  if (setupEl)  setupEl.style.display  = 'none';
+  if (statsEl)  statsEl.style.display  = '';
+  if (formEl)   formEl.style.display   = '';
+
+  // compute stats
+  const settled = bank.bets.filter(b => b.status !== 'pending');
+  const won  = settled.filter(b => b.status === 'won').length;
+  const lost = settled.filter(b => b.status === 'lost').length;
+  const totalStaked  = settled.reduce((s, b) => s + b.stake, 0);
+  const totalReturns = settled.filter(b => b.status === 'won').reduce((s, b) => s + b.potReturn, 0);
+  const pnl  = +(bank.currentBank - bank.startingBank).toFixed(2);
+  const roi  = totalStaked > 0 ? (((totalReturns - totalStaked) / totalStaked) * 100).toFixed(1) : '0.0';
+  const strike = settled.length > 0 ? Math.round((won / settled.length) * 100) + '%' : '–';
+
+  const fmt = v => (v >= 0 ? '+' : '') + '$' + Math.abs(v).toFixed(2);
+
+  const set = (id, val, cls) => {
+    const el = document.getElementById(id);
+    if (!el) return;
+    el.textContent = val;
+    el.className = 'bank-stat-value' + (cls ? ' ' + cls : '');
+  };
+
+  set('bankStart',   '$' + bank.startingBank.toFixed(2));
+  set('bankCurrent', '$' + bank.currentBank.toFixed(2));
+  set('bankPnl',     fmt(pnl),  pnl > 0 ? 'bank-pos' : pnl < 0 ? 'bank-neg' : '');
+  set('bankRoi',     (roi > 0 ? '+' : '') + roi + '%', roi > 0 ? 'bank-pos' : roi < 0 ? 'bank-neg' : '');
+  set('bankRecord',  `${won}W-${lost}L`);
+  set('bankStrike',  strike);
+
+  // render table
+  if (!bank.bets.length) {
+    if (tableWrap) tableWrap.style.display = 'none';
+    return;
+  }
+  if (tableWrap) tableWrap.style.display = '';
+
+  const tbody = document.getElementById('bankTableBody');
+  if (!tbody) return;
+
+  tbody.innerHTML = bank.bets.map(b => {
+    const statusBadge = b.status === 'won'
+      ? '<span class="bank-badge bank-badge--won">WON</span>'
+      : b.status === 'lost'
+        ? '<span class="bank-badge bank-badge--lost">LOST</span>'
+        : '<span class="bank-badge bank-badge--pending">PENDING</span>';
+
+    const returnStr = b.status === 'won'
+      ? `<span class="bank-pos">+$${(b.potReturn - b.stake).toFixed(2)}</span>`
+      : b.status === 'lost'
+        ? `<span class="bank-neg">-$${b.stake.toFixed(2)}</span>`
+        : `<span style="color:var(--text-muted)">$${b.potReturn.toFixed(2)}</span>`;
+
+    const actions = b.status === 'pending'
+      ? `<button class="bank-action bank-action--won"  onclick="settleBet(${b.id},'won')">✓</button>
+         <button class="bank-action bank-action--lost" onclick="settleBet(${b.id},'lost')">✗</button>
+         <button class="bank-action bank-action--del"  onclick="deleteBet(${b.id})">🗑</button>`
+      : `<button class="bank-action bank-action--del"  onclick="deleteBet(${b.id})">🗑</button>`;
+
+    return `<tr class="bank-row bank-row--${b.status}">
+      <td>${b.date}</td>
+      <td>${b.game}</td>
+      <td><strong>${b.pick}</strong></td>
+      <td>${b.odd.toFixed(2)}</td>
+      <td>$${b.stake.toFixed(2)}</td>
+      <td>${returnStr}</td>
+      <td>${statusBadge}</td>
+      <td class="bank-actions">${actions}</td>
+    </tr>`;
+  }).join('');
+
+  // append reset button after table if not already there
+  let resetRow = document.getElementById('bankResetRow');
+  if (!resetRow) {
+    resetRow = document.createElement('div');
+    resetRow.id = 'bankResetRow';
+    resetRow.style.cssText = 'text-align:right;margin-top:10px';
+    resetRow.innerHTML = '<button class="bank-btn bank-btn--reset" onclick="resetBank()">Reset Bankroll</button>';
+    tableWrap.after(resetRow);
+  }
+}
+
+// Initialise on load
+document.addEventListener('DOMContentLoaded', renderBankroll);
