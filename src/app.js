@@ -842,19 +842,58 @@ Promise.all([loadTeamLogos(), formDataPromise]).then(([, formData]) => {
   if (formData?.round) {
     const el = document.getElementById('roundBadgeLabel');
     if (el) {
-      // formData.round = latest *completed* round.
-      // NRL_GAMES is populated by loadLiveOdds with upcoming fixtures.
-      // If there are upcoming games they belong to the next round (formData.round + 1).
       const updateBadge = () => {
-        const hasUpcoming = NRL_GAMES.length > 0;
-        el.textContent = hasUpcoming
-          ? `Round ${formData.round + 1} — Upcoming`
-          : `Round ${formData.round} — Complete`;
+        const now = Date.now();
+        const currentRound = formData.round + 1; // games in NRL_GAMES are the next round
+
+        if (!NRL_GAMES.length) {
+          // No upcoming games loaded yet
+          el.textContent = `Round ${formData.round} — Complete`;
+          el.className = el.className.replace(/\bbadge-live\b/, '').trim();
+          return;
+        }
+
+        // Separate current-round games from future rounds using 4-day window
+        const firstTime = new Date(NRL_GAMES[0].commenceTime).getTime();
+        const WINDOW = 4 * 24 * 60 * 60 * 1000;
+        const currentRoundGames = NRL_GAMES.filter(g =>
+          new Date(g.commenceTime).getTime() - firstTime < WINDOW
+        );
+        const nextRoundGames = NRL_GAMES.filter(g =>
+          new Date(g.commenceTime).getTime() - firstTime >= WINDOW
+        );
+
+        const firstKickoff  = new Date(currentRoundGames[0]?.commenceTime).getTime();
+        const lastKickoff   = new Date(currentRoundGames[currentRoundGames.length - 1]?.commenceTime).getTime();
+        const roundStarted  = now >= firstKickoff;
+        // Round considered over ~2h after last kickoff
+        const roundOver     = now >= lastKickoff + 2 * 60 * 60 * 1000;
+
+        let text, isLive;
+        if (!roundStarted) {
+          text   = `Round ${currentRound} — Upcoming`;
+          isLive = false;
+        } else if (!roundOver) {
+          text   = `Round ${currentRound} — Live`;
+          isLive = true;
+        } else if (nextRoundGames.length) {
+          text   = `Round ${currentRound + 1} — Upcoming`;
+          isLive = false;
+        } else {
+          text   = `Round ${currentRound} — Complete`;
+          isLive = false;
+        }
+
+        el.textContent = text;
+        el.closest?.('#roundBadge')?.classList.toggle('badge--live', isLive);
+        const dot = document.getElementById('roundBadgeDot');
+        if (dot) dot.style.display = isLive ? '' : 'none';
       };
-      // Run now (live odds may already be loaded) and again after a short delay
-      // to catch the case where loadLiveOdds resolves after formDataPromise.
+
       updateBadge();
       setTimeout(updateBadge, 1500);
+      // Refresh badge every minute so Live → Complete transitions happen automatically
+      setInterval(updateBadge, 60 * 1000);
     }
   }
 

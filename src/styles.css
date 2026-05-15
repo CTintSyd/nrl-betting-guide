@@ -116,9 +116,12 @@ a:hover { text-decoration: underline; }
   height: 8px;
   border-radius: 50%;
   background: var(--nrl-green);
-  display: inline-block;
+  display: none; /* hidden until JS sets live state */
   animation: pulse 2s infinite;
 }
+.badge--live .pulse { display: inline-block; }
+.badge--live #roundBadgeLabel { color: var(--nrl-green); }
+.nav__badge:not(.badge--live) #roundBadgeLabel { color: var(--text-muted); }
 
 @keyframes pulse {
   0%, 100% { opacity: 1; transform: scale(1); }
