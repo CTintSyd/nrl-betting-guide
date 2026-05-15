@@ -1,59 +1,7 @@
 {
-  "updated": "2026-05-15T10:00:33.666Z",
-  "quotaRemaining": 428,
+  "updated": "2026-05-15T17:16:29.674Z",
+  "quotaRemaining": 425,
   "games": [
-    {
-      "id": "56e233da2c77b9d81506e5a412d1d43b",
-      "homeTeam": "South Sydney Rabbitohs",
-      "awayTeam": "Dolphins",
-      "commenceTime": "2026-05-15T10:05:00Z",
-      "bookmaker": "sportsbet",
-      "h2h": {
-        "home": 2.04,
-        "away": 1.81
-      },
-      "line": {
-        "home": {
-          "odd": 2,
-          "point": 1.5
-        },
-        "away": {
-          "odd": 1.82,
-          "point": -1.5
-        }
-      },
-      "ou": {
-        "total": 54.5,
-        "overOdd": 1.94,
-        "underOdd": 1.88
-      },
-      "bookmakerComparison": [
-        {
-          "key": "sportsbet",
-          "name": "Sportsbet",
-          "home": 2.04,
-          "away": 1.81
-        },
-        {
-          "key": "tab",
-          "name": "TAB",
-          "home": 2.05,
-          "away": 1.77
-        },
-        {
-          "key": "betright",
-          "name": "BetRight",
-          "home": 2.2,
-          "away": 1.7
-        },
-        {
-          "key": "ladbrokes_au",
-          "name": "Ladbrokes",
-          "home": 2.05,
-          "away": 1.78
-        }
-      ]
-    },
     {
       "id": "edd035aab9bc0ea43e28561fec91c5b9",
       "homeTeam": "Wests Tigers",
@@ -367,36 +315,36 @@
       ]
     },
     {
-      "id": "dc3a839b414cf6208907768ea4875761",
-      "homeTeam": "Canberra Raiders",
-      "awayTeam": "Dolphins",
-      "commenceTime": "2026-05-21T09:50:00Z",
+      "id": "ce0092f9a4b592d7f3c6eeb0002e3793",
+      "homeTeam": "Canterbury Bulldogs",
+      "awayTeam": "Melbourne Storm",
+      "commenceTime": "2026-05-22T10:00:00Z",
       "bookmaker": "sportsbet",
       "h2h": {
-        "home": 1.94,
-        "away": 1.9
+        "home": 1.89,
+        "away": 1.95
       },
       "line": {
         "home": {
-          "odd": 1.91,
-          "point": 0.5
+          "odd": 1.87,
+          "point": -0.5
         },
         "away": {
-          "odd": 1.89,
-          "point": -0.5
+          "odd": 1.93,
+          "point": 0.5
         }
       },
       "ou": {
         "total": 49.5,
-        "overOdd": 1.81,
-        "underOdd": 2
+        "overOdd": 1.9,
+        "underOdd": 1.9
       },
       "bookmakerComparison": [
         {
           "key": "sportsbet",
           "name": "Sportsbet",
-          "home": 1.94,
-          "away": 1.9
+          "home": 1.89,
+          "away": 1.95
         }
       ]
     },
@@ -465,40 +413,6 @@
           "name": "Sportsbet",
           "home": 1.27,
           "away": 3.8
-        }
-      ]
-    },
-    {
-      "id": "022abdc85ece95490ea98028463eebcf",
-      "homeTeam": "North Queensland Cowboys",
-      "awayTeam": "South Sydney Rabbitohs",
-      "commenceTime": "2026-05-24T06:05:00Z",
-      "bookmaker": "sportsbet",
-      "h2h": {
-        "home": 1.83,
-        "away": 2.01
-      },
-      "line": {
-        "home": {
-          "odd": 1.94,
-          "point": -1.5
-        },
-        "away": {
-          "odd": 1.86,
-          "point": 1.5
-        }
-      },
-      "ou": {
-        "total": 53.5,
-        "overOdd": 1.85,
-        "underOdd": 1.96
-      },
-      "bookmakerComparison": [
-        {
-          "key": "sportsbet",
-          "name": "Sportsbet",
-          "home": 1.83,
-          "away": 2.01
         }
       ]
     }
