@@ -235,7 +235,8 @@
       <table class="round-table">
         <thead><tr>
           <th>Round</th>
-          <th>Result</th>
+          <th>Fav</th>
+          <th>O/U</th>
           <th>Game Details</th>
         </tr></thead>
         <tbody>
@@ -246,15 +247,17 @@
             const gamesHtml = (r.games || []).map(g => {
               const icon = g.favouriteWon ? '✅' : '❌';
               const favShort = (g.favourite || '').split(' ').pop();
+              const ouIcon = g.ouResult ? (g.ouResult === 'Over' ? '📈' : '📉') : '';
               return `<div class="game-result">
                 <span class="fav-icon ${g.favouriteWon ? 'fav-win' : 'fav-loss'}">${icon}</span>
                 <span class="result-score">${g.homeTeam.split(' ').pop()} ${g.homeScore}–${g.awayScore} ${g.awayTeam.split(' ').pop()}</span>
-                <span style="font-size:0.7rem;color:var(--text-2)">fav: ${favShort}</span>
+                <span style="font-size:0.7rem;color:var(--text-2)">fav: ${favShort}${g.ouResult ? ` · ${ouIcon}${g.ouResult} ${g.ouTotal}` : ''}</span>
               </div>`;
             }).join('');
             return `<tr>
               <td class="round-num">R${r.round}</td>
               <td><span class="record-pill ${pillCls(pct)}">${r.favRecord} (${pct}%)</span></td>
+              <td style="font-size:0.78rem;color:var(--text-2)">${r.ouRecord ?? '—'}</td>
               <td>${gamesHtml}</td>
             </tr>`;
           }).join('')}
@@ -412,9 +415,9 @@
           <div class="stat-card-sub">${worstRound ? `Round ${worstRound.round} (${Math.round(worstRound.pct * 100)}%)` : '—'}</div>
         </div>
         <div class="stat-card">
-          <div class="stat-card-label">Avg pts per game</div>
-          <div class="stat-card-val">${avgFor}</div>
-          <div class="stat-card-sub">Scored · ${avgAgainst} conceded</div>
+          <div class="stat-card-label">O/U record (odds data)</div>
+          <div class="stat-card-val">${resultsData?.totalOuRecord ?? '—'}</div>
+          <div class="stat-card-sub">${resultsData?.totalOuRecord ? 'from rounds with opening odds' : 'available from Round 11+'}</div>
         </div>
       </div>
     </div>

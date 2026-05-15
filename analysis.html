@@ -291,6 +291,23 @@
     .loading-spinner { width: 40px; height: 40px; border: 3px solid var(--border); border-top-color: var(--green); border-radius: 50%; animation: spin 0.8s linear infinite; margin: 0 auto 16px; }
     @keyframes spin { to { transform: rotate(360deg); } }
 
+    /* ── Post-match result banner ── */
+    .result-banner { background: rgba(255,255,255,0.04); border: 1px solid var(--border); border-radius: var(--radius-sm); padding: 16px 20px; margin-bottom: 20px; }
+    .result-banner-score { display: flex; align-items: center; justify-content: center; gap: 12px; font-family: var(--font-heading); font-size: 2rem; font-weight: 800; margin-bottom: 12px; }
+    .result-score-val { color: #fff; min-width: 36px; text-align: center; }
+    .result-dash { color: var(--text-2); font-size: 1.4rem; }
+    .result-winner { color: var(--green); }
+    .result-loser  { color: var(--text-2); }
+    .result-banner-tags { display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: 8px; }
+    .result-tag { font-size: 0.75rem; font-weight: 700; padding: 3px 10px; border-radius: 100px; }
+    .result-tag--yes    { background: rgba(63,185,80,.15);  color: #3fb950; }
+    .result-tag--no     { background: rgba(248,81,73,.15);  color: #f85149; }
+    .result-tag--margin { background: rgba(255,255,255,.07); color: var(--text-2); }
+    .result-tag--ou     { background: rgba(88,166,255,.12);  color: #58a6ff; }
+    .badge-fulltime { background: rgba(63,185,80,.15); color: #3fb950; font-size: 0.85rem; }
+    .badge-pending  { background: rgba(255,165,0,.12);  color: #f0a500; }
+    .result-analysis-note { margin-bottom: 20px; background: rgba(255,165,0,0.07); border: 1px solid rgba(255,165,0,0.2); border-radius: var(--radius-sm); padding: 10px 16px; font-size: 0.8rem; color: var(--text-2); }
+
     /* ── Game Navigation ── */
     .game-nav { background: var(--dark-2); border-bottom: 1px solid var(--border); padding: 8px 0; }
     .game-nav-inner { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
@@ -362,7 +379,7 @@
     // ── Load game data + real form strings in parallel ──────────────────────
     let game = null;
     let formData = null;
-    const [oddsRes, formRes, teamListRes, statsRes, ztRes, h2hRes, openingRes, propsRes] = await Promise.allSettled([
+    const [oddsRes, formRes, teamListRes, statsRes, ztRes, h2hRes, openingRes, propsRes, resultsRes] = await Promise.allSettled([
       fetch(`src/live-odds.json?v=${Date.now()}`).then(r => r.json()),
       fetch(`src/form-data.json?v=${Date.now()}`).then(r => r.json()),
       fetch(`src/team-lists.json?v=${Date.now()}`).then(r => r.json()),
@@ -371,6 +388,7 @@
       fetch(`src/h2h-data.json?v=${Date.now()}`).then(r => r.json()),
       fetch(`src/odds-opening.json?v=${Date.now()}`).then(r => r.json()),
       fetch(`src/player-props.json?v=${Date.now()}`).then(r => r.json()),
+      fetch(`src/results-history.json?v=${Date.now()}`).then(r => r.json()),
     ]);
 
     // ── Venue → coordinates map for Open-Meteo weather ──────────────────────
@@ -431,6 +449,8 @@
     if (openingRes.status === 'fulfilled') openingOdds = openingRes.value;
     let playerProps = null;
     if (propsRes.status === 'fulfilled') playerProps = propsRes.value;
+    let resultsData = null;
+    if (resultsRes.status === 'fulfilled') resultsData = resultsRes.value;
 
     let upcoming = [];
     if (oddsRes.status === 'fulfilled') {
@@ -1033,6 +1053,56 @@
       return [p1, p2, p3, p4, p5].map(p => `<div class="commentary-para">${p}</div>`).join('');
     }
 
+    // ── Game result lookup ───────────────────────────────────────────────────
+    let gameResult = null;
+    if (resultsData?.rounds) {
+      for (const r of resultsData.rounds) {
+        const found = (r.games || []).find(g =>
+          g.homeTeam === game.homeTeam.name && g.awayTeam === game.awayTeam.name
+        );
+        if (found) { gameResult = { ...found, round: r.round }; break; }
+      }
+    }
+    // Detect in-progress / pending: game started but result not yet in history
+    const kickoffMs = new Date(game.commenceTime).getTime();
+    const isStarted  = Date.now() > kickoffMs;
+    const isPending  = isStarted && !gameResult;   // started, not yet in results-history
+
+    // ── Result banner ────────────────────────────────────────────────────────
+    function buildResultBanner() {
+      if (!gameResult) {
+        if (!isPending) return '';
+        return `<div class="result-analysis-note">⏳ This game has kicked off — result will appear once the match is complete and data is updated.</div>`;
+      }
+      const home    = game.homeTeam.name.split(' ').pop();
+      const away    = game.awayTeam.name.split(' ').pop();
+      const homeWon = gameResult.homeScore > gameResult.awayScore;
+      const awayWon = gameResult.awayScore > gameResult.homeScore;
+      const favTag  = gameResult.favouriteWon !== undefined
+        ? `<span class="result-tag result-tag--${gameResult.favouriteWon ? 'yes' : 'no'}">${gameResult.favouriteWon ? '✅ Favourite won' : '❌ Upset'}</span>`
+        : '';
+      const lineTag = gameResult.lineCovered !== null && gameResult.lineCovered !== undefined
+        ? `<span class="result-tag result-tag--${gameResult.lineCovered ? 'yes' : 'no'}">${gameResult.lineCovered ? '✅ Line covered' : '❌ Line missed'}</span>`
+        : '';
+      const ouTag = gameResult.ouResult
+        ? `<span class="result-tag result-tag--ou">${gameResult.ouResult === 'Over' ? '📈 Over' : '📉 Under'} ${gameResult.ouTotal}</span>`
+        : '';
+      return `
+      <div class="result-banner">
+        <div class="result-banner-score">
+          <span class="${homeWon ? 'result-winner' : 'result-loser'}">${home}</span>
+          <span class="result-score-val">${gameResult.homeScore}</span>
+          <span class="result-dash">–</span>
+          <span class="result-score-val">${gameResult.awayScore}</span>
+          <span class="${awayWon ? 'result-winner' : 'result-loser'}">${away}</span>
+        </div>
+        <div class="result-banner-tags">
+          <span class="result-tag result-tag--margin">Round ${gameResult.round} · Margin ${gameResult.margin}</span>
+          ${favTag}${lineTag}${ouTag}
+        </div>
+      </div>`;
+    }
+
     // ── Game navigation bar ──────────────────────────────────────────────────
     function buildGameNav() {
       if (upcoming.length <= 1) return '';
@@ -1164,9 +1234,14 @@
           </div>
           <div class="match-vs-col">
             <div class="match-vs">VS</div>
-            <div class="match-badge ${game.isLive ? 'badge-live' : 'badge-upcoming'}">
-              ${game.isLive ? '● LIVE' : 'UPCOMING'}
-            </div>
+            ${gameResult
+              ? `<div class="match-badge badge-fulltime">FULL TIME</div>`
+              : isPending
+                ? `<div class="match-badge badge-pending">⏳ In Progress</div>`
+                : game.isLive
+                  ? `<div class="match-badge badge-live">● LIVE</div>`
+                  : `<div class="match-badge badge-upcoming">UPCOMING</div>`
+            }
           </div>
           <div class="match-team">
             ${logoImg(game.awayTeam.name)}
@@ -1188,6 +1263,7 @@
 
     <!-- MAIN CONTENT -->
     <div class="container">
+      ${buildResultBanner()}
       ${buildMovementAlerts()}
       <div class="page-grid">
 
@@ -1335,30 +1411,6 @@
           <div class="card">
             <div class="card-label">📊 Scoring Patterns</div>
             ${renderScoringPatterns(game.homeTeam.name, game.awayTeam.name)}
-          </div>
-
-          <!-- NAMED 17s -->
-          <div class="card">
-            <div class="card-label">Named Teams (1–17)</div>
-            <div class="named-grid">
-              <div>
-                <div class="named-team-label">
-                  ${LOGOS[game.homeTeam.name] ? `<img src="${LOGOS[game.homeTeam.name]}" width="14" height="14" style="object-fit:contain;vertical-align:middle;margin-right:4px">` : ''}
-                  ${game.homeTeam.name.split(' ').pop()}
-                </div>
-                ${renderNamedTeam(game.homeTeam.name)}
-              </div>
-              <div>
-                <div class="named-team-label">
-                  ${LOGOS[game.awayTeam.name] ? `<img src="${LOGOS[game.awayTeam.name]}" width="14" height="14" style="object-fit:contain;vertical-align:middle;margin-right:4px">` : ''}
-                  ${game.awayTeam.name.split(' ').pop()}
-                </div>
-                ${renderNamedTeam(game.awayTeam.name)}
-              </div>
-            </div>
-            <div style="margin-top:10px;font-size:0.68rem;color:var(--text-2);opacity:0.7;border-top:1px solid rgba(255,255,255,0.05);padding-top:10px">
-              📡 NRL.com official squads — announced Thursday night
-            </div>
           </div>
 
           <!-- INJURY REPORT (NRL Casualty Ward) -->

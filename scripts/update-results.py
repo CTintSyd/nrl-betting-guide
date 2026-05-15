@@ -134,12 +134,19 @@ def process_round(round_num, opening):
 
         # Line coverage: did the favourite win by more than the handicap?
         if line_point is not None:
-            # line_point is from the favourite's perspective
-            # Positive line_point = underdog (getting points), Negative = favourite (giving)
+            # line_point is from the home team's perspective (negative = home giving points)
             fav_margin = home_score - away_score if favourite == home_name else away_score - home_score
-            # If favourite gives -X.5, they need to win by X+1
             line_abs = abs(line_point)
             line_covered = fav_margin > line_abs
+
+        # Over / Under tracking
+        ou_total  = None
+        ou_result = None
+        if op:
+            ou_total = op.get('ou', {}).get('total')
+            if ou_total is not None:
+                actual_total = home_score + away_score
+                ou_result = 'Over' if actual_total > ou_total else 'Under'
 
         games.append({
             'homeTeam':    home_name,
@@ -152,6 +159,8 @@ def process_round(round_num, opening):
             'favouriteWon': fav_won,
             'linePoint':   line_point,
             'lineCovered': line_covered,
+            'ouTotal':     ou_total,
+            'ouResult':    ou_result,
             'oddsSourced': odds_sourced,
         })
 
@@ -166,6 +175,7 @@ def main():
     rounds_data = []
     total_fav_w = total_fav_l = 0
     total_line_w = total_line_l = 0
+    total_ou_over = total_ou_under = 0
 
     # Scan the last 10 rounds (script will skip rounds with no FullTime games)
     for r in range(1, 28):
@@ -177,25 +187,31 @@ def main():
         fav_l  = len(games) - fav_w
         line_w = sum(1 for g in games if g.get('lineCovered') is True)
         line_l = sum(1 for g in games if g.get('lineCovered') is False)
+        ou_over  = sum(1 for g in games if g.get('ouResult') == 'Over')
+        ou_under = sum(1 for g in games if g.get('ouResult') == 'Under')
 
-        total_fav_w  += fav_w
-        total_fav_l  += fav_l
-        total_line_w += line_w
-        total_line_l += line_l
+        total_fav_w    += fav_w
+        total_fav_l    += fav_l
+        total_line_w   += line_w
+        total_line_l   += line_l
+        total_ou_over  += ou_over
+        total_ou_under += ou_under
 
         rounds_data.append({
             'round':      r,
             'games':      games,
             'favRecord':  f'{fav_w}-{fav_l}',
             'lineRecord': f'{line_w}-{line_l}' if (line_w + line_l) > 0 else None,
+            'ouRecord':   f'{ou_over}O-{ou_under}U' if (ou_over + ou_under) > 0 else None,
         })
-        print(f'  Round {r:2d}: {len(games)} games | Fav {fav_w}-{fav_l} | Line {line_w}-{line_l}')
+        print(f'  Round {r:2d}: {len(games)} games | Fav {fav_w}-{fav_l} | Line {line_w}-{line_l} | O/U {ou_over}O-{ou_under}U')
 
     out = {
         'updatedAt':       datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ'),
         'season':          SEASON,
         'totalFavRecord':  f'{total_fav_w}-{total_fav_l}',
         'totalLineRecord': f'{total_line_w}-{total_line_l}' if (total_line_w + total_line_l) > 0 else None,
+        'totalOuRecord':   f'{total_ou_over}O-{total_ou_under}U' if (total_ou_over + total_ou_under) > 0 else None,
         'rounds':          rounds_data,
     }
 
