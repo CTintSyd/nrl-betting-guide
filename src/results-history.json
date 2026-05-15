@@ -1,8 +1,9 @@
 {
-  "updatedAt": "2026-05-14T17:16:11Z",
+  "updatedAt": "2026-05-15T11:35:51Z",
   "season": 2026,
-  "totalFavRecord": "43-37",
-  "totalLineRecord": "1-1",
+  "totalFavRecord": "44-37",
+  "totalLineRecord": "2-1",
+  "totalOuRecord": "3O-0U",
   "rounds": [
     {
       "round": 1,
@@ -18,6 +19,8 @@
           "favouriteWon": true,
           "linePoint": null,
           "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
           "oddsSourced": false
         },
         {
@@ -31,6 +34,8 @@
           "favouriteWon": true,
           "linePoint": null,
           "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
           "oddsSourced": false
         },
         {
@@ -44,6 +49,8 @@
           "favouriteWon": true,
           "linePoint": -7.5,
           "lineCovered": true,
+          "ouTotal": 53.5,
+          "ouResult": "Over",
           "oddsSourced": true
         },
         {
@@ -57,6 +64,8 @@
           "favouriteWon": true,
           "linePoint": null,
           "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
           "oddsSourced": false
         },
         {
@@ -70,6 +79,8 @@
           "favouriteWon": false,
           "linePoint": null,
           "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
           "oddsSourced": false
         },
         {
@@ -83,6 +94,8 @@
           "favouriteWon": true,
           "linePoint": null,
           "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
           "oddsSourced": false
         },
         {
@@ -96,6 +109,8 @@
           "favouriteWon": false,
           "linePoint": null,
           "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
           "oddsSourced": false
         },
         {
@@ -109,11 +124,14 @@
           "favouriteWon": false,
           "linePoint": -1.5,
           "lineCovered": false,
+          "ouTotal": 54.5,
+          "ouResult": "Over",
           "oddsSourced": true
         }
       ],
       "favRecord": "5-3",
-      "lineRecord": "1-1"
+      "lineRecord": "1-1",
+      "ouRecord": "2O-0U"
     },
     {
       "round": 2,
@@ -129,6 +147,8 @@
           "favouriteWon": false,
           "linePoint": null,
           "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
           "oddsSourced": false
         },
         {
@@ -142,6 +162,8 @@
           "favouriteWon": true,
           "linePoint": null,
           "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
           "oddsSourced": false
         },
         {
@@ -155,6 +177,8 @@
           "favouriteWon": true,
           "linePoint": null,
           "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
           "oddsSourced": false
         },
         {
@@ -168,6 +192,8 @@
           "favouriteWon": true,
           "linePoint": null,
           "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
           "oddsSourced": false
         },
         {
@@ -181,6 +207,8 @@
           "favouriteWon": false,
           "linePoint": null,
           "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
           "oddsSourced": false
         },
         {
@@ -194,6 +222,8 @@
           "favouriteWon": true,
           "linePoint": null,
           "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
           "oddsSourced": false
         },
         {
@@ -207,6 +237,8 @@
           "favouriteWon": false,
           "linePoint": null,
           "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
           "oddsSourced": false
         },
         {
@@ -220,11 +252,14 @@
           "favouriteWon": true,
           "linePoint": null,
           "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
           "oddsSourced": false
         }
       ],
       "favRecord": "5-3",
-      "lineRecord": null
+      "lineRecord": null,
+      "ouRecord": null
     },
     {
       "round": 3,
@@ -240,6 +275,8 @@
           "favouriteWon": false,
           "linePoint": null,
           "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
           "oddsSourced": false
         },
         {
@@ -253,6 +290,8 @@
           "favouriteWon": false,
           "linePoint": null,
           "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
           "oddsSourced": false
         },
         {
@@ -266,6 +305,8 @@
           "favouriteWon": false,
           "linePoint": null,
           "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
           "oddsSourced": false
         },
         {
@@ -279,6 +320,8 @@
           "favouriteWon": false,
           "linePoint": null,
           "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
           "oddsSourced": false
         },
         {
@@ -292,6 +335,8 @@
           "favouriteWon": false,
           "linePoint": null,
           "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
           "oddsSourced": false
         },
         {
@@ -305,6 +350,8 @@
           "favouriteWon": true,
           "linePoint": null,
           "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
           "oddsSourced": false
         },
         {
@@ -318,6 +365,8 @@
           "favouriteWon": true,
           "linePoint": null,
           "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
           "oddsSourced": false
         },
         {
@@ -331,11 +380,14 @@
           "favouriteWon": true,
           "linePoint": null,
           "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
           "oddsSourced": false
         }
       ],
       "favRecord": "3-5",
-      "lineRecord": null
+      "lineRecord": null,
+      "ouRecord": null
     },
     {
       "round": 4,
@@ -351,6 +403,8 @@
           "favouriteWon": false,
           "linePoint": null,
           "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
           "oddsSourced": false
         },
         {
@@ -364,6 +418,8 @@
           "favouriteWon": false,
           "linePoint": null,
           "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
           "oddsSourced": false
         },
         {
@@ -377,6 +433,8 @@
           "favouriteWon": true,
           "linePoint": null,
           "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
           "oddsSourced": false
         },
         {
@@ -390,6 +448,8 @@
           "favouriteWon": false,
           "linePoint": null,
           "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
           "oddsSourced": false
         },
         {
@@ -403,6 +463,8 @@
           "favouriteWon": true,
           "linePoint": null,
           "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
           "oddsSourced": false
         },
         {
@@ -416,6 +478,8 @@
           "favouriteWon": true,
           "linePoint": null,
           "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
           "oddsSourced": false
         },
         {
@@ -429,6 +493,8 @@
           "favouriteWon": false,
           "linePoint": null,
           "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
           "oddsSourced": false
         },
         {
@@ -442,11 +508,14 @@
           "favouriteWon": true,
           "linePoint": null,
           "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
           "oddsSourced": false
         }
       ],
       "favRecord": "4-4",
-      "lineRecord": null
+      "lineRecord": null,
+      "ouRecord": null
     },
     {
       "round": 5,
@@ -462,6 +531,8 @@
           "favouriteWon": false,
           "linePoint": null,
           "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
           "oddsSourced": false
         },
         {
@@ -475,6 +546,8 @@
           "favouriteWon": true,
           "linePoint": null,
           "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
           "oddsSourced": false
         },
         {
@@ -488,6 +561,8 @@
           "favouriteWon": true,
           "linePoint": null,
           "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
           "oddsSourced": false
         },
         {
@@ -501,6 +576,8 @@
           "favouriteWon": false,
           "linePoint": null,
           "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
           "oddsSourced": false
         },
         {
@@ -514,6 +591,8 @@
           "favouriteWon": false,
           "linePoint": null,
           "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
           "oddsSourced": false
         },
         {
@@ -527,6 +606,8 @@
           "favouriteWon": true,
           "linePoint": null,
           "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
           "oddsSourced": false
         },
         {
@@ -540,6 +621,8 @@
           "favouriteWon": true,
           "linePoint": null,
           "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
           "oddsSourced": false
         },
         {
@@ -553,11 +636,14 @@
           "favouriteWon": false,
           "linePoint": null,
           "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
           "oddsSourced": false
         }
       ],
       "favRecord": "4-4",
-      "lineRecord": null
+      "lineRecord": null,
+      "ouRecord": null
     },
     {
       "round": 6,
@@ -573,6 +659,8 @@
           "favouriteWon": true,
           "linePoint": null,
           "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
           "oddsSourced": false
         },
         {
@@ -586,6 +674,8 @@
           "favouriteWon": false,
           "linePoint": null,
           "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
           "oddsSourced": false
         },
         {
@@ -599,6 +689,8 @@
           "favouriteWon": false,
           "linePoint": null,
           "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
           "oddsSourced": false
         },
         {
@@ -612,6 +704,8 @@
           "favouriteWon": false,
           "linePoint": null,
           "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
           "oddsSourced": false
         },
         {
@@ -625,6 +719,8 @@
           "favouriteWon": false,
           "linePoint": null,
           "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
           "oddsSourced": false
         },
         {
@@ -638,6 +734,8 @@
           "favouriteWon": false,
           "linePoint": null,
           "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
           "oddsSourced": false
         },
         {
@@ -651,6 +749,8 @@
           "favouriteWon": false,
           "linePoint": null,
           "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
           "oddsSourced": false
         },
         {
@@ -664,11 +764,14 @@
           "favouriteWon": true,
           "linePoint": null,
           "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
           "oddsSourced": false
         }
       ],
       "favRecord": "2-6",
-      "lineRecord": null
+      "lineRecord": null,
+      "ouRecord": null
     },
     {
       "round": 7,
@@ -684,6 +787,8 @@
           "favouriteWon": false,
           "linePoint": null,
           "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
           "oddsSourced": false
         },
         {
@@ -697,6 +802,8 @@
           "favouriteWon": true,
           "linePoint": null,
           "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
           "oddsSourced": false
         },
         {
@@ -710,6 +817,8 @@
           "favouriteWon": false,
           "linePoint": null,
           "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
           "oddsSourced": false
         },
         {
@@ -723,6 +832,8 @@
           "favouriteWon": true,
           "linePoint": null,
           "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
           "oddsSourced": false
         },
         {
@@ -736,6 +847,8 @@
           "favouriteWon": true,
           "linePoint": null,
           "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
           "oddsSourced": false
         },
         {
@@ -749,6 +862,8 @@
           "favouriteWon": false,
           "linePoint": null,
           "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
           "oddsSourced": false
         },
         {
@@ -762,6 +877,8 @@
           "favouriteWon": true,
           "linePoint": null,
           "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
           "oddsSourced": false
         },
         {
@@ -775,11 +892,14 @@
           "favouriteWon": true,
           "linePoint": null,
           "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
           "oddsSourced": false
         }
       ],
       "favRecord": "5-3",
-      "lineRecord": null
+      "lineRecord": null,
+      "ouRecord": null
     },
     {
       "round": 8,
@@ -795,6 +915,8 @@
           "favouriteWon": true,
           "linePoint": null,
           "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
           "oddsSourced": false
         },
         {
@@ -808,6 +930,8 @@
           "favouriteWon": true,
           "linePoint": null,
           "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
           "oddsSourced": false
         },
         {
@@ -821,6 +945,8 @@
           "favouriteWon": true,
           "linePoint": null,
           "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
           "oddsSourced": false
         },
         {
@@ -834,6 +960,8 @@
           "favouriteWon": false,
           "linePoint": null,
           "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
           "oddsSourced": false
         },
         {
@@ -847,6 +975,8 @@
           "favouriteWon": true,
           "linePoint": null,
           "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
           "oddsSourced": false
         },
         {
@@ -860,6 +990,8 @@
           "favouriteWon": false,
           "linePoint": null,
           "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
           "oddsSourced": false
         },
         {
@@ -873,6 +1005,8 @@
           "favouriteWon": false,
           "linePoint": null,
           "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
           "oddsSourced": false
         },
         {
@@ -886,11 +1020,14 @@
           "favouriteWon": true,
           "linePoint": null,
           "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
           "oddsSourced": false
         }
       ],
       "favRecord": "5-3",
-      "lineRecord": null
+      "lineRecord": null,
+      "ouRecord": null
     },
     {
       "round": 9,
@@ -906,6 +1043,8 @@
           "favouriteWon": false,
           "linePoint": null,
           "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
           "oddsSourced": false
         },
         {
@@ -919,6 +1058,8 @@
           "favouriteWon": true,
           "linePoint": null,
           "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
           "oddsSourced": false
         },
         {
@@ -932,6 +1073,8 @@
           "favouriteWon": false,
           "linePoint": null,
           "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
           "oddsSourced": false
         },
         {
@@ -945,6 +1088,8 @@
           "favouriteWon": false,
           "linePoint": null,
           "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
           "oddsSourced": false
         },
         {
@@ -958,6 +1103,8 @@
           "favouriteWon": true,
           "linePoint": null,
           "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
           "oddsSourced": false
         },
         {
@@ -971,6 +1118,8 @@
           "favouriteWon": true,
           "linePoint": null,
           "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
           "oddsSourced": false
         },
         {
@@ -984,6 +1133,8 @@
           "favouriteWon": true,
           "linePoint": null,
           "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
           "oddsSourced": false
         },
         {
@@ -997,11 +1148,14 @@
           "favouriteWon": true,
           "linePoint": null,
           "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
           "oddsSourced": false
         }
       ],
       "favRecord": "5-3",
-      "lineRecord": null
+      "lineRecord": null,
+      "ouRecord": null
     },
     {
       "round": 10,
@@ -1017,6 +1171,8 @@
           "favouriteWon": true,
           "linePoint": null,
           "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
           "oddsSourced": false
         },
         {
@@ -1030,6 +1186,8 @@
           "favouriteWon": true,
           "linePoint": null,
           "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
           "oddsSourced": false
         },
         {
@@ -1043,6 +1201,8 @@
           "favouriteWon": false,
           "linePoint": null,
           "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
           "oddsSourced": false
         },
         {
@@ -1056,6 +1216,8 @@
           "favouriteWon": false,
           "linePoint": null,
           "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
           "oddsSourced": false
         },
         {
@@ -1069,6 +1231,8 @@
           "favouriteWon": true,
           "linePoint": null,
           "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
           "oddsSourced": false
         },
         {
@@ -1082,6 +1246,8 @@
           "favouriteWon": true,
           "linePoint": null,
           "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
           "oddsSourced": false
         },
         {
@@ -1095,6 +1261,8 @@
           "favouriteWon": true,
           "linePoint": null,
           "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
           "oddsSourced": false
         },
         {
@@ -1108,11 +1276,37 @@
           "favouriteWon": false,
           "linePoint": null,
           "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
           "oddsSourced": false
         }
       ],
       "favRecord": "5-3",
-      "lineRecord": null
+      "lineRecord": null,
+      "ouRecord": null
+    },
+    {
+      "round": 11,
+      "games": [
+        {
+          "homeTeam": "Cronulla Sutherland Sharks",
+          "awayTeam": "Canterbury Bulldogs",
+          "homeScore": 38,
+          "awayScore": 16,
+          "winner": "Cronulla Sutherland Sharks",
+          "margin": 22,
+          "favourite": "Cronulla Sutherland Sharks",
+          "favouriteWon": true,
+          "linePoint": -5.5,
+          "lineCovered": true,
+          "ouTotal": 51.5,
+          "ouResult": "Over",
+          "oddsSourced": true
+        }
+      ],
+      "favRecord": "1-0",
+      "lineRecord": "1-0",
+      "ouRecord": "1O-0U"
     }
   ]
 }
