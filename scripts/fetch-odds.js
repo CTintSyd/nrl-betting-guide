@@ -66,15 +66,30 @@ async function main() {
   console.log(`Opening odds: ${Object.keys(opening).length} games tracked → src/odds-opening.json`);
   // ─────────────────────────────────────────────────────────────────────────
 
+  // Preserve any manually-set top-level fields (e.g. venueOverride for Magic Round)
+  const dest = path.join(__dirname, '../src/live-odds.json');
+  let existing = {};
+  if (fs.existsSync(dest)) {
+    try { existing = JSON.parse(fs.readFileSync(dest, 'utf8')); } catch (_) {}
+  }
+  const PRESERVED_KEYS = ['venueOverride'];
+  const preserved = {};
+  for (const key of PRESERVED_KEYS) {
+    if (existing[key] !== undefined) preserved[key] = existing[key];
+  }
+
   const out = {
     updated: new Date().toISOString(),
     quotaRemaining: Number(remaining),
+    ...preserved,
     games: transformed,
   };
 
-  const dest = path.join(__dirname, '../src/live-odds.json');
   fs.writeFileSync(dest, JSON.stringify(out, null, 2));
   console.log(`Saved ${transformed.length} games → src/live-odds.json`);
+  if (Object.keys(preserved).length) {
+    console.log(`Preserved manual fields: ${Object.keys(preserved).join(', ')}`);
+  }
 }
 
 function transformGame(game) {
