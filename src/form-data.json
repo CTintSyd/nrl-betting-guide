@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-15T21:56:49.899003+00:00",
+  "generatedAt": "2026-05-15T22:01:55.295355+00:00",
   "round": 11,
   "ladder": [
     {
@@ -46,20 +46,48 @@
     },
     {
       "pos": 4,
+      "nick": "Dolphins",
+      "name": "Dolphins",
+      "played": 11,
+      "wins": 6,
+      "losses": 5,
+      "drawn": 0,
+      "ptsFor": 292,
+      "ptsAgainst": 227,
+      "diff": 65,
+      "pts": 14,
+      "streak": "3W"
+    },
+    {
+      "pos": 5,
+      "nick": "Sharks",
+      "name": "Cronulla Sutherland Sharks",
+      "played": 11,
+      "wins": 6,
+      "losses": 5,
+      "drawn": 0,
+      "ptsFor": 332,
+      "ptsAgainst": 276,
+      "diff": 56,
+      "pts": 14,
+      "streak": "1W"
+    },
+    {
+      "pos": 6,
       "nick": "Rabbitohs",
       "name": "South Sydney Rabbitohs",
-      "played": 10,
+      "played": 11,
       "wins": 6,
-      "losses": 4,
+      "losses": 5,
       "drawn": 0,
-      "ptsFor": 306,
-      "ptsAgainst": 236,
-      "diff": 70,
+      "ptsFor": 316,
+      "ptsAgainst": 268,
+      "diff": 48,
       "pts": 14,
       "streak": "1L"
     },
     {
-      "pos": 5,
+      "pos": 7,
       "nick": "Sea Eagles",
       "name": "Manly Warringah Sea Eagles",
       "played": 9,
@@ -69,34 +97,6 @@
       "ptsFor": 259,
       "ptsAgainst": 180,
       "diff": 79,
-      "pts": 12,
-      "streak": "1W"
-    },
-    {
-      "pos": 6,
-      "nick": "Dolphins",
-      "name": "Dolphins",
-      "played": 10,
-      "wins": 5,
-      "losses": 5,
-      "drawn": 0,
-      "ptsFor": 260,
-      "ptsAgainst": 217,
-      "diff": 43,
-      "pts": 12,
-      "streak": "3W"
-    },
-    {
-      "pos": 7,
-      "nick": "Sharks",
-      "name": "Cronulla Sutherland Sharks",
-      "played": 10,
-      "wins": 5,
-      "losses": 5,
-      "drawn": 0,
-      "ptsFor": 294,
-      "ptsAgainst": 260,
-      "diff": 34,
       "pts": 12,
       "streak": "1W"
     },
@@ -172,20 +172,6 @@
     },
     {
       "pos": 13,
-      "nick": "Bulldogs",
-      "name": "Canterbury Bulldogs",
-      "played": 10,
-      "wins": 3,
-      "losses": 7,
-      "drawn": 0,
-      "ptsFor": 173,
-      "ptsAgainst": 276,
-      "diff": -103,
-      "pts": 8,
-      "streak": "5L"
-    },
-    {
-      "pos": 14,
       "nick": "Eels",
       "name": "Parramatta Eels",
       "played": 10,
@@ -197,6 +183,20 @@
       "diff": -118,
       "pts": 8,
       "streak": "1W"
+    },
+    {
+      "pos": 14,
+      "nick": "Bulldogs",
+      "name": "Canterbury Bulldogs",
+      "played": 11,
+      "wins": 3,
+      "losses": 8,
+      "drawn": 0,
+      "ptsFor": 189,
+      "ptsAgainst": 314,
+      "diff": -125,
+      "pts": 8,
+      "streak": "5L"
     },
     {
       "pos": 15,
