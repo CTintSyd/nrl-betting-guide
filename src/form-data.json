@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-16T09:18:03.408511+00:00",
+  "generatedAt": "2026-05-16T12:13:31.261618+00:00",
   "round": 11,
   "ladder": [
     {
@@ -48,18 +48,32 @@
       "pos": 4,
       "nick": "Roosters",
       "name": "Sydney Roosters",
-      "played": 9,
+      "played": 11,
       "wins": 7,
-      "losses": 2,
+      "losses": 4,
       "drawn": 0,
-      "ptsFor": 281,
-      "ptsAgainst": 214,
-      "diff": 67,
+      "ptsFor": 305,
+      "ptsAgainst": 250,
+      "diff": 55,
       "pts": 16,
-      "streak": "5W"
+      "streak": "1L"
     },
     {
       "pos": 5,
+      "nick": "Cowboys",
+      "name": "North Queensland Cowboys",
+      "played": 12,
+      "wins": 8,
+      "losses": 4,
+      "drawn": 0,
+      "ptsFor": 305,
+      "ptsAgainst": 284,
+      "diff": 21,
+      "pts": 16,
+      "streak": "1W"
+    },
+    {
+      "pos": 6,
       "nick": "Dolphins",
       "name": "Dolphins",
       "played": 11,
@@ -73,7 +87,7 @@
       "streak": "3W"
     },
     {
-      "pos": 6,
+      "pos": 7,
       "nick": "Sharks",
       "name": "Cronulla Sutherland Sharks",
       "played": 11,
@@ -87,7 +101,7 @@
       "streak": "1W"
     },
     {
-      "pos": 7,
+      "pos": 8,
       "nick": "Rabbitohs",
       "name": "South Sydney Rabbitohs",
       "played": 11,
@@ -98,20 +112,6 @@
       "ptsAgainst": 268,
       "diff": 48,
       "pts": 14,
-      "streak": "1L"
-    },
-    {
-      "pos": 8,
-      "nick": "Cowboys",
-      "name": "North Queensland Cowboys",
-      "played": 10,
-      "wins": 6,
-      "losses": 4,
-      "drawn": 0,
-      "ptsFor": 269,
-      "ptsAgainst": 260,
-      "diff": 9,
-      "pts": 12,
       "streak": "1L"
     },
     {
@@ -144,6 +144,20 @@
     },
     {
       "pos": 11,
+      "nick": "Storm",
+      "name": "Melbourne Storm",
+      "played": 12,
+      "wins": 5,
+      "losses": 7,
+      "drawn": 0,
+      "ptsFor": 310,
+      "ptsAgainst": 292,
+      "diff": 18,
+      "pts": 10,
+      "streak": "2W"
+    },
+    {
+      "pos": 12,
       "nick": "Broncos",
       "name": "Brisbane Broncos",
       "played": 10,
@@ -157,7 +171,7 @@
       "streak": "2L"
     },
     {
-      "pos": 12,
+      "pos": 13,
       "nick": "Raiders",
       "name": "Canberra Raiders",
       "played": 10,
@@ -169,20 +183,6 @@
       "diff": -78,
       "pts": 10,
       "streak": "1L"
-    },
-    {
-      "pos": 13,
-      "nick": "Eels",
-      "name": "Parramatta Eels",
-      "played": 10,
-      "wins": 4,
-      "losses": 6,
-      "drawn": 0,
-      "ptsFor": 227,
-      "ptsAgainst": 345,
-      "diff": -118,
-      "pts": 8,
-      "streak": "1W"
     },
     {
       "pos": 14,
@@ -200,17 +200,17 @@
     },
     {
       "pos": 15,
-      "nick": "Storm",
-      "name": "Melbourne Storm",
-      "played": 10,
-      "wins": 3,
-      "losses": 7,
+      "nick": "Eels",
+      "name": "Parramatta Eels",
+      "played": 12,
+      "wins": 4,
+      "losses": 8,
       "drawn": 0,
-      "ptsFor": 242,
-      "ptsAgainst": 276,
-      "diff": -34,
-      "pts": 6,
-      "streak": "1W"
+      "ptsFor": 243,
+      "ptsAgainst": 413,
+      "diff": -170,
+      "pts": 8,
+      "streak": "1L"
     },
     {
       "pos": 16,
@@ -516,15 +516,8 @@
       ]
     },
     "Melbourne Storm": {
-      "last5": "L L L L W",
+      "last5": "L L L W W",
       "games": [
-        {
-          "round": 6,
-          "result": "L",
-          "opponent": "New Zealand Warriors",
-          "home": true,
-          "score": "14\u201338"
-        },
         {
           "round": 7,
           "result": "L",
@@ -552,6 +545,13 @@
           "opponent": "Wests Tigers",
           "home": true,
           "score": "44\u201316"
+        },
+        {
+          "round": 11,
+          "result": "W",
+          "opponent": "Parramatta Eels",
+          "home": false,
+          "score": "8\u201334"
         }
       ]
     },
@@ -629,15 +629,8 @@
       ]
     },
     "North Queensland Cowboys": {
-      "last5": "W L W W L",
+      "last5": "L W W L W",
       "games": [
-        {
-          "round": 6,
-          "result": "W",
-          "opponent": "Brisbane Broncos",
-          "home": false,
-          "score": "31\u201335"
-        },
         {
           "round": 7,
           "result": "L",
@@ -665,19 +658,19 @@
           "opponent": "Parramatta Eels",
           "home": true,
           "score": "30\u201333"
+        },
+        {
+          "round": 11,
+          "result": "W",
+          "opponent": "Sydney Roosters",
+          "home": false,
+          "score": "12\u201318"
         }
       ]
     },
     "Parramatta Eels": {
-      "last5": "L W L L W",
+      "last5": "W L L W L",
       "games": [
-        {
-          "round": 6,
-          "result": "L",
-          "opponent": "Gold Coast Titans",
-          "home": true,
-          "score": "10\u201352"
-        },
         {
           "round": 7,
           "result": "W",
@@ -705,6 +698,13 @@
           "opponent": "North Queensland Cowboys",
           "home": false,
           "score": "30\u201333"
+        },
+        {
+          "round": 11,
+          "result": "L",
+          "opponent": "Melbourne Storm",
+          "home": true,
+          "score": "8\u201334"
         }
       ]
     },
@@ -822,15 +822,8 @@
       ]
     },
     "Sydney Roosters": {
-      "last5": "W W W W W",
+      "last5": "W W W W L",
       "games": [
-        {
-          "round": 6,
-          "result": "W",
-          "opponent": "Cronulla Sutherland Sharks",
-          "home": false,
-          "score": "22\u201334"
-        },
         {
           "round": 7,
           "result": "W",
@@ -858,6 +851,13 @@
           "opponent": "Gold Coast Titans",
           "home": true,
           "score": "28\u201312"
+        },
+        {
+          "round": 11,
+          "result": "L",
+          "opponent": "North Queensland Cowboys",
+          "home": true,
+          "score": "12\u201318"
         }
       ]
     },

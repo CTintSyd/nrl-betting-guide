@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-05-16T09:18:18Z",
+  "updatedAt": "2026-05-16T12:13:43Z",
   "season": 2026,
-  "totalFavRecord": "46-37",
-  "totalLineRecord": "4-1",
-  "totalOuRecord": "4O-1U",
+  "totalFavRecord": "47-38",
+  "totalLineRecord": "5-2",
+  "totalOuRecord": "4O-3U",
   "rounds": [
     {
       "round": 1,
@@ -1332,11 +1332,41 @@
           "ouTotal": 54.5,
           "ouResult": "Over",
           "oddsSourced": true
+        },
+        {
+          "homeTeam": "Sydney Roosters",
+          "awayTeam": "North Queensland Cowboys",
+          "homeScore": 12,
+          "awayScore": 18,
+          "winner": "North Queensland Cowboys",
+          "margin": 6,
+          "favourite": "Sydney Roosters",
+          "favouriteWon": false,
+          "linePoint": -13.5,
+          "lineCovered": false,
+          "ouTotal": 56.5,
+          "ouResult": "Under",
+          "oddsSourced": true
+        },
+        {
+          "homeTeam": "Parramatta Eels",
+          "awayTeam": "Melbourne Storm",
+          "homeScore": 8,
+          "awayScore": 34,
+          "winner": "Melbourne Storm",
+          "margin": 26,
+          "favourite": "Melbourne Storm",
+          "favouriteWon": true,
+          "linePoint": 7.5,
+          "lineCovered": true,
+          "ouTotal": 53.5,
+          "ouResult": "Under",
+          "oddsSourced": true
         }
       ],
-      "favRecord": "3-0",
-      "lineRecord": "3-0",
-      "ouRecord": "2O-1U"
+      "favRecord": "4-1",
+      "lineRecord": "4-1",
+      "ouRecord": "2O-3U"
     }
   ]
 }
