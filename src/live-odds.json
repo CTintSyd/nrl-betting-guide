@@ -1,45 +1,11 @@
 {
-  "updated": "2026-05-16T11:40:18.976Z",
-  "quotaRemaining": 410,
+  "updated": "2026-05-16T15:38:14.886Z",
+  "quotaRemaining": 407,
   "venueOverride": {
     "venue": "Suncorp Stadium",
     "until": "2026-05-18T00:00:00Z"
   },
   "games": [
-    {
-      "id": "d52fa4696ab1c19d906045ef0472db37",
-      "homeTeam": "Parramatta Eels",
-      "awayTeam": "Melbourne Storm",
-      "commenceTime": "2026-05-16T09:46:00Z",
-      "bookmaker": "pointsbetau",
-      "h2h": {
-        "home": 151,
-        "away": 1
-      },
-      "line": {
-        "home": {
-          "odd": null,
-          "point": null
-        },
-        "away": {
-          "odd": null,
-          "point": null
-        }
-      },
-      "ou": {
-        "total": null,
-        "overOdd": null,
-        "underOdd": null
-      },
-      "bookmakerComparison": [
-        {
-          "key": "pointsbetau",
-          "name": "PointsBet",
-          "home": 151,
-          "away": 1
-        }
-      ]
-    },
     {
       "id": "6fe9f632e21ea1f3b92df6220aca064c",
       "homeTeam": "Gold Coast Titans",
@@ -127,8 +93,8 @@
         {
           "key": "tab",
           "name": "TAB",
-          "home": 1.67,
-          "away": 2.2
+          "home": 1.65,
+          "away": 2.25
         },
         {
           "key": "betright",
@@ -139,8 +105,8 @@
         {
           "key": "ladbrokes_au",
           "name": "Ladbrokes",
-          "home": 1.7,
-          "away": 2.15
+          "home": 1.64,
+          "away": 2.25
         }
       ]
     },
@@ -249,6 +215,52 @@
       ]
     },
     {
+      "id": "ce0092f9a4b592d7f3c6eeb0002e3793",
+      "homeTeam": "Canterbury Bulldogs",
+      "awayTeam": "Melbourne Storm",
+      "commenceTime": "2026-05-22T10:00:00Z",
+      "bookmaker": "sportsbet",
+      "h2h": {
+        "home": 1.89,
+        "away": 1.95
+      },
+      "line": {
+        "home": {
+          "odd": 1.87,
+          "point": -0.5
+        },
+        "away": {
+          "odd": 1.93,
+          "point": 0.5
+        }
+      },
+      "ou": {
+        "total": 49.5,
+        "overOdd": 1.9,
+        "underOdd": 1.9
+      },
+      "bookmakerComparison": [
+        {
+          "key": "sportsbet",
+          "name": "Sportsbet",
+          "home": 1.89,
+          "away": 1.95
+        },
+        {
+          "key": "tab",
+          "name": "TAB",
+          "home": 1.9,
+          "away": 1.9
+        },
+        {
+          "key": "pointsbetau",
+          "name": "PointsBet",
+          "home": 1.95,
+          "away": 1.85
+        }
+      ]
+    },
+    {
       "id": "da5a6d81b30ac7a9fa6096dc65a45b3e",
       "homeTeam": "St George Illawarra Dragons",
       "awayTeam": "New Zealand Warriors",
@@ -337,6 +349,18 @@
           "name": "TAB",
           "home": 1.25,
           "away": 4
+        },
+        {
+          "key": "ladbrokes_au",
+          "name": "Ladbrokes",
+          "home": 1.28,
+          "away": 3.75
+        },
+        {
+          "key": "pointsbetau",
+          "name": "PointsBet",
+          "home": 1.24,
+          "away": 4
         }
       ]
     },
@@ -377,6 +401,18 @@
           "name": "TAB",
           "home": 1.65,
           "away": 2.25
+        },
+        {
+          "key": "ladbrokes_au",
+          "name": "Ladbrokes",
+          "home": 1.65,
+          "away": 2.25
+        },
+        {
+          "key": "pointsbetau",
+          "name": "PointsBet",
+          "home": 1.65,
+          "away": 2.2
         }
       ]
     }
