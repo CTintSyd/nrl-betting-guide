@@ -1,112 +1,42 @@
 {
-  "updated": "2026-05-16T07:32:23.560Z",
-  "quotaRemaining": 413,
+  "updated": "2026-05-16T11:40:18.976Z",
+  "quotaRemaining": 410,
   "venueOverride": {
     "venue": "Suncorp Stadium",
     "until": "2026-05-18T00:00:00Z"
   },
   "games": [
     {
-      "id": "5434f1ad6147f4de010571c48e023dce",
-      "homeTeam": "Sydney Roosters",
-      "awayTeam": "North Queensland Cowboys",
-      "commenceTime": "2026-05-16T07:31:00Z",
-      "bookmaker": "sportsbet",
-      "h2h": {
-        "home": 1.19,
-        "away": 4.7
-      },
-      "line": {
-        "home": {
-          "odd": 1.85,
-          "point": -15.5
-        },
-        "away": {
-          "odd": 1.96,
-          "point": 15.5
-        }
-      },
-      "ou": {
-        "total": 57.5,
-        "overOdd": 1.91,
-        "underOdd": 1.91
-      },
-      "bookmakerComparison": [
-        {
-          "key": "sportsbet",
-          "name": "Sportsbet",
-          "home": 1.19,
-          "away": 4.7
-        },
-        {
-          "key": "tab",
-          "name": "TAB",
-          "home": 1.18,
-          "away": 4.8
-        },
-        {
-          "key": "betright",
-          "name": "BetRight",
-          "home": 1.21,
-          "away": 4.5
-        },
-        {
-          "key": "ladbrokes_au",
-          "name": "Ladbrokes",
-          "home": 1.2,
-          "away": 4.6
-        }
-      ]
-    },
-    {
       "id": "d52fa4696ab1c19d906045ef0472db37",
       "homeTeam": "Parramatta Eels",
       "awayTeam": "Melbourne Storm",
-      "commenceTime": "2026-05-16T09:45:00Z",
-      "bookmaker": "sportsbet",
+      "commenceTime": "2026-05-16T09:46:00Z",
+      "bookmaker": "pointsbetau",
       "h2h": {
-        "home": 3.03,
-        "away": 1.39
+        "home": 151,
+        "away": 1
       },
       "line": {
         "home": {
-          "odd": 1.87,
-          "point": 8.5
+          "odd": null,
+          "point": null
         },
         "away": {
-          "odd": 1.93,
-          "point": -8.5
+          "odd": null,
+          "point": null
         }
       },
       "ou": {
-        "total": 54.5,
-        "overOdd": 1.9,
-        "underOdd": 1.89
+        "total": null,
+        "overOdd": null,
+        "underOdd": null
       },
       "bookmakerComparison": [
         {
-          "key": "sportsbet",
-          "name": "Sportsbet",
-          "home": 3.03,
-          "away": 1.39
-        },
-        {
-          "key": "tab",
-          "name": "TAB",
-          "home": 3.15,
-          "away": 1.37
-        },
-        {
-          "key": "betright",
-          "name": "BetRight",
-          "home": 3.05,
-          "away": 1.38
-        },
-        {
-          "key": "ladbrokes_au",
-          "name": "Ladbrokes",
-          "home": 3.1,
-          "away": 1.36
+          "key": "pointsbetau",
+          "name": "PointsBet",
+          "home": 151,
+          "away": 1
         }
       ]
     },
@@ -151,8 +81,8 @@
         {
           "key": "betright",
           "name": "BetRight",
-          "home": 3.15,
-          "away": 1.36
+          "home": 3.1,
+          "away": 1.37
         },
         {
           "key": "ladbrokes_au",
@@ -197,14 +127,14 @@
         {
           "key": "tab",
           "name": "TAB",
-          "home": 1.74,
-          "away": 2.1
+          "home": 1.67,
+          "away": 2.2
         },
         {
           "key": "betright",
           "name": "BetRight",
-          "home": 1.65,
-          "away": 2.25
+          "home": 1.62,
+          "away": 2.3
         },
         {
           "key": "ladbrokes_au",
@@ -319,58 +249,6 @@
       ]
     },
     {
-      "id": "ce0092f9a4b592d7f3c6eeb0002e3793",
-      "homeTeam": "Canterbury Bulldogs",
-      "awayTeam": "Melbourne Storm",
-      "commenceTime": "2026-05-22T10:00:00Z",
-      "bookmaker": "sportsbet",
-      "h2h": {
-        "home": 1.89,
-        "away": 1.95
-      },
-      "line": {
-        "home": {
-          "odd": 1.87,
-          "point": -0.5
-        },
-        "away": {
-          "odd": 1.93,
-          "point": 0.5
-        }
-      },
-      "ou": {
-        "total": 49.5,
-        "overOdd": 1.9,
-        "underOdd": 1.9
-      },
-      "bookmakerComparison": [
-        {
-          "key": "sportsbet",
-          "name": "Sportsbet",
-          "home": 1.89,
-          "away": 1.95
-        },
-        {
-          "key": "tab",
-          "name": "TAB",
-          "home": 1.9,
-          "away": 1.9
-        },
-        {
-          "key": "ladbrokes_au",
-          "name": "Ladbrokes",
-          "home": 1.87,
-          "away": 1.95
-        },
-        {
-          "key": "pointsbetau",
-          "name": "PointsBet",
-          "home": 1.95,
-          "away": 1.85
-        }
-      ]
-    },
-    {
       "id": "da5a6d81b30ac7a9fa6096dc65a45b3e",
       "homeTeam": "St George Illawarra Dragons",
       "awayTeam": "New Zealand Warriors",
@@ -469,21 +347,21 @@
       "commenceTime": "2026-05-24T06:05:00Z",
       "bookmaker": "sportsbet",
       "h2h": {
-        "home": 1.78,
-        "away": 2.08
+        "home": 1.65,
+        "away": 2.25
       },
       "line": {
         "home": {
-          "odd": 1.89,
-          "point": -1.5
+          "odd": 1.9,
+          "point": -2.5
         },
         "away": {
-          "odd": 1.91,
-          "point": 1.5
+          "odd": 1.9,
+          "point": 2.5
         }
       },
       "ou": {
-        "total": 53.5,
+        "total": 52.5,
         "overOdd": 1.9,
         "underOdd": 1.9
       },
@@ -491,26 +369,14 @@
         {
           "key": "sportsbet",
           "name": "Sportsbet",
-          "home": 1.78,
-          "away": 2.08
+          "home": 1.65,
+          "away": 2.25
         },
         {
           "key": "tab",
           "name": "TAB",
-          "home": 1.8,
-          "away": 2
-        },
-        {
-          "key": "ladbrokes_au",
-          "name": "Ladbrokes",
-          "home": 1.78,
-          "away": 2.05
-        },
-        {
-          "key": "pointsbetau",
-          "name": "PointsBet",
-          "home": 1.77,
-          "away": 2.05
+          "home": 1.65,
+          "away": 2.25
         }
       ]
     }
