@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-05-15T11:35:51Z",
+  "updatedAt": "2026-05-16T09:18:18Z",
   "season": 2026,
-  "totalFavRecord": "44-37",
-  "totalLineRecord": "2-1",
-  "totalOuRecord": "3O-0U",
+  "totalFavRecord": "46-37",
+  "totalLineRecord": "4-1",
+  "totalOuRecord": "4O-1U",
   "rounds": [
     {
       "round": 1,
@@ -1302,11 +1302,41 @@
           "ouTotal": 51.5,
           "ouResult": "Over",
           "oddsSourced": true
+        },
+        {
+          "homeTeam": "South Sydney Rabbitohs",
+          "awayTeam": "Dolphins",
+          "homeScore": 10,
+          "awayScore": 32,
+          "winner": "Dolphins",
+          "margin": 22,
+          "favourite": "Dolphins",
+          "favouriteWon": true,
+          "linePoint": 1.5,
+          "lineCovered": true,
+          "ouTotal": 54.5,
+          "ouResult": "Under",
+          "oddsSourced": true
+        },
+        {
+          "homeTeam": "Wests Tigers",
+          "awayTeam": "Manly Warringah Sea Eagles",
+          "homeScore": 18,
+          "awayScore": 46,
+          "winner": "Manly Warringah Sea Eagles",
+          "margin": 28,
+          "favourite": "Manly Warringah Sea Eagles",
+          "favouriteWon": true,
+          "linePoint": 9.5,
+          "lineCovered": true,
+          "ouTotal": 54.5,
+          "ouResult": "Over",
+          "oddsSourced": true
         }
       ],
-      "favRecord": "1-0",
-      "lineRecord": "1-0",
-      "ouRecord": "1O-0U"
+      "favRecord": "3-0",
+      "lineRecord": "3-0",
+      "ouRecord": "2O-1U"
     }
   ]
 }
