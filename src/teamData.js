@@ -6,12 +6,12 @@ const NRL_TEAM_DATA = {
   'Brisbane Broncos': {
     emoji: '🐻', shortName: 'Broncos', venue: 'Suncorp Stadium', wikiPage: 'Brisbane_Broncos', logoFile: 'Brisbane_Broncos_logo.svg',
     players: [
-      { name: "Josiah Karapani",                   pos: "wing",           tryRate: 0.3333 },
-      { name: "Reece Walsh",                       pos: "fullback",       tryRate: 0.7143 },
-      { name: "Ezra Mam",                          pos: "five-eighth",    tryRate: 0.3 },
+      { name: "Josiah Karapani",                   pos: "wing",           tryRate: 0.3 },
+      { name: "Reece Walsh",                       pos: "fullback",       tryRate: 0.625 },
+      { name: "Ezra Mam",                          pos: "five-eighth",    tryRate: 0.2727 },
       { name: "Kotoni Staggs",                     pos: "centre",         tryRate: 0.6667 },
-      { name: "Gehamat Shibasaki",                 pos: "centre",         tryRate: 0.3 },
-      { name: "Jordan Riki",                       pos: "lock",           tryRate: 0.3 },
+      { name: "Gehamat Shibasaki",                 pos: "centre",         tryRate: 0.2727 },
+      { name: "Jordan Riki",                       pos: "lock",           tryRate: 0.2727 },
     ],
   },
 
@@ -66,12 +66,12 @@ const NRL_TEAM_DATA = {
   'Gold Coast Titans': {
     emoji: '🌊', shortName: 'Titans', venue: 'Cbus Super Stadium', wikiPage: 'Gold_Coast_Titans', logoFile: 'Gold_Coast_Titans_logo.svg',
     players: [
-      { name: "Phillip Sami",                      pos: "wing",           tryRate: 0.4444 },
-      { name: "Keano Kini",                        pos: "fullback",       tryRate: 0.1111 },
-      { name: "Jayden Campbell",                   pos: "five-eighth",    tryRate: 0.5714 },
-      { name: "Jojo Fifita",                       pos: "centre",         tryRate: 0.5556 },
+      { name: "Phillip Sami",                      pos: "wing",           tryRate: 0.4 },
+      { name: "Keano Kini",                        pos: "fullback",       tryRate: 0.1 },
+      { name: "Jayden Campbell",                   pos: "five-eighth",    tryRate: 0.5 },
+      { name: "Jojo Fifita",                       pos: "centre",         tryRate: 0.5 },
       { name: "Sialetili Faeamani",                pos: "wing",           tryRate: 0.5 },
-      { name: "Cooper Bai",                        pos: "lock",           tryRate: 0.2222 },
+      { name: "Cooper Bai",                        pos: "lock",           tryRate: 0.2 },
     ],
   },
 
@@ -102,24 +102,24 @@ const NRL_TEAM_DATA = {
   'Newcastle Knights': {
     emoji: '⚔️', shortName: 'Knights', venue: 'McDonald Jones Stadium', wikiPage: 'Newcastle_Knights', logoFile: 'Newcastle_Knights_logo.svg',
     players: [
-      { name: "Greg Marzhew",                      pos: "wing",           tryRate: 1.4444 },
-      { name: "Kalyn Ponga",                       pos: "fullback",       tryRate: 0.25 },
-      { name: "Fletcher Sharpe",                   pos: "five-eighth",    tryRate: 0.25 },
-      { name: "Dominic Young",                     pos: "wing",           tryRate: 1.1 },
-      { name: "Trey Mooney",                       pos: "prop",           tryRate: 0.5556 },
-      { name: "Dylan Lucas",                       pos: "lock",           tryRate: 0.5 },
+      { name: "Dominic Young",                     pos: "wing",           tryRate: 1.2727 },
+      { name: "Kalyn Ponga",                       pos: "fullback",       tryRate: 0.2 },
+      { name: "Dylan Brown",                       pos: "halfback",       tryRate: 0.1429 },
+      { name: "Greg Marzhew",                      pos: "wing",           tryRate: 1.4 },
+      { name: "Trey Mooney",                       pos: "prop",           tryRate: 0.5 },
+      { name: "Fletcher Sharpe",                   pos: "centre",         tryRate: 0.4444 },
     ],
   },
 
   'New Zealand Warriors': {
     emoji: '⚔️', shortName: 'Warriors', venue: 'Go Media Stadium', wikiPage: 'New_Zealand_Warriors', logoFile: 'New_Zealand_Warriors_logo.svg',
     players: [
-      { name: "Dallin Watene-Zelezniak",           pos: "wing",           tryRate: 1.1111 },
+      { name: "Dallin Watene-Zelezniak",           pos: "wing",           tryRate: 1.2 },
       { name: "Charnze Nicoll-Klokstad",           pos: "fullback",       tryRate: 0.6 },
-      { name: "Tanah Boyd",                        pos: "halfback",       tryRate: 0.3333 },
-      { name: "Alofiana Khan-Pereira",             pos: "wing",           tryRate: 1.2 },
-      { name: "Leka Halasima",                     pos: "lock",           tryRate: 0.5556 },
-      { name: "Jackson Ford",                      pos: "prop",           tryRate: 0.4444 },
+      { name: "Tanah Boyd",                        pos: "halfback",       tryRate: 0.3 },
+      { name: "Alofiana Khan-Pereira",             pos: "wing",           tryRate: 1.0 },
+      { name: "Leka Halasima",                     pos: "lock",           tryRate: 0.5 },
+      { name: "Erin Clark",                        pos: "lock",           tryRate: 0.4 },
     ],
   },
 

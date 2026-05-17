@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-05-16T15:42:45Z",
+  "updatedAt": "2026-05-17T10:10:03Z",
   "season": 2026,
-  "totalFavRecord": "47-38",
-  "totalLineRecord": "5-2",
-  "totalOuRecord": "4O-3U",
+  "totalFavRecord": "49-38",
+  "totalLineRecord": "7-2",
+  "totalOuRecord": "5O-4U",
   "rounds": [
     {
       "round": 1,
@@ -1362,11 +1362,41 @@
           "ouTotal": 53.5,
           "ouResult": "Under",
           "oddsSourced": true
+        },
+        {
+          "homeTeam": "Gold Coast Titans",
+          "awayTeam": "Newcastle Knights",
+          "homeScore": 12,
+          "awayScore": 36,
+          "winner": "Newcastle Knights",
+          "margin": 24,
+          "favourite": "Newcastle Knights",
+          "favouriteWon": true,
+          "linePoint": 10.5,
+          "lineCovered": true,
+          "ouTotal": 56.5,
+          "ouResult": "Under",
+          "oddsSourced": true
+        },
+        {
+          "homeTeam": "New Zealand Warriors",
+          "awayTeam": "Brisbane Broncos",
+          "homeScore": 42,
+          "awayScore": 12,
+          "winner": "New Zealand Warriors",
+          "margin": 30,
+          "favourite": "New Zealand Warriors",
+          "favouriteWon": true,
+          "linePoint": -2.5,
+          "lineCovered": true,
+          "ouTotal": 52.5,
+          "ouResult": "Over",
+          "oddsSourced": true
         }
       ],
-      "favRecord": "4-1",
-      "lineRecord": "4-1",
-      "ouRecord": "2O-3U"
+      "favRecord": "6-1",
+      "lineRecord": "6-1",
+      "ouRecord": "3O-4U"
     }
   ]
 }

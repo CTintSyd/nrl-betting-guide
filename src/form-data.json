@@ -1,9 +1,23 @@
 {
-  "generatedAt": "2026-05-16T15:42:35.882224+00:00",
+  "generatedAt": "2026-05-17T10:09:50.149398+00:00",
   "round": 11,
   "ladder": [
     {
       "pos": 1,
+      "nick": "Warriors",
+      "name": "New Zealand Warriors",
+      "played": 11,
+      "wins": 9,
+      "losses": 2,
+      "drawn": 0,
+      "ptsFor": 362,
+      "ptsAgainst": 194,
+      "diff": 168,
+      "pts": 20,
+      "streak": "4W"
+    },
+    {
+      "pos": 2,
       "nick": "Panthers",
       "name": "Penrith Panthers",
       "played": 10,
@@ -17,7 +31,7 @@
       "streak": "4W"
     },
     {
-      "pos": 2,
+      "pos": 3,
       "nick": "Sea Eagles",
       "name": "Manly Warringah Sea Eagles",
       "played": 11,
@@ -29,20 +43,6 @@
       "diff": 135,
       "pts": 16,
       "streak": "2W"
-    },
-    {
-      "pos": 3,
-      "nick": "Warriors",
-      "name": "New Zealand Warriors",
-      "played": 9,
-      "wins": 7,
-      "losses": 2,
-      "drawn": 0,
-      "ptsFor": 278,
-      "ptsAgainst": 170,
-      "diff": 108,
-      "pts": 16,
-      "streak": "4W"
     },
     {
       "pos": 4,
@@ -60,6 +60,20 @@
     },
     {
       "pos": 5,
+      "nick": "Knights",
+      "name": "Newcastle Knights",
+      "played": 12,
+      "wins": 8,
+      "losses": 4,
+      "drawn": 0,
+      "ptsFor": 348,
+      "ptsAgainst": 296,
+      "diff": 52,
+      "pts": 16,
+      "streak": "3W"
+    },
+    {
+      "pos": 6,
       "nick": "Cowboys",
       "name": "North Queensland Cowboys",
       "played": 12,
@@ -73,7 +87,7 @@
       "streak": "1W"
     },
     {
-      "pos": 6,
+      "pos": 7,
       "nick": "Dolphins",
       "name": "Dolphins",
       "played": 11,
@@ -87,7 +101,7 @@
       "streak": "3W"
     },
     {
-      "pos": 7,
+      "pos": 8,
       "nick": "Sharks",
       "name": "Cronulla Sutherland Sharks",
       "played": 11,
@@ -101,7 +115,7 @@
       "streak": "1W"
     },
     {
-      "pos": 8,
+      "pos": 9,
       "nick": "Rabbitohs",
       "name": "South Sydney Rabbitohs",
       "played": 11,
@@ -113,20 +127,6 @@
       "diff": 48,
       "pts": 14,
       "streak": "1L"
-    },
-    {
-      "pos": 9,
-      "nick": "Knights",
-      "name": "Newcastle Knights",
-      "played": 10,
-      "wins": 6,
-      "losses": 4,
-      "drawn": 0,
-      "ptsFor": 276,
-      "ptsAgainst": 272,
-      "diff": 4,
-      "pts": 12,
-      "streak": "2W"
     },
     {
       "pos": 10,
@@ -158,20 +158,6 @@
     },
     {
       "pos": 12,
-      "nick": "Broncos",
-      "name": "Brisbane Broncos",
-      "played": 10,
-      "wins": 5,
-      "losses": 5,
-      "drawn": 0,
-      "ptsFor": 214,
-      "ptsAgainst": 241,
-      "diff": -27,
-      "pts": 10,
-      "streak": "2L"
-    },
-    {
-      "pos": 13,
       "nick": "Raiders",
       "name": "Canberra Raiders",
       "played": 10,
@@ -183,6 +169,20 @@
       "diff": -78,
       "pts": 10,
       "streak": "1L"
+    },
+    {
+      "pos": 13,
+      "nick": "Broncos",
+      "name": "Brisbane Broncos",
+      "played": 12,
+      "wins": 5,
+      "losses": 7,
+      "drawn": 0,
+      "ptsFor": 238,
+      "ptsAgainst": 325,
+      "diff": -87,
+      "pts": 10,
+      "streak": "3L"
     },
     {
       "pos": 14,
@@ -216,15 +216,15 @@
       "pos": 16,
       "nick": "Titans",
       "name": "Gold Coast Titans",
-      "played": 9,
+      "played": 11,
       "wins": 2,
-      "losses": 7,
+      "losses": 9,
       "drawn": 0,
-      "ptsFor": 170,
-      "ptsAgainst": 232,
-      "diff": -62,
+      "ptsFor": 194,
+      "ptsAgainst": 304,
+      "diff": -110,
       "pts": 6,
-      "streak": "3L"
+      "streak": "4L"
     },
     {
       "pos": 17,
@@ -243,15 +243,8 @@
   ],
   "teams": {
     "Brisbane Broncos": {
-      "last5": "L W W L L",
+      "last5": "W W L L L",
       "games": [
-        {
-          "round": 6,
-          "result": "L",
-          "opponent": "North Queensland Cowboys",
-          "home": true,
-          "score": "31\u201335"
-        },
         {
           "round": 7,
           "result": "W",
@@ -279,6 +272,13 @@
           "opponent": "Manly Warringah Sea Eagles",
           "home": false,
           "score": "32\u20134"
+        },
+        {
+          "round": 11,
+          "result": "L",
+          "opponent": "New Zealand Warriors",
+          "home": false,
+          "score": "42\u201312"
         }
       ]
     },
@@ -443,7 +443,7 @@
       ]
     },
     "Gold Coast Titans": {
-      "last5": "W L L L",
+      "last5": "W L L L L",
       "games": [
         {
           "round": 6,
@@ -472,6 +472,13 @@
           "opponent": "Sydney Roosters",
           "home": false,
           "score": "28\u201312"
+        },
+        {
+          "round": 11,
+          "result": "L",
+          "opponent": "Newcastle Knights",
+          "home": true,
+          "score": "12\u201336"
         }
       ]
     },
@@ -556,7 +563,7 @@
       ]
     },
     "New Zealand Warriors": {
-      "last5": "W W W W",
+      "last5": "W W W W W",
       "games": [
         {
           "round": 6,
@@ -585,19 +592,19 @@
           "opponent": "Parramatta Eels",
           "home": false,
           "score": "14\u201336"
+        },
+        {
+          "round": 11,
+          "result": "W",
+          "opponent": "Brisbane Broncos",
+          "home": true,
+          "score": "42\u201312"
         }
       ]
     },
     "Newcastle Knights": {
-      "last5": "L L L W W",
+      "last5": "L L W W W",
       "games": [
-        {
-          "round": 6,
-          "result": "L",
-          "opponent": "Wests Tigers",
-          "home": false,
-          "score": "42\u201322"
-        },
         {
           "round": 7,
           "result": "L",
@@ -625,6 +632,13 @@
           "opponent": "St George Illawarra Dragons",
           "home": false,
           "score": "10\u201344"
+        },
+        {
+          "round": 11,
+          "result": "W",
+          "opponent": "Gold Coast Titans",
+          "home": false,
+          "score": "12\u201336"
         }
       ]
     },
