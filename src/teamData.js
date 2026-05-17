@@ -150,12 +150,12 @@ const NRL_TEAM_DATA = {
   'Penrith Panthers': {
     emoji: '🐾', shortName: 'Panthers', venue: 'BlueBet Stadium', wikiPage: 'Penrith_Panthers', logoFile: 'Penrith_Panthers_logo.svg',
     players: [
-      { name: "Thomas Jenkins",                    pos: "wing",           tryRate: 1.6 },
-      { name: "Dylan Edwards",                     pos: "fullback",       tryRate: 0.9 },
-      { name: "Blaize Talagi",                     pos: "five-eighth",    tryRate: 0.5 },
-      { name: "Brian To'o",                        pos: "wing",           tryRate: 0.6 },
-      { name: "Nathan Cleary",                     pos: "halfback",       tryRate: 0.4 },
-      { name: "Casey McLean",                      pos: "centre",         tryRate: 0.4444 },
+      { name: "Thomas Jenkins",                    pos: "wing",           tryRate: 1.6364 },
+      { name: "Dylan Edwards",                     pos: "fullback",       tryRate: 0.8182 },
+      { name: "Blaize Talagi",                     pos: "five-eighth",    tryRate: 0.4545 },
+      { name: "Brian To'o",                        pos: "wing",           tryRate: 0.6364 },
+      { name: "Nathan Cleary",                     pos: "halfback",       tryRate: 0.3636 },
+      { name: "Casey McLean",                      pos: "centre",         tryRate: 0.4 },
     ],
   },
 
@@ -174,12 +174,12 @@ const NRL_TEAM_DATA = {
   'St George Illawarra Dragons': {
     emoji: '🐉', shortName: 'Dragons', venue: 'Netstrata Jubilee Oval', wikiPage: 'St._George_Illawarra_Dragons', logoFile: 'St._George_Illawarra_Dragons_logo.svg',
     players: [
-      { name: "Setu Tu",                           pos: "wing",           tryRate: 0.5714 },
-      { name: "Clinton Gutherson",                 pos: "fullback",       tryRate: 0.1667 },
-      { name: "Daniel Atkinson",                   pos: "five-eighth",    tryRate: 0.0 },
-      { name: "Valentine Holmes",                  pos: "centre",         tryRate: 0.2222 },
-      { name: "Damien Cook",                       pos: "hooker",         tryRate: 0.2222 },
-      { name: "Hamish Stewart",                    pos: "lock",           tryRate: 0.2222 },
+      { name: "Setu Tu",                           pos: "wing",           tryRate: 0.5 },
+      { name: "Clinton Gutherson",                 pos: "fullback",       tryRate: 0.1429 },
+      { name: "Kyle Flanagan",                     pos: "halfback",       tryRate: 0.0 },
+      { name: "Valentine Holmes",                  pos: "centre",         tryRate: 0.2 },
+      { name: "Damien Cook",                       pos: "hooker",         tryRate: 0.2 },
+      { name: "Hamish Stewart",                    pos: "lock",           tryRate: 0.2 },
     ],
   },
 

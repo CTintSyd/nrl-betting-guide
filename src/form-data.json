@@ -1,9 +1,23 @@
 {
-  "generatedAt": "2026-05-17T10:09:50.149398+00:00",
+  "generatedAt": "2026-05-17T14:45:26.304800+00:00",
   "round": 11,
   "ladder": [
     {
       "pos": 1,
+      "nick": "Panthers",
+      "name": "Penrith Panthers",
+      "played": 12,
+      "wins": 11,
+      "losses": 1,
+      "drawn": 0,
+      "ptsFor": 377,
+      "ptsAgainst": 152,
+      "diff": 225,
+      "pts": 22,
+      "streak": "5W"
+    },
+    {
+      "pos": 2,
       "nick": "Warriors",
       "name": "New Zealand Warriors",
       "played": 11,
@@ -14,20 +28,6 @@
       "ptsAgainst": 194,
       "diff": 168,
       "pts": 20,
-      "streak": "4W"
-    },
-    {
-      "pos": 2,
-      "nick": "Panthers",
-      "name": "Penrith Panthers",
-      "played": 10,
-      "wins": 9,
-      "losses": 1,
-      "drawn": 0,
-      "ptsFor": 321,
-      "ptsAgainst": 140,
-      "diff": 181,
-      "pts": 18,
       "streak": "4W"
     },
     {
@@ -158,20 +158,6 @@
     },
     {
       "pos": 12,
-      "nick": "Raiders",
-      "name": "Canberra Raiders",
-      "played": 10,
-      "wins": 4,
-      "losses": 6,
-      "drawn": 0,
-      "ptsFor": 201,
-      "ptsAgainst": 279,
-      "diff": -78,
-      "pts": 10,
-      "streak": "1L"
-    },
-    {
-      "pos": 13,
       "nick": "Broncos",
       "name": "Brisbane Broncos",
       "played": 12,
@@ -183,6 +169,20 @@
       "diff": -87,
       "pts": 10,
       "streak": "3L"
+    },
+    {
+      "pos": 13,
+      "nick": "Raiders",
+      "name": "Canberra Raiders",
+      "played": 10,
+      "wins": 4,
+      "losses": 6,
+      "drawn": 0,
+      "ptsFor": 201,
+      "ptsAgainst": 279,
+      "diff": -78,
+      "pts": 8,
+      "streak": "1L"
     },
     {
       "pos": 14,
@@ -230,13 +230,13 @@
       "pos": 17,
       "nick": "Dragons",
       "name": "St George Illawarra Dragons",
-      "played": 9,
+      "played": 11,
       "wins": 0,
-      "losses": 9,
+      "losses": 11,
       "drawn": 0,
-      "ptsFor": 124,
-      "ptsAgainst": 309,
-      "diff": -185,
+      "ptsFor": 136,
+      "ptsAgainst": 365,
+      "diff": -229,
       "pts": 2,
       "streak": "4L"
     }
@@ -723,15 +723,8 @@
       ]
     },
     "Penrith Panthers": {
-      "last5": "L W W W W",
+      "last5": "W W W W W",
       "games": [
-        {
-          "round": 6,
-          "result": "L",
-          "opponent": "Canterbury Bulldogs",
-          "home": false,
-          "score": "32\u201316"
-        },
         {
           "round": 7,
           "result": "W",
@@ -759,6 +752,13 @@
           "opponent": "Canberra Raiders",
           "home": false,
           "score": "18\u201330"
+        },
+        {
+          "round": 11,
+          "result": "W",
+          "opponent": "St George Illawarra Dragons",
+          "home": true,
+          "score": "28\u20136"
         }
       ]
     },
@@ -803,7 +803,7 @@
       ]
     },
     "St George Illawarra Dragons": {
-      "last5": "L L L L",
+      "last5": "L L L L L",
       "games": [
         {
           "round": 6,
@@ -832,6 +832,13 @@
           "opponent": "Newcastle Knights",
           "home": true,
           "score": "10\u201344"
+        },
+        {
+          "round": 11,
+          "result": "L",
+          "opponent": "Penrith Panthers",
+          "home": false,
+          "score": "28\u20136"
         }
       ]
     },

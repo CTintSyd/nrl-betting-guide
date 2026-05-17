@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-05-17T10:10:03Z",
+  "updatedAt": "2026-05-17T14:45:41Z",
   "season": 2026,
-  "totalFavRecord": "49-38",
-  "totalLineRecord": "7-2",
-  "totalOuRecord": "5O-4U",
+  "totalFavRecord": "50-38",
+  "totalLineRecord": "7-3",
+  "totalOuRecord": "5O-5U",
   "rounds": [
     {
       "round": 1,
@@ -1392,11 +1392,26 @@
           "ouTotal": 52.5,
           "ouResult": "Over",
           "oddsSourced": true
+        },
+        {
+          "homeTeam": "Penrith Panthers",
+          "awayTeam": "St George Illawarra Dragons",
+          "homeScore": 28,
+          "awayScore": 6,
+          "winner": "Penrith Panthers",
+          "margin": 22,
+          "favourite": "Penrith Panthers",
+          "favouriteWon": true,
+          "linePoint": -25.5,
+          "lineCovered": false,
+          "ouTotal": 57.5,
+          "ouResult": "Under",
+          "oddsSourced": true
         }
       ],
-      "favRecord": "6-1",
-      "lineRecord": "6-1",
-      "ouRecord": "3O-4U"
+      "favRecord": "7-1",
+      "lineRecord": "6-2",
+      "ouRecord": "3O-5U"
     }
   ]
 }

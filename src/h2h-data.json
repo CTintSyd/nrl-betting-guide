@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-17T10:09:55Z",
+  "generatedAt": "2026-05-17T14:45:31Z",
   "matches": {
     "Canberra Raiders vs Dolphins": {
       "homeTeam": "Canberra Raiders",
@@ -362,10 +362,10 @@
       "weather": null,
       "seasonStats": {
         "home": {
-          "winPct": 56.0,
+          "winPct": 60.0,
           "completionRate": 79.0,
-          "avgScored": 28.0,
-          "avgConceded": 20.0,
+          "avgScored": 30.0,
+          "avgConceded": 19.0,
           "winsAtVenue": 62.0,
           "winsOverall": 50.0
         },

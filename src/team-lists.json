@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-17T10:09:55.232820+00:00",
+  "generatedAt": "2026-05-17T14:45:30.752851+00:00",
   "round": 12,
   "games": [
     {
@@ -260,6 +260,20 @@
         "expectedReturn": "TBC",
         "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500022/Kade%20Reed%20_260119_Dragons_MK193.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/dragons/kade-reed/"
+      },
+      {
+        "name": "Tyrell Sloan",
+        "injury": "Groin",
+        "expectedReturn": "TBC",
+        "imageUrl": "/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500022/Tyrell%20Sloan%20_260119_Dragons_MK618.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/dragons/tyrell-sloan/"
+      },
+      {
+        "name": "Moses Suli",
+        "injury": "Back",
+        "expectedReturn": "TBC",
+        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500022/Moses%20Suli%20_260119_Dragons_MK561.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/dragons/moses-suli/"
       }
     ],
     "Parramatta Eels": [
