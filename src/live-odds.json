@@ -1,63 +1,11 @@
 {
-  "updated": "2026-05-17T08:34:26.608Z",
-  "quotaRemaining": 398,
+  "updated": "2026-05-17T12:05:26.719Z",
+  "quotaRemaining": 395,
   "venueOverride": {
     "venue": "Suncorp Stadium",
     "until": "2026-05-18T00:00:00Z"
   },
   "games": [
-    {
-      "id": "b1fb842b8e545098cc64b374400b0e40",
-      "homeTeam": "Penrith Panthers",
-      "awayTeam": "St George Illawarra Dragons",
-      "commenceTime": "2026-05-17T08:26:00Z",
-      "bookmaker": "sportsbet",
-      "h2h": {
-        "home": 1.04,
-        "away": 11
-      },
-      "line": {
-        "home": {
-          "odd": 1.88,
-          "point": -27.5
-        },
-        "away": {
-          "odd": 1.94,
-          "point": 27.5
-        }
-      },
-      "ou": {
-        "total": 55.5,
-        "overOdd": 1.89,
-        "underOdd": 1.93
-      },
-      "bookmakerComparison": [
-        {
-          "key": "sportsbet",
-          "name": "Sportsbet",
-          "home": 1.04,
-          "away": 11
-        },
-        {
-          "key": "tab",
-          "name": "TAB",
-          "home": 1.01,
-          "away": 14
-        },
-        {
-          "key": "betright",
-          "name": "BetRight",
-          "home": 1.04,
-          "away": 12
-        },
-        {
-          "key": "ladbrokes_au",
-          "name": "Ladbrokes",
-          "home": 1.04,
-          "away": 12
-        }
-      ]
-    },
     {
       "id": "dc3a839b414cf6208907768ea4875761",
       "homeTeam": "Canberra Raiders",
@@ -149,10 +97,68 @@
           "away": 1.9
         },
         {
+          "key": "ladbrokes_au",
+          "name": "Ladbrokes",
+          "home": 1.9,
+          "away": 1.9
+        },
+        {
           "key": "pointsbetau",
           "name": "PointsBet",
           "home": 1.95,
           "away": 1.85
+        }
+      ]
+    },
+    {
+      "id": "da5a6d81b30ac7a9fa6096dc65a45b3e",
+      "homeTeam": "St George Illawarra Dragons",
+      "awayTeam": "New Zealand Warriors",
+      "commenceTime": "2026-05-23T07:30:00Z",
+      "bookmaker": "sportsbet",
+      "h2h": {
+        "home": 3.82,
+        "away": 1.27
+      },
+      "line": {
+        "home": {
+          "odd": 1.9,
+          "point": 11.5
+        },
+        "away": {
+          "odd": 1.9,
+          "point": -11.5
+        }
+      },
+      "ou": {
+        "total": 50.5,
+        "overOdd": 1.92,
+        "underOdd": 1.88
+      },
+      "bookmakerComparison": [
+        {
+          "key": "sportsbet",
+          "name": "Sportsbet",
+          "home": 3.82,
+          "away": 1.27
+        },
+        {
+          "key": "tab",
+          "name": "TAB",
+          "home": 3.7,
+          "away": 1.28
+        },
+        {
+          "key": "betright",
+          "name": "BetRight",
+          "home": 3.7,
+          "away": 1.28
+        },
+        {
+          "key": "ladbrokes_au",
+          "name": "Ladbrokes",
+          "home": 3.9,
+          "away": 1.26
         }
       ]
     },
@@ -197,8 +203,8 @@
         {
           "key": "ladbrokes_au",
           "name": "Ladbrokes",
-          "home": 1.28,
-          "away": 3.75
+          "home": 1.24,
+          "away": 4.1
         },
         {
           "key": "pointsbetau",
@@ -256,7 +262,7 @@
           "key": "pointsbetau",
           "name": "PointsBet",
           "home": 1.65,
-          "away": 2.2
+          "away": 2.15
         }
       ]
     }
