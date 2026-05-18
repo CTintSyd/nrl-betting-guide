@@ -1,25 +1,7 @@
 {
-  "updated": "2026-05-17T07:43:21.320Z",
+  "updated": "2026-05-18T18:22:15.327Z",
   "quotaRemaining": null,
   "games": {
-    "Gold Coast Titans vs Newcastle Knights": {
-      "homeTeam": "Gold Coast Titans",
-      "awayTeam": "Newcastle Knights",
-      "available": false,
-      "error": "API 422: {\"message\":\"Invalid markets: player_anytime_try_scorer, player_first_try_scorer\",\"error_code\":\"INVALID_MARKET\",\"details_url\":\"https://the-odds-api.com/liveapi/guides/v4/api-error-codes.html#invalid-market\"}\n"
-    },
-    "New Zealand Warriors vs Brisbane Broncos": {
-      "homeTeam": "New Zealand Warriors",
-      "awayTeam": "Brisbane Broncos",
-      "available": false,
-      "error": "API 422: {\"message\":\"Invalid markets: player_anytime_try_scorer, player_first_try_scorer\",\"error_code\":\"INVALID_MARKET\",\"details_url\":\"https://the-odds-api.com/liveapi/guides/v4/api-error-codes.html#invalid-market\"}\n"
-    },
-    "Penrith Panthers vs St George Illawarra Dragons": {
-      "homeTeam": "Penrith Panthers",
-      "awayTeam": "St George Illawarra Dragons",
-      "available": false,
-      "error": "API 422: {\"message\":\"Invalid markets: player_anytime_try_scorer, player_first_try_scorer\",\"error_code\":\"INVALID_MARKET\",\"details_url\":\"https://the-odds-api.com/liveapi/guides/v4/api-error-codes.html#invalid-market\"}\n"
-    },
     "Canberra Raiders vs Dolphins": {
       "homeTeam": "Canberra Raiders",
       "awayTeam": "Dolphins",
