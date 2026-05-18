@@ -672,35 +672,6 @@ document.querySelectorAll('.filter-btn').forEach(btn => {
 });
 
 
-/* ── Calculator ── */
-function updateCalc() {
-  const odds = parseFloat(document.getElementById('calcOdds').value) || 1;
-  const stake = parseFloat(document.getElementById('calcStake').value) || 0;
-  const ret = odds * stake;
-  const profit = ret - stake;
-  document.getElementById('calcReturn').textContent = '$' + ret.toFixed(2);
-  document.getElementById('calcProfit').textContent = '$' + profit.toFixed(2);
-  document.getElementById('calcProfit').style.color = profit > 0 ? 'var(--nrl-green-dark)' : 'var(--nrl-red)';
-}
-
-document.getElementById('calcOdds').addEventListener('input', updateCalc);
-document.getElementById('calcStake').addEventListener('input', updateCalc);
-
-function renderScenarios() {
-  const el = document.getElementById('scenarios');
-  el.innerHTML = SCENARIOS.map(s => `
-    <div class="scenario-item">
-      <div>
-        <div class="scenario-odds">${s.odds.toFixed(2)}</div>
-        <div class="scenario-label">${s.label}</div>
-      </div>
-      <div>
-        <div class="scenario-return" style="text-align:right">$${(s.odds * s.stake).toFixed(2)}</div>
-        <div class="scenario-label" style="text-align:right">return on $${s.stake}</div>
-      </div>
-    </div>
-  `).join('');
-}
 
 /* ── Live Odds Loader ── */
 async function loadLiveOdds() {
@@ -804,8 +775,6 @@ function applyStripTeamLogos() {
 }
 
 /* ── Init ── */
-renderScenarios();
-updateCalc();
 loadSlip();         // restore persisted selections from localStorage
 updateMultiBuilder();
 
