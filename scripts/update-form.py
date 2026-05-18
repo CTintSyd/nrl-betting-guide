@@ -99,90 +99,59 @@ def fetch_all_round_fixtures(r, season=2026):
         return []
 
 
-def patch_ladder_from_fixtures(ladder, completed_fixtures, round_num):
+def patch_ladder_from_fixtures(ladder, all_fixtures, round_num, season=2026):
     """
-    NRL.com's ladder endpoint can lag mid-round. For any completed game whose
-    result isn't yet reflected in the ladder (detected by played count), apply
-    the result manually so standings are always current.
+    NRL.com's ladder endpoint can lag mid-round. Detect this by comparing
+    each team's 'played' count in the current-round ladder vs the previous-round
+    ladder. Any completed fixture not yet reflected gets applied manually.
     """
-    # Index ladder by nick for fast lookup
-    by_nick = {row['nick']: row for row in ladder}
-    nick_lookup = {v: k for k, v in NICK_TO_FULL.items()}  # full name → nick
+    completed_in_round = [f for f in all_fixtures if f.get('matchState') == 'FullTime']
 
-    for f in completed_fixtures:
-        if f.get('matchState') != 'FullTime':
-            continue
+    if not completed_in_round:
+        print(f"  ✅ No completed games yet in Round {round_num} — nothing to patch")
+        return ladder
+
+    # Fetch previous round ladder as baseline for 'played' counts before this round
+    prev_ladder = fetch_ladder(round_num - 1, season) if round_num > 1 else []
+    prev_played = {row['nick']: row['played'] for row in prev_ladder}
+
+    by_nick = {row['nick']: row for row in ladder}
+
+    # Build per-team completed results for this round
+    team_results = {}
+    for f in completed_in_round:
         hn  = f.get('homeTeam', {}).get('nickName', '')
         an  = f.get('awayTeam', {}).get('nickName', '')
         hs  = f.get('homeTeam', {}).get('score')
         as_ = f.get('awayTeam', {}).get('score')
         if not hn or not an or hs is None or as_ is None:
             continue
-
-        for nick, scored, conceded, won in [
-            (hn, hs, as_, hs > as_),
-            (an, as_, hs, as_ > hs),
-        ]:
-            row = by_nick.get(nick)
-            if not row:
-                continue
-            # Check if this game is already reflected: if played count already
-            # accounts for all completed games in this round, skip.
-            # We do this by tracking how many R{round_num} games each team
-            # should have played vs what the ladder says.
-            row.setdefault('_r_games', 0)
-            row['_r_games'] += 1
-
-        # Count expected played per team from completed fixtures
-    expected = {}
-    for f in completed_fixtures:
-        if f.get('matchState') != 'FullTime':
-            continue
-        for side in ['homeTeam', 'awayTeam']:
-            nick = f.get(side, {}).get('nickName', '')
-            if nick:
-                expected[nick] = expected.get(nick, 0) + 1
-
-    # Re-apply results for teams whose ladder 'played' doesn't match expected
-    # Build a map of round fixtures per team
-    team_results = {}
-    for f in completed_fixtures:
-        if f.get('matchState') != 'FullTime':
-            continue
-        hn  = f.get('homeTeam', {}).get('nickName', '')
-        an  = f.get('awayTeam', {}).get('nickName', '')
-        hs  = f.get('homeTeam', {}).get('score')
-        as_ = f.get('awayTeam', {}).get('score')
-        if hs is None or as_ is None:
-            continue
-        team_results.setdefault(hn, []).append((hs, as_, hs >= as_))
-        team_results.setdefault(an, []).append((as_, hs, as_ >= hs))
+        team_results.setdefault(hn, []).append((hs, as_, hs > as_))
+        team_results.setdefault(an, []).append((as_, hs, as_ > hs))
 
     patched = 0
     for nick, results in team_results.items():
         row = by_nick.get(nick)
         if not row:
             continue
-        # Expected played in this round = len(results)
-        # If ladder already has played = (pre-round played + games), skip
-        # We check: ladder played < (what it should be after these results)
-        games_missing = (row.get('_pre_played', row['played']) + len(results)) - row['played']
-        if '_pre_played' not in row:
-            row['_pre_played'] = row['played']
+
+        # How many this-round games does the ladder already include?
+        baseline = prev_played.get(nick, 0)
+        already_in_ladder = row['played'] - baseline
+        games_missing = len(results) - already_in_ladder
 
         if games_missing <= 0:
-            continue  # ladder already up to date
+            continue  # already reflected
 
-        print(f"  🔧 Patching {nick}: adding {games_missing} missing result(s)")
+        print(f"  🔧 Patching {nick}: {already_in_ladder}/{len(results)} round games in ladder, applying {games_missing} missing")
         for scored, conceded, won in results[-games_missing:]:
             drawn = scored == conceded
             row['played']     += 1
             row['ptsFor']     += scored
-            row['ptsAgainst'] -= 0  # keep running
-            row['ptsAgainst'] = row.get('ptsAgainst', 0) + conceded
+            row['ptsAgainst'] += conceded
             row['diff']        = row['ptsFor'] - row['ptsAgainst']
             if drawn:
-                row['drawn'] = row.get('drawn', 0) + 1
+                row['drawn']  = row.get('drawn', 0) + 1
                 row['pts']   += 1
             elif won:
                 row['wins']  += 1
@@ -191,20 +160,15 @@ def patch_ladder_from_fixtures(ladder, completed_fixtures, round_num):
                 row['losses'] = row.get('losses', 0) + 1
             patched += 1
 
-    # Clean up temp keys
-    for row in ladder:
-        row.pop('_r_games', None)
-        row.pop('_pre_played', None)
-
-    # Re-sort ladder by pts desc, then diff desc
+    # Re-sort by pts desc, then diff desc
     ladder.sort(key=lambda r: (-r['pts'], -r['diff']))
     for i, row in enumerate(ladder):
         row['pos'] = i + 1
 
     if patched:
-        print(f"  ✅ Patched {patched} game result(s) into ladder")
+        print(f"  ✅ Patched {patched} result(s) into ladder")
     else:
-        print(f"  ✅ Ladder already up to date")
+        print(f"  ✅ Ladder already up to date for in-progress round")
 
     return ladder
 
@@ -263,7 +227,7 @@ def main(season=2026, max_round=27, rounds_back=6):
     print(f"🏆  Fetching ladder for Round {latest}…")
     ladder = fetch_ladder(latest, season)
     current_round_fixtures = fetch_all_round_fixtures(latest, season)
-    ladder = patch_ladder_from_fixtures(ladder, current_round_fixtures, latest)
+    ladder = patch_ladder_from_fixtures(ladder, current_round_fixtures, latest, season)
 
     # Build output (last 5 per team, oldest → newest)
     form_data = {
