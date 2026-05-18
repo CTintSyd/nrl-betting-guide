@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-17T14:45:30.752851+00:00",
+  "generatedAt": "2026-05-18T16:36:50.189987+00:00",
   "round": 12,
   "games": [
     {
@@ -98,6 +98,13 @@
         "expectedReturn": "TBC",
         "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500011/Piakura.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/broncos/brendan-piakura/"
+      },
+      {
+        "name": "Jordan Riki",
+        "injury": "Foot",
+        "expectedReturn": "TBC",
+        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500011/Riki.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/broncos/jordan-riki/"
       },
       {
         "name": "Antonio Verhoeven",
@@ -463,11 +470,11 @@
     ],
     "Sydney Roosters": [
       {
-        "name": "Victor Radley",
-        "injury": "Suspension",
+        "name": "Cody Ramsey",
+        "injury": "Concussion",
         "expectedReturn": "Round 13",
-        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500001/Victor%20Radiey%20260203_Roosters680.png?center=0.5%2C0.5",
-        "profileUrl": "https://www.nrl.com/players/nrl-premiership/roosters/victor-radley/"
+        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500001/Cody%20Ramsey%20260203_Roosters230.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/roosters/cody-ramsey/"
       },
       {
         "name": "Mark Nawaqanitawase",
