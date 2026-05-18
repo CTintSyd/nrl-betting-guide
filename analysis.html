@@ -182,6 +182,7 @@
     .h2h-match-score { font-weight: 700; color: #fff; font-variant-numeric: tabular-nums; }
     .h2h-match-winner { font-size: 0.65rem; font-weight: 800; letter-spacing: 0.5px; text-transform: uppercase; padding: 1px 6px; border-radius: 3px; background: rgba(0,166,81,0.15); color: var(--green); min-width: 52px; text-align: center; }
     .h2h-no-data { font-size: 0.82rem; color: var(--text-2); }
+    .h2h-source-note { font-size: 0.68rem; color: var(--text-2); margin-top: 10px; padding-top: 8px; border-top: 1px solid rgba(255,255,255,0.05); }
 
     /* ── Named 17s ── */
     .named-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
@@ -233,7 +234,8 @@
 
     /* ── Scoring patterns ── */
     .scoring-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 14px; }
-    .scoring-team-label { font-size: 0.68rem; font-weight: 800; letter-spacing: 0.8px; text-transform: uppercase; color: var(--text-2); margin-bottom: 8px; }
+    .scoring-team-label { font-size: 0.68rem; font-weight: 800; letter-spacing: 0.8px; text-transform: uppercase; color: var(--text-2); margin-bottom: 6px; }
+    .scoring-period-label { font-size: 0.6rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.7px; color: var(--nrl-green, #00b251); opacity: 0.8; margin-bottom: 4px; margin-top: 2px; }
     .scoring-stat { display: flex; justify-content: space-between; align-items: center; padding: 5px 0; border-bottom: 1px solid rgba(255,255,255,0.04); font-size: 0.8rem; }
     .scoring-stat:last-child { border-bottom: none; }
     .scoring-stat-label { color: var(--text-2); }
@@ -659,7 +661,8 @@
           </div>`;
       }).join('');
 
-      return summaryHtml + `<div class="h2h-matches">${matchRows || '<div class="h2h-no-data">No recent meetings on record.</div>'}</div>`;
+      return summaryHtml + `<div class="h2h-matches">${matchRows || '<div class="h2h-no-data">No recent meetings on record.</div>'}</div>
+        <div class="h2h-source-note">📋 NRL.com match centre — previous seasons shown</div>`;
     }
 
     // ── Named 17s card ───────────────────────────────────────────────────────
@@ -821,9 +824,11 @@
       const teamPanel = (label, stats, scores) => `
         <div>
           <div class="scoring-team-label">${label}</div>
+          <div class="scoring-period-label">2026 Season</div>
           ${statRow('Avg scored', stats.avgScored)}
           ${statRow('Avg conceded', stats.avgConceded)}
           ${statRow('Completion %', stats.completionRate ? stats.completionRate + '%' : null)}
+          <div class="scoring-period-label" style="margin-top:8px">All Time</div>
           ${statRow('Venue wins', stats.winsAtVenue)}
         </div>`;
 
