@@ -178,6 +178,7 @@
     .h2h-match { display: flex; align-items: center; justify-content: space-between; padding: 8px 0; border-bottom: 1px solid rgba(255,255,255,0.05); font-size: 0.8rem; gap: 8px; }
     .h2h-match:last-child { border-bottom: none; }
     .h2h-match-round { font-size: 0.68rem; color: var(--text-2); min-width: 64px; }
+    .h2h-match-year { display: block; font-size: 0.6rem; color: var(--nrl-green, #00b251); opacity: 0.8; margin-top: 1px; }
     .h2h-match-teams { flex: 1; color: var(--text); font-weight: 500; }
     .h2h-match-score { font-weight: 700; color: #fff; font-variant-numeric: tabular-nums; }
     .h2h-match-winner { font-size: 0.65rem; font-weight: 800; letter-spacing: 0.5px; text-transform: uppercase; padding: 1px 6px; border-radius: 3px; background: rgba(0,166,81,0.15); color: var(--green); min-width: 52px; text-align: center; }
@@ -626,6 +627,13 @@
       const recentPlayed = recent.matches.length;
       const draws = recentPlayed - h1 - h2;
 
+      // Extract season year from match URLs (e.g. /nrl-premiership/2025/)
+      const seasonYear = (() => {
+        const url = recent.matches?.[0]?.url || '';
+        const m = url.match(/nrl-premiership\/(\d{4})\//);
+        return m ? m[1] : '2025';
+      })();
+
       // For overall, derive from overall.homeWins + awayWins (these are role-based)
       // We show this as total played + recent breakdown
       const homeShort = homeTeam.split(' ').pop();
@@ -636,7 +644,7 @@
           <div class="h2h-team-block">
             <div class="h2h-team-name">${homeShort}</div>
             <div class="h2h-team-wins ${h1 > h2 ? 'dominant' : ''}">${h1}</div>
-            <div style="font-size:0.65rem;color:var(--text-2)">last ${recentPlayed}</div>
+            <div style="font-size:0.65rem;color:var(--text-2)">${seasonYear} season</div>
           </div>
           <div class="h2h-mid">
             <div class="h2h-played">${totalH2H}</div>
@@ -646,15 +654,17 @@
           <div class="h2h-team-block">
             <div class="h2h-team-name">${awayShort}</div>
             <div class="h2h-team-wins ${h2 > h1 ? 'dominant' : ''}">${h2}</div>
-            <div style="font-size:0.65rem;color:var(--text-2)">last ${recentPlayed}</div>
+            <div style="font-size:0.65rem;color:var(--text-2)">${seasonYear} season</div>
           </div>
         </div>`;
 
       const matchRows = recent.matches.map(m => {
         const winnerShort = m.winner.split(' ').pop();
+        const yr = m.url?.match(/nrl-premiership\/(\d{4})\//);
+        const matchYear = yr ? yr[1] : '';
         return `
           <div class="h2h-match">
-            <div class="h2h-match-round">${m.round}</div>
+            <div class="h2h-match-round">${m.round}${matchYear ? `<span class="h2h-match-year">${matchYear}</span>` : ''}</div>
             <div class="h2h-match-teams">${m.homeTeam.split(' ').pop()} v ${m.awayTeam.split(' ').pop()}</div>
             <div class="h2h-match-score">${m.homeScore}–${m.awayScore}</div>
             <div class="h2h-match-winner">${winnerShort}</div>
@@ -662,7 +672,7 @@
       }).join('');
 
       return summaryHtml + `<div class="h2h-matches">${matchRows || '<div class="h2h-no-data">No recent meetings on record.</div>'}</div>
-        <div class="h2h-source-note">📋 NRL.com match centre — previous seasons shown</div>`;
+        <div class="h2h-source-note">📋 ${seasonYear} NRL season — via NRL.com match centre</div>`;
     }
 
     // ── Named 17s card ───────────────────────────────────────────────────────
@@ -821,15 +831,25 @@
         </div>`;
       };
 
-      const teamPanel = (label, stats, scores) => `
+      // H2H venue record for each team
+      const overall = d.overall || {};
+      const hVenueW = overall.homeWins || 0;
+      const hVenueL = overall.awayWins || 0;
+      const hVenuePct = (hVenueW + hVenueL) > 0 ? Math.round(hVenueW / (hVenueW + hVenueL) * 100) : 0;
+      const aVenueW = overall.awayWins || 0;
+      const aVenueL = overall.homeWins || 0;
+      const aVenuePct = (aVenueW + aVenueL) > 0 ? Math.round(aVenueW / (aVenueW + aVenueL) * 100) : 0;
+
+      const teamPanel = (label, stats, scores, venueW, venueL, venuePct) => `
         <div>
           <div class="scoring-team-label">${label}</div>
           <div class="scoring-period-label">2026 Season</div>
           ${statRow('Avg scored', stats.avgScored)}
           ${statRow('Avg conceded', stats.avgConceded)}
           ${statRow('Completion %', stats.completionRate ? stats.completionRate + '%' : null)}
-          <div class="scoring-period-label" style="margin-top:8px">All Time</div>
-          ${statRow('Venue wins', stats.winsAtVenue)}
+          <div class="scoring-period-label" style="margin-top:8px">H2H at this venue</div>
+          ${statRow('Record', `${venueW}W / ${venueL}L`)}
+          ${statRow('Win %', venuePct + '%')}
         </div>`;
 
       // O/U pip strip
@@ -855,8 +875,8 @@
 
       return `
         <div class="scoring-grid">
-          ${teamPanel(homeTeam.split(' ').pop(), hs, homeScores)}
-          ${teamPanel(awayTeam.split(' ').pop(), as_, awayScores)}
+          ${teamPanel(homeTeam.split(' ').pop(), hs, homeScores, hVenueW, hVenueL, hVenuePct)}
+          ${teamPanel(awayTeam.split(' ').pop(), as_, awayScores, aVenueW, aVenueL, aVenuePct)}
         </div>
         ${ouLine ? `<div class="ou-trend"><div class="ou-trend-title">📊 O/U ${ouLine} Trend — last 5 games</div>${ouHtml}</div>` : ''}`;
     }
@@ -1591,11 +1611,22 @@
                 ${homeStreak || ''}<br>${awayStreak || ''}
               </div>
             </div>` : ''}
-            ${ss ? `
-            <div class="fact-row">
-              <div class="fact-label">Venue Wins</div>
-              <div class="fact-val" style="font-size:0.8rem">${game.homeTeam.name.split(' ').pop()} ${ss.home.winsAtVenue ?? '—'} · ${game.awayTeam.name.split(' ').pop()} ${ss.away.winsAtVenue ?? '—'}</div>
-            </div>` : ''}
+            ${d?.overall ? (() => {
+              const ov = d.overall;
+              const hW = ov.homeWins || 0, hL = ov.awayWins || 0;
+              const aW = ov.awayWins || 0, aL = ov.homeWins || 0;
+              const hPct = (hW + hL) > 0 ? Math.round(hW / (hW + hL) * 100) : 0;
+              const aPct = (aW + aL) > 0 ? Math.round(aW / (aW + aL) * 100) : 0;
+              const hShort = game.homeTeam.name.split(' ').pop();
+              const aShort = game.awayTeam.name.split(' ').pop();
+              return `
+            <div class="fact-row" style="align-items:flex-start">
+              <div class="fact-label">Venue Record</div>
+              <div class="fact-val" style="font-size:0.78rem;text-align:right;line-height:1.8">
+                ${hShort} ${hW}W / ${hL}L (${hPct}%)<br>${aShort} ${aW}W / ${aL}L (${aPct}%)
+              </div>
+            </div>`;
+            })() : ''}
             ${ref ? `
             <div class="fact-row">
               <div class="fact-label">Referee</div>
