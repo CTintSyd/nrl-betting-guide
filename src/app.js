@@ -18,23 +18,14 @@ playerStatsPromise.then(stats => {
 /* ── Team Logo Cache ── */
 const TEAM_LOGOS = {}; // teamName → image URL
 
-async function loadTeamLogos() {
-  const teams = Object.entries(NRL_TEAM_DATA).filter(([, v]) => v.wikiPage || v.logoFile);
-  await Promise.allSettled(teams.map(async ([name, data]) => {
-    try {
-      // Prefer File: page for the logo file — its thumbnail IS always the logo
-      const page = data.logoFile
-        ? `File:${data.logoFile}`
-        : data.wikiPage;
-      const res = await fetch(
-        `https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(page)}`,
-        { headers: { Accept: 'application/json' } }
-      );
-      if (!res.ok) return;
-      const json = await res.json();
-      if (json.thumbnail?.source) TEAM_LOGOS[name] = json.thumbnail.source;
-    } catch (_) {}
-  }));
+function loadTeamLogos() {
+  // Logos are bundled locally in src/logos/ — no external API calls needed.
+  Object.entries(NRL_TEAM_DATA).forEach(([name, data]) => {
+    if (data.logoFile) {
+      TEAM_LOGOS[name] = `src/logos/${data.logoFile}`;
+    }
+  });
+  return Promise.resolve();
 }
 
 function teamLogoHtml(name, size = 52) {
