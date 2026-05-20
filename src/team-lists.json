@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-19T12:31:51.813347+00:00",
+  "generatedAt": "2026-05-20T12:08:49.044996+00:00",
   "round": 12,
   "games": [
     {
@@ -154,18 +154,6 @@
         "name": "Coby Black",
         "position": "Reserve",
         "category": "reserve"
-      },
-      {
-        "number": 21,
-        "name": "Vena Patuki-Case",
-        "position": "Reserve",
-        "category": "reserve"
-      },
-      {
-        "number": 22,
-        "name": "Ethan Alaia",
-        "position": "Reserve",
-        "category": "reserve"
       }
     ],
     "Dolphins": [
@@ -286,18 +274,6 @@
       {
         "number": 20,
         "name": "John Fineanganofo",
-        "position": "Reserve",
-        "category": "reserve"
-      },
-      {
-        "number": 21,
-        "name": "LJ Nonu",
-        "position": "Reserve",
-        "category": "reserve"
-      },
-      {
-        "number": 22,
-        "name": "Patrick Kailahi",
         "position": "Reserve",
         "category": "reserve"
       }
@@ -1522,6 +1498,13 @@
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/cowboys/ieremia-nanai/"
       },
       {
+        "name": "Braidon Burns",
+        "injury": "Hamstring",
+        "expectedReturn": "Round 14",
+        "imageUrl": "/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500012/Burns%2CB%20260109_CD_1790.JPG.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/cowboys/braidon-burns/"
+      },
+      {
         "name": "Soni Luke",
         "injury": "Knee",
         "expectedReturn": "Round 14",
@@ -1534,13 +1517,6 @@
         "expectedReturn": "Round 16",
         "imageUrl": "/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500012/Dearden%2CT%20260109_CD_0477.JPG.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/cowboys/tom-dearden/"
-      },
-      {
-        "name": "Braidon Burns",
-        "injury": "Hamstring",
-        "expectedReturn": "TBC",
-        "imageUrl": "/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500012/Burns%2CB%20260109_CD_1790.JPG.png?center=0.5%2C0.5",
-        "profileUrl": "https://www.nrl.com/players/nrl-premiership/cowboys/braidon-burns/"
       },
       {
         "name": "Murray Taulagi",
@@ -1564,6 +1540,13 @@
         "expectedReturn": "Round 15",
         "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500723/Bodyshot-Averillo.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/dolphins/jake-averillo/"
+      },
+      {
+        "name": "Herbie Farnworth",
+        "injury": "Hamstring",
+        "expectedReturn": "TBC",
+        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500723/Bodyshot-Farnworth.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/dolphins/herbie-farnworth/"
       },
       {
         "name": "Kodi Nikorima",
