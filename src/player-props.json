@@ -1,13 +1,7 @@
 {
-  "updated": "2026-05-20T19:55:48.516Z",
+  "updated": "2026-05-21T18:28:49.498Z",
   "quotaRemaining": null,
   "games": {
-    "Canberra Raiders vs Dolphins": {
-      "homeTeam": "Canberra Raiders",
-      "awayTeam": "Dolphins",
-      "available": false,
-      "error": "API 422: {\"message\":\"Invalid markets: player_anytime_try_scorer, player_first_try_scorer\",\"error_code\":\"INVALID_MARKET\",\"details_url\":\"https://the-odds-api.com/liveapi/guides/v4/api-error-codes.html#invalid-market\"}\n"
-    },
     "Canterbury Bulldogs vs Melbourne Storm": {
       "homeTeam": "Canterbury Bulldogs",
       "awayTeam": "Melbourne Storm",
