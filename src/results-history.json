@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-05-17T14:45:41Z",
+  "updatedAt": "2026-05-21T17:39:18Z",
   "season": 2026,
-  "totalFavRecord": "50-38",
-  "totalLineRecord": "7-3",
-  "totalOuRecord": "5O-5U",
+  "totalFavRecord": "51-38",
+  "totalLineRecord": "8-3",
+  "totalOuRecord": "6O-5U",
   "rounds": [
     {
       "round": 1,
@@ -1412,6 +1412,29 @@
       "favRecord": "7-1",
       "lineRecord": "6-2",
       "ouRecord": "3O-5U"
+    },
+    {
+      "round": 12,
+      "games": [
+        {
+          "homeTeam": "Canberra Raiders",
+          "awayTeam": "Dolphins",
+          "homeScore": 22,
+          "awayScore": 30,
+          "winner": "Dolphins",
+          "margin": 8,
+          "favourite": "Dolphins",
+          "favouriteWon": true,
+          "linePoint": 0.5,
+          "lineCovered": true,
+          "ouTotal": 49.5,
+          "ouResult": "Over",
+          "oddsSourced": true
+        }
+      ],
+      "favRecord": "1-0",
+      "lineRecord": "1-0",
+      "ouRecord": "1O-0U"
     }
   ]
 }

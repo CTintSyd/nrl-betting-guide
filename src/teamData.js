@@ -18,12 +18,12 @@ const NRL_TEAM_DATA = {
   'Canberra Raiders': {
     emoji: '🔋', shortName: 'Raiders', venue: 'GIO Stadium', wikiPage: 'Canberra_Raiders', logoFile: 'canberra-raiders.svg',
     players: [
-      { name: "Savelio Tamale",                    pos: "wing",           tryRate: 0.5556 },
-      { name: "Kaeo Weekes",                       pos: "fullback",       tryRate: 0.7 },
+      { name: "Savelio Tamale",                    pos: "wing",           tryRate: 0.6 },
+      { name: "Kaeo Weekes",                       pos: "fullback",       tryRate: 0.6364 },
       { name: "Ethan Strange",                     pos: "five-eighth",    tryRate: 0.3333 },
       { name: "Simi Sasagi",                       pos: "lock",           tryRate: 0.4444 },
       { name: "Hudson Young",                      pos: "lock",           tryRate: 0.375 },
-      { name: "Xavier Savage",                     pos: "wing",           tryRate: 0.6 },
+      { name: "Xavier Savage",                     pos: "wing",           tryRate: 0.5 },
     ],
   },
 
@@ -54,9 +54,9 @@ const NRL_TEAM_DATA = {
   'Dolphins': {
     emoji: '🐬', shortName: 'Dolphins', venue: 'Suncorp Stadium', wikiPage: 'Dolphins_NRL', logoFile: 'dolphins.png',
     players: [
-      { name: "Jamayne Isaako",                    pos: "wing",           tryRate: 0.9 },
+      { name: "Jamayne Isaako",                    pos: "wing",           tryRate: 0.9091 },
       { name: "Hamiso Tabuai-Fidow",               pos: "fullback",       tryRate: 0.7 },
-      { name: "Kodi Nikorima",                     pos: "five-eighth",    tryRate: 0.125 },
+      { name: "Bradley Schneider",                 pos: "five-eighth",    tryRate: 0.1111 },
       { name: "Selwyn Cobbo",                      pos: "wing",           tryRate: 0.6 },
       { name: "Jake Averillo",                     pos: "centre",         tryRate: 0.8571 },
       { name: "Herbie Farnworth",                  pos: "centre",         tryRate: 0.5 },
