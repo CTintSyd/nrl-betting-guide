@@ -30,12 +30,12 @@ const NRL_TEAM_DATA = {
   'Canterbury Bulldogs': {
     emoji: '🐕', shortName: 'Bulldogs', venue: 'Accor Stadium', wikiPage: 'Canterbury-Bankstown_Bulldogs', logoFile: 'canterbury-bulldogs.png',
     players: [
-      { name: "Jacob Kiraz",                       pos: "wing",           tryRate: 0.6667 },
-      { name: "Connor Tracey",                     pos: "fullback",       tryRate: 0.2 },
-      { name: "Lachlan Galvin",                    pos: "halfback",       tryRate: 0.4 },
-      { name: "Jacob Preston",                     pos: "lock",           tryRate: 0.4 },
-      { name: "Matt Burton",                       pos: "five-eighth",    tryRate: 0.3333 },
-      { name: "Sitili Tupouniua",                  pos: "lock",           tryRate: 0.2 },
+      { name: "Jethro Rinakama",                   pos: "wing",           tryRate: 0.4 },
+      { name: "Jacob Kiraz",                       pos: "fullback",       tryRate: 0.7143 },
+      { name: "Lachlan Galvin",                    pos: "halfback",       tryRate: 0.3636 },
+      { name: "Jacob Preston",                     pos: "lock",           tryRate: 0.3636 },
+      { name: "Sitili Tupouniua",                  pos: "lock",           tryRate: 0.2727 },
+      { name: "Matt Burton",                       pos: "five-eighth",    tryRate: 0.3 },
     ],
   },
 
@@ -90,12 +90,12 @@ const NRL_TEAM_DATA = {
   'Melbourne Storm': {
     emoji: '⛈️', shortName: 'Storm', venue: 'AAMI Park', wikiPage: 'Melbourne_Storm', logoFile: 'melbourne-storm.png',
     players: [
-      { name: "Will Warbrick",                     pos: "wing",           tryRate: 0.8182 },
-      { name: "Sualauvi Faalogo",                  pos: "fullback",       tryRate: 1.0909 },
+      { name: "Will Warbrick",                     pos: "wing",           tryRate: 0.75 },
+      { name: "Sualauvi Faalogo",                  pos: "fullback",       tryRate: 1.0 },
       { name: "Cameron Munster",                   pos: "five-eighth",    tryRate: 0.2727 },
       { name: "Harry Grant",                       pos: "hooker",         tryRate: 0.4545 },
-      { name: "Jack Howarth",                      pos: "centre",         tryRate: 0.4 },
-      { name: "Moses Leo",                         pos: "wing",           tryRate: 0.5 },
+      { name: "Moses Leo",                         pos: "wing",           tryRate: 0.7143 },
+      { name: "Jack Howarth",                      pos: "centre",         tryRate: 0.3636 },
     ],
   },
 

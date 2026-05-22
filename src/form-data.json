@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-22T08:00:24.327209+00:00",
+  "generatedAt": "2026-05-22T12:36:53.677896+00:00",
   "round": 12,
   "upcomingRound": 12,
   "ladder": [
@@ -173,6 +173,20 @@
     },
     {
       "pos": 13,
+      "nick": "Bulldogs",
+      "name": "Canterbury Bulldogs",
+      "played": 11,
+      "wins": 4,
+      "losses": 7,
+      "drawn": 0,
+      "ptsFor": 203,
+      "ptsAgainst": 296,
+      "diff": -93,
+      "pts": 10,
+      "streak": "1W"
+    },
+    {
+      "pos": 14,
       "nick": "Eels",
       "name": "Parramatta Eels",
       "played": 11,
@@ -186,32 +200,18 @@
       "streak": "1L"
     },
     {
-      "pos": 14,
+      "pos": 15,
       "nick": "Storm",
       "name": "Melbourne Storm",
-      "played": 11,
+      "played": 12,
       "wins": 4,
-      "losses": 7,
+      "losses": 8,
       "drawn": 0,
-      "ptsFor": 276,
-      "ptsAgainst": 284,
-      "diff": -8,
+      "ptsFor": 296,
+      "ptsAgainst": 314,
+      "diff": -18,
       "pts": 8,
-      "streak": "2W"
-    },
-    {
-      "pos": 15,
-      "nick": "Bulldogs",
-      "name": "Canterbury Bulldogs",
-      "played": 10,
-      "wins": 3,
-      "losses": 7,
-      "drawn": 0,
-      "ptsFor": 173,
-      "ptsAgainst": 276,
-      "diff": -103,
-      "pts": 8,
-      "streak": "5L"
+      "streak": "1L"
     },
     {
       "pos": 16,
@@ -324,15 +324,8 @@
       ]
     },
     "Canterbury Bulldogs": {
-      "last5": "L L L L L",
+      "last5": "L L L L W",
       "games": [
-        {
-          "round": 7,
-          "result": "L",
-          "opponent": "Parramatta Eels",
-          "home": false,
-          "score": "38\u201320"
-        },
         {
           "round": 8,
           "result": "L",
@@ -360,6 +353,13 @@
           "opponent": "Cronulla Sutherland Sharks",
           "home": false,
           "score": "38\u201316"
+        },
+        {
+          "round": 12,
+          "result": "W",
+          "opponent": "Melbourne Storm",
+          "home": true,
+          "score": "30\u201320"
         }
       ]
     },
@@ -510,15 +510,8 @@
       ]
     },
     "Melbourne Storm": {
-      "last5": "L L L W W",
+      "last5": "L L W W L",
       "games": [
-        {
-          "round": 7,
-          "result": "L",
-          "opponent": "Canberra Raiders",
-          "home": false,
-          "score": "26\u201322"
-        },
         {
           "round": 8,
           "result": "L",
@@ -546,6 +539,13 @@
           "opponent": "Parramatta Eels",
           "home": false,
           "score": "8\u201334"
+        },
+        {
+          "round": 12,
+          "result": "L",
+          "opponent": "Canterbury Bulldogs",
+          "home": false,
+          "score": "30\u201320"
         }
       ]
     },
