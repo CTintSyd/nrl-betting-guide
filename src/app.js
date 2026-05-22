@@ -807,9 +807,9 @@ Promise.all([loadTeamLogos(), formDataPromise]).then(([, formData]) => {
     if (el) {
       const updateBadge = () => {
         const now = Date.now();
-        // Prefer the round from live-odds.json (set from team-lists, always correct upcoming round)
-        // Fall back to formData.round + 1 for backwards compatibility
-        const currentRound = window._liveOddsRound ?? (formData.round + 1);
+        // Use upcomingRound from form-data (computed by update-form.py)
+        // which correctly handles mid-round states (some games played, some upcoming)
+        const currentRound = formData.upcomingRound ?? window._liveOddsRound ?? (formData.round + 1);
 
         if (!NRL_GAMES.length) {
           // No upcoming games loaded yet

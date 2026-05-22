@@ -190,6 +190,14 @@ def main(season=2026, max_round=27, rounds_back=6):
         latest += 1
         print(f"  ↑  Round {latest} has also started ({len(next_fixtures)} done)")
 
+    # Determine the upcoming round (for the nav badge on the website)
+    # If the current round still has unplayed games, upcoming = latest
+    # If all games in the current round are done, upcoming = latest + 1
+    all_latest_fixtures = fetch_all_round_fixtures(latest, season)
+    has_upcoming = any(f.get('matchState') != 'FullTime' for f in all_latest_fixtures)
+    upcoming_round = latest if has_upcoming else latest + 1
+    print(f"  📅  Upcoming round for badge: Round {upcoming_round} (has_upcoming={has_upcoming})")
+
     # Fetch last `rounds_back` rounds
     start = max(1, latest - rounds_back + 1)
     print(f"📥  Fetching rounds {start}–{latest}…")
@@ -233,6 +241,7 @@ def main(season=2026, max_round=27, rounds_back=6):
     form_data = {
         'generatedAt': datetime.now(timezone.utc).isoformat(),
         'round': latest,
+        'upcomingRound': upcoming_round,
         'ladder': ladder,
         'teams': {}
     }
