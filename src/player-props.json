@@ -1,13 +1,7 @@
 {
-  "updated": "2026-05-21T18:28:49.498Z",
+  "updated": "2026-05-22T18:22:08.108Z",
   "quotaRemaining": null,
   "games": {
-    "Canterbury Bulldogs vs Melbourne Storm": {
-      "homeTeam": "Canterbury Bulldogs",
-      "awayTeam": "Melbourne Storm",
-      "available": false,
-      "error": "API 422: {\"message\":\"Invalid markets: player_anytime_try_scorer, player_first_try_scorer\",\"error_code\":\"INVALID_MARKET\",\"details_url\":\"https://the-odds-api.com/liveapi/guides/v4/api-error-codes.html#invalid-market\"}\n"
-    },
     "St George Illawarra Dragons vs New Zealand Warriors": {
       "homeTeam": "St George Illawarra Dragons",
       "awayTeam": "New Zealand Warriors",
