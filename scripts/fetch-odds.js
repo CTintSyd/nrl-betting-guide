@@ -85,9 +85,20 @@ async function main() {
     delete preserved.venueOverride;
   }
 
+  // Read current round from team-lists.json (most reliable source of upcoming round)
+  let currentRound = null;
+  const teamListsPath = path.join(__dirname, '../src/team-lists.json');
+  if (fs.existsSync(teamListsPath)) {
+    try {
+      const tl = JSON.parse(fs.readFileSync(teamListsPath, 'utf8'));
+      currentRound = tl.round ?? null;
+    } catch (_) {}
+  }
+
   const out = {
     updated: new Date().toISOString(),
     quotaRemaining: Number(remaining),
+    ...(currentRound !== null ? { round: currentRound } : {}),
     ...preserved,
     games: transformed,
   };

@@ -704,6 +704,9 @@ async function loadLiveOdds() {
     // Transform API games → NRL_GAMES format using oddsEngine
     const liveGames = upcomingGames.map((g, i) => buildGameEntry(g, i + 1));
 
+    // Store round number from live-odds (authoritative upcoming round)
+    if (data.round) window._liveOddsRound = data.round;
+
     // Replace global NRL_GAMES and re-render
     NRL_GAMES.length = 0;
     liveGames.forEach(g => NRL_GAMES.push(g));
@@ -804,7 +807,9 @@ Promise.all([loadTeamLogos(), formDataPromise]).then(([, formData]) => {
     if (el) {
       const updateBadge = () => {
         const now = Date.now();
-        const currentRound = formData.round + 1; // games in NRL_GAMES are the next round
+        // Prefer the round from live-odds.json (set from team-lists, always correct upcoming round)
+        // Fall back to formData.round + 1 for backwards compatibility
+        const currentRound = window._liveOddsRound ?? (formData.round + 1);
 
         if (!NRL_GAMES.length) {
           // No upcoming games loaded yet
