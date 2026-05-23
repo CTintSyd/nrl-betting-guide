@@ -682,6 +682,10 @@ async function loadLiveOdds() {
 
     if (!data.games || !data.games.length) throw new Error('Empty games array');
 
+    // Store the earliest kickoff across ALL games (before filtering) so the badge
+    // can detect "Live" even after early games have been removed from NRL_GAMES
+    window._roundFirstKickoff = Math.min(...data.games.map(g => new Date(g.commenceTime).getTime()));
+
     // Filter out games that kicked off more than 3 hours ago (already completed)
     const cutoff = Date.now() - 3 * 60 * 60 * 1000;
     const upcomingGames = data.games.filter(g => new Date(g.commenceTime).getTime() > cutoff);
@@ -828,7 +832,9 @@ Promise.all([loadTeamLogos(), formDataPromise]).then(([, formData]) => {
           new Date(g.commenceTime).getTime() - firstTime >= WINDOW
         );
 
-        const firstKickoff  = new Date(currentRoundGames[0]?.commenceTime).getTime();
+        // Use the earliest kickoff from the full round (stored before game filtering)
+        // so "Live" shows correctly even after early games have dropped off NRL_GAMES
+        const firstKickoff  = window._roundFirstKickoff ?? new Date(currentRoundGames[0]?.commenceTime).getTime();
         const lastKickoff   = new Date(currentRoundGames[currentRoundGames.length - 1]?.commenceTime).getTime();
         const roundStarted  = now >= firstKickoff;
         // Round considered over ~2h after last kickoff
