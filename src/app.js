@@ -832,13 +832,17 @@ Promise.all([loadTeamLogos(), formDataPromise]).then(([, formData]) => {
           new Date(g.commenceTime).getTime() - firstTime >= WINDOW
         );
 
-        // Use the earliest kickoff from the full round (stored before game filtering)
-        // so "Live" shows correctly even after early games have dropped off NRL_GAMES
-        const firstKickoff  = window._roundFirstKickoff ?? new Date(currentRoundGames[0]?.commenceTime).getTime();
         const lastKickoff   = new Date(currentRoundGames[currentRoundGames.length - 1]?.commenceTime).getTime();
-        const roundStarted  = now >= firstKickoff;
         // Round considered over ~2h after last kickoff
         const roundOver     = now >= lastKickoff + 2 * 60 * 60 * 1000;
+
+        // Round is "started" if:
+        // a) The Odds API still has a game whose kickoff is in the past, OR
+        // b) form-data shows some games in this round are already complete
+        //    (upcomingRound === round means partial completion: some done, some still upcoming)
+        const partiallyComplete = formData.upcomingRound != null && formData.upcomingRound === formData.round;
+        const firstKickoff  = window._roundFirstKickoff ?? new Date(currentRoundGames[0]?.commenceTime).getTime();
+        const roundStarted  = partiallyComplete || now >= firstKickoff;
 
         let text, isLive;
         if (!roundStarted) {
