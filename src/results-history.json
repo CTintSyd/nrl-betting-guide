@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-05-21T17:39:18Z",
+  "updatedAt": "2026-05-22T18:27:18Z",
   "season": 2026,
-  "totalFavRecord": "51-38",
-  "totalLineRecord": "8-3",
-  "totalOuRecord": "6O-5U",
+  "totalFavRecord": "52-38",
+  "totalLineRecord": "9-3",
+  "totalOuRecord": "7O-5U",
   "rounds": [
     {
       "round": 1,
@@ -1430,11 +1430,26 @@
           "ouTotal": 49.5,
           "ouResult": "Over",
           "oddsSourced": true
+        },
+        {
+          "homeTeam": "Canterbury Bulldogs",
+          "awayTeam": "Melbourne Storm",
+          "homeScore": 30,
+          "awayScore": 20,
+          "winner": "Canterbury Bulldogs",
+          "margin": 10,
+          "favourite": "Canterbury Bulldogs",
+          "favouriteWon": true,
+          "linePoint": -2.5,
+          "lineCovered": true,
+          "ouTotal": 49.5,
+          "ouResult": "Over",
+          "oddsSourced": true
         }
       ],
-      "favRecord": "1-0",
-      "lineRecord": "1-0",
-      "ouRecord": "1O-0U"
+      "favRecord": "2-0",
+      "lineRecord": "2-0",
+      "ouRecord": "2O-0U"
     }
   ]
 }
