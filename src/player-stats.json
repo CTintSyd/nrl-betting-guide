@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-23T10:14:25.242466+00:00",
+  "generatedAt": "2026-05-23T14:49:49.833934+00:00",
   "round": 12,
   "players": {
     "Kalyn Ponga": {
@@ -1467,8 +1467,8 @@
     },
     "Keano Kini": {
       "tries": 1,
-      "games": 10,
-      "tryRate": 0.1,
+      "games": 11,
+      "tryRate": 0.0909,
       "team": "Gold Coast Titans",
       "position": "Fullback"
     },
@@ -1494,29 +1494,29 @@
       "position": "Reserve"
     },
     "Phillip Sami": {
-      "tries": 4,
-      "games": 10,
-      "tryRate": 0.4,
+      "tries": 5,
+      "games": 11,
+      "tryRate": 0.4545,
       "team": "Gold Coast Titans",
       "position": "Winger"
     },
     "AJ Brimson": {
-      "tries": 1,
-      "games": 9,
-      "tryRate": 0.1111,
+      "tries": 2,
+      "games": 10,
+      "tryRate": 0.2,
       "team": "Gold Coast Titans",
       "position": "Centre"
     },
     "Lachlan Ilias": {
       "tries": 0,
-      "games": 8,
+      "games": 9,
       "tryRate": 0.0,
       "team": "Gold Coast Titans",
-      "position": "Five-Eighth"
+      "position": "Reserve"
     },
     "Moeaki Fotuaika": {
       "tries": 0,
-      "games": 10,
+      "games": 11,
       "tryRate": 0.0,
       "team": "Gold Coast Titans",
       "position": "Prop"
@@ -1537,29 +1537,29 @@
     },
     "Arama Hau": {
       "tries": 4,
-      "games": 10,
-      "tryRate": 0.4,
+      "games": 11,
+      "tryRate": 0.3636,
       "team": "Gold Coast Titans",
-      "position": "Interchange"
+      "position": "2nd Row"
     },
     "Beau Fermor": {
       "tries": 0,
-      "games": 10,
+      "games": 11,
       "tryRate": 0.0,
       "team": "Gold Coast Titans",
       "position": "2nd Row"
     },
     "Chris Randall": {
       "tries": 1,
-      "games": 9,
-      "tryRate": 0.1111,
+      "games": 10,
+      "tryRate": 0.1,
       "team": "Gold Coast Titans",
-      "position": "2nd Row"
+      "position": "Interchange"
     },
     "Kurtis Morrin": {
       "tries": 3,
-      "games": 10,
-      "tryRate": 0.3,
+      "games": 11,
+      "tryRate": 0.2727,
       "team": "Gold Coast Titans",
       "position": "Interchange"
     },
@@ -1572,28 +1572,28 @@
     },
     "Klese Haas": {
       "tries": 0,
-      "games": 9,
+      "games": 10,
       "tryRate": 0.0,
       "team": "Gold Coast Titans",
-      "position": "Interchange"
+      "position": "Prop"
     },
     "Cooper Bai": {
       "tries": 2,
-      "games": 10,
-      "tryRate": 0.2,
+      "games": 11,
+      "tryRate": 0.1818,
       "team": "Gold Coast Titans",
       "position": "Lock"
     },
     "Luke Sommerton": {
       "tries": 0,
-      "games": 3,
+      "games": 4,
       "tryRate": 0.0,
       "team": "Gold Coast Titans",
       "position": "Interchange"
     },
     "Zane Harrison": {
       "tries": 0,
-      "games": 5,
+      "games": 6,
       "tryRate": 0.0,
       "team": "Gold Coast Titans",
       "position": "Halfback"
@@ -1607,8 +1607,8 @@
     },
     "Jason Saab": {
       "tries": 4,
-      "games": 9,
-      "tryRate": 0.4444,
+      "games": 10,
+      "tryRate": 0.4,
       "team": "Manly Warringah Sea Eagles",
       "position": "Winger"
     },
@@ -1621,8 +1621,8 @@
     },
     "Reuben Garrick": {
       "tries": 5,
-      "games": 10,
-      "tryRate": 0.5,
+      "games": 11,
+      "tryRate": 0.4545,
       "team": "Manly Warringah Sea Eagles",
       "position": "Centre"
     },
@@ -1635,28 +1635,28 @@
     },
     "Luke Brooks": {
       "tries": 2,
-      "games": 10,
-      "tryRate": 0.2,
+      "games": 11,
+      "tryRate": 0.1818,
       "team": "Manly Warringah Sea Eagles",
       "position": "Five-Eighth"
     },
     "Jamal Fogarty": {
       "tries": 3,
-      "games": 8,
-      "tryRate": 0.375,
+      "games": 9,
+      "tryRate": 0.3333,
       "team": "Manly Warringah Sea Eagles",
       "position": "Halfback"
     },
     "Taniela Paseka": {
       "tries": 2,
-      "games": 10,
-      "tryRate": 0.2,
+      "games": 11,
+      "tryRate": 0.1818,
       "team": "Manly Warringah Sea Eagles",
       "position": "Prop"
     },
     "Jake Simpkin": {
       "tries": 0,
-      "games": 10,
+      "games": 11,
       "tryRate": 0.0,
       "team": "Manly Warringah Sea Eagles",
       "position": "Interchange"
@@ -1677,50 +1677,50 @@
     },
     "Ben Trbojevic": {
       "tries": 2,
-      "games": 10,
-      "tryRate": 0.2,
+      "games": 11,
+      "tryRate": 0.1818,
       "team": "Manly Warringah Sea Eagles",
       "position": "2nd Row"
     },
     "Jake Trbojevic": {
       "tries": 1,
-      "games": 10,
-      "tryRate": 0.1,
+      "games": 11,
+      "tryRate": 0.0909,
       "team": "Manly Warringah Sea Eagles",
       "position": "Lock"
     },
     "Joey Walsh": {
       "tries": 1,
-      "games": 4,
-      "tryRate": 0.25,
+      "games": 5,
+      "tryRate": 0.2,
       "team": "Manly Warringah Sea Eagles",
       "position": "Reserve"
     },
     "Kobe Hetherington": {
       "tries": 1,
-      "games": 9,
-      "tryRate": 0.1111,
+      "games": 10,
+      "tryRate": 0.1,
       "team": "Manly Warringah Sea Eagles",
       "position": "Interchange"
     },
     "Ethan Bullemor": {
       "tries": 1,
-      "games": 10,
-      "tryRate": 0.1,
+      "games": 11,
+      "tryRate": 0.0909,
       "team": "Manly Warringah Sea Eagles",
       "position": "Prop"
     },
     "Nathan Brown": {
       "tries": 0,
-      "games": 5,
+      "games": 6,
       "tryRate": 0.0,
       "team": "Manly Warringah Sea Eagles",
       "position": "Interchange"
     },
     "Clayton Faulalo": {
-      "tries": 3,
-      "games": 8,
-      "tryRate": 0.375,
+      "tries": 4,
+      "games": 9,
+      "tryRate": 0.4444,
       "team": "Manly Warringah Sea Eagles",
       "position": "Fullback"
     },
@@ -2370,17 +2370,17 @@
     },
     "Brandon Wakeham": {
       "tries": 1,
-      "games": 8,
-      "tryRate": 0.125,
+      "games": 9,
+      "tryRate": 0.1111,
       "team": "Manly Warringah Sea Eagles",
       "position": "Hooker"
     },
     "Josh Feledy": {
       "tries": 0,
-      "games": 4,
+      "games": 5,
       "tryRate": 0.0,
       "team": "Manly Warringah Sea Eagles",
-      "position": "Reserve"
+      "position": "Centre"
     },
     "Harrison Graham": {
       "tries": 0,
@@ -2412,7 +2412,7 @@
     },
     "Jensen Taumoepeau": {
       "tries": 0,
-      "games": 3,
+      "games": 4,
       "tryRate": 0.0,
       "team": "Gold Coast Titans",
       "position": "Winger"
@@ -2566,21 +2566,21 @@
     },
     "Jayden Campbell": {
       "tries": 4,
-      "games": 8,
-      "tryRate": 0.5,
+      "games": 9,
+      "tryRate": 0.4444,
       "team": "Gold Coast Titans",
       "position": "Five-Eighth"
     },
     "Josh Patston": {
       "tries": 0,
-      "games": 5,
+      "games": 6,
       "tryRate": 0.0,
       "team": "Gold Coast Titans",
-      "position": "Reserve"
+      "position": "Interchange"
     },
     "Simione Laiafi": {
       "tries": 0,
-      "games": 4,
+      "games": 5,
       "tryRate": 0.0,
       "team": "Manly Warringah Sea Eagles",
       "position": "Reserve"
@@ -2671,8 +2671,8 @@
     },
     "Oliver Pascoe": {
       "tries": 1,
-      "games": 7,
-      "tryRate": 0.1429,
+      "games": 8,
+      "tryRate": 0.125,
       "team": "Gold Coast Titans",
       "position": "Hooker"
     },
@@ -2881,14 +2881,14 @@
     },
     "Jaylan De Groot": {
       "tries": 0,
-      "games": 5,
+      "games": 6,
       "tryRate": 0.0,
       "team": "Gold Coast Titans",
-      "position": "Reserve"
+      "position": "Centre"
     },
     "Adam Christensen": {
       "tries": 0,
-      "games": 2,
+      "games": 3,
       "tryRate": 0.0,
       "team": "Gold Coast Titans",
       "position": "Reserve"
@@ -2909,10 +2909,10 @@
     },
     "Jackson Shereb": {
       "tries": 0,
-      "games": 4,
+      "games": 5,
       "tryRate": 0.0,
       "team": "Manly Warringah Sea Eagles",
-      "position": "Reserve"
+      "position": "2nd Row"
     },
     "Shawn Blore": {
       "tries": 0,
@@ -3118,11 +3118,11 @@
       "position": "Interchange"
     },
     "Blake Wilson": {
-      "tries": 0,
-      "games": 3,
-      "tryRate": 0.0,
+      "tries": 1,
+      "games": 4,
+      "tryRate": 0.25,
       "team": "Manly Warringah Sea Eagles",
-      "position": "Interchange"
+      "position": "Winger"
     },
     "Jeremy Marshall-King": {
       "tries": 1,
@@ -3291,6 +3291,13 @@
       "tryRate": 0.0,
       "team": "Melbourne Storm",
       "position": "Interchange"
+    },
+    "Hugo Hart": {
+      "tries": 0,
+      "games": 1,
+      "tryRate": 0.0,
+      "team": "Manly Warringah Sea Eagles",
+      "position": "Reserve"
     }
   }
 }

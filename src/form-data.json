@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-23T10:14:31.690817+00:00",
+  "generatedAt": "2026-05-23T14:50:00.115654+00:00",
   "round": 12,
   "upcomingRound": 12,
   "ladder": [
@@ -15,7 +15,7 @@
       "ptsAgainst": 146,
       "diff": 203,
       "pts": 22,
-      "streak": "5W"
+      "streak": "4W"
     },
     {
       "pos": 2,
@@ -47,6 +47,20 @@
     },
     {
       "pos": 4,
+      "nick": "Sea Eagles",
+      "name": "Manly Warringah Sea Eagles",
+      "played": 11,
+      "wins": 7,
+      "losses": 4,
+      "drawn": 0,
+      "ptsFor": 317,
+      "ptsAgainst": 208,
+      "diff": 109,
+      "pts": 16,
+      "streak": "3W"
+    },
+    {
+      "pos": 5,
       "nick": "Knights",
       "name": "Newcastle Knights",
       "played": 11,
@@ -58,20 +72,6 @@
       "diff": 28,
       "pts": 16,
       "streak": "3W"
-    },
-    {
-      "pos": 5,
-      "nick": "Sea Eagles",
-      "name": "Manly Warringah Sea Eagles",
-      "played": 10,
-      "wins": 6,
-      "losses": 4,
-      "drawn": 0,
-      "ptsFor": 305,
-      "ptsAgainst": 198,
-      "diff": 107,
-      "pts": 14,
-      "streak": "2W"
     },
     {
       "pos": 6,
@@ -217,13 +217,13 @@
       "pos": 16,
       "nick": "Titans",
       "name": "Gold Coast Titans",
-      "played": 10,
+      "played": 11,
       "wins": 2,
-      "losses": 8,
+      "losses": 9,
       "drawn": 0,
-      "ptsFor": 182,
-      "ptsAgainst": 268,
-      "diff": -86,
+      "ptsFor": 192,
+      "ptsAgainst": 280,
+      "diff": -88,
       "pts": 6,
       "streak": "4L"
     },
@@ -437,7 +437,7 @@
       ]
     },
     "Gold Coast Titans": {
-      "last5": "L L L L",
+      "last5": "L L L L L",
       "games": [
         {
           "round": 7,
@@ -466,19 +466,19 @@
           "opponent": "Newcastle Knights",
           "home": true,
           "score": "12\u201336"
+        },
+        {
+          "round": 12,
+          "result": "L",
+          "opponent": "Manly Warringah Sea Eagles",
+          "home": false,
+          "score": "12\u201310"
         }
       ]
     },
     "Manly Warringah Sea Eagles": {
-      "last5": "W W L W W",
+      "last5": "W L W W W",
       "games": [
-        {
-          "round": 7,
-          "result": "W",
-          "opponent": "North Queensland Cowboys",
-          "home": false,
-          "score": "6\u201338"
-        },
         {
           "round": 8,
           "result": "W",
@@ -506,6 +506,13 @@
           "opponent": "Wests Tigers",
           "home": false,
           "score": "18\u201346"
+        },
+        {
+          "round": 12,
+          "result": "W",
+          "opponent": "Gold Coast Titans",
+          "home": true,
+          "score": "12\u201310"
         }
       ]
     },

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-23T10:14:34.187811+00:00",
+  "generatedAt": "2026-05-23T14:50:04.704370+00:00",
   "round": 12,
   "games": [
     {
@@ -709,7 +709,7 @@
       {
         "name": "Tom Trbojevic",
         "injury": "Hamstring",
-        "expectedReturn": "Round 13",
+        "expectedReturn": "Round 15",
         "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500002/Tom%20Trbojevic_260128_SeaEgales_MK1441.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/sea-eagles/tom-trbojevic/"
       },
@@ -733,6 +733,13 @@
         "expectedReturn": "TBC",
         "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500002/Siua%20Taukeiaho%20_260128_SeaEgales_MK1382.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/sea-eagles/siosiua-taukeiaho/"
+      },
+      {
+        "name": "Ben Trbojevic",
+        "injury": "Head knock",
+        "expectedReturn": "TBC",
+        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500002/Ben%20Trbojevic%20_260128_SeaEgales_MK1909.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/sea-eagles/ben-trbojevic/"
       }
     ],
     "Cronulla Sutherland Sharks": [
@@ -759,6 +766,13 @@
       }
     ],
     "Melbourne Storm": [
+      {
+        "name": "Shawn Blore",
+        "injury": "Head knock",
+        "expectedReturn": "Round 14",
+        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500021/Blore%2CS_260204_AR_26.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/storm/shawn-blore/"
+      },
       {
         "name": "Xavier Coates",
         "injury": "Achilles",
@@ -816,6 +830,13 @@
         "expectedReturn": "TBC",
         "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500004/GRAY%2C%20Brock-%20Bodyshot.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/titans/brock-gray/"
+      },
+      {
+        "name": "Oliver Pascoe",
+        "injury": "Head knock",
+        "expectedReturn": "TBC",
+        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500004/PASCOE%2C%20Oliver-%20Bodyshot.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/titans/oliver-pascoe/"
       },
       {
         "name": "Chris Randall",

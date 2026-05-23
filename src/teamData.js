@@ -66,12 +66,12 @@ const NRL_TEAM_DATA = {
   'Gold Coast Titans': {
     emoji: '🌊', shortName: 'Titans', venue: 'Cbus Super Stadium', wikiPage: 'Gold_Coast_Titans', logoFile: 'gold-coast-titans.svg',
     players: [
-      { name: "Phillip Sami",                      pos: "wing",           tryRate: 0.4 },
-      { name: "Keano Kini",                        pos: "fullback",       tryRate: 0.1 },
-      { name: "Jayden Campbell",                   pos: "five-eighth",    tryRate: 0.5 },
+      { name: "Phillip Sami",                      pos: "wing",           tryRate: 0.4545 },
+      { name: "Keano Kini",                        pos: "fullback",       tryRate: 0.0909 },
+      { name: "Jayden Campbell",                   pos: "five-eighth",    tryRate: 0.4444 },
       { name: "Jojo Fifita",                       pos: "centre",         tryRate: 0.5 },
+      { name: "Arama Hau",                         pos: "lock",           tryRate: 0.3636 },
       { name: "Sialetili Faeamani",                pos: "wing",           tryRate: 0.5 },
-      { name: "Cooper Bai",                        pos: "lock",           tryRate: 0.2 },
     ],
   },
 
@@ -80,10 +80,10 @@ const NRL_TEAM_DATA = {
     players: [
       { name: "Lehi Hopoate",                      pos: "wing",           tryRate: 0.9 },
       { name: "Tom Trbojevic",                     pos: "fullback",       tryRate: 1.0 },
-      { name: "Jamal Fogarty",                     pos: "halfback",       tryRate: 0.375 },
+      { name: "Jamal Fogarty",                     pos: "halfback",       tryRate: 0.3333 },
+      { name: "Reuben Garrick",                    pos: "centre",         tryRate: 0.4545 },
       { name: "Tolutau Koula",                     pos: "centre",         tryRate: 0.5 },
-      { name: "Reuben Garrick",                    pos: "centre",         tryRate: 0.5 },
-      { name: "Haumole Olakau'atu",                pos: "lock",           tryRate: 0.4 },
+      { name: "Jason Saab",                        pos: "wing",           tryRate: 0.4 },
     ],
   },
 
