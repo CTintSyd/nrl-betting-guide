@@ -1510,69 +1510,6 @@
             </div>
           </div>
 
-          <!-- TRY SCORER PICKS -->
-          ${(() => {
-            const propsKey = `${game.homeTeam.name} vs ${game.awayTeam.name}`;
-            const realProps = playerProps?.games?.[propsKey];
-            const hasRealOdds = realProps?.available && realProps?.players?.length;
-
-            // Helper: look up real odds for a player by name
-            const realOdds = name => {
-              if (!hasRealOdds) return null;
-              // Fuzzy match: check if any real player name contains our name or vice versa
-              const norm = n => n.toLowerCase().replace(/[^a-z]/g,'');
-              return realProps.players.find(rp =>
-                norm(rp.name).includes(norm(name)) || norm(name).includes(norm(rp.name))
-              ) || null;
-            };
-
-            const renderPlayer = p => {
-              const real = realOdds(p.name);
-              const fts = real?.first ?? ftsOdd(p);
-              const any = real?.anytime ?? anytimeOdd(p);
-              const ftsClass = real?.first ? 'odd-real' : 'odd-derived';
-              const anyClass = real?.anytime ? 'odd-real' : 'odd-derived';
-              return `
-              <div class="player-pick-item">
-                <div>
-                  <div class="player-pick-name">${p.name}</div>
-                  <div class="player-pick-pos">${p.pos}</div>
-                </div>
-                <div class="player-odds">
-                  <div class="fts ${ftsClass}">FTS ${toOddsStr(fts)}</div>
-                  <div class="anytime ${anyClass}">Any ${toOddsStr(any)}</div>
-                </div>
-              </div>`;
-            };
-
-            return `
-          <div class="card">
-            <div class="card-label">Try Scorer Picks</div>
-            ${hasRealOdds ? `<div style="font-size:0.7rem;color:var(--green);margin-bottom:10px;font-weight:600">✅ Real odds from ${realProps.bookmaker}</div>` : ''}
-            <div class="player-picks-grid">
-              <div class="player-pick-card">
-                <div class="player-pick-header">
-                  <div class="player-pick-team">${game.homeTeam.name.split(' ').pop()}</div>
-                  ${LOGOS[game.homeTeam.name] ? `<img src="${LOGOS[game.homeTeam.name]}" width="22" height="22" style="object-fit:contain">` : ''}
-                </div>
-                ${homePlayers.map(renderPlayer).join('')}
-              </div>
-              <div class="player-pick-card">
-                <div class="player-pick-header">
-                  <div class="player-pick-team">${game.awayTeam.name.split(' ').pop()}</div>
-                  ${LOGOS[game.awayTeam.name] ? `<img src="${LOGOS[game.awayTeam.name]}" width="22" height="22" style="object-fit:contain">` : ''}
-                </div>
-                ${awayPlayers.map(renderPlayer).join('')}
-              </div>
-            </div>
-            <div style="margin-top:12px;font-size:0.7rem;color:var(--text-2);display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px">
-              <span>${hasRealOdds
-                ? `📡 Real odds from The Odds API (${realProps.bookmaker}) &nbsp;·&nbsp; <span class="odd-real">●</span> Real &nbsp; <span class="odd-derived">●</span> Estimated`
-                : `📊 Odds estimated from 2026 season try-scoring rates &nbsp;·&nbsp; <span class="odd-derived">●</span> Estimated`}</span>
-              <a href="https://www.sportsbet.com.au/betting/rugby-league-nrl" target="_blank" rel="noopener" style="font-size:0.72rem;font-weight:700;color:var(--green);white-space:nowrap">Check Sportsbet ↗</a>
-            </div>
-          </div>`;
-          })()}
 
         </div><!-- /left -->
 
