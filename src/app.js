@@ -586,8 +586,7 @@ function renderGames(filter) {
       ? getEstRows(filter, est).map(([label, items]) => oddRow(label, items, true)).join('')
       : '';
 
-    // In 'all' mode, also show a sample of the top tryscorers
-    const allExtra = filter === 'all' ? getEstRows('tryscorer', est).slice(0,1).map(([label, items]) => oddRow(label, items.slice(0,4), true)).join('') : '';
+    const allExtra = '';
 
     const card = `
     <div class="game-card">
