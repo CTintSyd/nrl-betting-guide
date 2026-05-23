@@ -1606,24 +1606,16 @@
               ${[
                 { pick: `${a.favourite} — Head to Head`,
                   odd: a.favourite === game.homeTeam.name ? game.h2h.home : game.h2h.away,
-                  type: '🟢 Beginner', cls: '', estimated: false,
+                  type: '🟢 Beginner', cls: '',
                   rationale: `Odds imply ${a.favourite === game.homeTeam.name ? homeWinPct : awayWinPct}% win chance. ${a.confidenceLevel} confidence based on current markets.` },
                 { pick: `${a.favourite} Line ${a.favourite === game.homeTeam.name ? game.line.home.label : game.line.away.label}`,
                   odd: a.favourite === game.homeTeam.name ? game.line.home.odd : game.line.away.odd,
-                  type: '🟢 Beginner', cls: '', estimated: false,
+                  type: '🟢 Beginner', cls: '',
                   rationale: 'Handicap reduces risk — favourite still wins even giving points away.' },
-                { pick: `${allPlayers[0]?.name} — Anytime Try Scorer`,
-                  odd: anytimeOdd(allPlayers[0]),
-                  type: '🟡 Intermediate', cls: 'medium', estimated: true,
-                  rationale: `${allPlayers[0]?.name} (${allPlayers[0]?.pos}) is the highest-rated try threat in this match based on season stats.` },
                 { pick: `Over ${game.ou.over.label} Total Points`,
                   odd: game.ou.over.odd,
-                  type: '🟡 Intermediate', cls: 'medium', estimated: false,
+                  type: '🟡 Intermediate', cls: 'medium',
                   rationale: `Both teams averaging over this line across recent form. ${a.weatherForecast.includes('Clear') || a.weatherForecast.includes('Fine') ? 'Clear conditions favour attacking play.' : 'Monitor conditions closer to kick-off.'}` },
-                { pick: `${allPlayers[0]?.name} — First Try Scorer`,
-                  odd: ftsOdd(allPlayers[0]),
-                  type: '🔴 Expert', cls: 'high', estimated: true,
-                  rationale: `High risk, high reward. Only for those comfortable with ~42% of anytime scorers getting first. Position: ${allPlayers[0]?.pos}.` },
               ].map(b => `
                 <div class="best-bet-item ${b.cls}">
                   <div style="display:flex;align-items:center;justify-content:space-between">
@@ -1633,7 +1625,7 @@
                   <div class="best-bet-pick">${b.pick}</div>
                   <div style="display:flex;align-items:center;gap:8px">
                     <div class="best-bet-odd">${toOddsStr(b.odd)}</div>
-                    ${b.estimated ? '<span class="odds-estimated-tag">Estimated</span>' : '<span class="odds-live-tag">Live odds</span>'}
+                    <span class="odds-live-tag">Live odds</span>
                   </div>
                   <div class="best-bet-rationale">${b.rationale}</div>
                 </div>`).join('')}
@@ -1643,7 +1635,7 @@
           <!-- RESPONSIBLE GAMBLING -->
           <div style="background:rgba(255,165,0,0.07);border:1px solid rgba(255,165,0,0.2);border-radius:var(--radius-sm);padding:14px 16px;font-size:0.78rem;color:var(--text-2);line-height:1.5">
             ⚠️ <strong style="color:#ffa500">Gamble Responsibly</strong><br>
-            Odds shown are educational simulations. Always set a budget and bet only what you can afford to lose. Help: <a href="https://www.gamblinghelponline.org.au" target="_blank">gamblinghelponline.org.au</a> or call 1800 858 858. 18+
+            Odds shown are live market prices for educational purposes. Always set a budget and bet only what you can afford to lose. Help: <a href="https://www.gamblinghelponline.org.au" target="_blank">gamblinghelponline.org.au</a> or call 1800 858 858. 18+
           </div>
 
         </div><!-- /right -->
