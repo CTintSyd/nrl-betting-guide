@@ -125,14 +125,116 @@
     /* ── Footer ── */
     .footer { border-top: 1px solid var(--border); padding: 24px 0; text-align: center; color: var(--text-2); font-size: 0.78rem; }
 
+    /* ── Season sections (new) ── */
+    .season-section { }
+    .season-section-title { font-family: var(--font-heading); font-size: 1.3rem; font-weight: 800; color: #fff; margin-bottom: 16px; display: flex; align-items: center; gap: 8px; }
+
+    /* ── New ladder (with logos) ── */
+    .new-ladder-table { width: 100%; border-collapse: collapse; }
+    .new-ladder-table th { font-size: 0.68rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.6px; color: var(--text-2); padding: 6px 10px; border-bottom: 1px solid var(--border); text-align: right; }
+    .new-ladder-table th:nth-child(1), .new-ladder-table th:nth-child(2) { text-align: left; }
+    .new-ladder-table td { padding: 7px 10px; border-bottom: 1px solid rgba(255,255,255,0.04); font-size: 0.82rem; text-align: right; vertical-align: middle; }
+    .new-ladder-table td:nth-child(1), .new-ladder-table td:nth-child(2) { text-align: left; }
+    .new-ladder-table tr:last-child td { border-bottom: none; }
+    .new-ladder-table tr.top4 td:first-child { border-left: 3px solid var(--green); }
+    .new-ladder-table tr.top8 td:first-child { border-left: 3px solid #f0a500; }
+    .new-ladder-table tr.out  td:first-child { border-left: 3px solid transparent; }
+    .new-ladder-table tr.cutoff td { border-bottom: 2px dashed rgba(240,165,0,0.4); }
+    .nl-team-cell { display: flex; align-items: center; gap: 8px; }
+    .nl-logo { width: 26px; height: 26px; object-fit: contain; flex-shrink: 0; }
+    .nl-name { font-weight: 600; font-size: 0.82rem; }
+    .nl-nick { font-size: 0.68rem; color: var(--text-2); }
+
+    /* ── O/U chart ── */
+    .ou-chart { display: flex; flex-direction: column; gap: 2px; }
+    .ou-row { display: flex; align-items: center; gap: 8px; padding: 5px 0; border-bottom: 1px solid rgba(255,255,255,0.04); }
+    .ou-row:last-child { border-bottom: none; }
+    .ou-round-label { font-size: 0.75rem; font-weight: 700; color: var(--text-2); width: 36px; flex-shrink: 0; }
+    .ou-bars { flex: 1; display: flex; flex-direction: column; gap: 3px; }
+    .ou-bar-row { display: flex; align-items: center; gap: 5px; height: 16px; }
+    .ou-bar-track { flex: 1; background: rgba(255,255,255,0.06); border-radius: 4px; height: 14px; overflow: hidden; position: relative; }
+    .ou-bar-fill { height: 100%; border-radius: 4px; transition: width 0.3s; }
+    .ou-bar-fill.over  { background: var(--green); }
+    .ou-bar-fill.under { background: #f85149; }
+    .ou-bar-count { font-size: 0.72rem; font-weight: 700; width: 18px; flex-shrink: 0; }
+    .ou-bar-count.over  { color: var(--green); }
+    .ou-bar-count.under { color: #f85149; }
+    .ou-bar-label { font-size: 0.65rem; color: var(--text-2); width: 32px; flex-shrink: 0; }
+    .ou-total-row { display: flex; align-items: center; gap: 8px; padding: 10px 0 2px; border-top: 2px solid rgba(255,255,255,0.1); margin-top: 4px; }
+    .ou-total-label { font-size: 0.78rem; font-weight: 800; color: #fff; width: 36px; flex-shrink: 0; }
+    .ou-pills { display: flex; gap: 6px; align-items: center; }
+    .ou-pill-over  { background: rgba(0,166,81,.2);  color: var(--green); font-size: 0.75rem; font-weight: 800; padding: 3px 10px; border-radius: 100px; }
+    .ou-pill-under { background: rgba(248,81,73,.2);  color: #f85149; font-size: 0.75rem; font-weight: 800; padding: 3px 10px; border-radius: 100px; }
+
+    /* ── Upsets table ── */
+    .upsets-table { width: 100%; border-collapse: collapse; }
+    .upsets-table th { font-size: 0.68rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.6px; color: var(--text-2); padding: 6px 10px; border-bottom: 1px solid var(--border); text-align: left; }
+    .upsets-table th:last-child { text-align: right; }
+    .upsets-table td { padding: 8px 10px; border-bottom: 1px solid rgba(255,255,255,0.04); font-size: 0.82rem; vertical-align: middle; }
+    .upsets-table tr:last-child td { border-bottom: none; }
+    .upsets-rank { font-weight: 800; color: var(--text-2); width: 24px; }
+    .upsets-score { font-family: var(--font-heading); font-size: 1rem; font-weight: 700; white-space: nowrap; }
+    .upsets-winner { color: var(--green); font-weight: 600; }
+    .upsets-margin { font-weight: 800; color: #f85149; text-align: right; }
+    .upsets-fav { font-size: 0.72rem; color: var(--text-2); }
+
+    /* ── Team form grid ── */
+    .form-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; }
+    .form-cell { background: var(--dark-3); border: 1px solid var(--border); border-radius: var(--radius-sm); padding: 10px 12px; }
+    .form-team-name { font-size: 0.78rem; font-weight: 700; color: var(--text); margin-bottom: 7px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .form-pills { display: flex; gap: 4px; flex-wrap: wrap; }
+    .form-pill { font-size: 0.68rem; font-weight: 800; padding: 2px 7px; border-radius: 100px; line-height: 1.4; }
+    .form-pill-w { background: rgba(0,166,81,.2);  color: var(--green); }
+    .form-pill-l { background: rgba(248,81,73,.2);  color: #f85149; }
+    .form-pill-d { background: rgba(255,255,255,.1); color: var(--text-2); }
+
+    /* ── Fav reliability ── */
+    .rel-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+    .rel-list { display: flex; flex-direction: column; gap: 0; }
+    .rel-row { display: flex; align-items: center; gap: 8px; padding: 8px 0; border-bottom: 1px solid rgba(255,255,255,0.05); }
+    .rel-row:last-child { border-bottom: none; }
+    .rel-rank { font-size: 0.72rem; font-weight: 800; color: var(--text-2); width: 20px; flex-shrink: 0; }
+    .rel-name { flex: 1; font-size: 0.82rem; font-weight: 600; }
+    .rel-record { font-size: 0.78rem; color: var(--text-2); width: 44px; flex-shrink: 0; }
+    .rel-bar-wrap { width: 60px; background: rgba(255,255,255,0.06); border-radius: 100px; height: 6px; overflow: hidden; flex-shrink: 0; }
+    .rel-bar { height: 100%; border-radius: 100px; }
+    .rel-bar.good { background: var(--green); }
+    .rel-bar.bad  { background: #f85149; }
+    .rel-pct { font-size: 0.72rem; font-weight: 700; width: 34px; text-align: right; flex-shrink: 0; }
+    .rel-pct.good { color: var(--green); }
+    .rel-pct.bad  { color: #f85149; }
+    .rel-section-label { font-size: 0.7rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.8px; color: var(--text-2); margin-bottom: 10px; }
+
+    /* ── Scoring records ── */
+    .records-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; }
+    .record-card { background: var(--dark-3); border: 1px solid var(--border); border-radius: var(--radius-sm); padding: 14px; }
+    .record-card-label { font-size: 0.65rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: var(--text-2); margin-bottom: 6px; }
+    .record-card-val { font-family: var(--font-heading); font-size: 1.7rem; font-weight: 800; color: #fff; line-height: 1.1; }
+    .record-card-val.green { color: var(--green); }
+    .record-card-val.amber { color: #f0a500; }
+    .record-card-val.red   { color: #f85149; }
+    .record-card-detail { font-size: 0.7rem; color: var(--text-2); margin-top: 5px; line-height: 1.4; }
+
+    /* ── Best value wins ── */
+    .value-table { width: 100%; border-collapse: collapse; }
+    .value-table th { font-size: 0.68rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.6px; color: var(--text-2); padding: 6px 10px; border-bottom: 1px solid var(--border); text-align: left; }
+    .value-table td { padding: 8px 10px; border-bottom: 1px solid rgba(255,255,255,0.04); font-size: 0.82rem; }
+    .value-table tr:last-child td { border-bottom: none; }
+    .value-badge { display: inline-block; font-size: 0.7rem; font-weight: 800; padding: 2px 8px; border-radius: 100px; background: rgba(240,165,0,.15); color: #f0a500; }
+
     /* ── Responsive ── */
     @media (max-width: 700px) {
       .stat-grid { grid-template-columns: 1fr 1fr; }
       .trend-grid { grid-template-columns: 1fr; }
       .hero-title { font-size: 1.8rem; }
+      .form-grid { grid-template-columns: repeat(2, 1fr); }
+      .records-grid { grid-template-columns: 1fr 1fr; }
+      .rel-grid { grid-template-columns: 1fr; }
     }
     @media (max-width: 480px) {
       .stat-grid { grid-template-columns: 1fr 1fr; }
+      .form-grid { grid-template-columns: repeat(2, 1fr); }
+      .records-grid { grid-template-columns: 1fr 1fr; }
     }
   </style>
 </head>
@@ -160,6 +262,7 @@
     </div>
   </footer>
 
+  <script src="src/teamData.js?v=23"></script>
   <script>
   (async function() {
 
@@ -385,6 +488,310 @@
         <div style="margin-top:10px;font-size:0.7rem;color:var(--text-2)">Per game average · after Round ${round}</div>`;
     }
 
+    // ── Helper: get all games flat ───────────────────────────────────────────
+    const allGames = rounds.flatMap(r => (r.games || []).map(g => ({ ...g, roundNum: r.round })));
+
+    // ── 1. Current Ladder (with logos) ───────────────────────────────────────
+    function newLadderHtml() {
+      if (!ladder.length) return '<p style="color:var(--text-2);font-size:0.85rem">Ladder unavailable.</p>';
+      const teamData = (typeof NRL_TEAM_DATA !== 'undefined') ? NRL_TEAM_DATA : {};
+      return `
+      <table class="new-ladder-table">
+        <thead><tr>
+          <th>#</th><th>Team</th>
+          <th>P</th><th>W</th><th>L</th>
+          <th>Diff</th><th>Pts</th><th>Streak</th>
+        </tr></thead>
+        <tbody>
+          ${ladder.map(row => {
+            const zoneClass = row.pos <= 4 ? 'top4' : row.pos <= 8 ? 'top8' : 'out';
+            const cutoff    = row.pos === 8 ? 'cutoff' : '';
+            const diffStr   = row.diff >= 0 ? `+${row.diff}` : `${row.diff}`;
+            const diffCls   = row.diff >= 0 ? 'l-diff-pos' : 'l-diff-neg';
+            const streakCls = row.streak.includes('W') ? 'l-streak-w' : 'l-streak-l';
+            const td        = teamData[row.name] || {};
+            const logoFile  = td.logoFile;
+            const logoHtml  = logoFile ? `<img class="nl-logo" src="src/logos/${logoFile}" alt="${row.nick}" onerror="this.style.display='none'">` : '';
+            return `<tr class="${zoneClass} ${cutoff}">
+              <td class="l-pos">${row.pos}</td>
+              <td>
+                <div class="nl-team-cell">
+                  ${logoHtml}
+                  <div>
+                    <div class="nl-name">${row.nick}</div>
+                    <div class="nl-nick">${row.name.replace(row.nick, '').trim()}</div>
+                  </div>
+                </div>
+              </td>
+              <td>${row.played}</td>
+              <td style="font-weight:600;color:var(--green)">${row.wins}</td>
+              <td style="color:#f85149">${row.losses}</td>
+              <td class="${diffCls}">${diffStr}</td>
+              <td class="l-pts">${row.pts}</td>
+              <td class="${streakCls}">${row.streak}</td>
+            </tr>`;
+          }).join('')}
+        </tbody>
+      </table>
+      <div style="margin-top:12px;font-size:0.7rem;color:var(--text-2);display:flex;gap:16px;flex-wrap:wrap">
+        <span><span style="display:inline-block;width:10px;height:10px;border-radius:2px;background:var(--green);margin-right:4px"></span>Top 4 — Finals hosts</span>
+        <span><span style="display:inline-block;width:10px;height:10px;border-radius:2px;background:#f0a500;margin-right:4px"></span>Top 8 — Finals</span>
+        <span>📡 NRL.com after Round ${round}</span>
+      </div>`;
+    }
+
+    // ── 2. O/U by Round (visual bars) ────────────────────────────────────────
+    function ouByRoundHtml() {
+      const ouRounds = rounds.filter(r => (r.games || []).some(g => g.ouResult));
+      if (!ouRounds.length) return '<p style="color:var(--text-2);font-size:0.85rem">No O/U data available yet.</p>';
+
+      let totalOver = 0, totalUnder = 0;
+      const maxGames = Math.max(...ouRounds.map(r => {
+        const o = r.games.filter(g => g.ouResult === 'Over').length;
+        const u = r.games.filter(g => g.ouResult === 'Under').length;
+        return o + u;
+      }));
+
+      const rowsHtml = ouRounds.map(r => {
+        const over  = r.games.filter(g => g.ouResult === 'Over').length;
+        const under = r.games.filter(g => g.ouResult === 'Under').length;
+        totalOver  += over;
+        totalUnder += under;
+        const total = over + under;
+        const overPct  = total ? Math.round((over  / maxGames) * 100) : 0;
+        const underPct = total ? Math.round((under / maxGames) * 100) : 0;
+        return `
+        <div class="ou-row">
+          <div class="ou-round-label">R${r.round}</div>
+          <div class="ou-bars">
+            <div class="ou-bar-row">
+              <div class="ou-bar-label" style="color:var(--green);font-size:0.65rem;font-weight:700">OVER</div>
+              <div class="ou-bar-track"><div class="ou-bar-fill over" style="width:${overPct}%"></div></div>
+              <div class="ou-bar-count over">${over}</div>
+            </div>
+            <div class="ou-bar-row">
+              <div class="ou-bar-label" style="color:#f85149;font-size:0.65rem;font-weight:700">UNDER</div>
+              <div class="ou-bar-track"><div class="ou-bar-fill under" style="width:${underPct}%"></div></div>
+              <div class="ou-bar-count under">${under}</div>
+            </div>
+          </div>
+        </div>`;
+      }).join('');
+
+      const grandTotal = totalOver + totalUnder;
+      const overPctSeason  = grandTotal ? Math.round(totalOver  / grandTotal * 100) : 0;
+      const underPctSeason = grandTotal ? Math.round(totalUnder / grandTotal * 100) : 0;
+
+      return `
+      <div class="ou-chart">
+        ${rowsHtml}
+        <div class="ou-total-row">
+          <div class="ou-total-label">Total</div>
+          <div class="ou-pills">
+            <span class="ou-pill-over">Over ${totalOver} (${overPctSeason}%)</span>
+            <span class="ou-pill-under">Under ${totalUnder} (${underPctSeason}%)</span>
+            <span style="font-size:0.72rem;color:var(--text-2)">${grandTotal} games with O/U data</span>
+          </div>
+        </div>
+      </div>
+      <div style="margin-top:12px;font-size:0.7rem;color:var(--text-2)">O/U data available from rounds where opening odds were sourced (Rounds 11+)</div>`;
+    }
+
+    // ── 3. Biggest Upsets ────────────────────────────────────────────────────
+    function biggestUpsetsHtml() {
+      const upsets = allGames
+        .filter(g => !g.favouriteWon)
+        .sort((a, b) => b.margin - a.margin)
+        .slice(0, 8);
+      if (!upsets.length) return '<p style="color:var(--text-2);font-size:0.85rem">No upsets recorded yet.</p>';
+      return `
+      <table class="upsets-table">
+        <thead><tr>
+          <th>#</th><th>Round</th><th>Result</th><th>Favourite</th><th style="text-align:right">Margin</th>
+        </tr></thead>
+        <tbody>
+          ${upsets.map((g, i) => {
+            const favWasHome = g.favourite === g.homeTeam;
+            const winner     = favWasHome ? g.awayTeam : g.homeTeam;
+            const winnerNick = winner.split(' ').pop();
+            const favNick    = g.favourite.split(' ').pop();
+            const scoreStr   = `${g.homeScore}–${g.awayScore}`;
+            return `<tr>
+              <td class="upsets-rank">${i + 1}</td>
+              <td><span class="round-num">R${g.roundNum}</span></td>
+              <td>
+                <div style="font-size:0.8rem">${g.homeTeam.split(' ').pop()} <strong>${g.homeScore}–${g.awayScore}</strong> ${g.awayTeam.split(' ').pop()}</div>
+                <div class="upsets-winner">↑ ${winnerNick} wins</div>
+              </td>
+              <td><span class="upsets-fav">Fav: ${favNick}${g.linePoint ? ` (${g.linePoint > 0 ? '+' : ''}${g.linePoint})` : ''}</span></td>
+              <td class="upsets-margin">−${g.margin}</td>
+            </tr>`;
+          }).join('')}
+        </tbody>
+      </table>
+      <div style="margin-top:10px;font-size:0.7rem;color:var(--text-2)">Sorted by winning margin of the upset. Negative margin = favourite lost by that many points.</div>`;
+    }
+
+    // ── 4. Team Form Table ────────────────────────────────────────────────────
+    function teamFormTableHtml() {
+      const teamsObj = formData?.teams || {};
+      const teamNames = Object.keys(teamsObj);
+      if (!teamNames.length) return '<p style="color:var(--text-2);font-size:0.85rem">Form data unavailable.</p>';
+      const cells = teamNames.map(name => {
+        const t = teamsObj[name];
+        const results = (t.last5 || '').split(' ').filter(Boolean);
+        const pills = results.map(r => {
+          const cls = r === 'W' ? 'form-pill-w' : r === 'L' ? 'form-pill-l' : 'form-pill-d';
+          return `<span class="form-pill ${cls}">${r}</span>`;
+        }).join('');
+        const nick = name.split(' ').pop();
+        return `<div class="form-cell">
+          <div class="form-team-name">${nick}</div>
+          <div class="form-pills">${pills}</div>
+        </div>`;
+      });
+      return `<div class="form-grid">${cells.join('')}</div>
+      <div style="margin-top:12px;font-size:0.7rem;color:var(--text-2)">Last 5 results (oldest → newest). W = win, L = loss.</div>`;
+    }
+
+    // ── 5. Fav Reliability ───────────────────────────────────────────────────
+    function favReliabilityHtml() {
+      const teamRec = {};
+      allGames.forEach(g => {
+        if (!g.favourite) return;
+        if (!teamRec[g.favourite]) teamRec[g.favourite] = { w: 0, l: 0 };
+        g.favouriteWon ? teamRec[g.favourite].w++ : teamRec[g.favourite].l++;
+      });
+      const qualified = Object.entries(teamRec)
+        .filter(([, r]) => r.w + r.l >= 3)
+        .map(([name, r]) => ({ name, w: r.w, l: r.l, total: r.w + r.l, pct: Math.round(r.w / (r.w + r.l) * 100) }))
+        .sort((a, b) => b.pct - a.pct || b.total - a.total);
+
+      if (!qualified.length) return '<p style="color:var(--text-2);font-size:0.85rem">Not enough data yet.</p>';
+
+      const top5    = qualified.slice(0, 5);
+      const bottom5 = qualified.slice(-5).reverse();
+
+      const renderList = (list, cls) => list.map((t, i) => {
+        const nick = t.name.split(' ').pop();
+        return `<div class="rel-row">
+          <div class="rel-rank">${i + 1}</div>
+          <div class="rel-name">${nick}</div>
+          <div class="rel-record">${t.w}–${t.l}</div>
+          <div class="rel-bar-wrap"><div class="rel-bar ${cls}" style="width:${t.pct}%"></div></div>
+          <div class="rel-pct ${cls}">${t.pct}%</div>
+        </div>`;
+      }).join('');
+
+      return `
+      <div class="rel-grid">
+        <div>
+          <div class="rel-section-label">Most reliable favourites</div>
+          <div class="rel-list">${renderList(top5, 'good')}</div>
+        </div>
+        <div>
+          <div class="rel-section-label">Least reliable favourites</div>
+          <div class="rel-list">${renderList(bottom5, 'bad')}</div>
+        </div>
+      </div>
+      <div style="margin-top:12px;font-size:0.7rem;color:var(--text-2)">Teams with min 3 games as favourite. Win % when priced as the market favourite.</div>`;
+    }
+
+    // ── 6. Season Scoring Records ────────────────────────────────────────────
+    function scoringRecordsHtml() {
+      if (!allGames.length) return '<p style="color:var(--text-2);font-size:0.85rem">No game data yet.</p>';
+
+      const withTotal = allGames.map(g => ({ ...g, total: g.homeScore + g.awayScore }));
+      const highGame  = [...withTotal].sort((a, b) => b.total - a.total)[0];
+      const lowGame   = [...withTotal].sort((a, b) => a.total - b.total)[0];
+      const bigMargin = [...allGames].sort((a, b) => b.margin - a.margin)[0];
+
+      // Most one-sided round (avg margin)
+      const roundMargins = {};
+      rounds.forEach(r => {
+        if (!r.games?.length) return;
+        roundMargins[r.round] = r.games.reduce((s, g) => s + g.margin, 0) / r.games.length;
+      });
+      const mostOnesidedRound = Object.entries(roundMargins).sort((a, b) => b[1] - a[1])[0];
+
+      const fmtGame = g => `${g.homeTeam.split(' ').pop()} ${g.homeScore}–${g.awayScore} ${g.awayTeam.split(' ').pop()} (R${g.roundNum})`;
+
+      return `
+      <div class="records-grid">
+        <div class="record-card">
+          <div class="record-card-label">Highest scoring game</div>
+          <div class="record-card-val green">${highGame.total} pts</div>
+          <div class="record-card-detail">${fmtGame(highGame)}</div>
+        </div>
+        <div class="record-card">
+          <div class="record-card-label">Lowest scoring game</div>
+          <div class="record-card-val red">${lowGame.total} pts</div>
+          <div class="record-card-detail">${fmtGame(lowGame)}</div>
+        </div>
+        <div class="record-card">
+          <div class="record-card-label">Biggest winning margin</div>
+          <div class="record-card-val amber">${bigMargin.margin} pts</div>
+          <div class="record-card-detail">${fmtGame(bigMargin)}</div>
+        </div>
+        <div class="record-card">
+          <div class="record-card-label">Most one-sided round</div>
+          <div class="record-card-val">${mostOnesidedRound ? `R${mostOnesidedRound[0]}` : '—'}</div>
+          <div class="record-card-detail">${mostOnesidedRound ? `Avg margin: ${mostOnesidedRound[1].toFixed(1)} pts` : '—'}</div>
+        </div>
+      </div>`;
+    }
+
+    // ── 7. Best Value Wins ───────────────────────────────────────────────────
+    function bestValueWinsHtml() {
+      // Heavy favourite upsets: favouriteWon=false AND linePoint <= -7.5 (big spread = short-priced fav)
+      const heavyFavUpsets = allGames
+        .filter(g => !g.favouriteWon && g.linePoint !== null && g.linePoint <= -7.5)
+        .sort((a, b) => a.linePoint - b.linePoint); // most negative = heaviest fav first
+
+      if (!heavyFavUpsets.length) {
+        // Fallback: show biggest upsets where oddsSourced=true
+        const sourcedUpsets = allGames
+          .filter(g => !g.favouriteWon && g.oddsSourced)
+          .sort((a, b) => b.margin - a.margin)
+          .slice(0, 5);
+        if (!sourcedUpsets.length) return `<p style="color:var(--text-2);font-size:0.85rem">No heavy favourite upset data yet — needs more rounds with odds sourced.</p>`;
+        return renderValueTable(sourcedUpsets, true);
+      }
+      return renderValueTable(heavyFavUpsets.slice(0, 5), false);
+    }
+
+    function renderValueTable(list, isFallback) {
+      const rows = list.map((g, i) => {
+        const winner  = g.favouriteWon ? g.favourite : (g.favourite === g.homeTeam ? g.awayTeam : g.homeTeam);
+        const winNick = winner.split(' ').pop();
+        const favNick = g.favourite.split(' ').pop();
+        const spreadLabel = g.linePoint ? `Spread: ${g.linePoint > 0 ? '+' : ''}${g.linePoint}` : 'Odds sourced';
+        return `<tr>
+          <td class="upsets-rank">${i + 1}</td>
+          <td><span class="round-num">R${g.roundNum}</span></td>
+          <td>
+            <div style="font-size:0.8rem">${g.homeTeam.split(' ').pop()} <strong>${g.homeScore}–${g.awayScore}</strong> ${g.awayTeam.split(' ').pop()}</div>
+            <div class="upsets-winner">↑ ${winNick} (underdog)</div>
+          </td>
+          <td><span class="upsets-fav">Fav: ${favNick}</span><br><span class="value-badge">${spreadLabel}</span></td>
+          <td class="upsets-margin">${g.margin} pts</td>
+        </tr>`;
+      }).join('');
+
+      return `
+      <table class="value-table">
+        <thead><tr>
+          <th>#</th><th>Round</th><th>Result</th><th>Fav / Spread</th><th style="text-align:right">Margin</th>
+        </tr></thead>
+        <tbody>${rows}</tbody>
+      </table>
+      <div style="margin-top:10px;font-size:0.7rem;color:var(--text-2)">
+        ${isFallback
+          ? 'Showing all upset results from rounds where opening odds were sourced. More data available as the season progresses.'
+          : 'Heavy favourite upsets — favourite had a line spread of −7.5 or greater (implied heavy favourite). Margin = how much the favourite lost by.'}
+      </div>`;
+    }
+
     // ── Render ───────────────────────────────────────────────────────────────
     document.getElementById('app').innerHTML = `
 
@@ -474,6 +881,71 @@
         <div class="card">
           <div class="card-label">Season try totals &amp; per-game rate — all players</div>
           ${scoringLeadersHtml()}
+        </div>
+      </div>
+
+      <!-- ══ NEW SECTIONS ══════════════════════════════════════════════════ -->
+
+      <!-- 1. CURRENT LADDER (with logos) -->
+      <div class="season-section">
+        <div class="season-section-title">🏆 Current Ladder</div>
+        <div class="card">
+          <div class="card-label">NRL premiership standings — Round ${round}</div>
+          ${newLadderHtml()}
+        </div>
+      </div>
+
+      <!-- 2. O/U BY ROUND -->
+      <div class="season-section">
+        <div class="season-section-title">📊 Over/Under Results by Round</div>
+        <div class="card">
+          <div class="card-label">Games going Over vs Under the total — rounds with odds data</div>
+          ${ouByRoundHtml()}
+        </div>
+      </div>
+
+      <!-- 3. BIGGEST UPSETS -->
+      <div class="season-section">
+        <div class="season-section-title">💥 Biggest Upsets</div>
+        <div class="card">
+          <div class="card-label">Largest margins where the favourite lost — Top 8 of ${season}</div>
+          ${biggestUpsetsHtml()}
+        </div>
+      </div>
+
+      <!-- 4. TEAM FORM TABLE -->
+      <div class="season-section">
+        <div class="season-section-title">📈 Team Form — Last 5 Results</div>
+        <div class="card">
+          <div class="card-label">All 17 teams — most recent 5 games</div>
+          ${teamFormTableHtml()}
+        </div>
+      </div>
+
+      <!-- 5. FAV RELIABILITY -->
+      <div class="season-section">
+        <div class="season-section-title">🎯 Favourite Reliability by Team</div>
+        <div class="card">
+          <div class="card-label">Win rate when priced as the favourite — min 3 games</div>
+          ${favReliabilityHtml()}
+        </div>
+      </div>
+
+      <!-- 6. SEASON SCORING RECORDS -->
+      <div class="season-section">
+        <div class="season-section-title">🔢 Season Scoring Records</div>
+        <div class="card">
+          <div class="card-label">Highest/lowest totals &amp; biggest margins of ${season}</div>
+          ${scoringRecordsHtml()}
+        </div>
+      </div>
+
+      <!-- 7. BEST VALUE WINS -->
+      <div class="season-section">
+        <div class="season-section-title">💰 Best Value Wins</div>
+        <div class="card">
+          <div class="card-label">Underdogs beating heavy favourites — biggest spread upsets</div>
+          ${bestValueWinsHtml()}
         </div>
       </div>
 
