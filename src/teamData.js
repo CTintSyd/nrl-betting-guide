@@ -114,12 +114,12 @@ const NRL_TEAM_DATA = {
   'New Zealand Warriors': {
     emoji: '⚔️', shortName: 'Warriors', venue: 'Go Media Stadium', wikiPage: 'New_Zealand_Warriors', logoFile: 'new-zealand-warriors.svg',
     players: [
-      { name: "Dallin Watene-Zelezniak",           pos: "wing",           tryRate: 1.2 },
+      { name: "Dallin Watene-Zelezniak",           pos: "wing",           tryRate: 1.2727 },
       { name: "Charnze Nicoll-Klokstad",           pos: "fullback",       tryRate: 0.6 },
-      { name: "Tanah Boyd",                        pos: "halfback",       tryRate: 0.3 },
-      { name: "Alofiana Khan-Pereira",             pos: "wing",           tryRate: 1.0 },
-      { name: "Leka Halasima",                     pos: "lock",           tryRate: 0.5 },
-      { name: "Erin Clark",                        pos: "lock",           tryRate: 0.4 },
+      { name: "Chanel Harris-Tavita",              pos: "five-eighth",    tryRate: 0.3 },
+      { name: "Alofiana Khan-Pereira",             pos: "wing",           tryRate: 1.1429 },
+      { name: "Leka Halasima",                     pos: "lock",           tryRate: 0.4545 },
+      { name: "Jackson Ford",                      pos: "prop",           tryRate: 0.3636 },
     ],
   },
 
@@ -174,12 +174,12 @@ const NRL_TEAM_DATA = {
   'St George Illawarra Dragons': {
     emoji: '🐉', shortName: 'Dragons', venue: 'Netstrata Jubilee Oval', wikiPage: 'St._George_Illawarra_Dragons', logoFile: 'st-george-illawarra.svg',
     players: [
-      { name: "Setu Tu",                           pos: "wing",           tryRate: 0.5 },
-      { name: "Clinton Gutherson",                 pos: "fullback",       tryRate: 0.1429 },
+      { name: "Setu Tu",                           pos: "wing",           tryRate: 0.5556 },
+      { name: "Clinton Gutherson",                 pos: "fullback",       tryRate: 0.125 },
       { name: "Kyle Flanagan",                     pos: "halfback",       tryRate: 0.0 },
-      { name: "Valentine Holmes",                  pos: "centre",         tryRate: 0.2 },
-      { name: "Damien Cook",                       pos: "hooker",         tryRate: 0.2 },
-      { name: "Hamish Stewart",                    pos: "lock",           tryRate: 0.2 },
+      { name: "Christian Tuipulotu",               pos: "wing",           tryRate: 0.3333 },
+      { name: "Valentine Holmes",                  pos: "centre",         tryRate: 0.1818 },
+      { name: "Moses Suli",                        pos: "centre",         tryRate: 0.2857 },
     ],
   },
 
