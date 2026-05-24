@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-05-23T14:50:14Z",
+  "updatedAt": "2026-05-24T10:21:51Z",
   "season": 2026,
-  "totalFavRecord": "54-38",
-  "totalLineRecord": "10-4",
-  "totalOuRecord": "7O-7U",
+  "totalFavRecord": "55-38",
+  "totalLineRecord": "11-4",
+  "totalOuRecord": "7O-8U",
   "rounds": [
     {
       "round": 1,
@@ -1475,11 +1475,26 @@
           "ouTotal": 53.5,
           "ouResult": "Under",
           "oddsSourced": true
+        },
+        {
+          "homeTeam": "North Queensland Cowboys",
+          "awayTeam": "South Sydney Rabbitohs",
+          "homeScore": 30,
+          "awayScore": 18,
+          "winner": "North Queensland Cowboys",
+          "margin": 12,
+          "favourite": "North Queensland Cowboys",
+          "favouriteWon": true,
+          "linePoint": -1.5,
+          "lineCovered": true,
+          "ouTotal": 53.5,
+          "ouResult": "Under",
+          "oddsSourced": true
         }
       ],
-      "favRecord": "4-0",
-      "lineRecord": "3-1",
-      "ouRecord": "2O-2U"
+      "favRecord": "5-0",
+      "lineRecord": "4-1",
+      "ouRecord": "2O-3U"
     }
   ]
 }

@@ -127,11 +127,11 @@ const NRL_TEAM_DATA = {
     emoji: '🤠', shortName: 'Cowboys', venue: 'Qld Country Bank Stadium', wikiPage: 'North_Queensland_Cowboys', logoFile: 'north-queensland-cowboys.svg',
     players: [
       { name: "Murray Taulagi",                    pos: "wing",           tryRate: 1.2857 },
-      { name: "Scott Drinkwater",                  pos: "fullback",       tryRate: 0.6364 },
-      { name: "Jake Clifford",                     pos: "halfback",       tryRate: 0.4545 },
+      { name: "Scott Drinkwater",                  pos: "fullback",       tryRate: 0.5833 },
+      { name: "Jake Clifford",                     pos: "halfback",       tryRate: 0.4167 },
       { name: "Braidon Burns",                     pos: "wing",           tryRate: 0.8 },
-      { name: "Jaxon Purdue",                      pos: "centre",         tryRate: 0.5455 },
-      { name: "Heilum Luki",                       pos: "lock",           tryRate: 0.4545 },
+      { name: "Jaxon Purdue",                      pos: "centre",         tryRate: 0.5 },
+      { name: "Heilum Luki",                       pos: "lock",           tryRate: 0.5 },
     ],
   },
 
@@ -162,12 +162,12 @@ const NRL_TEAM_DATA = {
   'South Sydney Rabbitohs': {
     emoji: '🐰', shortName: 'Rabbitohs', venue: 'Accor Stadium', wikiPage: 'South_Sydney_Rabbitohs', logoFile: 'south-sydney-rabbitohs.svg',
     players: [
-      { name: "Alex Johnston",                     pos: "wing",           tryRate: 1.5556 },
-      { name: "Jye Gray",                          pos: "fullback",       tryRate: 0.2857 },
-      { name: "Cody Walker",                       pos: "five-eighth",    tryRate: 0.4 },
+      { name: "Alex Johnston",                     pos: "wing",           tryRate: 1.5 },
+      { name: "Matthew Dufty",                     pos: "fullback",       tryRate: 0.3333 },
+      { name: "Cody Walker",                       pos: "five-eighth",    tryRate: 0.3636 },
       { name: "Latrell Mitchell",                  pos: "centre",         tryRate: 1.2222 },
       { name: "Campbell Graham",                   pos: "centre",         tryRate: 0.6667 },
-      { name: "Tallis Duncan",                     pos: "lock",           tryRate: 0.5 },
+      { name: "Euan Aitken",                       pos: "lock",           tryRate: 0.4286 },
     ],
   },
 
