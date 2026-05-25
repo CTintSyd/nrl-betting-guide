@@ -1,13 +1,7 @@
 {
-  "updated": "2026-05-24T08:02:37.517Z",
+  "updated": "2026-05-25T18:10:56.397Z",
   "quotaRemaining": null,
   "games": {
-    "North Queensland Cowboys vs South Sydney Rabbitohs": {
-      "homeTeam": "North Queensland Cowboys",
-      "awayTeam": "South Sydney Rabbitohs",
-      "available": false,
-      "error": "API 422: {\"message\":\"Invalid markets: player_anytime_try_scorer, player_first_try_scorer\",\"error_code\":\"INVALID_MARKET\",\"details_url\":\"https://the-odds-api.com/liveapi/guides/v4/api-error-codes.html#invalid-market\"}\n"
-    },
     "Cronulla Sutherland Sharks vs Manly Warringah Sea Eagles": {
       "homeTeam": "Cronulla Sutherland Sharks",
       "awayTeam": "Manly Warringah Sea Eagles",
