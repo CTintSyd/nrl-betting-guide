@@ -1,6 +1,6 @@
 {
-  "updated": "2026-05-25T14:18:16.817Z",
-  "quotaRemaining": 323,
+  "updated": "2026-05-25T20:15:47.472Z",
+  "quotaRemaining": 320,
   "round": 13,
   "venueOverride": {
     "venue": "Suncorp Stadium",
@@ -40,12 +40,6 @@
           "away": 2.22
         },
         {
-          "key": "tab",
-          "name": "TAB",
-          "home": 1.65,
-          "away": 2.2
-        },
-        {
           "key": "betright",
           "name": "BetRight",
           "home": 1.67,
@@ -55,6 +49,12 @@
           "key": "ladbrokes_au",
           "name": "Ladbrokes",
           "home": 1.68,
+          "away": 2.2
+        },
+        {
+          "key": "pointsbetau",
+          "name": "PointsBet",
+          "home": 1.65,
           "away": 2.2
         }
       ]
