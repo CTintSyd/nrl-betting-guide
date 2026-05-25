@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-24T14:52:31.494958+00:00",
+  "generatedAt": "2026-05-25T14:22:46.415908+00:00",
   "round": 13,
   "games": [
     {
@@ -238,6 +238,13 @@
       }
     ],
     "St George Illawarra Dragons": [
+      {
+        "name": "Hayden Buchanan",
+        "injury": "Shoulder",
+        "expectedReturn": "TBC",
+        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500022/Hayden%20Buchanan%20_260119_Dragons_MK317.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/dragons/hayden-buchanan/"
+      },
       {
         "name": "David Fale",
         "injury": "Hamstring",
@@ -651,6 +658,13 @@
         "expectedReturn": "Round 13",
         "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500032/Rocco%20Berry-003.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/warriors/rocco-berry/"
+      },
+      {
+        "name": "Eddie Ieremia-Toeava",
+        "injury": "Head knock",
+        "expectedReturn": "TBC",
+        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500032/Eddie%20Ieremia-Toeava_003.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/warriors/eddie-ieremia-toeava/"
       },
       {
         "name": "Charnze Nicoll-Klokstad",
