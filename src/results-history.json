@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-05-25T14:22:52Z",
+  "updatedAt": "2026-05-27T14:36:13Z",
   "season": 2026,
   "totalFavRecord": "55-38",
-  "totalLineRecord": "11-4",
-  "totalOuRecord": "7O-8U",
+  "totalLineRecord": "12-5",
+  "totalOuRecord": "8O-9U",
   "rounds": [
     {
       "round": 1,
@@ -587,13 +587,13 @@
           "awayScore": 26,
           "winner": "Brisbane Broncos",
           "margin": 14,
-          "favourite": "Gold Coast Titans",
-          "favouriteWon": false,
-          "linePoint": null,
-          "lineCovered": null,
-          "ouTotal": null,
-          "ouResult": null,
-          "oddsSourced": false
+          "favourite": "Brisbane Broncos",
+          "favouriteWon": true,
+          "linePoint": 13.5,
+          "lineCovered": true,
+          "ouTotal": 50.5,
+          "ouResult": "Under",
+          "oddsSourced": true
         },
         {
           "homeTeam": "Cronulla Sutherland Sharks",
@@ -641,9 +641,9 @@
           "oddsSourced": false
         }
       ],
-      "favRecord": "4-4",
-      "lineRecord": null,
-      "ouRecord": null
+      "favRecord": "5-3",
+      "lineRecord": "1-0",
+      "ouRecord": "0O-1U"
     },
     {
       "round": 6,
@@ -888,18 +888,18 @@
           "awayScore": 20,
           "winner": "Parramatta Eels",
           "margin": 18,
-          "favourite": "Parramatta Eels",
-          "favouriteWon": true,
-          "linePoint": null,
-          "lineCovered": null,
-          "ouTotal": null,
-          "ouResult": null,
-          "oddsSourced": false
+          "favourite": "Canterbury Bulldogs",
+          "favouriteWon": false,
+          "linePoint": 5.5,
+          "lineCovered": false,
+          "ouTotal": 51.5,
+          "ouResult": "Over",
+          "oddsSourced": true
         }
       ],
-      "favRecord": "5-3",
-      "lineRecord": null,
-      "ouRecord": null
+      "favRecord": "4-4",
+      "lineRecord": "0-1",
+      "ouRecord": "1O-0U"
     },
     {
       "round": 8,
