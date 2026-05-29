@@ -42,12 +42,12 @@ const NRL_TEAM_DATA = {
   'Cronulla Sutherland Sharks': {
     emoji: '🦈', shortName: 'Sharks', venue: 'PointsBet Stadium', wikiPage: 'Cronulla-Sutherland_Sharks', logoFile: 'cronulla-sharks.svg',
     players: [
-      { name: "Samuel Stonestreet",                pos: "wing",           tryRate: 0.3 },
-      { name: "William Kennedy",                   pos: "fullback",       tryRate: 0.5 },
-      { name: "Braydon Trindall",                  pos: "five-eighth",    tryRate: 0.5 },
+      { name: "Samuel Stonestreet",                pos: "wing",           tryRate: 0.2727 },
+      { name: "William Kennedy",                   pos: "fullback",       tryRate: 0.4545 },
+      { name: "Braydon Trindall",                  pos: "five-eighth",    tryRate: 0.5455 },
       { name: "KL Iro",                            pos: "centre",         tryRate: 0.9 },
-      { name: "Teig Wilton",                       pos: "lock",           tryRate: 0.625 },
-      { name: "Nicholas Hynes",                    pos: "halfback",       tryRate: 0.4 },
+      { name: "Teig Wilton",                       pos: "lock",           tryRate: 0.6667 },
+      { name: "Billy Burns",                       pos: "lock",           tryRate: 0.3636 },
     ],
   },
 
@@ -78,12 +78,12 @@ const NRL_TEAM_DATA = {
   'Manly Warringah Sea Eagles': {
     emoji: '🦅', shortName: 'Sea Eagles', venue: '4 Pines Park', wikiPage: 'Manly-Warringah_Sea_Eagles', logoFile: 'manly-sea-eagles.png',
     players: [
-      { name: "Lehi Hopoate",                      pos: "wing",           tryRate: 0.9 },
+      { name: "Lehi Hopoate",                      pos: "wing",           tryRate: 0.8182 },
       { name: "Tom Trbojevic",                     pos: "fullback",       tryRate: 1.0 },
-      { name: "Jamal Fogarty",                     pos: "halfback",       tryRate: 0.3333 },
-      { name: "Reuben Garrick",                    pos: "centre",         tryRate: 0.4545 },
+      { name: "Jamal Fogarty",                     pos: "halfback",       tryRate: 0.4 },
+      { name: "Reuben Garrick",                    pos: "centre",         tryRate: 0.4167 },
+      { name: "Jason Saab",                        pos: "wing",           tryRate: 0.4545 },
       { name: "Tolutau Koula",                     pos: "centre",         tryRate: 0.5 },
-      { name: "Jason Saab",                        pos: "wing",           tryRate: 0.4 },
     ],
   },
 
