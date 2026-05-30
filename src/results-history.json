@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-05-29T14:21:20Z",
+  "updatedAt": "2026-05-30T10:30:52Z",
   "season": 2026,
-  "totalFavRecord": "56-38",
-  "totalLineRecord": "13-5",
-  "totalOuRecord": "9O-9U",
+  "totalFavRecord": "58-38",
+  "totalLineRecord": "14-6",
+  "totalOuRecord": "9O-11U",
   "rounds": [
     {
       "round": 1,
@@ -1513,11 +1513,41 @@
           "ouTotal": 49.5,
           "ouResult": "Over",
           "oddsSourced": true
+        },
+        {
+          "homeTeam": "Newcastle Knights",
+          "awayTeam": "Parramatta Eels",
+          "homeScore": 28,
+          "awayScore": 22,
+          "winner": "Newcastle Knights",
+          "margin": 6,
+          "favourite": "Newcastle Knights",
+          "favouriteWon": true,
+          "linePoint": -9.5,
+          "lineCovered": false,
+          "ouTotal": 54.5,
+          "ouResult": "Under",
+          "oddsSourced": true
+        },
+        {
+          "homeTeam": "Wests Tigers",
+          "awayTeam": "Canterbury Bulldogs",
+          "homeScore": 22,
+          "awayScore": 16,
+          "winner": "Wests Tigers",
+          "margin": 6,
+          "favourite": "Wests Tigers",
+          "favouriteWon": true,
+          "linePoint": -1.5,
+          "lineCovered": true,
+          "ouTotal": 49.5,
+          "ouResult": "Under",
+          "oddsSourced": true
         }
       ],
-      "favRecord": "1-0",
-      "lineRecord": "1-0",
-      "ouRecord": "1O-0U"
+      "favRecord": "3-0",
+      "lineRecord": "2-1",
+      "ouRecord": "1O-2U"
     }
   ]
 }

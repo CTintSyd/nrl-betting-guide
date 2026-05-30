@@ -30,12 +30,12 @@ const NRL_TEAM_DATA = {
   'Canterbury Bulldogs': {
     emoji: '🐕', shortName: 'Bulldogs', venue: 'Accor Stadium', wikiPage: 'Canterbury-Bankstown_Bulldogs', logoFile: 'canterbury-bulldogs.png',
     players: [
-      { name: "Jethro Rinakama",                   pos: "wing",           tryRate: 0.4 },
-      { name: "Jacob Kiraz",                       pos: "fullback",       tryRate: 0.7143 },
-      { name: "Lachlan Galvin",                    pos: "halfback",       tryRate: 0.3636 },
+      { name: "Enari Tuala",                       pos: "wing",           tryRate: 0.2 },
+      { name: "Jacob Kiraz",                       pos: "fullback",       tryRate: 0.75 },
+      { name: "Lachlan Galvin",                    pos: "halfback",       tryRate: 0.4167 },
       { name: "Jacob Preston",                     pos: "lock",           tryRate: 0.3636 },
-      { name: "Sitili Tupouniua",                  pos: "lock",           tryRate: 0.2727 },
-      { name: "Matt Burton",                       pos: "five-eighth",    tryRate: 0.3 },
+      { name: "Sitili Tupouniua",                  pos: "lock",           tryRate: 0.25 },
+      { name: "Matt Burton",                       pos: "five-eighth",    tryRate: 0.2727 },
     ],
   },
 
@@ -102,12 +102,12 @@ const NRL_TEAM_DATA = {
   'Newcastle Knights': {
     emoji: '⚔️', shortName: 'Knights', venue: 'McDonald Jones Stadium', wikiPage: 'Newcastle_Knights', logoFile: 'newcastle-knights.png',
     players: [
-      { name: "Dominic Young",                     pos: "wing",           tryRate: 1.2727 },
-      { name: "Kalyn Ponga",                       pos: "fullback",       tryRate: 0.2 },
-      { name: "Dylan Brown",                       pos: "halfback",       tryRate: 0.1429 },
-      { name: "Greg Marzhew",                      pos: "wing",           tryRate: 1.4 },
-      { name: "Trey Mooney",                       pos: "prop",           tryRate: 0.5 },
-      { name: "Fletcher Sharpe",                   pos: "centre",         tryRate: 0.4444 },
+      { name: "Greg Marzhew",                      pos: "wing",           tryRate: 1.3636 },
+      { name: "Kalyn Ponga",                       pos: "fullback",       tryRate: 0.1667 },
+      { name: "Dylan Brown",                       pos: "halfback",       tryRate: 0.125 },
+      { name: "Dominic Young",                     pos: "wing",           tryRate: 1.1667 },
+      { name: "Dylan Lucas",                       pos: "lock",           tryRate: 0.6 },
+      { name: "Trey Mooney",                       pos: "prop",           tryRate: 0.4545 },
     ],
   },
 
@@ -138,12 +138,12 @@ const NRL_TEAM_DATA = {
   'Parramatta Eels': {
     emoji: '🐟', shortName: 'Eels', venue: 'CommBank Stadium', wikiPage: 'Parramatta_Eels', logoFile: 'parramatta-eels.svg',
     players: [
-      { name: "Josh Addo-Carr",                    pos: "wing",           tryRate: 0.6 },
-      { name: "Joash Papalii",                     pos: "fullback",       tryRate: 0.2727 },
-      { name: "Ronald Volkman",                    pos: "five-eighth",    tryRate: 0.5 },
-      { name: "Tallyn Da Silva",                   pos: "hooker",         tryRate: 0.3636 },
-      { name: "Sean Russell",                      pos: "centre",         tryRate: 0.4444 },
-      { name: "Will Penisini",                     pos: "centre",         tryRate: 0.6 },
+      { name: "Josh Addo-Carr",                    pos: "wing",           tryRate: 0.5455 },
+      { name: "Isaiah Iongi",                      pos: "fullback",       tryRate: 0.6 },
+      { name: "Joash Papalii",                     pos: "five-eighth",    tryRate: 0.25 },
+      { name: "Sean Russell",                      pos: "centre",         tryRate: 0.4 },
+      { name: "Brian Kelly",                       pos: "wing",           tryRate: 0.3 },
+      { name: "Ronald Volkman",                    pos: "halfback",       tryRate: 0.4286 },
     ],
   },
 
@@ -199,11 +199,11 @@ const NRL_TEAM_DATA = {
     emoji: '🐯', shortName: 'Tigers', venue: 'Campbelltown Stadium', wikiPage: 'Wests_Tigers', logoFile: 'wests-tigers.svg',
     players: [
       { name: "Luke Laulilii",                     pos: "wing",           tryRate: 0.6667 },
-      { name: "Jahream Bula",                      pos: "fullback",       tryRate: 0.7143 },
+      { name: "Jahream Bula",                      pos: "fullback",       tryRate: 0.75 },
       { name: "Adam Doueihi",                      pos: "halfback",       tryRate: 0.625 },
       { name: "Taylan May",                        pos: "centre",         tryRate: 0.8333 },
-      { name: "Sunia Turuva",                      pos: "wing",           tryRate: 0.4 },
-      { name: "Kai Pearce-Paul",                   pos: "lock",           tryRate: 0.4444 },
+      { name: "Sunia Turuva",                      pos: "centre",         tryRate: 0.3636 },
+      { name: "Kai Pearce-Paul",                   pos: "lock",           tryRate: 0.4 },
     ],
   },
 };
