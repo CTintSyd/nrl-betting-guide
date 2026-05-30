@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-30T10:30:40.348891+00:00",
+  "generatedAt": "2026-05-30T14:56:43.289318+00:00",
   "round": 13,
   "upcomingRound": 13,
   "ladder": [
@@ -35,15 +35,15 @@
       "pos": 3,
       "nick": "Roosters",
       "name": "Sydney Roosters",
-      "played": 10,
+      "played": 11,
       "wins": 7,
-      "losses": 3,
+      "losses": 4,
       "drawn": 0,
-      "ptsFor": 293,
-      "ptsAgainst": 232,
-      "diff": 61,
+      "ptsFor": 297,
+      "ptsAgainst": 250,
+      "diff": 47,
       "pts": 18,
-      "streak": "1L"
+      "streak": "2L"
     },
     {
       "pos": 4,
@@ -159,6 +159,20 @@
     },
     {
       "pos": 12,
+      "nick": "Storm",
+      "name": "Melbourne Storm",
+      "played": 13,
+      "wins": 5,
+      "losses": 8,
+      "drawn": 0,
+      "ptsFor": 314,
+      "ptsAgainst": 318,
+      "diff": -4,
+      "pts": 10,
+      "streak": "1W"
+    },
+    {
+      "pos": 13,
       "nick": "Raiders",
       "name": "Canberra Raiders",
       "played": 11,
@@ -172,7 +186,7 @@
       "streak": "2L"
     },
     {
-      "pos": 13,
+      "pos": 14,
       "nick": "Bulldogs",
       "name": "Canterbury Bulldogs",
       "played": 12,
@@ -186,7 +200,7 @@
       "streak": "1L"
     },
     {
-      "pos": 14,
+      "pos": 15,
       "nick": "Eels",
       "name": "Parramatta Eels",
       "played": 12,
@@ -198,20 +212,6 @@
       "diff": -150,
       "pts": 10,
       "streak": "2L"
-    },
-    {
-      "pos": 15,
-      "nick": "Storm",
-      "name": "Melbourne Storm",
-      "played": 12,
-      "wins": 4,
-      "losses": 8,
-      "drawn": 0,
-      "ptsFor": 296,
-      "ptsAgainst": 314,
-      "diff": -18,
-      "pts": 8,
-      "streak": "1L"
     },
     {
       "pos": 16,
@@ -503,15 +503,8 @@
       ]
     },
     "Melbourne Storm": {
-      "last5": "L L W W L",
+      "last5": "L W W L W",
       "games": [
-        {
-          "round": 8,
-          "result": "L",
-          "opponent": "South Sydney Rabbitohs",
-          "home": true,
-          "score": "6\u201348"
-        },
         {
           "round": 9,
           "result": "L",
@@ -539,6 +532,13 @@
           "opponent": "Canterbury Bulldogs",
           "home": false,
           "score": "30\u201320"
+        },
+        {
+          "round": 13,
+          "result": "W",
+          "opponent": "Sydney Roosters",
+          "home": true,
+          "score": "18\u20134"
         }
       ]
     },
@@ -802,7 +802,7 @@
       ]
     },
     "Sydney Roosters": {
-      "last5": "W W W L",
+      "last5": "W W W L L",
       "games": [
         {
           "round": 8,
@@ -831,6 +831,13 @@
           "opponent": "North Queensland Cowboys",
           "home": true,
           "score": "12\u201318"
+        },
+        {
+          "round": 13,
+          "result": "L",
+          "opponent": "Melbourne Storm",
+          "home": false,
+          "score": "18\u20134"
         }
       ]
     },

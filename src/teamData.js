@@ -90,12 +90,12 @@ const NRL_TEAM_DATA = {
   'Melbourne Storm': {
     emoji: '⛈️', shortName: 'Storm', venue: 'AAMI Park', wikiPage: 'Melbourne_Storm', logoFile: 'melbourne-storm.png',
     players: [
-      { name: "Will Warbrick",                     pos: "wing",           tryRate: 0.75 },
-      { name: "Sualauvi Faalogo",                  pos: "fullback",       tryRate: 1.0 },
-      { name: "Cameron Munster",                   pos: "five-eighth",    tryRate: 0.2727 },
-      { name: "Harry Grant",                       pos: "hooker",         tryRate: 0.4545 },
-      { name: "Moses Leo",                         pos: "wing",           tryRate: 0.7143 },
-      { name: "Jack Howarth",                      pos: "centre",         tryRate: 0.3636 },
+      { name: "Will Warbrick",                     pos: "wing",           tryRate: 0.7692 },
+      { name: "Sualauvi Faalogo",                  pos: "fullback",       tryRate: 0.9231 },
+      { name: "Cameron Munster",                   pos: "five-eighth",    tryRate: 0.25 },
+      { name: "Moses Leo",                         pos: "wing",           tryRate: 0.75 },
+      { name: "Jack Howarth",                      pos: "centre",         tryRate: 0.3333 },
+      { name: "Nick Meaney",                       pos: "centre",         tryRate: 0.1667 },
     ],
   },
 
@@ -187,11 +187,11 @@ const NRL_TEAM_DATA = {
     emoji: '🐓', shortName: 'Roosters', venue: 'Allianz Stadium', wikiPage: 'Sydney_Roosters', logoFile: 'sydney-roosters.png',
     players: [
       { name: "Daniel Tupou",                      pos: "wing",           tryRate: 0.8 },
-      { name: "James Tedesco",                     pos: "fullback",       tryRate: 0.6 },
-      { name: "Sam Walker",                        pos: "halfback",       tryRate: 0.5 },
+      { name: "James Tedesco",                     pos: "fullback",       tryRate: 0.5455 },
+      { name: "Sam Walker",                        pos: "halfback",       tryRate: 0.4545 },
       { name: "Mark Nawaqanitawase",               pos: "wing",           tryRate: 0.875 },
-      { name: "Robert Toia",                       pos: "centre",         tryRate: 0.6667 },
-      { name: "Hugo Savala",                       pos: "centre",         tryRate: 0.7143 },
+      { name: "Robert Toia",                       pos: "centre",         tryRate: 0.6 },
+      { name: "Hugo Savala",                       pos: "centre",         tryRate: 0.625 },
     ],
   },
 

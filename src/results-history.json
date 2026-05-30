@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-05-30T10:30:52Z",
+  "updatedAt": "2026-05-30T14:56:55Z",
   "season": 2026,
-  "totalFavRecord": "58-38",
-  "totalLineRecord": "14-6",
-  "totalOuRecord": "9O-11U",
+  "totalFavRecord": "59-38",
+  "totalLineRecord": "15-6",
+  "totalOuRecord": "9O-12U",
   "rounds": [
     {
       "round": 1,
@@ -1543,11 +1543,26 @@
           "ouTotal": 49.5,
           "ouResult": "Under",
           "oddsSourced": true
+        },
+        {
+          "homeTeam": "Melbourne Storm",
+          "awayTeam": "Sydney Roosters",
+          "homeScore": 18,
+          "awayScore": 4,
+          "winner": "Melbourne Storm",
+          "margin": 14,
+          "favourite": "Melbourne Storm",
+          "favouriteWon": true,
+          "linePoint": -1.5,
+          "lineCovered": true,
+          "ouTotal": 49.5,
+          "ouResult": "Under",
+          "oddsSourced": true
         }
       ],
-      "favRecord": "3-0",
-      "lineRecord": "2-1",
-      "ouRecord": "1O-2U"
+      "favRecord": "4-0",
+      "lineRecord": "3-1",
+      "ouRecord": "1O-3U"
     }
   ]
 }
