@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-05-30T14:56:55Z",
+  "updatedAt": "2026-05-31T11:07:41Z",
   "season": 2026,
-  "totalFavRecord": "59-38",
-  "totalLineRecord": "15-6",
-  "totalOuRecord": "9O-12U",
+  "totalFavRecord": "61-39",
+  "totalLineRecord": "16-8",
+  "totalOuRecord": "10O-14U",
   "rounds": [
     {
       "round": 1,
@@ -1558,11 +1558,56 @@
           "ouTotal": 49.5,
           "ouResult": "Under",
           "oddsSourced": true
+        },
+        {
+          "homeTeam": "Brisbane Broncos",
+          "awayTeam": "St George Illawarra Dragons",
+          "homeScore": 26,
+          "awayScore": 30,
+          "winner": "St George Illawarra Dragons",
+          "margin": 4,
+          "favourite": "Brisbane Broncos",
+          "favouriteWon": false,
+          "linePoint": -18.5,
+          "lineCovered": false,
+          "ouTotal": 54.5,
+          "ouResult": "Over",
+          "oddsSourced": true
+        },
+        {
+          "homeTeam": "Canberra Raiders",
+          "awayTeam": "North Queensland Cowboys",
+          "homeScore": 26,
+          "awayScore": 12,
+          "winner": "Canberra Raiders",
+          "margin": 14,
+          "favourite": "Canberra Raiders",
+          "favouriteWon": true,
+          "linePoint": -4.5,
+          "lineCovered": true,
+          "ouTotal": 53.5,
+          "ouResult": "Under",
+          "oddsSourced": true
+        },
+        {
+          "homeTeam": "Penrith Panthers",
+          "awayTeam": "New Zealand Warriors",
+          "homeScore": 20,
+          "awayScore": 18,
+          "winner": "Penrith Panthers",
+          "margin": 2,
+          "favourite": "Penrith Panthers",
+          "favouriteWon": true,
+          "linePoint": -6.5,
+          "lineCovered": false,
+          "ouTotal": 47.5,
+          "ouResult": "Under",
+          "oddsSourced": true
         }
       ],
-      "favRecord": "4-0",
-      "lineRecord": "3-1",
-      "ouRecord": "1O-3U"
+      "favRecord": "6-1",
+      "lineRecord": "4-3",
+      "ouRecord": "2O-5U"
     }
   ]
 }

@@ -6,24 +6,24 @@ const NRL_TEAM_DATA = {
   'Brisbane Broncos': {
     emoji: '🐻', shortName: 'Broncos', venue: 'Suncorp Stadium', wikiPage: 'Brisbane_Broncos', logoFile: 'brisbane-broncos.svg',
     players: [
-      { name: "Josiah Karapani",                   pos: "wing",           tryRate: 0.3 },
-      { name: "Reece Walsh",                       pos: "fullback",       tryRate: 0.625 },
-      { name: "Ezra Mam",                          pos: "five-eighth",    tryRate: 0.2727 },
-      { name: "Kotoni Staggs",                     pos: "centre",         tryRate: 0.6667 },
-      { name: "Gehamat Shibasaki",                 pos: "centre",         tryRate: 0.2727 },
-      { name: "Jordan Riki",                       pos: "lock",           tryRate: 0.2727 },
+      { name: "Josiah Karapani",                   pos: "wing",           tryRate: 0.3636 },
+      { name: "Reece Walsh",                       pos: "fullback",       tryRate: 0.5556 },
+      { name: "Ezra Mam",                          pos: "five-eighth",    tryRate: 0.25 },
+      { name: "Kotoni Staggs",                     pos: "centre",         tryRate: 0.6 },
+      { name: "Xavier Willison",                   pos: "lock",           tryRate: 0.3333 },
+      { name: "Jesse Arthars",                     pos: "wing",           tryRate: 0.5714 },
     ],
   },
 
   'Canberra Raiders': {
     emoji: '🔋', shortName: 'Raiders', venue: 'GIO Stadium', wikiPage: 'Canberra_Raiders', logoFile: 'canberra-raiders.svg',
     players: [
-      { name: "Savelio Tamale",                    pos: "wing",           tryRate: 0.6 },
-      { name: "Kaeo Weekes",                       pos: "fullback",       tryRate: 0.6364 },
-      { name: "Ethan Strange",                     pos: "five-eighth",    tryRate: 0.3333 },
+      { name: "Savelio Tamale",                    pos: "wing",           tryRate: 0.5455 },
+      { name: "Kaeo Weekes",                       pos: "fullback",       tryRate: 0.6667 },
+      { name: "Ethan Strange",                     pos: "five-eighth",    tryRate: 0.4 },
+      { name: "Sebastian Kris",                    pos: "centre",         tryRate: 0.3636 },
       { name: "Simi Sasagi",                       pos: "lock",           tryRate: 0.4444 },
-      { name: "Hudson Young",                      pos: "lock",           tryRate: 0.375 },
-      { name: "Xavier Savage",                     pos: "wing",           tryRate: 0.5 },
+      { name: "Xavier Savage",                     pos: "wing",           tryRate: 0.5714 },
     ],
   },
 
@@ -114,24 +114,24 @@ const NRL_TEAM_DATA = {
   'New Zealand Warriors': {
     emoji: '⚔️', shortName: 'Warriors', venue: 'Go Media Stadium', wikiPage: 'New_Zealand_Warriors', logoFile: 'new-zealand-warriors.svg',
     players: [
-      { name: "Dallin Watene-Zelezniak",           pos: "wing",           tryRate: 1.2727 },
+      { name: "Dallin Watene-Zelezniak",           pos: "wing",           tryRate: 1.1667 },
       { name: "Charnze Nicoll-Klokstad",           pos: "fullback",       tryRate: 0.6 },
-      { name: "Chanel Harris-Tavita",              pos: "five-eighth",    tryRate: 0.3 },
-      { name: "Alofiana Khan-Pereira",             pos: "wing",           tryRate: 1.1429 },
-      { name: "Leka Halasima",                     pos: "lock",           tryRate: 0.4545 },
-      { name: "Jackson Ford",                      pos: "prop",           tryRate: 0.3636 },
+      { name: "Chanel Harris-Tavita",              pos: "five-eighth",    tryRate: 0.2727 },
+      { name: "Alofiana Khan-Pereira",             pos: "wing",           tryRate: 1.125 },
+      { name: "Leka Halasima",                     pos: "lock",           tryRate: 0.4167 },
+      { name: "Jackson Ford",                      pos: "prop",           tryRate: 0.3333 },
     ],
   },
 
   'North Queensland Cowboys': {
     emoji: '🤠', shortName: 'Cowboys', venue: 'Qld Country Bank Stadium', wikiPage: 'North_Queensland_Cowboys', logoFile: 'north-queensland-cowboys.svg',
     players: [
-      { name: "Murray Taulagi",                    pos: "wing",           tryRate: 1.2857 },
-      { name: "Scott Drinkwater",                  pos: "fullback",       tryRate: 0.5833 },
-      { name: "Jake Clifford",                     pos: "halfback",       tryRate: 0.4167 },
+      { name: "Murray Taulagi",                    pos: "wing",           tryRate: 1.125 },
+      { name: "Scott Drinkwater",                  pos: "fullback",       tryRate: 0.5385 },
+      { name: "Jake Clifford",                     pos: "halfback",       tryRate: 0.3846 },
       { name: "Braidon Burns",                     pos: "wing",           tryRate: 0.8 },
-      { name: "Jaxon Purdue",                      pos: "centre",         tryRate: 0.5 },
-      { name: "Heilum Luki",                       pos: "lock",           tryRate: 0.5 },
+      { name: "Heilum Luki",                       pos: "lock",           tryRate: 0.5385 },
+      { name: "Jaxon Purdue",                      pos: "centre",         tryRate: 0.4615 },
     ],
   },
 
@@ -150,12 +150,12 @@ const NRL_TEAM_DATA = {
   'Penrith Panthers': {
     emoji: '🐾', shortName: 'Panthers', venue: 'BlueBet Stadium', wikiPage: 'Penrith_Panthers', logoFile: 'penrith-panthers.png',
     players: [
-      { name: "Thomas Jenkins",                    pos: "wing",           tryRate: 1.6364 },
-      { name: "Dylan Edwards",                     pos: "fullback",       tryRate: 0.8182 },
-      { name: "Blaize Talagi",                     pos: "five-eighth",    tryRate: 0.4545 },
+      { name: "Thomas Jenkins",                    pos: "wing",           tryRate: 1.5 },
+      { name: "Dylan Edwards",                     pos: "fullback",       tryRate: 0.75 },
+      { name: "Blaize Talagi",                     pos: "five-eighth",    tryRate: 0.4167 },
       { name: "Brian To'o",                        pos: "wing",           tryRate: 0.6364 },
+      { name: "Casey McLean",                      pos: "centre",         tryRate: 0.5455 },
       { name: "Nathan Cleary",                     pos: "halfback",       tryRate: 0.3636 },
-      { name: "Casey McLean",                      pos: "centre",         tryRate: 0.4 },
     ],
   },
 
@@ -174,12 +174,12 @@ const NRL_TEAM_DATA = {
   'St George Illawarra Dragons': {
     emoji: '🐉', shortName: 'Dragons', venue: 'Netstrata Jubilee Oval', wikiPage: 'St._George_Illawarra_Dragons', logoFile: 'st-george-illawarra.svg',
     players: [
-      { name: "Setu Tu",                           pos: "wing",           tryRate: 0.5556 },
-      { name: "Clinton Gutherson",                 pos: "fullback",       tryRate: 0.125 },
-      { name: "Kyle Flanagan",                     pos: "halfback",       tryRate: 0.0 },
+      { name: "Setu Tu",                           pos: "wing",           tryRate: 0.6 },
+      { name: "Clinton Gutherson",                 pos: "fullback",       tryRate: 0.1111 },
+      { name: "Daniel Atkinson",                   pos: "five-eighth",    tryRate: 0.0909 },
+      { name: "Valentine Holmes",                  pos: "centre",         tryRate: 0.3333 },
       { name: "Christian Tuipulotu",               pos: "wing",           tryRate: 0.3333 },
-      { name: "Valentine Holmes",                  pos: "centre",         tryRate: 0.1818 },
-      { name: "Moses Suli",                        pos: "centre",         tryRate: 0.2857 },
+      { name: "Moses Suli",                        pos: "centre",         tryRate: 0.25 },
     ],
   },
 
