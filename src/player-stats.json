@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-31T11:07:16.032970+00:00",
+  "generatedAt": "2026-05-31T15:54:14.281777+00:00",
   "round": 13,
   "players": {
     "Kalyn Ponga": {
@@ -126,7 +126,7 @@
       "games": 12,
       "tryRate": 0.5833,
       "team": "Newcastle Knights",
-      "position": "Reserve"
+      "position": "Interchange"
     },
     "Francis Manuleleua": {
       "tries": 0,
@@ -770,7 +770,7 @@
       "games": 7,
       "tryRate": 0.0,
       "team": "Parramatta Eels",
-      "position": "Reserve"
+      "position": "Interchange"
     },
     "Matt Doorey": {
       "tries": 0,
@@ -2142,7 +2142,7 @@
       "games": 11,
       "tryRate": 0.0,
       "team": "Parramatta Eels",
-      "position": "Interchange"
+      "position": "Reserve"
     },
     "Jordan Samrani": {
       "tries": 2,
@@ -2478,7 +2478,7 @@
       "games": 9,
       "tryRate": 0.0,
       "team": "Newcastle Knights",
-      "position": "Interchange"
+      "position": "Reserve"
     },
     "Luke Hanson": {
       "tries": 1,
@@ -2667,7 +2667,7 @@
       "games": 8,
       "tryRate": 0.125,
       "team": "Melbourne Storm",
-      "position": "Reserve"
+      "position": "Interchange"
     },
     "Oliver Pascoe": {
       "tries": 1,
@@ -3052,7 +3052,7 @@
       "games": 4,
       "tryRate": 0.0,
       "team": "Melbourne Storm",
-      "position": "Interchange"
+      "position": "Reserve"
     },
     "James Schiller": {
       "tries": 0,
