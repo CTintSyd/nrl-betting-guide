@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-31T15:54:34Z",
+  "generatedAt": "2026-06-01T20:42:22Z",
   "matches": {
     "Manly Warringah Sea Eagles vs South Sydney Rabbitohs": {
       "homeTeam": "Manly Warringah Sea Eagles",
@@ -57,6 +57,12 @@
       },
       "homeForm": [
         {
+          "result": "Lost",
+          "summary": "vs Sharks",
+          "score": "22-28",
+          "url": "https://www.nrl.com/draw/nrl-premiership/2026/round-13/sharks-v-sea-eagles/"
+        },
+        {
           "result": "Won",
           "summary": "vs Titans",
           "score": "12-10",
@@ -79,12 +85,6 @@
           "summary": "vs Panthers",
           "score": "16-18",
           "url": "https://www.nrl.com/draw/nrl-premiership/2026/round-9/panthers-v-sea-eagles/"
-        },
-        {
-          "result": "Won",
-          "summary": "vs Eels",
-          "score": "33-18",
-          "url": "https://www.nrl.com/draw/nrl-premiership/2026/round-8/sea-eagles-v-eels/"
         }
       ],
       "awayForm": [
@@ -132,7 +132,7 @@
           "completionRate": 79.0,
           "avgScored": 24.0,
           "avgConceded": 24.0,
-          "winsAtVenue": 75.0,
+          "winsAtVenue": 76.0,
           "winsOverall": 64.0
         },
         "away": {
@@ -176,6 +176,12 @@
       },
       "homeForm": [
         {
+          "result": "Won",
+          "summary": "vs Roosters",
+          "score": "18-4",
+          "url": "https://www.nrl.com/draw/nrl-premiership/2026/round-13/storm-v-roosters/"
+        },
+        {
           "result": "Lost",
           "summary": "vs Bulldogs",
           "score": "20-30",
@@ -198,15 +204,15 @@
           "summary": "vs Dolphins",
           "score": "10-28",
           "url": "https://www.nrl.com/draw/nrl-premiership/2026/round-9/dolphins-v-storm/"
-        },
-        {
-          "result": "Lost",
-          "summary": "vs Rabbitohs",
-          "score": "6-48",
-          "url": "https://www.nrl.com/draw/nrl-premiership/2026/round-8/storm-v-rabbitohs/"
         }
       ],
       "awayForm": [
+        {
+          "result": "Won",
+          "summary": "vs Eels",
+          "score": "28-22",
+          "url": "https://www.nrl.com/draw/nrl-premiership/2026/round-13/knights-v-eels/"
+        },
         {
           "result": "Won",
           "summary": "vs Titans",
@@ -230,12 +236,6 @@
           "summary": "vs Panthers",
           "score": "12-44",
           "url": "https://www.nrl.com/draw/nrl-premiership/2026/round-8/knights-v-panthers/"
-        },
-        {
-          "result": "Lost",
-          "summary": "vs Roosters",
-          "score": "24-38",
-          "url": "https://www.nrl.com/draw/nrl-premiership/2026/round-7/roosters-v-knights/"
         }
       ]
     },
@@ -247,11 +247,11 @@
       "weather": null,
       "seasonStats": {
         "home": {
-          "winPct": 36.0,
+          "winPct": 42.0,
           "completionRate": 78.0,
           "avgScored": 20.0,
-          "avgConceded": 28.0,
-          "winsAtVenue": 58.0,
+          "avgConceded": 26.0,
+          "winsAtVenue": 59.0,
           "winsOverall": 48.0
         },
         "away": {
@@ -295,6 +295,12 @@
       },
       "homeForm": [
         {
+          "result": "Won",
+          "summary": "vs Cowboys",
+          "score": "26-12",
+          "url": "https://www.nrl.com/draw/nrl-premiership/2026/round-13/raiders-v-cowboys/"
+        },
+        {
           "result": "Lost",
           "summary": "vs Dolphins",
           "score": "22-30",
@@ -317,15 +323,15 @@
           "summary": "vs Wests Tigers",
           "score": "14-33",
           "url": "https://www.nrl.com/draw/nrl-premiership/2026/round-8/wests-tigers-v-raiders/"
-        },
-        {
-          "result": "Won",
-          "summary": "vs Storm",
-          "score": "26-22",
-          "url": "https://www.nrl.com/draw/nrl-premiership/2026/round-7/raiders-v-storm/"
         }
       ],
       "awayForm": [
+        {
+          "result": "Lost",
+          "summary": "vs Storm",
+          "score": "4-18",
+          "url": "https://www.nrl.com/draw/nrl-premiership/2026/round-13/storm-v-roosters/"
+        },
         {
           "result": "Lost",
           "summary": "vs Cowboys",
@@ -349,12 +355,6 @@
           "summary": "vs Dragons",
           "score": "62-16",
           "url": "https://www.nrl.com/draw/nrl-premiership/2026/round-8/dragons-v-roosters/"
-        },
-        {
-          "result": "Won",
-          "summary": "vs Knights",
-          "score": "38-24",
-          "url": "https://www.nrl.com/draw/nrl-premiership/2026/round-7/roosters-v-knights/"
         }
       ]
     },
@@ -366,9 +366,9 @@
       "weather": null,
       "seasonStats": {
         "home": {
-          "winPct": 67.0,
+          "winPct": 62.0,
           "completionRate": 77.0,
-          "avgScored": 26.0,
+          "avgScored": 25.0,
           "avgConceded": 24.0,
           "winsAtVenue": 54.0,
           "winsOverall": 44.0
@@ -414,6 +414,12 @@
       },
       "homeForm": [
         {
+          "result": "Lost",
+          "summary": "vs Raiders",
+          "score": "12-26",
+          "url": "https://www.nrl.com/draw/nrl-premiership/2026/round-13/raiders-v-cowboys/"
+        },
+        {
           "result": "Won",
           "summary": "vs Rabbitohs",
           "score": "30-18",
@@ -436,12 +442,6 @@
           "summary": "vs Bulldogs",
           "score": "28-12",
           "url": "https://www.nrl.com/draw/nrl-premiership/2026/round-9/bulldogs-v-cowboys/"
-        },
-        {
-          "result": "Won",
-          "summary": "vs Sharks",
-          "score": "46-34",
-          "url": "https://www.nrl.com/draw/nrl-premiership/2026/round-8/cowboys-v-sharks/"
         }
       ],
       "awayForm": [
@@ -485,10 +485,10 @@
       "weather": null,
       "seasonStats": {
         "home": {
-          "winPct": 45.0,
-          "completionRate": 76.0,
-          "avgScored": 20.0,
-          "avgConceded": 25.0,
+          "winPct": 42.0,
+          "completionRate": 75.0,
+          "avgScored": 21.0,
+          "avgConceded": 26.0,
           "winsAtVenue": 58.0,
           "winsOverall": 54.0
         },
@@ -534,6 +534,12 @@
       "homeForm": [
         {
           "result": "Lost",
+          "summary": "vs Dragons",
+          "score": "26-30",
+          "url": "https://www.nrl.com/draw/nrl-premiership/2026/round-13/broncos-v-dragons/"
+        },
+        {
+          "result": "Lost",
           "summary": "vs Warriors",
           "score": "12-42",
           "url": "https://www.nrl.com/draw/nrl-premiership/2026/round-11/warriors-v-broncos/"
@@ -555,12 +561,6 @@
           "summary": "vs Bulldogs",
           "score": "32-12",
           "url": "https://www.nrl.com/draw/nrl-premiership/2026/round-8/broncos-v-bulldogs/"
-        },
-        {
-          "result": "Won",
-          "summary": "vs Wests Tigers",
-          "score": "21-20",
-          "url": "https://www.nrl.com/draw/nrl-premiership/2026/round-7/wests-tigers-v-broncos/"
         }
       ],
       "awayForm": [
@@ -608,15 +608,15 @@
           "completionRate": 79.0,
           "avgScored": 25.0,
           "avgConceded": 25.0,
-          "winsAtVenue": 38.0,
+          "winsAtVenue": 39.0,
           "winsOverall": 39.0
         },
         "away": {
-          "winPct": 91.0,
-          "completionRate": 79.0,
-          "avgScored": 31.0,
+          "winPct": 92.0,
+          "completionRate": 80.0,
+          "avgScored": 30.0,
           "avgConceded": 13.0,
-          "winsAtVenue": 56.0,
+          "winsAtVenue": 58.0,
           "winsOverall": 53.0
         }
       },
@@ -652,6 +652,12 @@
       },
       "homeForm": [
         {
+          "result": "Won",
+          "summary": "vs Bulldogs",
+          "score": "22-16",
+          "url": "https://www.nrl.com/draw/nrl-premiership/2026/round-13/wests-tigers-v-bulldogs/"
+        },
+        {
           "result": "Lost",
           "summary": "vs Sea Eagles",
           "score": "18-46",
@@ -674,15 +680,15 @@
           "summary": "vs Raiders",
           "score": "33-14",
           "url": "https://www.nrl.com/draw/nrl-premiership/2026/round-8/wests-tigers-v-raiders/"
-        },
-        {
-          "result": "Lost",
-          "summary": "vs Broncos",
-          "score": "20-21",
-          "url": "https://www.nrl.com/draw/nrl-premiership/2026/round-7/wests-tigers-v-broncos/"
         }
       ],
       "awayForm": [
+        {
+          "result": "Won",
+          "summary": "vs Warriors",
+          "score": "20-18",
+          "url": "https://www.nrl.com/draw/nrl-premiership/2026/round-13/panthers-v-warriors/"
+        },
         {
           "result": "Won",
           "summary": "vs Dragons",
@@ -706,12 +712,6 @@
           "summary": "vs Knights",
           "score": "44-12",
           "url": "https://www.nrl.com/draw/nrl-premiership/2026/round-8/knights-v-panthers/"
-        },
-        {
-          "result": "Won",
-          "summary": "vs Dolphins",
-          "score": "23-22",
-          "url": "https://www.nrl.com/draw/nrl-premiership/2026/round-7/dolphins-v-panthers/"
         }
       ]
     },
@@ -731,10 +731,10 @@
           "winsOverall": 49.0
         },
         "away": {
-          "winPct": 0.0,
-          "completionRate": 76.0,
-          "avgScored": 12.0,
-          "avgConceded": 33.0,
+          "winPct": 8.0,
+          "completionRate": 77.0,
+          "avgScored": 14.0,
+          "avgConceded": 32.0,
           "winsAtVenue": 33.0,
           "winsOverall": 46.0
         }
@@ -772,6 +772,12 @@
       "homeForm": [
         {
           "result": "Won",
+          "summary": "vs Sea Eagles",
+          "score": "28-22",
+          "url": "https://www.nrl.com/draw/nrl-premiership/2026/round-13/sharks-v-sea-eagles/"
+        },
+        {
+          "result": "Won",
           "summary": "vs Bulldogs",
           "score": "38-16",
           "url": "https://www.nrl.com/draw/nrl-premiership/2026/round-11/sharks-v-bulldogs/"
@@ -793,15 +799,15 @@
           "summary": "vs Cowboys",
           "score": "34-46",
           "url": "https://www.nrl.com/draw/nrl-premiership/2026/round-8/cowboys-v-sharks/"
-        },
-        {
-          "result": "Lost",
-          "summary": "vs Roosters",
-          "score": "22-34",
-          "url": "https://www.nrl.com/draw/nrl-premiership/2026/round-6/sharks-v-roosters/"
         }
       ],
       "awayForm": [
+        {
+          "result": "Won",
+          "summary": "vs Broncos",
+          "score": "30-26",
+          "url": "https://www.nrl.com/draw/nrl-premiership/2026/round-13/broncos-v-dragons/"
+        },
         {
           "result": "Lost",
           "summary": "vs Warriors",
@@ -825,12 +831,6 @@
           "summary": "vs Roosters",
           "score": "16-62",
           "url": "https://www.nrl.com/draw/nrl-premiership/2026/round-8/dragons-v-roosters/"
-        },
-        {
-          "result": "Lost",
-          "summary": "vs Rabbitohs",
-          "score": "12-30",
-          "url": "https://www.nrl.com/draw/nrl-premiership/2026/round-7/rabbitohs-v-dragons/"
         }
       ]
     },
@@ -859,13 +859,22 @@
         }
       },
       "overall": {
-        "played": 55,
+        "played": 56,
         "homeWins": 26,
-        "awayWins": 28,
+        "awayWins": 29,
         "draws": 1
       },
       "recent": {
         "matches": [
+          {
+            "round": "Round 7",
+            "homeTeam": "Parramatta Eels",
+            "awayTeam": "Canterbury Bulldogs",
+            "homeScore": 38,
+            "awayScore": 20,
+            "winner": "Parramatta Eels",
+            "url": "https://www.nrl.com/draw/nrl-premiership/2026/round-7/eels-v-bulldogs/"
+          },
           {
             "round": "Round 14",
             "homeTeam": "Canterbury Bulldogs",
@@ -874,82 +883,73 @@
             "awayScore": 12,
             "winner": "Canterbury Bulldogs",
             "url": "https://www.nrl.com/draw/nrl-premiership/2025/round-14/bulldogs-v-eels/"
-          },
-          {
-            "round": "Round 3",
-            "homeTeam": "Parramatta Eels",
-            "awayTeam": "Canterbury Bulldogs",
-            "homeScore": 8,
-            "awayScore": 16,
-            "winner": "Canterbury Bulldogs",
-            "url": "https://www.nrl.com/draw/nrl-premiership/2025/round-3/eels-v-bulldogs/"
           }
         ],
-        "team1Wins": 2,
-        "team2Wins": 0
+        "team1Wins": 1,
+        "team2Wins": 1
       },
       "homeForm": [
         {
           "result": "Lost",
-          "summary": "vs Panthers",
-          "score": "26-46",
-          "url": "https://www.nrl.com/draw/nrl-premiership/2025/finals-week-2/bulldogs-v-panthers2/"
+          "summary": "vs Wests Tigers",
+          "score": "16-22",
+          "url": "https://www.nrl.com/draw/nrl-premiership/2026/round-13/wests-tigers-v-bulldogs/"
         },
         {
-          "result": "Lost",
+          "result": "Won",
           "summary": "vs Storm",
-          "score": "18-26",
-          "url": "https://www.nrl.com/draw/nrl-premiership/2025/finals-week-1/storm-v-bulldogs/"
+          "score": "30-20",
+          "url": "https://www.nrl.com/draw/nrl-premiership/2026/round-12/bulldogs-v-storm/"
         },
         {
           "result": "Lost",
           "summary": "vs Sharks",
-          "score": "6-24",
-          "url": "https://www.nrl.com/draw/nrl-premiership/2025/round-27/bulldogs-v-sharks/"
-        },
-        {
-          "result": "Won",
-          "summary": "vs Panthers",
-          "score": "28-4",
-          "url": "https://www.nrl.com/draw/nrl-premiership/2025/round-26/bulldogs-v-panthers/"
+          "score": "16-38",
+          "url": "https://www.nrl.com/draw/nrl-premiership/2026/round-11/sharks-v-bulldogs/"
         },
         {
           "result": "Lost",
-          "summary": "vs Storm",
-          "score": "14-20",
-          "url": "https://www.nrl.com/draw/nrl-premiership/2025/round-25/storm-v-bulldogs/"
+          "summary": "vs Dolphins",
+          "score": "12-44",
+          "url": "https://www.nrl.com/draw/nrl-premiership/2026/round-10/dolphins-v-bulldogs/"
+        },
+        {
+          "result": "Lost",
+          "summary": "vs Cowboys",
+          "score": "12-28",
+          "url": "https://www.nrl.com/draw/nrl-premiership/2026/round-9/bulldogs-v-cowboys/"
         }
       ],
       "awayForm": [
         {
-          "result": "Won",
+          "result": "Lost",
           "summary": "vs Knights",
-          "score": "66-10",
-          "url": "https://www.nrl.com/draw/nrl-premiership/2025/round-27/eels-v-knights/"
-        },
-        {
-          "result": "Won",
-          "summary": "vs Warriors",
-          "score": "26-22",
-          "url": "https://www.nrl.com/draw/nrl-premiership/2025/round-26/warriors-v-eels/"
-        },
-        {
-          "result": "Won",
-          "summary": "vs Roosters",
-          "score": "30-10",
-          "url": "https://www.nrl.com/draw/nrl-premiership/2025/round-25/eels-v-roosters/"
+          "score": "22-28",
+          "url": "https://www.nrl.com/draw/nrl-premiership/2026/round-13/knights-v-eels/"
         },
         {
           "result": "Lost",
-          "summary": "vs Rabbitohs",
-          "score": "16-20",
-          "url": "https://www.nrl.com/draw/nrl-premiership/2025/round-24/rabbitohs-v-eels/"
+          "summary": "vs Storm",
+          "score": "8-34",
+          "url": "https://www.nrl.com/draw/nrl-premiership/2026/round-11/eels-v-storm/"
         },
         {
           "result": "Won",
           "summary": "vs Cowboys",
-          "score": "19-18",
-          "url": "https://www.nrl.com/draw/nrl-premiership/2025/round-23/eels-v-cowboys/"
+          "score": "33-30",
+          "url": "https://www.nrl.com/draw/nrl-premiership/2026/round-10/cowboys-v-eels/"
+        },
+        {
+          "result": "Lost",
+          "summary": "vs Warriors",
+          "score": "14-36",
+          "url": "https://www.nrl.com/draw/nrl-premiership/2026/round-9/eels-v-warriors/"
+        },
+        {
+          "result": "Lost",
+          "summary": "vs Sea Eagles",
+          "score": "18-33",
+          "url": "https://www.nrl.com/draw/nrl-premiership/2026/round-8/sea-eagles-v-eels/"
         }
       ]
     }
