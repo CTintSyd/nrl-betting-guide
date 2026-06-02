@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-02T18:29:47.506Z",
-  "quotaRemaining": 491,
+  "updated": "2026-06-02T22:54:15.459Z",
+  "quotaRemaining": 488,
   "round": 14,
   "venueOverride": {
     "venue": "Suncorp Stadium",
@@ -66,30 +66,30 @@
       "commenceTime": "2026-06-05T08:00:00Z",
       "bookmaker": "sportsbet",
       "h2h": {
-        "home": 1.63,
-        "away": 2.29
+        "home": 1.66,
+        "away": 2.23
       },
       "line": {
         "home": {
-          "odd": 1.99,
-          "point": -4.5
+          "odd": 1.86,
+          "point": -3.5
         },
         "away": {
-          "odd": 1.82,
-          "point": 4.5
+          "odd": 1.95,
+          "point": 3.5
         }
       },
       "ou": {
-        "total": 50.5,
-        "overOdd": 1.98,
-        "underOdd": 1.83
+        "total": 49.5,
+        "overOdd": 1.89,
+        "underOdd": 1.91
       },
       "bookmakerComparison": [
         {
           "key": "sportsbet",
           "name": "Sportsbet",
-          "home": 1.63,
-          "away": 2.29
+          "home": 1.66,
+          "away": 2.23
         },
         {
           "key": "tab",
