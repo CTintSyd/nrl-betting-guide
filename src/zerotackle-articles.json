@@ -1,49 +1,68 @@
 {
-  "updated": "2026-06-01T20:42:23Z",
+  "updated": "2026-06-02T17:57:20Z",
   "articles": [
     {
-      "title": "Manly request exemption for early Koula return",
-      "url": "https://www.zerotackle.com/manly-request-exemption-for-early-koula-return-234405/",
-      "description": "The Sea Eagles are taking it up with the NRL after he suffered a concussion in Origin 1.",
-      "date": "Mon, 01 Jun 2026 05:57:30 +0000",
+      "title": "Rapid fire Tuesday, Round 14: Big Rabbitohs returns, Broncos shock, Tigers forwards rocked",
+      "url": "https://www.zerotackle.com/rapid-fire-tuesday-round-14-big-rabbitohs-returns-broncos-shock-tigers-forwards-rocked-234443/",
+      "description": "All the changes for Round 14.",
+      "date": "Tue, 02 Jun 2026 08:17:09 +0000",
       "teams": [
-        "Manly Warringah Sea Eagles"
+        "Brisbane Broncos",
+        "South Sydney Rabbitohs"
+      ],
+      "isRound": true
+    },
+    {
+      "title": "Knights confirm injury timeline for Sandon Smith, Bradman Best",
+      "url": "https://www.zerotackle.com/knights-confirm-injury-timeline-for-sandon-smith-bradman-best-234449/",
+      "description": "The Knights win at home on the weekend came at a cost.",
+      "date": "Tue, 02 Jun 2026 07:27:44 +0000",
+      "teams": [
+        "Newcastle Knights"
       ],
       "isRound": false
     },
     {
-      "title": "Broncos confirm return timelines for Carrigan, Shibasaki",
-      "url": "https://www.zerotackle.com/broncos-confirm-return-timelines-for-carrigan-shibasaki-234397/",
-      "description": "The news is not great.",
-      "date": "Mon, 01 Jun 2026 05:01:00 +0000",
+      "title": "Eels confirm injury return date for Moses, multiple stars",
+      "url": "https://www.zerotackle.com/eels-confirm-injury-return-date-for-moses-multiple-stars-234445/",
+      "description": "The club have provided a road-map out of their injury dramas.",
+      "date": "Tue, 02 Jun 2026 06:32:38 +0000",
+      "teams": [
+        "Parramatta Eels"
+      ],
+      "isRound": false
+    },
+    {
+      "title": "NRL Team Lists Round 14 2026: Full squads, ins and outs for every club",
+      "url": "https://www.zerotackle.com/round-14-team-lists-2026-234417/",
+      "description": "Stay across every Round 14 selection, late change and squad update as they're officially confirmed.",
+      "date": "Tue, 02 Jun 2026 05:55:04 +0000",
+      "teams": [],
+      "isRound": true
+    },
+    {
+      "title": "Broncos star dropped as Maguire looks to get season back-on-track",
+      "url": "https://www.zerotackle.com/broncos-star-dropped-as-maguire-looks-to-get-season-back-on-track-234442/",
+      "description": "He will be replaced by a rookie half to partner Reynolds.",
+      "date": "Tue, 02 Jun 2026 05:53:51 +0000",
       "teams": [
         "Brisbane Broncos"
       ],
       "isRound": false
     },
     {
-      "title": "Rabbitohs welcome back star trio for timely Brookvale trip",
-      "url": "https://www.zerotackle.com/rabbitohs-welcome-back-star-trio-for-timely-brookvale-trip-234399/",
-      "description": "Plenty of fire power will be back on deck for the Rabbitohs&#8217; trip across the bridge.",
-      "date": "Mon, 01 Jun 2026 04:54:10 +0000",
-      "teams": [
-        "South Sydney Rabbitohs"
-      ],
-      "isRound": false
-    },
-    {
-      "title": "Multiple stars charged by MRC on Sunday’s triple-header",
-      "url": "https://www.zerotackle.com/multiple-stars-charged-by-mrc-on-sundays-triple-header-234394/",
-      "description": "There was plenty of fines issued to close out Round 13.",
-      "date": "Mon, 01 Jun 2026 01:39:51 +0000",
+      "title": "Edwards shuts gap as Trindall, Fa’alogo surge: Zero Tackle’s NRL MVP, Round 13",
+      "url": "https://www.zerotackle.com/edwards-shuts-gap-as-trindall-faalogo-surge-zero-tackles-nrl-mvp-round-13-234440/",
+      "description": "The gap at the top is just one vote.",
+      "date": "Tue, 02 Jun 2026 05:30:39 +0000",
       "teams": [],
       "isRound": true
     },
     {
-      "title": "Did the Broncos treat the Dragons with complacency?",
-      "url": "https://www.zerotackle.com/did-the-broncos-treat-the-dragons-with-complacency-234392/",
-      "description": "The Dragons collected their first win in 295 days.",
-      "date": "Mon, 01 Jun 2026 01:02:31 +0000",
+      "title": "Broncos legend delivers scathing review of shock loss to Dragons",
+      "url": "https://www.zerotackle.com/broncos-legend-delivers-scathing-review-of-shock-loss-to-dragons-234433/",
+      "description": "Will the Broncos be able to return to their 2025 form in the backend of the year?",
+      "date": "Tue, 02 Jun 2026 04:29:39 +0000",
       "teams": [
         "Brisbane Broncos",
         "St George Illawarra Dragons"
