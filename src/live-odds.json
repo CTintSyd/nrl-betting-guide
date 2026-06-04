@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-04T19:52:30.930Z",
-  "quotaRemaining": 455,
+  "updated": "2026-06-04T22:15:16.530Z",
+  "quotaRemaining": 452,
   "round": 14,
   "venueOverride": {
     "venue": "Suncorp Stadium",
@@ -406,14 +406,14 @@
         {
           "key": "tab",
           "name": "TAB",
-          "home": 1.6,
-          "away": 2.35
+          "home": 1.55,
+          "away": 2.45
         },
         {
           "key": "betright",
           "name": "BetRight",
-          "home": 1.6,
-          "away": 2.35
+          "home": 1.58,
+          "away": 2.38
         }
       ]
     },
