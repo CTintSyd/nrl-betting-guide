@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-04T07:13:28.423Z",
-  "quotaRemaining": 467,
+  "updated": "2026-06-04T11:43:27.972Z",
+  "quotaRemaining": 464,
   "round": 14,
   "venueOverride": {
     "venue": "Suncorp Stadium",
@@ -8,88 +8,36 @@
   },
   "games": [
     {
-      "id": "97a1621b5db62cb62ffea713662f64db",
-      "homeTeam": "Manly Warringah Sea Eagles",
-      "awayTeam": "South Sydney Rabbitohs",
-      "commenceTime": "2026-06-04T09:50:00Z",
-      "bookmaker": "sportsbet",
-      "h2h": {
-        "home": 1.56,
-        "away": 2.44
-      },
-      "line": {
-        "home": {
-          "odd": 1.91,
-          "point": -4.5
-        },
-        "away": {
-          "odd": 1.89,
-          "point": 4.5
-        }
-      },
-      "ou": {
-        "total": 51.5,
-        "overOdd": 1.9,
-        "underOdd": 1.9
-      },
-      "bookmakerComparison": [
-        {
-          "key": "sportsbet",
-          "name": "Sportsbet",
-          "home": 1.56,
-          "away": 2.44
-        },
-        {
-          "key": "tab",
-          "name": "TAB",
-          "home": 1.58,
-          "away": 2.4
-        },
-        {
-          "key": "betright",
-          "name": "BetRight",
-          "home": 1.6,
-          "away": 2.35
-        },
-        {
-          "key": "ladbrokes_au",
-          "name": "Ladbrokes",
-          "home": 1.57,
-          "away": 2.45
-        }
-      ]
-    },
-    {
       "id": "df96b83838a1231d09e5d544de0069b5",
       "homeTeam": "Melbourne Storm",
       "awayTeam": "Newcastle Knights",
       "commenceTime": "2026-06-05T08:00:00Z",
       "bookmaker": "sportsbet",
       "h2h": {
-        "home": 1.61,
-        "away": 2.33
+        "home": 1.64,
+        "away": 2.27
       },
       "line": {
         "home": {
-          "odd": 1.82,
+          "odd": 1.87,
           "point": -3.5
         },
         "away": {
-          "odd": 1.99,
+          "odd": 1.93,
           "point": 3.5
         }
       },
       "ou": {
         "total": 49.5,
-        "overOdd": 1.9,
-        "underOdd": 1.9
+        "overOdd": 1.91,
+        "underOdd": 1.89
       },
       "bookmakerComparison": [
         {
           "key": "sportsbet",
           "name": "Sportsbet",
-          "home": 1.61,
-          "away": 2.33
+          "home": 1.64,
+          "away": 2.27
         },
         {
           "key": "tab",
@@ -100,8 +48,8 @@
         {
           "key": "betright",
           "name": "BetRight",
-          "home": 1.6,
-          "away": 2.35
+          "home": 1.62,
+          "away": 2.3
         },
         {
           "key": "ladbrokes_au",
@@ -424,46 +372,6 @@
       ]
     },
     {
-      "id": "b066a57485134fa92d0cec6180019810",
-      "homeTeam": "South Sydney Rabbitohs",
-      "awayTeam": "Brisbane Broncos",
-      "commenceTime": "2026-06-11T09:50:00Z",
-      "bookmaker": "sportsbet",
-      "h2h": {
-        "home": 1.64,
-        "away": 2.27
-      },
-      "line": {
-        "home": {
-          "odd": 1.9,
-          "point": -3.5
-        },
-        "away": {
-          "odd": 1.9,
-          "point": 3.5
-        }
-      },
-      "ou": {
-        "total": 50.5,
-        "overOdd": 1.89,
-        "underOdd": 1.91
-      },
-      "bookmakerComparison": [
-        {
-          "key": "sportsbet",
-          "name": "Sportsbet",
-          "home": 1.64,
-          "away": 2.27
-        },
-        {
-          "key": "tab",
-          "name": "TAB",
-          "home": 1.65,
-          "away": 2.25
-        }
-      ]
-    },
-    {
       "id": "360b7bc18bc251b59f91c82955e79d1d",
       "homeTeam": "Dolphins",
       "awayTeam": "Sydney Roosters",
@@ -574,6 +482,12 @@
           "name": "Sportsbet",
           "home": 2.27,
           "away": 1.64
+        },
+        {
+          "key": "tab",
+          "name": "TAB",
+          "home": 2.35,
+          "away": 1.6
         }
       ]
     },
@@ -608,6 +522,12 @@
           "name": "Sportsbet",
           "home": 1.32,
           "away": 3.43
+        },
+        {
+          "key": "tab",
+          "name": "TAB",
+          "home": 1.33,
+          "away": 3.35
         }
       ]
     }
