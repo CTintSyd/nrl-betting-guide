@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-06-03T06:50:58Z",
+  "updatedAt": "2026-06-04T12:34:30Z",
   "season": 2026,
-  "totalFavRecord": "61-39",
-  "totalLineRecord": "16-8",
-  "totalOuRecord": "10O-14U",
+  "totalFavRecord": "61-40",
+  "totalLineRecord": "17-9",
+  "totalOuRecord": "11O-15U",
   "rounds": [
     {
       "round": 1,
@@ -602,13 +602,13 @@
           "awayScore": 22,
           "winner": "Cronulla Sutherland Sharks",
           "margin": 14,
-          "favourite": "Cronulla Sutherland Sharks",
-          "favouriteWon": true,
-          "linePoint": null,
-          "lineCovered": null,
-          "ouTotal": null,
-          "ouResult": null,
-          "oddsSourced": false
+          "favourite": "New Zealand Warriors",
+          "favouriteWon": false,
+          "linePoint": 8.5,
+          "lineCovered": false,
+          "ouTotal": 49.5,
+          "ouResult": "Over",
+          "oddsSourced": true
         },
         {
           "homeTeam": "Newcastle Knights",
@@ -641,9 +641,9 @@
           "oddsSourced": false
         }
       ],
-      "favRecord": "5-3",
-      "lineRecord": "1-0",
-      "ouRecord": "0O-1U"
+      "favRecord": "4-4",
+      "lineRecord": "1-1",
+      "ouRecord": "1O-1U"
     },
     {
       "round": 6,
@@ -1608,6 +1608,29 @@
       "favRecord": "6-1",
       "lineRecord": "4-3",
       "ouRecord": "2O-5U"
+    },
+    {
+      "round": 14,
+      "games": [
+        {
+          "homeTeam": "Manly Warringah Sea Eagles",
+          "awayTeam": "South Sydney Rabbitohs",
+          "homeScore": 28,
+          "awayScore": 14,
+          "winner": "Manly Warringah Sea Eagles",
+          "margin": 14,
+          "favourite": "Manly Warringah Sea Eagles",
+          "favouriteWon": true,
+          "linePoint": -4.5,
+          "lineCovered": true,
+          "ouTotal": 50.5,
+          "ouResult": "Under",
+          "oddsSourced": true
+        }
+      ],
+      "favRecord": "1-0",
+      "lineRecord": "1-0",
+      "ouRecord": "0O-1U"
     }
   ]
 }

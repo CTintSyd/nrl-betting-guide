@@ -1,55 +1,88 @@
 {
-  "updated": "2026-06-03T06:50:49Z",
+  "updated": "2026-06-04T12:34:23Z",
   "articles": [
     {
-      "title": "Knights reveal Jermaine McEwen incident, integrity unit aware",
-      "url": "https://www.zerotackle.com/knights-reveal-jermaine-mcewen-incident-integrity-unit-aware-234476/",
-      "description": "The second-rower was reported to the integrity unit by the club.",
-      "date": "Wed, 03 Jun 2026 06:38:14 +0000",
+      "title": "FULL TIME: Sea Eagles vs Rabbitohs – Round 14, 2026",
+      "url": "https://www.zerotackle.com/fulltime-sea-eagles-rabbitohs-round-14-2026-mc10396417-234383/",
+      "description": "The Manly Sea Eagles face the South Sydney Rabbitohs in Round 14 of the 2026 NRL season. Follow the live scores, team lists, match statistics and key moments from the game at 4 Pines Park.",
+      "date": "Thu, 07 May 2026 09:50:00 +0000",
       "teams": [
-        "Newcastle Knights"
+        "South Sydney Rabbitohs",
+        "Manly Warringah Sea Eagles"
       ],
-      "isRound": false
+      "isRound": true
     },
     {
-      "title": "Sharks stun top four, Broncos punished and Storm send message: NRL Power Rankings, Round 13",
-      "url": "https://www.zerotackle.com/sharks-stun-top-four-broncos-punished-and-storm-send-message-nrl-power-rankings-round-13-234447/",
-      "description": "Too harsh on the Broncos, or just right?",
-      "date": "Wed, 03 Jun 2026 06:12:42 +0000",
+      "title": "Updated Team Lists: Raiders vs Roosters – Round 14, 2026",
+      "url": "https://www.zerotackle.com/updated-team-lists-raiders-vs-roosters-10396419-234517/",
+      "description": "The Raiders and Roosters have cut their squads to 20 ahead of tomorrow's match at GIO Stadium.",
+      "date": "Thu, 04 Jun 2026 09:59:07 +0000",
       "teams": [
-        "Brisbane Broncos",
-        "Cronulla Sutherland Sharks",
+        "Canberra Raiders",
+        "Sydney Roosters"
+      ],
+      "isRound": true
+    },
+    {
+      "title": "FINAL TEAMS: Sea Eagles vs Rabbitohs – Round 14, 2026",
+      "url": "https://www.zerotackle.com/updated-team-lists-sea-eagles-rabbitohs-10396417-234478/",
+      "description": "LATE MAIL: The Sea Eagles and Rabbitohs have confirmed their lineups for the match at 4 Pines Park.",
+      "date": "Thu, 04 Jun 2026 08:17:06 +0000",
+      "teams": [
+        "South Sydney Rabbitohs",
+        "Manly Warringah Sea Eagles"
+      ],
+      "isRound": true
+    },
+    {
+      "title": "Updated Team Lists: Storm vs Knights – Round 14, 2026",
+      "url": "https://www.zerotackle.com/updated-team-lists-storm-vs-knights-10396418-234513/",
+      "description": "The Storm and Knights have cut their squads to 20 ahead of tomorrow's match at AAMI Park.",
+      "date": "Thu, 04 Jun 2026 07:59:06 +0000",
+      "teams": [
+        "Newcastle Knights",
         "Melbourne Storm"
       ],
       "isRound": true
     },
     {
-      "title": "Suli linked with surprise early Dragons exit",
-      "url": "https://www.zerotackle.com/suli-linked-with-surprise-early-dragons-exit-234471/",
-      "description": "He is no guarantee to see out another year at the Red V.",
-      "date": "Wed, 03 Jun 2026 05:27:21 +0000",
+      "title": "William Kennedy confirms future, signs new NRL deal",
+      "url": "https://www.zerotackle.com/william-kennedy-confirms-future-signs-new-nrl-deal-234500/",
+      "description": "He had only signed a one-year deal with the Sharks for 2026.",
+      "date": "Thu, 04 Jun 2026 06:28:56 +0000",
       "teams": [
-        "St George Illawarra Dragons"
+        "Cronulla Sutherland Sharks"
       ],
       "isRound": false
     },
     {
-      "title": "Bulldogs star in-doubt for King’s Birthday clash",
-      "url": "https://www.zerotackle.com/bulldogs-star-in-doubt-for-kings-birthday-clash-234472/",
-      "description": "He has played down any concern of a minor injury.",
-      "date": "Wed, 03 Jun 2026 05:26:33 +0000",
+      "title": "Storm receive massive boost with Kamikamica return timeline revealed",
+      "url": "https://www.zerotackle.com/storm-receive-massive-boost-with-kamikamica-return-timeline-revealed-234506/",
+      "description": "He last played in the NRL over two months ago.",
+      "date": "Thu, 04 Jun 2026 05:24:12 +0000",
       "teams": [
-        "Canterbury Bulldogs"
+        "Melbourne Storm"
       ],
       "isRound": false
     },
     {
-      "title": "SIX players who could replace Patrick Carrigan in Origin 2",
-      "url": "https://www.zerotackle.com/six-players-who-could-replace-patrick-carrigan-in-origin-2-234396/",
-      "description": "The Broncos forward is out of Game 2.",
-      "date": "Wed, 03 Jun 2026 02:16:06 +0000",
+      "title": "Manly move to extend highly-improved international",
+      "url": "https://www.zerotackle.com/manly-move-to-extend-highly-improved-international-234498/",
+      "description": "Wakeham celebrated his 50th NRL appearance last week against the Sharks.",
+      "date": "Thu, 04 Jun 2026 04:27:12 +0000",
       "teams": [
-        "Brisbane Broncos"
+        "Manly Warringah Sea Eagles",
+        "Cronulla Sutherland Sharks"
+      ],
+      "isRound": false
+    },
+    {
+      "title": "“Not happening”: Sharks clear up stadium drama after bombshell report",
+      "url": "https://www.zerotackle.com/not-happening-sharks-clear-up-stadium-drama-after-bombshell-report-234492/",
+      "description": "The speculation has been put to rest.",
+      "date": "Thu, 04 Jun 2026 03:59:47 +0000",
+      "teams": [
+        "Cronulla Sutherland Sharks"
       ],
       "isRound": false
     }
