@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-05T11:54:57.952Z",
-  "quotaRemaining": 443,
+  "updated": "2026-06-05T14:21:22.814Z",
+  "quotaRemaining": 440,
   "round": 14,
   "venueOverride": {
     "venue": "Suncorp Stadium",
@@ -8,48 +8,14 @@
   },
   "games": [
     {
-      "id": "d045db5051907a9f3163048a555e4c95",
-      "homeTeam": "Canberra Raiders",
-      "awayTeam": "Sydney Roosters",
-      "commenceTime": "2026-06-05T10:05:00Z",
-      "bookmaker": "pointsbetau",
-      "h2h": {
-        "home": 51,
-        "away": 1
-      },
-      "line": {
-        "home": {
-          "odd": null,
-          "point": null
-        },
-        "away": {
-          "odd": null,
-          "point": null
-        }
-      },
-      "ou": {
-        "total": null,
-        "overOdd": null,
-        "underOdd": null
-      },
-      "bookmakerComparison": [
-        {
-          "key": "pointsbetau",
-          "name": "PointsBet",
-          "home": 51,
-          "away": 1
-        }
-      ]
-    },
-    {
       "id": "a8c776aaf3d5a62608a7ff4904f9d741",
       "homeTeam": "North Queensland Cowboys",
       "awayTeam": "Dolphins",
       "commenceTime": "2026-06-06T07:30:00Z",
       "bookmaker": "sportsbet",
       "h2h": {
-        "home": 2.41,
-        "away": 1.57
+        "home": 2.44,
+        "away": 1.56
       },
       "line": {
         "home": {
@@ -63,21 +29,21 @@
       },
       "ou": {
         "total": 55.5,
-        "overOdd": 1.89,
-        "underOdd": 1.91
+        "overOdd": 1.88,
+        "underOdd": 1.92
       },
       "bookmakerComparison": [
         {
           "key": "sportsbet",
           "name": "Sportsbet",
-          "home": 2.41,
-          "away": 1.57
+          "home": 2.44,
+          "away": 1.56
         },
         {
           "key": "tab",
           "name": "TAB",
-          "home": 2.45,
-          "away": 1.55
+          "home": 2.55,
+          "away": 1.52
         },
         {
           "key": "betright",
@@ -128,8 +94,8 @@
         {
           "key": "tab",
           "name": "TAB",
-          "home": 1.35,
-          "away": 3.25
+          "home": 1.33,
+          "away": 3.35
         },
         {
           "key": "betright",
@@ -378,6 +344,12 @@
           "name": "Sportsbet",
           "home": 1.73,
           "away": 2.11
+        },
+        {
+          "key": "tab",
+          "name": "TAB",
+          "home": 1.75,
+          "away": 2.05
         }
       ]
     },
@@ -452,6 +424,12 @@
           "name": "Sportsbet",
           "home": 2.1,
           "away": 1.75
+        },
+        {
+          "key": "tab",
+          "name": "TAB",
+          "home": 2.15,
+          "away": 1.7
         }
       ]
     },
