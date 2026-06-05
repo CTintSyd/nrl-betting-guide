@@ -1,19 +1,7 @@
 {
-  "updated": "2026-06-04T14:46:27.559Z",
+  "updated": "2026-06-05T14:36:50.506Z",
   "quotaRemaining": null,
   "games": {
-    "Melbourne Storm vs Newcastle Knights": {
-      "homeTeam": "Melbourne Storm",
-      "awayTeam": "Newcastle Knights",
-      "available": false,
-      "error": "API 422: {\"message\":\"Invalid markets: player_anytime_try_scorer, player_first_try_scorer\",\"error_code\":\"INVALID_MARKET\",\"details_url\":\"https://the-odds-api.com/liveapi/guides/v4/api-error-codes.html#invalid-market\"}\n"
-    },
-    "Canberra Raiders vs Sydney Roosters": {
-      "homeTeam": "Canberra Raiders",
-      "awayTeam": "Sydney Roosters",
-      "available": false,
-      "error": "API 422: {\"message\":\"Invalid markets: player_anytime_try_scorer, player_first_try_scorer\",\"error_code\":\"INVALID_MARKET\",\"details_url\":\"https://the-odds-api.com/liveapi/guides/v4/api-error-codes.html#invalid-market\"}\n"
-    },
     "North Queensland Cowboys vs Dolphins": {
       "homeTeam": "North Queensland Cowboys",
       "awayTeam": "Dolphins",
