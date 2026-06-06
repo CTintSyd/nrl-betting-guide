@@ -1,52 +1,12 @@
 {
-  "updated": "2026-06-06T10:48:42.914Z",
-  "quotaRemaining": 422,
+  "updated": "2026-06-06T13:04:38.280Z",
+  "quotaRemaining": 419,
   "round": 14,
   "venueOverride": {
     "venue": "Suncorp Stadium",
     "until": "2026-05-18T00:00:00Z"
   },
   "games": [
-    {
-      "id": "15f4c93f6011a4fe44b609972bbe5485",
-      "homeTeam": "Brisbane Broncos",
-      "awayTeam": "Gold Coast Titans",
-      "commenceTime": "2026-06-06T09:34:00Z",
-      "bookmaker": "tab",
-      "h2h": {
-        "home": 1.8,
-        "away": 2
-      },
-      "line": {
-        "home": {
-          "odd": null,
-          "point": null
-        },
-        "away": {
-          "odd": null,
-          "point": null
-        }
-      },
-      "ou": {
-        "total": null,
-        "overOdd": null,
-        "underOdd": null
-      },
-      "bookmakerComparison": [
-        {
-          "key": "tab",
-          "name": "TAB",
-          "home": 1.8,
-          "away": 2
-        },
-        {
-          "key": "pointsbetau",
-          "name": "PointsBet",
-          "home": 1.75,
-          "away": 2
-        }
-      ]
-    },
     {
       "id": "293da61a310a99b2f5914b088a70a2a0",
       "homeTeam": "Wests Tigers",
