@@ -1,33 +1,11 @@
 {
-  "updated": "2026-06-05T14:07:08Z",
+  "updated": "2026-06-06T10:59:42Z",
   "articles": [
     {
-      "title": "FULL TIME: Raiders vs Roosters – Round 14, 2026",
-      "url": "https://www.zerotackle.com/fulltime-raiders-roosters-round-14-2026-mc10396419-234379/",
-      "description": "The Canberra Raiders face the Sydney Roosters in Round 14 of the 2026 NRL season. Follow the live scores, team lists, match statistics and key moments from the game at GIO Stadium.",
-      "date": "Fri, 08 May 2026 10:00:00 +0000",
-      "teams": [
-        "Canberra Raiders",
-        "Sydney Roosters"
-      ],
-      "isRound": true
-    },
-    {
-      "title": "FULL TIME: Storm vs Knights – Round 14, 2026",
-      "url": "https://www.zerotackle.com/fulltime-storm-knights-round-14-2026-mc10396418-234381/",
-      "description": "The Melbourne Storm face the Newcastle Knights in Round 14 of the 2026 NRL season. Follow the live scores, team lists, match statistics and key moments from the game at AAMI Park.",
-      "date": "Fri, 08 May 2026 08:00:00 +0000",
-      "teams": [
-        "Newcastle Knights",
-        "Melbourne Storm"
-      ],
-      "isRound": true
-    },
-    {
-      "title": "Updated Team Lists: Broncos vs Titans – Round 14, 2026",
-      "url": "https://www.zerotackle.com/updated-team-lists-broncos-vs-titans-10396421-234546/",
-      "description": "The Broncos and Titans have cut their squads to 20 ahead of tomorrow's match at Suncorp Stadium.",
-      "date": "Fri, 05 Jun 2026 09:33:07 +0000",
+      "title": "LIVE: Broncos vs Titans – Round 14, 2026",
+      "url": "https://www.zerotackle.com/live-broncos-titans-round-14-2026-mc10396421-234375/",
+      "description": "The Brisbane Broncos face the Gold Coast Titans in Round 14 of the 2026 NRL season. Follow the live scores, team lists, match statistics and key moments from the game at Suncorp Stadium.",
+      "date": "Sat, 09 May 2026 09:30:00 +0000",
       "teams": [
         "Brisbane Broncos",
         "Gold Coast Titans"
@@ -35,21 +13,10 @@
       "isRound": true
     },
     {
-      "title": "FINAL TEAMS: Raiders vs Roosters – Round 14, 2026",
-      "url": "https://www.zerotackle.com/updated-team-lists-raiders-roosters-10396419-234517/",
-      "description": "LATE MAIL: The Raiders and Roosters have confirmed their lineups for the match at GIO Stadium.",
-      "date": "Fri, 05 Jun 2026 08:27:07 +0000",
-      "teams": [
-        "Canberra Raiders",
-        "Sydney Roosters"
-      ],
-      "isRound": true
-    },
-    {
-      "title": "Updated Team Lists: Cowboys vs Dolphins – Round 14, 2026",
-      "url": "https://www.zerotackle.com/updated-team-lists-cowboys-vs-dolphins-10396420-234542/",
-      "description": "The Cowboys and Dolphins have cut their squads to 20 ahead of tomorrow's match at Queensland Country Bank Stadium.",
-      "date": "Fri, 05 Jun 2026 07:29:06 +0000",
+      "title": "FULL TIME: Cowboys vs Dolphins – Round 14, 2026",
+      "url": "https://www.zerotackle.com/fulltime-cowboys-dolphins-round-14-2026-mc10396420-234377/",
+      "description": "The North Queensland Cowboys face the Dolphins in Round 14 of the 2026 NRL season. Follow the live scores, team lists, match statistics and key moments from the game at Queensland Country Bank Stadium.",
+      "date": "Sat, 09 May 2026 07:30:00 +0000",
       "teams": [
         "North Queensland Cowboys",
         "Dolphins"
@@ -57,26 +24,58 @@
       "isRound": true
     },
     {
-      "title": "FINAL TEAMS: Storm vs Knights – Round 14, 2026",
-      "url": "https://www.zerotackle.com/updated-team-lists-storm-knights-10396418-234513/",
-      "description": "LATE MAIL: The Storm and Knights have confirmed their lineups for the match at AAMI Park.",
-      "date": "Fri, 05 Jun 2026 06:33:06 +0000",
+      "title": "FINAL TEAMS: Broncos vs Titans – Round 14, 2026",
+      "url": "https://www.zerotackle.com/updated-team-lists-broncos-titans-10396421-234546/",
+      "description": "LATE MAIL: The Broncos and Titans have confirmed their lineups for the match at Suncorp Stadium.",
+      "date": "Sat, 06 Jun 2026 08:03:05 +0000",
       "teams": [
-        "Newcastle Knights",
-        "Melbourne Storm"
+        "Brisbane Broncos",
+        "Gold Coast Titans"
       ],
       "isRound": true
     },
     {
-      "title": "Doubting Bennett: Rabbitohs tactics all wrong in Sea Eagles loss",
-      "url": "https://www.zerotackle.com/doubting-bennett-rabbitohs-tactics-all-wrong-in-sea-eagles-loss-234533/",
-      "description": "It may have also proven their over-reliance on Latrell Mitchell.",
-      "date": "Fri, 05 Jun 2026 02:05:53 +0000",
+      "title": "Updated Team Lists: Sharks vs Dragons – Round 14, 2026",
+      "url": "https://www.zerotackle.com/updated-team-lists-sharks-vs-dragons-10396423-234574/",
+      "description": "The Sharks and Dragons have cut their squads to 20 ahead of tomorrow's match at Ocean Protect Stadium.",
+      "date": "Sat, 06 Jun 2026 06:03:06 +0000",
       "teams": [
-        "South Sydney Rabbitohs",
-        "Manly Warringah Sea Eagles"
+        "St George Illawarra Dragons",
+        "Cronulla Sutherland Sharks"
+      ],
+      "isRound": true
+    },
+    {
+      "title": "FINAL TEAMS: Cowboys vs Dolphins – Round 14, 2026",
+      "url": "https://www.zerotackle.com/updated-team-lists-cowboys-dolphins-10396420-234542/",
+      "description": "LATE MAIL: The Cowboys and Dolphins have confirmed their lineups for the match at Queensland Country Bank Stadium.",
+      "date": "Sat, 06 Jun 2026 05:59:04 +0000",
+      "teams": [
+        "North Queensland Cowboys",
+        "Dolphins"
+      ],
+      "isRound": true
+    },
+    {
+      "title": "Young makes his case as to why he’s the right man for the rebuild",
+      "url": "https://www.zerotackle.com/young-makes-his-case-as-why-hes-the-right-man-for-the-rebuild-234565/",
+      "description": "The comments were made at an exclusive Dragons fan forum meeting.",
+      "date": "Sat, 06 Jun 2026 04:04:21 +0000",
+      "teams": [
+        "St George Illawarra Dragons"
       ],
       "isRound": false
+    },
+    {
+      "title": "Updated Team Lists: Wests Tigers vs Panthers – Round 14, 2026",
+      "url": "https://www.zerotackle.com/updated-team-lists-wests-tigers-vs-panthers-10396422-234567/",
+      "description": "The Wests Tigers and Panthers have cut their squads to 20 ahead of tomorrow's match at CommBank Stadium.",
+      "date": "Sat, 06 Jun 2026 03:59:06 +0000",
+      "teams": [
+        "Penrith Panthers",
+        "Wests Tigers"
+      ],
+      "isRound": true
     }
   ]
 }

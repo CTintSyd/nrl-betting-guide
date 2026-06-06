@@ -54,12 +54,12 @@ const NRL_TEAM_DATA = {
   'Dolphins': {
     emoji: '🐬', shortName: 'Dolphins', venue: 'Suncorp Stadium', wikiPage: 'Dolphins_NRL', logoFile: 'dolphins.png',
     players: [
-      { name: "Jamayne Isaako",                    pos: "wing",           tryRate: 0.9091 },
-      { name: "Hamiso Tabuai-Fidow",               pos: "fullback",       tryRate: 0.7 },
-      { name: "Bradley Schneider",                 pos: "five-eighth",    tryRate: 0.1111 },
-      { name: "Selwyn Cobbo",                      pos: "wing",           tryRate: 0.6 },
+      { name: "Jamayne Isaako",                    pos: "wing",           tryRate: 0.9167 },
+      { name: "Hamiso Tabuai-Fidow",               pos: "fullback",       tryRate: 0.7273 },
+      { name: "Isaiya Katoa",                      pos: "halfback",       tryRate: 0.0833 },
+      { name: "Selwyn Cobbo",                      pos: "wing",           tryRate: 0.7273 },
       { name: "Jake Averillo",                     pos: "centre",         tryRate: 0.8571 },
-      { name: "Herbie Farnworth",                  pos: "centre",         tryRate: 0.5 },
+      { name: "Herbie Farnworth",                  pos: "centre",         tryRate: 0.4545 },
     ],
   },
 
@@ -126,12 +126,12 @@ const NRL_TEAM_DATA = {
   'North Queensland Cowboys': {
     emoji: '🤠', shortName: 'Cowboys', venue: 'Qld Country Bank Stadium', wikiPage: 'North_Queensland_Cowboys', logoFile: 'north-queensland-cowboys.svg',
     players: [
-      { name: "Murray Taulagi",                    pos: "wing",           tryRate: 1.125 },
-      { name: "Scott Drinkwater",                  pos: "fullback",       tryRate: 0.5385 },
-      { name: "Jake Clifford",                     pos: "halfback",       tryRate: 0.3846 },
+      { name: "Murray Taulagi",                    pos: "wing",           tryRate: 1.1111 },
+      { name: "Scott Drinkwater",                  pos: "fullback",       tryRate: 0.5 },
+      { name: "Jake Clifford",                     pos: "halfback",       tryRate: 0.3571 },
       { name: "Braidon Burns",                     pos: "wing",           tryRate: 0.8 },
-      { name: "Heilum Luki",                       pos: "lock",           tryRate: 0.5385 },
-      { name: "Jaxon Purdue",                      pos: "centre",         tryRate: 0.4615 },
+      { name: "Heilum Luki",                       pos: "lock",           tryRate: 0.5 },
+      { name: "Jaxon Purdue",                      pos: "centre",         tryRate: 0.4286 },
     ],
   },
 

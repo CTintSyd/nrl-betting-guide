@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-06-05T14:07:12Z",
+  "updatedAt": "2026-06-06T10:59:47Z",
   "season": 2026,
-  "totalFavRecord": "63-40",
-  "totalLineRecord": "18-10",
-  "totalOuRecord": "12O-16U",
+  "totalFavRecord": "64-40",
+  "totalLineRecord": "19-10",
+  "totalOuRecord": "12O-17U",
   "rounds": [
     {
       "round": 1,
@@ -1656,11 +1656,26 @@
           "ouTotal": 50.5,
           "ouResult": "Under",
           "oddsSourced": true
+        },
+        {
+          "homeTeam": "North Queensland Cowboys",
+          "awayTeam": "Dolphins",
+          "homeScore": 14,
+          "awayScore": 40,
+          "winner": "Dolphins",
+          "margin": 26,
+          "favourite": "Dolphins",
+          "favouriteWon": true,
+          "linePoint": 1.5,
+          "lineCovered": true,
+          "ouTotal": 56.5,
+          "ouResult": "Under",
+          "oddsSourced": true
         }
       ],
-      "favRecord": "3-0",
-      "lineRecord": "2-1",
-      "ouRecord": "1O-2U"
+      "favRecord": "4-0",
+      "lineRecord": "3-1",
+      "ouRecord": "1O-3U"
     }
   ]
 }

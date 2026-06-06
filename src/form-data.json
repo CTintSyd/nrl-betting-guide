@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-05T14:07:03.767602+00:00",
+  "generatedAt": "2026-06-06T10:59:37.308966+00:00",
   "round": 14,
   "upcomingRound": 14,
   "ladder": [
@@ -61,6 +61,20 @@
     },
     {
       "pos": 5,
+      "nick": "Dolphins",
+      "name": "Dolphins",
+      "played": 12,
+      "wins": 7,
+      "losses": 5,
+      "drawn": 0,
+      "ptsFor": 330,
+      "ptsAgainst": 253,
+      "diff": 77,
+      "pts": 18,
+      "streak": "4W"
+    },
+    {
+      "pos": 6,
       "nick": "Knights",
       "name": "Newcastle Knights",
       "played": 13,
@@ -72,20 +86,6 @@
       "diff": 32,
       "pts": 18,
       "streak": "1L"
-    },
-    {
-      "pos": 6,
-      "nick": "Dolphins",
-      "name": "Dolphins",
-      "played": 11,
-      "wins": 6,
-      "losses": 5,
-      "drawn": 0,
-      "ptsFor": 290,
-      "ptsAgainst": 239,
-      "diff": 51,
-      "pts": 16,
-      "streak": "4W"
     },
     {
       "pos": 7,
@@ -117,20 +117,6 @@
     },
     {
       "pos": 9,
-      "nick": "Cowboys",
-      "name": "North Queensland Cowboys",
-      "played": 13,
-      "wins": 8,
-      "losses": 5,
-      "drawn": 0,
-      "ptsFor": 329,
-      "ptsAgainst": 316,
-      "diff": 13,
-      "pts": 16,
-      "streak": "1L"
-    },
-    {
-      "pos": 10,
       "nick": "Wests Tigers",
       "name": "Wests Tigers",
       "played": 11,
@@ -142,6 +128,20 @@
       "diff": -10,
       "pts": 16,
       "streak": "1W"
+    },
+    {
+      "pos": 10,
+      "nick": "Cowboys",
+      "name": "North Queensland Cowboys",
+      "played": 14,
+      "wins": 8,
+      "losses": 6,
+      "drawn": 0,
+      "ptsFor": 343,
+      "ptsAgainst": 356,
+      "diff": -13,
+      "pts": 16,
+      "streak": "2L"
     },
     {
       "pos": 11,
@@ -390,7 +390,7 @@
       ]
     },
     "Dolphins": {
-      "last5": "W W W W",
+      "last5": "W W W W W",
       "games": [
         {
           "round": 9,
@@ -419,6 +419,13 @@
           "opponent": "Canberra Raiders",
           "home": false,
           "score": "22\u201330"
+        },
+        {
+          "round": 14,
+          "result": "W",
+          "opponent": "North Queensland Cowboys",
+          "home": false,
+          "score": "14\u201340"
         }
       ]
     },
@@ -609,15 +616,8 @@
       ]
     },
     "North Queensland Cowboys": {
-      "last5": "W L W W L",
+      "last5": "L W W L L",
       "games": [
-        {
-          "round": 9,
-          "result": "W",
-          "opponent": "Canterbury Bulldogs",
-          "home": false,
-          "score": "12\u201328"
-        },
         {
           "round": 10,
           "result": "L",
@@ -645,6 +645,13 @@
           "opponent": "Canberra Raiders",
           "home": false,
           "score": "26\u201312"
+        },
+        {
+          "round": 14,
+          "result": "L",
+          "opponent": "Dolphins",
+          "home": true,
+          "score": "14\u201340"
         }
       ]
     },
