@@ -6,12 +6,12 @@ const NRL_TEAM_DATA = {
   'Brisbane Broncos': {
     emoji: '🐻', shortName: 'Broncos', venue: 'Suncorp Stadium', wikiPage: 'Brisbane_Broncos', logoFile: 'brisbane-broncos.svg',
     players: [
-      { name: "Josiah Karapani",                   pos: "wing",           tryRate: 0.3636 },
-      { name: "Reece Walsh",                       pos: "fullback",       tryRate: 0.5556 },
-      { name: "Ezra Mam",                          pos: "five-eighth",    tryRate: 0.25 },
-      { name: "Kotoni Staggs",                     pos: "centre",         tryRate: 0.6 },
-      { name: "Xavier Willison",                   pos: "lock",           tryRate: 0.3333 },
-      { name: "Jesse Arthars",                     pos: "wing",           tryRate: 0.5714 },
+      { name: "Jesse Arthars",                     pos: "wing",           tryRate: 0.625 },
+      { name: "Reece Walsh",                       pos: "fullback",       tryRate: 0.5 },
+      { name: "Adam Reynolds",                     pos: "halfback",       tryRate: 0.3 },
+      { name: "Kotoni Staggs",                     pos: "centre",         tryRate: 0.6364 },
+      { name: "Xavier Willison",                   pos: "lock",           tryRate: 0.3077 },
+      { name: "Josiah Karapani",                   pos: "wing",           tryRate: 0.3333 },
     ],
   },
 
@@ -66,11 +66,11 @@ const NRL_TEAM_DATA = {
   'Gold Coast Titans': {
     emoji: '🌊', shortName: 'Titans', venue: 'Cbus Super Stadium', wikiPage: 'Gold_Coast_Titans', logoFile: 'gold-coast-titans.svg',
     players: [
-      { name: "Phillip Sami",                      pos: "wing",           tryRate: 0.4545 },
-      { name: "Keano Kini",                        pos: "fullback",       tryRate: 0.0909 },
-      { name: "Jayden Campbell",                   pos: "five-eighth",    tryRate: 0.4444 },
-      { name: "Jojo Fifita",                       pos: "centre",         tryRate: 0.5 },
-      { name: "Arama Hau",                         pos: "lock",           tryRate: 0.3636 },
+      { name: "Phillip Sami",                      pos: "wing",           tryRate: 0.5 },
+      { name: "Keano Kini",                        pos: "fullback",       tryRate: 0.1667 },
+      { name: "Jayden Campbell",                   pos: "five-eighth",    tryRate: 0.6 },
+      { name: "Jojo Fifita",                       pos: "centre",         tryRate: 0.4545 },
+      { name: "Arama Hau",                         pos: "lock",           tryRate: 0.3333 },
       { name: "Sialetili Faeamani",                pos: "wing",           tryRate: 0.5 },
     ],
   },

@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-06-06T10:59:47Z",
+  "updatedAt": "2026-06-06T12:14:20Z",
   "season": 2026,
-  "totalFavRecord": "64-40",
-  "totalLineRecord": "19-10",
-  "totalOuRecord": "12O-17U",
+  "totalFavRecord": "64-41",
+  "totalLineRecord": "19-11",
+  "totalOuRecord": "13O-17U",
   "rounds": [
     {
       "round": 1,
@@ -1671,11 +1671,26 @@
           "ouTotal": 56.5,
           "ouResult": "Under",
           "oddsSourced": true
+        },
+        {
+          "homeTeam": "Brisbane Broncos",
+          "awayTeam": "Gold Coast Titans",
+          "homeScore": 23,
+          "awayScore": 28,
+          "winner": "Gold Coast Titans",
+          "margin": 5,
+          "favourite": "Brisbane Broncos",
+          "favouriteWon": false,
+          "linePoint": -13.5,
+          "lineCovered": false,
+          "ouTotal": 50.5,
+          "ouResult": "Over",
+          "oddsSourced": true
         }
       ],
-      "favRecord": "4-0",
-      "lineRecord": "3-1",
-      "ouRecord": "1O-3U"
+      "favRecord": "4-1",
+      "lineRecord": "3-2",
+      "ouRecord": "2O-3U"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-06T10:59:37.308966+00:00",
+  "generatedAt": "2026-06-06T12:14:08.464149+00:00",
   "round": 14,
   "upcomingRound": 14,
   "ladder": [
@@ -161,13 +161,13 @@
       "pos": 12,
       "nick": "Broncos",
       "name": "Brisbane Broncos",
-      "played": 12,
+      "played": 13,
       "wins": 5,
-      "losses": 7,
+      "losses": 8,
       "drawn": 0,
-      "ptsFor": 252,
-      "ptsAgainst": 313,
-      "diff": -61,
+      "ptsFor": 275,
+      "ptsAgainst": 341,
+      "diff": -66,
       "pts": 12,
       "streak": "4L"
     },
@@ -187,6 +187,20 @@
     },
     {
       "pos": 14,
+      "nick": "Titans",
+      "name": "Gold Coast Titans",
+      "played": 12,
+      "wins": 3,
+      "losses": 9,
+      "drawn": 0,
+      "ptsFor": 220,
+      "ptsAgainst": 303,
+      "diff": -83,
+      "pts": 10,
+      "streak": "1W"
+    },
+    {
+      "pos": 15,
       "nick": "Bulldogs",
       "name": "Canterbury Bulldogs",
       "played": 12,
@@ -200,7 +214,7 @@
       "streak": "1L"
     },
     {
-      "pos": 15,
+      "pos": 16,
       "nick": "Eels",
       "name": "Parramatta Eels",
       "played": 12,
@@ -212,20 +226,6 @@
       "diff": -150,
       "pts": 10,
       "streak": "2L"
-    },
-    {
-      "pos": 16,
-      "nick": "Titans",
-      "name": "Gold Coast Titans",
-      "played": 11,
-      "wins": 2,
-      "losses": 9,
-      "drawn": 0,
-      "ptsFor": 192,
-      "ptsAgainst": 280,
-      "diff": -88,
-      "pts": 8,
-      "streak": "4L"
     },
     {
       "pos": 17,
@@ -244,7 +244,7 @@
   ],
   "teams": {
     "Brisbane Broncos": {
-      "last5": "L L L L",
+      "last5": "L L L L L",
       "games": [
         {
           "round": 9,
@@ -273,6 +273,13 @@
           "opponent": "St George Illawarra Dragons",
           "home": true,
           "score": "26\u201330"
+        },
+        {
+          "round": 14,
+          "result": "L",
+          "opponent": "Gold Coast Titans",
+          "home": true,
+          "score": "23\u201328"
         }
       ]
     },
@@ -430,7 +437,7 @@
       ]
     },
     "Gold Coast Titans": {
-      "last5": "L L L L",
+      "last5": "L L L L W",
       "games": [
         {
           "round": 9,
@@ -459,6 +466,13 @@
           "opponent": "Manly Warringah Sea Eagles",
           "home": false,
           "score": "12\u201310"
+        },
+        {
+          "round": 14,
+          "result": "W",
+          "opponent": "Brisbane Broncos",
+          "home": false,
+          "score": "23\u201328"
         }
       ]
     },
