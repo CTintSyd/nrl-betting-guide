@@ -42,12 +42,12 @@ const NRL_TEAM_DATA = {
   'Cronulla Sutherland Sharks': {
     emoji: '🦈', shortName: 'Sharks', venue: 'PointsBet Stadium', wikiPage: 'Cronulla-Sutherland_Sharks', logoFile: 'cronulla-sharks.svg',
     players: [
-      { name: "Samuel Stonestreet",                pos: "wing",           tryRate: 0.2727 },
-      { name: "William Kennedy",                   pos: "fullback",       tryRate: 0.4545 },
-      { name: "Braydon Trindall",                  pos: "five-eighth",    tryRate: 0.5455 },
-      { name: "KL Iro",                            pos: "centre",         tryRate: 0.9 },
-      { name: "Teig Wilton",                       pos: "lock",           tryRate: 0.6667 },
-      { name: "Billy Burns",                       pos: "lock",           tryRate: 0.3636 },
+      { name: "Samuel Stonestreet",                pos: "wing",           tryRate: 0.3333 },
+      { name: "William Kennedy",                   pos: "fullback",       tryRate: 0.5 },
+      { name: "Braydon Trindall",                  pos: "five-eighth",    tryRate: 0.5833 },
+      { name: "KL Iro",                            pos: "centre",         tryRate: 0.8182 },
+      { name: "Teig Wilton",                       pos: "lock",           tryRate: 0.6 },
+      { name: "Nicholas Hynes",                    pos: "halfback",       tryRate: 0.4 },
     ],
   },
 
@@ -150,12 +150,12 @@ const NRL_TEAM_DATA = {
   'Penrith Panthers': {
     emoji: '🐾', shortName: 'Panthers', venue: 'BlueBet Stadium', wikiPage: 'Penrith_Panthers', logoFile: 'penrith-panthers.png',
     players: [
-      { name: "Thomas Jenkins",                    pos: "wing",           tryRate: 1.5 },
-      { name: "Dylan Edwards",                     pos: "fullback",       tryRate: 0.75 },
-      { name: "Blaize Talagi",                     pos: "five-eighth",    tryRate: 0.4167 },
-      { name: "Brian To'o",                        pos: "wing",           tryRate: 0.6364 },
-      { name: "Casey McLean",                      pos: "centre",         tryRate: 0.5455 },
-      { name: "Nathan Cleary",                     pos: "halfback",       tryRate: 0.3636 },
+      { name: "Thomas Jenkins",                    pos: "wing",           tryRate: 1.5385 },
+      { name: "Dylan Edwards",                     pos: "fullback",       tryRate: 0.6923 },
+      { name: "Blaize Talagi",                     pos: "five-eighth",    tryRate: 0.3846 },
+      { name: "Brian To'o",                        pos: "wing",           tryRate: 0.75 },
+      { name: "Casey McLean",                      pos: "centre",         tryRate: 0.5 },
+      { name: "Nathan Cleary",                     pos: "halfback",       tryRate: 0.4167 },
     ],
   },
 
@@ -174,12 +174,12 @@ const NRL_TEAM_DATA = {
   'St George Illawarra Dragons': {
     emoji: '🐉', shortName: 'Dragons', venue: 'Netstrata Jubilee Oval', wikiPage: 'St._George_Illawarra_Dragons', logoFile: 'st-george-illawarra.svg',
     players: [
-      { name: "Setu Tu",                           pos: "wing",           tryRate: 0.6 },
-      { name: "Clinton Gutherson",                 pos: "fullback",       tryRate: 0.1111 },
-      { name: "Daniel Atkinson",                   pos: "five-eighth",    tryRate: 0.0909 },
-      { name: "Valentine Holmes",                  pos: "centre",         tryRate: 0.3333 },
+      { name: "Setu Tu",                           pos: "wing",           tryRate: 0.5455 },
+      { name: "Clinton Gutherson",                 pos: "fullback",       tryRate: 0.1 },
+      { name: "Daniel Atkinson",                   pos: "five-eighth",    tryRate: 0.0833 },
+      { name: "Valentine Holmes",                  pos: "centre",         tryRate: 0.3846 },
       { name: "Christian Tuipulotu",               pos: "wing",           tryRate: 0.3333 },
-      { name: "Moses Suli",                        pos: "centre",         tryRate: 0.25 },
+      { name: "Moses Suli",                        pos: "centre",         tryRate: 0.2222 },
     ],
   },
 
@@ -199,11 +199,11 @@ const NRL_TEAM_DATA = {
     emoji: '🐯', shortName: 'Tigers', venue: 'Campbelltown Stadium', wikiPage: 'Wests_Tigers', logoFile: 'wests-tigers.svg',
     players: [
       { name: "Luke Laulilii",                     pos: "wing",           tryRate: 0.6667 },
-      { name: "Jahream Bula",                      pos: "fullback",       tryRate: 0.75 },
+      { name: "Jahream Bula",                      pos: "fullback",       tryRate: 0.6667 },
       { name: "Adam Doueihi",                      pos: "halfback",       tryRate: 0.625 },
       { name: "Taylan May",                        pos: "centre",         tryRate: 0.8333 },
-      { name: "Sunia Turuva",                      pos: "centre",         tryRate: 0.3636 },
-      { name: "Kai Pearce-Paul",                   pos: "lock",           tryRate: 0.4 },
+      { name: "Sunia Turuva",                      pos: "centre",         tryRate: 0.3333 },
+      { name: "Kai Pearce-Paul",                   pos: "lock",           tryRate: 0.3636 },
     ],
   },
 };

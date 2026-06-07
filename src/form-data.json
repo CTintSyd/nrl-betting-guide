@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-06T14:13:04.186098+00:00",
+  "generatedAt": "2026-06-07T11:17:51.519242+00:00",
   "round": 14,
   "upcomingRound": 14,
   "ladder": [
@@ -7,14 +7,14 @@
       "pos": 1,
       "nick": "Panthers",
       "name": "Penrith Panthers",
-      "played": 12,
-      "wins": 11,
+      "played": 13,
+      "wins": 12,
       "losses": 1,
       "drawn": 0,
-      "ptsFor": 369,
+      "ptsFor": 437,
       "ptsAgainst": 164,
-      "diff": 205,
-      "pts": 24,
+      "diff": 273,
+      "pts": 26,
       "streak": "4W"
     },
     {
@@ -75,6 +75,20 @@
     },
     {
       "pos": 6,
+      "nick": "Sharks",
+      "name": "Cronulla Sutherland Sharks",
+      "played": 12,
+      "wins": 7,
+      "losses": 5,
+      "drawn": 0,
+      "ptsFor": 356,
+      "ptsAgainst": 294,
+      "diff": 62,
+      "pts": 18,
+      "streak": "3W"
+    },
+    {
+      "pos": 7,
       "nick": "Knights",
       "name": "Newcastle Knights",
       "played": 13,
@@ -88,7 +102,7 @@
       "streak": "1L"
     },
     {
-      "pos": 7,
+      "pos": 8,
       "nick": "Rabbitohs",
       "name": "South Sydney Rabbitohs",
       "played": 12,
@@ -102,35 +116,7 @@
       "streak": "3L"
     },
     {
-      "pos": 8,
-      "nick": "Sharks",
-      "name": "Cronulla Sutherland Sharks",
-      "played": 11,
-      "wins": 6,
-      "losses": 5,
-      "drawn": 0,
-      "ptsFor": 322,
-      "ptsAgainst": 282,
-      "diff": 40,
-      "pts": 16,
-      "streak": "2W"
-    },
-    {
       "pos": 9,
-      "nick": "Wests Tigers",
-      "name": "Wests Tigers",
-      "played": 11,
-      "wins": 6,
-      "losses": 5,
-      "drawn": 0,
-      "ptsFor": 275,
-      "ptsAgainst": 285,
-      "diff": -10,
-      "pts": 16,
-      "streak": "1W"
-    },
-    {
-      "pos": 10,
       "nick": "Cowboys",
       "name": "North Queensland Cowboys",
       "played": 14,
@@ -142,6 +128,20 @@
       "diff": -13,
       "pts": 16,
       "streak": "2L"
+    },
+    {
+      "pos": 10,
+      "nick": "Wests Tigers",
+      "name": "Wests Tigers",
+      "played": 12,
+      "wins": 6,
+      "losses": 6,
+      "drawn": 0,
+      "ptsFor": 275,
+      "ptsAgainst": 353,
+      "diff": -78,
+      "pts": 16,
+      "streak": "1L"
     },
     {
       "pos": 11,
@@ -231,15 +231,15 @@
       "pos": 17,
       "nick": "Dragons",
       "name": "St George Illawarra Dragons",
-      "played": 12,
+      "played": 13,
       "wins": 1,
-      "losses": 11,
+      "losses": 12,
       "drawn": 0,
-      "ptsFor": 172,
-      "ptsAgainst": 393,
-      "diff": -221,
+      "ptsFor": 184,
+      "ptsAgainst": 427,
+      "diff": -243,
       "pts": 4,
-      "streak": "1W"
+      "streak": "1L"
     }
   ],
   "teams": {
@@ -364,7 +364,7 @@
       ]
     },
     "Cronulla Sutherland Sharks": {
-      "last5": "W L W W",
+      "last5": "W L W W W",
       "games": [
         {
           "round": 9,
@@ -393,6 +393,13 @@
           "opponent": "Manly Warringah Sea Eagles",
           "home": true,
           "score": "28\u201322"
+        },
+        {
+          "round": 14,
+          "result": "W",
+          "opponent": "St George Illawarra Dragons",
+          "home": true,
+          "score": "34\u201312"
         }
       ]
     },
@@ -703,7 +710,7 @@
       ]
     },
     "Penrith Panthers": {
-      "last5": "W W W W",
+      "last5": "W W W W W",
       "games": [
         {
           "round": 9,
@@ -732,6 +739,13 @@
           "opponent": "New Zealand Warriors",
           "home": true,
           "score": "20\u201318"
+        },
+        {
+          "round": 14,
+          "result": "W",
+          "opponent": "Wests Tigers",
+          "home": false,
+          "score": "0\u201368"
         }
       ]
     },
@@ -776,7 +790,7 @@
       ]
     },
     "St George Illawarra Dragons": {
-      "last5": "L L L W",
+      "last5": "L L L W L",
       "games": [
         {
           "round": 10,
@@ -805,6 +819,13 @@
           "opponent": "Brisbane Broncos",
           "home": false,
           "score": "26\u201330"
+        },
+        {
+          "round": 14,
+          "result": "L",
+          "opponent": "Cronulla Sutherland Sharks",
+          "home": false,
+          "score": "34\u201312"
         }
       ]
     },
@@ -849,7 +870,7 @@
       ]
     },
     "Wests Tigers": {
-      "last5": "L L L W",
+      "last5": "L L L W L",
       "games": [
         {
           "round": 9,
@@ -878,6 +899,13 @@
           "opponent": "Canterbury Bulldogs",
           "home": true,
           "score": "22\u201316"
+        },
+        {
+          "round": 14,
+          "result": "L",
+          "opponent": "Penrith Panthers",
+          "home": true,
+          "score": "0\u201368"
         }
       ]
     }

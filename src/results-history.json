@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-06-06T14:13:32Z",
+  "updatedAt": "2026-06-07T11:18:00Z",
   "season": 2026,
-  "totalFavRecord": "64-41",
-  "totalLineRecord": "19-11",
-  "totalOuRecord": "13O-17U",
+  "totalFavRecord": "66-41",
+  "totalLineRecord": "21-11",
+  "totalOuRecord": "14O-18U",
   "rounds": [
     {
       "round": 1,
@@ -1686,11 +1686,41 @@
           "ouTotal": 50.5,
           "ouResult": "Over",
           "oddsSourced": true
+        },
+        {
+          "homeTeam": "Wests Tigers",
+          "awayTeam": "Penrith Panthers",
+          "homeScore": 0,
+          "awayScore": 68,
+          "winner": "Penrith Panthers",
+          "margin": 68,
+          "favourite": "Penrith Panthers",
+          "favouriteWon": true,
+          "linePoint": 12.5,
+          "lineCovered": true,
+          "ouTotal": 51.5,
+          "ouResult": "Over",
+          "oddsSourced": true
+        },
+        {
+          "homeTeam": "Cronulla Sutherland Sharks",
+          "awayTeam": "St George Illawarra Dragons",
+          "homeScore": 34,
+          "awayScore": 12,
+          "winner": "Cronulla Sutherland Sharks",
+          "margin": 22,
+          "favourite": "Cronulla Sutherland Sharks",
+          "favouriteWon": true,
+          "linePoint": -14.5,
+          "lineCovered": true,
+          "ouTotal": 54.5,
+          "ouResult": "Under",
+          "oddsSourced": true
         }
       ],
-      "favRecord": "4-1",
-      "lineRecord": "3-2",
-      "ouRecord": "2O-3U"
+      "favRecord": "6-1",
+      "lineRecord": "5-2",
+      "ouRecord": "3O-4U"
     }
   ]
 }
