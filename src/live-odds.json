@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-06T21:54:10.192Z",
-  "quotaRemaining": 410,
+  "updated": "2026-06-07T02:15:39.745Z",
+  "quotaRemaining": 407,
   "round": 14,
   "venueOverride": {
     "venue": "Suncorp Stadium",
@@ -42,14 +42,14 @@
         {
           "key": "tab",
           "name": "TAB",
-          "home": 4.5,
-          "away": 1.2
+          "home": 4.8,
+          "away": 1.18
         },
         {
           "key": "betright",
           "name": "BetRight",
-          "home": 4.75,
-          "away": 1.19
+          "home": 4.9,
+          "away": 1.18
         },
         {
           "key": "ladbrokes_au",
@@ -94,8 +94,8 @@
         {
           "key": "tab",
           "name": "TAB",
-          "home": 1.28,
-          "away": 3.7
+          "home": 1.3,
+          "away": 3.5
         },
         {
           "key": "betright",
@@ -198,14 +198,14 @@
         {
           "key": "tab",
           "name": "TAB",
-          "home": 1.55,
-          "away": 2.45
+          "home": 1.58,
+          "away": 2.35
         },
         {
           "key": "betright",
           "name": "BetRight",
-          "home": 1.57,
-          "away": 2.4
+          "home": 1.58,
+          "away": 2.38
         },
         {
           "key": "pointsbetau",
@@ -246,6 +246,12 @@
           "name": "Sportsbet",
           "home": 1.73,
           "away": 2.11
+        },
+        {
+          "key": "tab",
+          "name": "TAB",
+          "home": 1.7,
+          "away": 2.1
         },
         {
           "key": "pointsbetau",
@@ -291,7 +297,7 @@
           "key": "tab",
           "name": "TAB",
           "home": 1.33,
-          "away": 3.35
+          "away": 3.3
         },
         {
           "key": "ladbrokes_au",
@@ -354,8 +360,54 @@
         {
           "key": "pointsbetau",
           "name": "PointsBet",
-          "home": 2.05,
-          "away": 1.73
+          "home": 2.15,
+          "away": 1.67
+        }
+      ]
+    },
+    {
+      "id": "013e00a00b421327a01239aee91c84c8",
+      "homeTeam": "Wests Tigers",
+      "awayTeam": "Gold Coast Titans",
+      "commenceTime": "2026-06-14T06:05:00Z",
+      "bookmaker": "sportsbet",
+      "h2h": {
+        "home": 1.32,
+        "away": 3.43
+      },
+      "line": {
+        "home": {
+          "odd": 1.84,
+          "point": -9.5
+        },
+        "away": {
+          "odd": 1.97,
+          "point": 9.5
+        }
+      },
+      "ou": {
+        "total": 50.5,
+        "overOdd": 1.9,
+        "underOdd": 1.9
+      },
+      "bookmakerComparison": [
+        {
+          "key": "sportsbet",
+          "name": "Sportsbet",
+          "home": 1.32,
+          "away": 3.43
+        },
+        {
+          "key": "tab",
+          "name": "TAB",
+          "home": 1.36,
+          "away": 3.15
+        },
+        {
+          "key": "pointsbetau",
+          "name": "PointsBet",
+          "home": 1.37,
+          "away": 3.05
         }
       ]
     }
