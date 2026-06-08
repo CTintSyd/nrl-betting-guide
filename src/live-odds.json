@@ -1,52 +1,12 @@
 {
-  "updated": "2026-06-08T07:21:53.817Z",
-  "quotaRemaining": 383,
+  "updated": "2026-06-08T12:56:02.722Z",
+  "quotaRemaining": 380,
   "round": 14,
   "venueOverride": {
     "venue": "Suncorp Stadium",
     "until": "2026-05-18T00:00:00Z"
   },
   "games": [
-    {
-      "id": "374dd47f0dd1f2cbdfd737973a5f0b25",
-      "homeTeam": "Canterbury Bulldogs",
-      "awayTeam": "Parramatta Eels",
-      "commenceTime": "2026-06-08T06:05:00Z",
-      "bookmaker": "tab",
-      "h2h": {
-        "home": 1.01,
-        "away": 14
-      },
-      "line": {
-        "home": {
-          "odd": null,
-          "point": null
-        },
-        "away": {
-          "odd": null,
-          "point": null
-        }
-      },
-      "ou": {
-        "total": null,
-        "overOdd": null,
-        "underOdd": null
-      },
-      "bookmakerComparison": [
-        {
-          "key": "tab",
-          "name": "TAB",
-          "home": 1.01,
-          "away": 14
-        },
-        {
-          "key": "pointsbetau",
-          "name": "PointsBet",
-          "home": 1.02,
-          "away": 11
-        }
-      ]
-    },
     {
       "id": "b066a57485134fa92d0cec6180019810",
       "homeTeam": "South Sydney Rabbitohs",
@@ -88,8 +48,8 @@
         {
           "key": "betright",
           "name": "BetRight",
-          "home": 1.5,
-          "away": 2.6
+          "home": 1.45,
+          "away": 2.75
         },
         {
           "key": "ladbrokes_au",
@@ -138,16 +98,16 @@
           "away": 2.25
         },
         {
-          "key": "betright",
-          "name": "BetRight",
-          "home": 1.7,
-          "away": 2.15
-        },
-        {
           "key": "ladbrokes_au",
           "name": "Ladbrokes",
           "home": 1.7,
           "away": 2.15
+        },
+        {
+          "key": "pointsbetau",
+          "name": "PointsBet",
+          "home": 1.7,
+          "away": 2.1
         }
       ]
     },
@@ -186,8 +146,8 @@
         {
           "key": "tab",
           "name": "TAB",
-          "home": 1.37,
-          "away": 3.15
+          "home": 1.32,
+          "away": 3.4
         },
         {
           "key": "betright",
@@ -200,6 +160,58 @@
           "name": "Ladbrokes",
           "home": 1.32,
           "away": 3.4
+        }
+      ]
+    },
+    {
+      "id": "836188d12bf0a856ac763b3f69509983",
+      "homeTeam": "Parramatta Eels",
+      "awayTeam": "Canberra Raiders",
+      "commenceTime": "2026-06-13T09:35:00Z",
+      "bookmaker": "sportsbet",
+      "h2h": {
+        "home": 2.22,
+        "away": 1.67
+      },
+      "line": {
+        "home": {
+          "odd": 1.9,
+          "point": 3.5
+        },
+        "away": {
+          "odd": 1.9,
+          "point": -3.5
+        }
+      },
+      "ou": {
+        "total": 49.5,
+        "overOdd": 1.83,
+        "underOdd": 1.98
+      },
+      "bookmakerComparison": [
+        {
+          "key": "sportsbet",
+          "name": "Sportsbet",
+          "home": 2.22,
+          "away": 1.67
+        },
+        {
+          "key": "tab",
+          "name": "TAB",
+          "home": 2.15,
+          "away": 1.7
+        },
+        {
+          "key": "ladbrokes_au",
+          "name": "Ladbrokes",
+          "home": 2.15,
+          "away": 1.7
+        },
+        {
+          "key": "pointsbetau",
+          "name": "PointsBet",
+          "home": 2.15,
+          "away": 1.67
         }
       ]
     },
