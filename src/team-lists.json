@@ -1,260 +1,39 @@
 {
-  "generatedAt": "2026-06-07T12:58:16.511811+00:00",
-  "round": 14,
+  "generatedAt": "2026-06-08T16:59:13.358927+00:00",
+  "round": 15,
   "games": [
     {
-      "matchCentreUrl": "/draw/nrl-premiership/2026/round-14/bulldogs-v-eels/",
-      "kickoff": "2026-06-08T06:05:00Z",
-      "homeTeam": "Canterbury Bulldogs",
-      "awayTeam": "Parramatta Eels"
+      "matchCentreUrl": "/draw/nrl-premiership/2026/round-15/rabbitohs-v-broncos/",
+      "kickoff": "2026-06-11T09:50:00Z",
+      "homeTeam": "South Sydney Rabbitohs",
+      "awayTeam": "Brisbane Broncos"
+    },
+    {
+      "matchCentreUrl": "/draw/nrl-premiership/2026/round-15/dolphins-v-roosters/",
+      "kickoff": "2026-06-12T10:00:00Z",
+      "homeTeam": "Dolphins",
+      "awayTeam": "Sydney Roosters"
+    },
+    {
+      "matchCentreUrl": "/draw/nrl-premiership/2026/round-15/warriors-v-sharks/",
+      "kickoff": "2026-06-13T07:30:00Z",
+      "homeTeam": "New Zealand Warriors",
+      "awayTeam": "Cronulla Sutherland Sharks"
+    },
+    {
+      "matchCentreUrl": "/draw/nrl-premiership/2026/round-15/eels-v-raiders/",
+      "kickoff": "2026-06-13T09:35:00Z",
+      "homeTeam": "Parramatta Eels",
+      "awayTeam": "Canberra Raiders"
+    },
+    {
+      "matchCentreUrl": "/draw/nrl-premiership/2026/round-15/wests-tigers-v-titans/",
+      "kickoff": "2026-06-14T06:05:00Z",
+      "homeTeam": "Wests Tigers",
+      "awayTeam": "Gold Coast Titans"
     }
   ],
-  "teams": {
-    "Canterbury Bulldogs": [
-      {
-        "number": 1,
-        "name": "Jacob Kiraz",
-        "position": "Fullback",
-        "category": "starting"
-      },
-      {
-        "number": 2,
-        "name": "Jethro Rinakama",
-        "position": "Winger",
-        "category": "starting"
-      },
-      {
-        "number": 3,
-        "name": "Bronson Xerri",
-        "position": "Centre",
-        "category": "starting"
-      },
-      {
-        "number": 4,
-        "name": "Stephen Crichton",
-        "position": "Centre",
-        "category": "starting"
-      },
-      {
-        "number": 5,
-        "name": "Enari Tuala",
-        "position": "Winger",
-        "category": "starting"
-      },
-      {
-        "number": 6,
-        "name": "Matt Burton",
-        "position": "Five-Eighth",
-        "category": "starting"
-      },
-      {
-        "number": 7,
-        "name": "Lachlan Galvin",
-        "position": "Halfback",
-        "category": "starting"
-      },
-      {
-        "number": 8,
-        "name": "Max King",
-        "position": "Prop",
-        "category": "starting"
-      },
-      {
-        "number": 10,
-        "name": "Leo Thompson",
-        "position": "Prop",
-        "category": "starting"
-      },
-      {
-        "number": 11,
-        "name": "Sitili Tupouniua",
-        "position": "2nd Row",
-        "category": "starting"
-      },
-      {
-        "number": 12,
-        "name": "Jaeman Salmon",
-        "position": "2nd Row",
-        "category": "starting"
-      },
-      {
-        "number": 13,
-        "name": "Harry Hayes",
-        "position": "Lock",
-        "category": "starting"
-      },
-      {
-        "number": 14,
-        "name": "Bailey Hayward",
-        "position": "Hooker",
-        "category": "interchange"
-      },
-      {
-        "number": 15,
-        "name": "Jed Reardon",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
-        "number": 16,
-        "name": "Jack Underhill",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
-        "number": 17,
-        "name": "Josh Curran",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
-        "number": 19,
-        "name": "Sean O'Sullivan",
-        "position": "Interchange",
-        "category": "reserve"
-      },
-      {
-        "number": 20,
-        "name": "Logan Spinks",
-        "position": "Interchange",
-        "category": "reserve"
-      },
-      {
-        "number": 21,
-        "name": "Lipoi Hopoi",
-        "position": "Interchange",
-        "category": "reserve"
-      },
-      {
-        "number": 22,
-        "name": "Connor Tracey",
-        "position": "Reserve",
-        "category": "reserve"
-      }
-    ],
-    "Parramatta Eels": [
-      {
-        "number": 1,
-        "name": "Isaiah Iongi",
-        "position": "Fullback",
-        "category": "starting"
-      },
-      {
-        "number": 2,
-        "name": "Brian Kelly",
-        "position": "Winger",
-        "category": "starting"
-      },
-      {
-        "number": 3,
-        "name": "Jordan Samrani",
-        "position": "Centre",
-        "category": "starting"
-      },
-      {
-        "number": 4,
-        "name": "Sean Russell",
-        "position": "Centre",
-        "category": "starting"
-      },
-      {
-        "number": 5,
-        "name": "Josh Addo-Carr",
-        "position": "Winger",
-        "category": "starting"
-      },
-      {
-        "number": 6,
-        "name": "Joash Papalii",
-        "position": "Five-Eighth",
-        "category": "starting"
-      },
-      {
-        "number": 7,
-        "name": "Ronald Volkman",
-        "position": "Halfback",
-        "category": "starting"
-      },
-      {
-        "number": 8,
-        "name": "Luca Moretti",
-        "position": "Prop",
-        "category": "starting"
-      },
-      {
-        "number": 9,
-        "name": "Tallyn Da Silva",
-        "position": "Hooker",
-        "category": "starting"
-      },
-      {
-        "number": 10,
-        "name": "Jack Williams",
-        "position": "Prop",
-        "category": "starting"
-      },
-      {
-        "number": 11,
-        "name": "Kelma Tuilagi",
-        "position": "2nd Row",
-        "category": "starting"
-      },
-      {
-        "number": 12,
-        "name": "Kitione Kautoga",
-        "position": "2nd Row",
-        "category": "starting"
-      },
-      {
-        "number": 13,
-        "name": "Jack De Belin",
-        "position": "Lock",
-        "category": "starting"
-      },
-      {
-        "number": 14,
-        "name": "Dylan Walker",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
-        "number": 15,
-        "name": "Sam Tuivaiti",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
-        "number": 17,
-        "name": "Harrison Edwards",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
-        "number": 18,
-        "name": "Apa Twidle",
-        "position": "Interchange",
-        "category": "reserve"
-      },
-      {
-        "number": 19,
-        "name": "Teancum Brown",
-        "position": "Interchange",
-        "category": "reserve"
-      },
-      {
-        "number": 20,
-        "name": "Charlie Guymer",
-        "position": "Reserve",
-        "category": "reserve"
-      },
-      {
-        "number": 22,
-        "name": "Araz Nanva",
-        "position": "Reserve",
-        "category": "reserve"
-      }
-    ]
-  },
+  "teams": {},
   "casualties": {
     "Brisbane Broncos": [
       {
@@ -344,6 +123,13 @@
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/bulldogs/samuel-hughes/"
       },
       {
+        "name": "Kurt Mann",
+        "injury": "Ear",
+        "expectedReturn": "TBC",
+        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500010/MANN%2CK_20251212_3445.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/bulldogs/kurt-mann/"
+      },
+      {
         "name": "Jake Turpin",
         "injury": "Biceps",
         "expectedReturn": "TBC",
@@ -421,13 +207,6 @@
       }
     ],
     "Parramatta Eels": [
-      {
-        "name": "Mitchell Moses",
-        "injury": "Hamstring",
-        "expectedReturn": "Round 15",
-        "imageUrl": "/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500031/MOSES%2CM_20251211_1643.png?center=0.5%2C0.5",
-        "profileUrl": "https://www.nrl.com/players/nrl-premiership/eels/mitchell-moses/"
-      },
       {
         "name": "Richard Penisini",
         "injury": "Knee",
@@ -749,6 +528,13 @@
       }
     ],
     "New Zealand Warriors": [
+      {
+        "name": "Eddie Ieremia-Toeava",
+        "injury": "Head knock",
+        "expectedReturn": "Round 15",
+        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500032/Eddie%20Ieremia-Toeava_003.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/warriors/eddie-ieremia-toeava/"
+      },
       {
         "name": "Sam Healey",
         "injury": "Thumb",

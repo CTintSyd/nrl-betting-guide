@@ -30,12 +30,12 @@ const NRL_TEAM_DATA = {
   'Canterbury Bulldogs': {
     emoji: '🐕', shortName: 'Bulldogs', venue: 'Accor Stadium', wikiPage: 'Canterbury-Bankstown_Bulldogs', logoFile: 'canterbury-bulldogs.png',
     players: [
-      { name: "Enari Tuala",                       pos: "wing",           tryRate: 0.2 },
-      { name: "Jacob Kiraz",                       pos: "fullback",       tryRate: 0.75 },
-      { name: "Lachlan Galvin",                    pos: "halfback",       tryRate: 0.4167 },
+      { name: "Jacob Kiraz",                       pos: "wing",           tryRate: 0.6667 },
+      { name: "Connor Tracey",                     pos: "fullback",       tryRate: 0.1818 },
+      { name: "Lachlan Galvin",                    pos: "halfback",       tryRate: 0.3846 },
+      { name: "Sitili Tupouniua",                  pos: "lock",           tryRate: 0.3077 },
       { name: "Jacob Preston",                     pos: "lock",           tryRate: 0.3636 },
-      { name: "Sitili Tupouniua",                  pos: "lock",           tryRate: 0.25 },
-      { name: "Matt Burton",                       pos: "five-eighth",    tryRate: 0.2727 },
+      { name: "Matt Burton",                       pos: "five-eighth",    tryRate: 0.25 },
     ],
   },
 
@@ -138,12 +138,12 @@ const NRL_TEAM_DATA = {
   'Parramatta Eels': {
     emoji: '🐟', shortName: 'Eels', venue: 'CommBank Stadium', wikiPage: 'Parramatta_Eels', logoFile: 'parramatta-eels.svg',
     players: [
-      { name: "Josh Addo-Carr",                    pos: "wing",           tryRate: 0.5455 },
-      { name: "Isaiah Iongi",                      pos: "fullback",       tryRate: 0.6 },
-      { name: "Joash Papalii",                     pos: "five-eighth",    tryRate: 0.25 },
-      { name: "Sean Russell",                      pos: "centre",         tryRate: 0.4 },
-      { name: "Brian Kelly",                       pos: "wing",           tryRate: 0.3 },
-      { name: "Ronald Volkman",                    pos: "halfback",       tryRate: 0.4286 },
+      { name: "Josh Addo-Carr",                    pos: "wing",           tryRate: 0.5 },
+      { name: "Isaiah Iongi",                      pos: "fullback",       tryRate: 0.5 },
+      { name: "Joash Papalii",                     pos: "five-eighth",    tryRate: 0.3077 },
+      { name: "Sean Russell",                      pos: "centre",         tryRate: 0.3636 },
+      { name: "Brian Kelly",                       pos: "wing",           tryRate: 0.2727 },
+      { name: "Ronald Volkman",                    pos: "halfback",       tryRate: 0.375 },
     ],
   },
 

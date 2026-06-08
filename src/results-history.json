@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-06-07T12:58:26Z",
+  "updatedAt": "2026-06-08T16:59:26Z",
   "season": 2026,
-  "totalFavRecord": "66-41",
-  "totalLineRecord": "21-11",
-  "totalOuRecord": "14O-18U",
+  "totalFavRecord": "67-41",
+  "totalLineRecord": "21-12",
+  "totalOuRecord": "14O-19U",
   "rounds": [
     {
       "round": 1,
@@ -1716,11 +1716,26 @@
           "ouTotal": 54.5,
           "ouResult": "Under",
           "oddsSourced": true
+        },
+        {
+          "homeTeam": "Canterbury Bulldogs",
+          "awayTeam": "Parramatta Eels",
+          "homeScore": 14,
+          "awayScore": 12,
+          "winner": "Canterbury Bulldogs",
+          "margin": 2,
+          "favourite": "Canterbury Bulldogs",
+          "favouriteWon": true,
+          "linePoint": -5.5,
+          "lineCovered": false,
+          "ouTotal": 51.5,
+          "ouResult": "Under",
+          "oddsSourced": true
         }
       ],
-      "favRecord": "6-1",
-      "lineRecord": "5-2",
-      "ouRecord": "3O-4U"
+      "favRecord": "7-1",
+      "lineRecord": "5-3",
+      "ouRecord": "3O-5U"
     }
   ]
 }
