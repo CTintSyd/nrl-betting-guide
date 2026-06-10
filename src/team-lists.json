@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-09T06:07:30.084988+00:00",
+  "generatedAt": "2026-06-10T06:21:50.358174+00:00",
   "round": 15,
   "games": [
     {
@@ -1661,9 +1661,23 @@
       {
         "name": "Jack Wighton",
         "injury": "Arm",
-        "expectedReturn": "Round 18",
+        "expectedReturn": "Round 17",
         "imageUrl": "/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500005/Jack%20Wighton_260115_Rabbitohs302.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/south-sydney-rabbitohs/jack-wighton/"
+      },
+      {
+        "name": "Campbell Graham",
+        "injury": "Calf",
+        "expectedReturn": "Round 19",
+        "imageUrl": "/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500005/Campbell%20Graham_260113_Rabbitohs_MK0508.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/south-sydney-rabbitohs/campbell--graham/"
+      },
+      {
+        "name": "Sean Keppie",
+        "injury": "Thumb",
+        "expectedReturn": "Round 23",
+        "imageUrl": "/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500005/Sean%20Keppie_260113_Rabbitohs_MK0670.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/south-sydney-rabbitohs/sean-keppie/"
       },
       {
         "name": "Talanoa Penitani",
@@ -1671,13 +1685,6 @@
         "expectedReturn": "Round 26",
         "imageUrl": "/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500005/Talanoa%20Penitani_260113_Rabbitohs_MK1195.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/south-sydney-rabbitohs/talanoa-penitani/"
-      },
-      {
-        "name": "Campbell Graham",
-        "injury": "Calf",
-        "expectedReturn": "TBC",
-        "imageUrl": "/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500005/Campbell%20Graham_260113_Rabbitohs_MK0508.png?center=0.5%2C0.5",
-        "profileUrl": "https://www.nrl.com/players/nrl-premiership/south-sydney-rabbitohs/campbell--graham/"
       },
       {
         "name": "Isaiah Tass",
@@ -1918,6 +1925,13 @@
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/warriors/samuel-healey/"
       },
       {
+        "name": "Haizyn Mellars",
+        "injury": "Hamstring",
+        "expectedReturn": "Round 17",
+        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500032/Haizyn%20Mellars_005.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/warriors/haizyn-mellars/"
+      },
+      {
         "name": "James Fisher-Harris",
         "injury": "Calf",
         "expectedReturn": "TBC",
@@ -1930,13 +1944,6 @@
         "expectedReturn": "TBC",
         "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500032/Leka%20Halasima-003.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/warriors/leka-halasima/"
-      },
-      {
-        "name": "Haizyn Mellars",
-        "injury": "Hamstring",
-        "expectedReturn": "TBC",
-        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500032/Haizyn%20Mellars_005.png?center=0.5%2C0.5",
-        "profileUrl": "https://www.nrl.com/players/nrl-premiership/warriors/haizyn-mellars/"
       },
       {
         "name": "Tanah Boyd",

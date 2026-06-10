@@ -1,10 +1,14 @@
 {
-  "generatedAt": "2026-06-09T06:07:30Z",
+  "generatedAt": "2026-06-10T06:21:50Z",
   "matches": {
     "South Sydney Rabbitohs vs Brisbane Broncos": {
       "homeTeam": "South Sydney Rabbitohs",
       "awayTeam": "Brisbane Broncos",
-      "referee": null,
+      "referee": {
+        "name": "Grant Atkins",
+        "url": "https://www.nrl.com/operations/the-officials/match-officials/grant-atkins/",
+        "img": "https://www.nrl.com/contentassets/0586ab6a55114404b178558792347181/atkinsg-referees-2023_nrl_0125-head-shot.png?center=0.38%2C0.51"
+      },
       "groundConditions": "Good",
       "weather": "Fine",
       "seasonStats": {
@@ -123,7 +127,11 @@
     "Dolphins vs Sydney Roosters": {
       "homeTeam": "Dolphins",
       "awayTeam": "Sydney Roosters",
-      "referee": null,
+      "referee": {
+        "name": "Todd Smith",
+        "url": "https://www.nrl.com/operations/the-officials/match-officials/todd-smith/",
+        "img": "https://www.nrl.com/contentassets/765ef5db144a4768a36293699599c0a8/smitht-referees-2023_nrl_0100-head-shot.png?center=0.41%2C0.5"
+      },
       "groundConditions": "Good",
       "weather": "Fine",
       "seasonStats": {
@@ -242,7 +250,11 @@
     "New Zealand Warriors vs Cronulla Sutherland Sharks": {
       "homeTeam": "New Zealand Warriors",
       "awayTeam": "Cronulla Sutherland Sharks",
-      "referee": null,
+      "referee": {
+        "name": "Gerard Sutton",
+        "url": "https://www.nrl.com/operations/the-officials/match-officials/gerard-sutton/",
+        "img": "https://www.nrl.com/contentassets/edf145e59b4740599097b4e68dc011fc/suttong-referees-2023_nrl_0152-head-shot.png?center=0.38%2C0.51"
+      },
       "groundConditions": "Good",
       "weather": "Fine",
       "seasonStats": {
@@ -361,7 +373,11 @@
     "Parramatta Eels vs Canberra Raiders": {
       "homeTeam": "Parramatta Eels",
       "awayTeam": "Canberra Raiders",
-      "referee": null,
+      "referee": {
+        "name": "Ziggy Przeklasa-Adamski",
+        "url": "https://www.nrl.com/operations/the-officials/match-officials/ziggy-przeklasa-adamski/",
+        "img": "https://www.nrl.com/contentassets/a5aba089520043ceb9f2397d032f5ee3/przedklasa-adamskiz-referees-2023_nrl_0118-head-shot.png?center=0.4%2C0.51"
+      },
       "groundConditions": "Good",
       "weather": "Fine",
       "seasonStats": {
@@ -480,7 +496,11 @@
     "Wests Tigers vs Gold Coast Titans": {
       "homeTeam": "Wests Tigers",
       "awayTeam": "Gold Coast Titans",
-      "referee": null,
+      "referee": {
+        "name": "Wyatt Raymond",
+        "url": "https://www.nrl.com/operations/the-officials/match-officials/wyatt-raymond/",
+        "img": "https://www.nrl.com/contentassets/34ac6810f7c94b009f0b5f0cdb10a21e/raymondwyatt-referees-2023_nrl_0065-head-shot.png?center=0.38%2C0.51"
+      },
       "groundConditions": "Good",
       "weather": "Fine",
       "seasonStats": {
