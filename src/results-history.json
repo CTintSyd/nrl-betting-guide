@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-06-11T06:59:18Z",
+  "updatedAt": "2026-06-11T14:02:27Z",
   "season": 2026,
-  "totalFavRecord": "64-44",
-  "totalLineRecord": "16-10",
-  "totalOuRecord": "11O-15U",
+  "totalFavRecord": "65-44",
+  "totalLineRecord": "17-10",
+  "totalOuRecord": "12O-15U",
   "rounds": [
     {
       "round": 1,
@@ -1736,6 +1736,29 @@
       "favRecord": "7-1",
       "lineRecord": "5-3",
       "ouRecord": "3O-5U"
+    },
+    {
+      "round": 15,
+      "games": [
+        {
+          "homeTeam": "South Sydney Rabbitohs",
+          "awayTeam": "Brisbane Broncos",
+          "homeScore": 48,
+          "awayScore": 6,
+          "winner": "South Sydney Rabbitohs",
+          "margin": 42,
+          "favourite": "South Sydney Rabbitohs",
+          "favouriteWon": true,
+          "linePoint": -3.5,
+          "lineCovered": true,
+          "ouTotal": 50.5,
+          "ouResult": "Over",
+          "oddsSourced": true
+        }
+      ],
+      "favRecord": "1-0",
+      "lineRecord": "1-0",
+      "ouRecord": "1O-0U"
     }
   ]
 }
