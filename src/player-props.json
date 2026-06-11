@@ -1,13 +1,7 @@
 {
-  "updated": "2026-06-10T15:21:42.614Z",
+  "updated": "2026-06-11T15:45:21.806Z",
   "quotaRemaining": null,
   "games": {
-    "South Sydney Rabbitohs vs Brisbane Broncos": {
-      "homeTeam": "South Sydney Rabbitohs",
-      "awayTeam": "Brisbane Broncos",
-      "available": false,
-      "error": "API 422: {\"message\":\"Invalid markets: player_anytime_try_scorer, player_first_try_scorer\",\"error_code\":\"INVALID_MARKET\",\"details_url\":\"https://the-odds-api.com/liveapi/guides/v4/api-error-codes.html#invalid-market\"}\n"
-    },
     "Dolphins vs Sydney Roosters": {
       "homeTeam": "Dolphins",
       "awayTeam": "Sydney Roosters",
