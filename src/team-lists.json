@@ -1,13 +1,7 @@
 {
-  "generatedAt": "2026-06-12T08:17:24.043886+00:00",
+  "generatedAt": "2026-06-12T11:57:51.124412+00:00",
   "round": 15,
   "games": [
-    {
-      "matchCentreUrl": "/draw/nrl-premiership/2026/round-15/dolphins-v-roosters/",
-      "kickoff": "2026-06-12T10:00:00Z",
-      "homeTeam": "Dolphins",
-      "awayTeam": "Sydney Roosters"
-    },
     {
       "matchCentreUrl": "/draw/nrl-premiership/2026/round-15/warriors-v-sharks/",
       "kickoff": "2026-06-13T07:30:00Z",
@@ -28,250 +22,6 @@
     }
   ],
   "teams": {
-    "Dolphins": [
-      {
-        "number": 1,
-        "name": "Trai Fuller",
-        "position": "Fullback",
-        "category": "starting"
-      },
-      {
-        "number": 2,
-        "name": "Jamayne Isaako",
-        "position": "Winger",
-        "category": "starting"
-      },
-      {
-        "number": 3,
-        "name": "Jack Bostock",
-        "position": "Centre",
-        "category": "starting"
-      },
-      {
-        "number": 4,
-        "name": "Herbie Farnworth",
-        "position": "Centre",
-        "category": "starting"
-      },
-      {
-        "number": 5,
-        "name": "Tevita Naufahu",
-        "position": "Winger",
-        "category": "starting"
-      },
-      {
-        "number": 6,
-        "name": "Kodi Nikorima",
-        "position": "Five-Eighth",
-        "category": "starting"
-      },
-      {
-        "number": 7,
-        "name": "Isaiya Katoa",
-        "position": "Halfback",
-        "category": "starting"
-      },
-      {
-        "number": 8,
-        "name": "Felise Kaufusi",
-        "position": "Prop",
-        "category": "starting"
-      },
-      {
-        "number": 9,
-        "name": "Jeremy Marshall-King",
-        "position": "Hooker",
-        "category": "starting"
-      },
-      {
-        "number": 10,
-        "name": "Francis Molo",
-        "position": "Prop",
-        "category": "starting"
-      },
-      {
-        "number": 11,
-        "name": "Connelly Lemuelu",
-        "position": "2nd Row",
-        "category": "starting"
-      },
-      {
-        "number": 12,
-        "name": "Oryn Keeley",
-        "position": "2nd Row",
-        "category": "starting"
-      },
-      {
-        "number": 13,
-        "name": "Morgan Knowles",
-        "position": "Lock",
-        "category": "starting"
-      },
-      {
-        "number": 14,
-        "name": "Bradley Schneider",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
-        "number": 15,
-        "name": "Kurt Donoghoe",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
-        "number": 16,
-        "name": "Tom Gilbert",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
-        "number": 17,
-        "name": "Ray Stone",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
-        "number": 18,
-        "name": "Sebastian Su'a",
-        "position": "Interchange",
-        "category": "reserve"
-      },
-      {
-        "number": 19,
-        "name": "Brian Pouniu",
-        "position": "Interchange",
-        "category": "reserve"
-      },
-      {
-        "number": 20,
-        "name": "John Fineanganofo",
-        "position": "Reserve",
-        "category": "reserve"
-      }
-    ],
-    "Sydney Roosters": [
-      {
-        "number": 1,
-        "name": "Cody Ramsey",
-        "position": "Fullback",
-        "category": "starting"
-      },
-      {
-        "number": 2,
-        "name": "Billy Smith",
-        "position": "Winger",
-        "category": "starting"
-      },
-      {
-        "number": 3,
-        "name": "Reece Foley",
-        "position": "Centre",
-        "category": "starting"
-      },
-      {
-        "number": 4,
-        "name": "Egan Butcher",
-        "position": "Centre",
-        "category": "starting"
-      },
-      {
-        "number": 5,
-        "name": "Tommy Talau",
-        "position": "Winger",
-        "category": "starting"
-      },
-      {
-        "number": 6,
-        "name": "Hugo Savala",
-        "position": "Five-Eighth",
-        "category": "starting"
-      },
-      {
-        "number": 7,
-        "name": "Daly Cherry-Evans",
-        "position": "Halfback",
-        "category": "starting"
-      },
-      {
-        "number": 8,
-        "name": "Naufahu Whyte",
-        "position": "Prop",
-        "category": "starting"
-      },
-      {
-        "number": 9,
-        "name": "Connor Watson",
-        "position": "Hooker",
-        "category": "starting"
-      },
-      {
-        "number": 10,
-        "name": "Spencer Leniu",
-        "position": "Prop",
-        "category": "starting"
-      },
-      {
-        "number": 11,
-        "name": "Angus Crichton",
-        "position": "2nd Row",
-        "category": "starting"
-      },
-      {
-        "number": 12,
-        "name": "Siua Wong",
-        "position": "2nd Row",
-        "category": "starting"
-      },
-      {
-        "number": 13,
-        "name": "Salesi Foketi",
-        "position": "Lock",
-        "category": "starting"
-      },
-      {
-        "number": 14,
-        "name": "Benaiah Ioelu",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
-        "number": 15,
-        "name": "Taylor Losalu",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
-        "number": 16,
-        "name": "Nat Butcher",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
-        "number": 17,
-        "name": "Rex Bassingthwaighte",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
-        "number": 18,
-        "name": "De La Salle Va'a",
-        "position": "Interchange",
-        "category": "reserve"
-      },
-      {
-        "number": 20,
-        "name": "Junior Tupou",
-        "position": "Reserve",
-        "category": "reserve"
-      },
-      {
-        "number": 21,
-        "name": "Toby Rodwell",
-        "position": "Interchange",
-        "category": "reserve"
-      }
-    ],
     "New Zealand Warriors": [
       {
         "number": 1,
@@ -632,18 +382,6 @@
         "category": "reserve"
       },
       {
-        "number": 20,
-        "name": "Toni Mataele",
-        "position": "Reserve",
-        "category": "reserve"
-      },
-      {
-        "number": 21,
-        "name": "Ryley Smith",
-        "position": "Reserve",
-        "category": "reserve"
-      },
-      {
         "number": 22,
         "name": "Araz Nanva",
         "position": "Reserve",
@@ -768,18 +506,6 @@
       {
         "number": 20,
         "name": "Jordan Uta",
-        "position": "Reserve",
-        "category": "reserve"
-      },
-      {
-        "number": 21,
-        "name": "Jake Clydsdale",
-        "position": "Reserve",
-        "category": "reserve"
-      },
-      {
-        "number": 22,
-        "name": "Sione Finau",
         "position": "Reserve",
         "category": "reserve"
       }
@@ -1360,6 +1086,13 @@
       }
     ],
     "Sydney Roosters": [
+      {
+        "name": "Hugo Savala",
+        "injury": "Head knock",
+        "expectedReturn": "TBC",
+        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500001/Hugo%20Savala%20260203_Roosters1064.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/roosters/hugo-savala/"
+      },
       {
         "name": "Daniel Tupou",
         "injury": "Calf",

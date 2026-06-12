@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-06-12T08:17:29Z",
+  "updatedAt": "2026-06-12T11:58:01Z",
   "season": 2026,
-  "totalFavRecord": "65-44",
-  "totalLineRecord": "17-10",
-  "totalOuRecord": "12O-15U",
+  "totalFavRecord": "66-44",
+  "totalLineRecord": "18-10",
+  "totalOuRecord": "13O-15U",
   "rounds": [
     {
       "round": 1,
@@ -1754,11 +1754,26 @@
           "ouTotal": 50.5,
           "ouResult": "Over",
           "oddsSourced": true
+        },
+        {
+          "homeTeam": "Dolphins",
+          "awayTeam": "Sydney Roosters",
+          "homeScore": 48,
+          "awayScore": 10,
+          "winner": "Dolphins",
+          "margin": 38,
+          "favourite": "Dolphins",
+          "favouriteWon": true,
+          "linePoint": -2.5,
+          "lineCovered": true,
+          "ouTotal": 51.5,
+          "ouResult": "Over",
+          "oddsSourced": true
         }
       ],
-      "favRecord": "1-0",
-      "lineRecord": "1-0",
-      "ouRecord": "1O-0U"
+      "favRecord": "2-0",
+      "lineRecord": "2-0",
+      "ouRecord": "2O-0U"
     }
   ]
 }

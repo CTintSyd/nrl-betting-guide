@@ -1,6 +1,49 @@
 {
-  "updated": "2026-06-12T08:17:25Z",
+  "updated": "2026-06-12T11:57:52Z",
   "articles": [
+    {
+      "title": "LIVE: Dolphins vs Roosters – Round 15, 2026",
+      "url": "https://www.zerotackle.com/live-dolphins-roosters-round-15-2026-mc10396427-234626/",
+      "description": "The Dolphins face the Sydney Roosters in Round 15 of the 2026 NRL season. Follow the live scores, team lists, match statistics and key moments from the game at Suncorp Stadium.",
+      "date": "Fri, 15 May 2026 10:00:00 +0000",
+      "teams": [
+        "Dolphins",
+        "Sydney Roosters"
+      ],
+      "isRound": true
+    },
+    {
+      "title": "Updated Team Lists: Eels vs Raiders – Round 15, 2026",
+      "url": "https://www.zerotackle.com/updated-team-lists-eels-vs-raiders-10396429-234758/",
+      "description": "The Eels and Raiders have cut their squads to 20 ahead of tomorrow's match at CommBank Stadium.",
+      "date": "Fri, 12 Jun 2026 09:41:06 +0000",
+      "teams": [
+        "Parramatta Eels",
+        "Canberra Raiders"
+      ],
+      "isRound": true
+    },
+    {
+      "title": "FINAL TEAMS: Dolphins vs Roosters – Round 15, 2026",
+      "url": "https://www.zerotackle.com/updated-team-lists-dolphins-roosters-10396427-234728/",
+      "description": "LATE MAIL: The Dolphins and Roosters have confirmed their lineups for the match at Suncorp Stadium.",
+      "date": "Fri, 12 Jun 2026 08:29:06 +0000",
+      "teams": [
+        "Dolphins",
+        "Sydney Roosters"
+      ],
+      "isRound": true
+    },
+    {
+      "title": "Ricky Stuart reveals Josh Papalii’s Raiders future",
+      "url": "https://www.zerotackle.com/ricky-stuart-reveals-josh-papaliis-raiders-future-234753/",
+      "description": "He is off-contract again at the end of 2026.",
+      "date": "Fri, 12 Jun 2026 08:20:42 +0000",
+      "teams": [
+        "Canberra Raiders"
+      ],
+      "isRound": false
+    },
     {
       "title": "Panthers re-sign try-scoring star on long-term deal",
       "url": "https://www.zerotackle.com/panthers-re-sign-try-scoring-star-on-long-term-deal-234752/",
@@ -52,26 +95,6 @@
         "Manly Warringah Sea Eagles"
       ],
       "isRound": false
-    },
-    {
-      "title": "Dolphins facing uphill battle to retain Herbie Farnworth",
-      "url": "https://www.zerotackle.com/dolphins-facing-uphill-battle-to-retain-herbie-farnworth-234746/",
-      "description": "A Sydney club has emerged as an option for Farnworth if he were to go to the open market.",
-      "date": "Fri, 12 Jun 2026 02:49:39 +0000",
-      "teams": [
-        "Dolphins"
-      ],
-      "isRound": false
-    },
-    {
-      "title": "Warriors secure rising forward on long-term deal",
-      "url": "https://www.zerotackle.com/warriors-secure-rising-forward-on-long-term-deal-234735/",
-      "description": "Andrew Webster has rewarded his form with a call-up to the NRL team this week.",
-      "date": "Fri, 12 Jun 2026 00:58:27 +0000",
-      "teams": [
-        "New Zealand Warriors"
-      ],
-      "isRound": true
     }
   ]
 }

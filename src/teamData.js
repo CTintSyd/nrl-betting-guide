@@ -54,12 +54,12 @@ const NRL_TEAM_DATA = {
   'Dolphins': {
     emoji: '🐬', shortName: 'Dolphins', venue: 'Suncorp Stadium', wikiPage: 'Dolphins_NRL', logoFile: 'dolphins.png',
     players: [
-      { name: "Jamayne Isaako",                    pos: "wing",           tryRate: 0.9167 },
+      { name: "Jamayne Isaako",                    pos: "wing",           tryRate: 0.8462 },
       { name: "Hamiso Tabuai-Fidow",               pos: "fullback",       tryRate: 0.7273 },
-      { name: "Isaiya Katoa",                      pos: "halfback",       tryRate: 0.0833 },
+      { name: "Isaiya Katoa",                      pos: "halfback",       tryRate: 0.1538 },
       { name: "Selwyn Cobbo",                      pos: "wing",           tryRate: 0.7273 },
+      { name: "Herbie Farnworth",                  pos: "centre",         tryRate: 0.5 },
       { name: "Jake Averillo",                     pos: "centre",         tryRate: 0.8571 },
-      { name: "Herbie Farnworth",                  pos: "centre",         tryRate: 0.4545 },
     ],
   },
 
@@ -188,10 +188,10 @@ const NRL_TEAM_DATA = {
     players: [
       { name: "Mark Nawaqanitawase",               pos: "wing",           tryRate: 1.1111 },
       { name: "James Tedesco",                     pos: "fullback",       tryRate: 0.5 },
-      { name: "Sam Walker",                        pos: "halfback",       tryRate: 0.4167 },
+      { name: "Hugo Savala",                       pos: "five-eighth",    tryRate: 0.6 },
       { name: "Daniel Tupou",                      pos: "wing",           tryRate: 0.8 },
       { name: "Robert Toia",                       pos: "centre",         tryRate: 0.5455 },
-      { name: "Hugo Savala",                       pos: "centre",         tryRate: 0.6667 },
+      { name: "Sam Walker",                        pos: "halfback",       tryRate: 0.4167 },
     ],
   },
 

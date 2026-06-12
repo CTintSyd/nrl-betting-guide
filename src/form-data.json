@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-12T08:17:20.494487+00:00",
+  "generatedAt": "2026-06-12T11:57:46.459227+00:00",
   "round": 15,
   "upcomingRound": 15,
   "ladder": [
@@ -47,20 +47,34 @@
     },
     {
       "pos": 4,
+      "nick": "Dolphins",
+      "name": "Dolphins",
+      "played": 13,
+      "wins": 8,
+      "losses": 5,
+      "drawn": 0,
+      "ptsFor": 378,
+      "ptsAgainst": 263,
+      "diff": 115,
+      "pts": 20,
+      "streak": "4W"
+    },
+    {
+      "pos": 5,
       "nick": "Roosters",
       "name": "Sydney Roosters",
-      "played": 12,
+      "played": 13,
       "wins": 8,
-      "losses": 4,
+      "losses": 5,
       "drawn": 0,
-      "ptsFor": 323,
-      "ptsAgainst": 250,
-      "diff": 73,
+      "ptsFor": 333,
+      "ptsAgainst": 298,
+      "diff": 35,
       "pts": 20,
       "streak": "1W"
     },
     {
-      "pos": 5,
+      "pos": 6,
       "nick": "Knights",
       "name": "Newcastle Knights",
       "played": 13,
@@ -74,7 +88,7 @@
       "streak": "1L"
     },
     {
-      "pos": 6,
+      "pos": 7,
       "nick": "Rabbitohs",
       "name": "South Sydney Rabbitohs",
       "played": 13,
@@ -86,20 +100,6 @@
       "diff": 86,
       "pts": 18,
       "streak": "1W"
-    },
-    {
-      "pos": 7,
-      "nick": "Dolphins",
-      "name": "Dolphins",
-      "played": 12,
-      "wins": 7,
-      "losses": 5,
-      "drawn": 0,
-      "ptsFor": 330,
-      "ptsAgainst": 253,
-      "diff": 77,
-      "pts": 18,
-      "streak": "4W"
     },
     {
       "pos": 8,
@@ -390,7 +390,7 @@
       ]
     },
     "Dolphins": {
-      "last5": "W W W W",
+      "last5": "W W W W W",
       "games": [
         {
           "round": 10,
@@ -419,6 +419,13 @@
           "opponent": "North Queensland Cowboys",
           "home": false,
           "score": "14\u201340"
+        },
+        {
+          "round": 15,
+          "result": "W",
+          "opponent": "Sydney Roosters",
+          "home": true,
+          "score": "48\u201310"
         }
       ]
     },
@@ -781,7 +788,7 @@
       ]
     },
     "Sydney Roosters": {
-      "last5": "W L L W",
+      "last5": "W L L W L",
       "games": [
         {
           "round": 10,
@@ -810,6 +817,13 @@
           "opponent": "Canberra Raiders",
           "home": false,
           "score": "0\u201326"
+        },
+        {
+          "round": 15,
+          "result": "L",
+          "opponent": "Dolphins",
+          "home": false,
+          "score": "48\u201310"
         }
       ]
     },
