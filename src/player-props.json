@@ -1,13 +1,7 @@
 {
-  "updated": "2026-06-11T15:45:21.806Z",
+  "updated": "2026-06-12T14:46:30.073Z",
   "quotaRemaining": null,
   "games": {
-    "Dolphins vs Sydney Roosters": {
-      "homeTeam": "Dolphins",
-      "awayTeam": "Sydney Roosters",
-      "available": false,
-      "error": "API 422: {\"message\":\"Invalid markets: player_anytime_try_scorer, player_first_try_scorer\",\"error_code\":\"INVALID_MARKET\",\"details_url\":\"https://the-odds-api.com/liveapi/guides/v4/api-error-codes.html#invalid-market\"}\n"
-    },
     "New Zealand Warriors vs Cronulla Sutherland Sharks": {
       "homeTeam": "New Zealand Warriors",
       "awayTeam": "Cronulla Sutherland Sharks",
@@ -32,12 +26,6 @@
       "available": false,
       "error": "API 422: {\"message\":\"Invalid markets: player_anytime_try_scorer, player_first_try_scorer\",\"error_code\":\"INVALID_MARKET\",\"details_url\":\"https://the-odds-api.com/liveapi/guides/v4/api-error-codes.html#invalid-market\"}\n"
     },
-    "Wests Tigers vs Dolphins": {
-      "homeTeam": "Wests Tigers",
-      "awayTeam": "Dolphins",
-      "available": false,
-      "error": "API 422: {\"message\":\"Invalid markets: player_anytime_try_scorer, player_first_try_scorer\",\"error_code\":\"INVALID_MARKET\",\"details_url\":\"https://the-odds-api.com/liveapi/guides/v4/api-error-codes.html#invalid-market\"}\n"
-    },
     "Gold Coast Titans vs Penrith Panthers": {
       "homeTeam": "Gold Coast Titans",
       "awayTeam": "Penrith Panthers",
@@ -59,12 +47,6 @@
     "Melbourne Storm vs Canberra Raiders": {
       "homeTeam": "Melbourne Storm",
       "awayTeam": "Canberra Raiders",
-      "available": false,
-      "error": "API 422: {\"message\":\"Invalid markets: player_anytime_try_scorer, player_first_try_scorer\",\"error_code\":\"INVALID_MARKET\",\"details_url\":\"https://the-odds-api.com/liveapi/guides/v4/api-error-codes.html#invalid-market\"}\n"
-    },
-    "Sydney Roosters vs Cronulla Sutherland Sharks": {
-      "homeTeam": "Sydney Roosters",
-      "awayTeam": "Cronulla Sutherland Sharks",
       "available": false,
       "error": "API 422: {\"message\":\"Invalid markets: player_anytime_try_scorer, player_first_try_scorer\",\"error_code\":\"INVALID_MARKET\",\"details_url\":\"https://the-odds-api.com/liveapi/guides/v4/api-error-codes.html#invalid-market\"}\n"
     }
