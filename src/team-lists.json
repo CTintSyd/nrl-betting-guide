@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-11T14:02:16.036792+00:00",
+  "generatedAt": "2026-06-12T08:17:24.043886+00:00",
   "round": 15,
   "games": [
     {
@@ -382,12 +382,6 @@
         "category": "reserve"
       },
       {
-        "number": 20,
-        "name": "Jye Linnane",
-        "position": "Reserve",
-        "category": "reserve"
-      },
-      {
         "number": 21,
         "name": "Luke Metcalf",
         "position": "Reserve",
@@ -396,13 +390,7 @@
       {
         "number": 22,
         "name": "Charnze Nicoll-Klokstad",
-        "position": "Reserve",
-        "category": "reserve"
-      },
-      {
-        "number": 23,
-        "name": "Jacob Auloa",
-        "position": "Reserve",
+        "position": "Interchange",
         "category": "reserve"
       }
     ],
@@ -524,18 +512,6 @@
       {
         "number": 20,
         "name": "Sione Katoa",
-        "position": "Reserve",
-        "category": "reserve"
-      },
-      {
-        "number": 21,
-        "name": "Michael Gabrael",
-        "position": "Reserve",
-        "category": "reserve"
-      },
-      {
-        "number": 22,
-        "name": "Blake Hosking",
         "position": "Reserve",
         "category": "reserve"
       }
@@ -1551,7 +1527,7 @@
       {
         "name": "James Fisher-Harris",
         "injury": "Calf",
-        "expectedReturn": "TBC",
+        "expectedReturn": "Round 19",
         "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500032/James%20Fisher-Harris-003.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/warriors/james-fisher-harris/"
       },
