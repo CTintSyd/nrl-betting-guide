@@ -19,11 +19,11 @@ const NRL_TEAM_DATA = {
     emoji: '🔋', shortName: 'Raiders', venue: 'GIO Stadium', wikiPage: 'Canberra_Raiders', logoFile: 'canberra-raiders.svg',
     players: [
       { name: "Savelio Tamale",                    pos: "wing",           tryRate: 0.5 },
-      { name: "Kaeo Weekes",                       pos: "fullback",       tryRate: 0.6154 },
+      { name: "Kaeo Weekes",                       pos: "fullback",       tryRate: 0.5714 },
       { name: "Ethan Strange",                     pos: "five-eighth",    tryRate: 0.3636 },
-      { name: "Sebastian Kris",                    pos: "centre",         tryRate: 0.3636 },
+      { name: "Sebastian Kris",                    pos: "centre",         tryRate: 0.3333 },
       { name: "Simi Sasagi",                       pos: "lock",           tryRate: 0.4444 },
-      { name: "Xavier Savage",                     pos: "wing",           tryRate: 0.5 },
+      { name: "Xavier Savage",                     pos: "wing",           tryRate: 0.4444 },
     ],
   },
 
@@ -138,12 +138,12 @@ const NRL_TEAM_DATA = {
   'Parramatta Eels': {
     emoji: '🐟', shortName: 'Eels', venue: 'CommBank Stadium', wikiPage: 'Parramatta_Eels', logoFile: 'parramatta-eels.svg',
     players: [
-      { name: "Josh Addo-Carr",                    pos: "wing",           tryRate: 0.5 },
-      { name: "Isaiah Iongi",                      pos: "fullback",       tryRate: 0.5 },
-      { name: "Joash Papalii",                     pos: "five-eighth",    tryRate: 0.3077 },
-      { name: "Sean Russell",                      pos: "centre",         tryRate: 0.3636 },
-      { name: "Brian Kelly",                       pos: "wing",           tryRate: 0.2727 },
-      { name: "Ronald Volkman",                    pos: "halfback",       tryRate: 0.375 },
+      { name: "Josh Addo-Carr",                    pos: "wing",           tryRate: 0.4615 },
+      { name: "Isaiah Iongi",                      pos: "fullback",       tryRate: 0.4286 },
+      { name: "Joash Papalii",                     pos: "five-eighth",    tryRate: 0.2857 },
+      { name: "Sean Russell",                      pos: "centre",         tryRate: 0.3333 },
+      { name: "Kelma Tuilagi",                     pos: "lock",           tryRate: 0.2308 },
+      { name: "Brian Kelly",                       pos: "wing",           tryRate: 0.25 },
     ],
   },
 

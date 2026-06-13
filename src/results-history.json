@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-06-13T10:36:11Z",
+  "updatedAt": "2026-06-13T12:18:24Z",
   "season": 2026,
-  "totalFavRecord": "66-45",
-  "totalLineRecord": "18-11",
-  "totalOuRecord": "13O-16U",
+  "totalFavRecord": "64-48",
+  "totalLineRecord": "14-11",
+  "totalOuRecord": "11O-14U",
   "rounds": [
     {
       "round": 1,
@@ -1423,13 +1423,13 @@
           "awayScore": 30,
           "winner": "Dolphins",
           "margin": 8,
-          "favourite": "Dolphins",
-          "favouriteWon": true,
-          "linePoint": 0.5,
-          "lineCovered": true,
-          "ouTotal": 49.5,
-          "ouResult": "Over",
-          "oddsSourced": true
+          "favourite": "Canberra Raiders",
+          "favouriteWon": false,
+          "linePoint": null,
+          "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
+          "oddsSourced": false
         },
         {
           "homeTeam": "Canterbury Bulldogs",
@@ -1440,11 +1440,11 @@
           "margin": 10,
           "favourite": "Canterbury Bulldogs",
           "favouriteWon": true,
-          "linePoint": -2.5,
-          "lineCovered": true,
-          "ouTotal": 49.5,
-          "ouResult": "Over",
-          "oddsSourced": true
+          "linePoint": null,
+          "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
+          "oddsSourced": false
         },
         {
           "homeTeam": "St George Illawarra Dragons",
@@ -1453,13 +1453,13 @@
           "awayScore": 30,
           "winner": "New Zealand Warriors",
           "margin": 18,
-          "favourite": "New Zealand Warriors",
-          "favouriteWon": true,
-          "linePoint": 10.5,
-          "lineCovered": true,
-          "ouTotal": 50.5,
-          "ouResult": "Under",
-          "oddsSourced": true
+          "favourite": "St George Illawarra Dragons",
+          "favouriteWon": false,
+          "linePoint": null,
+          "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
+          "oddsSourced": false
         },
         {
           "homeTeam": "Manly Warringah Sea Eagles",
@@ -1470,11 +1470,11 @@
           "margin": 2,
           "favourite": "Manly Warringah Sea Eagles",
           "favouriteWon": true,
-          "linePoint": -11.5,
-          "lineCovered": false,
-          "ouTotal": 53.5,
-          "ouResult": "Under",
-          "oddsSourced": true
+          "linePoint": null,
+          "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
+          "oddsSourced": false
         },
         {
           "homeTeam": "North Queensland Cowboys",
@@ -1485,16 +1485,16 @@
           "margin": 12,
           "favourite": "North Queensland Cowboys",
           "favouriteWon": true,
-          "linePoint": -1.5,
-          "lineCovered": true,
-          "ouTotal": 53.5,
-          "ouResult": "Under",
-          "oddsSourced": true
+          "linePoint": null,
+          "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
+          "oddsSourced": false
         }
       ],
-      "favRecord": "5-0",
-      "lineRecord": "4-1",
-      "ouRecord": "2O-3U"
+      "favRecord": "3-2",
+      "lineRecord": null,
+      "ouRecord": null
     },
     {
       "round": 13,
@@ -1784,11 +1784,26 @@
           "ouTotal": 49.5,
           "ouResult": "Under",
           "oddsSourced": true
+        },
+        {
+          "homeTeam": "Parramatta Eels",
+          "awayTeam": "Canberra Raiders",
+          "homeScore": 15,
+          "awayScore": 12,
+          "winner": "Parramatta Eels",
+          "margin": 3,
+          "favourite": "Canberra Raiders",
+          "favouriteWon": false,
+          "linePoint": 3.5,
+          "lineCovered": false,
+          "ouTotal": 50.5,
+          "ouResult": "Under",
+          "oddsSourced": true
         }
       ],
-      "favRecord": "2-1",
-      "lineRecord": "2-1",
-      "ouRecord": "2O-1U"
+      "favRecord": "2-2",
+      "lineRecord": "2-2",
+      "ouRecord": "2O-2U"
     }
   ]
 }
