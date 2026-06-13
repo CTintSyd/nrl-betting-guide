@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-13T07:53:53.562948+00:00",
+  "generatedAt": "2026-06-13T10:35:47.626741+00:00",
   "round": 15,
   "players": {
     "Kalyn Ponga": {
@@ -802,29 +802,29 @@
     },
     "Charnze Nicoll-Klokstad": {
       "tries": 3,
-      "games": 5,
-      "tryRate": 0.6,
+      "games": 6,
+      "tryRate": 0.5,
       "team": "New Zealand Warriors",
-      "position": "Fullback"
+      "position": "Interchange"
     },
     "Dallin Watene-Zelezniak": {
       "tries": 14,
-      "games": 12,
-      "tryRate": 1.1667,
+      "games": 13,
+      "tryRate": 1.0769,
       "team": "New Zealand Warriors",
       "position": "Winger"
     },
     "Ali Leiataua": {
       "tries": 3,
-      "games": 9,
-      "tryRate": 0.3333,
+      "games": 10,
+      "tryRate": 0.3,
       "team": "New Zealand Warriors",
       "position": "Centre"
     },
     "Adam Pompey": {
       "tries": 1,
-      "games": 7,
-      "tryRate": 0.1429,
+      "games": 8,
+      "tryRate": 0.125,
       "team": "New Zealand Warriors",
       "position": "Centre"
     },
@@ -837,8 +837,8 @@
     },
     "Chanel Harris-Tavita": {
       "tries": 3,
-      "games": 11,
-      "tryRate": 0.2727,
+      "games": 12,
+      "tryRate": 0.25,
       "team": "New Zealand Warriors",
       "position": "Five-Eighth"
     },
@@ -858,15 +858,15 @@
     },
     "Wayde Egan": {
       "tries": 1,
-      "games": 12,
-      "tryRate": 0.0833,
+      "games": 13,
+      "tryRate": 0.0769,
       "team": "New Zealand Warriors",
       "position": "Hooker"
     },
     "Jackson Ford": {
       "tries": 4,
-      "games": 12,
-      "tryRate": 0.3333,
+      "games": 13,
+      "tryRate": 0.3077,
       "team": "New Zealand Warriors",
       "position": "Prop"
     },
@@ -879,15 +879,15 @@
     },
     "Jacob Laban": {
       "tries": 2,
-      "games": 12,
-      "tryRate": 0.1667,
+      "games": 13,
+      "tryRate": 0.1538,
       "team": "New Zealand Warriors",
       "position": "2nd Row"
     },
     "Erin Clark": {
       "tries": 4,
-      "games": 12,
-      "tryRate": 0.3333,
+      "games": 13,
+      "tryRate": 0.3077,
       "team": "New Zealand Warriors",
       "position": "Lock"
     },
@@ -900,7 +900,7 @@
     },
     "Demitric Vaimauga": {
       "tries": 0,
-      "games": 12,
+      "games": 13,
       "tryRate": 0.0,
       "team": "New Zealand Warriors",
       "position": "Interchange"
@@ -914,15 +914,15 @@
     },
     "Tanner Stowers-Smith": {
       "tries": 0,
-      "games": 9,
+      "games": 10,
       "tryRate": 0.0,
       "team": "New Zealand Warriors",
-      "position": "Interchange"
+      "position": "Prop"
     },
     "Taine Tuaupiki": {
       "tries": 2,
-      "games": 12,
-      "tryRate": 0.1667,
+      "games": 13,
+      "tryRate": 0.1538,
       "team": "New Zealand Warriors",
       "position": "Fullback"
     },
@@ -1334,29 +1334,29 @@
     },
     "William Kennedy": {
       "tries": 6,
-      "games": 12,
-      "tryRate": 0.5,
+      "games": 13,
+      "tryRate": 0.4615,
       "team": "Cronulla Sutherland Sharks",
       "position": "Fullback"
     },
     "Sione Katoa": {
       "tries": 2,
-      "games": 6,
-      "tryRate": 0.3333,
+      "games": 7,
+      "tryRate": 0.2857,
       "team": "Cronulla Sutherland Sharks",
       "position": "Winger"
     },
     "Jesse Ramien": {
-      "tries": 2,
-      "games": 7,
-      "tryRate": 0.2857,
+      "tries": 3,
+      "games": 8,
+      "tryRate": 0.375,
       "team": "Cronulla Sutherland Sharks",
       "position": "Centre"
     },
     "KL Iro": {
       "tries": 9,
-      "games": 11,
-      "tryRate": 0.8182,
+      "games": 12,
+      "tryRate": 0.75,
       "team": "Cronulla Sutherland Sharks",
       "position": "Centre"
     },
@@ -1369,8 +1369,8 @@
     },
     "Braydon Trindall": {
       "tries": 7,
-      "games": 12,
-      "tryRate": 0.5833,
+      "games": 13,
+      "tryRate": 0.5385,
       "team": "Cronulla Sutherland Sharks",
       "position": "Five-Eighth"
     },
@@ -1397,8 +1397,8 @@
     },
     "Thomas Hazelton": {
       "tries": 1,
-      "games": 12,
-      "tryRate": 0.0833,
+      "games": 13,
+      "tryRate": 0.0769,
       "team": "Cronulla Sutherland Sharks",
       "position": "Interchange"
     },
@@ -1411,38 +1411,38 @@
     },
     "Billy Burns": {
       "tries": 4,
-      "games": 12,
-      "tryRate": 0.3333,
+      "games": 13,
+      "tryRate": 0.3077,
       "team": "Cronulla Sutherland Sharks",
-      "position": "Interchange"
+      "position": "2nd Row"
     },
     "Jesse Colquhoun": {
       "tries": 3,
-      "games": 12,
-      "tryRate": 0.25,
+      "games": 13,
+      "tryRate": 0.2308,
       "team": "Cronulla Sutherland Sharks",
-      "position": "Interchange"
+      "position": "Prop"
     },
     "Siosifa Talakai": {
       "tries": 3,
-      "games": 12,
-      "tryRate": 0.25,
+      "games": 13,
+      "tryRate": 0.2308,
       "team": "Cronulla Sutherland Sharks",
-      "position": "Reserve"
+      "position": "Interchange"
     },
     "Toby Rudolf": {
       "tries": 0,
-      "games": 12,
+      "games": 13,
       "tryRate": 0.0,
       "team": "Cronulla Sutherland Sharks",
       "position": "Prop"
     },
     "Oregon Kaufusi": {
       "tries": 0,
-      "games": 10,
+      "games": 11,
       "tryRate": 0.0,
       "team": "Cronulla Sutherland Sharks",
-      "position": "Reserve"
+      "position": "Interchange"
     },
     "Braden Uele": {
       "tries": 0,
@@ -1453,8 +1453,8 @@
     },
     "Hohepa Puru": {
       "tries": 1,
-      "games": 10,
-      "tryRate": 0.1,
+      "games": 11,
+      "tryRate": 0.0909,
       "team": "Cronulla Sutherland Sharks",
       "position": "Hooker"
     },
@@ -2153,7 +2153,7 @@
     },
     "Eddie Ieremia-Toeava": {
       "tries": 0,
-      "games": 6,
+      "games": 7,
       "tryRate": 0.0,
       "team": "New Zealand Warriors",
       "position": "Interchange"
@@ -2489,15 +2489,15 @@
     },
     "Marata Niukore": {
       "tries": 1,
-      "games": 6,
-      "tryRate": 0.1667,
+      "games": 7,
+      "tryRate": 0.1429,
       "team": "New Zealand Warriors",
-      "position": "Interchange"
+      "position": "2nd Row"
     },
     "Alofiana Khan-Pereira": {
       "tries": 9,
-      "games": 8,
-      "tryRate": 1.125,
+      "games": 9,
+      "tryRate": 1.0,
       "team": "New Zealand Warriors",
       "position": "Winger"
     },
@@ -2510,15 +2510,15 @@
     },
     "Mawene Hiroti": {
       "tries": 2,
-      "games": 9,
-      "tryRate": 0.2222,
+      "games": 10,
+      "tryRate": 0.2,
       "team": "Cronulla Sutherland Sharks",
-      "position": "Centre"
+      "position": "Reserve"
     },
     "Teig Wilton": {
       "tries": 6,
-      "games": 10,
-      "tryRate": 0.6,
+      "games": 11,
+      "tryRate": 0.5455,
       "team": "Cronulla Sutherland Sharks",
       "position": "2nd Row"
     },
@@ -2825,7 +2825,7 @@
     },
     "Jayden Berrell": {
       "tries": 0,
-      "games": 4,
+      "games": 5,
       "tryRate": 0.0,
       "team": "Cronulla Sutherland Sharks",
       "position": "Interchange"
@@ -3021,7 +3021,7 @@
     },
     "Cameron McInnes": {
       "tries": 0,
-      "games": 5,
+      "games": 6,
       "tryRate": 0.0,
       "team": "Cronulla Sutherland Sharks",
       "position": "Lock"
@@ -3105,7 +3105,7 @@
     },
     "Kayliss Fatialofa": {
       "tries": 0,
-      "games": 3,
+      "games": 4,
       "tryRate": 0.0,
       "team": "New Zealand Warriors",
       "position": "Reserve"
@@ -3203,8 +3203,8 @@
     },
     "Ronaldo Mulitalo": {
       "tries": 4,
-      "games": 3,
-      "tryRate": 1.3333,
+      "games": 4,
+      "tryRate": 1.0,
       "team": "Cronulla Sutherland Sharks",
       "position": "Winger"
     },
@@ -3251,8 +3251,8 @@
       "position": "Interchange"
     },
     "Te Maire Martin": {
-      "tries": 3,
-      "games": 3,
+      "tries": 4,
+      "games": 4,
       "tryRate": 1.0,
       "team": "New Zealand Warriors",
       "position": "Halfback"
@@ -3308,8 +3308,8 @@
     },
     "Niwhai Puru": {
       "tries": 1,
-      "games": 2,
-      "tryRate": 0.5,
+      "games": 3,
+      "tryRate": 0.3333,
       "team": "Cronulla Sutherland Sharks",
       "position": "Halfback"
     },
@@ -3368,6 +3368,27 @@
       "tryRate": 0.0,
       "team": "Sydney Roosters",
       "position": "Interchange"
+    },
+    "Makaia Tafua": {
+      "tries": 0,
+      "games": 1,
+      "tryRate": 0.0,
+      "team": "New Zealand Warriors",
+      "position": "Interchange"
+    },
+    "Jason Salalilo": {
+      "tries": 0,
+      "games": 1,
+      "tryRate": 0.0,
+      "team": "New Zealand Warriors",
+      "position": "Reserve"
+    },
+    "Tuku Hau Tapuha": {
+      "tries": 0,
+      "games": 1,
+      "tryRate": 0.0,
+      "team": "Cronulla Sutherland Sharks",
+      "position": "Reserve"
     }
   }
 }

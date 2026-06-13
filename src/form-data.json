@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-13T07:54:02.016634+00:00",
+  "generatedAt": "2026-06-13T10:35:54.446857+00:00",
   "round": 15,
   "upcomingRound": 15,
   "ladder": [
@@ -21,15 +21,15 @@
       "pos": 2,
       "nick": "Warriors",
       "name": "New Zealand Warriors",
-      "played": 12,
+      "played": 13,
       "wins": 9,
-      "losses": 3,
+      "losses": 4,
       "drawn": 0,
-      "ptsFor": 368,
-      "ptsAgainst": 214,
-      "diff": 154,
+      "ptsFor": 376,
+      "ptsAgainst": 224,
+      "diff": 152,
       "pts": 22,
-      "streak": "1L"
+      "streak": "2L"
     },
     {
       "pos": 3,
@@ -61,6 +61,20 @@
     },
     {
       "pos": 5,
+      "nick": "Sharks",
+      "name": "Cronulla Sutherland Sharks",
+      "played": 13,
+      "wins": 8,
+      "losses": 5,
+      "drawn": 0,
+      "ptsFor": 366,
+      "ptsAgainst": 302,
+      "diff": 64,
+      "pts": 20,
+      "streak": "4W"
+    },
+    {
+      "pos": 6,
       "nick": "Roosters",
       "name": "Sydney Roosters",
       "played": 13,
@@ -74,7 +88,7 @@
       "streak": "1L"
     },
     {
-      "pos": 6,
+      "pos": 7,
       "nick": "Knights",
       "name": "Newcastle Knights",
       "played": 13,
@@ -88,7 +102,7 @@
       "streak": "1L"
     },
     {
-      "pos": 7,
+      "pos": 8,
       "nick": "Rabbitohs",
       "name": "South Sydney Rabbitohs",
       "played": 13,
@@ -100,20 +114,6 @@
       "diff": 86,
       "pts": 18,
       "streak": "1W"
-    },
-    {
-      "pos": 8,
-      "nick": "Sharks",
-      "name": "Cronulla Sutherland Sharks",
-      "played": 12,
-      "wins": 7,
-      "losses": 5,
-      "drawn": 0,
-      "ptsFor": 356,
-      "ptsAgainst": 294,
-      "diff": 62,
-      "pts": 18,
-      "streak": "3W"
     },
     {
       "pos": 9,
@@ -357,7 +357,7 @@
       ]
     },
     "Cronulla Sutherland Sharks": {
-      "last5": "L W W W",
+      "last5": "L W W W W",
       "games": [
         {
           "round": 10,
@@ -386,6 +386,13 @@
           "opponent": "St George Illawarra Dragons",
           "home": true,
           "score": "34\u201312"
+        },
+        {
+          "round": 15,
+          "result": "W",
+          "opponent": "New Zealand Warriors",
+          "home": false,
+          "score": "8\u201310"
         }
       ]
     },
@@ -543,7 +550,7 @@
       ]
     },
     "New Zealand Warriors": {
-      "last5": "W W L",
+      "last5": "W W L L",
       "games": [
         {
           "round": 11,
@@ -565,6 +572,13 @@
           "opponent": "Penrith Panthers",
           "home": false,
           "score": "20\u201318"
+        },
+        {
+          "round": 15,
+          "result": "L",
+          "opponent": "Cronulla Sutherland Sharks",
+          "home": true,
+          "score": "8\u201310"
         }
       ]
     },

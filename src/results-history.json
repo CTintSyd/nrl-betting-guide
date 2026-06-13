@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-06-13T07:54:19Z",
+  "updatedAt": "2026-06-13T10:36:11Z",
   "season": 2026,
-  "totalFavRecord": "66-44",
-  "totalLineRecord": "18-10",
-  "totalOuRecord": "13O-15U",
+  "totalFavRecord": "66-45",
+  "totalLineRecord": "18-11",
+  "totalOuRecord": "13O-16U",
   "rounds": [
     {
       "round": 1,
@@ -1769,11 +1769,26 @@
           "ouTotal": 51.5,
           "ouResult": "Over",
           "oddsSourced": true
+        },
+        {
+          "homeTeam": "New Zealand Warriors",
+          "awayTeam": "Cronulla Sutherland Sharks",
+          "homeScore": 8,
+          "awayScore": 10,
+          "winner": "Cronulla Sutherland Sharks",
+          "margin": 2,
+          "favourite": "New Zealand Warriors",
+          "favouriteWon": false,
+          "linePoint": -8.5,
+          "lineCovered": false,
+          "ouTotal": 49.5,
+          "ouResult": "Under",
+          "oddsSourced": true
         }
       ],
-      "favRecord": "2-0",
-      "lineRecord": "2-0",
-      "ouRecord": "2O-0U"
+      "favRecord": "2-1",
+      "lineRecord": "2-1",
+      "ouRecord": "2O-1U"
     }
   ]
 }

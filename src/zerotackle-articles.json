@@ -1,14 +1,36 @@
 {
-  "updated": "2026-06-13T07:54:10Z",
+  "updated": "2026-06-13T10:36:02Z",
   "articles": [
     {
-      "title": "LIVE: Warriors vs Sharks – Round 15, 2026",
-      "url": "https://www.zerotackle.com/live-warriors-sharks-round-15-2026-mc10396428-234624/",
+      "title": "LIVE: Eels vs Raiders – Round 15, 2026",
+      "url": "https://www.zerotackle.com/live-eels-raiders-round-15-2026-mc10396429-234622/",
+      "description": "The Parramatta Eels face the Canberra Raiders in Round 15 of the 2026 NRL season. Follow the live scores, team lists, match statistics and key moments from the game at CommBank Stadium.",
+      "date": "Sat, 16 May 2026 09:30:00 +0000",
+      "teams": [
+        "Parramatta Eels",
+        "Canberra Raiders"
+      ],
+      "isRound": true
+    },
+    {
+      "title": "FULL TIME: Warriors vs Sharks – Round 15, 2026",
+      "url": "https://www.zerotackle.com/fulltime-warriors-sharks-round-15-2026-mc10396428-234624/",
       "description": "The New Zealand Warriors face the Cronulla Sharks in Round 15 of the 2026 NRL season. Follow the live scores, team lists, match statistics and key moments from the game at Go Media Stadium.",
       "date": "Sat, 16 May 2026 07:30:00 +0000",
       "teams": [
         "Cronulla Sutherland Sharks",
         "New Zealand Warriors"
+      ],
+      "isRound": true
+    },
+    {
+      "title": "FINAL TEAMS: Eels vs Raiders – Round 15, 2026",
+      "url": "https://www.zerotackle.com/updated-team-lists-eels-raiders-10396429-234758/",
+      "description": "LATE MAIL: The Eels and Raiders have confirmed their lineups for the match at CommBank Stadium.",
+      "date": "Sat, 13 Jun 2026 08:05:51 +0000",
+      "teams": [
+        "Parramatta Eels",
+        "Canberra Raiders"
       ],
       "isRound": true
     },

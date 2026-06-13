@@ -43,11 +43,11 @@ const NRL_TEAM_DATA = {
     emoji: '🦈', shortName: 'Sharks', venue: 'PointsBet Stadium', wikiPage: 'Cronulla-Sutherland_Sharks', logoFile: 'cronulla-sharks.svg',
     players: [
       { name: "Samuel Stonestreet",                pos: "wing",           tryRate: 0.3333 },
-      { name: "William Kennedy",                   pos: "fullback",       tryRate: 0.5 },
-      { name: "Braydon Trindall",                  pos: "five-eighth",    tryRate: 0.5833 },
-      { name: "KL Iro",                            pos: "centre",         tryRate: 0.8182 },
-      { name: "Teig Wilton",                       pos: "lock",           tryRate: 0.6 },
-      { name: "Nicholas Hynes",                    pos: "halfback",       tryRate: 0.4 },
+      { name: "William Kennedy",                   pos: "fullback",       tryRate: 0.4615 },
+      { name: "Braydon Trindall",                  pos: "five-eighth",    tryRate: 0.5385 },
+      { name: "KL Iro",                            pos: "centre",         tryRate: 0.75 },
+      { name: "Teig Wilton",                       pos: "lock",           tryRate: 0.5455 },
+      { name: "Billy Burns",                       pos: "lock",           tryRate: 0.3077 },
     ],
   },
 
@@ -114,12 +114,12 @@ const NRL_TEAM_DATA = {
   'New Zealand Warriors': {
     emoji: '⚔️', shortName: 'Warriors', venue: 'Go Media Stadium', wikiPage: 'New_Zealand_Warriors', logoFile: 'new-zealand-warriors.svg',
     players: [
-      { name: "Dallin Watene-Zelezniak",           pos: "wing",           tryRate: 1.1667 },
-      { name: "Charnze Nicoll-Klokstad",           pos: "fullback",       tryRate: 0.6 },
-      { name: "Chanel Harris-Tavita",              pos: "five-eighth",    tryRate: 0.2727 },
-      { name: "Alofiana Khan-Pereira",             pos: "wing",           tryRate: 1.125 },
+      { name: "Dallin Watene-Zelezniak",           pos: "wing",           tryRate: 1.0769 },
+      { name: "Taine Tuaupiki",                    pos: "fullback",       tryRate: 0.1538 },
+      { name: "Te Maire Martin",                   pos: "halfback",       tryRate: 1.0 },
+      { name: "Alofiana Khan-Pereira",             pos: "wing",           tryRate: 1.0 },
       { name: "Leka Halasima",                     pos: "lock",           tryRate: 0.4167 },
-      { name: "Jackson Ford",                      pos: "prop",           tryRate: 0.3333 },
+      { name: "Jackson Ford",                      pos: "prop",           tryRate: 0.3077 },
     ],
   },
 
