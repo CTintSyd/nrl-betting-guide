@@ -66,11 +66,11 @@ const NRL_TEAM_DATA = {
   'Gold Coast Titans': {
     emoji: '🌊', shortName: 'Titans', venue: 'Cbus Super Stadium', wikiPage: 'Gold_Coast_Titans', logoFile: 'gold-coast-titans.svg',
     players: [
-      { name: "Phillip Sami",                      pos: "wing",           tryRate: 0.5 },
-      { name: "Keano Kini",                        pos: "fullback",       tryRate: 0.1667 },
-      { name: "Jayden Campbell",                   pos: "five-eighth",    tryRate: 0.6 },
+      { name: "Phillip Sami",                      pos: "wing",           tryRate: 0.5385 },
+      { name: "Keano Kini",                        pos: "fullback",       tryRate: 0.1538 },
+      { name: "Jayden Campbell",                   pos: "five-eighth",    tryRate: 0.6364 },
+      { name: "Arama Hau",                         pos: "lock",           tryRate: 0.3846 },
       { name: "Jojo Fifita",                       pos: "centre",         tryRate: 0.4545 },
-      { name: "Arama Hau",                         pos: "lock",           tryRate: 0.3333 },
       { name: "Sialetili Faeamani",                pos: "wing",           tryRate: 0.5 },
     ],
   },
@@ -198,12 +198,12 @@ const NRL_TEAM_DATA = {
   'Wests Tigers': {
     emoji: '🐯', shortName: 'Tigers', venue: 'Campbelltown Stadium', wikiPage: 'Wests_Tigers', logoFile: 'wests-tigers.svg',
     players: [
-      { name: "Luke Laulilii",                     pos: "wing",           tryRate: 0.6667 },
-      { name: "Jahream Bula",                      pos: "fullback",       tryRate: 0.6667 },
+      { name: "Sunia Turuva",                      pos: "wing",           tryRate: 0.3077 },
+      { name: "Jahream Bula",                      pos: "fullback",       tryRate: 0.6 },
       { name: "Adam Doueihi",                      pos: "halfback",       tryRate: 0.625 },
-      { name: "Taylan May",                        pos: "centre",         tryRate: 0.8333 },
-      { name: "Sunia Turuva",                      pos: "centre",         tryRate: 0.3333 },
-      { name: "Kai Pearce-Paul",                   pos: "lock",           tryRate: 0.3636 },
+      { name: "Taylan May",                        pos: "centre",         tryRate: 0.8571 },
+      { name: "Kai Pearce-Paul",                   pos: "lock",           tryRate: 0.3333 },
+      { name: "Jarome Luai",                       pos: "five-eighth",    tryRate: 0.4 },
     ],
   },
 };

@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-13T14:40:31.698178+00:00",
+  "generatedAt": "2026-06-14T08:10:26.951122+00:00",
   "round": 15,
-  "upcomingRound": 15,
+  "upcomingRound": 16,
   "ladder": [
     {
       "pos": 1,
@@ -133,15 +133,15 @@
       "pos": 10,
       "nick": "Wests Tigers",
       "name": "Wests Tigers",
-      "played": 12,
-      "wins": 6,
+      "played": 13,
+      "wins": 7,
       "losses": 6,
       "drawn": 0,
-      "ptsFor": 275,
-      "ptsAgainst": 353,
-      "diff": -78,
-      "pts": 16,
-      "streak": "1L"
+      "ptsFor": 311,
+      "ptsAgainst": 381,
+      "diff": -70,
+      "pts": 18,
+      "streak": "1W"
     },
     {
       "pos": 11,
@@ -217,15 +217,15 @@
       "pos": 16,
       "nick": "Titans",
       "name": "Gold Coast Titans",
-      "played": 12,
+      "played": 13,
       "wins": 3,
-      "losses": 9,
+      "losses": 10,
       "drawn": 0,
-      "ptsFor": 220,
-      "ptsAgainst": 303,
-      "diff": -83,
+      "ptsFor": 248,
+      "ptsAgainst": 339,
+      "diff": -91,
       "pts": 10,
-      "streak": "1W"
+      "streak": "1L"
     },
     {
       "pos": 17,
@@ -444,7 +444,7 @@
       ]
     },
     "Gold Coast Titans": {
-      "last5": "L L L W",
+      "last5": "L L L W L",
       "games": [
         {
           "round": 10,
@@ -473,6 +473,13 @@
           "opponent": "Brisbane Broncos",
           "home": false,
           "score": "23\u201328"
+        },
+        {
+          "round": 15,
+          "result": "L",
+          "opponent": "Wests Tigers",
+          "home": false,
+          "score": "36\u201328"
         }
       ]
     },
@@ -856,7 +863,7 @@
       ]
     },
     "Wests Tigers": {
-      "last5": "L L W L",
+      "last5": "L L W L W",
       "games": [
         {
           "round": 10,
@@ -885,6 +892,13 @@
           "opponent": "Penrith Panthers",
           "home": true,
           "score": "0\u201368"
+        },
+        {
+          "round": 15,
+          "result": "W",
+          "opponent": "Gold Coast Titans",
+          "home": true,
+          "score": "36\u201328"
         }
       ]
     }

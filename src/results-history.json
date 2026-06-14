@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-06-13T14:40:41Z",
+  "updatedAt": "2026-06-14T08:10:43Z",
   "season": 2026,
-  "totalFavRecord": "64-48",
-  "totalLineRecord": "14-11",
-  "totalOuRecord": "11O-14U",
+  "totalFavRecord": "65-48",
+  "totalLineRecord": "14-12",
+  "totalOuRecord": "12O-14U",
   "rounds": [
     {
       "round": 1,
@@ -1799,11 +1799,26 @@
           "ouTotal": 50.5,
           "ouResult": "Under",
           "oddsSourced": true
+        },
+        {
+          "homeTeam": "Wests Tigers",
+          "awayTeam": "Gold Coast Titans",
+          "homeScore": 36,
+          "awayScore": 28,
+          "winner": "Wests Tigers",
+          "margin": 8,
+          "favourite": "Wests Tigers",
+          "favouriteWon": true,
+          "linePoint": -9.5,
+          "lineCovered": false,
+          "ouTotal": 50.5,
+          "ouResult": "Over",
+          "oddsSourced": true
         }
       ],
-      "favRecord": "2-2",
-      "lineRecord": "2-2",
-      "ouRecord": "2O-2U"
+      "favRecord": "3-2",
+      "lineRecord": "2-3",
+      "ouRecord": "3O-2U"
     }
   ]
 }
