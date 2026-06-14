@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T08:10:32.411498+00:00",
+  "generatedAt": "2026-06-14T11:08:46.368896+00:00",
   "round": 16,
   "games": [
     {
@@ -625,6 +625,13 @@
         "expectedReturn": "TBC",
         "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500023/Royce%20Hunt%20260106_MK1612.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/wests-tigers/royce-hunt/"
+      },
+      {
+        "name": "Kai Pearce-Paul",
+        "injury": "Pectoral",
+        "expectedReturn": "TBC",
+        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500023/Kai_Pearce_Paul_41.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/wests-tigers/kai-pearce-paul/"
       }
     ]
   }
