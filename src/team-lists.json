@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-14T13:04:09.553909+00:00",
+  "generatedAt": "2026-06-15T10:28:51.124079+00:00",
   "round": 16,
   "games": [
     {
@@ -391,9 +391,16 @@
     ],
     "Sydney Roosters": [
       {
+        "name": "Reece Foley",
+        "injury": "Concussion",
+        "expectedReturn": "Round 17",
+        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500001/Reece%20Foley%20260203_Roosters729.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/roosters/reece-foley/"
+      },
+      {
         "name": "Hugo Savala",
-        "injury": "Head knock",
-        "expectedReturn": "TBC",
+        "injury": "Concussion",
+        "expectedReturn": "Round 17",
         "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500001/Hugo%20Savala%20260203_Roosters1064.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/roosters/hugo-savala/"
       },
