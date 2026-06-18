@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-18T07:01:19.498062+00:00",
+  "generatedAt": "2026-06-18T12:57:26.303825+00:00",
   "round": 16,
   "games": [
     {
@@ -47,12 +47,6 @@
   ],
   "teams": {
     "Newcastle Knights": [
-      {
-        "number": 1,
-        "name": "Kalyn Ponga",
-        "position": "Fullback",
-        "category": "starting"
-      },
       {
         "number": 2,
         "name": "Dominic Young",
@@ -138,12 +132,6 @@
         "category": "interchange"
       },
       {
-        "number": 16,
-        "name": "Pasami Saulo",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
         "number": 17,
         "name": "Cody Hopwood",
         "position": "Interchange",
@@ -152,7 +140,7 @@
       {
         "number": 18,
         "name": "Fletcher Hunt",
-        "position": "Interchange",
+        "position": "Fullback",
         "category": "reserve"
       },
       {
@@ -164,13 +152,13 @@
       {
         "number": 20,
         "name": "Sandon Smith",
-        "position": "Reserve",
+        "position": "Interchange",
         "category": "reserve"
       },
       {
         "number": 21,
         "name": "Tyson Gamble",
-        "position": "Reserve",
+        "position": "Interchange",
         "category": "reserve"
       },
       {
@@ -296,20 +284,8 @@
         "category": "reserve"
       },
       {
-        "number": 20,
-        "name": "Hame Sele",
-        "position": "Reserve",
-        "category": "reserve"
-      },
-      {
         "number": 21,
         "name": "Lyhkan King-Togia",
-        "position": "Reserve",
-        "category": "reserve"
-      },
-      {
-        "number": 22,
-        "name": "Christian Tuipulotu",
         "position": "Reserve",
         "category": "reserve"
       }
