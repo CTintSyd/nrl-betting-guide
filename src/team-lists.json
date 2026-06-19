@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-18T12:57:26.303825+00:00",
+  "generatedAt": "2026-06-19T08:58:55.034884+00:00",
   "round": 16,
   "games": [
     {
@@ -74,7 +74,7 @@
       {
         "number": 6,
         "name": "Fletcher Sharpe",
-        "position": "Five-Eighth",
+        "position": "Fullback",
         "category": "starting"
       },
       {
@@ -99,12 +99,6 @@
         "number": 10,
         "name": "Trey Mooney",
         "position": "Prop",
-        "category": "starting"
-      },
-      {
-        "number": 11,
-        "name": "Dylan Lucas",
-        "position": "2nd Row",
         "category": "starting"
       },
       {
@@ -140,19 +134,19 @@
       {
         "number": 18,
         "name": "Fletcher Hunt",
-        "position": "Fullback",
+        "position": "Interchange",
         "category": "reserve"
       },
       {
         "number": 19,
         "name": "Francis Manuleleua",
-        "position": "Interchange",
+        "position": "2nd Row",
         "category": "reserve"
       },
       {
         "number": 20,
         "name": "Sandon Smith",
-        "position": "Interchange",
+        "position": "Five-Eighth",
         "category": "reserve"
       },
       {
@@ -164,7 +158,7 @@
       {
         "number": 22,
         "name": "James Schiller",
-        "position": "Reserve",
+        "position": "Interchange",
         "category": "reserve"
       }
     ],
@@ -281,12 +275,6 @@
         "number": 19,
         "name": "Tyrell Sloan",
         "position": "Interchange",
-        "category": "reserve"
-      },
-      {
-        "number": 21,
-        "name": "Lyhkan King-Togia",
-        "position": "Reserve",
         "category": "reserve"
       }
     ],
@@ -410,18 +398,6 @@
         "name": "Heath Mason",
         "position": "Reserve",
         "category": "reserve"
-      },
-      {
-        "number": 21,
-        "name": "Peter Taateo",
-        "position": "Reserve",
-        "category": "reserve"
-      },
-      {
-        "number": 22,
-        "name": "Adam Doueihi",
-        "position": "Reserve",
-        "category": "reserve"
       }
     ],
     "Dolphins": [
@@ -459,12 +435,6 @@
         "number": 6,
         "name": "Kodi Nikorima",
         "position": "Five-Eighth",
-        "category": "starting"
-      },
-      {
-        "number": 7,
-        "name": "Isaiya Katoa",
-        "position": "Halfback",
         "category": "starting"
       },
       {
@@ -506,7 +476,7 @@
       {
         "number": 14,
         "name": "Bradley Schneider",
-        "position": "Interchange",
+        "position": "Halfback",
         "category": "interchange"
       },
       {
@@ -546,27 +516,9 @@
         "category": "reserve"
       },
       {
-        "number": 21,
-        "name": "LJ Nonu",
-        "position": "Reserve",
-        "category": "reserve"
-      },
-      {
-        "number": 22,
-        "name": "Sam Elliott",
-        "position": "Reserve",
-        "category": "reserve"
-      },
-      {
-        "number": 23,
-        "name": "Max Plath",
-        "position": "Reserve",
-        "category": "reserve"
-      },
-      {
         "number": 24,
         "name": "Kulikefu Finefeuiaki",
-        "position": "Reserve",
+        "position": "Interchange",
         "category": "reserve"
       }
     ],
@@ -626,12 +578,6 @@
         "category": "starting"
       },
       {
-        "number": 10,
-        "name": "Tino Fa'asuamaleaui",
-        "position": "Prop",
-        "category": "starting"
-      },
-      {
         "number": 11,
         "name": "Arama Hau",
         "position": "2nd Row",
@@ -664,7 +610,7 @@
       {
         "number": 16,
         "name": "Klese Haas",
-        "position": "Interchange",
+        "position": "Prop",
         "category": "interchange"
       },
       {
@@ -688,18 +634,12 @@
       {
         "number": 20,
         "name": "Sam Verrills",
-        "position": "Reserve",
+        "position": "Interchange",
         "category": "reserve"
       },
       {
         "number": 21,
         "name": "Adam Christensen",
-        "position": "Reserve",
-        "category": "reserve"
-      },
-      {
-        "number": 22,
-        "name": "Bodhi Sharpley",
         "position": "Reserve",
         "category": "reserve"
       }
@@ -822,24 +762,6 @@
       {
         "number": 20,
         "name": "Kalani Going",
-        "position": "Reserve",
-        "category": "reserve"
-      },
-      {
-        "number": 21,
-        "name": "Isaah Yeo",
-        "position": "Reserve",
-        "category": "reserve"
-      },
-      {
-        "number": 22,
-        "name": "Brian To'o",
-        "position": "Reserve",
-        "category": "reserve"
-      },
-      {
-        "number": 23,
-        "name": "Nathan Cleary",
         "position": "Reserve",
         "category": "reserve"
       }
@@ -2074,6 +1996,13 @@
         "expectedReturn": "Round 16",
         "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500723/Bodyshot-Averillo.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/dolphins/jake-averillo/"
+      },
+      {
+        "name": "Isaiya Katoa",
+        "injury": "Knee",
+        "expectedReturn": "TBC",
+        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500723/Bodyshot-Katoa.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/dolphins/isaiya-katoa/"
       }
     ],
     "St George Illawarra Dragons": [
@@ -2531,7 +2460,7 @@
       {
         "name": "Adam Doueihi",
         "injury": "Shoulder",
-        "expectedReturn": "Round 16",
+        "expectedReturn": "Round 17",
         "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500023/Adam%20Doueihi%20260106_MK365.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/wests-tigers/adam-doueihi/"
       },
