@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-19T08:58:46.237913+00:00",
-  "round": 15,
+  "generatedAt": "2026-06-19T12:46:09.009673+00:00",
+  "round": 16,
   "players": {
     "Kalyn Ponga": {
       "tries": 1,
@@ -11,64 +11,64 @@
     },
     "Dominic Young": {
       "tries": 14,
-      "games": 13,
-      "tryRate": 1.0769,
+      "games": 14,
+      "tryRate": 1.0,
       "team": "Newcastle Knights",
       "position": "Winger"
     },
     "Dane Gagai": {
       "tries": 2,
-      "games": 13,
-      "tryRate": 0.1538,
+      "games": 14,
+      "tryRate": 0.1429,
       "team": "Newcastle Knights",
       "position": "Centre"
     },
     "Bradman Best": {
       "tries": 2,
-      "games": 7,
-      "tryRate": 0.2857,
+      "games": 8,
+      "tryRate": 0.25,
       "team": "Newcastle Knights",
       "position": "Centre"
     },
     "Greg Marzhew": {
       "tries": 15,
-      "games": 12,
-      "tryRate": 1.25,
+      "games": 13,
+      "tryRate": 1.1538,
       "team": "Newcastle Knights",
       "position": "Winger"
     },
     "Fletcher Sharpe": {
-      "tries": 5,
-      "games": 11,
-      "tryRate": 0.4545,
+      "tries": 7,
+      "games": 12,
+      "tryRate": 0.5833,
       "team": "Newcastle Knights",
-      "position": "Five-Eighth"
+      "position": "Fullback"
     },
     "Dylan Brown": {
       "tries": 2,
-      "games": 9,
-      "tryRate": 0.2222,
+      "games": 10,
+      "tryRate": 0.2,
       "team": "Newcastle Knights",
       "position": "Halfback"
     },
     "Jacob Saifiti": {
       "tries": 1,
-      "games": 13,
-      "tryRate": 0.0769,
+      "games": 14,
+      "tryRate": 0.0714,
       "team": "Newcastle Knights",
       "position": "Prop"
     },
     "Phoenix Crossland": {
       "tries": 2,
-      "games": 13,
-      "tryRate": 0.1538,
+      "games": 14,
+      "tryRate": 0.1429,
       "team": "Newcastle Knights",
       "position": "Hooker"
     },
     "Trey Mooney": {
       "tries": 5,
-      "games": 12,
-      "tryRate": 0.4167,
+      "games": 13,
+      "tryRate": 0.3846,
       "team": "Newcastle Knights",
       "position": "Prop"
     },
@@ -88,31 +88,31 @@
     },
     "Tyson Frizell": {
       "tries": 2,
-      "games": 11,
-      "tryRate": 0.1818,
+      "games": 12,
+      "tryRate": 0.1667,
       "team": "Newcastle Knights",
       "position": "Interchange"
     },
     "Sandon Smith": {
-      "tries": 0,
-      "games": 12,
-      "tryRate": 0.0,
+      "tries": 1,
+      "games": 13,
+      "tryRate": 0.0769,
       "team": "Newcastle Knights",
       "position": "Five-Eighth"
     },
     "Mat Croker": {
       "tries": 0,
-      "games": 13,
+      "games": 14,
       "tryRate": 0.0,
       "team": "Newcastle Knights",
       "position": "Lock"
     },
     "Thomas Cant": {
       "tries": 0,
-      "games": 8,
+      "games": 9,
       "tryRate": 0.0,
       "team": "Newcastle Knights",
-      "position": "Interchange"
+      "position": "2nd Row"
     },
     "Pasami Saulo": {
       "tries": 0,
@@ -123,17 +123,17 @@
     },
     "Fletcher Hunt": {
       "tries": 7,
-      "games": 13,
-      "tryRate": 0.5385,
+      "games": 14,
+      "tryRate": 0.5,
       "team": "Newcastle Knights",
-      "position": "Centre"
+      "position": "Reserve"
     },
     "Francis Manuleleua": {
       "tries": 0,
-      "games": 9,
+      "games": 10,
       "tryRate": 0.0,
       "team": "Newcastle Knights",
-      "position": "Reserve"
+      "position": "2nd Row"
     },
     "Scott Drinkwater": {
       "tries": 7,
@@ -403,8 +403,8 @@
     },
     "Clinton Gutherson": {
       "tries": 1,
-      "games": 10,
-      "tryRate": 0.1,
+      "games": 11,
+      "tryRate": 0.0909,
       "team": "St George Illawarra Dragons",
       "position": "Fullback"
     },
@@ -423,60 +423,60 @@
       "position": "Centre"
     },
     "Valentine Holmes": {
-      "tries": 5,
-      "games": 13,
-      "tryRate": 0.3846,
+      "tries": 6,
+      "games": 14,
+      "tryRate": 0.4286,
       "team": "St George Illawarra Dragons",
       "position": "Centre"
     },
     "Setu Tu": {
-      "tries": 6,
-      "games": 11,
-      "tryRate": 0.5455,
+      "tries": 7,
+      "games": 12,
+      "tryRate": 0.5833,
       "team": "St George Illawarra Dragons",
       "position": "Winger"
     },
     "Kyle Flanagan": {
       "tries": 0,
-      "games": 12,
+      "games": 13,
       "tryRate": 0.0,
       "team": "St George Illawarra Dragons",
       "position": "Halfback"
     },
     "Daniel Atkinson": {
       "tries": 1,
-      "games": 12,
-      "tryRate": 0.0833,
+      "games": 13,
+      "tryRate": 0.0769,
       "team": "St George Illawarra Dragons",
       "position": "Five-Eighth"
     },
     "Emre Guler": {
       "tries": 1,
-      "games": 12,
-      "tryRate": 0.0833,
+      "games": 13,
+      "tryRate": 0.0769,
       "team": "St George Illawarra Dragons",
-      "position": "Interchange"
+      "position": "Reserve"
     },
     "Damien Cook": {
       "tries": 2,
-      "games": 13,
-      "tryRate": 0.1538,
+      "games": 14,
+      "tryRate": 0.1429,
       "team": "St George Illawarra Dragons",
       "position": "Hooker"
     },
     "Toby Couchman": {
       "tries": 0,
-      "games": 12,
+      "games": 13,
       "tryRate": 0.0,
       "team": "St George Illawarra Dragons",
       "position": "Prop"
     },
     "Luciano Leilua": {
       "tries": 2,
-      "games": 11,
-      "tryRate": 0.1818,
+      "games": 12,
+      "tryRate": 0.1667,
       "team": "St George Illawarra Dragons",
-      "position": "Reserve"
+      "position": "Interchange"
     },
     "Jaydn Su'A": {
       "tries": 1,
@@ -487,8 +487,8 @@
     },
     "Hamish Stewart": {
       "tries": 2,
-      "games": 13,
-      "tryRate": 0.1538,
+      "games": 14,
+      "tryRate": 0.1429,
       "team": "St George Illawarra Dragons",
       "position": "2nd Row"
     },
@@ -501,36 +501,36 @@
     },
     "Josh Kerr": {
       "tries": 0,
-      "games": 13,
+      "games": 14,
       "tryRate": 0.0,
       "team": "St George Illawarra Dragons",
       "position": "Interchange"
     },
     "Blake Lawrie": {
       "tries": 0,
-      "games": 13,
+      "games": 14,
       "tryRate": 0.0,
       "team": "St George Illawarra Dragons",
       "position": "Interchange"
     },
     "Ryan Couchman": {
       "tries": 0,
-      "games": 9,
+      "games": 10,
       "tryRate": 0.0,
       "team": "St George Illawarra Dragons",
       "position": "Lock"
     },
     "Lyhkan King-Togia": {
       "tries": 0,
-      "games": 9,
+      "games": 10,
       "tryRate": 0.0,
       "team": "St George Illawarra Dragons",
       "position": "Reserve"
     },
     "Mathew Feagai": {
       "tries": 2,
-      "games": 9,
-      "tryRate": 0.2222,
+      "games": 10,
+      "tryRate": 0.2,
       "team": "St George Illawarra Dragons",
       "position": "Winger"
     },
@@ -2384,8 +2384,8 @@
     },
     "Harrison Graham": {
       "tries": 1,
-      "games": 10,
-      "tryRate": 0.1,
+      "games": 11,
+      "tryRate": 0.0909,
       "team": "Newcastle Knights",
       "position": "Interchange"
     },
@@ -2468,17 +2468,17 @@
     },
     "Tyson Gamble": {
       "tries": 0,
-      "games": 4,
+      "games": 5,
       "tryRate": 0.0,
       "team": "Newcastle Knights",
       "position": "Reserve"
     },
     "Cody Hopwood": {
       "tries": 0,
-      "games": 10,
+      "games": 11,
       "tryRate": 0.0,
       "team": "Newcastle Knights",
-      "position": "Reserve"
+      "position": "Interchange"
     },
     "Luke Hanson": {
       "tries": 1,
@@ -2552,8 +2552,8 @@
     },
     "Jacob Liddle": {
       "tries": 1,
-      "games": 5,
-      "tryRate": 0.2,
+      "games": 6,
+      "tryRate": 0.1667,
       "team": "St George Illawarra Dragons",
       "position": "Interchange"
     },
@@ -2692,7 +2692,7 @@
     },
     "Loko Jnr Pasifiki Tonga": {
       "tries": 0,
-      "games": 8,
+      "games": 9,
       "tryRate": 0.0,
       "team": "St George Illawarra Dragons",
       "position": "Prop"
@@ -2705,11 +2705,11 @@
       "position": "Centre"
     },
     "Tyrell Sloan": {
-      "tries": 2,
-      "games": 9,
-      "tryRate": 0.2222,
+      "tries": 3,
+      "games": 10,
+      "tryRate": 0.3,
       "team": "St George Illawarra Dragons",
-      "position": "Reserve"
+      "position": "Centre"
     },
     "Kurt Donoghoe": {
       "tries": 1,
@@ -3056,10 +3056,10 @@
     },
     "James Schiller": {
       "tries": 0,
-      "games": 1,
+      "games": 2,
       "tryRate": 0.0,
       "team": "Newcastle Knights",
-      "position": "Winger"
+      "position": "Reserve"
     },
     "Asu Kepaoa": {
       "tries": 0,
@@ -3139,9 +3139,9 @@
       "position": "Centre"
     },
     "Dylan Egan": {
-      "tries": 0,
-      "games": 5,
-      "tryRate": 0.0,
+      "tries": 1,
+      "games": 6,
+      "tryRate": 0.1667,
       "team": "St George Illawarra Dragons",
       "position": "2nd Row"
     },

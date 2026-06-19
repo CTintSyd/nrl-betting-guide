@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-06-19T08:59:01Z",
+  "updatedAt": "2026-06-19T12:46:36Z",
   "season": 2026,
-  "totalFavRecord": "63-50",
-  "totalLineRecord": "15-14",
-  "totalOuRecord": "14O-15U",
+  "totalFavRecord": "64-50",
+  "totalLineRecord": "15-15",
+  "totalOuRecord": "14O-16U",
   "rounds": [
     {
       "round": 1,
@@ -1819,6 +1819,29 @@
       "favRecord": "3-2",
       "lineRecord": "2-3",
       "ouRecord": "3O-2U"
+    },
+    {
+      "round": 16,
+      "games": [
+        {
+          "homeTeam": "Newcastle Knights",
+          "awayTeam": "St George Illawarra Dragons",
+          "homeScore": 22,
+          "awayScore": 20,
+          "winner": "Newcastle Knights",
+          "margin": 2,
+          "favourite": "Newcastle Knights",
+          "favouriteWon": true,
+          "linePoint": -9.5,
+          "lineCovered": false,
+          "ouTotal": 49.5,
+          "ouResult": "Under",
+          "oddsSourced": true
+        }
+      ],
+      "favRecord": "1-0",
+      "lineRecord": "0-1",
+      "ouRecord": "0O-1U"
     }
   ]
 }

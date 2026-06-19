@@ -102,12 +102,12 @@ const NRL_TEAM_DATA = {
   'Newcastle Knights': {
     emoji: '⚔️', shortName: 'Knights', venue: 'McDonald Jones Stadium', wikiPage: 'Newcastle_Knights', logoFile: 'newcastle-knights.png',
     players: [
-      { name: "Greg Marzhew",                      pos: "wing",           tryRate: 1.25 },
-      { name: "Kalyn Ponga",                       pos: "fullback",       tryRate: 0.1429 },
-      { name: "Fletcher Sharpe",                   pos: "five-eighth",    tryRate: 0.4545 },
-      { name: "Dominic Young",                     pos: "wing",           tryRate: 1.0769 },
-      { name: "Fletcher Hunt",                     pos: "centre",         tryRate: 0.5385 },
+      { name: "Greg Marzhew",                      pos: "wing",           tryRate: 1.1538 },
+      { name: "Fletcher Sharpe",                   pos: "fullback",       tryRate: 0.5833 },
+      { name: "Dylan Brown",                       pos: "halfback",       tryRate: 0.2 },
+      { name: "Dominic Young",                     pos: "wing",           tryRate: 1.0 },
       { name: "Dylan Lucas",                       pos: "lock",           tryRate: 0.6364 },
+      { name: "Trey Mooney",                       pos: "prop",           tryRate: 0.3846 },
     ],
   },
 
@@ -174,12 +174,12 @@ const NRL_TEAM_DATA = {
   'St George Illawarra Dragons': {
     emoji: '🐉', shortName: 'Dragons', venue: 'Netstrata Jubilee Oval', wikiPage: 'St._George_Illawarra_Dragons', logoFile: 'st-george-illawarra.svg',
     players: [
-      { name: "Setu Tu",                           pos: "wing",           tryRate: 0.5455 },
-      { name: "Clinton Gutherson",                 pos: "fullback",       tryRate: 0.1 },
-      { name: "Daniel Atkinson",                   pos: "five-eighth",    tryRate: 0.0833 },
-      { name: "Valentine Holmes",                  pos: "centre",         tryRate: 0.3846 },
+      { name: "Setu Tu",                           pos: "wing",           tryRate: 0.5833 },
+      { name: "Clinton Gutherson",                 pos: "fullback",       tryRate: 0.0909 },
+      { name: "Daniel Atkinson",                   pos: "five-eighth",    tryRate: 0.0769 },
+      { name: "Valentine Holmes",                  pos: "centre",         tryRate: 0.4286 },
+      { name: "Tyrell Sloan",                      pos: "centre",         tryRate: 0.3 },
       { name: "Christian Tuipulotu",               pos: "wing",           tryRate: 0.3333 },
-      { name: "Moses Suli",                        pos: "centre",         tryRate: 0.2222 },
     ],
   },
 
