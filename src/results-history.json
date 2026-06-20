@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-06-19T15:54:58Z",
+  "updatedAt": "2026-06-20T07:56:20Z",
   "season": 2026,
-  "totalFavRecord": "64-50",
-  "totalLineRecord": "15-15",
-  "totalOuRecord": "14O-16U",
+  "totalFavRecord": "65-50",
+  "totalLineRecord": "12-12",
+  "totalOuRecord": "13O-11U",
   "rounds": [
     {
       "round": 1,
@@ -1508,11 +1508,11 @@
           "margin": 6,
           "favourite": "Cronulla Sutherland Sharks",
           "favouriteWon": true,
-          "linePoint": -2.5,
-          "lineCovered": true,
-          "ouTotal": 49.5,
-          "ouResult": "Over",
-          "oddsSourced": true
+          "linePoint": null,
+          "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
+          "oddsSourced": false
         },
         {
           "homeTeam": "Newcastle Knights",
@@ -1523,11 +1523,11 @@
           "margin": 6,
           "favourite": "Newcastle Knights",
           "favouriteWon": true,
-          "linePoint": -9.5,
-          "lineCovered": false,
-          "ouTotal": 54.5,
-          "ouResult": "Under",
-          "oddsSourced": true
+          "linePoint": null,
+          "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
+          "oddsSourced": false
         },
         {
           "homeTeam": "Wests Tigers",
@@ -1538,11 +1538,11 @@
           "margin": 6,
           "favourite": "Wests Tigers",
           "favouriteWon": true,
-          "linePoint": -1.5,
-          "lineCovered": true,
-          "ouTotal": 49.5,
-          "ouResult": "Under",
-          "oddsSourced": true
+          "linePoint": null,
+          "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
+          "oddsSourced": false
         },
         {
           "homeTeam": "Melbourne Storm",
@@ -1553,11 +1553,11 @@
           "margin": 14,
           "favourite": "Melbourne Storm",
           "favouriteWon": true,
-          "linePoint": -1.5,
-          "lineCovered": true,
-          "ouTotal": 49.5,
-          "ouResult": "Under",
-          "oddsSourced": true
+          "linePoint": null,
+          "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
+          "oddsSourced": false
         },
         {
           "homeTeam": "Brisbane Broncos",
@@ -1568,11 +1568,11 @@
           "margin": 4,
           "favourite": "Brisbane Broncos",
           "favouriteWon": false,
-          "linePoint": -18.5,
-          "lineCovered": false,
-          "ouTotal": 54.5,
-          "ouResult": "Over",
-          "oddsSourced": true
+          "linePoint": null,
+          "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
+          "oddsSourced": false
         },
         {
           "homeTeam": "Canberra Raiders",
@@ -1583,11 +1583,11 @@
           "margin": 14,
           "favourite": "Canberra Raiders",
           "favouriteWon": true,
-          "linePoint": -4.5,
-          "lineCovered": true,
-          "ouTotal": 53.5,
-          "ouResult": "Under",
-          "oddsSourced": true
+          "linePoint": null,
+          "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
+          "oddsSourced": false
         },
         {
           "homeTeam": "Penrith Panthers",
@@ -1598,16 +1598,16 @@
           "margin": 2,
           "favourite": "Penrith Panthers",
           "favouriteWon": true,
-          "linePoint": -6.5,
-          "lineCovered": false,
-          "ouTotal": 47.5,
-          "ouResult": "Under",
-          "oddsSourced": true
+          "linePoint": null,
+          "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
+          "oddsSourced": false
         }
       ],
       "favRecord": "6-1",
-      "lineRecord": "4-3",
-      "ouRecord": "2O-5U"
+      "lineRecord": null,
+      "ouRecord": null
     },
     {
       "round": 14,
@@ -1837,11 +1837,26 @@
           "ouTotal": 49.5,
           "ouResult": "Under",
           "oddsSourced": true
+        },
+        {
+          "homeTeam": "Wests Tigers",
+          "awayTeam": "Dolphins",
+          "homeScore": 22,
+          "awayScore": 36,
+          "winner": "Dolphins",
+          "margin": 14,
+          "favourite": "Dolphins",
+          "favouriteWon": true,
+          "linePoint": 5.5,
+          "lineCovered": true,
+          "ouTotal": 52.5,
+          "ouResult": "Over",
+          "oddsSourced": true
         }
       ],
-      "favRecord": "1-0",
-      "lineRecord": "0-1",
-      "ouRecord": "0O-1U"
+      "favRecord": "2-0",
+      "lineRecord": "1-1",
+      "ouRecord": "1O-1U"
     }
   ]
 }

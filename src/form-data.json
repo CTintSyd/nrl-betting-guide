@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-19T15:54:33.150704+00:00",
+  "generatedAt": "2026-06-20T07:56:06.249919+00:00",
   "round": 16,
   "upcomingRound": 16,
   "ladder": [
@@ -33,6 +33,20 @@
     },
     {
       "pos": 3,
+      "nick": "Dolphins",
+      "name": "Dolphins",
+      "played": 14,
+      "wins": 9,
+      "losses": 5,
+      "drawn": 0,
+      "ptsFor": 414,
+      "ptsAgainst": 285,
+      "diff": 129,
+      "pts": 22,
+      "streak": "4W"
+    },
+    {
+      "pos": 4,
       "nick": "Knights",
       "name": "Newcastle Knights",
       "played": 14,
@@ -46,7 +60,7 @@
       "streak": "1W"
     },
     {
-      "pos": 4,
+      "pos": 5,
       "nick": "Sea Eagles",
       "name": "Manly Warringah Sea Eagles",
       "played": 13,
@@ -58,20 +72,6 @@
       "diff": 117,
       "pts": 20,
       "streak": "1W"
-    },
-    {
-      "pos": 5,
-      "nick": "Dolphins",
-      "name": "Dolphins",
-      "played": 13,
-      "wins": 8,
-      "losses": 5,
-      "drawn": 0,
-      "ptsFor": 378,
-      "ptsAgainst": 263,
-      "diff": 115,
-      "pts": 20,
-      "streak": "4W"
     },
     {
       "pos": 6,
@@ -133,15 +133,15 @@
       "pos": 10,
       "nick": "Wests Tigers",
       "name": "Wests Tigers",
-      "played": 13,
+      "played": 14,
       "wins": 7,
-      "losses": 6,
+      "losses": 7,
       "drawn": 0,
-      "ptsFor": 311,
-      "ptsAgainst": 381,
-      "diff": -70,
+      "ptsFor": 333,
+      "ptsAgainst": 417,
+      "diff": -84,
       "pts": 18,
-      "streak": "1W"
+      "streak": "1L"
     },
     {
       "pos": 11,
@@ -376,7 +376,7 @@
       ]
     },
     "Dolphins": {
-      "last5": "W W W W",
+      "last5": "W W W W W",
       "games": [
         {
           "round": 11,
@@ -405,6 +405,13 @@
           "opponent": "Sydney Roosters",
           "home": true,
           "score": "48\u201310"
+        },
+        {
+          "round": 16,
+          "result": "W",
+          "opponent": "Wests Tigers",
+          "home": false,
+          "score": "22\u201336"
         }
       ]
     },
@@ -772,7 +779,7 @@
       ]
     },
     "Wests Tigers": {
-      "last5": "L W L W",
+      "last5": "L W L W L",
       "games": [
         {
           "round": 11,
@@ -801,6 +808,13 @@
           "opponent": "Gold Coast Titans",
           "home": true,
           "score": "36\u201328"
+        },
+        {
+          "round": 16,
+          "result": "L",
+          "opponent": "Dolphins",
+          "home": true,
+          "score": "22\u201336"
         }
       ]
     }

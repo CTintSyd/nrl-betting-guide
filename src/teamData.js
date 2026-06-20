@@ -54,11 +54,11 @@ const NRL_TEAM_DATA = {
   'Dolphins': {
     emoji: '🐬', shortName: 'Dolphins', venue: 'Suncorp Stadium', wikiPage: 'Dolphins_NRL', logoFile: 'dolphins.png',
     players: [
-      { name: "Jamayne Isaako",                    pos: "wing",           tryRate: 0.8462 },
+      { name: "Jamayne Isaako",                    pos: "wing",           tryRate: 0.8571 },
       { name: "Hamiso Tabuai-Fidow",               pos: "fullback",       tryRate: 0.7273 },
-      { name: "Isaiya Katoa",                      pos: "halfback",       tryRate: 0.1538 },
+      { name: "Kodi Nikorima",                     pos: "five-eighth",    tryRate: 0.2727 },
       { name: "Selwyn Cobbo",                      pos: "wing",           tryRate: 0.7273 },
-      { name: "Herbie Farnworth",                  pos: "centre",         tryRate: 0.5 },
+      { name: "Herbie Farnworth",                  pos: "centre",         tryRate: 0.5385 },
       { name: "Jake Averillo",                     pos: "centre",         tryRate: 0.8571 },
     ],
   },
@@ -198,12 +198,12 @@ const NRL_TEAM_DATA = {
   'Wests Tigers': {
     emoji: '🐯', shortName: 'Tigers', venue: 'Campbelltown Stadium', wikiPage: 'Wests_Tigers', logoFile: 'wests-tigers.svg',
     players: [
-      { name: "Sunia Turuva",                      pos: "wing",           tryRate: 0.3077 },
-      { name: "Jahream Bula",                      pos: "fullback",       tryRate: 0.6 },
+      { name: "Sunia Turuva",                      pos: "wing",           tryRate: 0.2857 },
+      { name: "Jahream Bula",                      pos: "fullback",       tryRate: 0.5455 },
       { name: "Adam Doueihi",                      pos: "halfback",       tryRate: 0.625 },
-      { name: "Taylan May",                        pos: "centre",         tryRate: 0.8571 },
+      { name: "Taylan May",                        pos: "centre",         tryRate: 0.75 },
       { name: "Kai Pearce-Paul",                   pos: "lock",           tryRate: 0.3333 },
-      { name: "Jarome Luai",                       pos: "five-eighth",    tryRate: 0.4 },
+      { name: "Jarome Luai",                       pos: "five-eighth",    tryRate: 0.3636 },
     ],
   },
 };
