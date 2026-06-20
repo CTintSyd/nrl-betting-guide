@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T10:38:33.487942+00:00",
+  "generatedAt": "2026-06-20T12:20:05.520015+00:00",
   "round": 16,
   "upcomingRound": 16,
   "ladder": [
@@ -63,15 +63,15 @@
       "pos": 5,
       "nick": "Sea Eagles",
       "name": "Manly Warringah Sea Eagles",
-      "played": 13,
+      "played": 14,
       "wins": 8,
-      "losses": 5,
+      "losses": 6,
       "drawn": 0,
-      "ptsFor": 367,
-      "ptsAgainst": 250,
-      "diff": 117,
+      "ptsFor": 379,
+      "ptsAgainst": 263,
+      "diff": 116,
       "pts": 20,
-      "streak": "1W"
+      "streak": "1L"
     },
     {
       "pos": 6,
@@ -145,6 +145,20 @@
     },
     {
       "pos": 11,
+      "nick": "Bulldogs",
+      "name": "Canterbury Bulldogs",
+      "played": 14,
+      "wins": 6,
+      "losses": 8,
+      "drawn": 0,
+      "ptsFor": 246,
+      "ptsAgainst": 342,
+      "diff": -96,
+      "pts": 16,
+      "streak": "2W"
+    },
+    {
+      "pos": 12,
       "nick": "Storm",
       "name": "Melbourne Storm",
       "played": 14,
@@ -156,20 +170,6 @@
       "diff": -2,
       "pts": 14,
       "streak": "2W"
-    },
-    {
-      "pos": 12,
-      "nick": "Bulldogs",
-      "name": "Canterbury Bulldogs",
-      "played": 13,
-      "wins": 5,
-      "losses": 8,
-      "drawn": 0,
-      "ptsFor": 233,
-      "ptsAgainst": 330,
-      "diff": -97,
-      "pts": 14,
-      "streak": "1W"
     },
     {
       "pos": 13,
@@ -310,7 +310,7 @@
       ]
     },
     "Canterbury Bulldogs": {
-      "last5": "L W L W",
+      "last5": "L W L W W",
       "games": [
         {
           "round": 11,
@@ -339,6 +339,13 @@
           "opponent": "Parramatta Eels",
           "home": true,
           "score": "14\u201312"
+        },
+        {
+          "round": 16,
+          "result": "W",
+          "opponent": "Manly Warringah Sea Eagles",
+          "home": true,
+          "score": "13\u201312"
         }
       ]
     },
@@ -456,7 +463,7 @@
       ]
     },
     "Manly Warringah Sea Eagles": {
-      "last5": "W W L W",
+      "last5": "W W L W L",
       "games": [
         {
           "round": 11,
@@ -485,6 +492,13 @@
           "opponent": "South Sydney Rabbitohs",
           "home": true,
           "score": "28\u201314"
+        },
+        {
+          "round": 16,
+          "result": "L",
+          "opponent": "Canterbury Bulldogs",
+          "home": false,
+          "score": "13\u201312"
         }
       ]
     },
