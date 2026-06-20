@@ -1,14 +1,47 @@
 {
-  "updated": "2026-06-20T07:56:12Z",
+  "updated": "2026-06-20T10:38:39Z",
   "articles": [
     {
-      "title": "LIVE: Titans vs Panthers – Round 16, 2026",
-      "url": "https://www.zerotackle.com/live-titans-panthers-round-16-2026-mc10396440-234814/",
+      "title": "LIVE: Bulldogs vs Sea Eagles – Round 16, 2026",
+      "url": "https://www.zerotackle.com/live-bulldogs-sea-eagles-round-16-2026-mc10396441-234812/",
+      "description": "The Canterbury-Bankstown Bulldogs face the Manly Sea Eagles in Round 16 of the 2026 NRL season. Follow the live scores, team lists, match statistics and key moments from the game at Accor Stadium.",
+      "date": "Sat, 23 May 2026 09:30:00 +0000",
+      "teams": [
+        "Canterbury Bulldogs",
+        "Manly Warringah Sea Eagles"
+      ],
+      "isRound": true
+    },
+    {
+      "title": "FULL TIME: Titans vs Panthers – Round 16, 2026",
+      "url": "https://www.zerotackle.com/fulltime-titans-panthers-round-16-2026-mc10396440-234814/",
       "description": "The Gold Coast Titans face the Penrith Panthers in Round 16 of the 2026 NRL season. Follow the live scores, team lists, match statistics and key moments from the game at Cbus Super Stadium.",
       "date": "Sat, 23 May 2026 07:30:00 +0000",
       "teams": [
         "Penrith Panthers",
         "Gold Coast Titans"
+      ],
+      "isRound": true
+    },
+    {
+      "title": "Updated Team Lists: Roosters vs Sharks – Round 16, 2026",
+      "url": "https://www.zerotackle.com/updated-team-lists-roosters-vs-sharks-10396444-235064/",
+      "description": "The Roosters and Sharks have cut their squads to 20 ahead of tomorrow's match at Allianz Stadium.",
+      "date": "Sat, 20 Jun 2026 08:15:13 +0000",
+      "teams": [
+        "Sydney Roosters",
+        "Cronulla Sutherland Sharks"
+      ],
+      "isRound": true
+    },
+    {
+      "title": "FINAL TEAMS: Bulldogs vs Sea Eagles – Round 16, 2026",
+      "url": "https://www.zerotackle.com/updated-team-lists-bulldogs-sea-eagles-10396441-235034/",
+      "description": "LATE MAIL: The Bulldogs and Sea Eagles have confirmed their lineups for the match at Accor Stadium.",
+      "date": "Sat, 20 Jun 2026 08:02:13 +0000",
+      "teams": [
+        "Canterbury Bulldogs",
+        "Manly Warringah Sea Eagles"
       ],
       "isRound": true
     },
@@ -72,38 +105,6 @@
       "date": "Sat, 20 Jun 2026 04:56:18 +0000",
       "teams": [
         "Penrith Panthers"
-      ],
-      "isRound": false
-    },
-    {
-      "title": "Updated Team Lists: Warriors vs Cowboys – Round 16, 2026",
-      "url": "https://www.zerotackle.com/updated-team-lists-warriors-vs-cowboys-10396442-235049/",
-      "description": "The Warriors and Cowboys have cut their squads to 20 ahead of tomorrow's match at One NZ Stadium.",
-      "date": "Sat, 20 Jun 2026 04:09:12 +0000",
-      "teams": [
-        "North Queensland Cowboys",
-        "New Zealand Warriors"
-      ],
-      "isRound": true
-    },
-    {
-      "title": "FINAL TEAMS: Wests Tigers vs Dolphins – Round 16, 2026",
-      "url": "https://www.zerotackle.com/updated-team-lists-wests-tigers-dolphins-10396439-235022/",
-      "description": "LATE MAIL: The Wests Tigers and Dolphins have confirmed their lineups for the match at Campbelltown Sports Stadium.",
-      "date": "Sat, 20 Jun 2026 03:29:12 +0000",
-      "teams": [
-        "Dolphins",
-        "Wests Tigers"
-      ],
-      "isRound": true
-    },
-    {
-      "title": "Raiders begin negotiations to lock down group of stars",
-      "url": "https://www.zerotackle.com/raiders-begin-negotiations-to-lock-down-group-of-stars-235045/",
-      "description": "Will the Raiders strike a deal with the players approaching off-contract at the end of 2027?",
-      "date": "Sat, 20 Jun 2026 03:03:24 +0000",
-      "teams": [
-        "Canberra Raiders"
       ],
       "isRound": false
     }

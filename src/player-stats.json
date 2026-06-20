@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T07:55:59.654071+00:00",
+  "generatedAt": "2026-06-20T10:38:27.744725+00:00",
   "round": 16,
   "players": {
     "Kalyn Ponga": {
@@ -1201,24 +1201,24 @@
     },
     "Dylan Edwards": {
       "tries": 9,
-      "games": 13,
-      "tryRate": 0.6923,
+      "games": 14,
+      "tryRate": 0.6429,
       "team": "Penrith Panthers",
       "position": "Fullback"
     },
     "Paul Alamoti": {
       "tries": 4,
-      "games": 13,
-      "tryRate": 0.3077,
+      "games": 14,
+      "tryRate": 0.2857,
       "team": "Penrith Panthers",
-      "position": "Centre"
+      "position": "Winger"
     },
     "Izack Tago": {
       "tries": 3,
-      "games": 13,
-      "tryRate": 0.2308,
+      "games": 14,
+      "tryRate": 0.2143,
       "team": "Penrith Panthers",
-      "position": "Interchange"
+      "position": "Centre"
     },
     "Casey McLean": {
       "tries": 6,
@@ -1236,8 +1236,8 @@
     },
     "Blaize Talagi": {
       "tries": 5,
-      "games": 13,
-      "tryRate": 0.3846,
+      "games": 14,
+      "tryRate": 0.3571,
       "team": "Penrith Panthers",
       "position": "Five-Eighth"
     },
@@ -1250,7 +1250,7 @@
     },
     "Moses Leota": {
       "tries": 0,
-      "games": 13,
+      "games": 14,
       "tryRate": 0.0,
       "team": "Penrith Panthers",
       "position": "Prop"
@@ -1263,25 +1263,25 @@
       "position": "Hooker"
     },
     "Lindsay Smith": {
-      "tries": 2,
-      "games": 13,
-      "tryRate": 0.1538,
+      "tries": 3,
+      "games": 14,
+      "tryRate": 0.2143,
       "team": "Penrith Panthers",
-      "position": "Prop"
+      "position": "Lock"
     },
     "Scott Sorensen": {
       "tries": 0,
-      "games": 13,
+      "games": 14,
       "tryRate": 0.0,
       "team": "Penrith Panthers",
       "position": "Interchange"
     },
     "Luke Garner": {
-      "tries": 2,
-      "games": 13,
-      "tryRate": 0.1538,
+      "tries": 3,
+      "games": 14,
+      "tryRate": 0.2143,
       "team": "Penrith Panthers",
-      "position": "Reserve"
+      "position": "Centre"
     },
     "Isaah Yeo": {
       "tries": 2,
@@ -1292,15 +1292,15 @@
     },
     "Jack Cogger": {
       "tries": 1,
-      "games": 10,
-      "tryRate": 0.1,
+      "games": 11,
+      "tryRate": 0.0909,
       "team": "Penrith Panthers",
-      "position": "Interchange"
+      "position": "Halfback"
     },
     "Isaiah Papali'i": {
       "tries": 2,
-      "games": 13,
-      "tryRate": 0.1538,
+      "games": 14,
+      "tryRate": 0.1429,
       "team": "Penrith Panthers",
       "position": "2nd Row"
     },
@@ -1313,22 +1313,22 @@
     },
     "Thomas Jenkins": {
       "tries": 20,
-      "games": 13,
-      "tryRate": 1.5385,
+      "games": 14,
+      "tryRate": 1.4286,
       "team": "Penrith Panthers",
       "position": "Winger"
     },
     "Freddy Lussick": {
       "tries": 4,
-      "games": 13,
-      "tryRate": 0.3077,
+      "games": 14,
+      "tryRate": 0.2857,
       "team": "Penrith Panthers",
       "position": "Hooker"
     },
     "Billy Phillips": {
       "tries": 1,
-      "games": 12,
-      "tryRate": 0.0833,
+      "games": 13,
+      "tryRate": 0.0769,
       "team": "Penrith Panthers",
       "position": "Interchange"
     },
@@ -1467,8 +1467,8 @@
     },
     "Keano Kini": {
       "tries": 2,
-      "games": 13,
-      "tryRate": 0.1538,
+      "games": 14,
+      "tryRate": 0.1429,
       "team": "Gold Coast Titans",
       "position": "Fullback"
     },
@@ -1481,8 +1481,8 @@
     },
     "Jojo Fifita": {
       "tries": 5,
-      "games": 11,
-      "tryRate": 0.4545,
+      "games": 12,
+      "tryRate": 0.4167,
       "team": "Gold Coast Titans",
       "position": "Centre"
     },
@@ -1494,16 +1494,16 @@
       "position": "Reserve"
     },
     "Phillip Sami": {
-      "tries": 7,
-      "games": 13,
-      "tryRate": 0.5385,
+      "tries": 8,
+      "games": 14,
+      "tryRate": 0.5714,
       "team": "Gold Coast Titans",
       "position": "Winger"
     },
     "AJ Brimson": {
       "tries": 2,
-      "games": 12,
-      "tryRate": 0.1667,
+      "games": 13,
+      "tryRate": 0.1538,
       "team": "Gold Coast Titans",
       "position": "Centre"
     },
@@ -1516,17 +1516,17 @@
     },
     "Moeaki Fotuaika": {
       "tries": 0,
-      "games": 13,
+      "games": 14,
       "tryRate": 0.0,
       "team": "Gold Coast Titans",
       "position": "Prop"
     },
     "Sam Verrills": {
       "tries": 1,
-      "games": 9,
-      "tryRate": 0.1111,
+      "games": 10,
+      "tryRate": 0.1,
       "team": "Gold Coast Titans",
-      "position": "Reserve"
+      "position": "Interchange"
     },
     "Tino Fa'asuamaleaui": {
       "tries": 0,
@@ -1536,16 +1536,16 @@
       "position": "Prop"
     },
     "Arama Hau": {
-      "tries": 5,
-      "games": 13,
-      "tryRate": 0.3846,
+      "tries": 6,
+      "games": 14,
+      "tryRate": 0.4286,
       "team": "Gold Coast Titans",
       "position": "2nd Row"
     },
     "Beau Fermor": {
       "tries": 1,
-      "games": 13,
-      "tryRate": 0.0769,
+      "games": 14,
+      "tryRate": 0.0714,
       "team": "Gold Coast Titans",
       "position": "2nd Row"
     },
@@ -1557,9 +1557,9 @@
       "position": "Interchange"
     },
     "Kurtis Morrin": {
-      "tries": 5,
-      "games": 13,
-      "tryRate": 0.3846,
+      "tries": 6,
+      "games": 14,
+      "tryRate": 0.4286,
       "team": "Gold Coast Titans",
       "position": "Interchange"
     },
@@ -1572,15 +1572,15 @@
     },
     "Klese Haas": {
       "tries": 0,
-      "games": 12,
+      "games": 13,
       "tryRate": 0.0,
       "team": "Gold Coast Titans",
       "position": "Prop"
     },
     "Cooper Bai": {
       "tries": 2,
-      "games": 13,
-      "tryRate": 0.1538,
+      "games": 14,
+      "tryRate": 0.1429,
       "team": "Gold Coast Titans",
       "position": "Lock"
     },
@@ -1593,7 +1593,7 @@
     },
     "Zane Harrison": {
       "tries": 0,
-      "games": 8,
+      "games": 9,
       "tryRate": 0.0,
       "team": "Gold Coast Titans",
       "position": "Halfback"
@@ -2412,7 +2412,7 @@
     },
     "Jensen Taumoepeau": {
       "tries": 0,
-      "games": 6,
+      "games": 7,
       "tryRate": 0.0,
       "team": "Gold Coast Titans",
       "position": "Winger"
@@ -2432,15 +2432,15 @@
       "position": "Interchange"
     },
     "Liam Martin": {
-      "tries": 1,
-      "games": 6,
-      "tryRate": 0.1667,
+      "tries": 2,
+      "games": 7,
+      "tryRate": 0.2857,
       "team": "Penrith Panthers",
       "position": "2nd Row"
     },
     "Jack Cole": {
       "tries": 0,
-      "games": 5,
+      "games": 6,
       "tryRate": 0.0,
       "team": "Penrith Panthers",
       "position": "Reserve"
@@ -2566,14 +2566,14 @@
     },
     "Jayden Campbell": {
       "tries": 7,
-      "games": 11,
-      "tryRate": 0.6364,
+      "games": 12,
+      "tryRate": 0.5833,
       "team": "Gold Coast Titans",
       "position": "Five-Eighth"
     },
     "Josh Patston": {
       "tries": 0,
-      "games": 8,
+      "games": 9,
       "tryRate": 0.0,
       "team": "Gold Coast Titans",
       "position": "Interchange"
@@ -2671,14 +2671,14 @@
     },
     "Oliver Pascoe": {
       "tries": 1,
-      "games": 10,
-      "tryRate": 0.1,
+      "games": 11,
+      "tryRate": 0.0909,
       "team": "Gold Coast Titans",
       "position": "Hooker"
     },
     "Jett Liu": {
       "tries": 0,
-      "games": 3,
+      "games": 4,
       "tryRate": 0.0,
       "team": "Gold Coast Titans",
       "position": "Interchange"
@@ -2727,10 +2727,10 @@
     },
     "Billy Scott": {
       "tries": 0,
-      "games": 6,
+      "games": 7,
       "tryRate": 0.0,
       "team": "Penrith Panthers",
-      "position": "Reserve"
+      "position": "Interchange"
     },
     "Lazarus Vaalepu": {
       "tries": 0,
@@ -2881,14 +2881,14 @@
     },
     "Jaylan De Groot": {
       "tries": 0,
-      "games": 8,
+      "games": 9,
       "tryRate": 0.0,
       "team": "Gold Coast Titans",
-      "position": "Centre"
+      "position": "Reserve"
     },
     "Adam Christensen": {
       "tries": 0,
-      "games": 4,
+      "games": 5,
       "tryRate": 0.0,
       "team": "Gold Coast Titans",
       "position": "Reserve"
@@ -2930,7 +2930,7 @@
     },
     "Sione Fonua": {
       "tries": 0,
-      "games": 1,
+      "games": 2,
       "tryRate": 0.0,
       "team": "Penrith Panthers",
       "position": "Reserve"
@@ -3196,10 +3196,10 @@
     },
     "Liam Henry": {
       "tries": 0,
-      "games": 4,
+      "games": 5,
       "tryRate": 0.0,
       "team": "Penrith Panthers",
-      "position": "Interchange"
+      "position": "Prop"
     },
     "Ronaldo Mulitalo": {
       "tries": 4,
@@ -3315,10 +3315,10 @@
     },
     "Luron Patea": {
       "tries": 0,
-      "games": 1,
+      "games": 2,
       "tryRate": 0.0,
       "team": "Penrith Panthers",
-      "position": "Reserve"
+      "position": "Interchange"
     },
     "Vena Patuki-Case": {
       "tries": 0,
