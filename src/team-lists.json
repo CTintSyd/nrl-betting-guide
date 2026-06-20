@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T12:20:08.758605+00:00",
+  "generatedAt": "2026-06-20T14:54:45.695941+00:00",
   "round": 16,
   "games": [
     {
@@ -1095,11 +1095,25 @@
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/sea-eagles/clayton-faulalo/"
       },
       {
+        "name": "Kobe Hetherington",
+        "injury": "Concussion",
+        "expectedReturn": "TBC",
+        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500002/Kobe%20Hetherington%20_260128_SeaEgales_MK1177.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/sea-eagles/kobe-hetherington/"
+      },
+      {
         "name": "Siosiua Taukeiaho",
         "injury": "Leg",
         "expectedReturn": "TBC",
         "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500002/Siua%20Taukeiaho%20_260128_SeaEgales_MK1382.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/sea-eagles/siosiua-taukeiaho/"
+      },
+      {
+        "name": "Brandon Wakeham",
+        "injury": "Calf",
+        "expectedReturn": "TBC",
+        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500002/Brandon_Wakeham_744.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/sea-eagles/brandon-wakeham/"
       }
     ],
     "Cronulla Sutherland Sharks": [
@@ -1183,6 +1197,13 @@
         "expectedReturn": "TBC",
         "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500004/GRAY%2C%20Brock-%20Bodyshot.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/titans/brock-gray/"
+      },
+      {
+        "name": "Jensen Taumoepeau",
+        "injury": "Ankle",
+        "expectedReturn": "TBC",
+        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500004/TAUMOEPEAU%2C%20Jensen-%20Bodyshot.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/titans/jensen-taumoepeau/"
       },
       {
         "name": "Jaimin Jolliffe",
