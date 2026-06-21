@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T11:28:56.864798+00:00",
+  "generatedAt": "2026-06-21T13:22:58.008647+00:00",
   "round": 16,
   "upcomingRound": 17,
   "ladder": [
@@ -145,6 +145,20 @@
     },
     {
       "pos": 11,
+      "nick": "Storm",
+      "name": "Melbourne Storm",
+      "played": 15,
+      "wins": 7,
+      "losses": 8,
+      "drawn": 0,
+      "ptsFor": 388,
+      "ptsAgainst": 368,
+      "diff": 20,
+      "pts": 16,
+      "streak": "3W"
+    },
+    {
+      "pos": 12,
       "nick": "Bulldogs",
       "name": "Canterbury Bulldogs",
       "played": 14,
@@ -158,20 +172,6 @@
       "streak": "2W"
     },
     {
-      "pos": 12,
-      "nick": "Storm",
-      "name": "Melbourne Storm",
-      "played": 15,
-      "wins": 6,
-      "losses": 8,
-      "drawn": 1,
-      "ptsFor": 346,
-      "ptsAgainst": 348,
-      "diff": -2,
-      "pts": 15,
-      "streak": "1L"
-    },
-    {
       "pos": 13,
       "nick": "Broncos",
       "name": "Brisbane Broncos",
@@ -183,7 +183,7 @@
       "ptsAgainst": 389,
       "diff": -108,
       "pts": 14,
-      "streak": "4L"
+      "streak": "3L"
     },
     {
       "pos": 14,
@@ -201,20 +201,6 @@
     },
     {
       "pos": 15,
-      "nick": "Raiders",
-      "name": "Canberra Raiders",
-      "played": 15,
-      "wins": 5,
-      "losses": 9,
-      "drawn": 1,
-      "ptsFor": 261,
-      "ptsAgainst": 362,
-      "diff": -101,
-      "pts": 13,
-      "streak": "3L"
-    },
-    {
-      "pos": 16,
       "nick": "Titans",
       "name": "Gold Coast Titans",
       "played": 14,
@@ -226,6 +212,20 @@
       "diff": -90,
       "pts": 12,
       "streak": "1W"
+    },
+    {
+      "pos": 16,
+      "nick": "Raiders",
+      "name": "Canberra Raiders",
+      "played": 15,
+      "wins": 5,
+      "losses": 10,
+      "drawn": 0,
+      "ptsFor": 281,
+      "ptsAgainst": 404,
+      "diff": -123,
+      "pts": 12,
+      "streak": "3L"
     },
     {
       "pos": 17,

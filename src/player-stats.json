@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T11:28:48.556723+00:00",
+  "generatedAt": "2026-06-21T13:22:51.787622+00:00",
   "round": 16,
   "players": {
     "Kalyn Ponga": {
@@ -287,7 +287,7 @@
       "games": 12,
       "tryRate": 0.1667,
       "team": "Canterbury Bulldogs",
-      "position": "Interchange"
+      "position": "Reserve"
     },
     "Stephen Crichton": {
       "tries": 4,
@@ -2219,7 +2219,7 @@
       "games": 9,
       "tryRate": 0.1111,
       "team": "Wests Tigers",
-      "position": "Reserve"
+      "position": "Interchange"
     },
     "Luke Laulilii": {
       "tries": 6,
@@ -3073,7 +3073,7 @@
       "games": 5,
       "tryRate": 0.0,
       "team": "Canterbury Bulldogs",
-      "position": "Reserve"
+      "position": "Interchange"
     },
     "Jack Bostock": {
       "tries": 4,
@@ -3171,7 +3171,7 @@
       "games": 3,
       "tryRate": 0.0,
       "team": "Wests Tigers",
-      "position": "Reserve"
+      "position": "Interchange"
     },
     "Bunty Afoa": {
       "tries": 0,
@@ -3185,14 +3185,14 @@
       "games": 6,
       "tryRate": 0.0,
       "team": "Wests Tigers",
-      "position": "Interchange"
+      "position": "Reserve"
     },
     "Charlie Murray": {
       "tries": 0,
       "games": 5,
       "tryRate": 0.0,
       "team": "Wests Tigers",
-      "position": "Interchange"
+      "position": "Reserve"
     },
     "Liam Henry": {
       "tries": 0,
