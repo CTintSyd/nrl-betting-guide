@@ -42,12 +42,12 @@ const NRL_TEAM_DATA = {
   'Cronulla Sutherland Sharks': {
     emoji: '🦈', shortName: 'Sharks', venue: 'PointsBet Stadium', wikiPage: 'Cronulla-Sutherland_Sharks', logoFile: 'cronulla-sharks.svg',
     players: [
+      { name: "Ronaldo Mulitalo",                  pos: "wing",           tryRate: 1.0 },
+      { name: "William Kennedy",                   pos: "fullback",       tryRate: 0.4286 },
+      { name: "Braydon Trindall",                  pos: "five-eighth",    tryRate: 0.5 },
+      { name: "KL Iro",                            pos: "centre",         tryRate: 0.6923 },
+      { name: "Teig Wilton",                       pos: "lock",           tryRate: 0.5 },
       { name: "Samuel Stonestreet",                pos: "wing",           tryRate: 0.3333 },
-      { name: "William Kennedy",                   pos: "fullback",       tryRate: 0.4615 },
-      { name: "Braydon Trindall",                  pos: "five-eighth",    tryRate: 0.5385 },
-      { name: "KL Iro",                            pos: "centre",         tryRate: 0.75 },
-      { name: "Teig Wilton",                       pos: "lock",           tryRate: 0.5455 },
-      { name: "Billy Burns",                       pos: "lock",           tryRate: 0.3077 },
     ],
   },
 
@@ -186,12 +186,12 @@ const NRL_TEAM_DATA = {
   'Sydney Roosters': {
     emoji: '🐓', shortName: 'Roosters', venue: 'Allianz Stadium', wikiPage: 'Sydney_Roosters', logoFile: 'sydney-roosters.png',
     players: [
-      { name: "Mark Nawaqanitawase",               pos: "wing",           tryRate: 1.1111 },
-      { name: "James Tedesco",                     pos: "fullback",       tryRate: 0.5 },
+      { name: "Mark Nawaqanitawase",               pos: "wing",           tryRate: 1.2 },
+      { name: "James Tedesco",                     pos: "fullback",       tryRate: 0.4615 },
       { name: "Hugo Savala",                       pos: "five-eighth",    tryRate: 0.6 },
       { name: "Daniel Tupou",                      pos: "wing",           tryRate: 0.8 },
-      { name: "Robert Toia",                       pos: "centre",         tryRate: 0.5455 },
-      { name: "Sam Walker",                        pos: "halfback",       tryRate: 0.4167 },
+      { name: "Robert Toia",                       pos: "centre",         tryRate: 0.5833 },
+      { name: "Sam Walker",                        pos: "halfback",       tryRate: 0.3846 },
     ],
   },
 

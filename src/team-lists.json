@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T08:23:54.665878+00:00",
+  "generatedAt": "2026-06-21T11:29:05.583608+00:00",
   "round": 17,
   "games": [
     {
@@ -381,6 +381,13 @@
         "expectedReturn": "TBC",
         "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500001/Angus%20Crichton%20260203_Roosters1332.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/roosters/angus-crichton/"
+      },
+      {
+        "name": "James Tedesco",
+        "injury": "Nose",
+        "expectedReturn": "TBC",
+        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500001/James%20Tedesco%20260203_Roosters813.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/roosters/james-tedesco/"
       },
       {
         "name": "Daniel Tupou",

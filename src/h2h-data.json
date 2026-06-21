@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T08:23:55Z",
+  "generatedAt": "2026-06-21T11:29:06Z",
   "matches": {
     "Parramatta Eels vs South Sydney Rabbitohs": {
       "homeTeam": "Parramatta Eels",
@@ -128,18 +128,18 @@
       "weather": null,
       "seasonStats": {
         "home": {
-          "winPct": 23.0,
+          "winPct": 29.0,
           "completionRate": 74.0,
           "avgScored": 19.0,
-          "avgConceded": 26.0,
+          "avgConceded": 25.0,
           "winsAtVenue": 43.0,
           "winsOverall": 37.0
         },
         "away": {
-          "winPct": 38.0,
+          "winPct": 43.0,
           "completionRate": 78.0,
           "avgScored": 17.0,
-          "avgConceded": 25.0,
+          "avgConceded": 24.0,
           "winsAtVenue": 23.0,
           "winsOverall": 49.0
         }
@@ -366,7 +366,7 @@
       "weather": null,
       "seasonStats": {
         "home": {
-          "winPct": 62.0,
+          "winPct": 64.0,
           "completionRate": 77.0,
           "avgScored": 29.0,
           "avgConceded": 20.0,
@@ -493,10 +493,10 @@
           "winsOverall": 44.0
         },
         "away": {
-          "winPct": 92.0,
+          "winPct": 86.0,
           "completionRate": 81.0,
-          "avgScored": 33.0,
-          "avgConceded": 12.0,
+          "avgScored": 32.0,
+          "avgConceded": 13.0,
           "winsAtVenue": 33.0,
           "winsOverall": 53.0
         }
@@ -604,10 +604,10 @@
       "weather": null,
       "seasonStats": {
         "home": {
-          "winPct": 62.0,
-          "completionRate": 79.0,
-          "avgScored": 28.0,
-          "avgConceded": 19.0,
+          "winPct": 57.0,
+          "completionRate": 80.0,
+          "avgScored": 27.0,
+          "avgConceded": 18.0,
           "winsAtVenue": 62.0,
           "winsOverall": 50.0
         },
@@ -731,8 +731,8 @@
           "winsOverall": 48.0
         },
         "away": {
-          "winPct": 8.0,
-          "completionRate": 77.0,
+          "winPct": 7.0,
+          "completionRate": 78.0,
           "avgScored": 14.0,
           "avgConceded": 32.0,
           "winsAtVenue": 20.0,
@@ -842,15 +842,15 @@
       "weather": null,
       "seasonStats": {
         "home": {
-          "winPct": 62.0,
-          "completionRate": 76.0,
+          "winPct": 64.0,
+          "completionRate": 77.0,
           "avgScored": 28.0,
-          "avgConceded": 26.0,
+          "avgConceded": 25.0,
           "winsAtVenue": 54.0,
           "winsOverall": 44.0
         },
         "away": {
-          "winPct": 54.0,
+          "winPct": 50.0,
           "completionRate": 79.0,
           "avgScored": 23.0,
           "avgConceded": 29.0,

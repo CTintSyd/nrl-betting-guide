@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-06-21T08:24:06Z",
+  "updatedAt": "2026-06-21T11:29:17Z",
   "season": 2026,
-  "totalFavRecord": "67-52",
-  "totalLineRecord": "14-14",
-  "totalOuRecord": "15O-13U",
+  "totalFavRecord": "68-52",
+  "totalLineRecord": "15-14",
+  "totalOuRecord": "15O-14U",
   "rounds": [
     {
       "round": 1,
@@ -1912,11 +1912,26 @@
           "ouTotal": 50.5,
           "ouResult": "Over",
           "oddsSourced": true
+        },
+        {
+          "homeTeam": "Sydney Roosters",
+          "awayTeam": "Cronulla Sutherland Sharks",
+          "homeScore": 27,
+          "awayScore": 8,
+          "winner": "Sydney Roosters",
+          "margin": 19,
+          "favourite": "Sydney Roosters",
+          "favouriteWon": true,
+          "linePoint": -6.5,
+          "lineCovered": true,
+          "ouTotal": 49.5,
+          "ouResult": "Under",
+          "oddsSourced": true
         }
       ],
-      "favRecord": "4-2",
-      "lineRecord": "3-3",
-      "ouRecord": "3O-3U"
+      "favRecord": "5-2",
+      "lineRecord": "4-3",
+      "ouRecord": "3O-4U"
     }
   ]
 }
