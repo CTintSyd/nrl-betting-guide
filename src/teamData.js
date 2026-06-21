@@ -18,12 +18,12 @@ const NRL_TEAM_DATA = {
   'Canberra Raiders': {
     emoji: '🔋', shortName: 'Raiders', venue: 'GIO Stadium', wikiPage: 'Canberra_Raiders', logoFile: 'canberra-raiders.svg',
     players: [
-      { name: "Savelio Tamale",                    pos: "wing",           tryRate: 0.5 },
-      { name: "Kaeo Weekes",                       pos: "fullback",       tryRate: 0.5714 },
-      { name: "Ethan Strange",                     pos: "five-eighth",    tryRate: 0.3636 },
-      { name: "Sebastian Kris",                    pos: "centre",         tryRate: 0.3333 },
-      { name: "Simi Sasagi",                       pos: "lock",           tryRate: 0.4444 },
-      { name: "Xavier Savage",                     pos: "wing",           tryRate: 0.4444 },
+      { name: "Savelio Tamale",                    pos: "wing",           tryRate: 0.5385 },
+      { name: "Kaeo Weekes",                       pos: "fullback",       tryRate: 0.5333 },
+      { name: "Ethan Strange",                     pos: "five-eighth",    tryRate: 0.3333 },
+      { name: "Xavier Savage",                     pos: "wing",           tryRate: 0.5 },
+      { name: "Sebastian Kris",                    pos: "centre",         tryRate: 0.3077 },
+      { name: "Matthew Timoko",                    pos: "centre",         tryRate: 0.3636 },
     ],
   },
 
@@ -90,12 +90,12 @@ const NRL_TEAM_DATA = {
   'Melbourne Storm': {
     emoji: '⛈️', shortName: 'Storm', venue: 'AAMI Park', wikiPage: 'Melbourne_Storm', logoFile: 'melbourne-storm.png',
     players: [
-      { name: "Will Warbrick",                     pos: "wing",           tryRate: 0.7857 },
-      { name: "Sualauvi Faalogo",                  pos: "fullback",       tryRate: 0.8571 },
-      { name: "Cameron Munster",                   pos: "five-eighth",    tryRate: 0.2308 },
-      { name: "Moses Leo",                         pos: "wing",           tryRate: 0.7778 },
-      { name: "Harry Grant",                       pos: "hooker",         tryRate: 0.4615 },
-      { name: "Jack Howarth",                      pos: "centre",         tryRate: 0.3333 },
+      { name: "Will Warbrick",                     pos: "wing",           tryRate: 0.9333 },
+      { name: "Sualauvi Faalogo",                  pos: "fullback",       tryRate: 0.8667 },
+      { name: "Cameron Munster",                   pos: "five-eighth",    tryRate: 0.2857 },
+      { name: "Moses Leo",                         pos: "wing",           tryRate: 0.8 },
+      { name: "Jack Howarth",                      pos: "centre",         tryRate: 0.3077 },
+      { name: "Jahrome Hughes",                    pos: "halfback",       tryRate: 0.2143 },
     ],
   },
 
@@ -114,24 +114,24 @@ const NRL_TEAM_DATA = {
   'New Zealand Warriors': {
     emoji: '⚔️', shortName: 'Warriors', venue: 'Go Media Stadium', wikiPage: 'New_Zealand_Warriors', logoFile: 'new-zealand-warriors.svg',
     players: [
-      { name: "Dallin Watene-Zelezniak",           pos: "wing",           tryRate: 1.0769 },
-      { name: "Taine Tuaupiki",                    pos: "fullback",       tryRate: 0.1538 },
-      { name: "Te Maire Martin",                   pos: "halfback",       tryRate: 1.0 },
+      { name: "Dallin Watene-Zelezniak",           pos: "wing",           tryRate: 1.0714 },
+      { name: "Taine Tuaupiki",                    pos: "fullback",       tryRate: 0.2143 },
+      { name: "Te Maire Martin",                   pos: "halfback",       tryRate: 0.8 },
       { name: "Alofiana Khan-Pereira",             pos: "wing",           tryRate: 1.0 },
       { name: "Leka Halasima",                     pos: "lock",           tryRate: 0.4167 },
-      { name: "Jackson Ford",                      pos: "prop",           tryRate: 0.3077 },
+      { name: "Jackson Ford",                      pos: "prop",           tryRate: 0.2857 },
     ],
   },
 
   'North Queensland Cowboys': {
     emoji: '🤠', shortName: 'Cowboys', venue: 'Qld Country Bank Stadium', wikiPage: 'North_Queensland_Cowboys', logoFile: 'north-queensland-cowboys.svg',
     players: [
-      { name: "Murray Taulagi",                    pos: "wing",           tryRate: 1.1111 },
-      { name: "Scott Drinkwater",                  pos: "fullback",       tryRate: 0.5 },
-      { name: "Jake Clifford",                     pos: "halfback",       tryRate: 0.3571 },
-      { name: "Braidon Burns",                     pos: "wing",           tryRate: 0.8 },
-      { name: "Heilum Luki",                       pos: "lock",           tryRate: 0.5 },
-      { name: "Jaxon Purdue",                      pos: "centre",         tryRate: 0.4286 },
+      { name: "Braidon Burns",                     pos: "wing",           tryRate: 0.9091 },
+      { name: "Scott Drinkwater",                  pos: "fullback",       tryRate: 0.5333 },
+      { name: "Jaxon Purdue",                      pos: "five-eighth",    tryRate: 0.4 },
+      { name: "Murray Taulagi",                    pos: "wing",           tryRate: 1.0 },
+      { name: "Heilum Luki",                       pos: "lock",           tryRate: 0.4667 },
+      { name: "Tom Chester",                       pos: "centre",         tryRate: 0.4286 },
     ],
   },
 

@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-06-20T14:54:56Z",
+  "updatedAt": "2026-06-21T08:24:06Z",
   "season": 2026,
-  "totalFavRecord": "65-52",
-  "totalLineRecord": "12-14",
-  "totalOuRecord": "13O-13U",
+  "totalFavRecord": "67-52",
+  "totalLineRecord": "14-14",
+  "totalOuRecord": "15O-13U",
   "rounds": [
     {
       "round": 1,
@@ -1882,11 +1882,41 @@
           "ouTotal": 48.5,
           "ouResult": "Under",
           "oddsSourced": true
+        },
+        {
+          "homeTeam": "New Zealand Warriors",
+          "awayTeam": "North Queensland Cowboys",
+          "homeScore": 38,
+          "awayScore": 20,
+          "winner": "New Zealand Warriors",
+          "margin": 18,
+          "favourite": "New Zealand Warriors",
+          "favouriteWon": true,
+          "linePoint": -9.5,
+          "lineCovered": true,
+          "ouTotal": 50.5,
+          "ouResult": "Over",
+          "oddsSourced": true
+        },
+        {
+          "homeTeam": "Melbourne Storm",
+          "awayTeam": "Canberra Raiders",
+          "homeScore": 42,
+          "awayScore": 20,
+          "winner": "Melbourne Storm",
+          "margin": 22,
+          "favourite": "Melbourne Storm",
+          "favouriteWon": true,
+          "linePoint": -7.5,
+          "lineCovered": true,
+          "ouTotal": 50.5,
+          "ouResult": "Over",
+          "oddsSourced": true
         }
       ],
-      "favRecord": "2-2",
-      "lineRecord": "1-3",
-      "ouRecord": "1O-3U"
+      "favRecord": "4-2",
+      "lineRecord": "3-3",
+      "ouRecord": "3O-3U"
     }
   ]
 }

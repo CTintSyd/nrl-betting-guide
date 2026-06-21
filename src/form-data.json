@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T14:54:38.067622+00:00",
+  "generatedAt": "2026-06-21T08:23:46.042493+00:00",
   "round": 16,
   "upcomingRound": 16,
   "ladder": [
@@ -21,15 +21,15 @@
       "pos": 2,
       "nick": "Warriors",
       "name": "New Zealand Warriors",
-      "played": 13,
-      "wins": 9,
+      "played": 14,
+      "wins": 10,
       "losses": 4,
       "drawn": 0,
-      "ptsFor": 376,
-      "ptsAgainst": 224,
-      "diff": 152,
-      "pts": 22,
-      "streak": "2L"
+      "ptsFor": 414,
+      "ptsAgainst": 244,
+      "diff": 170,
+      "pts": 24,
+      "streak": "1W"
     },
     {
       "pos": 3,
@@ -119,15 +119,15 @@
       "pos": 9,
       "nick": "Cowboys",
       "name": "North Queensland Cowboys",
-      "played": 14,
+      "played": 15,
       "wins": 8,
-      "losses": 6,
+      "losses": 7,
       "drawn": 0,
-      "ptsFor": 343,
-      "ptsAgainst": 356,
-      "diff": -13,
+      "ptsFor": 363,
+      "ptsAgainst": 394,
+      "diff": -31,
       "pts": 18,
-      "streak": "2L"
+      "streak": "3L"
     },
     {
       "pos": 10,
@@ -145,6 +145,20 @@
     },
     {
       "pos": 11,
+      "nick": "Storm",
+      "name": "Melbourne Storm",
+      "played": 15,
+      "wins": 7,
+      "losses": 8,
+      "drawn": 0,
+      "ptsFor": 388,
+      "ptsAgainst": 368,
+      "diff": 20,
+      "pts": 16,
+      "streak": "3W"
+    },
+    {
+      "pos": 12,
       "nick": "Bulldogs",
       "name": "Canterbury Bulldogs",
       "played": 14,
@@ -155,20 +169,6 @@
       "ptsAgainst": 342,
       "diff": -96,
       "pts": 16,
-      "streak": "2W"
-    },
-    {
-      "pos": 12,
-      "nick": "Storm",
-      "name": "Melbourne Storm",
-      "played": 14,
-      "wins": 6,
-      "losses": 8,
-      "drawn": 0,
-      "ptsFor": 346,
-      "ptsAgainst": 348,
-      "diff": -2,
-      "pts": 14,
       "streak": "2W"
     },
     {
@@ -183,7 +183,7 @@
       "ptsAgainst": 389,
       "diff": -108,
       "pts": 14,
-      "streak": "3L"
+      "streak": "4L"
     },
     {
       "pos": 14,
@@ -217,15 +217,15 @@
       "pos": 16,
       "nick": "Raiders",
       "name": "Canberra Raiders",
-      "played": 14,
+      "played": 15,
       "wins": 5,
-      "losses": 9,
+      "losses": 10,
       "drawn": 0,
-      "ptsFor": 261,
-      "ptsAgainst": 362,
-      "diff": -101,
+      "ptsFor": 281,
+      "ptsAgainst": 404,
+      "diff": -123,
       "pts": 12,
-      "streak": "2L"
+      "streak": "3L"
     },
     {
       "pos": 17,
@@ -277,7 +277,7 @@
       ]
     },
     "Canberra Raiders": {
-      "last5": "L W L L",
+      "last5": "L W L L L",
       "games": [
         {
           "round": 12,
@@ -306,6 +306,13 @@
           "opponent": "Parramatta Eels",
           "home": false,
           "score": "15\u201312"
+        },
+        {
+          "round": 16,
+          "result": "L",
+          "opponent": "Melbourne Storm",
+          "home": false,
+          "score": "42\u201320"
         }
       ]
     },
@@ -503,7 +510,7 @@
       ]
     },
     "Melbourne Storm": {
-      "last5": "W L W W",
+      "last5": "W L W W W",
       "games": [
         {
           "round": 11,
@@ -532,11 +539,18 @@
           "opponent": "Newcastle Knights",
           "home": true,
           "score": "32\u201330"
+        },
+        {
+          "round": 16,
+          "result": "W",
+          "opponent": "Canberra Raiders",
+          "home": true,
+          "score": "42\u201320"
         }
       ]
     },
     "New Zealand Warriors": {
-      "last5": "W W L L",
+      "last5": "W W L L W",
       "games": [
         {
           "round": 11,
@@ -565,6 +579,13 @@
           "opponent": "Cronulla Sutherland Sharks",
           "home": true,
           "score": "8\u201310"
+        },
+        {
+          "round": 16,
+          "result": "W",
+          "opponent": "North Queensland Cowboys",
+          "home": true,
+          "score": "38\u201320"
         }
       ]
     },
@@ -602,7 +623,7 @@
       ]
     },
     "North Queensland Cowboys": {
-      "last5": "W W L L",
+      "last5": "W W L L L",
       "games": [
         {
           "round": 11,
@@ -631,6 +652,13 @@
           "opponent": "Dolphins",
           "home": true,
           "score": "14\u201340"
+        },
+        {
+          "round": 16,
+          "result": "L",
+          "opponent": "New Zealand Warriors",
+          "home": false,
+          "score": "38\u201320"
         }
       ]
     },
