@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T13:23:08.402880+00:00",
+  "generatedAt": "2026-06-22T09:52:21.140395+00:00",
   "round": 17,
   "games": [
     {
@@ -127,6 +127,13 @@
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/bulldogs/viliame-kikau/"
       },
       {
+        "name": "Sitili Tupouniua",
+        "injury": "Hamstring",
+        "expectedReturn": "Round 25",
+        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500010/TUPOUNIUA%2CS_20251212_3846.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/bulldogs/sitili-tupouniua/"
+      },
+      {
         "name": "Samuel Hughes",
         "injury": "Neck",
         "expectedReturn": "TBC",
@@ -155,13 +162,6 @@
         "expectedReturn": "Round 17",
         "imageUrl": "/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500012/Dearden%2CT%20260109_CD_0477.JPG.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/cowboys/tom-dearden/"
-      },
-      {
-        "name": "Jeremiah Nanai",
-        "injury": "Shoulder",
-        "expectedReturn": "TBC",
-        "imageUrl": "/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500012/Nanai%2CJ%20260109_CD_1685.JPG.png?center=0.5%2C0.5",
-        "profileUrl": "https://www.nrl.com/players/nrl-premiership/cowboys/ieremia-nanai/"
       }
     ],
     "Dolphins": [
@@ -198,7 +198,7 @@
       {
         "name": "Jaydn Su'A",
         "injury": "Pectoral",
-        "expectedReturn": "TBC",
+        "expectedReturn": "Round 27",
         "imageUrl": "/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500022/Jaydn%20Su%27A%20_260119_Dragons_MK1187.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/dragons/jaydn-sua/"
       },
@@ -288,13 +288,6 @@
     ],
     "South Sydney Rabbitohs": [
       {
-        "name": "Latrell Mitchell",
-        "injury": "Back",
-        "expectedReturn": "Round 17",
-        "imageUrl": "/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500005/Latrell%20Mitchell_260113_Rabbitohs_MK0323.png?center=0.5%2C0.5",
-        "profileUrl": "https://www.nrl.com/players/nrl-premiership/south-sydney-rabbitohs/latrell-mitchell/"
-      },
-      {
         "name": "Jack Wighton",
         "injury": "Arm",
         "expectedReturn": "Round 18",
@@ -321,6 +314,13 @@
         "expectedReturn": "Round 26",
         "imageUrl": "/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500005/Talanoa%20Penitani_260113_Rabbitohs_MK1195.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/south-sydney-rabbitohs/talanoa-penitani/"
+      },
+      {
+        "name": "Latrell Mitchell",
+        "injury": "Calf",
+        "expectedReturn": "TBC",
+        "imageUrl": "/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500005/Latrell%20Mitchell_260113_Rabbitohs_MK0323.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/south-sydney-rabbitohs/latrell-mitchell/"
       },
       {
         "name": "Isaiah Tass",
@@ -531,18 +531,18 @@
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/titans/brock-gray/"
       },
       {
-        "name": "Jensen Taumoepeau",
-        "injury": "Ankle",
-        "expectedReturn": "TBC",
-        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500004/TAUMOEPEAU%2C%20Jensen-%20Bodyshot.png?center=0.5%2C0.5",
-        "profileUrl": "https://www.nrl.com/players/nrl-premiership/titans/jensen-taumoepeau/"
-      },
-      {
         "name": "Jaimin Jolliffe",
         "injury": "Knee",
         "expectedReturn": "Next Season",
         "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500004/JOLLIFFE%2C%20Jaimin-%20Bodyshot.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/titans/jaimin-jolliffe/"
+      },
+      {
+        "name": "Jensen Taumoepeau",
+        "injury": "Ankle",
+        "expectedReturn": "Next Season",
+        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500004/TAUMOEPEAU%2C%20Jensen-%20Bodyshot.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/titans/jensen-taumoepeau/"
       }
     ],
     "New Zealand Warriors": [
@@ -597,7 +597,7 @@
       },
       {
         "name": "Roger Tuivasa-Sheck",
-        "injury": "Knee",
+        "injury": "ACL",
         "expectedReturn": "Next Season",
         "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500032/Roger%20Tuivasa-Sheck_005.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/warriors/roger-tuivasa-sheck/"
@@ -610,6 +610,13 @@
         "expectedReturn": "Round 17",
         "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500023/Adam%20Doueihi%20260106_MK365.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/wests-tigers/adam-doueihi/"
+      },
+      {
+        "name": "Jock Madden",
+        "injury": "Concussion",
+        "expectedReturn": "Round 18",
+        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500023/Jock%20Madden%20260106_MK440.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/wests-tigers/jock-madden/"
       },
       {
         "name": "Alex Twal",
@@ -638,13 +645,6 @@
         "expectedReturn": "TBC",
         "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500023/Royce%20Hunt%20260106_MK1612.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/wests-tigers/royce-hunt/"
-      },
-      {
-        "name": "Jock Madden",
-        "injury": "Head knock",
-        "expectedReturn": "TBC",
-        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500023/Jock%20Madden%20260106_MK440.png?center=0.5%2C0.5",
-        "profileUrl": "https://www.nrl.com/players/nrl-premiership/wests-tigers/jock-madden/"
       },
       {
         "name": "Kai Pearce-Paul",
