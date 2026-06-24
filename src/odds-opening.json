@@ -670,5 +670,125 @@
       "overOdd": 1.97,
       "underOdd": 1.84
     }
+  },
+  "473b62275f6bf00a180d7c86152655db": {
+    "homeTeam": "Penrith Panthers",
+    "awayTeam": "South Sydney Rabbitohs",
+    "firstSeen": "2026-06-24T11:37:11.045Z",
+    "h2h": {
+      "home": 1.64,
+      "away": 2.26
+    },
+    "line": {
+      "home": {
+        "odd": 1.9,
+        "point": -2.5
+      },
+      "away": {
+        "odd": 1.9,
+        "point": 2.5
+      }
+    },
+    "ou": {
+      "total": 46.5,
+      "overOdd": 2,
+      "underOdd": 1.81
+    }
+  },
+  "9a108356c30a44d46c2aa553c7a0c9e7": {
+    "homeTeam": "St George Illawarra Dragons",
+    "awayTeam": "Wests Tigers",
+    "firstSeen": "2026-06-24T11:37:11.045Z",
+    "h2h": {
+      "home": 2.58,
+      "away": 1.51
+    },
+    "line": {
+      "home": {
+        "odd": 1.84,
+        "point": 6.5
+      },
+      "away": {
+        "odd": 1.97,
+        "point": -6.5
+      }
+    },
+    "ou": {
+      "total": 49.5,
+      "overOdd": 1.9,
+      "underOdd": 1.9
+    }
+  },
+  "89ab649e0df2529d77e0a08fc3512d9e": {
+    "homeTeam": "Brisbane Broncos",
+    "awayTeam": "Cronulla Sutherland Sharks",
+    "firstSeen": "2026-06-24T11:37:11.045Z",
+    "h2h": {
+      "home": 2.59,
+      "away": 1.5
+    },
+    "line": {
+      "home": {
+        "odd": 1.98,
+        "point": 5.5
+      },
+      "away": {
+        "odd": 1.83,
+        "point": -5.5
+      }
+    },
+    "ou": {
+      "total": 49.5,
+      "overOdd": 1.9,
+      "underOdd": 1.9
+    }
+  },
+  "6e2ee11d2298fba13c7e0bcb55ce445f": {
+    "homeTeam": "Parramatta Eels",
+    "awayTeam": "Manly Warringah Sea Eagles",
+    "firstSeen": "2026-06-24T11:37:11.045Z",
+    "h2h": {
+      "home": 2.67,
+      "away": 1.48
+    },
+    "line": {
+      "home": {
+        "odd": 1.83,
+        "point": 6.5
+      },
+      "away": {
+        "odd": 1.98,
+        "point": -6.5
+      }
+    },
+    "ou": {
+      "total": 49.5,
+      "overOdd": 1.82,
+      "underOdd": 1.99
+    }
+  },
+  "514d538f36e8995e1ff0627d15fa6a36": {
+    "homeTeam": "Newcastle Knights",
+    "awayTeam": "Dolphins",
+    "firstSeen": "2026-06-24T11:37:11.045Z",
+    "h2h": {
+      "home": 2.23,
+      "away": 1.66
+    },
+    "line": {
+      "home": {
+        "odd": 1.9,
+        "point": 3.5
+      },
+      "away": {
+        "odd": 1.9,
+        "point": -3.5
+      }
+    },
+    "ou": {
+      "total": 50.5,
+      "overOdd": 1.9,
+      "underOdd": 1.9
+    }
   }
 }
