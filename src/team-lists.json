@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T06:04:27.610117+00:00",
+  "generatedAt": "2026-06-24T06:05:14.035718+00:00",
   "round": 17,
   "games": [
     {
@@ -2200,6 +2200,13 @@
   "casualties": {
     "Brisbane Broncos": [
       {
+        "name": "Va'a Semu",
+        "injury": "Chest",
+        "expectedReturn": "Round 17",
+        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500011/Semu.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/broncos/vaa-semu/"
+      },
+      {
         "name": "Gehamat Shibasaki",
         "injury": "Knee",
         "expectedReturn": "Round 18",
@@ -2236,17 +2243,10 @@
       },
       {
         "name": "Adam Reynolds",
-        "injury": "Hamstring",
+        "injury": "Calf",
         "expectedReturn": "TBC",
         "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500011/Reynolds.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/broncos/adam-reynolds/"
-      },
-      {
-        "name": "Va'a Semu",
-        "injury": "Chest",
-        "expectedReturn": "TBC",
-        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500011/Semu.png?center=0.5%2C0.5",
-        "profileUrl": "https://www.nrl.com/players/nrl-premiership/broncos/vaa-semu/"
       },
       {
         "name": "Billy Walters",
@@ -2323,6 +2323,13 @@
         "expectedReturn": "Round 17",
         "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500723/Bodyshot-Katoa.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/dolphins/isaiya-katoa/"
+      },
+      {
+        "name": "Tom Gilbert",
+        "injury": "Throat",
+        "expectedReturn": "TBC",
+        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500723/Bodyshot-Gilbert.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/dolphins/tom-gilbert/"
       }
     ],
     "St George Illawarra Dragons": [
@@ -2419,7 +2426,7 @@
       {
         "name": "Mitch Kenny",
         "injury": "Leg",
-        "expectedReturn": "Round 17",
+        "expectedReturn": "Round 18",
         "imageUrl": "/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500014/Mitch%20Kenny%20_260123_Panthers_MK239.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/panthers/mitchell-kenny/"
       },
@@ -2484,18 +2491,18 @@
     ],
     "Canberra Raiders": [
       {
-        "name": "Josh Papalii",
-        "injury": "Calf",
-        "expectedReturn": "Round 17",
-        "imageUrl": "/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500013/Josh%20Papalii%20_260121_Raiders_MK1296.png?center=0.5%2C0.5",
-        "profileUrl": "https://www.nrl.com/players/nrl-premiership/raiders/josh-papalii/"
-      },
-      {
         "name": "Simi Sasagi",
         "injury": "Shoulder",
         "expectedReturn": "Round 17",
         "imageUrl": "/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500013/Simi%20Sasagi%20_260121_Raiders_MK803.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/raiders/simi-sasagi/"
+      },
+      {
+        "name": "Josh Papalii",
+        "injury": "Calf",
+        "expectedReturn": "Round 19",
+        "imageUrl": "/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500013/Josh%20Papalii%20_260121_Raiders_MK1296.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/raiders/josh-papalii/"
       },
       {
         "name": "Noah Martin",
@@ -2528,18 +2535,18 @@
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/roosters/angus-crichton/"
       },
       {
+        "name": "Fetalaiga Pauga",
+        "injury": "Ribs",
+        "expectedReturn": "TBC",
+        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500001/Junior%20Pauga%20260203_Roosters1795.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/roosters/fetalaiga-pauga/"
+      },
+      {
         "name": "Cody Ramsey",
         "injury": "Shoulder",
         "expectedReturn": "TBC",
         "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500001/Cody%20Ramsey%20260203_Roosters230.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/roosters/cody-ramsey/"
-      },
-      {
-        "name": "James Tedesco",
-        "injury": "Nose",
-        "expectedReturn": "TBC",
-        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500001/James%20Tedesco%20260203_Roosters813.png?center=0.5%2C0.5",
-        "profileUrl": "https://www.nrl.com/players/nrl-premiership/roosters/james-tedesco/"
       },
       {
         "name": "Daniel Tupou",
@@ -2558,6 +2565,27 @@
     ],
     "Manly Warringah Sea Eagles": [
       {
+        "name": "Clayton Faulalo",
+        "injury": "Hamstring",
+        "expectedReturn": "Round 17",
+        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500002/Clayton%20Faulolo%20_260128_SeaEgales_MK2310.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/sea-eagles/clayton-faulalo/"
+      },
+      {
+        "name": "Reuben Garrick",
+        "injury": "Concussion",
+        "expectedReturn": "Round 18",
+        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500002/Reuben%20Garrick%20_260128_SeaEgales_MK085.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/sea-eagles/reuben-garrick/"
+      },
+      {
+        "name": "Kobe Hetherington",
+        "injury": "Concussion",
+        "expectedReturn": "Round 18",
+        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500002/Kobe%20Hetherington%20_260128_SeaEgales_MK1177.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/sea-eagles/kobe-hetherington/"
+      },
+      {
         "name": "Corey Waddell",
         "injury": "Pectoral",
         "expectedReturn": "Round 21",
@@ -2570,20 +2598,6 @@
         "expectedReturn": "Round 25",
         "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500002/Caleb%20Navale%20_260128_SeaEgales_MK1316.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/sea-eagles/caleb-navale/"
-      },
-      {
-        "name": "Clayton Faulalo",
-        "injury": "Hamstring",
-        "expectedReturn": "TBC",
-        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500002/Clayton%20Faulolo%20_260128_SeaEgales_MK2310.png?center=0.5%2C0.5",
-        "profileUrl": "https://www.nrl.com/players/nrl-premiership/sea-eagles/clayton-faulalo/"
-      },
-      {
-        "name": "Kobe Hetherington",
-        "injury": "Concussion",
-        "expectedReturn": "TBC",
-        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500002/Kobe%20Hetherington%20_260128_SeaEgales_MK1177.png?center=0.5%2C0.5",
-        "profileUrl": "https://www.nrl.com/players/nrl-premiership/sea-eagles/kobe-hetherington/"
       },
       {
         "name": "Siosiua Taukeiaho",
@@ -2720,13 +2734,6 @@
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/warriors/james-fisher-harris/"
       },
       {
-        "name": "Jackson Ford",
-        "injury": "Pectoral",
-        "expectedReturn": "TBC",
-        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500032/Jackson%20Ford_004.png?center=0.5%2C0.5",
-        "profileUrl": "https://www.nrl.com/players/nrl-premiership/warriors/jackson-ford/"
-      },
-      {
         "name": "Leka Halasima",
         "injury": "Hamstring",
         "expectedReturn": "TBC",
@@ -2735,7 +2742,7 @@
       },
       {
         "name": "Alofiana Khan-Pereira",
-        "injury": "Quad",
+        "injury": "Leg",
         "expectedReturn": "TBC",
         "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500032/Alofiana%20Khan-Pereira-003.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/warriors/alofiana-khan-pereira/"
@@ -2753,6 +2760,13 @@
         "expectedReturn": "Next Season",
         "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500032/Roger%20Tuivasa-Sheck_005.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/warriors/roger-tuivasa-sheck/"
+      },
+      {
+        "name": "Jackson Ford",
+        "injury": "Pectoral",
+        "expectedReturn": "Finals",
+        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500032/Jackson%20Ford_004.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/warriors/jackson-ford/"
       }
     ],
     "Wests Tigers": [
@@ -2764,18 +2778,18 @@
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/wests-tigers/adam-doueihi/"
       },
       {
+        "name": "Alex Twal",
+        "injury": "Knee",
+        "expectedReturn": "Round 17",
+        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500023/Alex%20Twal%20260106_MK776-21.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/wests-tigers/alex-twal/"
+      },
+      {
         "name": "Jock Madden",
         "injury": "Concussion",
         "expectedReturn": "Round 18",
         "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500023/Jock%20Madden%20260106_MK440.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/wests-tigers/jock-madden/"
-      },
-      {
-        "name": "Alex Twal",
-        "injury": "Knee",
-        "expectedReturn": "Round 18",
-        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500023/Alex%20Twal%20260106_MK776-21.png?center=0.5%2C0.5",
-        "profileUrl": "https://www.nrl.com/players/nrl-premiership/wests-tigers/alex-twal/"
       },
       {
         "name": "Samuela Fainu",
