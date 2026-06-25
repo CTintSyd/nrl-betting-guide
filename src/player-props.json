@@ -1,13 +1,7 @@
 {
-  "updated": "2026-06-24T14:15:25.989Z",
+  "updated": "2026-06-25T14:13:59.120Z",
   "quotaRemaining": null,
   "games": {
-    "Parramatta Eels vs South Sydney Rabbitohs": {
-      "homeTeam": "Parramatta Eels",
-      "awayTeam": "South Sydney Rabbitohs",
-      "available": false,
-      "error": "API 422: {\"message\":\"Invalid markets: player_anytime_try_scorer, player_first_try_scorer\",\"error_code\":\"INVALID_MARKET\",\"details_url\":\"https://the-odds-api.com/liveapi/guides/v4/api-error-codes.html#invalid-market\"}\n"
-    },
     "Gold Coast Titans vs Canterbury Bulldogs": {
       "homeTeam": "Gold Coast Titans",
       "awayTeam": "Canterbury Bulldogs",
