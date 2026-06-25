@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-06-25T06:17:10Z",
+  "updatedAt": "2026-06-25T12:24:24Z",
   "season": 2026,
-  "totalFavRecord": "68-52",
-  "totalLineRecord": "16-14",
-  "totalOuRecord": "16O-14U",
+  "totalFavRecord": "69-52",
+  "totalLineRecord": "17-14",
+  "totalOuRecord": "16O-15U",
   "rounds": [
     {
       "round": 1,
@@ -1932,6 +1932,29 @@
       "favRecord": "5-2",
       "lineRecord": "4-3",
       "ouRecord": "3O-4U"
+    },
+    {
+      "round": 17,
+      "games": [
+        {
+          "homeTeam": "Parramatta Eels",
+          "awayTeam": "South Sydney Rabbitohs",
+          "homeScore": 12,
+          "awayScore": 32,
+          "winner": "South Sydney Rabbitohs",
+          "margin": 20,
+          "favourite": "South Sydney Rabbitohs",
+          "favouriteWon": true,
+          "linePoint": 6.5,
+          "lineCovered": true,
+          "ouTotal": 49.5,
+          "ouResult": "Under",
+          "oddsSourced": true
+        }
+      ],
+      "favRecord": "1-0",
+      "lineRecord": "1-0",
+      "ouRecord": "0O-1U"
     }
   ]
 }
