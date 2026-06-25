@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T06:05:14.035718+00:00",
+  "generatedAt": "2026-06-25T06:17:00.744221+00:00",
   "round": 17,
   "games": [
     {
@@ -172,18 +172,6 @@
         "name": "Apa Twidle",
         "position": "Reserve",
         "category": "reserve"
-      },
-      {
-        "number": 21,
-        "name": "Ryley Smith",
-        "position": "Reserve",
-        "category": "reserve"
-      },
-      {
-        "number": 22,
-        "name": "Saxon Pryke",
-        "position": "Reserve",
-        "category": "reserve"
       }
     ],
     "South Sydney Rabbitohs": [
@@ -302,20 +290,8 @@
         "category": "reserve"
       },
       {
-        "number": 20,
-        "name": "Moala Graham-Taufa",
-        "position": "Reserve",
-        "category": "reserve"
-      },
-      {
         "number": 21,
         "name": "Bronson Garlick",
-        "position": "Reserve",
-        "category": "reserve"
-      },
-      {
-        "number": 22,
-        "name": "Thomas Fletcher",
         "position": "Reserve",
         "category": "reserve"
       }
@@ -2260,7 +2236,7 @@
       {
         "name": "Jacob Preston",
         "injury": "Arm",
-        "expectedReturn": "Round 17",
+        "expectedReturn": "Round 19",
         "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500010/PRESTON%2CJ_20251212_3787.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/bulldogs/jacob-preston/"
       },
@@ -2420,6 +2396,13 @@
         "expectedReturn": "Round 17",
         "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500003/Jermain%20McEwan%20_260129_Knights_MK497.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/knights/jermaine-mcewen/"
+      },
+      {
+        "name": "Asu Kepaoa",
+        "injury": "Suspension",
+        "expectedReturn": "Round 23",
+        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500003/Asu%20Kepapa%20_260129_Knights_MK173.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/knights/asu-kepaoa/"
       }
     ],
     "Penrith Panthers": [
@@ -2496,6 +2479,13 @@
         "expectedReturn": "Round 17",
         "imageUrl": "/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500013/Simi%20Sasagi%20_260121_Raiders_MK803.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/raiders/simi-sasagi/"
+      },
+      {
+        "name": "Daine Laurie",
+        "injury": "Suspension",
+        "expectedReturn": "Round 19",
+        "imageUrl": "/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500013/Daine%20Laurie%20_260121_Raiders_MK217.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/raiders/daine-laurie/"
       },
       {
         "name": "Josh Papalii",

@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-06-24T06:05:27Z",
+  "updatedAt": "2026-06-25T06:17:10Z",
   "season": 2026,
   "totalFavRecord": "68-52",
-  "totalLineRecord": "15-14",
-  "totalOuRecord": "15O-14U",
+  "totalLineRecord": "16-14",
+  "totalOuRecord": "16O-14U",
   "rounds": [
     {
       "round": 1,
@@ -1018,16 +1018,16 @@
           "margin": 15,
           "favourite": "Manly Warringah Sea Eagles",
           "favouriteWon": true,
-          "linePoint": null,
-          "lineCovered": null,
-          "ouTotal": null,
-          "ouResult": null,
-          "oddsSourced": false
+          "linePoint": -6.5,
+          "lineCovered": true,
+          "ouTotal": 49.5,
+          "ouResult": "Over",
+          "oddsSourced": true
         }
       ],
       "favRecord": "4-4",
-      "lineRecord": "0-1",
-      "ouRecord": "0O-1U"
+      "lineRecord": "1-1",
+      "ouRecord": "1O-1U"
     },
     {
       "round": 9,
