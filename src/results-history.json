@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-06-26T07:43:41Z",
+  "updatedAt": "2026-06-26T10:38:59Z",
   "season": 2026,
-  "totalFavRecord": "69-52",
-  "totalLineRecord": "17-14",
-  "totalOuRecord": "16O-15U",
+  "totalFavRecord": "69-53",
+  "totalLineRecord": "17-15",
+  "totalOuRecord": "16O-16U",
   "rounds": [
     {
       "round": 1,
@@ -1950,11 +1950,26 @@
           "ouTotal": 49.5,
           "ouResult": "Under",
           "oddsSourced": true
+        },
+        {
+          "homeTeam": "Gold Coast Titans",
+          "awayTeam": "Canterbury Bulldogs",
+          "homeScore": 12,
+          "awayScore": 30,
+          "winner": "Canterbury Bulldogs",
+          "margin": 18,
+          "favourite": "Gold Coast Titans",
+          "favouriteWon": false,
+          "linePoint": -0.5,
+          "lineCovered": false,
+          "ouTotal": 49.5,
+          "ouResult": "Under",
+          "oddsSourced": true
         }
       ],
-      "favRecord": "1-0",
-      "lineRecord": "1-0",
-      "ouRecord": "0O-1U"
+      "favRecord": "1-1",
+      "lineRecord": "1-1",
+      "ouRecord": "0O-2U"
     }
   ]
 }

@@ -30,11 +30,11 @@ const NRL_TEAM_DATA = {
   'Canterbury Bulldogs': {
     emoji: '🐕', shortName: 'Bulldogs', venue: 'Accor Stadium', wikiPage: 'Canterbury-Bankstown_Bulldogs', logoFile: 'canterbury-bulldogs.png',
     players: [
-      { name: "Jacob Kiraz",                       pos: "wing",           tryRate: 0.6 },
-      { name: "Connor Tracey",                     pos: "fullback",       tryRate: 0.1667 },
-      { name: "Lachlan Galvin",                    pos: "halfback",       tryRate: 0.4286 },
+      { name: "Jacob Kiraz",                       pos: "wing",           tryRate: 0.5455 },
+      { name: "Connor Tracey",                     pos: "fullback",       tryRate: 0.1538 },
+      { name: "Lachlan Galvin",                    pos: "halfback",       tryRate: 0.4 },
       { name: "Sitili Tupouniua",                  pos: "lock",           tryRate: 0.2857 },
-      { name: "Stephen Crichton",                  pos: "centre",         tryRate: 0.3636 },
+      { name: "Stephen Crichton",                  pos: "five-eighth",    tryRate: 0.3333 },
       { name: "Jacob Preston",                     pos: "lock",           tryRate: 0.3636 },
     ],
   },
@@ -66,11 +66,11 @@ const NRL_TEAM_DATA = {
   'Gold Coast Titans': {
     emoji: '🌊', shortName: 'Titans', venue: 'Cbus Super Stadium', wikiPage: 'Gold_Coast_Titans', logoFile: 'gold-coast-titans.svg',
     players: [
-      { name: "Phillip Sami",                      pos: "wing",           tryRate: 0.5714 },
-      { name: "Keano Kini",                        pos: "fullback",       tryRate: 0.1429 },
-      { name: "Jayden Campbell",                   pos: "five-eighth",    tryRate: 0.5833 },
-      { name: "Arama Hau",                         pos: "lock",           tryRate: 0.4286 },
-      { name: "Jojo Fifita",                       pos: "centre",         tryRate: 0.4167 },
+      { name: "Phillip Sami",                      pos: "wing",           tryRate: 0.7333 },
+      { name: "Keano Kini",                        pos: "fullback",       tryRate: 0.1333 },
+      { name: "Jayden Campbell",                   pos: "five-eighth",    tryRate: 0.5385 },
+      { name: "Arama Hau",                         pos: "lock",           tryRate: 0.4 },
+      { name: "Jojo Fifita",                       pos: "centre",         tryRate: 0.3846 },
       { name: "Sialetili Faeamani",                pos: "wing",           tryRate: 0.5 },
     ],
   },

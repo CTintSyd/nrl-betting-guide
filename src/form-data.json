@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T07:43:19.833544+00:00",
+  "generatedAt": "2026-06-26T10:38:50.614473+00:00",
   "round": 17,
   "upcomingRound": 17,
   "ladder": [
@@ -131,6 +131,20 @@
     },
     {
       "pos": 10,
+      "nick": "Bulldogs",
+      "name": "Canterbury Bulldogs",
+      "played": 15,
+      "wins": 7,
+      "losses": 8,
+      "drawn": 0,
+      "ptsFor": 276,
+      "ptsAgainst": 354,
+      "diff": -78,
+      "pts": 18,
+      "streak": "3W"
+    },
+    {
+      "pos": 11,
       "nick": "Wests Tigers",
       "name": "Wests Tigers",
       "played": 14,
@@ -144,7 +158,7 @@
       "streak": "1L"
     },
     {
-      "pos": 11,
+      "pos": 12,
       "nick": "Storm",
       "name": "Melbourne Storm",
       "played": 15,
@@ -156,20 +170,6 @@
       "diff": 20,
       "pts": 16,
       "streak": "3W"
-    },
-    {
-      "pos": 12,
-      "nick": "Bulldogs",
-      "name": "Canterbury Bulldogs",
-      "played": 14,
-      "wins": 6,
-      "losses": 8,
-      "drawn": 0,
-      "ptsFor": 246,
-      "ptsAgainst": 342,
-      "diff": -96,
-      "pts": 16,
-      "streak": "2W"
     },
     {
       "pos": 13,
@@ -203,15 +203,15 @@
       "pos": 15,
       "nick": "Titans",
       "name": "Gold Coast Titans",
-      "played": 14,
+      "played": 15,
       "wins": 4,
-      "losses": 10,
+      "losses": 11,
       "drawn": 0,
-      "ptsFor": 267,
-      "ptsAgainst": 357,
-      "diff": -90,
+      "ptsFor": 279,
+      "ptsAgainst": 387,
+      "diff": -108,
       "pts": 12,
-      "streak": "1W"
+      "streak": "1L"
     },
     {
       "pos": 16,
@@ -310,7 +310,7 @@
       ]
     },
     "Canterbury Bulldogs": {
-      "last5": "W L W W",
+      "last5": "W L W W W",
       "games": [
         {
           "round": 12,
@@ -339,6 +339,13 @@
           "opponent": "Manly Warringah Sea Eagles",
           "home": true,
           "score": "13\u201312"
+        },
+        {
+          "round": 17,
+          "result": "W",
+          "opponent": "Gold Coast Titans",
+          "home": false,
+          "score": "12\u201330"
         }
       ]
     },
@@ -409,7 +416,7 @@
       ]
     },
     "Gold Coast Titans": {
-      "last5": "L W L W",
+      "last5": "L W L W L",
       "games": [
         {
           "round": 12,
@@ -438,6 +445,13 @@
           "opponent": "Penrith Panthers",
           "home": true,
           "score": "19\u201318"
+        },
+        {
+          "round": 17,
+          "result": "L",
+          "opponent": "Canterbury Bulldogs",
+          "home": true,
+          "score": "12\u201330"
         }
       ]
     },
