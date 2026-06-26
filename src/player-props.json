@@ -1,19 +1,7 @@
 {
-  "updated": "2026-06-25T14:13:59.120Z",
+  "updated": "2026-06-26T14:11:55.439Z",
   "quotaRemaining": null,
   "games": {
-    "Gold Coast Titans vs Canterbury Bulldogs": {
-      "homeTeam": "Gold Coast Titans",
-      "awayTeam": "Canterbury Bulldogs",
-      "available": false,
-      "error": "API 422: {\"message\":\"Invalid markets: player_anytime_try_scorer, player_first_try_scorer\",\"error_code\":\"INVALID_MARKET\",\"details_url\":\"https://the-odds-api.com/liveapi/guides/v4/api-error-codes.html#invalid-market\"}\n"
-    },
-    "Brisbane Broncos vs Sydney Roosters": {
-      "homeTeam": "Brisbane Broncos",
-      "awayTeam": "Sydney Roosters",
-      "available": false,
-      "error": "API 422: {\"message\":\"Invalid markets: player_anytime_try_scorer, player_first_try_scorer\",\"error_code\":\"INVALID_MARKET\",\"details_url\":\"https://the-odds-api.com/liveapi/guides/v4/api-error-codes.html#invalid-market\"}\n"
-    },
     "Dolphins vs New Zealand Warriors": {
       "homeTeam": "Dolphins",
       "awayTeam": "New Zealand Warriors",
