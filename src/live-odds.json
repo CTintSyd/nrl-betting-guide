@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-26T06:41:15.957Z",
-  "quotaRemaining": 47,
+  "updated": "2026-06-26T11:37:11.030Z",
+  "quotaRemaining": 44,
   "round": 17,
   "venueOverride": {
     "venue": "Suncorp Stadium",
@@ -8,106 +8,42 @@
   },
   "games": [
     {
-      "id": "03f990770c55f220108589d8fcee6f86",
-      "homeTeam": "Gold Coast Titans",
-      "awayTeam": "Canterbury Bulldogs",
-      "commenceTime": "2026-06-26T08:00:00Z",
-      "bookmaker": "sportsbet",
-      "h2h": {
-        "home": 1.88,
-        "away": 1.96
-      },
-      "line": {
-        "home": {
-          "odd": 1.93,
-          "point": -1.5
-        },
-        "away": {
-          "odd": 1.87,
-          "point": 1.5
-        }
-      },
-      "ou": {
-        "total": 45.5,
-        "overOdd": 1.89,
-        "underOdd": 1.91
-      },
-      "bookmakerComparison": [
-        {
-          "key": "sportsbet",
-          "name": "Sportsbet",
-          "home": 1.88,
-          "away": 1.96
-        },
-        {
-          "key": "tab",
-          "name": "TAB",
-          "home": 1.85,
-          "away": 1.95
-        },
-        {
-          "key": "betright",
-          "name": "BetRight",
-          "home": 1.82,
-          "away": 2
-        },
-        {
-          "key": "ladbrokes_au",
-          "name": "Ladbrokes",
-          "home": 1.87,
-          "away": 1.95
-        }
-      ]
-    },
-    {
       "id": "b474e3a82e380e9d6df4cc2e0a0a8475",
       "homeTeam": "Brisbane Broncos",
       "awayTeam": "Sydney Roosters",
       "commenceTime": "2026-06-26T10:00:00Z",
-      "bookmaker": "sportsbet",
+      "bookmaker": "tab",
       "h2h": {
-        "home": 2.73,
-        "away": 1.46
+        "home": 8.5,
+        "away": 1.06
       },
       "line": {
         "home": {
-          "odd": 1.9,
-          "point": 6.5
+          "odd": null,
+          "point": null
         },
         "away": {
-          "odd": 1.9,
-          "point": -6.5
+          "odd": null,
+          "point": null
         }
       },
       "ou": {
-        "total": 48.5,
-        "overOdd": 1.9,
-        "underOdd": 1.9
+        "total": 52.5,
+        "overOdd": 3.8,
+        "underOdd": 1.25
       },
       "bookmakerComparison": [
         {
-          "key": "sportsbet",
-          "name": "Sportsbet",
-          "home": 2.73,
-          "away": 1.46
-        },
-        {
           "key": "tab",
           "name": "TAB",
-          "home": 2.7,
-          "away": 1.47
+          "home": 8.5,
+          "away": 1.06
         },
         {
-          "key": "betright",
-          "name": "BetRight",
-          "home": 2.72,
-          "away": 1.46
-        },
-        {
-          "key": "ladbrokes_au",
-          "name": "Ladbrokes",
-          "home": 2.75,
-          "away": 1.46
+          "key": "pointsbetau",
+          "name": "PointsBet",
+          "home": 6.5,
+          "away": 1.09
         }
       ]
     },
@@ -448,46 +384,6 @@
           "name": "TAB",
           "home": 2.75,
           "away": 1.45
-        }
-      ]
-    },
-    {
-      "id": "89ab649e0df2529d77e0a08fc3512d9e",
-      "homeTeam": "Brisbane Broncos",
-      "awayTeam": "Cronulla Sutherland Sharks",
-      "commenceTime": "2026-07-04T09:35:00Z",
-      "bookmaker": "sportsbet",
-      "h2h": {
-        "home": 2.59,
-        "away": 1.5
-      },
-      "line": {
-        "home": {
-          "odd": 1.98,
-          "point": 5.5
-        },
-        "away": {
-          "odd": 1.83,
-          "point": -5.5
-        }
-      },
-      "ou": {
-        "total": 49.5,
-        "overOdd": 1.9,
-        "underOdd": 1.9
-      },
-      "bookmakerComparison": [
-        {
-          "key": "sportsbet",
-          "name": "Sportsbet",
-          "home": 2.59,
-          "away": 1.5
-        },
-        {
-          "key": "tab",
-          "name": "TAB",
-          "home": 2.6,
-          "away": 1.5
         }
       ]
     },
