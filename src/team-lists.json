@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T12:24:13.149781+00:00",
+  "generatedAt": "2026-06-26T07:43:29.309336+00:00",
   "round": 17,
   "games": [
     {
@@ -160,12 +160,6 @@
         "name": "Lachlan Ilias",
         "position": "Interchange",
         "category": "reserve"
-      },
-      {
-        "number": 20,
-        "name": "Dean Ieremia",
-        "position": "Reserve",
-        "category": "reserve"
       }
     ],
     "Canterbury Bulldogs": [
@@ -281,12 +275,6 @@
         "number": 20,
         "name": "Sean O'Sullivan",
         "position": "Interchange",
-        "category": "reserve"
-      },
-      {
-        "number": 23,
-        "name": "Jed Reardon",
-        "position": "Reserve",
         "category": "reserve"
       }
     ],
@@ -644,26 +632,14 @@
         "category": "reserve"
       },
       {
-        "number": 19,
-        "name": "Oryn Keeley",
-        "position": "Interchange",
-        "category": "reserve"
-      },
-      {
         "number": 20,
         "name": "Tevita Naufahu",
-        "position": "Reserve",
+        "position": "Interchange",
         "category": "reserve"
       },
       {
         "number": 21,
         "name": "Brian Pouniu",
-        "position": "Reserve",
-        "category": "reserve"
-      },
-      {
-        "number": 22,
-        "name": "Trai Fuller",
         "position": "Reserve",
         "category": "reserve"
       }
@@ -788,18 +764,6 @@
         "name": "Makaia Tafua",
         "position": "Reserve",
         "category": "reserve"
-      },
-      {
-        "number": 22,
-        "name": "Jye Linnane",
-        "position": "Reserve",
-        "category": "reserve"
-      },
-      {
-        "number": 23,
-        "name": "Jason Salalilo",
-        "position": "Reserve",
-        "category": "reserve"
       }
     ],
     "North Queensland Cowboys": [
@@ -922,18 +886,6 @@
         "name": "John Bateman",
         "position": "Reserve",
         "category": "reserve"
-      },
-      {
-        "number": 21,
-        "name": "Jaxson Paulo",
-        "position": "Reserve",
-        "category": "reserve"
-      },
-      {
-        "number": 22,
-        "name": "Ethan King",
-        "position": "Reserve",
-        "category": "reserve"
       }
     ],
     "Penrith Panthers": [
@@ -1049,18 +1001,6 @@
         "number": 19,
         "name": "Billy Scott",
         "position": "Interchange",
-        "category": "reserve"
-      },
-      {
-        "number": 20,
-        "name": "Luron Patea",
-        "position": "Reserve",
-        "category": "reserve"
-      },
-      {
-        "number": 21,
-        "name": "Jack Cole",
-        "position": "Reserve",
         "category": "reserve"
       },
       {
