@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T10:38:50.614473+00:00",
+  "generatedAt": "2026-06-26T12:34:24.462437+00:00",
   "round": 17,
   "upcomingRound": 17,
   "ladder": [
@@ -33,6 +33,20 @@
     },
     {
       "pos": 3,
+      "nick": "Roosters",
+      "name": "Sydney Roosters",
+      "played": 15,
+      "wins": 10,
+      "losses": 5,
+      "drawn": 0,
+      "ptsFor": 384,
+      "ptsAgainst": 324,
+      "diff": 60,
+      "pts": 24,
+      "streak": "1W"
+    },
+    {
+      "pos": 4,
       "nick": "Dolphins",
       "name": "Dolphins",
       "played": 14,
@@ -46,7 +60,7 @@
       "streak": "4W"
     },
     {
-      "pos": 4,
+      "pos": 5,
       "nick": "Rabbitohs",
       "name": "South Sydney Rabbitohs",
       "played": 14,
@@ -58,20 +72,6 @@
       "diff": 106,
       "pts": 22,
       "streak": "2W"
-    },
-    {
-      "pos": 5,
-      "nick": "Roosters",
-      "name": "Sydney Roosters",
-      "played": 14,
-      "wins": 9,
-      "losses": 5,
-      "drawn": 0,
-      "ptsFor": 360,
-      "ptsAgainst": 306,
-      "diff": 54,
-      "pts": 22,
-      "streak": "1W"
     },
     {
       "pos": 6,
@@ -175,13 +175,13 @@
       "pos": 13,
       "nick": "Broncos",
       "name": "Brisbane Broncos",
-      "played": 14,
+      "played": 15,
       "wins": 5,
-      "losses": 9,
+      "losses": 10,
       "drawn": 0,
-      "ptsFor": 281,
-      "ptsAgainst": 389,
-      "diff": -108,
+      "ptsFor": 299,
+      "ptsAgainst": 413,
+      "diff": -114,
       "pts": 14,
       "streak": "3L"
     },
@@ -244,7 +244,7 @@
   ],
   "teams": {
     "Brisbane Broncos": {
-      "last5": "L L L",
+      "last5": "L L L L",
       "games": [
         {
           "round": 13,
@@ -266,6 +266,13 @@
           "opponent": "South Sydney Rabbitohs",
           "home": false,
           "score": "48\u20136"
+        },
+        {
+          "round": 17,
+          "result": "L",
+          "opponent": "Sydney Roosters",
+          "home": true,
+          "score": "18\u201324"
         }
       ]
     },
@@ -739,7 +746,7 @@
       ]
     },
     "Sydney Roosters": {
-      "last5": "L W L W",
+      "last5": "L W L W W",
       "games": [
         {
           "round": 13,
@@ -768,6 +775,13 @@
           "opponent": "Cronulla Sutherland Sharks",
           "home": true,
           "score": "27\u20138"
+        },
+        {
+          "round": 17,
+          "result": "W",
+          "opponent": "Brisbane Broncos",
+          "home": false,
+          "score": "18\u201324"
         }
       ]
     },

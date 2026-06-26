@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T10:38:44.799183+00:00",
+  "generatedAt": "2026-06-26T12:34:17.573866+00:00",
   "round": 17,
   "players": {
     "Kalyn Ponga": {
@@ -935,8 +935,8 @@
     },
     "James Tedesco": {
       "tries": 6,
-      "games": 13,
-      "tryRate": 0.4615,
+      "games": 14,
+      "tryRate": 0.4286,
       "team": "Sydney Roosters",
       "position": "Fullback"
     },
@@ -948,36 +948,36 @@
       "position": "Winger"
     },
     "Billy Smith": {
-      "tries": 3,
-      "games": 6,
-      "tryRate": 0.5,
+      "tries": 5,
+      "games": 7,
+      "tryRate": 0.7143,
       "team": "Sydney Roosters",
-      "position": "Centre"
+      "position": "Winger"
     },
     "Mark Nawaqanitawase": {
       "tries": 12,
-      "games": 10,
-      "tryRate": 1.2,
+      "games": 11,
+      "tryRate": 1.0909,
       "team": "Sydney Roosters",
       "position": "Winger"
     },
     "Daly Cherry-Evans": {
       "tries": 4,
-      "games": 14,
-      "tryRate": 0.2857,
+      "games": 15,
+      "tryRate": 0.2667,
       "team": "Sydney Roosters",
       "position": "Five-Eighth"
     },
     "Sam Walker": {
-      "tries": 5,
-      "games": 13,
-      "tryRate": 0.3846,
+      "tries": 6,
+      "games": 14,
+      "tryRate": 0.4286,
       "team": "Sydney Roosters",
       "position": "Halfback"
     },
     "Naufahu Whyte": {
       "tries": 0,
-      "games": 14,
+      "games": 15,
       "tryRate": 0.0,
       "team": "Sydney Roosters",
       "position": "Prop"
@@ -991,8 +991,8 @@
     },
     "Lindsay Collins": {
       "tries": 1,
-      "games": 12,
-      "tryRate": 0.0833,
+      "games": 13,
+      "tryRate": 0.0769,
       "team": "Sydney Roosters",
       "position": "Prop"
     },
@@ -1005,8 +1005,8 @@
     },
     "Nat Butcher": {
       "tries": 1,
-      "games": 14,
-      "tryRate": 0.0714,
+      "games": 15,
+      "tryRate": 0.0667,
       "team": "Sydney Roosters",
       "position": "2nd Row"
     },
@@ -1019,21 +1019,21 @@
     },
     "Connor Watson": {
       "tries": 1,
-      "games": 14,
-      "tryRate": 0.0714,
+      "games": 15,
+      "tryRate": 0.0667,
       "team": "Sydney Roosters",
       "position": "Interchange"
     },
     "Siua Wong": {
       "tries": 2,
-      "games": 14,
-      "tryRate": 0.1429,
+      "games": 15,
+      "tryRate": 0.1333,
       "team": "Sydney Roosters",
       "position": "2nd Row"
     },
     "Egan Butcher": {
       "tries": 0,
-      "games": 11,
+      "games": 12,
       "tryRate": 0.0,
       "team": "Sydney Roosters",
       "position": "Interchange"
@@ -1054,7 +1054,7 @@
     },
     "Salesi Foketi": {
       "tries": 0,
-      "games": 14,
+      "games": 15,
       "tryRate": 0.0,
       "team": "Sydney Roosters",
       "position": "Interchange"
@@ -1068,22 +1068,22 @@
     },
     "Reece Walsh": {
       "tries": 5,
-      "games": 10,
-      "tryRate": 0.5,
+      "games": 11,
+      "tryRate": 0.4545,
       "team": "Brisbane Broncos",
       "position": "Fullback"
     },
     "Josiah Karapani": {
       "tries": 5,
-      "games": 13,
-      "tryRate": 0.3846,
+      "games": 14,
+      "tryRate": 0.3571,
       "team": "Brisbane Broncos",
       "position": "Winger"
     },
     "Kotoni Staggs": {
       "tries": 7,
-      "games": 11,
-      "tryRate": 0.6364,
+      "games": 12,
+      "tryRate": 0.5833,
       "team": "Brisbane Broncos",
       "position": "Centre"
     },
@@ -1124,29 +1124,29 @@
     },
     "Cory Paix": {
       "tries": 1,
-      "games": 13,
-      "tryRate": 0.0769,
+      "games": 14,
+      "tryRate": 0.0714,
       "team": "Brisbane Broncos",
       "position": "Hooker"
     },
     "Payne Haas": {
       "tries": 1,
-      "games": 8,
-      "tryRate": 0.125,
+      "games": 9,
+      "tryRate": 0.1111,
       "team": "Brisbane Broncos",
       "position": "Prop"
     },
     "Jack Gosiewski": {
       "tries": 0,
-      "games": 9,
+      "games": 10,
       "tryRate": 0.0,
       "team": "Brisbane Broncos",
       "position": "Interchange"
     },
     "Jordan Riki": {
       "tries": 3,
-      "games": 12,
-      "tryRate": 0.25,
+      "games": 13,
+      "tryRate": 0.2308,
       "team": "Brisbane Broncos",
       "position": "2nd Row"
     },
@@ -1159,36 +1159,36 @@
     },
     "Ben Hunt": {
       "tries": 0,
-      "games": 10,
+      "games": 11,
       "tryRate": 0.0,
       "team": "Brisbane Broncos",
-      "position": "Interchange"
+      "position": "Halfback"
     },
     "Xavier Willison": {
       "tries": 4,
-      "games": 14,
-      "tryRate": 0.2857,
+      "games": 15,
+      "tryRate": 0.2667,
       "team": "Brisbane Broncos",
-      "position": "Prop"
+      "position": "Lock"
     },
     "Ben Talty": {
       "tries": 2,
-      "games": 14,
-      "tryRate": 0.1429,
+      "games": 15,
+      "tryRate": 0.1333,
       "team": "Brisbane Broncos",
       "position": "Interchange"
     },
     "Aublix Tawha": {
       "tries": 0,
-      "games": 11,
+      "games": 12,
       "tryRate": 0.0,
       "team": "Brisbane Broncos",
-      "position": "Reserve"
+      "position": "Interchange"
     },
     "Grant Anderson": {
-      "tries": 1,
-      "games": 7,
-      "tryRate": 0.1429,
+      "tries": 2,
+      "games": 8,
+      "tryRate": 0.25,
       "team": "Brisbane Broncos",
       "position": "Centre"
     },
@@ -2173,9 +2173,9 @@
       "position": "Reserve"
     },
     "Robert Toia": {
-      "tries": 7,
-      "games": 12,
-      "tryRate": 0.5833,
+      "tries": 8,
+      "games": 13,
+      "tryRate": 0.6154,
       "team": "Sydney Roosters",
       "position": "Centre"
     },
@@ -2426,8 +2426,8 @@
     },
     "Reece Robson": {
       "tries": 3,
-      "games": 11,
-      "tryRate": 0.2727,
+      "games": 12,
+      "tryRate": 0.25,
       "team": "Sydney Roosters",
       "position": "Hooker"
     },
@@ -2453,15 +2453,15 @@
       "position": "Lock"
     },
     "Brendan Piakura": {
-      "tries": 1,
-      "games": 9,
-      "tryRate": 0.1111,
+      "tries": 2,
+      "games": 10,
+      "tryRate": 0.2,
       "team": "Brisbane Broncos",
       "position": "2nd Row"
     },
     "Blake Mozer": {
       "tries": 0,
-      "games": 2,
+      "games": 3,
       "tryRate": 0.0,
       "team": "Brisbane Broncos",
       "position": "Interchange"
@@ -2587,10 +2587,10 @@
     },
     "Hugo Savala": {
       "tries": 6,
-      "games": 10,
-      "tryRate": 0.6,
+      "games": 11,
+      "tryRate": 0.5455,
       "team": "Sydney Roosters",
-      "position": "Five-Eighth"
+      "position": "Centre"
     },
     "Luke Metcalf": {
       "tries": 0,
@@ -2748,8 +2748,8 @@
     },
     "Jesse Arthars": {
       "tries": 5,
-      "games": 9,
-      "tryRate": 0.5556,
+      "games": 10,
+      "tryRate": 0.5,
       "team": "Brisbane Broncos",
       "position": "Winger"
     },
@@ -2789,25 +2789,25 @@
       "position": "Halfback"
     },
     "Thomas Duffy": {
-      "tries": 0,
-      "games": 9,
-      "tryRate": 0.0,
+      "tries": 1,
+      "games": 10,
+      "tryRate": 0.1,
       "team": "Brisbane Broncos",
       "position": "Five-Eighth"
     },
     "Hayze Perham": {
       "tries": 0,
-      "games": 7,
+      "games": 8,
       "tryRate": 0.0,
       "team": "Brisbane Broncos",
-      "position": "Fullback"
+      "position": "Reserve"
     },
     "Josh Rogers": {
       "tries": 0,
-      "games": 5,
+      "games": 6,
       "tryRate": 0.0,
       "team": "Brisbane Broncos",
-      "position": "Lock"
+      "position": "Reserve"
     },
     "Brandon Smith": {
       "tries": 0,
@@ -2839,24 +2839,24 @@
     },
     "Victor Radley": {
       "tries": 1,
-      "games": 8,
-      "tryRate": 0.125,
+      "games": 9,
+      "tryRate": 0.1111,
       "team": "Sydney Roosters",
       "position": "Lock"
     },
     "Spencer Leniu": {
       "tries": 0,
-      "games": 10,
+      "games": 11,
       "tryRate": 0.0,
       "team": "Sydney Roosters",
       "position": "Interchange"
     },
     "Tommy Talau": {
       "tries": 0,
-      "games": 5,
+      "games": 6,
       "tryRate": 0.0,
       "team": "Sydney Roosters",
-      "position": "Winger"
+      "position": "Reserve"
     },
     "Araz Nanva": {
       "tries": 0,
@@ -3028,7 +3028,7 @@
     },
     "Preston Riki": {
       "tries": 0,
-      "games": 6,
+      "games": 7,
       "tryRate": 0.0,
       "team": "Brisbane Broncos",
       "position": "Prop"
@@ -3357,8 +3357,8 @@
     },
     "Rex Bassingthwaighte": {
       "tries": 1,
-      "games": 2,
-      "tryRate": 0.5,
+      "games": 3,
+      "tryRate": 0.3333,
       "team": "Sydney Roosters",
       "position": "Reserve"
     },

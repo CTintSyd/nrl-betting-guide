@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T10:38:54.410720+00:00",
+  "generatedAt": "2026-06-26T12:34:30.740119+00:00",
   "round": 17,
   "games": [
     {
@@ -1348,6 +1348,13 @@
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/broncos/adam-reynolds/"
       },
       {
+        "name": "Aublix Tawha",
+        "injury": "Leg",
+        "expectedReturn": "TBC",
+        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500011/Tawha.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/broncos/aublix-tawha/"
+      },
+      {
         "name": "Billy Walters",
         "injury": "ACL",
         "expectedReturn": "TBC",
@@ -1390,6 +1397,13 @@
         "expectedReturn": "TBC",
         "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500010/HUGHES%2CS_20251212_3010.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/bulldogs/samuel-hughes/"
+      },
+      {
+        "name": "Jacob Kiraz",
+        "injury": "Ribs",
+        "expectedReturn": "TBC",
+        "imageUrl": "/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2025/500010/KIRAZ%2CJacob_NRL_2025_GP00001-COPY.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/bulldogs/jacob-kiraz/"
       },
       {
         "name": "Jake Turpin",
@@ -1596,6 +1610,13 @@
       }
     ],
     "Sydney Roosters": [
+      {
+        "name": "Lindsay Collins",
+        "injury": "Head knock",
+        "expectedReturn": "TBC",
+        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500001/Lindsay%20Collins%20260203_Roosters1533.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/roosters/lindsay-collins/"
+      },
       {
         "name": "Angus Crichton",
         "injury": "Foot",
