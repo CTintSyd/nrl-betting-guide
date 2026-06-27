@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-06-27T07:23:44Z",
+  "updatedAt": "2026-06-27T09:38:45Z",
   "season": 2026,
-  "totalFavRecord": "68-56",
-  "totalLineRecord": "12-12",
-  "totalOuRecord": "12O-12U",
+  "totalFavRecord": "68-57",
+  "totalLineRecord": "12-13",
+  "totalOuRecord": "12O-13U",
   "rounds": [
     {
       "round": 1,
@@ -1995,11 +1995,26 @@
           "ouTotal": 50.5,
           "ouResult": "Under",
           "oddsSourced": true
+        },
+        {
+          "homeTeam": "North Queensland Cowboys",
+          "awayTeam": "Penrith Panthers",
+          "homeScore": 26,
+          "awayScore": 12,
+          "winner": "North Queensland Cowboys",
+          "margin": 14,
+          "favourite": "Penrith Panthers",
+          "favouriteWon": false,
+          "linePoint": 9.5,
+          "lineCovered": false,
+          "ouTotal": 50.5,
+          "ouResult": "Under",
+          "oddsSourced": true
         }
       ],
-      "favRecord": "3-1",
-      "lineRecord": "2-2",
-      "ouRecord": "0O-4U"
+      "favRecord": "3-2",
+      "lineRecord": "2-3",
+      "ouRecord": "0O-5U"
     }
   ]
 }

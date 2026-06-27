@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T07:23:18.050525+00:00",
+  "generatedAt": "2026-06-27T09:38:26.256802+00:00",
   "round": 17,
   "players": {
     "Kalyn Ponga": {
@@ -137,43 +137,43 @@
     },
     "Scott Drinkwater": {
       "tries": 8,
-      "games": 15,
-      "tryRate": 0.5333,
+      "games": 16,
+      "tryRate": 0.5,
       "team": "North Queensland Cowboys",
       "position": "Fullback"
     },
     "Braidon Burns": {
       "tries": 10,
-      "games": 11,
-      "tryRate": 0.9091,
+      "games": 12,
+      "tryRate": 0.8333,
       "team": "North Queensland Cowboys",
       "position": "Winger"
     },
     "Jaxon Purdue": {
       "tries": 6,
-      "games": 15,
-      "tryRate": 0.4,
+      "games": 16,
+      "tryRate": 0.375,
       "team": "North Queensland Cowboys",
       "position": "Five-Eighth"
     },
     "Tom Chester": {
       "tries": 6,
-      "games": 14,
-      "tryRate": 0.4286,
+      "games": 15,
+      "tryRate": 0.4,
       "team": "North Queensland Cowboys",
       "position": "Centre"
     },
     "Murray Taulagi": {
-      "tries": 10,
-      "games": 10,
+      "tries": 11,
+      "games": 11,
       "tryRate": 1.0,
       "team": "North Queensland Cowboys",
       "position": "Winger"
     },
     "Jake Clifford": {
-      "tries": 5,
-      "games": 15,
-      "tryRate": 0.3333,
+      "tries": 6,
+      "games": 16,
+      "tryRate": 0.375,
       "team": "North Queensland Cowboys",
       "position": "Halfback"
     },
@@ -186,59 +186,59 @@
     },
     "Coen Hess": {
       "tries": 1,
-      "games": 15,
-      "tryRate": 0.0667,
+      "games": 16,
+      "tryRate": 0.0625,
       "team": "North Queensland Cowboys",
-      "position": "Prop"
+      "position": "Interchange"
     },
     "Reed Mahoney": {
       "tries": 3,
-      "games": 14,
-      "tryRate": 0.2143,
+      "games": 15,
+      "tryRate": 0.2,
       "team": "North Queensland Cowboys",
       "position": "Hooker"
     },
     "Jason Taumalolo": {
       "tries": 0,
-      "games": 14,
+      "games": 15,
       "tryRate": 0.0,
       "team": "North Queensland Cowboys",
-      "position": "Interchange"
+      "position": "Prop"
     },
     "Heilum Luki": {
       "tries": 7,
-      "games": 15,
-      "tryRate": 0.4667,
+      "games": 16,
+      "tryRate": 0.4375,
       "team": "North Queensland Cowboys",
       "position": "2nd Row"
     },
     "Sam McIntyre": {
       "tries": 1,
-      "games": 14,
-      "tryRate": 0.0714,
+      "games": 15,
+      "tryRate": 0.0667,
       "team": "North Queensland Cowboys",
       "position": "Reserve"
     },
     "Reuben Cotter": {
       "tries": 1,
-      "games": 12,
-      "tryRate": 0.0833,
+      "games": 13,
+      "tryRate": 0.0769,
       "team": "North Queensland Cowboys",
       "position": "Lock"
     },
     "Soni Luke": {
       "tries": 2,
-      "games": 12,
-      "tryRate": 0.1667,
+      "games": 13,
+      "tryRate": 0.1538,
       "team": "North Queensland Cowboys",
       "position": "Interchange"
     },
     "Thomas Mikaele": {
       "tries": 0,
-      "games": 13,
+      "games": 14,
       "tryRate": 0.0,
       "team": "North Queensland Cowboys",
-      "position": "Interchange"
+      "position": "Prop"
     },
     "Kai O'Donnell": {
       "tries": 0,
@@ -249,14 +249,14 @@
     },
     "Griffin Neame": {
       "tries": 0,
-      "games": 15,
+      "games": 16,
       "tryRate": 0.0,
       "team": "North Queensland Cowboys",
-      "position": "Prop"
+      "position": "Interchange"
     },
     "Matthew Lodge": {
       "tries": 0,
-      "games": 15,
+      "games": 16,
       "tryRate": 0.0,
       "team": "North Queensland Cowboys",
       "position": "Reserve"
@@ -1201,22 +1201,22 @@
     },
     "Dylan Edwards": {
       "tries": 9,
-      "games": 14,
-      "tryRate": 0.6429,
+      "games": 15,
+      "tryRate": 0.6,
       "team": "Penrith Panthers",
       "position": "Fullback"
     },
     "Paul Alamoti": {
       "tries": 4,
-      "games": 14,
-      "tryRate": 0.2857,
+      "games": 15,
+      "tryRate": 0.2667,
       "team": "Penrith Panthers",
-      "position": "Winger"
+      "position": "Centre"
     },
     "Izack Tago": {
       "tries": 3,
-      "games": 14,
-      "tryRate": 0.2143,
+      "games": 15,
+      "tryRate": 0.2,
       "team": "Penrith Panthers",
       "position": "Centre"
     },
@@ -1229,28 +1229,28 @@
     },
     "Brian To'o": {
       "tries": 9,
-      "games": 12,
-      "tryRate": 0.75,
+      "games": 13,
+      "tryRate": 0.6923,
       "team": "Penrith Panthers",
       "position": "Winger"
     },
     "Blaize Talagi": {
       "tries": 5,
-      "games": 14,
-      "tryRate": 0.3571,
+      "games": 15,
+      "tryRate": 0.3333,
       "team": "Penrith Panthers",
       "position": "Five-Eighth"
     },
     "Nathan Cleary": {
       "tries": 5,
-      "games": 12,
-      "tryRate": 0.4167,
+      "games": 13,
+      "tryRate": 0.3846,
       "team": "Penrith Panthers",
       "position": "Halfback"
     },
     "Moses Leota": {
       "tries": 0,
-      "games": 14,
+      "games": 15,
       "tryRate": 0.0,
       "team": "Penrith Panthers",
       "position": "Prop"
@@ -1264,43 +1264,43 @@
     },
     "Lindsay Smith": {
       "tries": 3,
-      "games": 14,
-      "tryRate": 0.2143,
+      "games": 15,
+      "tryRate": 0.2,
       "team": "Penrith Panthers",
-      "position": "Lock"
+      "position": "Interchange"
     },
     "Scott Sorensen": {
       "tries": 0,
-      "games": 14,
+      "games": 15,
       "tryRate": 0.0,
       "team": "Penrith Panthers",
       "position": "Interchange"
     },
     "Luke Garner": {
       "tries": 3,
-      "games": 14,
-      "tryRate": 0.2143,
+      "games": 15,
+      "tryRate": 0.2,
       "team": "Penrith Panthers",
-      "position": "Centre"
+      "position": "Interchange"
     },
     "Isaah Yeo": {
       "tries": 2,
-      "games": 12,
-      "tryRate": 0.1667,
+      "games": 13,
+      "tryRate": 0.1538,
       "team": "Penrith Panthers",
       "position": "Lock"
     },
     "Jack Cogger": {
       "tries": 1,
-      "games": 11,
-      "tryRate": 0.0909,
+      "games": 12,
+      "tryRate": 0.0833,
       "team": "Penrith Panthers",
-      "position": "Halfback"
+      "position": "Interchange"
     },
     "Isaiah Papali'i": {
       "tries": 2,
-      "games": 14,
-      "tryRate": 0.1429,
+      "games": 15,
+      "tryRate": 0.1333,
       "team": "Penrith Panthers",
       "position": "2nd Row"
     },
@@ -1312,25 +1312,25 @@
       "position": "Reserve"
     },
     "Thomas Jenkins": {
-      "tries": 20,
-      "games": 14,
-      "tryRate": 1.4286,
+      "tries": 22,
+      "games": 15,
+      "tryRate": 1.4667,
       "team": "Penrith Panthers",
       "position": "Winger"
     },
     "Freddy Lussick": {
       "tries": 4,
-      "games": 14,
-      "tryRate": 0.2857,
+      "games": 15,
+      "tryRate": 0.2667,
       "team": "Penrith Panthers",
       "position": "Hooker"
     },
     "Billy Phillips": {
       "tries": 1,
-      "games": 13,
-      "tryRate": 0.0769,
+      "games": 14,
+      "tryRate": 0.0714,
       "team": "Penrith Panthers",
-      "position": "Interchange"
+      "position": "Reserve"
     },
     "William Kennedy": {
       "tries": 6,
@@ -2433,8 +2433,8 @@
     },
     "Liam Martin": {
       "tries": 2,
-      "games": 7,
-      "tryRate": 0.2857,
+      "games": 8,
+      "tryRate": 0.25,
       "team": "Penrith Panthers",
       "position": "2nd Row"
     },
@@ -2559,8 +2559,8 @@
     },
     "Zac Laybutt": {
       "tries": 2,
-      "games": 13,
-      "tryRate": 0.1538,
+      "games": 14,
+      "tryRate": 0.1429,
       "team": "North Queensland Cowboys",
       "position": "Centre"
     },
@@ -2727,10 +2727,10 @@
     },
     "Billy Scott": {
       "tries": 0,
-      "games": 7,
+      "games": 8,
       "tryRate": 0.0,
       "team": "Penrith Panthers",
-      "position": "Interchange"
+      "position": "Reserve"
     },
     "Lazarus Vaalepu": {
       "tries": 0,
@@ -3013,9 +3013,9 @@
       "position": "Hooker"
     },
     "Jeremiah Nanai": {
-      "tries": 1,
-      "games": 3,
-      "tryRate": 0.3333,
+      "tries": 3,
+      "games": 4,
+      "tryRate": 0.75,
       "team": "North Queensland Cowboys",
       "position": "2nd Row"
     },
@@ -3196,7 +3196,7 @@
     },
     "Liam Henry": {
       "tries": 0,
-      "games": 5,
+      "games": 6,
       "tryRate": 0.0,
       "team": "Penrith Panthers",
       "position": "Prop"
@@ -3406,7 +3406,7 @@
     },
     "John Bateman": {
       "tries": 0,
-      "games": 1,
+      "games": 2,
       "tryRate": 0.0,
       "team": "North Queensland Cowboys",
       "position": "Interchange"

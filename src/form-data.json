@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T07:23:25.039501+00:00",
+  "generatedAt": "2026-06-27T09:38:31.443207+00:00",
   "round": 17,
   "upcomingRound": 17,
   "ladder": [
@@ -7,15 +7,15 @@
       "pos": 1,
       "nick": "Panthers",
       "name": "Penrith Panthers",
-      "played": 14,
+      "played": 15,
       "wins": 12,
-      "losses": 2,
+      "losses": 3,
       "drawn": 0,
-      "ptsFor": 455,
-      "ptsAgainst": 183,
-      "diff": 272,
+      "ptsFor": 467,
+      "ptsAgainst": 209,
+      "diff": 258,
       "pts": 28,
-      "streak": "1L"
+      "streak": "2L"
     },
     {
       "pos": 2,
@@ -29,7 +29,7 @@
       "ptsAgainst": 270,
       "diff": 168,
       "pts": 24,
-      "streak": "1W"
+      "streak": "1L"
     },
     {
       "pos": 3,
@@ -119,15 +119,15 @@
       "pos": 9,
       "nick": "Cowboys",
       "name": "North Queensland Cowboys",
-      "played": 15,
-      "wins": 8,
+      "played": 16,
+      "wins": 9,
       "losses": 7,
       "drawn": 0,
-      "ptsFor": 363,
-      "ptsAgainst": 394,
-      "diff": -31,
-      "pts": 18,
-      "streak": "3L"
+      "ptsFor": 389,
+      "ptsAgainst": 406,
+      "diff": -17,
+      "pts": 20,
+      "streak": "1W"
     },
     {
       "pos": 10,
@@ -602,7 +602,7 @@
       ]
     },
     "North Queensland Cowboys": {
-      "last5": "W L L L",
+      "last5": "W L L L W",
       "games": [
         {
           "round": 12,
@@ -631,6 +631,13 @@
           "opponent": "New Zealand Warriors",
           "home": false,
           "score": "38\u201320"
+        },
+        {
+          "round": 17,
+          "result": "W",
+          "opponent": "Penrith Panthers",
+          "home": true,
+          "score": "26\u201312"
         }
       ]
     },
@@ -668,7 +675,7 @@
       ]
     },
     "Penrith Panthers": {
-      "last5": "W W L",
+      "last5": "W W L L",
       "games": [
         {
           "round": 13,
@@ -690,6 +697,13 @@
           "opponent": "Gold Coast Titans",
           "home": false,
           "score": "19\u201318"
+        },
+        {
+          "round": 17,
+          "result": "L",
+          "opponent": "North Queensland Cowboys",
+          "home": false,
+          "score": "26\u201312"
         }
       ]
     },

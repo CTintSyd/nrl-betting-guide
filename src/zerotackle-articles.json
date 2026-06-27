@@ -1,6 +1,39 @@
 {
-  "updated": "2026-06-27T07:23:35Z",
+  "updated": "2026-06-27T09:38:36Z",
   "articles": [
+    {
+      "title": "LIVE: Sea Eagles vs Storm – Round 17, 2026",
+      "url": "https://www.zerotackle.com/live-sea-eagles-storm-round-17-2026-mc10396453-235094/",
+      "description": "The Manly Sea Eagles face the Melbourne Storm in Round 17 of the 2026 NRL season. Follow the live scores, team lists, match statistics and key moments from the game at 4 Pines Park.",
+      "date": "Sat, 30 May 2026 09:30:00 +0000",
+      "teams": [
+        "Manly Warringah Sea Eagles",
+        "Melbourne Storm"
+      ],
+      "isRound": true
+    },
+    {
+      "title": "FULL TIME: Cowboys vs Panthers – Round 17, 2026",
+      "url": "https://www.zerotackle.com/fulltime-cowboys-panthers-round-17-2026-mc10396452-235096/",
+      "description": "The North Queensland Cowboys face the Penrith Panthers in Round 17 of the 2026 NRL season. Follow the live scores, team lists, match statistics and key moments from the game at Queensland Country Bank Stadium.",
+      "date": "Sat, 30 May 2026 07:30:00 +0000",
+      "teams": [
+        "North Queensland Cowboys",
+        "Penrith Panthers"
+      ],
+      "isRound": true
+    },
+    {
+      "title": "FINAL TEAMS: Sea Eagles vs Storm – Round 17, 2026",
+      "url": "https://www.zerotackle.com/updated-team-lists-sea-eagles-storm-10396453-235313/",
+      "description": "LATE MAIL: The Sea Eagles and Storm have confirmed their lineups for the match at 4 Pines Park.",
+      "date": "Sat, 27 Jun 2026 08:02:53 +0000",
+      "teams": [
+        "Manly Warringah Sea Eagles",
+        "Melbourne Storm"
+      ],
+      "isRound": true
+    },
     {
       "title": "FULL TIME: Dolphins vs Warriors – Round 17, 2026",
       "url": "https://www.zerotackle.com/fulltime-dolphins-warriors-round-17-2026-mc10396451-235098/",
@@ -73,38 +106,6 @@
       "teams": [
         "Canterbury Bulldogs",
         "Penrith Panthers"
-      ],
-      "isRound": false
-    },
-    {
-      "title": "Updated Team Lists: Raiders vs Dragons – Round 17, 2026",
-      "url": "https://www.zerotackle.com/updated-team-lists-raiders-vs-dragons-10396454-235326/",
-      "description": "The Raiders and Dragons have cut their squads to 20 ahead of tomorrow's match at GIO Stadium.",
-      "date": "Sat, 27 Jun 2026 03:59:49 +0000",
-      "teams": [
-        "St George Illawarra Dragons",
-        "Canberra Raiders"
-      ],
-      "isRound": true
-    },
-    {
-      "title": "FINAL TEAMS: Dolphins vs Warriors – Round 17, 2026",
-      "url": "https://www.zerotackle.com/updated-team-lists-dolphins-warriors-10396451-235303/",
-      "description": "LATE MAIL: The Dolphins and Warriors have confirmed their lineups for the match at Suncorp Stadium.",
-      "date": "Sat, 27 Jun 2026 03:33:50 +0000",
-      "teams": [
-        "Dolphins",
-        "New Zealand Warriors"
-      ],
-      "isRound": true
-    },
-    {
-      "title": "Bronson Xerri set to make call on his NRL future",
-      "url": "https://www.zerotackle.com/bronson-xerri-set-to-make-call-on-his-nrl-future-235321/",
-      "description": "The Bulldogs centre was deciding between two teams.",
-      "date": "Sat, 27 Jun 2026 03:24:44 +0000",
-      "teams": [
-        "Canterbury Bulldogs"
       ],
       "isRound": false
     }
