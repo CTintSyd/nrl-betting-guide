@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T15:17:02.080709+00:00",
+  "generatedAt": "2026-06-27T07:23:25.039501+00:00",
   "round": 17,
   "upcomingRound": 17,
   "ladder": [
@@ -21,18 +21,32 @@
       "pos": 2,
       "nick": "Warriors",
       "name": "New Zealand Warriors",
-      "played": 14,
+      "played": 15,
       "wins": 10,
-      "losses": 4,
+      "losses": 5,
       "drawn": 0,
-      "ptsFor": 414,
-      "ptsAgainst": 244,
-      "diff": 170,
+      "ptsFor": 438,
+      "ptsAgainst": 270,
+      "diff": 168,
       "pts": 24,
       "streak": "1W"
     },
     {
       "pos": 3,
+      "nick": "Dolphins",
+      "name": "Dolphins",
+      "played": 15,
+      "wins": 10,
+      "losses": 5,
+      "drawn": 0,
+      "ptsFor": 440,
+      "ptsAgainst": 309,
+      "diff": 131,
+      "pts": 24,
+      "streak": "4W"
+    },
+    {
+      "pos": 4,
       "nick": "Roosters",
       "name": "Sydney Roosters",
       "played": 15,
@@ -44,20 +58,6 @@
       "diff": 60,
       "pts": 24,
       "streak": "2W"
-    },
-    {
-      "pos": 4,
-      "nick": "Dolphins",
-      "name": "Dolphins",
-      "played": 14,
-      "wins": 9,
-      "losses": 5,
-      "drawn": 0,
-      "ptsFor": 414,
-      "ptsAgainst": 285,
-      "diff": 129,
-      "pts": 22,
-      "streak": "4W"
     },
     {
       "pos": 5,
@@ -390,7 +390,7 @@
       ]
     },
     "Dolphins": {
-      "last5": "W W W W",
+      "last5": "W W W W W",
       "games": [
         {
           "round": 12,
@@ -419,6 +419,13 @@
           "opponent": "Wests Tigers",
           "home": false,
           "score": "22\u201336"
+        },
+        {
+          "round": 17,
+          "result": "W",
+          "opponent": "New Zealand Warriors",
+          "home": true,
+          "score": "26\u201324"
         }
       ]
     },
@@ -529,7 +536,7 @@
       ]
     },
     "New Zealand Warriors": {
-      "last5": "W L L W",
+      "last5": "W L L W L",
       "games": [
         {
           "round": 12,
@@ -558,6 +565,13 @@
           "opponent": "North Queensland Cowboys",
           "home": true,
           "score": "38\u201320"
+        },
+        {
+          "round": 17,
+          "result": "L",
+          "opponent": "Dolphins",
+          "home": false,
+          "score": "26\u201324"
         }
       ]
     },

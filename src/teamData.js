@@ -54,11 +54,11 @@ const NRL_TEAM_DATA = {
   'Dolphins': {
     emoji: '🐬', shortName: 'Dolphins', venue: 'Suncorp Stadium', wikiPage: 'Dolphins_NRL', logoFile: 'dolphins.png',
     players: [
-      { name: "Jamayne Isaako",                    pos: "wing",           tryRate: 0.8571 },
-      { name: "Hamiso Tabuai-Fidow",               pos: "fullback",       tryRate: 0.7273 },
-      { name: "Kodi Nikorima",                     pos: "five-eighth",    tryRate: 0.2727 },
-      { name: "Selwyn Cobbo",                      pos: "wing",           tryRate: 0.7273 },
-      { name: "Herbie Farnworth",                  pos: "centre",         tryRate: 0.5385 },
+      { name: "Jamayne Isaako",                    pos: "wing",           tryRate: 0.9333 },
+      { name: "Hamiso Tabuai-Fidow",               pos: "fullback",       tryRate: 0.6667 },
+      { name: "Kodi Nikorima",                     pos: "five-eighth",    tryRate: 0.25 },
+      { name: "Selwyn Cobbo",                      pos: "wing",           tryRate: 0.8333 },
+      { name: "Herbie Farnworth",                  pos: "centre",         tryRate: 0.5714 },
       { name: "Jake Averillo",                     pos: "centre",         tryRate: 0.8571 },
     ],
   },
@@ -114,12 +114,12 @@ const NRL_TEAM_DATA = {
   'New Zealand Warriors': {
     emoji: '⚔️', shortName: 'Warriors', venue: 'Go Media Stadium', wikiPage: 'New_Zealand_Warriors', logoFile: 'new-zealand-warriors.svg',
     players: [
-      { name: "Dallin Watene-Zelezniak",           pos: "wing",           tryRate: 1.0714 },
-      { name: "Taine Tuaupiki",                    pos: "fullback",       tryRate: 0.2143 },
-      { name: "Te Maire Martin",                   pos: "halfback",       tryRate: 0.8 },
+      { name: "Dallin Watene-Zelezniak",           pos: "wing",           tryRate: 1.0667 },
+      { name: "Taine Tuaupiki",                    pos: "fullback",       tryRate: 0.2 },
+      { name: "Te Maire Martin",                   pos: "halfback",       tryRate: 0.6667 },
       { name: "Alofiana Khan-Pereira",             pos: "wing",           tryRate: 1.0 },
       { name: "Leka Halasima",                     pos: "lock",           tryRate: 0.4167 },
-      { name: "Jackson Ford",                      pos: "prop",           tryRate: 0.2857 },
+      { name: "Erin Clark",                        pos: "lock",           tryRate: 0.2667 },
     ],
   },
 

@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-06-26T15:17:19Z",
+  "updatedAt": "2026-06-27T07:23:44Z",
   "season": 2026,
-  "totalFavRecord": "67-56",
-  "totalLineRecord": "12-11",
-  "totalOuRecord": "12O-11U",
+  "totalFavRecord": "68-56",
+  "totalLineRecord": "12-12",
+  "totalOuRecord": "12O-12U",
   "rounds": [
     {
       "round": 1,
@@ -1980,11 +1980,26 @@
           "ouTotal": 49.5,
           "ouResult": "Under",
           "oddsSourced": true
+        },
+        {
+          "homeTeam": "Dolphins",
+          "awayTeam": "New Zealand Warriors",
+          "homeScore": 26,
+          "awayScore": 24,
+          "winner": "Dolphins",
+          "margin": 2,
+          "favourite": "Dolphins",
+          "favouriteWon": true,
+          "linePoint": -3.5,
+          "lineCovered": false,
+          "ouTotal": 50.5,
+          "ouResult": "Under",
+          "oddsSourced": true
         }
       ],
-      "favRecord": "2-1",
-      "lineRecord": "2-1",
-      "ouRecord": "0O-3U"
+      "favRecord": "3-1",
+      "lineRecord": "2-2",
+      "ouRecord": "0O-4U"
     }
   ]
 }
