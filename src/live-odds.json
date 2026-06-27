@@ -1,6 +1,6 @@
 {
-  "updated": "2026-06-27T10:52:00.984Z",
-  "quotaRemaining": 23,
+  "updated": "2026-06-27T13:04:54.112Z",
+  "quotaRemaining": 20,
   "round": 17,
   "venueOverride": {
     "venue": "Suncorp Stadium",
@@ -8,48 +8,14 @@
   },
   "games": [
     {
-      "id": "0647520a3e6510c5ea82590bdd8381b5",
-      "homeTeam": "Manly Warringah Sea Eagles",
-      "awayTeam": "Melbourne Storm",
-      "commenceTime": "2026-06-27T09:33:00Z",
-      "bookmaker": "pointsbetau",
-      "h2h": {
-        "home": 1,
-        "away": 26
-      },
-      "line": {
-        "home": {
-          "odd": null,
-          "point": null
-        },
-        "away": {
-          "odd": null,
-          "point": null
-        }
-      },
-      "ou": {
-        "total": null,
-        "overOdd": null,
-        "underOdd": null
-      },
-      "bookmakerComparison": [
-        {
-          "key": "pointsbetau",
-          "name": "PointsBet",
-          "home": 1,
-          "away": 26
-        }
-      ]
-    },
-    {
       "id": "b5fc8bba287f8126ed382ae5d0cf5923",
       "homeTeam": "Canberra Raiders",
       "awayTeam": "St George Illawarra Dragons",
       "commenceTime": "2026-06-28T04:00:00Z",
       "bookmaker": "sportsbet",
       "h2h": {
-        "home": 1.35,
-        "away": 3.23
+        "home": 1.33,
+        "away": 3.34
       },
       "line": {
         "home": {
@@ -62,28 +28,28 @@
         }
       },
       "ou": {
-        "total": 52.5,
-        "overOdd": 1.99,
-        "underOdd": 1.82
+        "total": 50.5,
+        "overOdd": 1.9,
+        "underOdd": 1.9
       },
       "bookmakerComparison": [
         {
           "key": "sportsbet",
           "name": "Sportsbet",
-          "home": 1.35,
-          "away": 3.23
+          "home": 1.33,
+          "away": 3.34
         },
         {
           "key": "tab",
           "name": "TAB",
-          "home": 1.35,
-          "away": 3.25
+          "home": 1.34,
+          "away": 3.3
         },
         {
           "key": "betright",
           "name": "BetRight",
-          "home": 1.35,
-          "away": 3.2
+          "home": 1.34,
+          "away": 3.25
         },
         {
           "key": "ladbrokes_au",
@@ -100,30 +66,30 @@
       "commenceTime": "2026-06-28T06:05:00Z",
       "bookmaker": "sportsbet",
       "h2h": {
-        "home": 1.41,
-        "away": 2.94
+        "home": 1.35,
+        "away": 3.2
       },
       "line": {
         "home": {
-          "odd": 1.83,
-          "point": -7.5
+          "odd": 1.91,
+          "point": -8.5
         },
         "away": {
-          "odd": 1.98,
-          "point": 7.5
+          "odd": 1.89,
+          "point": 8.5
         }
       },
       "ou": {
-        "total": 50.5,
-        "overOdd": 1.9,
-        "underOdd": 1.9
+        "total": 49.5,
+        "overOdd": 1.82,
+        "underOdd": 1.99
       },
       "bookmakerComparison": [
         {
           "key": "sportsbet",
           "name": "Sportsbet",
-          "home": 1.41,
-          "away": 2.94
+          "home": 1.35,
+          "away": 3.2
         },
         {
           "key": "tab",
@@ -140,8 +106,8 @@
         {
           "key": "ladbrokes_au",
           "name": "Ladbrokes",
-          "home": 1.44,
-          "away": 2.8
+          "home": 1.36,
+          "away": 3.1
         }
       ]
     },
@@ -286,6 +252,46 @@
           "name": "PointsBet",
           "home": 2.55,
           "away": 1.5
+        }
+      ]
+    },
+    {
+      "id": "6e2ee11d2298fba13c7e0bcb55ce445f",
+      "homeTeam": "Parramatta Eels",
+      "awayTeam": "Manly Warringah Sea Eagles",
+      "commenceTime": "2026-07-05T04:00:00Z",
+      "bookmaker": "sportsbet",
+      "h2h": {
+        "home": 3.22,
+        "away": 1.35
+      },
+      "line": {
+        "home": {
+          "odd": 1.89,
+          "point": 8.5
+        },
+        "away": {
+          "odd": 1.91,
+          "point": -8.5
+        }
+      },
+      "ou": {
+        "total": 50.5,
+        "overOdd": 2,
+        "underOdd": 1.81
+      },
+      "bookmakerComparison": [
+        {
+          "key": "sportsbet",
+          "name": "Sportsbet",
+          "home": 3.22,
+          "away": 1.35
+        },
+        {
+          "key": "pointsbetau",
+          "name": "PointsBet",
+          "home": 2.7,
+          "away": 1.45
         }
       ]
     },
