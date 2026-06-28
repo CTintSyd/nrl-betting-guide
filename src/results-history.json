@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-06-27T12:54:41Z",
+  "updatedAt": "2026-06-28T07:46:01Z",
   "season": 2026,
-  "totalFavRecord": "69-57",
-  "totalLineRecord": "13-13",
-  "totalOuRecord": "12O-14U",
+  "totalFavRecord": "70-57",
+  "totalLineRecord": "13-14",
+  "totalOuRecord": "12O-15U",
   "rounds": [
     {
       "round": 1,
@@ -2025,11 +2025,26 @@
           "ouTotal": 48.5,
           "ouResult": "Under",
           "oddsSourced": true
+        },
+        {
+          "homeTeam": "Canberra Raiders",
+          "awayTeam": "St George Illawarra Dragons",
+          "homeScore": 24,
+          "awayScore": 16,
+          "winner": "Canberra Raiders",
+          "margin": 8,
+          "favourite": "Canberra Raiders",
+          "favouriteWon": true,
+          "linePoint": -10.5,
+          "lineCovered": false,
+          "ouTotal": 52.5,
+          "ouResult": "Under",
+          "oddsSourced": true
         }
       ],
-      "favRecord": "4-2",
-      "lineRecord": "3-3",
-      "ouRecord": "0O-6U"
+      "favRecord": "5-2",
+      "lineRecord": "3-4",
+      "ouRecord": "0O-7U"
     }
   ]
 }

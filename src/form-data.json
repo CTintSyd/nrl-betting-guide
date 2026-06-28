@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T12:54:17.016912+00:00",
+  "generatedAt": "2026-06-28T07:45:35.705210+00:00",
   "round": 17,
   "upcomingRound": 17,
   "ladder": [
@@ -187,6 +187,20 @@
     },
     {
       "pos": 14,
+      "nick": "Raiders",
+      "name": "Canberra Raiders",
+      "played": 16,
+      "wins": 6,
+      "losses": 10,
+      "drawn": 0,
+      "ptsFor": 305,
+      "ptsAgainst": 420,
+      "diff": -115,
+      "pts": 14,
+      "streak": "1W"
+    },
+    {
+      "pos": 15,
       "nick": "Eels",
       "name": "Parramatta Eels",
       "played": 15,
@@ -200,7 +214,7 @@
       "streak": "1L"
     },
     {
-      "pos": 15,
+      "pos": 16,
       "nick": "Titans",
       "name": "Gold Coast Titans",
       "played": 15,
@@ -214,32 +228,18 @@
       "streak": "1L"
     },
     {
-      "pos": 16,
-      "nick": "Raiders",
-      "name": "Canberra Raiders",
-      "played": 15,
-      "wins": 5,
-      "losses": 10,
-      "drawn": 0,
-      "ptsFor": 281,
-      "ptsAgainst": 404,
-      "diff": -123,
-      "pts": 12,
-      "streak": "3L"
-    },
-    {
       "pos": 17,
       "nick": "Dragons",
       "name": "St George Illawarra Dragons",
-      "played": 14,
+      "played": 15,
       "wins": 1,
-      "losses": 13,
+      "losses": 14,
       "drawn": 0,
-      "ptsFor": 204,
-      "ptsAgainst": 449,
-      "diff": -245,
+      "ptsFor": 220,
+      "ptsAgainst": 473,
+      "diff": -253,
       "pts": 6,
-      "streak": "2L"
+      "streak": "3L"
     }
   ],
   "teams": {
@@ -277,15 +277,8 @@
       ]
     },
     "Canberra Raiders": {
-      "last5": "L W L L L",
+      "last5": "W L L L W",
       "games": [
-        {
-          "round": 12,
-          "result": "L",
-          "opponent": "Dolphins",
-          "home": true,
-          "score": "22\u201330"
-        },
         {
           "round": 13,
           "result": "W",
@@ -313,6 +306,13 @@
           "opponent": "Melbourne Storm",
           "home": false,
           "score": "42\u201320"
+        },
+        {
+          "round": 17,
+          "result": "W",
+          "opponent": "St George Illawarra Dragons",
+          "home": true,
+          "score": "24\u201316"
         }
       ]
     },
@@ -755,7 +755,7 @@
       ]
     },
     "St George Illawarra Dragons": {
-      "last5": "L W L L",
+      "last5": "L W L L L",
       "games": [
         {
           "round": 12,
@@ -784,6 +784,13 @@
           "opponent": "Newcastle Knights",
           "home": false,
           "score": "22\u201320"
+        },
+        {
+          "round": 17,
+          "result": "L",
+          "opponent": "Canberra Raiders",
+          "home": false,
+          "score": "24\u201316"
         }
       ]
     },

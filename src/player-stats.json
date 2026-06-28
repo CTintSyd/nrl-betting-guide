@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T12:54:04.415054+00:00",
+  "generatedAt": "2026-06-28T07:45:22.877091+00:00",
   "round": 17,
   "players": {
     "Kalyn Ponga": {
@@ -403,8 +403,8 @@
     },
     "Clinton Gutherson": {
       "tries": 1,
-      "games": 11,
-      "tryRate": 0.0909,
+      "games": 12,
+      "tryRate": 0.0833,
       "team": "St George Illawarra Dragons",
       "position": "Fullback"
     },
@@ -424,57 +424,57 @@
     },
     "Valentine Holmes": {
       "tries": 6,
-      "games": 14,
-      "tryRate": 0.4286,
+      "games": 15,
+      "tryRate": 0.4,
       "team": "St George Illawarra Dragons",
       "position": "Centre"
     },
     "Setu Tu": {
-      "tries": 7,
-      "games": 12,
-      "tryRate": 0.5833,
+      "tries": 8,
+      "games": 13,
+      "tryRate": 0.6154,
       "team": "St George Illawarra Dragons",
       "position": "Winger"
     },
     "Kyle Flanagan": {
       "tries": 0,
-      "games": 13,
+      "games": 14,
       "tryRate": 0.0,
       "team": "St George Illawarra Dragons",
       "position": "Halfback"
     },
     "Daniel Atkinson": {
       "tries": 1,
-      "games": 13,
-      "tryRate": 0.0769,
+      "games": 14,
+      "tryRate": 0.0714,
       "team": "St George Illawarra Dragons",
       "position": "Five-Eighth"
     },
     "Emre Guler": {
       "tries": 1,
-      "games": 13,
-      "tryRate": 0.0769,
+      "games": 14,
+      "tryRate": 0.0714,
       "team": "St George Illawarra Dragons",
-      "position": "Reserve"
+      "position": "Interchange"
     },
     "Damien Cook": {
       "tries": 2,
-      "games": 14,
-      "tryRate": 0.1429,
+      "games": 15,
+      "tryRate": 0.1333,
       "team": "St George Illawarra Dragons",
       "position": "Hooker"
     },
     "Toby Couchman": {
       "tries": 0,
-      "games": 13,
+      "games": 14,
       "tryRate": 0.0,
       "team": "St George Illawarra Dragons",
       "position": "Prop"
     },
     "Luciano Leilua": {
       "tries": 2,
-      "games": 12,
-      "tryRate": 0.1667,
+      "games": 13,
+      "tryRate": 0.1538,
       "team": "St George Illawarra Dragons",
       "position": "Interchange"
     },
@@ -487,8 +487,8 @@
     },
     "Hamish Stewart": {
       "tries": 2,
-      "games": 14,
-      "tryRate": 0.1429,
+      "games": 15,
+      "tryRate": 0.1333,
       "team": "St George Illawarra Dragons",
       "position": "2nd Row"
     },
@@ -501,7 +501,7 @@
     },
     "Josh Kerr": {
       "tries": 0,
-      "games": 14,
+      "games": 15,
       "tryRate": 0.0,
       "team": "St George Illawarra Dragons",
       "position": "Interchange"
@@ -515,24 +515,24 @@
     },
     "Ryan Couchman": {
       "tries": 0,
-      "games": 10,
+      "games": 11,
       "tryRate": 0.0,
       "team": "St George Illawarra Dragons",
       "position": "Lock"
     },
     "Lyhkan King-Togia": {
       "tries": 0,
-      "games": 10,
+      "games": 11,
       "tryRate": 0.0,
       "team": "St George Illawarra Dragons",
       "position": "Reserve"
     },
     "Mathew Feagai": {
       "tries": 2,
-      "games": 10,
-      "tryRate": 0.2,
+      "games": 11,
+      "tryRate": 0.1818,
       "team": "St George Illawarra Dragons",
-      "position": "Winger"
+      "position": "Centre"
     },
     "Sualauvi Faalogo": {
       "tries": 13,
@@ -1733,50 +1733,50 @@
     },
     "Kaeo Weekes": {
       "tries": 8,
-      "games": 15,
-      "tryRate": 0.5333,
+      "games": 16,
+      "tryRate": 0.5,
       "team": "Canberra Raiders",
       "position": "Fullback"
     },
     "Savelio Tamale": {
       "tries": 7,
-      "games": 13,
-      "tryRate": 0.5385,
+      "games": 14,
+      "tryRate": 0.5,
       "team": "Canberra Raiders",
       "position": "Winger"
     },
     "Simi Sasagi": {
       "tries": 4,
-      "games": 9,
-      "tryRate": 0.4444,
-      "team": "Canberra Raiders",
-      "position": "2nd Row"
-    },
-    "Sebastian Kris": {
-      "tries": 4,
-      "games": 13,
-      "tryRate": 0.3077,
+      "games": 10,
+      "tryRate": 0.4,
       "team": "Canberra Raiders",
       "position": "Centre"
     },
+    "Sebastian Kris": {
+      "tries": 4,
+      "games": 14,
+      "tryRate": 0.2857,
+      "team": "Canberra Raiders",
+      "position": "Interchange"
+    },
     "Xavier Savage": {
-      "tries": 5,
-      "games": 10,
-      "tryRate": 0.5,
+      "tries": 7,
+      "games": 11,
+      "tryRate": 0.6364,
       "team": "Canberra Raiders",
       "position": "Winger"
     },
     "Ethan Strange": {
       "tries": 4,
-      "games": 12,
-      "tryRate": 0.3333,
+      "games": 13,
+      "tryRate": 0.3077,
       "team": "Canberra Raiders",
       "position": "Five-Eighth"
     },
     "Ethan Sanders": {
       "tries": 2,
-      "games": 15,
-      "tryRate": 0.1333,
+      "games": 16,
+      "tryRate": 0.125,
       "team": "Canberra Raiders",
       "position": "Halfback"
     },
@@ -1788,23 +1788,23 @@
       "position": "Interchange"
     },
     "Tom Starling": {
-      "tries": 1,
-      "games": 15,
-      "tryRate": 0.0667,
+      "tries": 2,
+      "games": 16,
+      "tryRate": 0.125,
       "team": "Canberra Raiders",
       "position": "Interchange"
     },
     "Joseph Tapine": {
       "tries": 0,
-      "games": 15,
+      "games": 16,
       "tryRate": 0.0,
       "team": "Canberra Raiders",
       "position": "Prop"
     },
     "Hudson Young": {
-      "tries": 3,
-      "games": 11,
-      "tryRate": 0.2727,
+      "tries": 4,
+      "games": 12,
+      "tryRate": 0.3333,
       "team": "Canberra Raiders",
       "position": "2nd Row"
     },
@@ -1817,35 +1817,35 @@
     },
     "Corey Horsburgh": {
       "tries": 2,
-      "games": 15,
-      "tryRate": 0.1333,
+      "games": 16,
+      "tryRate": 0.125,
       "team": "Canberra Raiders",
       "position": "Prop"
     },
     "Jayden Brailey": {
       "tries": 0,
-      "games": 14,
+      "games": 15,
       "tryRate": 0.0,
       "team": "Canberra Raiders",
       "position": "Lock"
     },
     "Zac Hosking": {
       "tries": 1,
-      "games": 13,
-      "tryRate": 0.0769,
+      "games": 14,
+      "tryRate": 0.0714,
       "team": "Canberra Raiders",
       "position": "2nd Row"
     },
     "Ata Mariota": {
       "tries": 0,
-      "games": 15,
+      "games": 16,
       "tryRate": 0.0,
       "team": "Canberra Raiders",
       "position": "Interchange"
     },
     "Morgan Smithies": {
       "tries": 0,
-      "games": 15,
+      "games": 16,
       "tryRate": 0.0,
       "team": "Canberra Raiders",
       "position": "Interchange"
@@ -1953,7 +1953,7 @@
       "games": 13,
       "tryRate": 0.1538,
       "team": "Dolphins",
-      "position": "Interchange"
+      "position": "Reserve"
     },
     "Oryn Keeley": {
       "tries": 0,
@@ -1967,7 +1967,7 @@
       "games": 15,
       "tryRate": 0.0,
       "team": "Dolphins",
-      "position": "Reserve"
+      "position": "Interchange"
     },
     "Trai Fuller": {
       "tries": 2,
@@ -2160,8 +2160,8 @@
     },
     "Matthew Timoko": {
       "tries": 4,
-      "games": 11,
-      "tryRate": 0.3636,
+      "games": 12,
+      "tryRate": 0.3333,
       "team": "Canberra Raiders",
       "position": "Centre"
     },
@@ -2552,8 +2552,8 @@
     },
     "Jacob Liddle": {
       "tries": 1,
-      "games": 6,
-      "tryRate": 0.1667,
+      "games": 7,
+      "tryRate": 0.1429,
       "team": "St George Illawarra Dragons",
       "position": "Interchange"
     },
@@ -2685,14 +2685,14 @@
     },
     "Jacob Halangahu": {
       "tries": 0,
-      "games": 5,
+      "games": 6,
       "tryRate": 0.0,
       "team": "St George Illawarra Dragons",
-      "position": "Interchange"
+      "position": "Reserve"
     },
     "Loko Jnr Pasifiki Tonga": {
       "tries": 0,
-      "games": 9,
+      "games": 10,
       "tryRate": 0.0,
       "team": "St George Illawarra Dragons",
       "position": "Prop"
@@ -2705,11 +2705,11 @@
       "position": "Centre"
     },
     "Tyrell Sloan": {
-      "tries": 3,
-      "games": 10,
-      "tryRate": 0.3,
+      "tries": 5,
+      "games": 11,
+      "tryRate": 0.4545,
       "team": "St George Illawarra Dragons",
-      "position": "Centre"
+      "position": "Winger"
     },
     "Kurt Donoghoe": {
       "tries": 1,
@@ -2762,7 +2762,7 @@
     },
     "Chevy Stewart": {
       "tries": 0,
-      "games": 8,
+      "games": 9,
       "tryRate": 0.0,
       "team": "Canberra Raiders",
       "position": "Reserve"
@@ -3007,8 +3007,8 @@
     },
     "Owen Pattie": {
       "tries": 1,
-      "games": 8,
-      "tryRate": 0.125,
+      "games": 9,
+      "tryRate": 0.1111,
       "team": "Canberra Raiders",
       "position": "Hooker"
     },
@@ -3140,8 +3140,8 @@
     },
     "Dylan Egan": {
       "tries": 1,
-      "games": 6,
-      "tryRate": 0.1667,
+      "games": 7,
+      "tryRate": 0.1429,
       "team": "St George Illawarra Dragons",
       "position": "2nd Row"
     },
@@ -3259,7 +3259,7 @@
     },
     "Jake Clydsdale": {
       "tries": 0,
-      "games": 1,
+      "games": 2,
       "tryRate": 0.0,
       "team": "Canberra Raiders",
       "position": "Reserve"
