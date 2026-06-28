@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-06-28T07:46:01Z",
+  "updatedAt": "2026-06-28T10:17:02Z",
   "season": 2026,
-  "totalFavRecord": "70-57",
-  "totalLineRecord": "13-14",
-  "totalOuRecord": "12O-15U",
+  "totalFavRecord": "71-57",
+  "totalLineRecord": "13-15",
+  "totalOuRecord": "12O-16U",
   "rounds": [
     {
       "round": 1,
@@ -2040,11 +2040,26 @@
           "ouTotal": 52.5,
           "ouResult": "Under",
           "oddsSourced": true
+        },
+        {
+          "homeTeam": "Newcastle Knights",
+          "awayTeam": "Wests Tigers",
+          "homeScore": 12,
+          "awayScore": 6,
+          "winner": "Newcastle Knights",
+          "margin": 6,
+          "favourite": "Newcastle Knights",
+          "favouriteWon": true,
+          "linePoint": -7.5,
+          "lineCovered": false,
+          "ouTotal": 52.5,
+          "ouResult": "Under",
+          "oddsSourced": true
         }
       ],
-      "favRecord": "5-2",
-      "lineRecord": "3-4",
-      "ouRecord": "0O-7U"
+      "favRecord": "6-2",
+      "lineRecord": "3-5",
+      "ouRecord": "0O-8U"
     }
   ]
 }

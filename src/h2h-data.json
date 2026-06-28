@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T07:45:47Z",
+  "generatedAt": "2026-06-28T10:16:56Z",
   "matches": {
     "Penrith Panthers vs South Sydney Rabbitohs": {
       "homeTeam": "Penrith Panthers",
@@ -9,9 +9,9 @@
       "weather": null,
       "seasonStats": {
         "home": {
-          "winPct": 86.0,
-          "completionRate": 81.0,
-          "avgScored": 32.0,
+          "winPct": 80.0,
+          "completionRate": 80.0,
+          "avgScored": 31.0,
           "avgConceded": 13.0,
           "winsAtVenue": 59.0,
           "winsOverall": 53.0
@@ -372,10 +372,10 @@
           "winsOverall": 48.0
         },
         "away": {
-          "winPct": 57.0,
-          "completionRate": 80.0,
+          "winPct": 60.0,
+          "completionRate": 81.0,
           "avgScored": 27.0,
-          "avgConceded": 18.0,
+          "avgConceded": 17.0,
           "winsAtVenue": 31.0,
           "winsOverall": 50.0
         }
@@ -491,7 +491,7 @@
           "winsOverall": 44.0
         },
         "away": {
-          "winPct": 64.0,
+          "winPct": 67.0,
           "completionRate": 77.0,
           "avgScored": 29.0,
           "avgConceded": 20.0,

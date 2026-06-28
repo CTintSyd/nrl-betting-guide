@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-06-28T07:45:35.705210+00:00",
+  "generatedAt": "2026-06-28T10:16:51.268444+00:00",
   "round": 17,
-  "upcomingRound": 17,
+  "upcomingRound": 18,
   "ladder": [
     {
       "pos": 1,
@@ -61,6 +61,20 @@
     },
     {
       "pos": 5,
+      "nick": "Knights",
+      "name": "Newcastle Knights",
+      "played": 15,
+      "wins": 10,
+      "losses": 5,
+      "drawn": 0,
+      "ptsFor": 404,
+      "ptsAgainst": 364,
+      "diff": 40,
+      "pts": 24,
+      "streak": "2W"
+    },
+    {
+      "pos": 6,
       "nick": "Sea Eagles",
       "name": "Manly Warringah Sea Eagles",
       "played": 15,
@@ -74,7 +88,7 @@
       "streak": "1W"
     },
     {
-      "pos": 6,
+      "pos": 7,
       "nick": "Rabbitohs",
       "name": "South Sydney Rabbitohs",
       "played": 14,
@@ -88,7 +102,7 @@
       "streak": "2W"
     },
     {
-      "pos": 7,
+      "pos": 8,
       "nick": "Sharks",
       "name": "Cronulla Sutherland Sharks",
       "played": 14,
@@ -100,20 +114,6 @@
       "diff": 45,
       "pts": 22,
       "streak": "1L"
-    },
-    {
-      "pos": 8,
-      "nick": "Knights",
-      "name": "Newcastle Knights",
-      "played": 14,
-      "wins": 9,
-      "losses": 5,
-      "drawn": 0,
-      "ptsFor": 392,
-      "ptsAgainst": 358,
-      "diff": 34,
-      "pts": 22,
-      "streak": "1W"
     },
     {
       "pos": 9,
@@ -147,15 +147,15 @@
       "pos": 11,
       "nick": "Wests Tigers",
       "name": "Wests Tigers",
-      "played": 14,
+      "played": 15,
       "wins": 7,
-      "losses": 7,
+      "losses": 8,
       "drawn": 0,
-      "ptsFor": 333,
-      "ptsAgainst": 417,
-      "diff": -84,
+      "ptsFor": 339,
+      "ptsAgainst": 429,
+      "diff": -90,
       "pts": 18,
-      "streak": "1L"
+      "streak": "2L"
     },
     {
       "pos": 12,
@@ -590,7 +590,7 @@
       ]
     },
     "Newcastle Knights": {
-      "last5": "W L W",
+      "last5": "W L W W",
       "games": [
         {
           "round": 13,
@@ -612,6 +612,13 @@
           "opponent": "St George Illawarra Dragons",
           "home": true,
           "score": "22\u201320"
+        },
+        {
+          "round": 17,
+          "result": "W",
+          "opponent": "Wests Tigers",
+          "home": true,
+          "score": "12\u20136"
         }
       ]
     },
@@ -835,7 +842,7 @@
       ]
     },
     "Wests Tigers": {
-      "last5": "W L W L",
+      "last5": "W L W L L",
       "games": [
         {
           "round": 13,
@@ -864,6 +871,13 @@
           "opponent": "Dolphins",
           "home": true,
           "score": "22\u201336"
+        },
+        {
+          "round": 17,
+          "result": "L",
+          "opponent": "Newcastle Knights",
+          "home": false,
+          "score": "12\u20136"
         }
       ]
     }
