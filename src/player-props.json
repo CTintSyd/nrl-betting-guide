@@ -1,19 +1,7 @@
 {
-  "updated": "2026-06-27T22:52:30.742Z",
+  "updated": "2026-06-29T15:36:51.537Z",
   "quotaRemaining": null,
   "games": {
-    "Canberra Raiders vs St George Illawarra Dragons": {
-      "homeTeam": "Canberra Raiders",
-      "awayTeam": "St George Illawarra Dragons",
-      "available": false,
-      "error": "API 422: {\"message\":\"Invalid markets: player_anytime_try_scorer, player_first_try_scorer\",\"error_code\":\"INVALID_MARKET\",\"details_url\":\"https://the-odds-api.com/liveapi/guides/v4/api-error-codes.html#invalid-market\"}\n"
-    },
-    "Newcastle Knights vs Wests Tigers": {
-      "homeTeam": "Newcastle Knights",
-      "awayTeam": "Wests Tigers",
-      "available": false,
-      "error": "API 422: {\"message\":\"Invalid markets: player_anytime_try_scorer, player_first_try_scorer\",\"error_code\":\"INVALID_MARKET\",\"details_url\":\"https://the-odds-api.com/liveapi/guides/v4/api-error-codes.html#invalid-market\"}\n"
-    },
     "Penrith Panthers vs South Sydney Rabbitohs": {
       "homeTeam": "Penrith Panthers",
       "awayTeam": "South Sydney Rabbitohs",
