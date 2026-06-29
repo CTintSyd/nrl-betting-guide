@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T14:16:14.157463+00:00",
+  "generatedAt": "2026-06-29T09:03:00.505932+00:00",
   "round": 18,
   "games": [
     {
@@ -80,7 +80,7 @@
       },
       {
         "name": "Aublix Tawha",
-        "injury": "Leg",
+        "injury": "Ankle",
         "expectedReturn": "TBC",
         "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500011/Tawha.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/broncos/aublix-tawha/"
@@ -442,6 +442,13 @@
         "expectedReturn": "TBC",
         "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500002/Brandon_Wakeham_744.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/sea-eagles/brandon-wakeham/"
+      },
+      {
+        "name": "Luke Brooks",
+        "injury": "ACL",
+        "expectedReturn": "Next Season",
+        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500002/Luke%20Brooks%20_260128_SeaEgales_MK004.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/sea-eagles/luke-brooks/"
       }
     ],
     "Cronulla Sutherland Sharks": [
