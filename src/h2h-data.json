@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-06-29T14:14:25Z",
+  "generatedAt": "2026-06-30T06:08:55Z",
   "matches": {
     "Penrith Panthers vs South Sydney Rabbitohs": {
       "homeTeam": "Penrith Panthers",
       "awayTeam": "South Sydney Rabbitohs",
       "referee": null,
-      "groundConditions": null,
-      "weather": null,
+      "groundConditions": "Good",
+      "weather": "Fine",
       "seasonStats": {
         "home": {
           "winPct": 80.0,
@@ -124,8 +124,8 @@
       "homeTeam": "St George Illawarra Dragons",
       "awayTeam": "Wests Tigers",
       "referee": null,
-      "groundConditions": null,
-      "weather": null,
+      "groundConditions": "Good",
+      "weather": "Fine",
       "seasonStats": {
         "home": {
           "winPct": 7.0,
@@ -241,8 +241,8 @@
       "homeTeam": "Brisbane Broncos",
       "awayTeam": "Cronulla Sutherland Sharks",
       "referee": null,
-      "groundConditions": null,
-      "weather": null,
+      "groundConditions": "Good",
+      "weather": "Fine",
       "seasonStats": {
         "home": {
           "winPct": 33.0,
@@ -360,8 +360,8 @@
       "homeTeam": "Parramatta Eels",
       "awayTeam": "Manly Warringah Sea Eagles",
       "referee": null,
-      "groundConditions": null,
-      "weather": null,
+      "groundConditions": "Good",
+      "weather": "Fine",
       "seasonStats": {
         "home": {
           "winPct": 33.0,
@@ -479,8 +479,8 @@
       "homeTeam": "Newcastle Knights",
       "awayTeam": "Dolphins",
       "referee": null,
-      "groundConditions": null,
-      "weather": null,
+      "groundConditions": "Good",
+      "weather": "Fine",
       "seasonStats": {
         "home": {
           "winPct": 67.0,
