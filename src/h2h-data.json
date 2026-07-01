@@ -1,10 +1,14 @@
 {
-  "generatedAt": "2026-06-30T06:08:55Z",
+  "generatedAt": "2026-07-01T06:23:23Z",
   "matches": {
     "Penrith Panthers vs South Sydney Rabbitohs": {
       "homeTeam": "Penrith Panthers",
       "awayTeam": "South Sydney Rabbitohs",
-      "referee": null,
+      "referee": {
+        "name": "Adam Gee",
+        "url": "https://www.nrl.com/operations/the-officials/match-officials/adam-gee/",
+        "img": "https://www.nrl.com/contentassets/e6dd07beef3848e49742de47445fda18/geea-referees-2023_nrl_0071-head-shot.png?center=0.37%2C0.52"
+      },
       "groundConditions": "Good",
       "weather": "Fine",
       "seasonStats": {
@@ -123,7 +127,11 @@
     "St George Illawarra Dragons vs Wests Tigers": {
       "homeTeam": "St George Illawarra Dragons",
       "awayTeam": "Wests Tigers",
-      "referee": null,
+      "referee": {
+        "name": "Todd Smith",
+        "url": "https://www.nrl.com/operations/the-officials/match-officials/todd-smith/",
+        "img": "https://www.nrl.com/contentassets/765ef5db144a4768a36293699599c0a8/smitht-referees-2023_nrl_0100-head-shot.png?center=0.41%2C0.5"
+      },
       "groundConditions": "Good",
       "weather": "Fine",
       "seasonStats": {
@@ -240,7 +248,11 @@
     "Brisbane Broncos vs Cronulla Sutherland Sharks": {
       "homeTeam": "Brisbane Broncos",
       "awayTeam": "Cronulla Sutherland Sharks",
-      "referee": null,
+      "referee": {
+        "name": "Gerard Sutton",
+        "url": "https://www.nrl.com/operations/the-officials/match-officials/gerard-sutton/",
+        "img": "https://www.nrl.com/contentassets/edf145e59b4740599097b4e68dc011fc/suttong-referees-2023_nrl_0152-head-shot.png?center=0.38%2C0.51"
+      },
       "groundConditions": "Good",
       "weather": "Fine",
       "seasonStats": {
@@ -359,7 +371,11 @@
     "Parramatta Eels vs Manly Warringah Sea Eagles": {
       "homeTeam": "Parramatta Eels",
       "awayTeam": "Manly Warringah Sea Eagles",
-      "referee": null,
+      "referee": {
+        "name": "Grant Atkins",
+        "url": "https://www.nrl.com/operations/the-officials/match-officials/grant-atkins/",
+        "img": "https://www.nrl.com/contentassets/0586ab6a55114404b178558792347181/atkinsg-referees-2023_nrl_0125-head-shot.png?center=0.38%2C0.51"
+      },
       "groundConditions": "Good",
       "weather": "Fine",
       "seasonStats": {
@@ -478,7 +494,11 @@
     "Newcastle Knights vs Dolphins": {
       "homeTeam": "Newcastle Knights",
       "awayTeam": "Dolphins",
-      "referee": null,
+      "referee": {
+        "name": "Wyatt Raymond",
+        "url": "https://www.nrl.com/operations/the-officials/match-officials/wyatt-raymond/",
+        "img": "https://www.nrl.com/contentassets/34ac6810f7c94b009f0b5f0cdb10a21e/raymondwyatt-referees-2023_nrl_0065-head-shot.png?center=0.38%2C0.51"
+      },
       "groundConditions": "Good",
       "weather": "Fine",
       "seasonStats": {

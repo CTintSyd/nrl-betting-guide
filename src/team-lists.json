@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T06:08:55.320794+00:00",
+  "generatedAt": "2026-07-01T06:23:22.656921+00:00",
   "round": 18,
   "games": [
     {
@@ -1392,11 +1392,18 @@
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/broncos/gehamat-shibasaki/"
       },
       {
-        "name": "Xavier Willison",
-        "injury": "Concussion",
-        "expectedReturn": "Round 19",
-        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500011/Willison.png?center=0.5%2C0.5",
-        "profileUrl": "https://www.nrl.com/players/nrl-premiership/broncos/xavier-willison/"
+        "name": "Jack Gosiewski",
+        "injury": "Ribs",
+        "expectedReturn": "Round 20",
+        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500011/Gosiewski.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/broncos/jack-gosiewski/"
+      },
+      {
+        "name": "Aublix Tawha",
+        "injury": "Ankle",
+        "expectedReturn": "Round 23",
+        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500011/Tawha.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/broncos/aublix-tawha/"
       },
       {
         "name": "Corey Jensen",
@@ -1418,13 +1425,6 @@
         "expectedReturn": "TBC",
         "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500011/Reynolds.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/broncos/adam-reynolds/"
-      },
-      {
-        "name": "Aublix Tawha",
-        "injury": "Ankle",
-        "expectedReturn": "TBC",
-        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500011/Tawha.png?center=0.5%2C0.5",
-        "profileUrl": "https://www.nrl.com/players/nrl-premiership/broncos/aublix-tawha/"
       }
     ],
     "Canterbury Bulldogs": [
@@ -1498,7 +1498,7 @@
       {
         "name": "Isaiya Katoa",
         "injury": "Wrist",
-        "expectedReturn": "TBC",
+        "expectedReturn": "Round 22",
         "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500723/Bodyshot-Katoa.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/dolphins/isaiya-katoa/"
       }
@@ -1692,6 +1692,13 @@
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/roosters/daniel-tupou/"
       },
       {
+        "name": "Nat Butcher",
+        "injury": "Suspension",
+        "expectedReturn": "Round 20",
+        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500001/Nat%20Butcher%20260203_Roosters874.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/roosters/nat-butcher/"
+      },
+      {
         "name": "Lindsay Collins",
         "injury": "Concussion",
         "expectedReturn": "Round 20",
@@ -1810,6 +1817,13 @@
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/storm/hugo-peel/"
       },
       {
+        "name": "Ativalu Lisati",
+        "injury": "Ankle",
+        "expectedReturn": "Round 24",
+        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500021/Lisati%2CA_260204_AR_4.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/storm/ativalu-lisati/"
+      },
+      {
         "name": "Jack Howarth",
         "injury": "Quad",
         "expectedReturn": "TBC",
@@ -1877,6 +1891,13 @@
     ],
     "New Zealand Warriors": [
       {
+        "name": "Rocco Berry",
+        "injury": "Hamstring",
+        "expectedReturn": "Round 19",
+        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500032/Rocco%20Berry-003.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/warriors/rocco-berry/"
+      },
+      {
         "name": "James Fisher-Harris",
         "injury": "Calf",
         "expectedReturn": "Round 19",
@@ -1886,7 +1907,7 @@
       {
         "name": "Leka Halasima",
         "injury": "Hamstring",
-        "expectedReturn": "TBC",
+        "expectedReturn": "Round 19",
         "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500032/Leka%20Halasima-003.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/warriors/leka-halasima/"
       },
@@ -1903,13 +1924,6 @@
         "expectedReturn": "Next Season",
         "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500032/Tanah%20Boyd-W-003.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/warriors/tanah-boyd/"
-      },
-      {
-        "name": "Roger Tuivasa-Sheck",
-        "injury": "ACL",
-        "expectedReturn": "Next Season",
-        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500032/Roger%20Tuivasa-Sheck_005.png?center=0.5%2C0.5",
-        "profileUrl": "https://www.nrl.com/players/nrl-premiership/warriors/roger-tuivasa-sheck/"
       },
       {
         "name": "Jackson Ford",
@@ -1933,6 +1947,13 @@
         "expectedReturn": "Round 18",
         "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500023/Alex%20Twal%20260106_MK776-21.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/wests-tigers/alex-twal/"
+      },
+      {
+        "name": "Jarome Luai",
+        "injury": "Concussion",
+        "expectedReturn": "Round 19",
+        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500023/Jarome%20Luai%20260106_MK169-2.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/wests-tigers/jarome-luai/"
       },
       {
         "name": "Samuela Fainu",
