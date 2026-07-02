@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-02T06:07:44.086326+00:00",
+  "generatedAt": "2026-07-02T12:10:23.469189+00:00",
   "round": 18,
   "games": [
     {
@@ -102,12 +102,6 @@
         "category": "starting"
       },
       {
-        "number": 12,
-        "name": "Luke Garner",
-        "position": "2nd Row",
-        "category": "starting"
-      },
-      {
         "number": 13,
         "name": "Lindsay Smith",
         "position": "Lock",
@@ -128,7 +122,7 @@
       {
         "number": 16,
         "name": "Billy Phillips",
-        "position": "Interchange",
+        "position": "2nd Row",
         "category": "interchange"
       },
       {
@@ -152,18 +146,12 @@
       {
         "number": 20,
         "name": "Zakauri Clarke",
-        "position": "Reserve",
+        "position": "Interchange",
         "category": "reserve"
       },
       {
         "number": 21,
         "name": "Jaxen Edgar",
-        "position": "Reserve",
-        "category": "reserve"
-      },
-      {
-        "number": 23,
-        "name": "Tom Ale",
         "position": "Reserve",
         "category": "reserve"
       }
@@ -286,18 +274,6 @@
       {
         "number": 20,
         "name": "Moala Graham-Taufa",
-        "position": "Reserve",
-        "category": "reserve"
-      },
-      {
-        "number": 21,
-        "name": "Peter Mamouzelos",
-        "position": "Reserve",
-        "category": "reserve"
-      },
-      {
-        "number": 22,
-        "name": "Thomas Fletcher",
         "position": "Reserve",
         "category": "reserve"
       }
@@ -1970,18 +1946,18 @@
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/wests-tigers/royce-hunt/"
       },
       {
-        "name": "Taylan May",
-        "injury": "Shoulder",
-        "expectedReturn": "TBC",
-        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500023/Taylan%20May%20260106_MK1189.png?center=0.5%2C0.5",
-        "profileUrl": "https://www.nrl.com/players/nrl-premiership/wests-tigers/taylan-may/"
-      },
-      {
         "name": "Kai Pearce-Paul",
         "injury": "Pectoral",
         "expectedReturn": "TBC",
         "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500023/Kai_Pearce_Paul_41.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/wests-tigers/kai-pearce-paul/"
+      },
+      {
+        "name": "Taylan May",
+        "injury": "Shoulder",
+        "expectedReturn": "Next Season",
+        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500023/Taylan%20May%20260106_MK1189.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/wests-tigers/taylan-may/"
       }
     ]
   }
