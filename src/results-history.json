@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-07-02T12:10:28Z",
+  "updatedAt": "2026-07-03T06:54:56Z",
   "season": 2026,
-  "totalFavRecord": "71-57",
-  "totalLineRecord": "13-15",
-  "totalOuRecord": "12O-16U",
+  "totalFavRecord": "74-54",
+  "totalLineRecord": "16-17",
+  "totalOuRecord": "13O-20U",
   "rounds": [
     {
       "round": 1,
@@ -271,13 +271,13 @@
           "awayScore": 14,
           "winner": "Canterbury Bulldogs",
           "margin": 4,
-          "favourite": "Canberra Raiders",
-          "favouriteWon": false,
-          "linePoint": null,
-          "lineCovered": null,
-          "ouTotal": null,
-          "ouResult": null,
-          "oddsSourced": false
+          "favourite": "Canterbury Bulldogs",
+          "favouriteWon": true,
+          "linePoint": 4.5,
+          "lineCovered": false,
+          "ouTotal": 45.5,
+          "ouResult": "Under",
+          "oddsSourced": true
         },
         {
           "homeTeam": "Sydney Roosters",
@@ -331,13 +331,13 @@
           "awayScore": 38,
           "winner": "Dolphins",
           "margin": 28,
-          "favourite": "Cronulla Sutherland Sharks",
-          "favouriteWon": false,
-          "linePoint": null,
-          "lineCovered": null,
-          "ouTotal": null,
-          "ouResult": null,
-          "oddsSourced": false
+          "favourite": "Dolphins",
+          "favouriteWon": true,
+          "linePoint": 4.5,
+          "lineCovered": true,
+          "ouTotal": 50.5,
+          "ouResult": "Under",
+          "oddsSourced": true
         },
         {
           "homeTeam": "South Sydney Rabbitohs",
@@ -385,9 +385,9 @@
           "oddsSourced": false
         }
       ],
-      "favRecord": "3-5",
-      "lineRecord": null,
-      "ouRecord": null
+      "favRecord": "5-3",
+      "lineRecord": "1-1",
+      "ouRecord": "0O-2U"
     },
     {
       "round": 4,
@@ -416,11 +416,11 @@
           "margin": 18,
           "favourite": "New Zealand Warriors",
           "favouriteWon": false,
-          "linePoint": null,
-          "lineCovered": null,
-          "ouTotal": null,
-          "ouResult": null,
-          "oddsSourced": false
+          "linePoint": -6.5,
+          "lineCovered": false,
+          "ouTotal": 46.5,
+          "ouResult": "Under",
+          "oddsSourced": true
         },
         {
           "homeTeam": "Brisbane Broncos",
@@ -514,8 +514,8 @@
         }
       ],
       "favRecord": "4-4",
-      "lineRecord": null,
-      "ouRecord": null
+      "lineRecord": "0-1",
+      "ouRecord": "0O-1U"
     },
     {
       "round": 5,
@@ -783,13 +783,13 @@
           "awayScore": 38,
           "winner": "Manly Warringah Sea Eagles",
           "margin": 32,
-          "favourite": "North Queensland Cowboys",
-          "favouriteWon": false,
-          "linePoint": null,
-          "lineCovered": null,
-          "ouTotal": null,
-          "ouResult": null,
-          "oddsSourced": false
+          "favourite": "Manly Warringah Sea Eagles",
+          "favouriteWon": true,
+          "linePoint": 5.5,
+          "lineCovered": true,
+          "ouTotal": 49.5,
+          "ouResult": "Under",
+          "oddsSourced": true
         },
         {
           "homeTeam": "Canberra Raiders",
@@ -897,9 +897,9 @@
           "oddsSourced": false
         }
       ],
-      "favRecord": "4-4",
-      "lineRecord": "0-1",
-      "ouRecord": "0O-1U"
+      "favRecord": "5-3",
+      "lineRecord": "1-1",
+      "ouRecord": "0O-2U"
     },
     {
       "round": 8,
@@ -1116,11 +1116,11 @@
           "margin": 4,
           "favourite": "Newcastle Knights",
           "favouriteWon": true,
-          "linePoint": null,
-          "lineCovered": null,
-          "ouTotal": null,
-          "ouResult": null,
-          "oddsSourced": false
+          "linePoint": -0.5,
+          "lineCovered": true,
+          "ouTotal": 48.5,
+          "ouResult": "Over",
+          "oddsSourced": true
         },
         {
           "homeTeam": "Cronulla Sutherland Sharks",
@@ -1154,8 +1154,8 @@
         }
       ],
       "favRecord": "5-3",
-      "lineRecord": "1-0",
-      "ouRecord": "1O-0U"
+      "lineRecord": "2-0",
+      "ouRecord": "2O-0U"
     },
     {
       "round": 10,
