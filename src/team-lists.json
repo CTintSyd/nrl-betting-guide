@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-03T14:31:20.997110+00:00",
+  "generatedAt": "2026-07-04T06:54:33.761000+00:00",
   "round": 18,
   "games": [
     {
@@ -142,12 +142,6 @@
         "name": "Lyhkan King-Togia",
         "position": "Interchange",
         "category": "reserve"
-      },
-      {
-        "number": 21,
-        "name": "Moses Suli",
-        "position": "Reserve",
-        "category": "reserve"
       }
     ],
     "Wests Tigers": [
@@ -208,7 +202,7 @@
       {
         "number": 10,
         "name": "Fonua Pole",
-        "position": "Prop",
+        "position": "Interchange",
         "category": "starting"
       },
       {
@@ -238,7 +232,7 @@
       {
         "number": 15,
         "name": "Bunty Afoa",
-        "position": "Interchange",
+        "position": "Prop",
         "category": "interchange"
       },
       {
@@ -263,12 +257,6 @@
         "number": 19,
         "name": "Charlie Murray",
         "position": "Interchange",
-        "category": "reserve"
-      },
-      {
-        "number": 20,
-        "name": "Javon Andrews",
-        "position": "Reserve",
         "category": "reserve"
       }
     ],
@@ -560,12 +548,6 @@
         "category": "starting"
       },
       {
-        "number": 8,
-        "name": "Luca Moretti",
-        "position": "Prop",
-        "category": "starting"
-      },
-      {
         "number": 9,
         "name": "Tallyn Da Silva",
         "position": "Hooker",
@@ -604,7 +586,7 @@
       {
         "number": 15,
         "name": "Sam Tuivaiti",
-        "position": "Interchange",
+        "position": "Prop",
         "category": "interchange"
       },
       {
@@ -638,15 +620,9 @@
         "category": "reserve"
       },
       {
-        "number": 21,
-        "name": "Ryley Smith",
-        "position": "Reserve",
-        "category": "reserve"
-      },
-      {
         "number": 22,
         "name": "Toni Mataele",
-        "position": "Reserve",
+        "position": "Interchange",
         "category": "reserve"
       }
     ],
@@ -768,18 +744,6 @@
       {
         "number": 20,
         "name": "Hugo Hart",
-        "position": "Reserve",
-        "category": "reserve"
-      },
-      {
-        "number": 21,
-        "name": "Blake Wilson",
-        "position": "Reserve",
-        "category": "reserve"
-      },
-      {
-        "number": 22,
-        "name": "Fletcher Baker",
         "position": "Reserve",
         "category": "reserve"
       }
@@ -904,18 +868,6 @@
         "name": "Kyle McCarthy",
         "position": "Reserve",
         "category": "reserve"
-      },
-      {
-        "number": 21,
-        "name": "Tyson Gamble",
-        "position": "Reserve",
-        "category": "reserve"
-      },
-      {
-        "number": 22,
-        "name": "Elijah Salesa-Leaumoana",
-        "position": "Reserve",
-        "category": "reserve"
       }
     ],
     "Dolphins": [
@@ -1010,12 +962,6 @@
         "category": "interchange"
       },
       {
-        "number": 16,
-        "name": "Ray Stone",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
         "number": 17,
         "name": "Brian Pouniu",
         "position": "Interchange",
@@ -1036,18 +982,12 @@
       {
         "number": 20,
         "name": "Sam Elliott",
-        "position": "Reserve",
+        "position": "Interchange",
         "category": "reserve"
       },
       {
         "number": 21,
         "name": "LJ Nonu",
-        "position": "Reserve",
-        "category": "reserve"
-      },
-      {
-        "number": 22,
-        "name": "Zac Garton",
         "position": "Reserve",
         "category": "reserve"
       }
@@ -1151,6 +1091,13 @@
         "expectedReturn": "Round 22",
         "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500723/Bodyshot-Katoa.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/dolphins/isaiya-katoa/"
+      },
+      {
+        "name": "Ray Stone",
+        "injury": "TBC",
+        "expectedReturn": "TBC",
+        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500723/Bodyshot-Stone.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/dolphins/ray-stone/"
       }
     ],
     "St George Illawarra Dragons": [
