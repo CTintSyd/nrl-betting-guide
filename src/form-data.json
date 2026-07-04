@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-04T06:54:28.978420+00:00",
+  "generatedAt": "2026-07-04T09:28:53.643408+00:00",
   "round": 18,
   "upcomingRound": 18,
   "ladder": [
@@ -161,15 +161,15 @@
       "pos": 12,
       "nick": "Wests Tigers",
       "name": "Wests Tigers",
-      "played": 15,
+      "played": 16,
       "wins": 7,
-      "losses": 8,
+      "losses": 9,
       "drawn": 0,
-      "ptsFor": 339,
-      "ptsAgainst": 429,
-      "diff": -90,
+      "ptsFor": 349,
+      "ptsAgainst": 453,
+      "diff": -104,
       "pts": 18,
-      "streak": "2L"
+      "streak": "3L"
     },
     {
       "pos": 13,
@@ -231,15 +231,15 @@
       "pos": 17,
       "nick": "Dragons",
       "name": "St George Illawarra Dragons",
-      "played": 15,
-      "wins": 1,
+      "played": 16,
+      "wins": 2,
       "losses": 14,
       "drawn": 0,
-      "ptsFor": 220,
-      "ptsAgainst": 473,
-      "diff": -253,
-      "pts": 6,
-      "streak": "3L"
+      "ptsFor": 244,
+      "ptsAgainst": 483,
+      "diff": -239,
+      "pts": 8,
+      "streak": "1W"
     }
   ],
   "teams": {
@@ -720,7 +720,7 @@
       ]
     },
     "St George Illawarra Dragons": {
-      "last5": "W L L L",
+      "last5": "W L L L W",
       "games": [
         {
           "round": 13,
@@ -749,6 +749,13 @@
           "opponent": "Canberra Raiders",
           "home": false,
           "score": "24\u201316"
+        },
+        {
+          "round": 18,
+          "result": "W",
+          "opponent": "Wests Tigers",
+          "home": true,
+          "score": "24\u201310"
         }
       ]
     },
@@ -793,15 +800,8 @@
       ]
     },
     "Wests Tigers": {
-      "last5": "W L W L L",
+      "last5": "L W L L L",
       "games": [
-        {
-          "round": 13,
-          "result": "W",
-          "opponent": "Canterbury Bulldogs",
-          "home": true,
-          "score": "22\u201316"
-        },
         {
           "round": 14,
           "result": "L",
@@ -829,6 +829,13 @@
           "opponent": "Newcastle Knights",
           "home": false,
           "score": "12\u20136"
+        },
+        {
+          "round": 18,
+          "result": "L",
+          "opponent": "St George Illawarra Dragons",
+          "home": false,
+          "score": "24\u201310"
         }
       ]
     }

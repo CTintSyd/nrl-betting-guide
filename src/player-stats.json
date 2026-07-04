@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-04T06:54:23.623239+00:00",
+  "generatedAt": "2026-07-04T09:28:48.254584+00:00",
   "round": 18,
   "players": {
     "Kalyn Ponga": {
@@ -403,8 +403,8 @@
     },
     "Clinton Gutherson": {
       "tries": 1,
-      "games": 12,
-      "tryRate": 0.0833,
+      "games": 13,
+      "tryRate": 0.0769,
       "team": "St George Illawarra Dragons",
       "position": "Fullback"
     },
@@ -423,58 +423,58 @@
       "position": "Centre"
     },
     "Valentine Holmes": {
-      "tries": 6,
-      "games": 15,
-      "tryRate": 0.4,
+      "tries": 8,
+      "games": 16,
+      "tryRate": 0.5,
       "team": "St George Illawarra Dragons",
       "position": "Centre"
     },
     "Setu Tu": {
       "tries": 8,
-      "games": 13,
-      "tryRate": 0.6154,
+      "games": 14,
+      "tryRate": 0.5714,
       "team": "St George Illawarra Dragons",
       "position": "Winger"
     },
     "Kyle Flanagan": {
       "tries": 0,
-      "games": 14,
+      "games": 15,
       "tryRate": 0.0,
       "team": "St George Illawarra Dragons",
       "position": "Halfback"
     },
     "Daniel Atkinson": {
       "tries": 1,
-      "games": 14,
-      "tryRate": 0.0714,
+      "games": 15,
+      "tryRate": 0.0667,
       "team": "St George Illawarra Dragons",
       "position": "Five-Eighth"
     },
     "Emre Guler": {
       "tries": 1,
-      "games": 14,
-      "tryRate": 0.0714,
+      "games": 15,
+      "tryRate": 0.0667,
       "team": "St George Illawarra Dragons",
-      "position": "Interchange"
+      "position": "Reserve"
     },
     "Damien Cook": {
       "tries": 2,
-      "games": 15,
-      "tryRate": 0.1333,
+      "games": 16,
+      "tryRate": 0.125,
       "team": "St George Illawarra Dragons",
       "position": "Hooker"
     },
     "Toby Couchman": {
       "tries": 0,
-      "games": 14,
+      "games": 15,
       "tryRate": 0.0,
       "team": "St George Illawarra Dragons",
       "position": "Prop"
     },
     "Luciano Leilua": {
       "tries": 2,
-      "games": 13,
-      "tryRate": 0.1538,
+      "games": 14,
+      "tryRate": 0.1429,
       "team": "St George Illawarra Dragons",
       "position": "Interchange"
     },
@@ -487,8 +487,8 @@
     },
     "Hamish Stewart": {
       "tries": 2,
-      "games": 15,
-      "tryRate": 0.1333,
+      "games": 16,
+      "tryRate": 0.125,
       "team": "St George Illawarra Dragons",
       "position": "2nd Row"
     },
@@ -501,7 +501,7 @@
     },
     "Josh Kerr": {
       "tries": 0,
-      "games": 15,
+      "games": 16,
       "tryRate": 0.0,
       "team": "St George Illawarra Dragons",
       "position": "Interchange"
@@ -515,22 +515,22 @@
     },
     "Ryan Couchman": {
       "tries": 0,
-      "games": 11,
+      "games": 12,
       "tryRate": 0.0,
       "team": "St George Illawarra Dragons",
       "position": "Lock"
     },
     "Lyhkan King-Togia": {
       "tries": 0,
-      "games": 11,
+      "games": 12,
       "tryRate": 0.0,
       "team": "St George Illawarra Dragons",
       "position": "Reserve"
     },
     "Mathew Feagai": {
-      "tries": 2,
-      "games": 11,
-      "tryRate": 0.1818,
+      "tries": 3,
+      "games": 12,
+      "tryRate": 0.25,
       "team": "St George Illawarra Dragons",
       "position": "Centre"
     },
@@ -2195,15 +2195,15 @@
     },
     "Jahream Bula": {
       "tries": 6,
-      "games": 12,
-      "tryRate": 0.5,
+      "games": 13,
+      "tryRate": 0.4615,
       "team": "Wests Tigers",
       "position": "Fullback"
     },
     "Sunia Turuva": {
       "tries": 4,
-      "games": 15,
-      "tryRate": 0.2667,
+      "games": 16,
+      "tryRate": 0.25,
       "team": "Wests Tigers",
       "position": "Winger"
     },
@@ -2216,10 +2216,10 @@
     },
     "Heamasi Makasini": {
       "tries": 1,
-      "games": 10,
-      "tryRate": 0.1,
+      "games": 11,
+      "tryRate": 0.0909,
       "team": "Wests Tigers",
-      "position": "Interchange"
+      "position": "Centre"
     },
     "Luke Laulilii": {
       "tries": 6,
@@ -2236,29 +2236,29 @@
       "position": "Five-Eighth"
     },
     "Adam Doueihi": {
-      "tries": 5,
-      "games": 9,
-      "tryRate": 0.5556,
+      "tries": 7,
+      "games": 10,
+      "tryRate": 0.7,
       "team": "Wests Tigers",
       "position": "Halfback"
     },
     "Terrell May": {
       "tries": 1,
-      "games": 14,
-      "tryRate": 0.0714,
+      "games": 15,
+      "tryRate": 0.0667,
       "team": "Wests Tigers",
       "position": "Prop"
     },
     "Apisai Koroisau": {
       "tries": 2,
-      "games": 11,
-      "tryRate": 0.1818,
+      "games": 12,
+      "tryRate": 0.1667,
       "team": "Wests Tigers",
       "position": "Hooker"
     },
     "Fonua Pole": {
       "tries": 0,
-      "games": 15,
+      "games": 16,
       "tryRate": 0.0,
       "team": "Wests Tigers",
       "position": "Interchange"
@@ -2279,22 +2279,22 @@
     },
     "Alex Twal": {
       "tries": 0,
-      "games": 10,
+      "games": 11,
       "tryRate": 0.0,
       "team": "Wests Tigers",
       "position": "Lock"
     },
     "Jock Madden": {
       "tries": 1,
-      "games": 14,
-      "tryRate": 0.0714,
+      "games": 15,
+      "tryRate": 0.0667,
       "team": "Wests Tigers",
-      "position": "Halfback"
+      "position": "Five-Eighth"
     },
     "Sione Fainu": {
       "tries": 2,
-      "games": 14,
-      "tryRate": 0.1429,
+      "games": 15,
+      "tryRate": 0.1333,
       "team": "Wests Tigers",
       "position": "2nd Row"
     },
@@ -2307,10 +2307,10 @@
     },
     "Alex Seyfarth": {
       "tries": 2,
-      "games": 15,
-      "tryRate": 0.1333,
+      "games": 16,
+      "tryRate": 0.125,
       "team": "Wests Tigers",
-      "position": "Lock"
+      "position": "Interchange"
     },
     "Tristan Hope": {
       "tries": 0,
@@ -2321,8 +2321,8 @@
     },
     "Jeral Skelton": {
       "tries": 4,
-      "games": 11,
-      "tryRate": 0.3636,
+      "games": 12,
+      "tryRate": 0.3333,
       "team": "Wests Tigers",
       "position": "Winger"
     },
@@ -2552,8 +2552,8 @@
     },
     "Jacob Liddle": {
       "tries": 1,
-      "games": 7,
-      "tryRate": 0.1429,
+      "games": 8,
+      "tryRate": 0.125,
       "team": "St George Illawarra Dragons",
       "position": "Interchange"
     },
@@ -2601,17 +2601,17 @@
     },
     "Faaletino Tavana": {
       "tries": 3,
-      "games": 6,
-      "tryRate": 0.5,
+      "games": 7,
+      "tryRate": 0.4286,
       "team": "Wests Tigers",
-      "position": "Reserve"
+      "position": "Interchange"
     },
     "Latu Fainu": {
       "tries": 0,
-      "games": 11,
+      "games": 12,
       "tryRate": 0.0,
       "team": "Wests Tigers",
-      "position": "Interchange"
+      "position": "Reserve"
     },
     "Va'a Semu": {
       "tries": 0,
@@ -2685,14 +2685,14 @@
     },
     "Jacob Halangahu": {
       "tries": 0,
-      "games": 6,
+      "games": 7,
       "tryRate": 0.0,
       "team": "St George Illawarra Dragons",
-      "position": "Reserve"
+      "position": "Interchange"
     },
     "Loko Jnr Pasifiki Tonga": {
       "tries": 0,
-      "games": 10,
+      "games": 11,
       "tryRate": 0.0,
       "team": "St George Illawarra Dragons",
       "position": "Prop"
@@ -2705,9 +2705,9 @@
       "position": "Centre"
     },
     "Tyrell Sloan": {
-      "tries": 5,
-      "games": 11,
-      "tryRate": 0.4545,
+      "tries": 6,
+      "games": 12,
+      "tryRate": 0.5,
       "team": "St George Illawarra Dragons",
       "position": "Winger"
     },
@@ -2895,8 +2895,8 @@
     },
     "Tony Sukkar": {
       "tries": 1,
-      "games": 5,
-      "tryRate": 0.2,
+      "games": 6,
+      "tryRate": 0.1667,
       "team": "Wests Tigers",
       "position": "2nd Row"
     },
@@ -3000,8 +3000,8 @@
     },
     "Starford To'a": {
       "tries": 2,
-      "games": 7,
-      "tryRate": 0.2857,
+      "games": 8,
+      "tryRate": 0.25,
       "team": "Wests Tigers",
       "position": "Centre"
     },
@@ -3140,8 +3140,8 @@
     },
     "Dylan Egan": {
       "tries": 1,
-      "games": 7,
-      "tryRate": 0.1429,
+      "games": 8,
+      "tryRate": 0.125,
       "team": "St George Illawarra Dragons",
       "position": "2nd Row"
     },
@@ -3175,7 +3175,7 @@
     },
     "Bunty Afoa": {
       "tries": 0,
-      "games": 6,
+      "games": 7,
       "tryRate": 0.0,
       "team": "Wests Tigers",
       "position": "Prop"
@@ -3189,7 +3189,7 @@
     },
     "Charlie Murray": {
       "tries": 0,
-      "games": 5,
+      "games": 6,
       "tryRate": 0.0,
       "team": "Wests Tigers",
       "position": "Reserve"
@@ -3392,10 +3392,10 @@
     },
     "Josese Lanyon": {
       "tries": 0,
-      "games": 3,
+      "games": 4,
       "tryRate": 0.0,
       "team": "Wests Tigers",
-      "position": "Reserve"
+      "position": "Interchange"
     },
     "Alex Conti": {
       "tries": 0,
