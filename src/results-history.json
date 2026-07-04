@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-07-04T11:08:39Z",
+  "updatedAt": "2026-07-04T12:37:13Z",
   "season": 2026,
-  "totalFavRecord": "77-53",
-  "totalLineRecord": "15-14",
-  "totalOuRecord": "10O-19U",
+  "totalFavRecord": "78-53",
+  "totalLineRecord": "16-14",
+  "totalOuRecord": "10O-20U",
   "rounds": [
     {
       "round": 1,
@@ -2093,11 +2093,26 @@
           "ouTotal": 49.5,
           "ouResult": "Under",
           "oddsSourced": true
+        },
+        {
+          "homeTeam": "Brisbane Broncos",
+          "awayTeam": "Cronulla Sutherland Sharks",
+          "homeScore": 16,
+          "awayScore": 28,
+          "winner": "Cronulla Sutherland Sharks",
+          "margin": 12,
+          "favourite": "Cronulla Sutherland Sharks",
+          "favouriteWon": true,
+          "linePoint": 5.5,
+          "lineCovered": true,
+          "ouTotal": 49.5,
+          "ouResult": "Under",
+          "oddsSourced": true
         }
       ],
-      "favRecord": "1-1",
-      "lineRecord": "1-1",
-      "ouRecord": "1O-1U"
+      "favRecord": "2-1",
+      "lineRecord": "2-1",
+      "ouRecord": "1O-2U"
     }
   ]
 }

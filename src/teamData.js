@@ -9,9 +9,9 @@ const NRL_TEAM_DATA = {
       { name: "Josiah Karapani",                   pos: "wing",           tryRate: 0.3571 },
       { name: "Reece Walsh",                       pos: "fullback",       tryRate: 0.4545 },
       { name: "Adam Reynolds",                     pos: "halfback",       tryRate: 0.2727 },
-      { name: "Kotoni Staggs",                     pos: "centre",         tryRate: 0.5833 },
-      { name: "Jesse Arthars",                     pos: "wing",           tryRate: 0.5 },
-      { name: "Xavier Willison",                   pos: "lock",           tryRate: 0.2667 },
+      { name: "Kotoni Staggs",                     pos: "centre",         tryRate: 0.5385 },
+      { name: "Xavier Willison",                   pos: "lock",           tryRate: 0.25 },
+      { name: "Jordan Riki",                       pos: "lock",           tryRate: 0.2143 },
     ],
   },
 
@@ -42,12 +42,12 @@ const NRL_TEAM_DATA = {
   'Cronulla Sutherland Sharks': {
     emoji: '🦈', shortName: 'Sharks', venue: 'PointsBet Stadium', wikiPage: 'Cronulla-Sutherland_Sharks', logoFile: 'cronulla-sharks.svg',
     players: [
-      { name: "Ronaldo Mulitalo",                  pos: "wing",           tryRate: 1.0 },
-      { name: "William Kennedy",                   pos: "fullback",       tryRate: 0.4286 },
-      { name: "Braydon Trindall",                  pos: "five-eighth",    tryRate: 0.5 },
-      { name: "KL Iro",                            pos: "centre",         tryRate: 0.6923 },
-      { name: "Teig Wilton",                       pos: "lock",           tryRate: 0.5 },
-      { name: "Samuel Stonestreet",                pos: "wing",           tryRate: 0.3333 },
+      { name: "Sione Katoa",                       pos: "wing",           tryRate: 0.6667 },
+      { name: "William Kennedy",                   pos: "fullback",       tryRate: 0.4667 },
+      { name: "Braydon Trindall",                  pos: "five-eighth",    tryRate: 0.5333 },
+      { name: "KL Iro",                            pos: "centre",         tryRate: 0.6429 },
+      { name: "Teig Wilton",                       pos: "lock",           tryRate: 0.4615 },
+      { name: "Ronaldo Mulitalo",                  pos: "wing",           tryRate: 0.8333 },
     ],
   },
 
