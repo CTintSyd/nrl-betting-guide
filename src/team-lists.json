@@ -1,13 +1,7 @@
 {
-  "generatedAt": "2026-07-04T09:29:00.238939+00:00",
+  "generatedAt": "2026-07-04T11:08:29.520393+00:00",
   "round": 18,
   "games": [
-    {
-      "matchCentreUrl": "/draw/nrl-premiership/2026/round-18/broncos-v-sharks/",
-      "kickoff": "2026-07-04T09:35:00Z",
-      "homeTeam": "Brisbane Broncos",
-      "awayTeam": "Cronulla Sutherland Sharks"
-    },
     {
       "matchCentreUrl": "/draw/nrl-premiership/2026/round-18/eels-v-sea-eagles/",
       "kickoff": "2026-07-05T04:00:00Z",
@@ -22,238 +16,6 @@
     }
   ],
   "teams": {
-    "Brisbane Broncos": [
-      {
-        "number": 1,
-        "name": "Hayze Perham",
-        "position": "Fullback",
-        "category": "starting"
-      },
-      {
-        "number": 2,
-        "name": "Grant Anderson",
-        "position": "Winger",
-        "category": "starting"
-      },
-      {
-        "number": 3,
-        "name": "Kotoni Staggs",
-        "position": "Centre",
-        "category": "starting"
-      },
-      {
-        "number": 4,
-        "name": "Gehamat Shibasaki",
-        "position": "Centre",
-        "category": "starting"
-      },
-      {
-        "number": 5,
-        "name": "Deine Mariner",
-        "position": "Winger",
-        "category": "starting"
-      },
-      {
-        "number": 6,
-        "name": "Thomas Duffy",
-        "position": "Five-Eighth",
-        "category": "starting"
-      },
-      {
-        "number": 7,
-        "name": "Ben Hunt",
-        "position": "Halfback",
-        "category": "starting"
-      },
-      {
-        "number": 8,
-        "name": "Va'a Semu",
-        "position": "Prop",
-        "category": "starting"
-      },
-      {
-        "number": 9,
-        "name": "Cory Paix",
-        "position": "Hooker",
-        "category": "starting"
-      },
-      {
-        "number": 10,
-        "name": "Preston Riki",
-        "position": "Prop",
-        "category": "starting"
-      },
-      {
-        "number": 11,
-        "name": "Brendan Piakura",
-        "position": "2nd Row",
-        "category": "starting"
-      },
-      {
-        "number": 12,
-        "name": "Jordan Riki",
-        "position": "2nd Row",
-        "category": "starting"
-      },
-      {
-        "number": 13,
-        "name": "Xavier Willison",
-        "position": "Lock",
-        "category": "starting"
-      },
-      {
-        "number": 14,
-        "name": "Blake Mozer",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
-        "number": 15,
-        "name": "Ben Talty",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
-        "number": 16,
-        "name": "Jaiyden Hunt",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
-        "number": 17,
-        "name": "Jesse Arthars",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
-        "number": 19,
-        "name": "Luke Gale",
-        "position": "Interchange",
-        "category": "reserve"
-      },
-      {
-        "number": 20,
-        "name": "Joshua Coric",
-        "position": "Interchange",
-        "category": "reserve"
-      }
-    ],
-    "Cronulla Sutherland Sharks": [
-      {
-        "number": 1,
-        "name": "William Kennedy",
-        "position": "Fullback",
-        "category": "starting"
-      },
-      {
-        "number": 2,
-        "name": "Sione Katoa",
-        "position": "Winger",
-        "category": "starting"
-      },
-      {
-        "number": 3,
-        "name": "Jesse Ramien",
-        "position": "Centre",
-        "category": "starting"
-      },
-      {
-        "number": 4,
-        "name": "KL Iro",
-        "position": "Centre",
-        "category": "starting"
-      },
-      {
-        "number": 5,
-        "name": "Ronaldo Mulitalo",
-        "position": "Winger",
-        "category": "starting"
-      },
-      {
-        "number": 6,
-        "name": "Braydon Trindall",
-        "position": "Five-Eighth",
-        "category": "starting"
-      },
-      {
-        "number": 7,
-        "name": "Nicholas Hynes",
-        "position": "Halfback",
-        "category": "starting"
-      },
-      {
-        "number": 8,
-        "name": "Thomas Hazelton",
-        "position": "Prop",
-        "category": "starting"
-      },
-      {
-        "number": 9,
-        "name": "Jayden Berrell",
-        "position": "Interchange",
-        "category": "starting"
-      },
-      {
-        "number": 10,
-        "name": "Jesse Colquhoun",
-        "position": "Prop",
-        "category": "starting"
-      },
-      {
-        "number": 11,
-        "name": "Billy Burns",
-        "position": "2nd Row",
-        "category": "starting"
-      },
-      {
-        "number": 12,
-        "name": "Teig Wilton",
-        "position": "2nd Row",
-        "category": "starting"
-      },
-      {
-        "number": 13,
-        "name": "Cameron McInnes",
-        "position": "Lock",
-        "category": "starting"
-      },
-      {
-        "number": 14,
-        "name": "Hohepa Puru",
-        "position": "Hooker",
-        "category": "interchange"
-      },
-      {
-        "number": 15,
-        "name": "Oregon Kaufusi",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
-        "number": 16,
-        "name": "Siosifa Talakai",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
-        "number": 17,
-        "name": "Tuku Hau Tapuha",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
-        "number": 18,
-        "name": "Mawene Hiroti",
-        "position": "Interchange",
-        "category": "reserve"
-      },
-      {
-        "number": 19,
-        "name": "Harrison Hassett",
-        "position": "Interchange",
-        "category": "reserve"
-      }
-    ],
     "Parramatta Eels": [
       {
         "number": 1,
@@ -765,6 +527,13 @@
         "expectedReturn": "TBC",
         "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500011/Mam.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/broncos/ezra-mam/"
+      },
+      {
+        "name": "Brendan Piakura",
+        "injury": "Head knock",
+        "expectedReturn": "TBC",
+        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500011/Piakura.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/broncos/brendan-piakura/"
       },
       {
         "name": "Adam Reynolds",
