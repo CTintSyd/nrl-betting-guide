@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-07-05T07:20:27Z",
+  "updatedAt": "2026-07-05T09:55:00Z",
   "season": 2026,
-  "totalFavRecord": "78-54",
-  "totalLineRecord": "16-15",
-  "totalOuRecord": "10O-21U",
+  "totalFavRecord": "78-55",
+  "totalLineRecord": "16-16",
+  "totalOuRecord": "10O-22U",
   "rounds": [
     {
       "round": 1,
@@ -2123,11 +2123,26 @@
           "ouTotal": 49.5,
           "ouResult": "Under",
           "oddsSourced": true
+        },
+        {
+          "homeTeam": "Newcastle Knights",
+          "awayTeam": "Dolphins",
+          "homeScore": 13,
+          "awayScore": 12,
+          "winner": "Newcastle Knights",
+          "margin": 1,
+          "favourite": "Dolphins",
+          "favouriteWon": false,
+          "linePoint": 3.5,
+          "lineCovered": false,
+          "ouTotal": 50.5,
+          "ouResult": "Under",
+          "oddsSourced": true
         }
       ],
-      "favRecord": "2-2",
-      "lineRecord": "2-2",
-      "ouRecord": "1O-3U"
+      "favRecord": "2-3",
+      "lineRecord": "2-3",
+      "ouRecord": "1O-4U"
     }
   ]
 }

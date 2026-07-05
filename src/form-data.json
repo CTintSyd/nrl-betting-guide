@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-05T07:20:03.331300+00:00",
+  "generatedAt": "2026-07-05T09:54:37.669261+00:00",
   "round": 18,
-  "upcomingRound": 18,
+  "upcomingRound": 19,
   "ladder": [
     {
       "pos": 1,
@@ -47,20 +47,34 @@
     },
     {
       "pos": 4,
-      "nick": "Dolphins",
-      "name": "Dolphins",
-      "played": 15,
-      "wins": 10,
+      "nick": "Knights",
+      "name": "Newcastle Knights",
+      "played": 16,
+      "wins": 11,
       "losses": 5,
       "drawn": 0,
-      "ptsFor": 440,
-      "ptsAgainst": 309,
-      "diff": 131,
-      "pts": 24,
-      "streak": "4W"
+      "ptsFor": 417,
+      "ptsAgainst": 376,
+      "diff": 41,
+      "pts": 26,
+      "streak": "3W"
     },
     {
       "pos": 5,
+      "nick": "Dolphins",
+      "name": "Dolphins",
+      "played": 16,
+      "wins": 10,
+      "losses": 6,
+      "drawn": 0,
+      "ptsFor": 452,
+      "ptsAgainst": 322,
+      "diff": 130,
+      "pts": 24,
+      "streak": "1L"
+    },
+    {
+      "pos": 6,
       "nick": "Sharks",
       "name": "Cronulla Sutherland Sharks",
       "played": 15,
@@ -72,20 +86,6 @@
       "diff": 57,
       "pts": 24,
       "streak": "1W"
-    },
-    {
-      "pos": 6,
-      "nick": "Knights",
-      "name": "Newcastle Knights",
-      "played": 15,
-      "wins": 10,
-      "losses": 5,
-      "drawn": 0,
-      "ptsFor": 404,
-      "ptsAgainst": 364,
-      "diff": 40,
-      "pts": 24,
-      "streak": "2W"
     },
     {
       "pos": 7,
@@ -397,7 +397,7 @@
       ]
     },
     "Dolphins": {
-      "last5": "W W W W",
+      "last5": "W W W W L",
       "games": [
         {
           "round": 14,
@@ -426,6 +426,13 @@
           "opponent": "New Zealand Warriors",
           "home": true,
           "score": "26\u201324"
+        },
+        {
+          "round": 18,
+          "result": "L",
+          "opponent": "Newcastle Knights",
+          "home": false,
+          "score": "13\u201312"
         }
       ]
     },
@@ -569,7 +576,7 @@
       ]
     },
     "Newcastle Knights": {
-      "last5": "W L W W",
+      "last5": "W L W W W",
       "games": [
         {
           "round": 13,
@@ -598,6 +605,13 @@
           "opponent": "Wests Tigers",
           "home": true,
           "score": "12\u20136"
+        },
+        {
+          "round": 18,
+          "result": "W",
+          "opponent": "Dolphins",
+          "home": true,
+          "score": "13\u201312"
         }
       ]
     },

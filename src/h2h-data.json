@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-05T07:20:16Z",
+  "generatedAt": "2026-07-05T09:54:48Z",
   "matches": {
     "Wests Tigers vs New Zealand Warriors": {
       "homeTeam": "Wests Tigers",
@@ -136,8 +136,8 @@
           "winsOverall": 48.0
         },
         "away": {
-          "winPct": 57.0,
-          "completionRate": 82.0,
+          "winPct": 60.0,
+          "completionRate": 81.0,
           "avgScored": 26.0,
           "avgConceded": 23.0,
           "winsAtVenue": 50.0,
@@ -485,10 +485,10 @@
       "weather": null,
       "seasonStats": {
         "home": {
-          "winPct": 57.0,
-          "completionRate": 79.0,
-          "avgScored": 29.0,
-          "avgConceded": 22.0,
+          "winPct": 53.0,
+          "completionRate": 78.0,
+          "avgScored": 28.0,
+          "avgConceded": 23.0,
           "winsAtVenue": 57.0,
           "winsOverall": 44.0
         },
