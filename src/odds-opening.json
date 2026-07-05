@@ -646,5 +646,53 @@
       "overOdd": 1.82,
       "underOdd": 1.98
     }
+  },
+  "8f6a1cf3c0f8613ca74ae658390c9492": {
+    "homeTeam": "Canterbury Bulldogs",
+    "awayTeam": "Gold Coast Titans",
+    "firstSeen": "2026-07-05T13:03:27.784Z",
+    "h2h": {
+      "home": 3.3,
+      "away": 1.34
+    },
+    "line": {
+      "home": {
+        "odd": 1.82,
+        "point": 8.5
+      },
+      "away": {
+        "odd": 1.99,
+        "point": -8.5
+      }
+    },
+    "ou": {
+      "total": 36.5,
+      "overOdd": 1.9,
+      "underOdd": 1.9
+    }
+  },
+  "433379af2ae6210ea7641fa3b243afec": {
+    "homeTeam": "Canberra Raiders",
+    "awayTeam": "New Zealand Warriors",
+    "firstSeen": "2026-07-05T13:03:27.785Z",
+    "h2h": {
+      "home": 2.44,
+      "away": 1.56
+    },
+    "line": {
+      "home": {
+        "odd": 1.82,
+        "point": 4.5
+      },
+      "away": {
+        "odd": 1.99,
+        "point": -4.5
+      }
+    },
+    "ou": {
+      "total": null,
+      "overOdd": null,
+      "underOdd": null
+    }
   }
 }
