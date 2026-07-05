@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-07-04T14:18:39Z",
+  "updatedAt": "2026-07-05T07:20:27Z",
   "season": 2026,
-  "totalFavRecord": "78-53",
-  "totalLineRecord": "16-14",
-  "totalOuRecord": "10O-20U",
+  "totalFavRecord": "78-54",
+  "totalLineRecord": "16-15",
+  "totalOuRecord": "10O-21U",
   "rounds": [
     {
       "round": 1,
@@ -2108,11 +2108,26 @@
           "ouTotal": 49.5,
           "ouResult": "Under",
           "oddsSourced": true
+        },
+        {
+          "homeTeam": "Parramatta Eels",
+          "awayTeam": "Manly Warringah Sea Eagles",
+          "homeScore": 23,
+          "awayScore": 14,
+          "winner": "Parramatta Eels",
+          "margin": 9,
+          "favourite": "Manly Warringah Sea Eagles",
+          "favouriteWon": false,
+          "linePoint": 6.5,
+          "lineCovered": false,
+          "ouTotal": 49.5,
+          "ouResult": "Under",
+          "oddsSourced": true
         }
       ],
-      "favRecord": "2-1",
-      "lineRecord": "2-1",
-      "ouRecord": "1O-2U"
+      "favRecord": "2-2",
+      "lineRecord": "2-2",
+      "ouRecord": "1O-3U"
     }
   ]
 }

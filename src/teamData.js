@@ -78,11 +78,11 @@ const NRL_TEAM_DATA = {
   'Manly Warringah Sea Eagles': {
     emoji: '🦅', shortName: 'Sea Eagles', venue: '4 Pines Park', wikiPage: 'Manly-Warringah_Sea_Eagles', logoFile: 'manly-sea-eagles.png',
     players: [
-      { name: "Lehi Hopoate",                      pos: "wing",           tryRate: 0.8571 },
-      { name: "Clayton Faulalo",                   pos: "fullback",       tryRate: 0.5455 },
-      { name: "Jamal Fogarty",                     pos: "halfback",       tryRate: 0.3077 },
-      { name: "Jason Saab",                        pos: "wing",           tryRate: 0.5714 },
-      { name: "Reuben Garrick",                    pos: "centre",         tryRate: 0.4286 },
+      { name: "Lehi Hopoate",                      pos: "wing",           tryRate: 0.8667 },
+      { name: "Tom Trbojevic",                     pos: "fullback",       tryRate: 0.6667 },
+      { name: "Jamal Fogarty",                     pos: "halfback",       tryRate: 0.2857 },
+      { name: "Jason Saab",                        pos: "wing",           tryRate: 0.5333 },
+      { name: "Reuben Garrick",                    pos: "centre",         tryRate: 0.4 },
       { name: "Tolutau Koula",                     pos: "centre",         tryRate: 0.4615 },
     ],
   },
@@ -138,12 +138,12 @@ const NRL_TEAM_DATA = {
   'Parramatta Eels': {
     emoji: '🐟', shortName: 'Eels', venue: 'CommBank Stadium', wikiPage: 'Parramatta_Eels', logoFile: 'parramatta-eels.svg',
     players: [
-      { name: "Josh Addo-Carr",                    pos: "wing",           tryRate: 0.4286 },
-      { name: "Isaiah Iongi",                      pos: "fullback",       tryRate: 0.375 },
-      { name: "Ronald Volkman",                    pos: "five-eighth",    tryRate: 0.3 },
-      { name: "Brian Kelly",                       pos: "wing",           tryRate: 0.3077 },
-      { name: "Sean Russell",                      pos: "centre",         tryRate: 0.3077 },
-      { name: "Kelma Tuilagi",                     pos: "lock",           tryRate: 0.2143 },
+      { name: "Josh Addo-Carr",                    pos: "wing",           tryRate: 0.4 },
+      { name: "Isaiah Iongi",                      pos: "fullback",       tryRate: 0.4444 },
+      { name: "Ronald Volkman",                    pos: "five-eighth",    tryRate: 0.3636 },
+      { name: "Tallyn Da Silva",                   pos: "hooker",         tryRate: 0.375 },
+      { name: "Kelma Tuilagi",                     pos: "lock",           tryRate: 0.2667 },
+      { name: "Brian Kelly",                       pos: "wing",           tryRate: 0.2857 },
     ],
   },
 
