@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-05T12:47:21.241010+00:00",
+  "generatedAt": "2026-07-06T08:27:08.421859+00:00",
   "round": 19,
   "games": [
     {
@@ -266,6 +266,13 @@
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/panthers/isaiah-papalii/"
       },
       {
+        "name": "Jack Cogger",
+        "injury": "Suspension",
+        "expectedReturn": "Round 22",
+        "imageUrl": "/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500014/Jack%20Cogger%20_260123_Panthers_MK816.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/panthers/jack-cogger/"
+      },
+      {
         "name": "Casey McLean",
         "injury": "Quad",
         "expectedReturn": "TBC",
@@ -280,6 +287,13 @@
         "expectedReturn": "Round 19",
         "imageUrl": "/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500005/Campbell%20Graham_260113_Rabbitohs_MK0508.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/south-sydney-rabbitohs/campbell--graham/"
+      },
+      {
+        "name": "Cody Walker",
+        "injury": "Suspension",
+        "expectedReturn": "Round 20",
+        "imageUrl": "/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500005/Cody%20Walker_260113_Rabbitohs_MK0220.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/south-sydney-rabbitohs/cody-walker/"
       },
       {
         "name": "Alex Johnston",
@@ -399,13 +413,6 @@
       }
     ],
     "Manly Warringah Sea Eagles": [
-      {
-        "name": "Corey Waddell",
-        "injury": "Pectoral",
-        "expectedReturn": "Round 21",
-        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500002/Corey%20Waddell%20_260128_SeaEgales_MK2137.png?center=0.5%2C0.5",
-        "profileUrl": "https://www.nrl.com/players/nrl-premiership/sea-eagles/corey-waddell/"
-      },
       {
         "name": "Caleb Navale",
         "injury": "ACL",
@@ -597,6 +604,13 @@
         "expectedReturn": "Round 20",
         "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500023/Samuela%20Fainu%20260106_MK2345.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/wests-tigers/samuela-fainu/"
+      },
+      {
+        "name": "Apisai Koroisau",
+        "injury": "Pectoral",
+        "expectedReturn": "Round 23",
+        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500023/Api%20Koroisau%20260106_MK1011.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/wests-tigers/apisai-koroisau/"
       },
       {
         "name": "Patrick Herbert",

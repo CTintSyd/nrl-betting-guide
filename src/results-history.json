@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-07-05T12:47:28Z",
+  "updatedAt": "2026-07-06T08:27:21Z",
   "season": 2026,
   "totalFavRecord": "78-55",
-  "totalLineRecord": "16-16",
+  "totalLineRecord": "17-16",
   "totalOuRecord": "10O-22U",
   "rounds": [
     {
@@ -160,11 +160,11 @@
           "margin": 34,
           "favourite": "New Zealand Warriors",
           "favouriteWon": true,
-          "linePoint": null,
-          "lineCovered": null,
+          "linePoint": -4.5,
+          "lineCovered": true,
           "ouTotal": null,
           "ouResult": null,
-          "oddsSourced": false
+          "oddsSourced": true
         },
         {
           "homeTeam": "Sydney Roosters",
@@ -258,7 +258,7 @@
         }
       ],
       "favRecord": "5-3",
-      "lineRecord": null,
+      "lineRecord": "1-0",
       "ouRecord": null
     },
     {
