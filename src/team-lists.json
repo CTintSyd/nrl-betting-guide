@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-07T06:05:14.527465+00:00",
+  "generatedAt": "2026-07-08T05:19:36.462224+00:00",
   "round": 19,
   "games": [
     {
@@ -2097,6 +2097,13 @@
     ],
     "Parramatta Eels": [
       {
+        "name": "Luca Moretti",
+        "injury": "Concussion",
+        "expectedReturn": "Round 21",
+        "imageUrl": "/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500031/MORETTI%2CL_20251211_1303-COPY.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/eels/luca-moretti/"
+      },
+      {
         "name": "Junior Paulo",
         "injury": "Knee",
         "expectedReturn": "Round 21",
@@ -2109,6 +2116,13 @@
         "expectedReturn": "Round 21",
         "imageUrl": "/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500031/PENISINI%2CW_20251211_1511.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/eels/will-penisini/"
+      },
+      {
+        "name": "Sean Russell",
+        "injury": "Quad",
+        "expectedReturn": "Round 23",
+        "imageUrl": "/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500031/RUSSELL%2CS_20251211_2465-COPY.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/eels/sean-russell/"
       },
       {
         "name": "Bailey Simonsson",
@@ -2157,7 +2171,7 @@
       {
         "name": "Jacob Saifiti",
         "injury": "Hamstring",
-        "expectedReturn": "TBC",
+        "expectedReturn": "Round 25",
         "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500003/Jacob%20Saifiti%20_260129_Knights_MK1696.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/knights/jacob-saifiti/"
       }
@@ -2393,6 +2407,20 @@
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/storm/hugo-peel/"
       },
       {
+        "name": "Manaia Waitere",
+        "injury": "Ankle",
+        "expectedReturn": "Round 19",
+        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500021/Waitere%2CM_260204_AR_4.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/storm/manaia-waitere/"
+      },
+      {
+        "name": "Moses Leo",
+        "injury": "Concussion",
+        "expectedReturn": "Round 20",
+        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500021/Leo%2CM_260204_AR_3.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/storm/moses-leo/"
+      },
+      {
         "name": "Ativalu Lisati",
         "injury": "Ankle",
         "expectedReturn": "Round 24",
@@ -2412,13 +2440,6 @@
         "expectedReturn": "TBC",
         "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500021/Seve%2CM_260204_AR_26.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/storm/marion-seve/"
-      },
-      {
-        "name": "Manaia Waitere",
-        "injury": "Ankle",
-        "expectedReturn": "TBC",
-        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500021/Waitere%2CM_260204_AR_4.png?center=0.5%2C0.5",
-        "profileUrl": "https://www.nrl.com/players/nrl-premiership/storm/manaia-waitere/"
       },
       {
         "name": "Xavier Coates",
@@ -2482,10 +2503,17 @@
       },
       {
         "name": "Alofiana Khan-Pereira",
-        "injury": "Leg",
+        "injury": "Thigh",
         "expectedReturn": "Round 19",
         "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500032/Alofiana%20Khan-Pereira-003.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/warriors/alofiana-khan-pereira/"
+      },
+      {
+        "name": "Dallin Watene-Zelezniak",
+        "injury": "Hamstring",
+        "expectedReturn": "TBC",
+        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500032/Dallin%20Watene-Zelezniak-003.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/warriors/dallin-watene-zelezniak/"
       },
       {
         "name": "Tanah Boyd",
@@ -2520,7 +2548,7 @@
       {
         "name": "Apisai Koroisau",
         "injury": "Pectoral",
-        "expectedReturn": "Round 23",
+        "expectedReturn": "Round 24",
         "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500023/Api%20Koroisau%20260106_MK1011.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/wests-tigers/apisai-koroisau/"
       },
