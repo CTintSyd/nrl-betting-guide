@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-08T05:19:36.462224+00:00",
+  "generatedAt": "2026-07-09T06:14:15.984804+00:00",
   "round": 19,
   "games": [
     {
@@ -302,14 +302,8 @@
         "category": "reserve"
       },
       {
-        "number": 22,
-        "name": "Mitchell Barnett",
-        "position": "Reserve",
-        "category": "reserve"
-      },
-      {
-        "number": 23,
-        "name": "Kurt Capewell",
+        "number": 25,
+        "name": "Morgan Gannon",
         "position": "Reserve",
         "category": "reserve"
       }
@@ -2019,6 +2013,13 @@
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/bulldogs/jacob-preston/"
       },
       {
+        "name": "Mitchell Woods",
+        "injury": "Hamstring",
+        "expectedReturn": "Round 19",
+        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500010/WOODS%2CM_20251212_4420.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/bulldogs/mitchell-woods/"
+      },
+      {
         "name": "Viliame Kikau",
         "injury": "Pectoral",
         "expectedReturn": "Round 20",
@@ -2045,13 +2046,6 @@
         "expectedReturn": "TBC",
         "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500010/TURPIN%2CJ_20251212_3497.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/bulldogs/jake-turpin/"
-      },
-      {
-        "name": "Mitchell Woods",
-        "injury": "Hamstring",
-        "expectedReturn": "TBC",
-        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500010/WOODS%2CM_20251212_4420.png?center=0.5%2C0.5",
-        "profileUrl": "https://www.nrl.com/players/nrl-premiership/bulldogs/mitchell-woods/"
       }
     ],
     "North Queensland Cowboys": [
@@ -2070,6 +2064,13 @@
         "expectedReturn": "Round 22",
         "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500723/Bodyshot-Katoa.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/dolphins/isaiya-katoa/"
+      },
+      {
+        "name": "Jack Bostock",
+        "injury": "Head knock",
+        "expectedReturn": "TBC",
+        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500723/Bodyshot-Bostock.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/dolphins/jack-bostock/"
       }
     ],
     "St George Illawarra Dragons": [
@@ -2331,6 +2332,13 @@
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/roosters/angus-crichton/"
       },
       {
+        "name": "James Tedesco",
+        "injury": "Head knock",
+        "expectedReturn": "TBC",
+        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500001/James%20Tedesco%20260203_Roosters813.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/roosters/james-tedesco/"
+      },
+      {
         "name": "Blake Steep",
         "injury": "ACL",
         "expectedReturn": "Next Season",
@@ -2400,13 +2408,6 @@
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/storm/nick-meaney/"
       },
       {
-        "name": "Hugo Peel",
-        "injury": "Knee",
-        "expectedReturn": "Round 19",
-        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500021/Peel%2CH_260204_AR_3.png?center=0.5%2C0.5",
-        "profileUrl": "https://www.nrl.com/players/nrl-premiership/storm/hugo-peel/"
-      },
-      {
         "name": "Manaia Waitere",
         "injury": "Ankle",
         "expectedReturn": "Round 19",
@@ -2419,6 +2420,13 @@
         "expectedReturn": "Round 20",
         "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500021/Leo%2CM_260204_AR_3.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/storm/moses-leo/"
+      },
+      {
+        "name": "Hugo Peel",
+        "injury": "Knee",
+        "expectedReturn": "Round 20",
+        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500021/Peel%2CH_260204_AR_3.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/storm/hugo-peel/"
       },
       {
         "name": "Ativalu Lisati",
@@ -2481,13 +2489,6 @@
     ],
     "New Zealand Warriors": [
       {
-        "name": "Rocco Berry",
-        "injury": "Hamstring",
-        "expectedReturn": "Round 19",
-        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500032/Rocco%20Berry-003.png?center=0.5%2C0.5",
-        "profileUrl": "https://www.nrl.com/players/nrl-premiership/warriors/rocco-berry/"
-      },
-      {
         "name": "James Fisher-Harris",
         "injury": "Calf",
         "expectedReturn": "Round 19",
@@ -2507,6 +2508,13 @@
         "expectedReturn": "Round 19",
         "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500032/Alofiana%20Khan-Pereira-003.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/warriors/alofiana-khan-pereira/"
+      },
+      {
+        "name": "Rocco Berry",
+        "injury": "Hamstring",
+        "expectedReturn": "Round 20",
+        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500032/Rocco%20Berry-003.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/warriors/rocco-berry/"
       },
       {
         "name": "Dallin Watene-Zelezniak",
@@ -2532,18 +2540,18 @@
     ],
     "Wests Tigers": [
       {
+        "name": "Samuela Fainu",
+        "injury": "Foot",
+        "expectedReturn": "Round 19",
+        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500023/Samuela%20Fainu%20260106_MK2345.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/wests-tigers/samuela-fainu/"
+      },
+      {
         "name": "Jarome Luai",
         "injury": "Concussion",
         "expectedReturn": "Round 19",
         "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500023/Jarome%20Luai%20260106_MK169-2.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/wests-tigers/jarome-luai/"
-      },
-      {
-        "name": "Samuela Fainu",
-        "injury": "Foot",
-        "expectedReturn": "Round 20",
-        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500023/Samuela%20Fainu%20260106_MK2345.png?center=0.5%2C0.5",
-        "profileUrl": "https://www.nrl.com/players/nrl-premiership/wests-tigers/samuela-fainu/"
       },
       {
         "name": "Apisai Koroisau",
