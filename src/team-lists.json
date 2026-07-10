@@ -1,13 +1,7 @@
 {
-  "generatedAt": "2026-07-10T07:27:44.613633+00:00",
+  "generatedAt": "2026-07-10T10:34:21.512532+00:00",
   "round": 19,
   "games": [
-    {
-      "matchCentreUrl": "/draw/nrl-premiership/2026/round-19/wests-tigers-v-warriors/",
-      "kickoff": "2026-07-10T10:00:00Z",
-      "homeTeam": "Wests Tigers",
-      "awayTeam": "New Zealand Warriors"
-    },
     {
       "matchCentreUrl": "/draw/nrl-premiership/2026/round-19/dolphins-v-sharks/",
       "kickoff": "2026-07-11T05:00:00Z",
@@ -46,250 +40,6 @@
     }
   ],
   "teams": {
-    "Wests Tigers": [
-      {
-        "number": 1,
-        "name": "Jahream Bula",
-        "position": "Fullback",
-        "category": "starting"
-      },
-      {
-        "number": 2,
-        "name": "Sunia Turuva",
-        "position": "Winger",
-        "category": "starting"
-      },
-      {
-        "number": 3,
-        "name": "Heamasi Makasini",
-        "position": "Centre",
-        "category": "starting"
-      },
-      {
-        "number": 4,
-        "name": "Starford To'a",
-        "position": "Centre",
-        "category": "starting"
-      },
-      {
-        "number": 5,
-        "name": "Jeral Skelton",
-        "position": "Winger",
-        "category": "starting"
-      },
-      {
-        "number": 6,
-        "name": "Jarome Luai",
-        "position": "Five-Eighth",
-        "category": "starting"
-      },
-      {
-        "number": 7,
-        "name": "Adam Doueihi",
-        "position": "Halfback",
-        "category": "starting"
-      },
-      {
-        "number": 8,
-        "name": "Terrell May",
-        "position": "Prop",
-        "category": "starting"
-      },
-      {
-        "number": 9,
-        "name": "Josese Lanyon",
-        "position": "Hooker",
-        "category": "starting"
-      },
-      {
-        "number": 10,
-        "name": "Bunty Afoa",
-        "position": "Prop",
-        "category": "starting"
-      },
-      {
-        "number": 11,
-        "name": "Samuela Fainu",
-        "position": "2nd Row",
-        "category": "starting"
-      },
-      {
-        "number": 12,
-        "name": "Sione Fainu",
-        "position": "2nd Row",
-        "category": "starting"
-      },
-      {
-        "number": 13,
-        "name": "Alex Twal",
-        "position": "Lock",
-        "category": "starting"
-      },
-      {
-        "number": 14,
-        "name": "Latu Fainu",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
-        "number": 15,
-        "name": "Fonua Pole",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
-        "number": 16,
-        "name": "Alex Seyfarth",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
-        "number": 17,
-        "name": "Tony Sukkar",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
-        "number": 18,
-        "name": "Faaletino Tavana",
-        "position": "Interchange",
-        "category": "reserve"
-      },
-      {
-        "number": 19,
-        "name": "Charlie Murray",
-        "position": "Interchange",
-        "category": "reserve"
-      },
-      {
-        "number": 22,
-        "name": "Jared Haywood",
-        "position": "Reserve",
-        "category": "reserve"
-      }
-    ],
-    "New Zealand Warriors": [
-      {
-        "number": 1,
-        "name": "Taine Tuaupiki",
-        "position": "Fullback",
-        "category": "starting"
-      },
-      {
-        "number": 2,
-        "name": "Charnze Nicoll-Klokstad",
-        "position": "Winger",
-        "category": "starting"
-      },
-      {
-        "number": 3,
-        "name": "Ali Leiataua",
-        "position": "Centre",
-        "category": "starting"
-      },
-      {
-        "number": 4,
-        "name": "Adam Pompey",
-        "position": "Centre",
-        "category": "starting"
-      },
-      {
-        "number": 5,
-        "name": "Alofiana Khan-Pereira",
-        "position": "Winger",
-        "category": "starting"
-      },
-      {
-        "number": 6,
-        "name": "Chanel Harris-Tavita",
-        "position": "Five-Eighth",
-        "category": "starting"
-      },
-      {
-        "number": 7,
-        "name": "Te Maire Martin",
-        "position": "Halfback",
-        "category": "starting"
-      },
-      {
-        "number": 8,
-        "name": "James Fisher-Harris",
-        "position": "Prop",
-        "category": "starting"
-      },
-      {
-        "number": 9,
-        "name": "Wayde Egan",
-        "position": "Hooker",
-        "category": "starting"
-      },
-      {
-        "number": 10,
-        "name": "Tanner Stowers-Smith",
-        "position": "Prop",
-        "category": "starting"
-      },
-      {
-        "number": 11,
-        "name": "Leka Halasima",
-        "position": "2nd Row",
-        "category": "starting"
-      },
-      {
-        "number": 12,
-        "name": "Jacob Laban",
-        "position": "2nd Row",
-        "category": "starting"
-      },
-      {
-        "number": 13,
-        "name": "Erin Clark",
-        "position": "Lock",
-        "category": "starting"
-      },
-      {
-        "number": 14,
-        "name": "Sam Healey",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
-        "number": 15,
-        "name": "Eddie Ieremia-Toeava",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
-        "number": 16,
-        "name": "Demitric Vaimauga",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
-        "number": 17,
-        "name": "Marata Niukore",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
-        "number": 18,
-        "name": "Luke Metcalf",
-        "position": "Interchange",
-        "category": "reserve"
-      },
-      {
-        "number": 21,
-        "name": "Luke Laulilii",
-        "position": "Interchange",
-        "category": "reserve"
-      },
-      {
-        "number": 25,
-        "name": "Morgan Gannon",
-        "position": "Reserve",
-        "category": "reserve"
-      }
-    ],
     "Dolphins": [
       {
         "number": 1,
@@ -654,18 +404,6 @@
         "name": "Jacob Preston",
         "position": "Reserve",
         "category": "reserve"
-      },
-      {
-        "number": 22,
-        "name": "Logan Spinks",
-        "position": "Reserve",
-        "category": "reserve"
-      },
-      {
-        "number": 23,
-        "name": "Jed Reardon",
-        "position": "Reserve",
-        "category": "reserve"
       }
     ],
     "Canberra Raiders": [
@@ -673,12 +411,6 @@
         "number": 1,
         "name": "Kaeo Weekes",
         "position": "Fullback",
-        "category": "starting"
-      },
-      {
-        "number": 2,
-        "name": "Sebastian Kris",
-        "position": "Winger",
         "category": "starting"
       },
       {
@@ -772,12 +504,6 @@
         "category": "interchange"
       },
       {
-        "number": 18,
-        "name": "Chevy Stewart",
-        "position": "Interchange",
-        "category": "reserve"
-      },
-      {
         "number": 19,
         "name": "Morgan Smithies",
         "position": "Interchange",
@@ -786,13 +512,13 @@
       {
         "number": 20,
         "name": "Coby Black",
-        "position": "Reserve",
+        "position": "Interchange",
         "category": "reserve"
       },
       {
         "number": 21,
         "name": "Jed Stuart",
-        "position": "Reserve",
+        "position": "Winger",
         "category": "reserve"
       },
       {
@@ -803,12 +529,6 @@
       }
     ],
     "Sydney Roosters": [
-      {
-        "number": 1,
-        "name": "James Tedesco",
-        "position": "Fullback",
-        "category": "starting"
-      },
       {
         "number": 2,
         "name": "Daniel Tupou",
@@ -924,27 +644,9 @@
         "category": "reserve"
       },
       {
-        "number": 21,
-        "name": "Reece Foley",
-        "position": "Reserve",
-        "category": "reserve"
-      },
-      {
         "number": 22,
         "name": "Cody Ramsey",
-        "position": "Reserve",
-        "category": "reserve"
-      },
-      {
-        "number": 23,
-        "name": "Reece Robson",
-        "position": "Reserve",
-        "category": "reserve"
-      },
-      {
-        "number": 24,
-        "name": "Sam Walker",
-        "position": "Reserve",
+        "position": "Fullback",
         "category": "reserve"
       }
     ],
@@ -983,12 +685,6 @@
         "number": 6,
         "name": "Ronald Volkman",
         "position": "Five-Eighth",
-        "category": "starting"
-      },
-      {
-        "number": 7,
-        "name": "Mitchell Moses",
-        "position": "Halfback",
         "category": "starting"
       },
       {
@@ -1064,12 +760,6 @@
         "category": "reserve"
       },
       {
-        "number": 20,
-        "name": "Saxon Pryke",
-        "position": "Reserve",
-        "category": "reserve"
-      },
-      {
         "number": 21,
         "name": "Ryley Smith",
         "position": "Reserve",
@@ -1078,7 +768,7 @@
       {
         "number": 22,
         "name": "Jonah Pezet",
-        "position": "Reserve",
+        "position": "Halfback",
         "category": "reserve"
       }
     ],
@@ -1939,27 +1629,6 @@
     ],
     "Canterbury Bulldogs": [
       {
-        "name": "Jacob Kiraz",
-        "injury": "Ribs",
-        "expectedReturn": "Round 19",
-        "imageUrl": "/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2025/500010/KIRAZ%2CJacob_NRL_2025_GP00001-COPY.png?center=0.5%2C0.5",
-        "profileUrl": "https://www.nrl.com/players/nrl-premiership/bulldogs/jacob-kiraz/"
-      },
-      {
-        "name": "Jacob Preston",
-        "injury": "Arm",
-        "expectedReturn": "Round 19",
-        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500010/PRESTON%2CJ_20251212_3787.png?center=0.5%2C0.5",
-        "profileUrl": "https://www.nrl.com/players/nrl-premiership/bulldogs/jacob-preston/"
-      },
-      {
-        "name": "Mitchell Woods",
-        "injury": "Hamstring",
-        "expectedReturn": "Round 19",
-        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500010/WOODS%2CM_20251212_4420.png?center=0.5%2C0.5",
-        "profileUrl": "https://www.nrl.com/players/nrl-premiership/bulldogs/mitchell-woods/"
-      },
-      {
         "name": "Viliame Kikau",
         "injury": "Pectoral",
         "expectedReturn": "Round 20",
@@ -2038,18 +1707,18 @@
     ],
     "Parramatta Eels": [
       {
-        "name": "Jake Tago",
-        "injury": "Jaw",
-        "expectedReturn": "Round 19",
-        "imageUrl": "/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500031/TAGO%2CJ_20251211_2331.png?center=0.5%2C0.5",
-        "profileUrl": "https://www.nrl.com/players/nrl-premiership/eels/jake-tago/"
-      },
-      {
         "name": "Luca Moretti",
         "injury": "Concussion",
         "expectedReturn": "Round 21",
         "imageUrl": "/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500031/MORETTI%2CL_20251211_1303-COPY.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/eels/luca-moretti/"
+      },
+      {
+        "name": "Mitchell Moses",
+        "injury": "Thigh",
+        "expectedReturn": "Round 21",
+        "imageUrl": "/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500031/MOSES%2CM_20251211_1643.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/eels/mitchell-moses/"
       },
       {
         "name": "Junior Paulo",
@@ -2096,13 +1765,6 @@
     ],
     "Newcastle Knights": [
       {
-        "name": "Trey Mooney",
-        "injury": "Calf",
-        "expectedReturn": "Round 19",
-        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500003/Trey%20Mooney%20_260129_Knights_MK276.png?center=0.5%2C0.5",
-        "profileUrl": "https://www.nrl.com/players/nrl-premiership/knights/trey-mooney/"
-      },
-      {
         "name": "Asu Kepaoa",
         "injury": "Suspension",
         "expectedReturn": "Round 23",
@@ -2118,13 +1780,6 @@
       }
     ],
     "Penrith Panthers": [
-      {
-        "name": "Mitch Kenny",
-        "injury": "Leg",
-        "expectedReturn": "Round 19",
-        "imageUrl": "/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500014/Mitch%20Kenny%20_260123_Panthers_MK239.png?center=0.5%2C0.5",
-        "profileUrl": "https://www.nrl.com/players/nrl-premiership/panthers/mitchell-kenny/"
-      },
       {
         "name": "Isaiah Papali'i",
         "injury": "Head knock",
@@ -2148,13 +1803,6 @@
       }
     ],
     "South Sydney Rabbitohs": [
-      {
-        "name": "Campbell Graham",
-        "injury": "Calf",
-        "expectedReturn": "Round 19",
-        "imageUrl": "/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500005/Campbell%20Graham_260113_Rabbitohs_MK0508.png?center=0.5%2C0.5",
-        "profileUrl": "https://www.nrl.com/players/nrl-premiership/south-sydney-rabbitohs/campbell--graham/"
-      },
       {
         "name": "Cody Walker",
         "injury": "Suspension",
@@ -2207,42 +1855,14 @@
     ],
     "Canberra Raiders": [
       {
-        "name": "Daine Laurie",
-        "injury": "Suspension",
-        "expectedReturn": "Round 19",
-        "imageUrl": "/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500013/Daine%20Laurie%20_260121_Raiders_MK217.png?center=0.5%2C0.5",
-        "profileUrl": "https://www.nrl.com/players/nrl-premiership/raiders/daine-laurie/"
-      },
-      {
-        "name": "Noah Martin",
-        "injury": "Ankle",
-        "expectedReturn": "Round 19",
-        "imageUrl": "/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500013/Noah%20Martin%20_260121_Raiders_MK1680.png?center=0.5%2C0.5",
-        "profileUrl": "https://www.nrl.com/players/nrl-premiership/raiders/noah-martin/"
-      },
-      {
-        "name": "Josh Papalii",
-        "injury": "Calf",
-        "expectedReturn": "Round 19",
-        "imageUrl": "/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500013/Josh%20Papalii%20_260121_Raiders_MK1296.png?center=0.5%2C0.5",
-        "profileUrl": "https://www.nrl.com/players/nrl-premiership/raiders/josh-papalii/"
+        "name": "Sebastian Kris",
+        "injury": "Hamstring",
+        "expectedReturn": "TBC",
+        "imageUrl": "/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500013/Sebastian%20Kris%20_260121_Raiders_MK356.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/raiders/sebastian-kris/"
       }
     ],
     "Sydney Roosters": [
-      {
-        "name": "Fetalaiga Pauga",
-        "injury": "Ribs",
-        "expectedReturn": "Round 19",
-        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500001/Junior%20Pauga%20260203_Roosters1795.png?center=0.5%2C0.5",
-        "profileUrl": "https://www.nrl.com/players/nrl-premiership/roosters/fetalaiga-pauga/"
-      },
-      {
-        "name": "Daniel Tupou",
-        "injury": "Calf",
-        "expectedReturn": "Round 19",
-        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500001/Daniel%20Tupou%20260203_Roosters1405.png?center=0.5%2C0.5",
-        "profileUrl": "https://www.nrl.com/players/nrl-premiership/roosters/daniel-tupou/"
-      },
       {
         "name": "Nat Butcher",
         "injury": "Suspension",
@@ -2341,27 +1961,6 @@
     ],
     "Melbourne Storm": [
       {
-        "name": "Jack Howarth",
-        "injury": "Quad",
-        "expectedReturn": "Round 19",
-        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500021/Howarth%2CJ_260204_AR_2.png?center=0.5%2C0.5",
-        "profileUrl": "https://www.nrl.com/players/nrl-premiership/storm/jack-howarth/"
-      },
-      {
-        "name": "Nick Meaney",
-        "injury": "Calf",
-        "expectedReturn": "Round 19",
-        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500021/Meaney%2CN__260204_AR_2.png?center=0.5%2C0.5",
-        "profileUrl": "https://www.nrl.com/players/nrl-premiership/storm/nick-meaney/"
-      },
-      {
-        "name": "Manaia Waitere",
-        "injury": "Ankle",
-        "expectedReturn": "Round 19",
-        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500021/Waitere%2CM_260204_AR_4.png?center=0.5%2C0.5",
-        "profileUrl": "https://www.nrl.com/players/nrl-premiership/storm/manaia-waitere/"
-      },
-      {
         "name": "Moses Leo",
         "injury": "Concussion",
         "expectedReturn": "Round 20",
@@ -2436,27 +2035,6 @@
     ],
     "New Zealand Warriors": [
       {
-        "name": "James Fisher-Harris",
-        "injury": "Calf",
-        "expectedReturn": "Round 19",
-        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500032/James%20Fisher-Harris-003.png?center=0.5%2C0.5",
-        "profileUrl": "https://www.nrl.com/players/nrl-premiership/warriors/james-fisher-harris/"
-      },
-      {
-        "name": "Leka Halasima",
-        "injury": "Hamstring",
-        "expectedReturn": "Round 19",
-        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500032/Leka%20Halasima-003.png?center=0.5%2C0.5",
-        "profileUrl": "https://www.nrl.com/players/nrl-premiership/warriors/leka-halasima/"
-      },
-      {
-        "name": "Alofiana Khan-Pereira",
-        "injury": "Thigh",
-        "expectedReturn": "Round 19",
-        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500032/Alofiana%20Khan-Pereira-003.png?center=0.5%2C0.5",
-        "profileUrl": "https://www.nrl.com/players/nrl-premiership/warriors/alofiana-khan-pereira/"
-      },
-      {
         "name": "Rocco Berry",
         "injury": "Hamstring",
         "expectedReturn": "Round 20",
@@ -2486,20 +2064,6 @@
       }
     ],
     "Wests Tigers": [
-      {
-        "name": "Samuela Fainu",
-        "injury": "Foot",
-        "expectedReturn": "Round 19",
-        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500023/Samuela%20Fainu%20260106_MK2345.png?center=0.5%2C0.5",
-        "profileUrl": "https://www.nrl.com/players/nrl-premiership/wests-tigers/samuela-fainu/"
-      },
-      {
-        "name": "Jarome Luai",
-        "injury": "Concussion",
-        "expectedReturn": "Round 19",
-        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500023/Jarome%20Luai%20260106_MK169-2.png?center=0.5%2C0.5",
-        "profileUrl": "https://www.nrl.com/players/nrl-premiership/wests-tigers/jarome-luai/"
-      },
       {
         "name": "Apisai Koroisau",
         "injury": "Pectoral",
