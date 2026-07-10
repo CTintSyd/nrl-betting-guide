@@ -1,46 +1,12 @@
 {
-  "updated": "2026-07-10T11:41:07.093Z",
-  "quotaRemaining": 302,
+  "updated": "2026-07-10T13:53:03.207Z",
+  "quotaRemaining": 299,
   "round": 19,
   "venueOverride": {
     "venue": "Suncorp Stadium",
     "until": "2026-05-18T00:00:00Z"
   },
   "games": [
-    {
-      "id": "a5a61826a82ba0823e95e496486681d9",
-      "homeTeam": "Wests Tigers",
-      "awayTeam": "New Zealand Warriors",
-      "commenceTime": "2026-07-10T10:00:00Z",
-      "bookmaker": "pointsbetau",
-      "h2h": {
-        "home": 101,
-        "away": 1
-      },
-      "line": {
-        "home": {
-          "odd": null,
-          "point": null
-        },
-        "away": {
-          "odd": null,
-          "point": null
-        }
-      },
-      "ou": {
-        "total": null,
-        "overOdd": null,
-        "underOdd": null
-      },
-      "bookmakerComparison": [
-        {
-          "key": "pointsbetau",
-          "name": "PointsBet",
-          "home": 101,
-          "away": 1
-        }
-      ]
-    },
     {
       "id": "8a44c8e2ae918bdca3d9978a0387349a",
       "homeTeam": "Dolphins",
@@ -534,6 +500,98 @@
           "name": "Ladbrokes",
           "home": 1.7,
           "away": 2.15
+        }
+      ]
+    },
+    {
+      "id": "59a2f17adbbade6ff3edb71f9762fbf0",
+      "homeTeam": "New Zealand Warriors",
+      "awayTeam": "St George Illawarra Dragons",
+      "commenceTime": "2026-07-18T07:35:00Z",
+      "bookmaker": "sportsbet",
+      "h2h": {
+        "home": 1.18,
+        "away": 4.9
+      },
+      "line": {
+        "home": {
+          "odd": 1.83,
+          "point": -13.5
+        },
+        "away": {
+          "odd": 1.98,
+          "point": 13.5
+        }
+      },
+      "ou": {
+        "total": 46.5,
+        "overOdd": 1.9,
+        "underOdd": 1.9
+      },
+      "bookmakerComparison": [
+        {
+          "key": "sportsbet",
+          "name": "Sportsbet",
+          "home": 1.18,
+          "away": 4.9
+        },
+        {
+          "key": "tab",
+          "name": "TAB",
+          "home": 1.15,
+          "away": 5.5
+        },
+        {
+          "key": "ladbrokes_au",
+          "name": "Ladbrokes",
+          "home": 1.18,
+          "away": 5
+        }
+      ]
+    },
+    {
+      "id": "bd7e6939702cd53b0b94e9bd6b6ebc74",
+      "homeTeam": "Canterbury Bulldogs",
+      "awayTeam": "Wests Tigers",
+      "commenceTime": "2026-07-18T09:35:00Z",
+      "bookmaker": "sportsbet",
+      "h2h": {
+        "home": 1.43,
+        "away": 2.83
+      },
+      "line": {
+        "home": {
+          "odd": 1.9,
+          "point": -6.5
+        },
+        "away": {
+          "odd": 1.9,
+          "point": 6.5
+        }
+      },
+      "ou": {
+        "total": 46.5,
+        "overOdd": 1.99,
+        "underOdd": 1.82
+      },
+      "bookmakerComparison": [
+        {
+          "key": "sportsbet",
+          "name": "Sportsbet",
+          "home": 1.43,
+          "away": 2.83
+        },
+        {
+          "key": "tab",
+          "name": "TAB",
+          "home": 1.43,
+          "away": 2.8
+        },
+        {
+          "key": "ladbrokes_au",
+          "name": "Ladbrokes",
+          "home": 1.42,
+          "away": 2.9
         }
       ]
     },
