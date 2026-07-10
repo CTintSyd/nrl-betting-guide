@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-10T10:34:01.572239+00:00",
-  "round": 18,
+  "generatedAt": "2026-07-10T12:57:25.989453+00:00",
+  "round": 19,
   "players": {
     "Kalyn Ponga": {
       "tries": 1,
@@ -802,8 +802,8 @@
     },
     "Charnze Nicoll-Klokstad": {
       "tries": 8,
-      "games": 8,
-      "tryRate": 1.0,
+      "games": 9,
+      "tryRate": 0.8889,
       "team": "New Zealand Warriors",
       "position": "Winger"
     },
@@ -815,16 +815,16 @@
       "position": "Winger"
     },
     "Ali Leiataua": {
-      "tries": 3,
-      "games": 12,
-      "tryRate": 0.25,
+      "tries": 4,
+      "games": 13,
+      "tryRate": 0.3077,
       "team": "New Zealand Warriors",
       "position": "Centre"
     },
     "Adam Pompey": {
       "tries": 2,
-      "games": 10,
-      "tryRate": 0.2,
+      "games": 11,
+      "tryRate": 0.1818,
       "team": "New Zealand Warriors",
       "position": "Centre"
     },
@@ -837,8 +837,8 @@
     },
     "Chanel Harris-Tavita": {
       "tries": 3,
-      "games": 14,
-      "tryRate": 0.2143,
+      "games": 15,
+      "tryRate": 0.2,
       "team": "New Zealand Warriors",
       "position": "Five-Eighth"
     },
@@ -850,16 +850,16 @@
       "position": "Halfback"
     },
     "James Fisher-Harris": {
-      "tries": 1,
-      "games": 12,
-      "tryRate": 0.0833,
+      "tries": 2,
+      "games": 13,
+      "tryRate": 0.1538,
       "team": "New Zealand Warriors",
       "position": "Prop"
     },
     "Wayde Egan": {
-      "tries": 1,
-      "games": 15,
-      "tryRate": 0.0667,
+      "tries": 2,
+      "games": 16,
+      "tryRate": 0.125,
       "team": "New Zealand Warriors",
       "position": "Hooker"
     },
@@ -879,50 +879,50 @@
     },
     "Jacob Laban": {
       "tries": 3,
-      "games": 15,
-      "tryRate": 0.2,
+      "games": 16,
+      "tryRate": 0.1875,
       "team": "New Zealand Warriors",
       "position": "2nd Row"
     },
     "Erin Clark": {
       "tries": 4,
-      "games": 15,
-      "tryRate": 0.2667,
+      "games": 16,
+      "tryRate": 0.25,
       "team": "New Zealand Warriors",
       "position": "Lock"
     },
     "Sam Healey": {
-      "tries": 1,
-      "games": 13,
-      "tryRate": 0.0769,
+      "tries": 2,
+      "games": 14,
+      "tryRate": 0.1429,
       "team": "New Zealand Warriors",
       "position": "Interchange"
     },
     "Demitric Vaimauga": {
       "tries": 0,
-      "games": 15,
+      "games": 16,
       "tryRate": 0.0,
       "team": "New Zealand Warriors",
       "position": "Interchange"
     },
     "Leka Halasima": {
       "tries": 5,
-      "games": 12,
-      "tryRate": 0.4167,
+      "games": 13,
+      "tryRate": 0.3846,
       "team": "New Zealand Warriors",
       "position": "2nd Row"
     },
     "Tanner Stowers-Smith": {
       "tries": 0,
-      "games": 12,
+      "games": 13,
       "tryRate": 0.0,
       "team": "New Zealand Warriors",
       "position": "Prop"
     },
     "Taine Tuaupiki": {
       "tries": 3,
-      "games": 15,
-      "tryRate": 0.2,
+      "games": 16,
+      "tryRate": 0.1875,
       "team": "New Zealand Warriors",
       "position": "Fullback"
     },
@@ -2153,7 +2153,7 @@
     },
     "Eddie Ieremia-Toeava": {
       "tries": 0,
-      "games": 9,
+      "games": 10,
       "tryRate": 0.0,
       "team": "New Zealand Warriors",
       "position": "Interchange"
@@ -2195,15 +2195,15 @@
     },
     "Jahream Bula": {
       "tries": 6,
-      "games": 13,
-      "tryRate": 0.4615,
+      "games": 14,
+      "tryRate": 0.4286,
       "team": "Wests Tigers",
       "position": "Fullback"
     },
     "Sunia Turuva": {
       "tries": 4,
-      "games": 16,
-      "tryRate": 0.25,
+      "games": 17,
+      "tryRate": 0.2353,
       "team": "Wests Tigers",
       "position": "Winger"
     },
@@ -2216,36 +2216,36 @@
     },
     "Heamasi Makasini": {
       "tries": 1,
-      "games": 11,
-      "tryRate": 0.0909,
+      "games": 12,
+      "tryRate": 0.0833,
       "team": "Wests Tigers",
       "position": "Centre"
     },
     "Luke Laulilii": {
       "tries": 6,
-      "games": 10,
-      "tryRate": 0.6,
-      "team": "Wests Tigers",
+      "games": 11,
+      "tryRate": 0.5455,
+      "team": "New Zealand Warriors",
       "position": "Reserve"
     },
     "Jarome Luai": {
       "tries": 4,
-      "games": 12,
-      "tryRate": 0.3333,
+      "games": 13,
+      "tryRate": 0.3077,
       "team": "Wests Tigers",
       "position": "Five-Eighth"
     },
     "Adam Doueihi": {
       "tries": 7,
-      "games": 10,
-      "tryRate": 0.7,
+      "games": 11,
+      "tryRate": 0.6364,
       "team": "Wests Tigers",
       "position": "Halfback"
     },
     "Terrell May": {
       "tries": 1,
-      "games": 15,
-      "tryRate": 0.0667,
+      "games": 16,
+      "tryRate": 0.0625,
       "team": "Wests Tigers",
       "position": "Prop"
     },
@@ -2258,15 +2258,15 @@
     },
     "Fonua Pole": {
       "tries": 0,
-      "games": 16,
+      "games": 17,
       "tryRate": 0.0,
       "team": "Wests Tigers",
       "position": "Interchange"
     },
     "Samuela Fainu": {
-      "tries": 2,
-      "games": 8,
-      "tryRate": 0.25,
+      "tries": 3,
+      "games": 9,
+      "tryRate": 0.3333,
       "team": "Wests Tigers",
       "position": "2nd Row"
     },
@@ -2279,7 +2279,7 @@
     },
     "Alex Twal": {
       "tries": 0,
-      "games": 11,
+      "games": 12,
       "tryRate": 0.0,
       "team": "Wests Tigers",
       "position": "Lock"
@@ -2293,8 +2293,8 @@
     },
     "Sione Fainu": {
       "tries": 2,
-      "games": 15,
-      "tryRate": 0.1333,
+      "games": 16,
+      "tryRate": 0.125,
       "team": "Wests Tigers",
       "position": "2nd Row"
     },
@@ -2307,8 +2307,8 @@
     },
     "Alex Seyfarth": {
       "tries": 2,
-      "games": 16,
-      "tryRate": 0.125,
+      "games": 17,
+      "tryRate": 0.1176,
       "team": "Wests Tigers",
       "position": "Interchange"
     },
@@ -2321,8 +2321,8 @@
     },
     "Jeral Skelton": {
       "tries": 4,
-      "games": 12,
-      "tryRate": 0.3333,
+      "games": 13,
+      "tryRate": 0.3077,
       "team": "Wests Tigers",
       "position": "Winger"
     },
@@ -2489,15 +2489,15 @@
     },
     "Marata Niukore": {
       "tries": 1,
-      "games": 9,
-      "tryRate": 0.1111,
+      "games": 10,
+      "tryRate": 0.1,
       "team": "New Zealand Warriors",
       "position": "Interchange"
     },
     "Alofiana Khan-Pereira": {
-      "tries": 9,
-      "games": 9,
-      "tryRate": 1.0,
+      "tries": 11,
+      "games": 10,
+      "tryRate": 1.1,
       "team": "New Zealand Warriors",
       "position": "Winger"
     },
@@ -2594,24 +2594,24 @@
     },
     "Luke Metcalf": {
       "tries": 0,
-      "games": 5,
+      "games": 6,
       "tryRate": 0.0,
       "team": "New Zealand Warriors",
       "position": "Reserve"
     },
     "Faaletino Tavana": {
       "tries": 3,
-      "games": 7,
-      "tryRate": 0.4286,
+      "games": 8,
+      "tryRate": 0.375,
       "team": "Wests Tigers",
-      "position": "Interchange"
+      "position": "Reserve"
     },
     "Latu Fainu": {
       "tries": 0,
-      "games": 12,
+      "games": 13,
       "tryRate": 0.0,
       "team": "Wests Tigers",
-      "position": "Reserve"
+      "position": "Interchange"
     },
     "Va'a Semu": {
       "tries": 0,
@@ -2895,10 +2895,10 @@
     },
     "Tony Sukkar": {
       "tries": 1,
-      "games": 6,
-      "tryRate": 0.1667,
+      "games": 7,
+      "tryRate": 0.1429,
       "team": "Wests Tigers",
-      "position": "2nd Row"
+      "position": "Reserve"
     },
     "Viliami Vailea": {
       "tries": 0,
@@ -3000,8 +3000,8 @@
     },
     "Starford To'a": {
       "tries": 2,
-      "games": 8,
-      "tryRate": 0.25,
+      "games": 9,
+      "tryRate": 0.2222,
       "team": "Wests Tigers",
       "position": "Centre"
     },
@@ -3175,7 +3175,7 @@
     },
     "Bunty Afoa": {
       "tries": 0,
-      "games": 7,
+      "games": 8,
       "tryRate": 0.0,
       "team": "Wests Tigers",
       "position": "Prop"
@@ -3252,8 +3252,8 @@
     },
     "Te Maire Martin": {
       "tries": 4,
-      "games": 6,
-      "tryRate": 0.6667,
+      "games": 7,
+      "tryRate": 0.5714,
       "team": "New Zealand Warriors",
       "position": "Halfback"
     },
@@ -3392,10 +3392,10 @@
     },
     "Josese Lanyon": {
       "tries": 0,
-      "games": 4,
+      "games": 5,
       "tryRate": 0.0,
       "team": "Wests Tigers",
-      "position": "Interchange"
+      "position": "Hooker"
     },
     "Alex Conti": {
       "tries": 0,
@@ -3466,6 +3466,13 @@
       "tryRate": 0.0,
       "team": "Dolphins",
       "position": "Reserve"
+    },
+    "Jared Haywood": {
+      "tries": 0,
+      "games": 1,
+      "tryRate": 0.0,
+      "team": "Wests Tigers",
+      "position": "Interchange"
     }
   }
 }

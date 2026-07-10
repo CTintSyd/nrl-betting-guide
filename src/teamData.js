@@ -115,11 +115,11 @@ const NRL_TEAM_DATA = {
     emoji: '⚔️', shortName: 'Warriors', venue: 'Go Media Stadium', wikiPage: 'New_Zealand_Warriors', logoFile: 'new-zealand-warriors.svg',
     players: [
       { name: "Dallin Watene-Zelezniak",           pos: "wing",           tryRate: 1.0667 },
-      { name: "Taine Tuaupiki",                    pos: "fullback",       tryRate: 0.2 },
-      { name: "Te Maire Martin",                   pos: "halfback",       tryRate: 0.6667 },
-      { name: "Alofiana Khan-Pereira",             pos: "wing",           tryRate: 1.0 },
-      { name: "Leka Halasima",                     pos: "lock",           tryRate: 0.4167 },
-      { name: "Erin Clark",                        pos: "lock",           tryRate: 0.2667 },
+      { name: "Taine Tuaupiki",                    pos: "fullback",       tryRate: 0.1875 },
+      { name: "Te Maire Martin",                   pos: "halfback",       tryRate: 0.5714 },
+      { name: "Alofiana Khan-Pereira",             pos: "wing",           tryRate: 1.1 },
+      { name: "Leka Halasima",                     pos: "lock",           tryRate: 0.3846 },
+      { name: "Erin Clark",                        pos: "lock",           tryRate: 0.25 },
     ],
   },
 
@@ -198,12 +198,12 @@ const NRL_TEAM_DATA = {
   'Wests Tigers': {
     emoji: '🐯', shortName: 'Tigers', venue: 'Campbelltown Stadium', wikiPage: 'Wests_Tigers', logoFile: 'wests-tigers.svg',
     players: [
-      { name: "Sunia Turuva",                      pos: "wing",           tryRate: 0.25 },
-      { name: "Jahream Bula",                      pos: "fullback",       tryRate: 0.4615 },
-      { name: "Adam Doueihi",                      pos: "halfback",       tryRate: 0.7 },
+      { name: "Sunia Turuva",                      pos: "wing",           tryRate: 0.2353 },
+      { name: "Jahream Bula",                      pos: "fullback",       tryRate: 0.4286 },
+      { name: "Adam Doueihi",                      pos: "halfback",       tryRate: 0.6364 },
       { name: "Taylan May",                        pos: "centre",         tryRate: 0.6667 },
-      { name: "Jarome Luai",                       pos: "five-eighth",    tryRate: 0.3333 },
-      { name: "Kai Pearce-Paul",                   pos: "lock",           tryRate: 0.3333 },
+      { name: "Jarome Luai",                       pos: "five-eighth",    tryRate: 0.3077 },
+      { name: "Jeral Skelton",                     pos: "wing",           tryRate: 0.3077 },
     ],
   },
 };
