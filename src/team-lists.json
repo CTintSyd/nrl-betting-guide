@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-09T06:14:15.984804+00:00",
+  "generatedAt": "2026-07-10T07:27:44.613633+00:00",
   "round": 19,
   "games": [
     {
@@ -162,18 +162,6 @@
         "category": "reserve"
       },
       {
-        "number": 20,
-        "name": "Heath Mason",
-        "position": "Reserve",
-        "category": "reserve"
-      },
-      {
-        "number": 21,
-        "name": "Jock Madden",
-        "position": "Reserve",
-        "category": "reserve"
-      },
-      {
         "number": 22,
         "name": "Jared Haywood",
         "position": "Reserve",
@@ -290,15 +278,9 @@
         "category": "reserve"
       },
       {
-        "number": 20,
-        "name": "Makaia Tafua",
-        "position": "Interchange",
-        "category": "reserve"
-      },
-      {
         "number": 21,
         "name": "Luke Laulilii",
-        "position": "Reserve",
+        "position": "Interchange",
         "category": "reserve"
       },
       {
@@ -394,12 +376,6 @@
         "category": "interchange"
       },
       {
-        "number": 15,
-        "name": "Ray Stone",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
         "number": 16,
         "name": "Tom Gilbert",
         "position": "Interchange",
@@ -424,27 +400,9 @@
         "category": "reserve"
       },
       {
-        "number": 20,
-        "name": "Hamiso Tabuai-Fidow",
-        "position": "Reserve",
-        "category": "reserve"
-      },
-      {
-        "number": 21,
-        "name": "Selwyn Cobbo",
-        "position": "Reserve",
-        "category": "reserve"
-      },
-      {
-        "number": 22,
-        "name": "Jack Bostock",
-        "position": "Reserve",
-        "category": "reserve"
-      },
-      {
         "number": 23,
         "name": "Max Plath",
-        "position": "Reserve",
+        "position": "Interchange",
         "category": "reserve"
       },
       {
@@ -506,13 +464,7 @@
       {
         "number": 9,
         "name": "Jayden Berrell",
-        "position": "Hooker",
-        "category": "starting"
-      },
-      {
-        "number": 10,
-        "name": "Jesse Colquhoun",
-        "position": "Prop",
+        "position": "Reserve",
         "category": "starting"
       },
       {
@@ -564,33 +516,21 @@
         "category": "reserve"
       },
       {
-        "number": 19,
-        "name": "Samuel Stonestreet",
-        "position": "Interchange",
-        "category": "reserve"
-      },
-      {
         "number": 20,
         "name": "Niwhai Puru",
-        "position": "Reserve",
-        "category": "reserve"
-      },
-      {
-        "number": 21,
-        "name": "Briton Nikora",
-        "position": "Reserve",
+        "position": "Interchange",
         "category": "reserve"
       },
       {
         "number": 22,
         "name": "Blayke Brailey",
-        "position": "Reserve",
+        "position": "Hooker",
         "category": "reserve"
       },
       {
         "number": 23,
         "name": "Addin Fonua-Blake",
-        "position": "Reserve",
+        "position": "Prop",
         "category": "reserve"
       }
     ],
@@ -2052,7 +1992,7 @@
       {
         "name": "Tom Dearden",
         "injury": "Ankle",
-        "expectedReturn": "Round 19",
+        "expectedReturn": "Round 20",
         "imageUrl": "/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500012/Dearden%2CT%20260109_CD_0477.JPG.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/cowboys/tom-dearden/"
       }
@@ -2098,6 +2038,13 @@
     ],
     "Parramatta Eels": [
       {
+        "name": "Jake Tago",
+        "injury": "Jaw",
+        "expectedReturn": "Round 19",
+        "imageUrl": "/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500031/TAGO%2CJ_20251211_2331.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/eels/jake-tago/"
+      },
+      {
         "name": "Luca Moretti",
         "injury": "Concussion",
         "expectedReturn": "Round 21",
@@ -2131,13 +2078,6 @@
         "expectedReturn": "Round 23",
         "imageUrl": "/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500031/SIMONSSON%2CB_20251211_1451.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/eels/bailey-simonsson/"
-      },
-      {
-        "name": "Jake Tago",
-        "injury": "Jaw",
-        "expectedReturn": "TBC",
-        "imageUrl": "/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500031/TAGO%2CJ_20251211_2331.png?center=0.5%2C0.5",
-        "profileUrl": "https://www.nrl.com/players/nrl-premiership/eels/jake-tago/"
       },
       {
         "name": "Matt Doorey",
@@ -2384,6 +2324,13 @@
       }
     ],
     "Cronulla Sutherland Sharks": [
+      {
+        "name": "Jesse Colquhoun",
+        "injury": "Knee",
+        "expectedReturn": "Round 20",
+        "imageUrl": "/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500028/Jesse%20Colquhoun_260114_Sharks_MK028.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/sharks/jesse-colquhoun/"
+      },
       {
         "name": "Toby Rudolf",
         "injury": "Knee",
