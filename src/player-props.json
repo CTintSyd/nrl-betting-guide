@@ -1,13 +1,7 @@
 {
-  "updated": "2026-07-09T14:44:23.189Z",
+  "updated": "2026-07-10T14:08:53.938Z",
   "quotaRemaining": null,
   "games": {
-    "Wests Tigers vs New Zealand Warriors": {
-      "homeTeam": "Wests Tigers",
-      "awayTeam": "New Zealand Warriors",
-      "available": false,
-      "error": "API 422: {\"message\":\"Invalid markets: player_anytime_try_scorer, player_first_try_scorer\",\"error_code\":\"INVALID_MARKET\",\"details_url\":\"https://the-odds-api.com/liveapi/guides/v4/api-error-codes.html#invalid-market\"}\n"
-    },
     "Dolphins vs Cronulla Sutherland Sharks": {
       "homeTeam": "Dolphins",
       "awayTeam": "Cronulla Sutherland Sharks",
