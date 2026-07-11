@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-07-11T08:23:16Z",
+  "updatedAt": "2026-07-11T10:02:24Z",
   "season": 2026,
-  "totalFavRecord": "81-54",
-  "totalLineRecord": "16-16",
-  "totalOuRecord": "8O-23U",
+  "totalFavRecord": "81-55",
+  "totalLineRecord": "16-17",
+  "totalOuRecord": "9O-23U",
   "rounds": [
     {
       "round": 1,
@@ -2176,11 +2176,26 @@
           "ouTotal": 50.5,
           "ouResult": "Over",
           "oddsSourced": true
+        },
+        {
+          "homeTeam": "Canterbury Bulldogs",
+          "awayTeam": "Canberra Raiders",
+          "homeScore": 16,
+          "awayScore": 40,
+          "winner": "Canberra Raiders",
+          "margin": 24,
+          "favourite": "Canterbury Bulldogs",
+          "favouriteWon": false,
+          "linePoint": -4.5,
+          "lineCovered": false,
+          "ouTotal": 45.5,
+          "ouResult": "Over",
+          "oddsSourced": true
         }
       ],
-      "favRecord": "1-1",
-      "lineRecord": "1-1",
-      "ouRecord": "1O-1U"
+      "favRecord": "1-2",
+      "lineRecord": "1-2",
+      "ouRecord": "2O-1U"
     }
   ]
 }

@@ -18,24 +18,24 @@ const NRL_TEAM_DATA = {
   'Canberra Raiders': {
     emoji: '🔋', shortName: 'Raiders', venue: 'GIO Stadium', wikiPage: 'Canberra_Raiders', logoFile: 'canberra-raiders.svg',
     players: [
+      { name: "Xavier Savage",                     pos: "wing",           tryRate: 0.6667 },
+      { name: "Kaeo Weekes",                       pos: "fullback",       tryRate: 0.4706 },
+      { name: "Ethan Sanders",                     pos: "halfback",       tryRate: 0.1176 },
       { name: "Savelio Tamale",                    pos: "wing",           tryRate: 0.5 },
-      { name: "Kaeo Weekes",                       pos: "fullback",       tryRate: 0.5 },
-      { name: "Ethan Strange",                     pos: "five-eighth",    tryRate: 0.3077 },
-      { name: "Xavier Savage",                     pos: "wing",           tryRate: 0.6364 },
-      { name: "Hudson Young",                      pos: "lock",           tryRate: 0.3333 },
-      { name: "Matthew Timoko",                    pos: "centre",         tryRate: 0.3333 },
+      { name: "Simi Sasagi",                       pos: "centre",         tryRate: 0.4545 },
+      { name: "Zac Hosking",                       pos: "lock",           tryRate: 0.2667 },
     ],
   },
 
   'Canterbury Bulldogs': {
     emoji: '🐕', shortName: 'Bulldogs', venue: 'Accor Stadium', wikiPage: 'Canterbury-Bankstown_Bulldogs', logoFile: 'canterbury-bulldogs.png',
     players: [
-      { name: "Jacob Kiraz",                       pos: "wing",           tryRate: 0.5455 },
-      { name: "Connor Tracey",                     pos: "fullback",       tryRate: 0.1538 },
-      { name: "Lachlan Galvin",                    pos: "halfback",       tryRate: 0.4 },
+      { name: "Jacob Kiraz",                       pos: "wing",           tryRate: 0.5 },
+      { name: "Connor Tracey",                     pos: "fullback",       tryRate: 0.2143 },
+      { name: "Lachlan Galvin",                    pos: "halfback",       tryRate: 0.375 },
+      { name: "Jethro Rinakama",                   pos: "wing",           tryRate: 0.5 },
+      { name: "Matt Burton",                       pos: "centre",         tryRate: 0.2667 },
       { name: "Sitili Tupouniua",                  pos: "lock",           tryRate: 0.2857 },
-      { name: "Stephen Crichton",                  pos: "five-eighth",    tryRate: 0.3333 },
-      { name: "Jacob Preston",                     pos: "lock",           tryRate: 0.3636 },
     ],
   },
 

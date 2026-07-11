@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-11T08:23:00.312432+00:00",
+  "generatedAt": "2026-07-11T10:02:07.394256+00:00",
   "round": 19,
   "upcomingRound": 19,
   "ladder": [
@@ -133,15 +133,15 @@
       "pos": 10,
       "nick": "Bulldogs",
       "name": "Canterbury Bulldogs",
-      "played": 15,
+      "played": 16,
       "wins": 7,
-      "losses": 8,
+      "losses": 9,
       "drawn": 0,
-      "ptsFor": 276,
-      "ptsAgainst": 354,
-      "diff": -78,
+      "ptsFor": 292,
+      "ptsAgainst": 394,
+      "diff": -102,
       "pts": 20,
-      "streak": "3W"
+      "streak": "1L"
     },
     {
       "pos": 11,
@@ -159,6 +159,20 @@
     },
     {
       "pos": 12,
+      "nick": "Raiders",
+      "name": "Canberra Raiders",
+      "played": 17,
+      "wins": 7,
+      "losses": 10,
+      "drawn": 0,
+      "ptsFor": 345,
+      "ptsAgainst": 436,
+      "diff": -91,
+      "pts": 18,
+      "streak": "2W"
+    },
+    {
+      "pos": 13,
       "nick": "Wests Tigers",
       "name": "Wests Tigers",
       "played": 17,
@@ -170,20 +184,6 @@
       "diff": -130,
       "pts": 18,
       "streak": "4L"
-    },
-    {
-      "pos": 13,
-      "nick": "Raiders",
-      "name": "Canberra Raiders",
-      "played": 16,
-      "wins": 6,
-      "losses": 10,
-      "drawn": 0,
-      "ptsFor": 305,
-      "ptsAgainst": 420,
-      "diff": -115,
-      "pts": 16,
-      "streak": "1W"
     },
     {
       "pos": 14,
@@ -277,7 +277,7 @@
       ]
     },
     "Canberra Raiders": {
-      "last5": "L L L W",
+      "last5": "L L L W W",
       "games": [
         {
           "round": 14,
@@ -306,11 +306,18 @@
           "opponent": "St George Illawarra Dragons",
           "home": true,
           "score": "24\u201316"
+        },
+        {
+          "round": 19,
+          "result": "W",
+          "opponent": "Canterbury Bulldogs",
+          "home": false,
+          "score": "16\u201340"
         }
       ]
     },
     "Canterbury Bulldogs": {
-      "last5": "W W W",
+      "last5": "W W W L",
       "games": [
         {
           "round": 14,
@@ -332,6 +339,13 @@
           "opponent": "Gold Coast Titans",
           "home": false,
           "score": "12\u201330"
+        },
+        {
+          "round": 19,
+          "result": "L",
+          "opponent": "Canberra Raiders",
+          "home": true,
+          "score": "16\u201340"
         }
       ]
     },

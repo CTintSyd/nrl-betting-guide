@@ -1,9 +1,20 @@
 {
-  "updated": "2026-07-11T08:23:08Z",
+  "updated": "2026-07-11T10:02:14Z",
   "articles": [
     {
-      "title": "LIVE: Bulldogs vs Raiders – Round 19, 2026",
-      "url": "https://www.zerotackle.com/live-bulldogs-raiders-round-19-2026-mc10396471-235577/",
+      "title": "LIVE: Roosters vs Eels – Round 19, 2026",
+      "url": "https://www.zerotackle.com/live-roosters-eels-round-19-2026-mc10396472-235575/",
+      "description": "The Sydney Roosters face the Parramatta Eels in Round 19 of the 2026 NRL season. Follow the live scores, team lists, match statistics and key moments from the game at Allianz Stadium.",
+      "date": "Sat, 13 Jun 2026 09:30:00 +0000",
+      "teams": [
+        "Parramatta Eels",
+        "Sydney Roosters"
+      ],
+      "isRound": true
+    },
+    {
+      "title": "FULL TIME: Bulldogs vs Raiders – Round 19, 2026",
+      "url": "https://www.zerotackle.com/fulltime-bulldogs-raiders-round-19-2026-mc10396471-235577/",
       "description": "The Canterbury-Bankstown Bulldogs face the Canberra Raiders in Round 19 of the 2026 NRL season. Follow the live scores, team lists, match statistics and key moments from the game at Accor Stadium.",
       "date": "Sat, 13 Jun 2026 07:30:00 +0000",
       "teams": [
@@ -85,17 +96,6 @@
       "teams": [
         "Newcastle Knights",
         "South Sydney Rabbitohs"
-      ],
-      "isRound": true
-    },
-    {
-      "title": "FINAL TEAMS: Dolphins vs Sharks – Round 19, 2026",
-      "url": "https://www.zerotackle.com/updated-team-lists-dolphins-sharks-10396470-235772/",
-      "description": "LATE MAIL: The Dolphins and Sharks have confirmed their lineups for the match at Kayo Stadium.",
-      "date": "Sat, 11 Jul 2026 03:27:13 +0000",
-      "teams": [
-        "Dolphins",
-        "Cronulla Sutherland Sharks"
       ],
       "isRound": true
     }
