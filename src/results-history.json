@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-07-11T06:22:36Z",
+  "updatedAt": "2026-07-11T08:23:16Z",
   "season": 2026,
-  "totalFavRecord": "81-53",
-  "totalLineRecord": "16-15",
-  "totalOuRecord": "7O-23U",
+  "totalFavRecord": "81-54",
+  "totalLineRecord": "16-16",
+  "totalOuRecord": "8O-23U",
   "rounds": [
     {
       "round": 1,
@@ -2161,11 +2161,26 @@
           "ouTotal": 46.5,
           "ouResult": "Under",
           "oddsSourced": true
+        },
+        {
+          "homeTeam": "Dolphins",
+          "awayTeam": "Cronulla Sutherland Sharks",
+          "homeScore": 0,
+          "awayScore": 66,
+          "winner": "Cronulla Sutherland Sharks",
+          "margin": 66,
+          "favourite": "Dolphins",
+          "favouriteWon": false,
+          "linePoint": -4.5,
+          "lineCovered": false,
+          "ouTotal": 50.5,
+          "ouResult": "Over",
+          "oddsSourced": true
         }
       ],
-      "favRecord": "1-0",
-      "lineRecord": "1-0",
-      "ouRecord": "0O-1U"
+      "favRecord": "1-1",
+      "lineRecord": "1-1",
+      "ouRecord": "1O-1U"
     }
   ]
 }

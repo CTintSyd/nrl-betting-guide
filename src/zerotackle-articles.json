@@ -1,9 +1,42 @@
 {
-  "updated": "2026-07-11T06:22:28Z",
+  "updated": "2026-07-11T08:23:08Z",
   "articles": [
     {
-      "title": "LIVE: Dolphins vs Sharks – Round 19, 2026",
-      "url": "https://www.zerotackle.com/live-dolphins-sharks-round-19-2026-mc10396470-235579/",
+      "title": "LIVE: Bulldogs vs Raiders – Round 19, 2026",
+      "url": "https://www.zerotackle.com/live-bulldogs-raiders-round-19-2026-mc10396471-235577/",
+      "description": "The Canterbury-Bankstown Bulldogs face the Canberra Raiders in Round 19 of the 2026 NRL season. Follow the live scores, team lists, match statistics and key moments from the game at Accor Stadium.",
+      "date": "Sat, 13 Jun 2026 07:30:00 +0000",
+      "teams": [
+        "Canterbury Bulldogs",
+        "Canberra Raiders"
+      ],
+      "isRound": true
+    },
+    {
+      "title": "Updated Team Lists: Storm vs Titans – Round 19, 2026",
+      "url": "https://www.zerotackle.com/updated-team-lists-storm-vs-titans-10396475-235813/",
+      "description": "The Storm and Titans have cut their squads to 20 ahead of tomorrow's match at AAMI Park.",
+      "date": "Sat, 11 Jul 2026 08:13:14 +0000",
+      "teams": [
+        "Melbourne Storm",
+        "Gold Coast Titans"
+      ],
+      "isRound": true
+    },
+    {
+      "title": "FINAL TEAMS: Roosters vs Eels – Round 19, 2026",
+      "url": "https://www.zerotackle.com/updated-team-lists-roosters-eels-10396472-235785/",
+      "description": "LATE MAIL: The Roosters and Eels have confirmed their lineups for the match at Allianz Stadium.",
+      "date": "Sat, 11 Jul 2026 08:03:13 +0000",
+      "teams": [
+        "Parramatta Eels",
+        "Sydney Roosters"
+      ],
+      "isRound": true
+    },
+    {
+      "title": "FULL TIME: Dolphins vs Sharks – Round 19, 2026",
+      "url": "https://www.zerotackle.com/fulltime-dolphins-sharks-round-19-2026-mc10396470-235579/",
       "description": "The Dolphins face the Cronulla Sharks in Round 19 of the 2026 NRL season. Follow the live scores, team lists, match statistics and key moments from the game at Kayo Stadium.",
       "date": "Sat, 13 Jun 2026 05:00:00 +0000",
       "teams": [
@@ -65,16 +98,6 @@
         "Cronulla Sutherland Sharks"
       ],
       "isRound": true
-    },
-    {
-      "title": "Panthers closing in on extending premiership-winning star",
-      "url": "https://www.zerotackle.com/panthers-closing-in-on-extending-premiership-winning-star-235793/",
-      "description": "The club is preparing for life after Ivan Cleary in 2028 with moving to lock down a key spine member.",
-      "date": "Sat, 11 Jul 2026 01:14:08 +0000",
-      "teams": [
-        "Penrith Panthers"
-      ],
-      "isRound": false
     }
   ]
 }

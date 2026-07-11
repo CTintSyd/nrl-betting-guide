@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-11T06:22:17.636521+00:00",
+  "generatedAt": "2026-07-11T08:23:00.312432+00:00",
   "round": 19,
   "upcomingRound": 19,
   "ladder": [
@@ -33,6 +33,20 @@
     },
     {
       "pos": 3,
+      "nick": "Sharks",
+      "name": "Cronulla Sutherland Sharks",
+      "played": 16,
+      "wins": 10,
+      "losses": 6,
+      "drawn": 0,
+      "ptsFor": 468,
+      "ptsAgainst": 345,
+      "diff": 123,
+      "pts": 26,
+      "streak": "1L"
+    },
+    {
+      "pos": 4,
       "nick": "Roosters",
       "name": "Sydney Roosters",
       "played": 15,
@@ -46,7 +60,7 @@
       "streak": "2W"
     },
     {
-      "pos": 4,
+      "pos": 5,
       "nick": "Knights",
       "name": "Newcastle Knights",
       "played": 16,
@@ -60,32 +74,18 @@
       "streak": "3W"
     },
     {
-      "pos": 5,
+      "pos": 6,
       "nick": "Dolphins",
       "name": "Dolphins",
-      "played": 16,
+      "played": 17,
       "wins": 10,
-      "losses": 6,
+      "losses": 7,
       "drawn": 0,
       "ptsFor": 452,
-      "ptsAgainst": 322,
-      "diff": 130,
+      "ptsAgainst": 388,
+      "diff": 64,
       "pts": 24,
-      "streak": "1L"
-    },
-    {
-      "pos": 6,
-      "nick": "Sharks",
-      "name": "Cronulla Sutherland Sharks",
-      "played": 15,
-      "wins": 9,
-      "losses": 6,
-      "drawn": 0,
-      "ptsFor": 402,
-      "ptsAgainst": 345,
-      "diff": 57,
-      "pts": 24,
-      "streak": "1W"
+      "streak": "2L"
     },
     {
       "pos": 7,
@@ -336,7 +336,7 @@
       ]
     },
     "Cronulla Sutherland Sharks": {
-      "last5": "W W L W",
+      "last5": "W W L W W",
       "games": [
         {
           "round": 14,
@@ -365,19 +365,19 @@
           "opponent": "Brisbane Broncos",
           "home": false,
           "score": "16\u201328"
+        },
+        {
+          "round": 19,
+          "result": "W",
+          "opponent": "Dolphins",
+          "home": false,
+          "score": "0\u201366"
         }
       ]
     },
     "Dolphins": {
-      "last5": "W W W W L",
+      "last5": "W W W L L",
       "games": [
-        {
-          "round": 14,
-          "result": "W",
-          "opponent": "North Queensland Cowboys",
-          "home": false,
-          "score": "14\u201340"
-        },
         {
           "round": 15,
           "result": "W",
@@ -405,6 +405,13 @@
           "opponent": "Newcastle Knights",
           "home": false,
           "score": "13\u201312"
+        },
+        {
+          "round": 19,
+          "result": "L",
+          "opponent": "Cronulla Sutherland Sharks",
+          "home": true,
+          "score": "0\u201366"
         }
       ]
     },

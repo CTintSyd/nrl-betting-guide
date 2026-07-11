@@ -42,24 +42,24 @@ const NRL_TEAM_DATA = {
   'Cronulla Sutherland Sharks': {
     emoji: '🦈', shortName: 'Sharks', venue: 'PointsBet Stadium', wikiPage: 'Cronulla-Sutherland_Sharks', logoFile: 'cronulla-sharks.svg',
     players: [
-      { name: "Sione Katoa",                       pos: "wing",           tryRate: 0.6667 },
-      { name: "William Kennedy",                   pos: "fullback",       tryRate: 0.4667 },
-      { name: "Braydon Trindall",                  pos: "five-eighth",    tryRate: 0.5333 },
-      { name: "KL Iro",                            pos: "centre",         tryRate: 0.6429 },
-      { name: "Teig Wilton",                       pos: "lock",           tryRate: 0.4615 },
-      { name: "Ronaldo Mulitalo",                  pos: "wing",           tryRate: 0.8333 },
+      { name: "Sione Katoa",                       pos: "wing",           tryRate: 0.8 },
+      { name: "William Kennedy",                   pos: "fullback",       tryRate: 0.4375 },
+      { name: "Braydon Trindall",                  pos: "five-eighth",    tryRate: 0.5 },
+      { name: "KL Iro",                            pos: "centre",         tryRate: 0.7333 },
+      { name: "Teig Wilton",                       pos: "lock",           tryRate: 0.4286 },
+      { name: "Nicho Hynes",                       pos: "halfback",       tryRate: 0.4615 },
     ],
   },
 
   'Dolphins': {
     emoji: '🐬', shortName: 'Dolphins', venue: 'Suncorp Stadium', wikiPage: 'Dolphins_NRL', logoFile: 'dolphins.png',
     players: [
-      { name: "Jamayne Isaako",                    pos: "wing",           tryRate: 0.9375 },
+      { name: "Jamayne Isaako",                    pos: "wing",           tryRate: 0.8824 },
       { name: "Hamiso Tabuai-Fidow",               pos: "fullback",       tryRate: 0.6667 },
-      { name: "Kodi Nikorima",                     pos: "five-eighth",    tryRate: 0.2308 },
+      { name: "Kodi Nikorima",                     pos: "five-eighth",    tryRate: 0.2143 },
       { name: "Selwyn Cobbo",                      pos: "wing",           tryRate: 0.8333 },
-      { name: "Herbie Farnworth",                  pos: "centre",         tryRate: 0.5333 },
-      { name: "Jake Averillo",                     pos: "centre",         tryRate: 0.75 },
+      { name: "Herbie Farnworth",                  pos: "centre",         tryRate: 0.5 },
+      { name: "Jake Averillo",                     pos: "centre",         tryRate: 0.6667 },
     ],
   },
 
