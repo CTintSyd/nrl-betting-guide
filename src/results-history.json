@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-07-11T11:27:19Z",
+  "updatedAt": "2026-07-11T12:33:39Z",
   "season": 2026,
-  "totalFavRecord": "81-55",
-  "totalLineRecord": "16-17",
-  "totalOuRecord": "9O-23U",
+  "totalFavRecord": "82-55",
+  "totalLineRecord": "17-17",
+  "totalOuRecord": "9O-24U",
   "rounds": [
     {
       "round": 1,
@@ -2191,11 +2191,26 @@
           "ouTotal": 45.5,
           "ouResult": "Over",
           "oddsSourced": true
+        },
+        {
+          "homeTeam": "Sydney Roosters",
+          "awayTeam": "Parramatta Eels",
+          "homeScore": 28,
+          "awayScore": 12,
+          "winner": "Sydney Roosters",
+          "margin": 16,
+          "favourite": "Sydney Roosters",
+          "favouriteWon": true,
+          "linePoint": -13.5,
+          "lineCovered": true,
+          "ouTotal": 48.5,
+          "ouResult": "Under",
+          "oddsSourced": true
         }
       ],
-      "favRecord": "1-2",
-      "lineRecord": "1-2",
-      "ouRecord": "2O-1U"
+      "favRecord": "2-2",
+      "lineRecord": "2-2",
+      "ouRecord": "2O-2U"
     }
   ]
 }

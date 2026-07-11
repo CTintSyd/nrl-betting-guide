@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-11T11:27:10.754979+00:00",
+  "generatedAt": "2026-07-11T12:33:27.400140+00:00",
   "round": 19,
   "upcomingRound": 19,
   "ladder": [
@@ -33,6 +33,20 @@
     },
     {
       "pos": 3,
+      "nick": "Roosters",
+      "name": "Sydney Roosters",
+      "played": 16,
+      "wins": 11,
+      "losses": 5,
+      "drawn": 0,
+      "ptsFor": 412,
+      "ptsAgainst": 336,
+      "diff": 76,
+      "pts": 28,
+      "streak": "2W"
+    },
+    {
+      "pos": 4,
       "nick": "Sharks",
       "name": "Cronulla Sutherland Sharks",
       "played": 16,
@@ -42,20 +56,6 @@
       "ptsFor": 468,
       "ptsAgainst": 345,
       "diff": 123,
-      "pts": 26,
-      "streak": "2W"
-    },
-    {
-      "pos": 4,
-      "nick": "Roosters",
-      "name": "Sydney Roosters",
-      "played": 15,
-      "wins": 10,
-      "losses": 5,
-      "drawn": 0,
-      "ptsFor": 384,
-      "ptsAgainst": 324,
-      "diff": 60,
       "pts": 26,
       "streak": "2W"
     },
@@ -203,13 +203,13 @@
       "pos": 15,
       "nick": "Eels",
       "name": "Parramatta Eels",
-      "played": 16,
+      "played": 17,
       "wins": 6,
-      "losses": 10,
+      "losses": 11,
       "drawn": 0,
-      "ptsFor": 319,
-      "ptsAgainst": 479,
-      "diff": -160,
+      "ptsFor": 331,
+      "ptsAgainst": 507,
+      "diff": -176,
       "pts": 16,
       "streak": "1W"
     },
@@ -614,7 +614,7 @@
       ]
     },
     "Parramatta Eels": {
-      "last5": "L W L W",
+      "last5": "L W L W L",
       "games": [
         {
           "round": 14,
@@ -643,6 +643,13 @@
           "opponent": "Manly Warringah Sea Eagles",
           "home": true,
           "score": "23\u201314"
+        },
+        {
+          "round": 19,
+          "result": "L",
+          "opponent": "Sydney Roosters",
+          "home": false,
+          "score": "28\u201312"
         }
       ]
     },
@@ -746,7 +753,7 @@
       ]
     },
     "Sydney Roosters": {
-      "last5": "W L W W",
+      "last5": "W L W W W",
       "games": [
         {
           "round": 14,
@@ -775,6 +782,13 @@
           "opponent": "Brisbane Broncos",
           "home": false,
           "score": "18\u201324"
+        },
+        {
+          "round": 19,
+          "result": "W",
+          "opponent": "Parramatta Eels",
+          "home": true,
+          "score": "28\u201312"
         }
       ]
     },

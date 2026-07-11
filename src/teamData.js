@@ -138,12 +138,12 @@ const NRL_TEAM_DATA = {
   'Parramatta Eels': {
     emoji: '🐟', shortName: 'Eels', venue: 'CommBank Stadium', wikiPage: 'Parramatta_Eels', logoFile: 'parramatta-eels.svg',
     players: [
-      { name: "Josh Addo-Carr",                    pos: "wing",           tryRate: 0.4 },
-      { name: "Isaiah Iongi",                      pos: "fullback",       tryRate: 0.4444 },
-      { name: "Ronald Volkman",                    pos: "five-eighth",    tryRate: 0.3636 },
-      { name: "Tallyn Da Silva",                   pos: "hooker",         tryRate: 0.375 },
-      { name: "Kelma Tuilagi",                     pos: "lock",           tryRate: 0.2667 },
-      { name: "Brian Kelly",                       pos: "wing",           tryRate: 0.2857 },
+      { name: "Josh Addo-Carr",                    pos: "wing",           tryRate: 0.375 },
+      { name: "Isaiah Iongi",                      pos: "fullback",       tryRate: 0.4 },
+      { name: "Ronald Volkman",                    pos: "five-eighth",    tryRate: 0.3333 },
+      { name: "Tallyn Da Silva",                   pos: "hooker",         tryRate: 0.3529 },
+      { name: "Kelma Tuilagi",                     pos: "lock",           tryRate: 0.25 },
+      { name: "Brian Kelly",                       pos: "wing",           tryRate: 0.2667 },
     ],
   },
 
@@ -186,12 +186,12 @@ const NRL_TEAM_DATA = {
   'Sydney Roosters': {
     emoji: '🐓', shortName: 'Roosters', venue: 'Allianz Stadium', wikiPage: 'Sydney_Roosters', logoFile: 'sydney-roosters.png',
     players: [
-      { name: "Mark Nawaqanitawase",               pos: "wing",           tryRate: 1.0909 },
+      { name: "Mark Nawaqanitawase",               pos: "wing",           tryRate: 1.0 },
       { name: "James Tedesco",                     pos: "fullback",       tryRate: 0.4286 },
       { name: "Sam Walker",                        pos: "halfback",       tryRate: 0.4286 },
-      { name: "Robert Toia",                       pos: "centre",         tryRate: 0.6154 },
-      { name: "Daniel Tupou",                      pos: "wing",           tryRate: 0.8 },
-      { name: "Hugo Savala",                       pos: "centre",         tryRate: 0.5455 },
+      { name: "Daniel Tupou",                      pos: "wing",           tryRate: 1.0 },
+      { name: "Robert Toia",                       pos: "centre",         tryRate: 0.6429 },
+      { name: "Hugo Savala",                       pos: "halfback",       tryRate: 0.5 },
     ],
   },
 

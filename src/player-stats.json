@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-11T11:27:07.057997+00:00",
+  "generatedAt": "2026-07-11T12:33:23.360793+00:00",
   "round": 19,
   "players": {
     "Kalyn Ponga": {
@@ -669,8 +669,8 @@
     },
     "Isaiah Iongi": {
       "tries": 4,
-      "games": 9,
-      "tryRate": 0.4444,
+      "games": 10,
+      "tryRate": 0.4,
       "team": "Parramatta Eels",
       "position": "Fullback"
     },
@@ -690,8 +690,8 @@
     },
     "Brian Kelly": {
       "tries": 4,
-      "games": 14,
-      "tryRate": 0.2857,
+      "games": 15,
+      "tryRate": 0.2667,
       "team": "Parramatta Eels",
       "position": "Winger"
     },
@@ -704,8 +704,8 @@
     },
     "Jonah Pezet": {
       "tries": 3,
-      "games": 6,
-      "tryRate": 0.5,
+      "games": 7,
+      "tryRate": 0.4286,
       "team": "Parramatta Eels",
       "position": "Halfback"
     },
@@ -739,35 +739,35 @@
     },
     "Jack Williams": {
       "tries": 0,
-      "games": 16,
+      "games": 17,
       "tryRate": 0.0,
       "team": "Parramatta Eels",
       "position": "Prop"
     },
     "Kitione Kautoga": {
       "tries": 2,
-      "games": 11,
-      "tryRate": 0.1818,
+      "games": 12,
+      "tryRate": 0.1667,
       "team": "Parramatta Eels",
       "position": "2nd Row"
     },
     "Jack De Belin": {
       "tries": 0,
-      "games": 14,
+      "games": 15,
       "tryRate": 0.0,
       "team": "Parramatta Eels",
       "position": "Lock"
     },
     "Dylan Walker": {
       "tries": 3,
-      "games": 16,
-      "tryRate": 0.1875,
+      "games": 17,
+      "tryRate": 0.1765,
       "team": "Parramatta Eels",
       "position": "Interchange"
     },
     "Sam Tuivaiti": {
       "tries": 0,
-      "games": 11,
+      "games": 12,
       "tryRate": 0.0,
       "team": "Parramatta Eels",
       "position": "Prop"
@@ -781,24 +781,24 @@
     },
     "Tallyn Da Silva": {
       "tries": 6,
-      "games": 16,
-      "tryRate": 0.375,
+      "games": 17,
+      "tryRate": 0.3529,
       "team": "Parramatta Eels",
       "position": "Hooker"
     },
     "Kelma Tuilagi": {
       "tries": 4,
-      "games": 15,
-      "tryRate": 0.2667,
+      "games": 16,
+      "tryRate": 0.25,
       "team": "Parramatta Eels",
       "position": "2nd Row"
     },
     "Joash Papalii": {
-      "tries": 4,
-      "games": 16,
-      "tryRate": 0.25,
+      "tries": 5,
+      "games": 17,
+      "tryRate": 0.2941,
       "team": "Parramatta Eels",
-      "position": "Reserve"
+      "position": "Interchange"
     },
     "Charnze Nicoll-Klokstad": {
       "tries": 8,
@@ -941,30 +941,30 @@
       "position": "Fullback"
     },
     "Daniel Tupou": {
-      "tries": 8,
-      "games": 10,
-      "tryRate": 0.8,
+      "tries": 11,
+      "games": 11,
+      "tryRate": 1.0,
       "team": "Sydney Roosters",
       "position": "Winger"
     },
     "Billy Smith": {
-      "tries": 5,
-      "games": 7,
-      "tryRate": 0.7143,
+      "tries": 6,
+      "games": 8,
+      "tryRate": 0.75,
       "team": "Sydney Roosters",
-      "position": "Winger"
+      "position": "Centre"
     },
     "Mark Nawaqanitawase": {
       "tries": 12,
-      "games": 11,
-      "tryRate": 1.0909,
+      "games": 12,
+      "tryRate": 1.0,
       "team": "Sydney Roosters",
       "position": "Winger"
     },
     "Daly Cherry-Evans": {
       "tries": 4,
-      "games": 15,
-      "tryRate": 0.2667,
+      "games": 16,
+      "tryRate": 0.25,
       "team": "Sydney Roosters",
       "position": "Five-Eighth"
     },
@@ -977,14 +977,14 @@
     },
     "Naufahu Whyte": {
       "tries": 0,
-      "games": 15,
+      "games": 16,
       "tryRate": 0.0,
       "team": "Sydney Roosters",
       "position": "Prop"
     },
     "Benaiah Ioelu": {
       "tries": 0,
-      "games": 3,
+      "games": 4,
       "tryRate": 0.0,
       "team": "Sydney Roosters",
       "position": "Interchange"
@@ -1019,29 +1019,29 @@
     },
     "Connor Watson": {
       "tries": 1,
-      "games": 15,
-      "tryRate": 0.0667,
+      "games": 16,
+      "tryRate": 0.0625,
       "team": "Sydney Roosters",
-      "position": "Interchange"
+      "position": "Hooker"
     },
     "Siua Wong": {
       "tries": 2,
-      "games": 15,
-      "tryRate": 0.1333,
+      "games": 16,
+      "tryRate": 0.125,
       "team": "Sydney Roosters",
       "position": "2nd Row"
     },
     "Egan Butcher": {
       "tries": 0,
-      "games": 12,
+      "games": 13,
       "tryRate": 0.0,
       "team": "Sydney Roosters",
       "position": "Interchange"
     },
     "Cody Ramsey": {
       "tries": 1,
-      "games": 12,
-      "tryRate": 0.0833,
+      "games": 13,
+      "tryRate": 0.0769,
       "team": "Sydney Roosters",
       "position": "Fullback"
     },
@@ -1054,10 +1054,10 @@
     },
     "Salesi Foketi": {
       "tries": 0,
-      "games": 15,
+      "games": 16,
       "tryRate": 0.0,
       "team": "Sydney Roosters",
-      "position": "Interchange"
+      "position": "2nd Row"
     },
     "Toby Rodwell": {
       "tries": 1,
@@ -2132,22 +2132,22 @@
     },
     "Josh Addo-Carr": {
       "tries": 6,
-      "games": 15,
-      "tryRate": 0.4,
+      "games": 16,
+      "tryRate": 0.375,
       "team": "Parramatta Eels",
       "position": "Winger"
     },
     "Charlie Guymer": {
       "tries": 0,
-      "games": 15,
+      "games": 16,
       "tryRate": 0.0,
       "team": "Parramatta Eels",
       "position": "Reserve"
     },
     "Jordan Samrani": {
       "tries": 3,
-      "games": 9,
-      "tryRate": 0.3333,
+      "games": 10,
+      "tryRate": 0.3,
       "team": "Parramatta Eels",
       "position": "Centre"
     },
@@ -2173,9 +2173,9 @@
       "position": "Reserve"
     },
     "Robert Toia": {
-      "tries": 8,
-      "games": 13,
-      "tryRate": 0.6154,
+      "tries": 9,
+      "games": 14,
+      "tryRate": 0.6429,
       "team": "Sydney Roosters",
       "position": "Centre"
     },
@@ -2335,7 +2335,7 @@
     },
     "Harrison Edwards": {
       "tries": 0,
-      "games": 8,
+      "games": 9,
       "tryRate": 0.0,
       "team": "Parramatta Eels",
       "position": "Interchange"
@@ -2587,10 +2587,10 @@
     },
     "Hugo Savala": {
       "tries": 6,
-      "games": 11,
-      "tryRate": 0.5455,
+      "games": 12,
+      "tryRate": 0.5,
       "team": "Sydney Roosters",
-      "position": "Centre"
+      "position": "Halfback"
     },
     "Luke Metcalf": {
       "tries": 0,
@@ -2839,36 +2839,36 @@
     },
     "Victor Radley": {
       "tries": 1,
-      "games": 9,
-      "tryRate": 0.1111,
+      "games": 10,
+      "tryRate": 0.1,
       "team": "Sydney Roosters",
       "position": "Lock"
     },
     "Spencer Leniu": {
       "tries": 0,
-      "games": 11,
+      "games": 12,
       "tryRate": 0.0,
       "team": "Sydney Roosters",
-      "position": "Interchange"
+      "position": "Prop"
     },
     "Tommy Talau": {
       "tries": 0,
-      "games": 6,
+      "games": 7,
       "tryRate": 0.0,
       "team": "Sydney Roosters",
       "position": "Reserve"
     },
     "Araz Nanva": {
-      "tries": 0,
-      "games": 2,
-      "tryRate": 0.0,
+      "tries": 1,
+      "games": 3,
+      "tryRate": 0.3333,
       "team": "Parramatta Eels",
       "position": "Centre"
     },
     "Ronald Volkman": {
       "tries": 4,
-      "games": 11,
-      "tryRate": 0.3636,
+      "games": 12,
+      "tryRate": 0.3333,
       "team": "Parramatta Eels",
       "position": "Five-Eighth"
     },
@@ -2979,14 +2979,14 @@
     },
     "Toni Mataele": {
       "tries": 0,
-      "games": 6,
+      "games": 7,
       "tryRate": 0.0,
       "team": "Parramatta Eels",
-      "position": "Interchange"
+      "position": "Reserve"
     },
     "Teancum Brown": {
       "tries": 0,
-      "games": 8,
+      "games": 9,
       "tryRate": 0.0,
       "team": "Parramatta Eels",
       "position": "Interchange"
@@ -3350,17 +3350,17 @@
     },
     "Taylor Losalu": {
       "tries": 0,
-      "games": 1,
+      "games": 2,
       "tryRate": 0.0,
       "team": "Sydney Roosters",
-      "position": "Reserve"
+      "position": "Interchange"
     },
     "Rex Bassingthwaighte": {
       "tries": 1,
-      "games": 3,
-      "tryRate": 0.3333,
+      "games": 4,
+      "tryRate": 0.25,
       "team": "Sydney Roosters",
-      "position": "Reserve"
+      "position": "Interchange"
     },
     "Junior Tupou": {
       "tries": 0,
@@ -3473,6 +3473,13 @@
       "tryRate": 0.0,
       "team": "Wests Tigers",
       "position": "Interchange"
+    },
+    "De La Salle Va'a": {
+      "tries": 0,
+      "games": 1,
+      "tryRate": 0.0,
+      "team": "Sydney Roosters",
+      "position": "Reserve"
     }
   }
 }
