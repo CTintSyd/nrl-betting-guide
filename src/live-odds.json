@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-11T05:30:39.453Z",
-  "quotaRemaining": 284,
+  "updated": "2026-07-11T07:29:47.388Z",
+  "quotaRemaining": 281,
   "round": 19,
   "venueOverride": {
     "venue": "Suncorp Stadium",
@@ -8,76 +8,36 @@
   },
   "games": [
     {
-      "id": "8a44c8e2ae918bdca3d9978a0387349a",
-      "homeTeam": "Dolphins",
-      "awayTeam": "Cronulla Sutherland Sharks",
-      "commenceTime": "2026-07-11T04:59:00Z",
-      "bookmaker": "tab",
-      "h2h": {
-        "home": 2.4,
-        "away": 1.55
-      },
-      "line": {
-        "home": {
-          "odd": null,
-          "point": null
-        },
-        "away": {
-          "odd": null,
-          "point": null
-        }
-      },
-      "ou": {
-        "total": null,
-        "overOdd": null,
-        "underOdd": null
-      },
-      "bookmakerComparison": [
-        {
-          "key": "tab",
-          "name": "TAB",
-          "home": 2.4,
-          "away": 1.55
-        },
-        {
-          "key": "pointsbetau",
-          "name": "PointsBet",
-          "home": 3.15,
-          "away": 1.33
-        }
-      ]
-    },
-    {
       "id": "3f5d0e1e086c2d65b9b18726d313ef60",
       "homeTeam": "Canterbury Bulldogs",
       "awayTeam": "Canberra Raiders",
-      "commenceTime": "2026-07-11T07:30:00Z",
+      "commenceTime": "2026-07-11T07:31:00Z",
       "bookmaker": "sportsbet",
       "h2h": {
         "home": 1.65,
-        "away": 2.25
+        "away": 2.24
       },
       "line": {
         "home": {
-          "odd": 1.9,
+          "odd": 1.91,
           "point": -3.5
         },
         "away": {
-          "odd": 1.9,
+          "odd": 1.91,
           "point": 3.5
         }
       },
       "ou": {
         "total": 41.5,
         "overOdd": 1.82,
-        "underOdd": 1.99
+        "underOdd": 2
       },
       "bookmakerComparison": [
         {
           "key": "sportsbet",
           "name": "Sportsbet",
           "home": 1.65,
-          "away": 2.25
+          "away": 2.24
         },
         {
           "key": "tab",
@@ -89,13 +49,13 @@
           "key": "betright",
           "name": "BetRight",
           "home": 1.65,
-          "away": 2.24
+          "away": 2.25
         },
         {
           "key": "ladbrokes_au",
           "name": "Ladbrokes",
-          "home": 1.58,
-          "away": 2.4
+          "home": 1.65,
+          "away": 2.25
         }
       ]
     },
@@ -186,8 +146,8 @@
         {
           "key": "tab",
           "name": "TAB",
-          "home": 1.95,
-          "away": 1.85
+          "home": 2,
+          "away": 1.8
         },
         {
           "key": "betright",
@@ -210,48 +170,48 @@
       "commenceTime": "2026-07-12T06:05:00Z",
       "bookmaker": "sportsbet",
       "h2h": {
-        "home": 1.52,
-        "away": 2.53
+        "home": 1.54,
+        "away": 2.49
       },
       "line": {
         "home": {
-          "odd": 1.9,
-          "point": -5.5
+          "odd": 1.91,
+          "point": -4.5
         },
         "away": {
-          "odd": 1.9,
-          "point": 5.5
+          "odd": 1.89,
+          "point": 4.5
         }
       },
       "ou": {
         "total": 47.5,
-        "overOdd": 1.85,
-        "underOdd": 1.96
+        "overOdd": 1.86,
+        "underOdd": 1.95
       },
       "bookmakerComparison": [
         {
           "key": "sportsbet",
           "name": "Sportsbet",
-          "home": 1.52,
-          "away": 2.53
+          "home": 1.54,
+          "away": 2.49
         },
         {
           "key": "tab",
           "name": "TAB",
-          "home": 1.45,
-          "away": 2.75
+          "home": 1.42,
+          "away": 2.9
         },
         {
           "key": "betright",
           "name": "BetRight",
-          "home": 1.52,
-          "away": 2.55
+          "home": 1.46,
+          "away": 2.72
         },
         {
           "key": "ladbrokes_au",
           "name": "Ladbrokes",
-          "home": 1.52,
-          "away": 2.55
+          "home": 1.46,
+          "away": 2.75
         }
       ]
     },
