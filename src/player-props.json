@@ -1,25 +1,7 @@
 {
-  "updated": "2026-07-10T22:52:41.963Z",
+  "updated": "2026-07-11T22:35:36.201Z",
   "quotaRemaining": null,
   "games": {
-    "Dolphins vs Cronulla Sutherland Sharks": {
-      "homeTeam": "Dolphins",
-      "awayTeam": "Cronulla Sutherland Sharks",
-      "available": false,
-      "error": "API 422: {\"message\":\"Invalid markets: player_anytime_try_scorer, player_first_try_scorer\",\"error_code\":\"INVALID_MARKET\",\"details_url\":\"https://the-odds-api.com/liveapi/guides/v4/api-error-codes.html#invalid-market\"}\n"
-    },
-    "Canterbury Bulldogs vs Canberra Raiders": {
-      "homeTeam": "Canterbury Bulldogs",
-      "awayTeam": "Canberra Raiders",
-      "available": false,
-      "error": "API 422: {\"message\":\"Invalid markets: player_anytime_try_scorer, player_first_try_scorer\",\"error_code\":\"INVALID_MARKET\",\"details_url\":\"https://the-odds-api.com/liveapi/guides/v4/api-error-codes.html#invalid-market\"}\n"
-    },
-    "Sydney Roosters vs Parramatta Eels": {
-      "homeTeam": "Sydney Roosters",
-      "awayTeam": "Parramatta Eels",
-      "available": false,
-      "error": "API 422: {\"message\":\"Invalid markets: player_anytime_try_scorer, player_first_try_scorer\",\"error_code\":\"INVALID_MARKET\",\"details_url\":\"https://the-odds-api.com/liveapi/guides/v4/api-error-codes.html#invalid-market\"}\n"
-    },
     "South Sydney Rabbitohs vs Newcastle Knights": {
       "homeTeam": "South Sydney Rabbitohs",
       "awayTeam": "Newcastle Knights",
