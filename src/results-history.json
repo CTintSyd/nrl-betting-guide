@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-07-11T14:13:14Z",
+  "updatedAt": "2026-07-12T06:28:36Z",
   "season": 2026,
-  "totalFavRecord": "82-55",
-  "totalLineRecord": "17-17",
-  "totalOuRecord": "9O-24U",
+  "totalFavRecord": "82-56",
+  "totalLineRecord": "17-18",
+  "totalOuRecord": "10O-24U",
   "rounds": [
     {
       "round": 1,
@@ -2206,11 +2206,26 @@
           "ouTotal": 48.5,
           "ouResult": "Under",
           "oddsSourced": true
+        },
+        {
+          "homeTeam": "South Sydney Rabbitohs",
+          "awayTeam": "Newcastle Knights",
+          "homeScore": 26,
+          "awayScore": 24,
+          "winner": "South Sydney Rabbitohs",
+          "margin": 2,
+          "favourite": "Newcastle Knights",
+          "favouriteWon": false,
+          "linePoint": 0.5,
+          "lineCovered": false,
+          "ouTotal": 48.5,
+          "ouResult": "Over",
+          "oddsSourced": true
         }
       ],
-      "favRecord": "2-2",
-      "lineRecord": "2-2",
-      "ouRecord": "2O-2U"
+      "favRecord": "2-3",
+      "lineRecord": "2-3",
+      "ouRecord": "3O-2U"
     }
   ]
 }
