@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-12T10:17:15.601Z",
-  "quotaRemaining": 254,
+  "updated": "2026-07-12T12:51:27.238Z",
+  "quotaRemaining": 251,
   "round": 20,
   "venueOverride": {
     "venue": "Suncorp Stadium",
@@ -54,8 +54,8 @@
         {
           "key": "pointsbetau",
           "name": "PointsBet",
-          "home": 1.2,
-          "away": 4.4
+          "home": 1.18,
+          "away": 4.7
         }
       ]
     },
@@ -106,8 +106,8 @@
         {
           "key": "pointsbetau",
           "name": "PointsBet",
-          "home": 1.58,
-          "away": 2.3
+          "home": 1.57,
+          "away": 2.35
         }
       ]
     },
@@ -142,6 +142,12 @@
           "name": "Sportsbet",
           "home": 1.5,
           "away": 2.62
+        },
+        {
+          "key": "tab",
+          "name": "TAB",
+          "home": 1.5,
+          "away": 2.6
         },
         {
           "key": "ladbrokes_au",
@@ -256,8 +262,8 @@
         {
           "key": "pointsbetau",
           "name": "PointsBet",
-          "home": 1.16,
-          "away": 5
+          "home": 1.17,
+          "away": 4.9
         }
       ]
     },
@@ -346,6 +352,12 @@
           "away": 1.5
         },
         {
+          "key": "tab",
+          "name": "TAB",
+          "home": 2.6,
+          "away": 1.5
+        },
+        {
           "key": "ladbrokes_au",
           "name": "Ladbrokes",
           "home": 2.45,
@@ -354,8 +366,8 @@
         {
           "key": "pointsbetau",
           "name": "PointsBet",
-          "home": 2.4,
-          "away": 1.55
+          "home": 2.45,
+          "away": 1.53
         }
       ]
     },
@@ -406,8 +418,8 @@
         {
           "key": "pointsbetau",
           "name": "PointsBet",
-          "home": 1.67,
-          "away": 2.15
+          "home": 1.63,
+          "away": 2.25
         }
       ]
     }
