@@ -66,11 +66,11 @@ const NRL_TEAM_DATA = {
   'Gold Coast Titans': {
     emoji: '🌊', shortName: 'Titans', venue: 'Cbus Super Stadium', wikiPage: 'Gold_Coast_Titans', logoFile: 'gold-coast-titans.svg',
     players: [
-      { name: "Phillip Sami",                      pos: "wing",           tryRate: 0.7333 },
-      { name: "Keano Kini",                        pos: "fullback",       tryRate: 0.1333 },
-      { name: "Jayden Campbell",                   pos: "five-eighth",    tryRate: 0.5385 },
-      { name: "Arama Hau",                         pos: "lock",           tryRate: 0.4 },
-      { name: "Jojo Fifita",                       pos: "centre",         tryRate: 0.3846 },
+      { name: "Phillip Sami",                      pos: "wing",           tryRate: 0.6875 },
+      { name: "Keano Kini",                        pos: "fullback",       tryRate: 0.1875 },
+      { name: "Jayden Campbell",                   pos: "five-eighth",    tryRate: 0.5714 },
+      { name: "Arama Hau",                         pos: "lock",           tryRate: 0.375 },
+      { name: "Jojo Fifita",                       pos: "centre",         tryRate: 0.3571 },
       { name: "Sialetili Faeamani",                pos: "wing",           tryRate: 0.5 },
     ],
   },
@@ -90,12 +90,12 @@ const NRL_TEAM_DATA = {
   'Melbourne Storm': {
     emoji: '⛈️', shortName: 'Storm', venue: 'AAMI Park', wikiPage: 'Melbourne_Storm', logoFile: 'melbourne-storm.png',
     players: [
-      { name: "Will Warbrick",                     pos: "wing",           tryRate: 0.9375 },
-      { name: "Sualauvi Faalogo",                  pos: "fullback",       tryRate: 0.8125 },
+      { name: "Will Warbrick",                     pos: "wing",           tryRate: 0.9412 },
+      { name: "Sualauvi Faalogo",                  pos: "fullback",       tryRate: 0.7647 },
       { name: "Cameron Munster",                   pos: "five-eighth",    tryRate: 0.2667 },
       { name: "Moses Leo",                         pos: "wing",           tryRate: 0.7273 },
-      { name: "Harry Grant",                       pos: "hooker",         tryRate: 0.4 },
-      { name: "Jack Howarth",                      pos: "centre",         tryRate: 0.3077 },
+      { name: "Jack Howarth",                      pos: "centre",         tryRate: 0.3571 },
+      { name: "Jahrome Hughes",                    pos: "halfback",       tryRate: 0.2 },
     ],
   },
 

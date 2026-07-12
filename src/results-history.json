@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-07-12T08:38:35Z",
+  "updatedAt": "2026-07-12T10:14:12Z",
   "season": 2026,
-  "totalFavRecord": "82-57",
-  "totalLineRecord": "17-19",
-  "totalOuRecord": "10O-25U",
+  "totalFavRecord": "83-57",
+  "totalLineRecord": "17-20",
+  "totalOuRecord": "10O-26U",
   "rounds": [
     {
       "round": 1,
@@ -2236,11 +2236,26 @@
           "ouTotal": 49.5,
           "ouResult": "Under",
           "oddsSourced": true
+        },
+        {
+          "homeTeam": "Melbourne Storm",
+          "awayTeam": "Gold Coast Titans",
+          "homeScore": 22,
+          "awayScore": 18,
+          "winner": "Melbourne Storm",
+          "margin": 4,
+          "favourite": "Melbourne Storm",
+          "favouriteWon": true,
+          "linePoint": -9.5,
+          "lineCovered": false,
+          "ouTotal": 47.5,
+          "ouResult": "Under",
+          "oddsSourced": true
         }
       ],
-      "favRecord": "2-4",
-      "lineRecord": "2-4",
-      "ouRecord": "3O-3U"
+      "favRecord": "3-4",
+      "lineRecord": "2-5",
+      "ouRecord": "3O-4U"
     }
   ]
 }
