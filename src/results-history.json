@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-07-12T06:28:36Z",
+  "updatedAt": "2026-07-12T08:38:35Z",
   "season": 2026,
-  "totalFavRecord": "82-56",
-  "totalLineRecord": "17-18",
-  "totalOuRecord": "10O-24U",
+  "totalFavRecord": "82-57",
+  "totalLineRecord": "17-19",
+  "totalOuRecord": "10O-25U",
   "rounds": [
     {
       "round": 1,
@@ -2221,11 +2221,26 @@
           "ouTotal": 48.5,
           "ouResult": "Over",
           "oddsSourced": true
+        },
+        {
+          "homeTeam": "Manly Warringah Sea Eagles",
+          "awayTeam": "North Queensland Cowboys",
+          "homeScore": 18,
+          "awayScore": 19,
+          "winner": "North Queensland Cowboys",
+          "margin": 1,
+          "favourite": "Manly Warringah Sea Eagles",
+          "favouriteWon": false,
+          "linePoint": -5.5,
+          "lineCovered": false,
+          "ouTotal": 49.5,
+          "ouResult": "Under",
+          "oddsSourced": true
         }
       ],
-      "favRecord": "2-3",
-      "lineRecord": "2-3",
-      "ouRecord": "3O-2U"
+      "favRecord": "2-4",
+      "lineRecord": "2-4",
+      "ouRecord": "3O-3U"
     }
   ]
 }

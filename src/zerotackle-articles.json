@@ -1,14 +1,36 @@
 {
-  "updated": "2026-07-12T06:28:29Z",
+  "updated": "2026-07-12T08:38:28Z",
   "articles": [
     {
-      "title": "LIVE: Sea Eagles vs Cowboys – Round 19, 2026",
-      "url": "https://www.zerotackle.com/live-sea-eagles-cowboys-round-19-2026-mc10396474-235571/",
+      "title": "LIVE: Storm vs Titans – Round 19, 2026",
+      "url": "https://www.zerotackle.com/live-storm-titans-round-19-2026-mc10396475-235569/",
+      "description": "The Melbourne Storm face the Gold Coast Titans in Round 19 of the 2026 NRL season. Follow the live scores, team lists, match statistics and key moments from the game at AAMI Park.",
+      "date": "Sun, 14 Jun 2026 08:15:00 +0000",
+      "teams": [
+        "Melbourne Storm",
+        "Gold Coast Titans"
+      ],
+      "isRound": true
+    },
+    {
+      "title": "FULL TIME: Sea Eagles vs Cowboys – Round 19, 2026",
+      "url": "https://www.zerotackle.com/fulltime-sea-eagles-cowboys-round-19-2026-mc10396474-235571/",
       "description": "The Manly Sea Eagles face the North Queensland Cowboys in Round 19 of the 2026 NRL season. Follow the live scores, team lists, match statistics and key moments from the game at 4 Pines Park.",
       "date": "Sun, 14 Jun 2026 06:05:00 +0000",
       "teams": [
         "North Queensland Cowboys",
         "Manly Warringah Sea Eagles"
+      ],
+      "isRound": true
+    },
+    {
+      "title": "FINAL TEAMS: Storm vs Titans – Round 19, 2026",
+      "url": "https://www.zerotackle.com/updated-team-lists-storm-titans-10396475-235813/",
+      "description": "LATE MAIL: The Storm and Titans have confirmed their lineups for the match at AAMI Park.",
+      "date": "Sun, 12 Jul 2026 06:43:13 +0000",
+      "teams": [
+        "Melbourne Storm",
+        "Gold Coast Titans"
       ],
       "isRound": true
     },
@@ -72,27 +94,6 @@
       "date": "Sun, 12 Jul 2026 01:24:03 +0000",
       "teams": [
         "South Sydney Rabbitohs"
-      ],
-      "isRound": false
-    },
-    {
-      "title": "Kristian Woolf “embarrassed” after Dolphins’ 66-0 loss to Sharks",
-      "url": "https://www.zerotackle.com/kristian-woolf-embarrassed-after-dolphins-66-0-loss-to-sharks-235818/",
-      "description": "&#8220;All we can do is apologise.&#8221;",
-      "date": "Sun, 12 Jul 2026 00:35:22 +0000",
-      "teams": [
-        "Dolphins",
-        "Cronulla Sutherland Sharks"
-      ],
-      "isRound": false
-    },
-    {
-      "title": "Bulldogs give optimistic update about Stephen Crichton",
-      "url": "https://www.zerotackle.com/bulldogs-give-optimistic-update-about-stephen-crichton-235817/",
-      "description": "He was taken off the field in the second half on Saturday night.",
-      "date": "Sat, 11 Jul 2026 23:47:02 +0000",
-      "teams": [
-        "Canterbury Bulldogs"
       ],
       "isRound": false
     }

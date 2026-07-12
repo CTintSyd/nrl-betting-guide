@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-12T06:28:17.880116+00:00",
+  "generatedAt": "2026-07-12T08:38:15.183024+00:00",
   "round": 19,
   "players": {
     "Kalyn Ponga": {
@@ -137,43 +137,43 @@
     },
     "Scott Drinkwater": {
       "tries": 8,
-      "games": 16,
-      "tryRate": 0.5,
+      "games": 17,
+      "tryRate": 0.4706,
       "team": "North Queensland Cowboys",
       "position": "Fullback"
     },
     "Braidon Burns": {
-      "tries": 10,
-      "games": 12,
-      "tryRate": 0.8333,
+      "tries": 12,
+      "games": 13,
+      "tryRate": 0.9231,
       "team": "North Queensland Cowboys",
       "position": "Winger"
     },
     "Jaxon Purdue": {
       "tries": 6,
-      "games": 16,
-      "tryRate": 0.375,
+      "games": 17,
+      "tryRate": 0.3529,
       "team": "North Queensland Cowboys",
       "position": "Five-Eighth"
     },
     "Tom Chester": {
-      "tries": 6,
-      "games": 15,
-      "tryRate": 0.4,
+      "tries": 7,
+      "games": 16,
+      "tryRate": 0.4375,
       "team": "North Queensland Cowboys",
       "position": "Centre"
     },
     "Murray Taulagi": {
       "tries": 11,
-      "games": 11,
-      "tryRate": 1.0,
+      "games": 12,
+      "tryRate": 0.9167,
       "team": "North Queensland Cowboys",
       "position": "Winger"
     },
     "Jake Clifford": {
       "tries": 6,
-      "games": 16,
-      "tryRate": 0.375,
+      "games": 17,
+      "tryRate": 0.3529,
       "team": "North Queensland Cowboys",
       "position": "Halfback"
     },
@@ -186,56 +186,56 @@
     },
     "Coen Hess": {
       "tries": 1,
-      "games": 16,
-      "tryRate": 0.0625,
+      "games": 17,
+      "tryRate": 0.0588,
       "team": "North Queensland Cowboys",
       "position": "Interchange"
     },
     "Reed Mahoney": {
       "tries": 3,
-      "games": 15,
-      "tryRate": 0.2,
+      "games": 16,
+      "tryRate": 0.1875,
       "team": "North Queensland Cowboys",
       "position": "Hooker"
     },
     "Jason Taumalolo": {
       "tries": 0,
-      "games": 15,
+      "games": 16,
       "tryRate": 0.0,
       "team": "North Queensland Cowboys",
       "position": "Prop"
     },
     "Heilum Luki": {
       "tries": 7,
-      "games": 16,
-      "tryRate": 0.4375,
+      "games": 17,
+      "tryRate": 0.4118,
       "team": "North Queensland Cowboys",
       "position": "2nd Row"
     },
     "Sam McIntyre": {
       "tries": 1,
-      "games": 15,
-      "tryRate": 0.0667,
+      "games": 16,
+      "tryRate": 0.0625,
       "team": "North Queensland Cowboys",
       "position": "Reserve"
     },
     "Reuben Cotter": {
-      "tries": 1,
-      "games": 13,
-      "tryRate": 0.0769,
+      "tries": 2,
+      "games": 14,
+      "tryRate": 0.1429,
       "team": "North Queensland Cowboys",
       "position": "Lock"
     },
     "Soni Luke": {
       "tries": 2,
-      "games": 13,
-      "tryRate": 0.1538,
+      "games": 14,
+      "tryRate": 0.1429,
       "team": "North Queensland Cowboys",
       "position": "Interchange"
     },
     "Thomas Mikaele": {
       "tries": 0,
-      "games": 14,
+      "games": 15,
       "tryRate": 0.0,
       "team": "North Queensland Cowboys",
       "position": "Prop"
@@ -249,14 +249,14 @@
     },
     "Griffin Neame": {
       "tries": 0,
-      "games": 16,
+      "games": 17,
       "tryRate": 0.0,
       "team": "North Queensland Cowboys",
       "position": "Interchange"
     },
     "Matthew Lodge": {
       "tries": 0,
-      "games": 16,
+      "games": 17,
       "tryRate": 0.0,
       "team": "North Queensland Cowboys",
       "position": "Reserve"
@@ -1600,36 +1600,36 @@
     },
     "Tom Trbojevic": {
       "tries": 6,
-      "games": 9,
-      "tryRate": 0.6667,
+      "games": 10,
+      "tryRate": 0.6,
       "team": "Manly Warringah Sea Eagles",
       "position": "Fullback"
     },
     "Jason Saab": {
-      "tries": 8,
-      "games": 15,
-      "tryRate": 0.5333,
+      "tries": 10,
+      "games": 16,
+      "tryRate": 0.625,
       "team": "Manly Warringah Sea Eagles",
       "position": "Winger"
     },
     "Tolutau Koula": {
       "tries": 6,
-      "games": 13,
-      "tryRate": 0.4615,
+      "games": 14,
+      "tryRate": 0.4286,
       "team": "Manly Warringah Sea Eagles",
       "position": "Centre"
     },
     "Reuben Garrick": {
       "tries": 6,
-      "games": 15,
-      "tryRate": 0.4,
+      "games": 16,
+      "tryRate": 0.375,
       "team": "Manly Warringah Sea Eagles",
       "position": "Centre"
     },
     "Lehi Hopoate": {
-      "tries": 13,
-      "games": 15,
-      "tryRate": 0.8667,
+      "tries": 14,
+      "games": 16,
+      "tryRate": 0.875,
       "team": "Manly Warringah Sea Eagles",
       "position": "Winger"
     },
@@ -1642,21 +1642,21 @@
     },
     "Jamal Fogarty": {
       "tries": 4,
-      "games": 14,
-      "tryRate": 0.2857,
+      "games": 15,
+      "tryRate": 0.2667,
       "team": "Manly Warringah Sea Eagles",
       "position": "Halfback"
     },
     "Taniela Paseka": {
       "tries": 2,
-      "games": 16,
-      "tryRate": 0.125,
+      "games": 17,
+      "tryRate": 0.1176,
       "team": "Manly Warringah Sea Eagles",
       "position": "Prop"
     },
     "Jake Simpkin": {
       "tries": 0,
-      "games": 16,
+      "games": 17,
       "tryRate": 0.0,
       "team": "Manly Warringah Sea Eagles",
       "position": "Hooker"
@@ -1669,50 +1669,50 @@
       "position": "Interchange"
     },
     "Haumole Olakau'atu": {
-      "tries": 6,
-      "games": 13,
-      "tryRate": 0.4615,
+      "tries": 7,
+      "games": 14,
+      "tryRate": 0.5,
       "team": "Manly Warringah Sea Eagles",
       "position": "2nd Row"
     },
     "Ben Trbojevic": {
       "tries": 5,
-      "games": 16,
-      "tryRate": 0.3125,
+      "games": 17,
+      "tryRate": 0.2941,
       "team": "Manly Warringah Sea Eagles",
       "position": "2nd Row"
     },
     "Jake Trbojevic": {
       "tries": 1,
-      "games": 16,
-      "tryRate": 0.0625,
+      "games": 17,
+      "tryRate": 0.0588,
       "team": "Manly Warringah Sea Eagles",
       "position": "Lock"
     },
     "Joey Walsh": {
       "tries": 2,
-      "games": 10,
-      "tryRate": 0.2,
+      "games": 11,
+      "tryRate": 0.1818,
       "team": "Manly Warringah Sea Eagles",
       "position": "Five-Eighth"
     },
     "Kobe Hetherington": {
-      "tries": 1,
-      "games": 14,
-      "tryRate": 0.0714,
-      "team": "Manly Warringah Sea Eagles",
-      "position": "Interchange"
-    },
-    "Ethan Bullemor": {
       "tries": 1,
       "games": 15,
       "tryRate": 0.0667,
       "team": "Manly Warringah Sea Eagles",
       "position": "Interchange"
     },
+    "Ethan Bullemor": {
+      "tries": 1,
+      "games": 16,
+      "tryRate": 0.0625,
+      "team": "Manly Warringah Sea Eagles",
+      "position": "Interchange"
+    },
     "Nathan Brown": {
       "tries": 0,
-      "games": 11,
+      "games": 12,
       "tryRate": 0.0,
       "team": "Manly Warringah Sea Eagles",
       "position": "Interchange"
@@ -1726,10 +1726,10 @@
     },
     "Corey Waddell": {
       "tries": 1,
-      "games": 8,
-      "tryRate": 0.125,
+      "games": 9,
+      "tryRate": 0.1111,
       "team": "Manly Warringah Sea Eagles",
-      "position": "2nd Row"
+      "position": "Interchange"
     },
     "Kaeo Weekes": {
       "tries": 8,
@@ -2377,10 +2377,10 @@
     },
     "Josh Feledy": {
       "tries": 0,
-      "games": 10,
+      "games": 11,
       "tryRate": 0.0,
       "team": "Manly Warringah Sea Eagles",
-      "position": "Interchange"
+      "position": "Reserve"
     },
     "Harrison Graham": {
       "tries": 2,
@@ -2559,8 +2559,8 @@
     },
     "Zac Laybutt": {
       "tries": 2,
-      "games": 14,
-      "tryRate": 0.1429,
+      "games": 15,
+      "tryRate": 0.1333,
       "team": "North Queensland Cowboys",
       "position": "Centre"
     },
@@ -2580,7 +2580,7 @@
     },
     "Simione Laiafi": {
       "tries": 0,
-      "games": 10,
+      "games": 11,
       "tryRate": 0.0,
       "team": "Manly Warringah Sea Eagles",
       "position": "Prop"
@@ -3014,8 +3014,8 @@
     },
     "Jeremiah Nanai": {
       "tries": 3,
-      "games": 4,
-      "tryRate": 0.75,
+      "games": 5,
+      "tryRate": 0.6,
       "team": "North Queensland Cowboys",
       "position": "2nd Row"
     },
@@ -3406,7 +3406,7 @@
     },
     "John Bateman": {
       "tries": 0,
-      "games": 2,
+      "games": 3,
       "tryRate": 0.0,
       "team": "North Queensland Cowboys",
       "position": "Interchange"
@@ -3480,6 +3480,13 @@
       "tryRate": 0.0,
       "team": "Sydney Roosters",
       "position": "Interchange"
+    },
+    "Nicholas Lenaz": {
+      "tries": 0,
+      "games": 1,
+      "tryRate": 0.0,
+      "team": "Manly Warringah Sea Eagles",
+      "position": "Reserve"
     }
   }
 }
