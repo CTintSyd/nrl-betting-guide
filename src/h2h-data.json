@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-12T10:14:05Z",
+  "generatedAt": "2026-07-12T11:32:53Z",
   "matches": {
     "Penrith Panthers vs Brisbane Broncos": {
       "homeTeam": "Penrith Panthers",
@@ -247,7 +247,7 @@
       "weather": null,
       "seasonStats": {
         "home": {
-          "winPct": 67.0,
+          "winPct": 69.0,
           "completionRate": 77.0,
           "avgScored": 25.0,
           "avgConceded": 21.0,
@@ -485,10 +485,10 @@
       "weather": null,
       "seasonStats": {
         "home": {
-          "winPct": 67.0,
+          "winPct": 69.0,
           "completionRate": 82.0,
           "avgScored": 29.0,
-          "avgConceded": 18.0,
+          "avgConceded": 17.0,
           "winsAtVenue": 56.0,
           "winsOverall": 44.0
         },
@@ -604,10 +604,10 @@
       "weather": null,
       "seasonStats": {
         "home": {
-          "winPct": 47.0,
+          "winPct": 44.0,
           "completionRate": 77.0,
           "avgScored": 18.0,
-          "avgConceded": 23.0,
+          "avgConceded": 24.0,
           "winsAtVenue": 54.0,
           "winsOverall": 49.0
         },
@@ -842,10 +842,10 @@
       "weather": null,
       "seasonStats": {
         "home": {
-          "winPct": 62.0,
+          "winPct": 59.0,
           "completionRate": 77.0,
-          "avgScored": 28.0,
-          "avgConceded": 20.0,
+          "avgScored": 26.0,
+          "avgConceded": 22.0,
           "winsAtVenue": 57.0,
           "winsOverall": 48.0
         },
