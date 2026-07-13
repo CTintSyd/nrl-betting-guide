@@ -1,25 +1,7 @@
 {
-  "updated": "2026-07-11T22:35:36.201Z",
+  "updated": "2026-07-13T14:20:13.199Z",
   "quotaRemaining": null,
   "games": {
-    "South Sydney Rabbitohs vs Newcastle Knights": {
-      "homeTeam": "South Sydney Rabbitohs",
-      "awayTeam": "Newcastle Knights",
-      "available": false,
-      "error": "API 422: {\"message\":\"Invalid markets: player_anytime_try_scorer, player_first_try_scorer\",\"error_code\":\"INVALID_MARKET\",\"details_url\":\"https://the-odds-api.com/liveapi/guides/v4/api-error-codes.html#invalid-market\"}\n"
-    },
-    "Manly Warringah Sea Eagles vs North Queensland Cowboys": {
-      "homeTeam": "Manly Warringah Sea Eagles",
-      "awayTeam": "North Queensland Cowboys",
-      "available": false,
-      "error": "API 422: {\"message\":\"Invalid markets: player_anytime_try_scorer, player_first_try_scorer\",\"error_code\":\"INVALID_MARKET\",\"details_url\":\"https://the-odds-api.com/liveapi/guides/v4/api-error-codes.html#invalid-market\"}\n"
-    },
-    "Melbourne Storm vs Gold Coast Titans": {
-      "homeTeam": "Melbourne Storm",
-      "awayTeam": "Gold Coast Titans",
-      "available": false,
-      "error": "API 422: {\"message\":\"Invalid markets: player_anytime_try_scorer, player_first_try_scorer\",\"error_code\":\"INVALID_MARKET\",\"details_url\":\"https://the-odds-api.com/liveapi/guides/v4/api-error-codes.html#invalid-market\"}\n"
-    },
     "Penrith Panthers vs Brisbane Broncos": {
       "homeTeam": "Penrith Panthers",
       "awayTeam": "Brisbane Broncos",
