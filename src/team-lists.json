@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-12T14:13:15.981247+00:00",
+  "generatedAt": "2026-07-13T07:26:47.919534+00:00",
   "round": 20,
   "games": [
     {
@@ -132,6 +132,13 @@
         "expectedReturn": "TBC",
         "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500010/TURPIN%2CJ_20251212_3497.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/bulldogs/jake-turpin/"
+      },
+      {
+        "name": "Mitchell Woods",
+        "injury": "Hamstring",
+        "expectedReturn": "TBC",
+        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500010/WOODS%2CM_20251212_4420.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/bulldogs/mitchell-woods/"
       }
     ],
     "North Queensland Cowboys": [
