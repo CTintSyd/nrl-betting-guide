@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-13T14:46:29.466319+00:00",
+  "generatedAt": "2026-07-14T04:49:14.678346+00:00",
   "round": 20,
   "games": [
     {
@@ -62,6 +62,13 @@
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/broncos/jack-gosiewski/"
       },
       {
+        "name": "Brendan Piakura",
+        "injury": "Head knock",
+        "expectedReturn": "Round 20",
+        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500011/Piakura.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/broncos/brendan-piakura/"
+      },
+      {
         "name": "Aublix Tawha",
         "injury": "Ankle",
         "expectedReturn": "Round 23",
@@ -74,13 +81,6 @@
         "expectedReturn": "TBC",
         "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500011/Mam.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/broncos/ezra-mam/"
-      },
-      {
-        "name": "Brendan Piakura",
-        "injury": "Head knock",
-        "expectedReturn": "TBC",
-        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500011/Piakura.png?center=0.5%2C0.5",
-        "profileUrl": "https://www.nrl.com/players/nrl-premiership/broncos/brendan-piakura/"
       },
       {
         "name": "Adam Reynolds",
@@ -420,9 +420,16 @@
       {
         "name": "Lindsay Collins",
         "injury": "Concussion",
-        "expectedReturn": "Round 20",
+        "expectedReturn": "Round 21",
         "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500001/Lindsay%20Collins%20260203_Roosters1533.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/roosters/lindsay-collins/"
+      },
+      {
+        "name": "James Tedesco",
+        "injury": "Concussion",
+        "expectedReturn": "Round 21",
+        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500001/James%20Tedesco%20260203_Roosters813.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/roosters/james-tedesco/"
       },
       {
         "name": "Angus Crichton",
@@ -430,13 +437,6 @@
         "expectedReturn": "TBC",
         "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500001/Angus%20Crichton%20260203_Roosters1332.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/roosters/angus-crichton/"
-      },
-      {
-        "name": "James Tedesco",
-        "injury": "Head knock",
-        "expectedReturn": "TBC",
-        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500001/James%20Tedesco%20260203_Roosters813.png?center=0.5%2C0.5",
-        "profileUrl": "https://www.nrl.com/players/nrl-premiership/roosters/james-tedesco/"
       },
       {
         "name": "Blake Steep",
@@ -534,6 +534,13 @@
         "expectedReturn": "Round 24",
         "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500021/Lisati%2CA_260204_AR_4.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/storm/ativalu-lisati/"
+      },
+      {
+        "name": "Cameron Munster",
+        "injury": "Knee",
+        "expectedReturn": "Round 24",
+        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500021/Munster%2CC_260204_AR_3.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/storm/cameron-munster/"
       },
       {
         "name": "Tui Kamikamica",
