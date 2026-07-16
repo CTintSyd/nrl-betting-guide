@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-15T04:50:19.631152+00:00",
+  "generatedAt": "2026-07-16T05:18:45.059988+00:00",
   "round": 20,
   "games": [
     {
@@ -172,18 +172,6 @@
         "name": "Sione Fonua",
         "position": "Reserve",
         "category": "reserve"
-      },
-      {
-        "number": 21,
-        "name": "Kalani Leuluai-Going",
-        "position": "Reserve",
-        "category": "reserve"
-      },
-      {
-        "number": 22,
-        "name": "Luron Patea",
-        "position": "Reserve",
-        "category": "reserve"
       }
     ],
     "Brisbane Broncos": [
@@ -304,18 +292,6 @@
       {
         "number": 20,
         "name": "Billy Walters",
-        "position": "Reserve",
-        "category": "reserve"
-      },
-      {
-        "number": 21,
-        "name": "Luke Gale",
-        "position": "Reserve",
-        "category": "reserve"
-      },
-      {
-        "number": 22,
-        "name": "Thomas Duffy",
         "position": "Reserve",
         "category": "reserve"
       }
@@ -2538,6 +2514,13 @@
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/south-sydney-rabbitohs/alex-johnston/"
       },
       {
+        "name": "Isaiah Tass",
+        "injury": "ACL",
+        "expectedReturn": "Round 20",
+        "imageUrl": "/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500005/Isaiah%20Tass_260115_Rabbitohs528.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/south-sydney-rabbitohs/isaiah-tass/"
+      },
+      {
         "name": "Cody Walker",
         "injury": "Suspension",
         "expectedReturn": "Round 20",
@@ -2580,13 +2563,6 @@
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/south-sydney-rabbitohs/jayden-sullivan/"
       },
       {
-        "name": "Isaiah Tass",
-        "injury": "ACL",
-        "expectedReturn": "TBC",
-        "imageUrl": "/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500005/Isaiah%20Tass_260115_Rabbitohs528.png?center=0.5%2C0.5",
-        "profileUrl": "https://www.nrl.com/players/nrl-premiership/south-sydney-rabbitohs/isaiah-tass/"
-      },
-      {
         "name": "Adam Elliott",
         "injury": "Ankle",
         "expectedReturn": "Next Season",
@@ -2624,6 +2600,13 @@
         "expectedReturn": "Round 21",
         "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500001/James%20Tedesco%20260203_Roosters813.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/roosters/james-tedesco/"
+      },
+      {
+        "name": "Robert Toia",
+        "injury": "Rested",
+        "expectedReturn": "Round 21",
+        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500001/Rob%20Toia%20260203_Roosters1729.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/roosters/robert-toia/"
       },
       {
         "name": "Angus Crichton",
