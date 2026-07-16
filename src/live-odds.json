@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-16T01:23:45.004Z",
-  "quotaRemaining": 167,
+  "updated": "2026-07-16T05:29:40.628Z",
+  "quotaRemaining": 164,
   "round": 20,
   "venueOverride": {
     "venue": "Suncorp Stadium",
@@ -14,30 +14,30 @@
       "commenceTime": "2026-07-16T09:50:00Z",
       "bookmaker": "sportsbet",
       "h2h": {
-        "home": 1.2,
-        "away": 4.6
+        "home": 1.23,
+        "away": 4.2
       },
       "line": {
         "home": {
-          "odd": 1.99,
-          "point": -14.5
+          "odd": 1.89,
+          "point": -13.5
         },
         "away": {
-          "odd": 1.82,
-          "point": 14.5
+          "odd": 1.91,
+          "point": 13.5
         }
       },
       "ou": {
-        "total": 44.5,
-        "overOdd": 1.91,
-        "underOdd": 1.89
+        "total": 45.5,
+        "overOdd": 1.89,
+        "underOdd": 1.91
       },
       "bookmakerComparison": [
         {
           "key": "sportsbet",
           "name": "Sportsbet",
-          "home": 1.2,
-          "away": 4.6
+          "home": 1.23,
+          "away": 4.2
         },
         {
           "key": "tab",
@@ -98,16 +98,16 @@
           "away": 3.15
         },
         {
-          "key": "betright",
-          "name": "BetRight",
-          "home": 1.42,
-          "away": 2.85
-        },
-        {
           "key": "ladbrokes_au",
           "name": "Ladbrokes",
           "home": 1.36,
           "away": 3.1
+        },
+        {
+          "key": "pointsbetau",
+          "name": "PointsBet",
+          "home": 1.4,
+          "away": 2.9
         }
       ]
     },
@@ -250,14 +250,14 @@
         {
           "key": "tab",
           "name": "TAB",
-          "home": 1.16,
-          "away": 5.2
+          "home": 1.17,
+          "away": 5
         },
         {
           "key": "betright",
           "name": "BetRight",
-          "home": 1.16,
-          "away": 5.25
+          "home": 1.17,
+          "away": 5
         },
         {
           "key": "ladbrokes_au",
@@ -454,6 +454,12 @@
           "name": "Sportsbet",
           "home": 4.9,
           "away": 1.18
+        },
+        {
+          "key": "tab",
+          "name": "TAB",
+          "home": 5,
+          "away": 1.17
         }
       ]
     },
@@ -488,6 +494,12 @@
           "name": "Sportsbet",
           "home": 2.27,
           "away": 1.64
+        },
+        {
+          "key": "tab",
+          "name": "TAB",
+          "home": 2.25,
+          "away": 1.65
         }
       ]
     },
@@ -522,6 +534,12 @@
           "name": "Sportsbet",
           "home": 1.48,
           "away": 2.67
+        },
+        {
+          "key": "tab",
+          "name": "TAB",
+          "home": 1.5,
+          "away": 2.6
         }
       ]
     },
