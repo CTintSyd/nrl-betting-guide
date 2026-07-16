@@ -1,13 +1,7 @@
 {
-  "updated": "2026-07-15T13:23:55.673Z",
+  "updated": "2026-07-16T13:38:13.241Z",
   "quotaRemaining": null,
   "games": {
-    "Penrith Panthers vs Brisbane Broncos": {
-      "homeTeam": "Penrith Panthers",
-      "awayTeam": "Brisbane Broncos",
-      "available": false,
-      "error": "API 422: {\"message\":\"Invalid markets: player_anytime_try_scorer, player_first_try_scorer\",\"error_code\":\"INVALID_MARKET\",\"details_url\":\"https://the-odds-api.com/liveapi/guides/v4/api-error-codes.html#invalid-market\"}\n"
-    },
     "Cronulla Sutherland Sharks vs Newcastle Knights": {
       "homeTeam": "Cronulla Sutherland Sharks",
       "awayTeam": "Newcastle Knights",
