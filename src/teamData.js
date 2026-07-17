@@ -90,12 +90,12 @@ const NRL_TEAM_DATA = {
   'Melbourne Storm': {
     emoji: '⛈️', shortName: 'Storm', venue: 'AAMI Park', wikiPage: 'Melbourne_Storm', logoFile: 'melbourne-storm.png',
     players: [
-      { name: "Will Warbrick",                     pos: "wing",           tryRate: 0.9412 },
-      { name: "Sualauvi Faalogo",                  pos: "fullback",       tryRate: 0.7647 },
+      { name: "Will Warbrick",                     pos: "wing",           tryRate: 0.8889 },
+      { name: "Sualauvi Faalogo",                  pos: "fullback",       tryRate: 0.7222 },
       { name: "Cameron Munster",                   pos: "five-eighth",    tryRate: 0.2667 },
       { name: "Moses Leo",                         pos: "wing",           tryRate: 0.7273 },
-      { name: "Jack Howarth",                      pos: "centre",         tryRate: 0.3571 },
-      { name: "Jahrome Hughes",                    pos: "halfback",       tryRate: 0.2 },
+      { name: "Harry Grant",                       pos: "hooker",         tryRate: 0.3529 },
+      { name: "Jack Howarth",                      pos: "centre",         tryRate: 0.3333 },
     ],
   },
 
@@ -186,12 +186,12 @@ const NRL_TEAM_DATA = {
   'Sydney Roosters': {
     emoji: '🐓', shortName: 'Roosters', venue: 'Allianz Stadium', wikiPage: 'Sydney_Roosters', logoFile: 'sydney-roosters.png',
     players: [
-      { name: "Mark Nawaqanitawase",               pos: "wing",           tryRate: 1.0 },
+      { name: "Mark Nawaqanitawase",               pos: "wing",           tryRate: 0.9231 },
       { name: "James Tedesco",                     pos: "fullback",       tryRate: 0.4286 },
-      { name: "Sam Walker",                        pos: "halfback",       tryRate: 0.4286 },
+      { name: "Sam Walker",                        pos: "halfback",       tryRate: 0.4 },
       { name: "Daniel Tupou",                      pos: "wing",           tryRate: 1.0 },
       { name: "Robert Toia",                       pos: "centre",         tryRate: 0.6429 },
-      { name: "Hugo Savala",                       pos: "halfback",       tryRate: 0.5 },
+      { name: "Billy Smith",                       pos: "centre",         tryRate: 0.7778 },
     ],
   },
 

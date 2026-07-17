@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-17T10:17:06.432056+00:00",
+  "generatedAt": "2026-07-17T11:49:22.224717+00:00",
   "round": 20,
   "upcomingRound": 20,
   "ladder": [
@@ -19,6 +19,20 @@
     },
     {
       "pos": 2,
+      "nick": "Roosters",
+      "name": "Sydney Roosters",
+      "played": 17,
+      "wins": 12,
+      "losses": 5,
+      "drawn": 0,
+      "ptsFor": 426,
+      "ptsAgainst": 342,
+      "diff": 84,
+      "pts": 30,
+      "streak": "3W"
+    },
+    {
+      "pos": 3,
       "nick": "Warriors",
       "name": "New Zealand Warriors",
       "played": 16,
@@ -32,7 +46,7 @@
       "streak": "1W"
     },
     {
-      "pos": 3,
+      "pos": 4,
       "nick": "Sharks",
       "name": "Cronulla Sutherland Sharks",
       "played": 17,
@@ -42,20 +56,6 @@
       "ptsFor": 488,
       "ptsAgainst": 363,
       "diff": 125,
-      "pts": 28,
-      "streak": "3W"
-    },
-    {
-      "pos": 4,
-      "nick": "Roosters",
-      "name": "Sydney Roosters",
-      "played": 16,
-      "wins": 11,
-      "losses": 5,
-      "drawn": 0,
-      "ptsFor": 412,
-      "ptsAgainst": 336,
-      "diff": 76,
       "pts": 28,
       "streak": "3W"
     },
@@ -133,13 +133,13 @@
       "pos": 10,
       "nick": "Storm",
       "name": "Melbourne Storm",
-      "played": 17,
+      "played": 18,
       "wins": 8,
-      "losses": 9,
+      "losses": 10,
       "drawn": 0,
-      "ptsFor": 414,
-      "ptsAgainst": 416,
-      "diff": -2,
+      "ptsFor": 420,
+      "ptsAgainst": 430,
+      "diff": -10,
       "pts": 20,
       "streak": "1W"
     },
@@ -482,7 +482,7 @@
       ]
     },
     "Melbourne Storm": {
-      "last5": "W L W",
+      "last5": "W L W L",
       "games": [
         {
           "round": 16,
@@ -504,6 +504,13 @@
           "opponent": "Gold Coast Titans",
           "home": true,
           "score": "22\u201318"
+        },
+        {
+          "round": 20,
+          "result": "L",
+          "opponent": "Sydney Roosters",
+          "home": false,
+          "score": "14\u20136"
         }
       ]
     },
@@ -732,7 +739,7 @@
       ]
     },
     "Sydney Roosters": {
-      "last5": "L W W W",
+      "last5": "L W W W W",
       "games": [
         {
           "round": 15,
@@ -761,6 +768,13 @@
           "opponent": "Parramatta Eels",
           "home": true,
           "score": "28\u201312"
+        },
+        {
+          "round": 20,
+          "result": "W",
+          "opponent": "Melbourne Storm",
+          "home": true,
+          "score": "14\u20136"
         }
       ]
     },
