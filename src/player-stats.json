@@ -1,53 +1,53 @@
 {
-  "generatedAt": "2026-07-17T08:26:10.147952+00:00",
+  "generatedAt": "2026-07-17T10:16:59.593861+00:00",
   "round": 20,
   "players": {
     "Kalyn Ponga": {
-      "tries": 3,
-      "games": 9,
-      "tryRate": 0.3333,
+      "tries": 4,
+      "games": 10,
+      "tryRate": 0.4,
       "team": "Newcastle Knights",
       "position": "Fullback"
     },
     "Dominic Young": {
       "tries": 15,
-      "games": 17,
-      "tryRate": 0.8824,
+      "games": 18,
+      "tryRate": 0.8333,
       "team": "Newcastle Knights",
       "position": "Winger"
     },
     "Dane Gagai": {
       "tries": 2,
-      "games": 17,
-      "tryRate": 0.1176,
+      "games": 18,
+      "tryRate": 0.1111,
       "team": "Newcastle Knights",
       "position": "Centre"
     },
     "Bradman Best": {
       "tries": 3,
-      "games": 9,
-      "tryRate": 0.3333,
+      "games": 10,
+      "tryRate": 0.3,
       "team": "Newcastle Knights",
       "position": "Centre"
     },
     "Greg Marzhew": {
-      "tries": 15,
-      "games": 16,
-      "tryRate": 0.9375,
+      "tries": 17,
+      "games": 17,
+      "tryRate": 1.0,
       "team": "Newcastle Knights",
       "position": "Winger"
     },
     "Fletcher Sharpe": {
       "tries": 7,
-      "games": 15,
-      "tryRate": 0.4667,
+      "games": 16,
+      "tryRate": 0.4375,
       "team": "Newcastle Knights",
-      "position": "Centre"
+      "position": "Five-Eighth"
     },
     "Dylan Brown": {
       "tries": 2,
-      "games": 13,
-      "tryRate": 0.1538,
+      "games": 14,
+      "tryRate": 0.1429,
       "team": "Newcastle Knights",
       "position": "Halfback"
     },
@@ -60,22 +60,22 @@
     },
     "Phoenix Crossland": {
       "tries": 2,
-      "games": 17,
-      "tryRate": 0.1176,
+      "games": 18,
+      "tryRate": 0.1111,
       "team": "Newcastle Knights",
       "position": "Hooker"
     },
     "Trey Mooney": {
       "tries": 5,
-      "games": 15,
-      "tryRate": 0.3333,
+      "games": 16,
+      "tryRate": 0.3125,
       "team": "Newcastle Knights",
       "position": "Prop"
     },
     "Dylan Lucas": {
-      "tries": 9,
-      "games": 14,
-      "tryRate": 0.6429,
+      "tries": 10,
+      "games": 15,
+      "tryRate": 0.6667,
       "team": "Newcastle Knights",
       "position": "2nd Row"
     },
@@ -88,31 +88,31 @@
     },
     "Tyson Frizell": {
       "tries": 2,
-      "games": 15,
-      "tryRate": 0.1333,
+      "games": 16,
+      "tryRate": 0.125,
       "team": "Newcastle Knights",
-      "position": "Interchange"
+      "position": "Prop"
     },
     "Sandon Smith": {
       "tries": 1,
-      "games": 16,
-      "tryRate": 0.0625,
+      "games": 17,
+      "tryRate": 0.0588,
       "team": "Newcastle Knights",
-      "position": "Five-Eighth"
+      "position": "Reserve"
     },
     "Mat Croker": {
       "tries": 0,
-      "games": 17,
+      "games": 18,
       "tryRate": 0.0,
       "team": "Newcastle Knights",
       "position": "Lock"
     },
     "Thomas Cant": {
       "tries": 0,
-      "games": 12,
+      "games": 13,
       "tryRate": 0.0,
       "team": "Newcastle Knights",
-      "position": "2nd Row"
+      "position": "Interchange"
     },
     "Pasami Saulo": {
       "tries": 0,
@@ -123,17 +123,17 @@
     },
     "Fletcher Hunt": {
       "tries": 8,
-      "games": 17,
-      "tryRate": 0.4706,
+      "games": 18,
+      "tryRate": 0.4444,
       "team": "Newcastle Knights",
-      "position": "Interchange"
+      "position": "Reserve"
     },
     "Francis Manuleleua": {
       "tries": 0,
-      "games": 12,
+      "games": 13,
       "tryRate": 0.0,
       "team": "Newcastle Knights",
-      "position": "Reserve"
+      "position": "2nd Row"
     },
     "Scott Drinkwater": {
       "tries": 8,
@@ -1333,16 +1333,16 @@
       "position": "Interchange"
     },
     "William Kennedy": {
-      "tries": 7,
-      "games": 16,
-      "tryRate": 0.4375,
+      "tries": 8,
+      "games": 17,
+      "tryRate": 0.4706,
       "team": "Cronulla Sutherland Sharks",
       "position": "Fullback"
     },
     "Sione Katoa": {
-      "tries": 8,
-      "games": 10,
-      "tryRate": 0.8,
+      "tries": 9,
+      "games": 11,
+      "tryRate": 0.8182,
       "team": "Cronulla Sutherland Sharks",
       "position": "Winger"
     },
@@ -1355,66 +1355,66 @@
     },
     "KL Iro": {
       "tries": 11,
-      "games": 15,
-      "tryRate": 0.7333,
+      "games": 16,
+      "tryRate": 0.6875,
       "team": "Cronulla Sutherland Sharks",
       "position": "Centre"
     },
     "Samuel Stonestreet": {
       "tries": 4,
-      "games": 12,
-      "tryRate": 0.3333,
+      "games": 13,
+      "tryRate": 0.3077,
       "team": "Cronulla Sutherland Sharks",
-      "position": "Winger"
+      "position": "Reserve"
     },
     "Braydon Trindall": {
       "tries": 8,
-      "games": 16,
-      "tryRate": 0.5,
+      "games": 17,
+      "tryRate": 0.4706,
       "team": "Cronulla Sutherland Sharks",
       "position": "Five-Eighth"
     },
     "Nicho Hynes": {
       "tries": 6,
-      "games": 13,
-      "tryRate": 0.4615,
+      "games": 14,
+      "tryRate": 0.4286,
       "team": "Cronulla Sutherland Sharks",
       "position": "Halfback"
     },
     "Addin Fonua-Blake": {
       "tries": 0,
-      "games": 14,
+      "games": 15,
       "tryRate": 0.0,
       "team": "Cronulla Sutherland Sharks",
-      "position": "Interchange"
+      "position": "Prop"
     },
     "Blayke Brailey": {
       "tries": 1,
-      "games": 12,
-      "tryRate": 0.0833,
+      "games": 13,
+      "tryRate": 0.0769,
       "team": "Cronulla Sutherland Sharks",
       "position": "Hooker"
     },
     "Thomas Hazelton": {
       "tries": 2,
-      "games": 16,
-      "tryRate": 0.125,
+      "games": 17,
+      "tryRate": 0.1176,
       "team": "Cronulla Sutherland Sharks",
       "position": "Prop"
     },
     "Briton Nikora": {
       "tries": 2,
-      "games": 11,
-      "tryRate": 0.1818,
+      "games": 12,
+      "tryRate": 0.1667,
       "team": "Cronulla Sutherland Sharks",
       "position": "2nd Row"
     },
     "Billy Burns": {
       "tries": 4,
-      "games": 16,
-      "tryRate": 0.25,
+      "games": 17,
+      "tryRate": 0.2353,
       "team": "Cronulla Sutherland Sharks",
-      "position": "2nd Row"
+      "position": "Interchange"
     },
     "Jesse Colquhoun": {
       "tries": 3,
@@ -1439,10 +1439,10 @@
     },
     "Oregon Kaufusi": {
       "tries": 1,
-      "games": 14,
-      "tryRate": 0.0714,
+      "games": 15,
+      "tryRate": 0.0667,
       "team": "Cronulla Sutherland Sharks",
-      "position": "Prop"
+      "position": "Interchange"
     },
     "Braden Uele": {
       "tries": 0,
@@ -1453,8 +1453,8 @@
     },
     "Hohepa Puru": {
       "tries": 1,
-      "games": 14,
-      "tryRate": 0.0714,
+      "games": 15,
+      "tryRate": 0.0667,
       "team": "Cronulla Sutherland Sharks",
       "position": "Interchange"
     },
@@ -2384,8 +2384,8 @@
     },
     "Harrison Graham": {
       "tries": 2,
-      "games": 13,
-      "tryRate": 0.1538,
+      "games": 14,
+      "tryRate": 0.1429,
       "team": "Newcastle Knights",
       "position": "Interchange"
     },
@@ -2510,15 +2510,15 @@
     },
     "Mawene Hiroti": {
       "tries": 2,
-      "games": 13,
-      "tryRate": 0.1538,
+      "games": 14,
+      "tryRate": 0.1429,
       "team": "Cronulla Sutherland Sharks",
-      "position": "Reserve"
+      "position": "Centre"
     },
     "Teig Wilton": {
       "tries": 6,
-      "games": 14,
-      "tryRate": 0.4286,
+      "games": 15,
+      "tryRate": 0.4,
       "team": "Cronulla Sutherland Sharks",
       "position": "2nd Row"
     },
@@ -2825,7 +2825,7 @@
     },
     "Jayden Berrell": {
       "tries": 0,
-      "games": 7,
+      "games": 8,
       "tryRate": 0.0,
       "team": "Cronulla Sutherland Sharks",
       "position": "Reserve"
@@ -3021,7 +3021,7 @@
     },
     "Cameron McInnes": {
       "tries": 0,
-      "games": 9,
+      "games": 10,
       "tryRate": 0.0,
       "team": "Cronulla Sutherland Sharks",
       "position": "Lock"
@@ -3202,9 +3202,9 @@
       "position": "Interchange"
     },
     "Ronaldo Mulitalo": {
-      "tries": 6,
-      "games": 7,
-      "tryRate": 0.8571,
+      "tries": 7,
+      "games": 8,
+      "tryRate": 0.875,
       "team": "Cronulla Sutherland Sharks",
       "position": "Winger"
     },
@@ -3385,7 +3385,7 @@
     },
     "Tuku Hau Tapuha": {
       "tries": 0,
-      "games": 3,
+      "games": 4,
       "tryRate": 0.0,
       "team": "Cronulla Sutherland Sharks",
       "position": "Interchange"
@@ -3420,7 +3420,7 @@
     },
     "Lachlan Crouch": {
       "tries": 0,
-      "games": 3,
+      "games": 4,
       "tryRate": 0.0,
       "team": "Newcastle Knights",
       "position": "Interchange"
@@ -3501,6 +3501,13 @@
       "tryRate": 0.0,
       "team": "Gold Coast Titans",
       "position": "Winger"
+    },
+    "Brodie Jones": {
+      "tries": 0,
+      "games": 1,
+      "tryRate": 0.0,
+      "team": "Newcastle Knights",
+      "position": "Interchange"
     }
   }
 }

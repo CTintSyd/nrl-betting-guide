@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-07-17T08:26:25Z",
+  "updatedAt": "2026-07-17T10:17:27Z",
   "season": 2026,
-  "totalFavRecord": "83-58",
-  "totalLineRecord": "22-23",
-  "totalOuRecord": "15O-29U",
+  "totalFavRecord": "84-58",
+  "totalLineRecord": "23-23",
+  "totalOuRecord": "15O-30U",
   "rounds": [
     {
       "round": 1,
@@ -2274,11 +2274,26 @@
           "ouTotal": 45.5,
           "ouResult": "Under",
           "oddsSourced": true
+        },
+        {
+          "homeTeam": "Cronulla Sutherland Sharks",
+          "awayTeam": "Newcastle Knights",
+          "homeScore": 20,
+          "awayScore": 18,
+          "winner": "Cronulla Sutherland Sharks",
+          "margin": 2,
+          "favourite": "Cronulla Sutherland Sharks",
+          "favouriteWon": true,
+          "linePoint": -1.5,
+          "lineCovered": true,
+          "ouTotal": 47.5,
+          "ouResult": "Under",
+          "oddsSourced": true
         }
       ],
-      "favRecord": "0-1",
-      "lineRecord": "0-1",
-      "ouRecord": "0O-1U"
+      "favRecord": "1-1",
+      "lineRecord": "1-1",
+      "ouRecord": "0O-2U"
     }
   ]
 }

@@ -1,14 +1,47 @@
 {
-  "updated": "2026-07-17T08:26:19Z",
+  "updated": "2026-07-17T10:17:16Z",
   "articles": [
     {
-      "title": "LIVE: Sharks vs Knights – Round 20, 2026",
-      "url": "https://www.zerotackle.com/live-sharks-knights-round-20-2026-mc10396480-235849/",
+      "title": "LIVE: Roosters vs Storm – Round 20, 2026",
+      "url": "https://www.zerotackle.com/live-roosters-storm-round-20-2026-mc10396481-235847/",
+      "description": "The Sydney Roosters face the Melbourne Storm in Round 20 of the 2026 NRL season. Follow the live scores, team lists, match statistics and key moments from the game at Allianz Stadium.",
+      "date": "Fri, 19 Jun 2026 10:00:00 +0000",
+      "teams": [
+        "Sydney Roosters",
+        "Melbourne Storm"
+      ],
+      "isRound": true
+    },
+    {
+      "title": "FULL TIME: Sharks vs Knights – Round 20, 2026",
+      "url": "https://www.zerotackle.com/fulltime-sharks-knights-round-20-2026-mc10396480-235849/",
       "description": "The Cronulla Sharks face the Newcastle Knights in Round 20 of the 2026 NRL season. Follow the live scores, team lists, match statistics and key moments from the game at Ocean Protect Stadium.",
       "date": "Fri, 19 Jun 2026 08:00:00 +0000",
       "teams": [
         "Newcastle Knights",
         "Cronulla Sutherland Sharks"
+      ],
+      "isRound": true
+    },
+    {
+      "title": "Updated Team Lists: Bulldogs vs Wests Tigers – Round 20, 2026",
+      "url": "https://www.zerotackle.com/updated-team-lists-bulldogs-vs-wests-tigers-10396484-235997/",
+      "description": "The Bulldogs and Wests Tigers have cut their squads to 20 ahead of tomorrow's match at Accor Stadium.",
+      "date": "Fri, 17 Jul 2026 09:32:12 +0000",
+      "teams": [
+        "Canterbury Bulldogs",
+        "Wests Tigers"
+      ],
+      "isRound": true
+    },
+    {
+      "title": "FINAL TEAMS: Roosters vs Storm – Round 20, 2026",
+      "url": "https://www.zerotackle.com/updated-team-lists-roosters-storm-10396481-235968/",
+      "description": "LATE MAIL: The Roosters and Storm have confirmed their lineups for the match at Allianz Stadium.",
+      "date": "Fri, 17 Jul 2026 08:30:08 +0000",
+      "teams": [
+        "Sydney Roosters",
+        "Melbourne Storm"
       ],
       "isRound": true
     },
@@ -64,26 +97,6 @@
         "Canberra Raiders"
       ],
       "isRound": true
-    },
-    {
-      "title": "Bulldogs rising star set to be sidelined for remainder of season",
-      "url": "https://www.zerotackle.com/bulldogs-rising-star-set-to-be-sidelined-for-remainder-of-season-235985/",
-      "description": "The young gun has had no luck with injuries during his early career.",
-      "date": "Fri, 17 Jul 2026 04:33:35 +0000",
-      "teams": [
-        "Canterbury Bulldogs"
-      ],
-      "isRound": false
-    },
-    {
-      "title": "Hannay speaks on referee woes as cross code intruders enter Titans HQ",
-      "url": "https://www.zerotackle.com/hannay-speaks-on-referee-woes-as-cross-code-intruders-enter-titans-hq-235984/",
-      "description": "&#8220;I spared myself that pain and waste of time.&#8221;",
-      "date": "Fri, 17 Jul 2026 03:03:05 +0000",
-      "teams": [
-        "Gold Coast Titans"
-      ],
-      "isRound": false
     }
   ]
 }

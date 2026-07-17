@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-17T08:26:13.566627+00:00",
+  "generatedAt": "2026-07-17T10:17:06.432056+00:00",
   "round": 20,
   "upcomingRound": 20,
   "ladder": [
@@ -33,6 +33,20 @@
     },
     {
       "pos": 3,
+      "nick": "Sharks",
+      "name": "Cronulla Sutherland Sharks",
+      "played": 17,
+      "wins": 11,
+      "losses": 6,
+      "drawn": 0,
+      "ptsFor": 488,
+      "ptsAgainst": 363,
+      "diff": 125,
+      "pts": 28,
+      "streak": "3W"
+    },
+    {
+      "pos": 4,
       "nick": "Roosters",
       "name": "Sydney Roosters",
       "played": 16,
@@ -46,32 +60,18 @@
       "streak": "3W"
     },
     {
-      "pos": 4,
-      "nick": "Sharks",
-      "name": "Cronulla Sutherland Sharks",
-      "played": 16,
-      "wins": 10,
-      "losses": 6,
-      "drawn": 0,
-      "ptsFor": 468,
-      "ptsAgainst": 345,
-      "diff": 123,
-      "pts": 26,
-      "streak": "2W"
-    },
-    {
       "pos": 5,
       "nick": "Knights",
       "name": "Newcastle Knights",
-      "played": 17,
+      "played": 18,
       "wins": 11,
-      "losses": 6,
+      "losses": 7,
       "drawn": 0,
-      "ptsFor": 441,
-      "ptsAgainst": 402,
-      "diff": 39,
+      "ptsFor": 459,
+      "ptsAgainst": 422,
+      "diff": 37,
       "pts": 26,
-      "streak": "1L"
+      "streak": "2L"
     },
     {
       "pos": 6,
@@ -336,7 +336,7 @@
       ]
     },
     "Cronulla Sutherland Sharks": {
-      "last5": "W L W W",
+      "last5": "W L W W W",
       "games": [
         {
           "round": 15,
@@ -365,6 +365,13 @@
           "opponent": "Dolphins",
           "home": false,
           "score": "0\u201366"
+        },
+        {
+          "round": 20,
+          "result": "W",
+          "opponent": "Newcastle Knights",
+          "home": true,
+          "score": "20\u201318"
         }
       ]
     },
@@ -534,7 +541,7 @@
       ]
     },
     "Newcastle Knights": {
-      "last5": "W W W L",
+      "last5": "W W W L L",
       "games": [
         {
           "round": 16,
@@ -563,6 +570,13 @@
           "opponent": "South Sydney Rabbitohs",
           "home": false,
           "score": "26\u201324"
+        },
+        {
+          "round": 20,
+          "result": "L",
+          "opponent": "Cronulla Sutherland Sharks",
+          "home": false,
+          "score": "20\u201318"
         }
       ]
     },
