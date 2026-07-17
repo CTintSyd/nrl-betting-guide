@@ -1,52 +1,12 @@
 {
-  "updated": "2026-07-17T10:28:41.539Z",
-  "quotaRemaining": 134,
+  "updated": "2026-07-17T12:59:48.444Z",
+  "quotaRemaining": 131,
   "round": 20,
   "venueOverride": {
     "venue": "Suncorp Stadium",
     "until": "2026-05-18T00:00:00Z"
   },
   "games": [
-    {
-      "id": "1ae0cf6c922a22a04066dcb480951336",
-      "homeTeam": "Sydney Roosters",
-      "awayTeam": "Melbourne Storm",
-      "commenceTime": "2026-07-17T10:01:00Z",
-      "bookmaker": "tab",
-      "h2h": {
-        "home": 1.1,
-        "away": 6.5
-      },
-      "line": {
-        "home": {
-          "odd": null,
-          "point": null
-        },
-        "away": {
-          "odd": null,
-          "point": null
-        }
-      },
-      "ou": {
-        "total": null,
-        "overOdd": null,
-        "underOdd": null
-      },
-      "bookmakerComparison": [
-        {
-          "key": "tab",
-          "name": "TAB",
-          "home": 1.1,
-          "away": 6.5
-        },
-        {
-          "key": "pointsbetau",
-          "name": "PointsBet",
-          "home": 1.04,
-          "away": 10
-        }
-      ]
-    },
     {
       "id": "18d1e510ab3f4495e6964ae11ce2130f",
       "homeTeam": "Canberra Raiders",
@@ -192,8 +152,8 @@
         {
           "key": "betright",
           "name": "BetRight",
-          "home": 1.5,
-          "away": 2.6
+          "home": 1.48,
+          "away": 2.65
         },
         {
           "key": "ladbrokes_au",
@@ -238,8 +198,8 @@
         {
           "key": "tab",
           "name": "TAB",
-          "home": 2.4,
-          "away": 1.58
+          "home": 2.5,
+          "away": 1.53
         },
         {
           "key": "betright",
@@ -344,6 +304,74 @@
           "name": "TAB",
           "home": 4.2,
           "away": 1.22
+        }
+      ]
+    },
+    {
+      "id": "b88657615eae0fdc1b8f93a6f0d8ecfd",
+      "homeTeam": "Newcastle Knights",
+      "awayTeam": "Sydney Roosters",
+      "commenceTime": "2026-07-24T08:00:00Z",
+      "bookmaker": "sportsbet",
+      "h2h": {
+        "home": 2.27,
+        "away": 1.64
+      },
+      "line": {
+        "home": {
+          "odd": 1.9,
+          "point": 3.5
+        },
+        "away": {
+          "odd": 1.9,
+          "point": -3.5
+        }
+      },
+      "ou": {
+        "total": 46.5,
+        "overOdd": 2,
+        "underOdd": 1.81
+      },
+      "bookmakerComparison": [
+        {
+          "key": "sportsbet",
+          "name": "Sportsbet",
+          "home": 2.27,
+          "away": 1.64
+        }
+      ]
+    },
+    {
+      "id": "9a009757d284c37e64413ae3cc2cebd0",
+      "homeTeam": "South Sydney Rabbitohs",
+      "awayTeam": "Melbourne Storm",
+      "commenceTime": "2026-07-24T10:00:00Z",
+      "bookmaker": "sportsbet",
+      "h2h": {
+        "home": 1.43,
+        "away": 2.85
+      },
+      "line": {
+        "home": {
+          "odd": 1.9,
+          "point": -6.5
+        },
+        "away": {
+          "odd": 1.9,
+          "point": 6.5
+        }
+      },
+      "ou": {
+        "total": 46.5,
+        "overOdd": 2.01,
+        "underOdd": 1.8
+      },
+      "bookmakerComparison": [
+        {
+          "key": "sportsbet",
+          "name": "Sportsbet",
+          "home": 1.43,
+          "away": 2.85
         }
       ]
     },
