@@ -6,12 +6,12 @@ const NRL_TEAM_DATA = {
   'Brisbane Broncos': {
     emoji: '🐻', shortName: 'Broncos', venue: 'Suncorp Stadium', wikiPage: 'Brisbane_Broncos', logoFile: 'brisbane-broncos.svg',
     players: [
-      { name: "Josiah Karapani",                   pos: "wing",           tryRate: 0.3571 },
-      { name: "Reece Walsh",                       pos: "fullback",       tryRate: 0.4545 },
-      { name: "Adam Reynolds",                     pos: "halfback",       tryRate: 0.2727 },
-      { name: "Kotoni Staggs",                     pos: "centre",         tryRate: 0.5385 },
-      { name: "Xavier Willison",                   pos: "lock",           tryRate: 0.25 },
-      { name: "Jordan Riki",                       pos: "lock",           tryRate: 0.2143 },
+      { name: "Josiah Karapani",                   pos: "wing",           tryRate: 0.4 },
+      { name: "Reece Walsh",                       pos: "fullback",       tryRate: 0.4167 },
+      { name: "Ezra Mam",                          pos: "five-eighth",    tryRate: 0.2 },
+      { name: "Kotoni Staggs",                     pos: "centre",         tryRate: 0.5714 },
+      { name: "Xavier Willison",                   pos: "prop",           tryRate: 0.2353 },
+      { name: "Jordan Riki",                       pos: "lock",           tryRate: 0.2667 },
     ],
   },
 
@@ -150,12 +150,12 @@ const NRL_TEAM_DATA = {
   'Penrith Panthers': {
     emoji: '🐾', shortName: 'Panthers', venue: 'BlueBet Stadium', wikiPage: 'Penrith_Panthers', logoFile: 'penrith-panthers.png',
     players: [
-      { name: "Thomas Jenkins",                    pos: "wing",           tryRate: 1.5625 },
-      { name: "Dylan Edwards",                     pos: "fullback",       tryRate: 0.625 },
-      { name: "Blaize Talagi",                     pos: "five-eighth",    tryRate: 0.3125 },
-      { name: "Brian To'o",                        pos: "wing",           tryRate: 0.6429 },
-      { name: "Casey McLean",                      pos: "centre",         tryRate: 0.5 },
-      { name: "Nathan Cleary",                     pos: "halfback",       tryRate: 0.3846 },
+      { name: "Thomas Jenkins",                    pos: "wing",           tryRate: 1.4706 },
+      { name: "Dylan Edwards",                     pos: "fullback",       tryRate: 0.5882 },
+      { name: "Blaize Talagi",                     pos: "five-eighth",    tryRate: 0.2941 },
+      { name: "Brian To'o",                        pos: "wing",           tryRate: 0.7333 },
+      { name: "Casey McLean",                      pos: "centre",         tryRate: 0.4615 },
+      { name: "Nathan Cleary",                     pos: "halfback",       tryRate: 0.3571 },
     ],
   },
 

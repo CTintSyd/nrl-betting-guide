@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-07-16T11:42:14Z",
+  "updatedAt": "2026-07-17T06:09:42Z",
   "season": 2026,
-  "totalFavRecord": "83-57",
-  "totalLineRecord": "22-22",
-  "totalOuRecord": "15O-28U",
+  "totalFavRecord": "83-58",
+  "totalLineRecord": "22-23",
+  "totalOuRecord": "15O-29U",
   "rounds": [
     {
       "round": 1,
@@ -2256,6 +2256,29 @@
       "favRecord": "3-4",
       "lineRecord": "2-5",
       "ouRecord": "3O-4U"
+    },
+    {
+      "round": 20,
+      "games": [
+        {
+          "homeTeam": "Penrith Panthers",
+          "awayTeam": "Brisbane Broncos",
+          "homeScore": 12,
+          "awayScore": 14,
+          "winner": "Brisbane Broncos",
+          "margin": 2,
+          "favourite": "Penrith Panthers",
+          "favouriteWon": false,
+          "linePoint": -13.5,
+          "lineCovered": false,
+          "ouTotal": 45.5,
+          "ouResult": "Under",
+          "oddsSourced": true
+        }
+      ],
+      "favRecord": "0-1",
+      "lineRecord": "0-1",
+      "ouRecord": "0O-1U"
     }
   ]
 }

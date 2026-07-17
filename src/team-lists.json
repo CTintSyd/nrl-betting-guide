@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-16T11:42:07.298960+00:00",
+  "generatedAt": "2026-07-17T06:09:34.823229+00:00",
   "round": 20,
   "games": [
     {
@@ -22,7 +22,7 @@
     },
     {
       "matchCentreUrl": "/draw/nrl-premiership/2026/round-20/warriors-v-dragons/",
-      "kickoff": "2026-07-18T07:30:00Z",
+      "kickoff": "2026-07-18T07:35:00Z",
       "homeTeam": "New Zealand Warriors",
       "awayTeam": "St George Illawarra Dragons"
     },
@@ -438,12 +438,6 @@
         "category": "starting"
       },
       {
-        "number": 5,
-        "name": "Moses Leo",
-        "position": "Winger",
-        "category": "starting"
-      },
-      {
         "number": 6,
         "name": "Tyran Wishart",
         "position": "Five-Eighth",
@@ -524,12 +518,18 @@
       {
         "number": 19,
         "name": "Siulagi Tuimalatu-Brown",
-        "position": "Interchange",
+        "position": "Winger",
         "category": "reserve"
       },
       {
         "number": 20,
         "name": "Davvy Moale",
+        "position": "Interchange",
+        "category": "reserve"
+      },
+      {
+        "number": 21,
+        "name": "Manaia Waitere",
         "position": "Reserve",
         "category": "reserve"
       }
@@ -654,18 +654,6 @@
         "name": "Coby Black",
         "position": "Reserve",
         "category": "reserve"
-      },
-      {
-        "number": 21,
-        "name": "Joe Roddy",
-        "position": "Reserve",
-        "category": "reserve"
-      },
-      {
-        "number": 22,
-        "name": "Sione Finau",
-        "position": "Reserve",
-        "category": "reserve"
       }
     ],
     "South Sydney Rabbitohs": [
@@ -786,18 +774,6 @@
       {
         "number": 20,
         "name": "John Radel",
-        "position": "Reserve",
-        "category": "reserve"
-      },
-      {
-        "number": 21,
-        "name": "Thomas Fletcher",
-        "position": "Reserve",
-        "category": "reserve"
-      },
-      {
-        "number": 22,
-        "name": "Edward Kosi",
         "position": "Reserve",
         "category": "reserve"
       }
@@ -2095,18 +2071,18 @@
     ],
     "Penrith Panthers": [
       {
-        "name": "Mitch Kenny",
-        "injury": "Leg",
-        "expectedReturn": "Round 21",
-        "imageUrl": "/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500014/Mitch%20Kenny%20_260123_Panthers_MK239.png?center=0.5%2C0.5",
-        "profileUrl": "https://www.nrl.com/players/nrl-premiership/panthers/mitchell-kenny/"
-      },
-      {
         "name": "Jack Cogger",
         "injury": "Suspension",
         "expectedReturn": "Round 22",
         "imageUrl": "/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500014/Jack%20Cogger%20_260123_Panthers_MK816.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/panthers/jack-cogger/"
+      },
+      {
+        "name": "Mitch Kenny",
+        "injury": "Leg",
+        "expectedReturn": "TBC",
+        "imageUrl": "/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500014/Mitch%20Kenny%20_260123_Panthers_MK239.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/panthers/mitchell-kenny/"
       }
     ],
     "South Sydney Rabbitohs": [
@@ -2160,6 +2136,13 @@
         "expectedReturn": "Round 21",
         "imageUrl": "/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500013/Sebastian%20Kris%20_260121_Raiders_MK356.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/raiders/sebastian-kris/"
+      },
+      {
+        "name": "Matty Nicholson",
+        "injury": "Shoulder",
+        "expectedReturn": "Round 21",
+        "imageUrl": "/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500013/Matty%20Nicholson%20_260121_Raiders_MK141.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/raiders/matty-nicholson/"
       }
     ],
     "Sydney Roosters": [
@@ -2187,7 +2170,7 @@
       {
         "name": "Angus Crichton",
         "injury": "Foot",
-        "expectedReturn": "TBC",
+        "expectedReturn": "Round 26",
         "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500001/Angus%20Crichton%20260203_Roosters1332.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/roosters/angus-crichton/"
       },

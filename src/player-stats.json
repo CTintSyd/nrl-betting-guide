@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-16T11:41:58.348143+00:00",
-  "round": 19,
+  "generatedAt": "2026-07-17T06:09:23.338334+00:00",
+  "round": 20,
   "players": {
     "Kalyn Ponga": {
       "tries": 3,
@@ -1068,50 +1068,50 @@
     },
     "Reece Walsh": {
       "tries": 5,
-      "games": 11,
-      "tryRate": 0.4545,
+      "games": 12,
+      "tryRate": 0.4167,
       "team": "Brisbane Broncos",
       "position": "Fullback"
     },
     "Josiah Karapani": {
-      "tries": 5,
-      "games": 14,
-      "tryRate": 0.3571,
+      "tries": 6,
+      "games": 15,
+      "tryRate": 0.4,
       "team": "Brisbane Broncos",
       "position": "Winger"
     },
     "Kotoni Staggs": {
-      "tries": 7,
-      "games": 13,
-      "tryRate": 0.5385,
+      "tries": 8,
+      "games": 14,
+      "tryRate": 0.5714,
       "team": "Brisbane Broncos",
       "position": "Centre"
     },
     "Gehamat Shibasaki": {
       "tries": 3,
-      "games": 13,
-      "tryRate": 0.2308,
+      "games": 14,
+      "tryRate": 0.2143,
       "team": "Brisbane Broncos",
       "position": "Centre"
     },
     "Deine Mariner": {
       "tries": 3,
-      "games": 10,
-      "tryRate": 0.3,
+      "games": 11,
+      "tryRate": 0.2727,
       "team": "Brisbane Broncos",
       "position": "Winger"
     },
     "Ezra Mam": {
       "tries": 3,
-      "games": 14,
-      "tryRate": 0.2143,
+      "games": 15,
+      "tryRate": 0.2,
       "team": "Brisbane Broncos",
-      "position": "Interchange"
+      "position": "Five-Eighth"
     },
     "Adam Reynolds": {
       "tries": 3,
-      "games": 11,
-      "tryRate": 0.2727,
+      "games": 12,
+      "tryRate": 0.25,
       "team": "Brisbane Broncos",
       "position": "Halfback"
     },
@@ -1124,15 +1124,15 @@
     },
     "Cory Paix": {
       "tries": 2,
-      "games": 15,
-      "tryRate": 0.1333,
+      "games": 16,
+      "tryRate": 0.125,
       "team": "Brisbane Broncos",
       "position": "Hooker"
     },
     "Payne Haas": {
       "tries": 1,
-      "games": 9,
-      "tryRate": 0.1111,
+      "games": 10,
+      "tryRate": 0.1,
       "team": "Brisbane Broncos",
       "position": "Prop"
     },
@@ -1144,37 +1144,37 @@
       "position": "Interchange"
     },
     "Jordan Riki": {
-      "tries": 3,
-      "games": 14,
-      "tryRate": 0.2143,
+      "tries": 4,
+      "games": 15,
+      "tryRate": 0.2667,
       "team": "Brisbane Broncos",
       "position": "2nd Row"
     },
     "Patrick Carrigan": {
       "tries": 1,
-      "games": 10,
-      "tryRate": 0.1,
+      "games": 11,
+      "tryRate": 0.0909,
       "team": "Brisbane Broncos",
       "position": "Lock"
     },
     "Ben Hunt": {
       "tries": 0,
-      "games": 12,
+      "games": 13,
       "tryRate": 0.0,
       "team": "Brisbane Broncos",
-      "position": "Halfback"
+      "position": "Interchange"
     },
     "Xavier Willison": {
       "tries": 4,
-      "games": 16,
-      "tryRate": 0.25,
+      "games": 17,
+      "tryRate": 0.2353,
       "team": "Brisbane Broncos",
-      "position": "Lock"
+      "position": "Prop"
     },
     "Ben Talty": {
       "tries": 2,
-      "games": 16,
-      "tryRate": 0.125,
+      "games": 17,
+      "tryRate": 0.1176,
       "team": "Brisbane Broncos",
       "position": "Interchange"
     },
@@ -1187,10 +1187,10 @@
     },
     "Grant Anderson": {
       "tries": 2,
-      "games": 9,
-      "tryRate": 0.2222,
+      "games": 10,
+      "tryRate": 0.2,
       "team": "Brisbane Broncos",
-      "position": "Winger"
+      "position": "Reserve"
     },
     "Jaiyden Hunt": {
       "tries": 0,
@@ -1201,56 +1201,56 @@
     },
     "Dylan Edwards": {
       "tries": 10,
-      "games": 16,
-      "tryRate": 0.625,
+      "games": 17,
+      "tryRate": 0.5882,
       "team": "Penrith Panthers",
       "position": "Fullback"
     },
     "Paul Alamoti": {
       "tries": 4,
-      "games": 16,
-      "tryRate": 0.25,
+      "games": 17,
+      "tryRate": 0.2353,
       "team": "Penrith Panthers",
       "position": "Centre"
     },
     "Izack Tago": {
       "tries": 3,
-      "games": 16,
-      "tryRate": 0.1875,
+      "games": 17,
+      "tryRate": 0.1765,
       "team": "Penrith Panthers",
-      "position": "Interchange"
+      "position": "Reserve"
     },
     "Casey McLean": {
       "tries": 6,
-      "games": 12,
-      "tryRate": 0.5,
+      "games": 13,
+      "tryRate": 0.4615,
       "team": "Penrith Panthers",
       "position": "Centre"
     },
     "Brian To'o": {
-      "tries": 9,
-      "games": 14,
-      "tryRate": 0.6429,
+      "tries": 11,
+      "games": 15,
+      "tryRate": 0.7333,
       "team": "Penrith Panthers",
       "position": "Winger"
     },
     "Blaize Talagi": {
       "tries": 5,
-      "games": 16,
-      "tryRate": 0.3125,
+      "games": 17,
+      "tryRate": 0.2941,
       "team": "Penrith Panthers",
       "position": "Five-Eighth"
     },
     "Nathan Cleary": {
       "tries": 5,
-      "games": 13,
-      "tryRate": 0.3846,
+      "games": 14,
+      "tryRate": 0.3571,
       "team": "Penrith Panthers",
       "position": "Halfback"
     },
     "Moses Leota": {
       "tries": 0,
-      "games": 16,
+      "games": 17,
       "tryRate": 0.0,
       "team": "Penrith Panthers",
       "position": "Prop"
@@ -1264,17 +1264,17 @@
     },
     "Lindsay Smith": {
       "tries": 3,
-      "games": 16,
-      "tryRate": 0.1875,
+      "games": 17,
+      "tryRate": 0.1765,
       "team": "Penrith Panthers",
-      "position": "Lock"
+      "position": "Prop"
     },
     "Scott Sorensen": {
       "tries": 0,
-      "games": 16,
+      "games": 17,
       "tryRate": 0.0,
       "team": "Penrith Panthers",
-      "position": "2nd Row"
+      "position": "Interchange"
     },
     "Luke Garner": {
       "tries": 3,
@@ -1285,8 +1285,8 @@
     },
     "Isaah Yeo": {
       "tries": 2,
-      "games": 13,
-      "tryRate": 0.1538,
+      "games": 14,
+      "tryRate": 0.1429,
       "team": "Penrith Panthers",
       "position": "Lock"
     },
@@ -1299,8 +1299,8 @@
     },
     "Isaiah Papali'i": {
       "tries": 2,
-      "games": 15,
-      "tryRate": 0.1333,
+      "games": 16,
+      "tryRate": 0.125,
       "team": "Penrith Panthers",
       "position": "2nd Row"
     },
@@ -1313,24 +1313,24 @@
     },
     "Thomas Jenkins": {
       "tries": 25,
-      "games": 16,
-      "tryRate": 1.5625,
+      "games": 17,
+      "tryRate": 1.4706,
       "team": "Penrith Panthers",
       "position": "Winger"
     },
     "Freddy Lussick": {
       "tries": 4,
-      "games": 16,
-      "tryRate": 0.25,
+      "games": 17,
+      "tryRate": 0.2353,
       "team": "Penrith Panthers",
       "position": "Hooker"
     },
     "Billy Phillips": {
       "tries": 2,
-      "games": 15,
-      "tryRate": 0.1333,
+      "games": 16,
+      "tryRate": 0.125,
       "team": "Penrith Panthers",
-      "position": "2nd Row"
+      "position": "Interchange"
     },
     "William Kennedy": {
       "tries": 7,
@@ -2433,17 +2433,17 @@
     },
     "Liam Martin": {
       "tries": 2,
-      "games": 8,
-      "tryRate": 0.25,
+      "games": 9,
+      "tryRate": 0.2222,
       "team": "Penrith Panthers",
       "position": "2nd Row"
     },
     "Jack Cole": {
       "tries": 0,
-      "games": 7,
+      "games": 8,
       "tryRate": 0.0,
       "team": "Penrith Panthers",
-      "position": "Centre"
+      "position": "Reserve"
     },
     "Trent Loiero": {
       "tries": 1,
@@ -2454,8 +2454,8 @@
     },
     "Brendan Piakura": {
       "tries": 2,
-      "games": 11,
-      "tryRate": 0.1818,
+      "games": 12,
+      "tryRate": 0.1667,
       "team": "Brisbane Broncos",
       "position": "2nd Row"
     },
@@ -2615,10 +2615,10 @@
     },
     "Va'a Semu": {
       "tries": 0,
-      "games": 9,
+      "games": 10,
       "tryRate": 0.0,
       "team": "Brisbane Broncos",
-      "position": "Prop"
+      "position": "Reserve"
     },
     "Francis Molo": {
       "tries": 0,
@@ -2727,7 +2727,7 @@
     },
     "Billy Scott": {
       "tries": 0,
-      "games": 9,
+      "games": 10,
       "tryRate": 0.0,
       "team": "Penrith Panthers",
       "position": "Interchange"
@@ -2797,10 +2797,10 @@
     },
     "Hayze Perham": {
       "tries": 1,
-      "games": 9,
-      "tryRate": 0.1111,
+      "games": 10,
+      "tryRate": 0.1,
       "team": "Brisbane Broncos",
-      "position": "Fullback"
+      "position": "Reserve"
     },
     "Josh Rogers": {
       "tries": 0,
@@ -3028,10 +3028,10 @@
     },
     "Preston Riki": {
       "tries": 0,
-      "games": 8,
+      "games": 9,
       "tryRate": 0.0,
       "team": "Brisbane Broncos",
-      "position": "Prop"
+      "position": "Interchange"
     },
     "Tevita Naufahu": {
       "tries": 3,
@@ -3196,10 +3196,10 @@
     },
     "Liam Henry": {
       "tries": 1,
-      "games": 7,
-      "tryRate": 0.1429,
+      "games": 8,
+      "tryRate": 0.125,
       "team": "Penrith Panthers",
-      "position": "Prop"
+      "position": "Interchange"
     },
     "Ronaldo Mulitalo": {
       "tries": 6,
