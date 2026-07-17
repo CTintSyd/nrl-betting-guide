@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-17T07:49:30.845Z",
-  "quotaRemaining": 137,
+  "updated": "2026-07-17T10:28:41.539Z",
+  "quotaRemaining": 134,
   "round": 20,
   "venueOverride": {
     "venue": "Suncorp Stadium",
@@ -8,106 +8,42 @@
   },
   "games": [
     {
-      "id": "4875a316f7a8705e7b6fba48b548ff97",
-      "homeTeam": "Cronulla Sutherland Sharks",
-      "awayTeam": "Newcastle Knights",
-      "commenceTime": "2026-07-17T08:00:00Z",
-      "bookmaker": "sportsbet",
-      "h2h": {
-        "home": 1.38,
-        "away": 3.06
-      },
-      "line": {
-        "home": {
-          "odd": 1.96,
-          "point": -8.5
-        },
-        "away": {
-          "odd": 1.86,
-          "point": 8.5
-        }
-      },
-      "ou": {
-        "total": 43.5,
-        "overOdd": 1.91,
-        "underOdd": 1.91
-      },
-      "bookmakerComparison": [
-        {
-          "key": "sportsbet",
-          "name": "Sportsbet",
-          "home": 1.38,
-          "away": 3.06
-        },
-        {
-          "key": "tab",
-          "name": "TAB",
-          "home": 1.42,
-          "away": 2.9
-        },
-        {
-          "key": "betright",
-          "name": "BetRight",
-          "home": 1.4,
-          "away": 3
-        },
-        {
-          "key": "ladbrokes_au",
-          "name": "Ladbrokes",
-          "home": 1.42,
-          "away": 2.9
-        }
-      ]
-    },
-    {
       "id": "1ae0cf6c922a22a04066dcb480951336",
       "homeTeam": "Sydney Roosters",
       "awayTeam": "Melbourne Storm",
-      "commenceTime": "2026-07-17T10:00:00Z",
-      "bookmaker": "sportsbet",
+      "commenceTime": "2026-07-17T10:01:00Z",
+      "bookmaker": "tab",
       "h2h": {
-        "home": 1.28,
-        "away": 3.66
+        "home": 1.1,
+        "away": 6.5
       },
       "line": {
         "home": {
-          "odd": 1.9,
-          "point": -11.5
+          "odd": null,
+          "point": null
         },
         "away": {
-          "odd": 1.9,
-          "point": 11.5
+          "odd": null,
+          "point": null
         }
       },
       "ou": {
-        "total": 44.5,
-        "overOdd": 1.99,
-        "underOdd": 1.82
+        "total": null,
+        "overOdd": null,
+        "underOdd": null
       },
       "bookmakerComparison": [
         {
-          "key": "sportsbet",
-          "name": "Sportsbet",
-          "home": 1.28,
-          "away": 3.66
-        },
-        {
           "key": "tab",
           "name": "TAB",
-          "home": 1.28,
-          "away": 3.7
+          "home": 1.1,
+          "away": 6.5
         },
         {
-          "key": "betright",
-          "name": "BetRight",
-          "home": 1.27,
-          "away": 3.75
-        },
-        {
-          "key": "ladbrokes_au",
-          "name": "Ladbrokes",
-          "home": 1.28,
-          "away": 3.75
+          "key": "pointsbetau",
+          "name": "PointsBet",
+          "home": 1.04,
+          "away": 10
         }
       ]
     },
@@ -222,7 +158,7 @@
       "commenceTime": "2026-07-18T09:35:00Z",
       "bookmaker": "sportsbet",
       "h2h": {
-        "home": 1.5,
+        "home": 1.47,
         "away": 2.7
       },
       "line": {
@@ -244,7 +180,7 @@
         {
           "key": "sportsbet",
           "name": "Sportsbet",
-          "home": 1.5,
+          "home": 1.47,
           "away": 2.7
         },
         {
@@ -256,8 +192,8 @@
         {
           "key": "betright",
           "name": "BetRight",
-          "home": 1.52,
-          "away": 2.55
+          "home": 1.5,
+          "away": 2.6
         },
         {
           "key": "ladbrokes_au",
@@ -408,86 +344,6 @@
           "name": "TAB",
           "home": 4.2,
           "away": 1.22
-        }
-      ]
-    },
-    {
-      "id": "b88657615eae0fdc1b8f93a6f0d8ecfd",
-      "homeTeam": "Newcastle Knights",
-      "awayTeam": "Sydney Roosters",
-      "commenceTime": "2026-07-24T08:00:00Z",
-      "bookmaker": "sportsbet",
-      "h2h": {
-        "home": 2.27,
-        "away": 1.64
-      },
-      "line": {
-        "home": {
-          "odd": 1.9,
-          "point": 3.5
-        },
-        "away": {
-          "odd": 1.9,
-          "point": -3.5
-        }
-      },
-      "ou": {
-        "total": 46.5,
-        "overOdd": 2,
-        "underOdd": 1.81
-      },
-      "bookmakerComparison": [
-        {
-          "key": "sportsbet",
-          "name": "Sportsbet",
-          "home": 2.27,
-          "away": 1.64
-        },
-        {
-          "key": "tab",
-          "name": "TAB",
-          "home": 2.25,
-          "away": 1.65
-        }
-      ]
-    },
-    {
-      "id": "9a009757d284c37e64413ae3cc2cebd0",
-      "homeTeam": "South Sydney Rabbitohs",
-      "awayTeam": "Melbourne Storm",
-      "commenceTime": "2026-07-24T10:00:00Z",
-      "bookmaker": "sportsbet",
-      "h2h": {
-        "home": 1.48,
-        "away": 2.67
-      },
-      "line": {
-        "home": {
-          "odd": 1.98,
-          "point": -6.5
-        },
-        "away": {
-          "odd": 1.83,
-          "point": 6.5
-        }
-      },
-      "ou": {
-        "total": 46.5,
-        "overOdd": 2,
-        "underOdd": 1.81
-      },
-      "bookmakerComparison": [
-        {
-          "key": "sportsbet",
-          "name": "Sportsbet",
-          "home": 1.48,
-          "away": 2.67
-        },
-        {
-          "key": "tab",
-          "name": "TAB",
-          "home": 1.5,
-          "away": 2.6
         }
       ]
     },
@@ -658,17 +514,17 @@
       "commenceTime": "2026-07-26T06:05:00Z",
       "bookmaker": "sportsbet",
       "h2h": {
-        "home": 1.87,
-        "away": 1.97
+        "home": 1.84,
+        "away": 2
       },
       "line": {
         "home": {
-          "odd": 1.85,
-          "point": -0.5
+          "odd": 1.95,
+          "point": -1.5
         },
         "away": {
-          "odd": 1.96,
-          "point": 0.5
+          "odd": 1.86,
+          "point": 1.5
         }
       },
       "ou": {
@@ -680,8 +536,8 @@
         {
           "key": "sportsbet",
           "name": "Sportsbet",
-          "home": 1.87,
-          "away": 1.97
+          "home": 1.84,
+          "away": 2
         },
         {
           "key": "tab",
