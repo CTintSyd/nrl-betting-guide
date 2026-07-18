@@ -1,13 +1,7 @@
 {
-  "generatedAt": "2026-07-18T08:11:53.991686+00:00",
+  "generatedAt": "2026-07-18T09:49:03.686690+00:00",
   "round": 20,
   "games": [
-    {
-      "matchCentreUrl": "/draw/nrl-premiership/2026/round-20/bulldogs-v-wests-tigers/",
-      "kickoff": "2026-07-18T09:35:00Z",
-      "homeTeam": "Canterbury Bulldogs",
-      "awayTeam": "Wests Tigers"
-    },
     {
       "matchCentreUrl": "/draw/nrl-premiership/2026/round-20/titans-v-sea-eagles/",
       "kickoff": "2026-07-19T04:00:00Z",
@@ -22,238 +16,6 @@
     }
   ],
   "teams": {
-    "Canterbury Bulldogs": [
-      {
-        "number": 1,
-        "name": "Connor Tracey",
-        "position": "Fullback",
-        "category": "starting"
-      },
-      {
-        "number": 2,
-        "name": "Jacob Kiraz",
-        "position": "Winger",
-        "category": "starting"
-      },
-      {
-        "number": 3,
-        "name": "Matt Burton",
-        "position": "Centre",
-        "category": "starting"
-      },
-      {
-        "number": 4,
-        "name": "Enari Tuala",
-        "position": "Centre",
-        "category": "starting"
-      },
-      {
-        "number": 5,
-        "name": "Jethro Rinakama",
-        "position": "Winger",
-        "category": "starting"
-      },
-      {
-        "number": 6,
-        "name": "Sean O'Sullivan",
-        "position": "Five-Eighth",
-        "category": "starting"
-      },
-      {
-        "number": 7,
-        "name": "Lachlan Galvin",
-        "position": "Halfback",
-        "category": "starting"
-      },
-      {
-        "number": 8,
-        "name": "Max King",
-        "position": "Prop",
-        "category": "starting"
-      },
-      {
-        "number": 9,
-        "name": "Bailey Hayward",
-        "position": "Hooker",
-        "category": "starting"
-      },
-      {
-        "number": 10,
-        "name": "Leo Thompson",
-        "position": "Prop",
-        "category": "starting"
-      },
-      {
-        "number": 11,
-        "name": "Jaeman Salmon",
-        "position": "2nd Row",
-        "category": "starting"
-      },
-      {
-        "number": 12,
-        "name": "Jacob Preston",
-        "position": "2nd Row",
-        "category": "starting"
-      },
-      {
-        "number": 13,
-        "name": "Harry Hayes",
-        "position": "Interchange",
-        "category": "starting"
-      },
-      {
-        "number": 15,
-        "name": "Josh Curran",
-        "position": "Lock",
-        "category": "interchange"
-      },
-      {
-        "number": 16,
-        "name": "Jack Underhill",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
-        "number": 17,
-        "name": "Lipoi Hopoi",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
-        "number": 19,
-        "name": "Marcelo Montoya",
-        "position": "Interchange",
-        "category": "reserve"
-      },
-      {
-        "number": 20,
-        "name": "Gordon Chan Kum Tong",
-        "position": "Interchange",
-        "category": "reserve"
-      },
-      {
-        "number": 21,
-        "name": "Viliame Kikau",
-        "position": "Interchange",
-        "category": "reserve"
-      }
-    ],
-    "Wests Tigers": [
-      {
-        "number": 1,
-        "name": "Jahream Bula",
-        "position": "Fullback",
-        "category": "starting"
-      },
-      {
-        "number": 2,
-        "name": "Sunia Turuva",
-        "position": "Winger",
-        "category": "starting"
-      },
-      {
-        "number": 3,
-        "name": "Heamasi Makasini",
-        "position": "Centre",
-        "category": "starting"
-      },
-      {
-        "number": 4,
-        "name": "Starford To'a",
-        "position": "Centre",
-        "category": "starting"
-      },
-      {
-        "number": 5,
-        "name": "Jeral Skelton",
-        "position": "Winger",
-        "category": "starting"
-      },
-      {
-        "number": 6,
-        "name": "Jarome Luai",
-        "position": "Five-Eighth",
-        "category": "starting"
-      },
-      {
-        "number": 7,
-        "name": "Adam Doueihi",
-        "position": "Halfback",
-        "category": "starting"
-      },
-      {
-        "number": 8,
-        "name": "Terrell May",
-        "position": "Prop",
-        "category": "starting"
-      },
-      {
-        "number": 9,
-        "name": "Jared Haywood",
-        "position": "Hooker",
-        "category": "starting"
-      },
-      {
-        "number": 10,
-        "name": "Fonua Pole",
-        "position": "Interchange",
-        "category": "starting"
-      },
-      {
-        "number": 11,
-        "name": "Samuela Fainu",
-        "position": "2nd Row",
-        "category": "starting"
-      },
-      {
-        "number": 12,
-        "name": "Sione Fainu",
-        "position": "2nd Row",
-        "category": "starting"
-      },
-      {
-        "number": 13,
-        "name": "Alex Twal",
-        "position": "Lock",
-        "category": "starting"
-      },
-      {
-        "number": 14,
-        "name": "Latu Fainu",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
-        "number": 15,
-        "name": "Ethan Roberts",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
-        "number": 16,
-        "name": "Alex Seyfarth",
-        "position": "Prop",
-        "category": "interchange"
-      },
-      {
-        "number": 18,
-        "name": "Faaletino Tavana",
-        "position": "Interchange",
-        "category": "reserve"
-      },
-      {
-        "number": 19,
-        "name": "Kit Laulilii",
-        "position": "Interchange",
-        "category": "reserve"
-      },
-      {
-        "number": 22,
-        "name": "Apisai Koroisau",
-        "position": "Interchange",
-        "category": "reserve"
-      }
-    ],
     "Gold Coast Titans": [
       {
         "number": 1,
@@ -821,6 +583,13 @@
       }
     ],
     "Dolphins": [
+      {
+        "name": "Jack Bostock",
+        "injury": "Head knock",
+        "expectedReturn": "Round 21",
+        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500723/Bodyshot-Bostock.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/dolphins/jack-bostock/"
+      },
       {
         "name": "Isaiya Katoa",
         "injury": "Wrist",

@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-07-18T08:12:02Z",
+  "updatedAt": "2026-07-18T09:49:14Z",
   "season": 2026,
-  "totalFavRecord": "87-57",
-  "totalLineRecord": "21-17",
-  "totalOuRecord": "15O-22U",
+  "totalFavRecord": "88-57",
+  "totalLineRecord": "21-18",
+  "totalOuRecord": "15O-23U",
   "rounds": [
     {
       "round": 1,
@@ -2319,11 +2319,26 @@
           "ouTotal": 48.5,
           "ouResult": "Over",
           "oddsSourced": true
+        },
+        {
+          "homeTeam": "New Zealand Warriors",
+          "awayTeam": "St George Illawarra Dragons",
+          "homeScore": 20,
+          "awayScore": 12,
+          "winner": "New Zealand Warriors",
+          "margin": 8,
+          "favourite": "New Zealand Warriors",
+          "favouriteWon": true,
+          "linePoint": -13.5,
+          "lineCovered": false,
+          "ouTotal": 46.5,
+          "ouResult": "Under",
+          "oddsSourced": true
         }
       ],
-      "favRecord": "3-1",
-      "lineRecord": "3-1",
-      "ouRecord": "1O-3U"
+      "favRecord": "4-1",
+      "lineRecord": "3-2",
+      "ouRecord": "1O-4U"
     }
   ]
 }

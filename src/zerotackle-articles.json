@@ -1,9 +1,20 @@
 {
-  "updated": "2026-07-18T08:11:55Z",
+  "updated": "2026-07-18T09:49:05Z",
   "articles": [
     {
-      "title": "LIVE: Warriors vs Dragons – Round 20, 2026",
-      "url": "https://www.zerotackle.com/live-warriors-dragons-round-20-2026-mc10396483-235843/",
+      "title": "LIVE: Bulldogs vs Wests Tigers – Round 20, 2026",
+      "url": "https://www.zerotackle.com/live-bulldogs-wests-tigers-round-20-2026-mc10396484-235841/",
+      "description": "The Canterbury-Bankstown Bulldogs face the Wests Tigers in Round 20 of the 2026 NRL season. Follow the live scores, team lists, match statistics and key moments from the game at Accor Stadium.",
+      "date": "Sat, 20 Jun 2026 09:30:00 +0000",
+      "teams": [
+        "Canterbury Bulldogs",
+        "Wests Tigers"
+      ],
+      "isRound": true
+    },
+    {
+      "title": "FULL TIME: Warriors vs Dragons – Round 20, 2026",
+      "url": "https://www.zerotackle.com/fulltime-warriors-dragons-round-20-2026-mc10396483-235843/",
       "description": "The New Zealand Warriors face the St George Illawarra Dragons in Round 20 of the 2026 NRL season. Follow the live scores, team lists, match statistics and key moments from the game at Go Media Stadium.",
       "date": "Sat, 20 Jun 2026 07:30:00 +0000",
       "teams": [
@@ -76,17 +87,6 @@
         "Gold Coast Titans"
       ],
       "isRound": true
-    },
-    {
-      "title": "Eels and Storm feud continues amid transfer block",
-      "url": "https://www.zerotackle.com/eels-and-storm-feud-continues-amid-transfer-block-236017/",
-      "description": "The Storm outside back requested a release from the last year of his contract.",
-      "date": "Sat, 18 Jul 2026 03:35:37 +0000",
-      "teams": [
-        "Parramatta Eels",
-        "Melbourne Storm"
-      ],
-      "isRound": false
     }
   ]
 }
