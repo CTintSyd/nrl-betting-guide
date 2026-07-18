@@ -1,25 +1,7 @@
 {
-  "updated": "2026-07-17T22:40:01.017Z",
+  "updated": "2026-07-18T22:36:53.171Z",
   "quotaRemaining": null,
   "games": {
-    "Canberra Raiders vs South Sydney Rabbitohs": {
-      "homeTeam": "Canberra Raiders",
-      "awayTeam": "South Sydney Rabbitohs",
-      "available": false,
-      "error": "API 422: {\"message\":\"Invalid markets: player_anytime_try_scorer, player_first_try_scorer\",\"error_code\":\"INVALID_MARKET\",\"details_url\":\"https://the-odds-api.com/liveapi/guides/v4/api-error-codes.html#invalid-market\"}\n"
-    },
-    "New Zealand Warriors vs St George Illawarra Dragons": {
-      "homeTeam": "New Zealand Warriors",
-      "awayTeam": "St George Illawarra Dragons",
-      "available": false,
-      "error": "API 422: {\"message\":\"Invalid markets: player_anytime_try_scorer, player_first_try_scorer\",\"error_code\":\"INVALID_MARKET\",\"details_url\":\"https://the-odds-api.com/liveapi/guides/v4/api-error-codes.html#invalid-market\"}\n"
-    },
-    "Canterbury Bulldogs vs Wests Tigers": {
-      "homeTeam": "Canterbury Bulldogs",
-      "awayTeam": "Wests Tigers",
-      "available": false,
-      "error": "API 422: {\"message\":\"Invalid markets: player_anytime_try_scorer, player_first_try_scorer\",\"error_code\":\"INVALID_MARKET\",\"details_url\":\"https://the-odds-api.com/liveapi/guides/v4/api-error-codes.html#invalid-market\"}\n"
-    },
     "Gold Coast Titans vs Manly Warringah Sea Eagles": {
       "homeTeam": "Gold Coast Titans",
       "awayTeam": "Manly Warringah Sea Eagles",
