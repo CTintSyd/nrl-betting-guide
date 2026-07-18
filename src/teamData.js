@@ -30,12 +30,12 @@ const NRL_TEAM_DATA = {
   'Canterbury Bulldogs': {
     emoji: '🐕', shortName: 'Bulldogs', venue: 'Accor Stadium', wikiPage: 'Canterbury-Bankstown_Bulldogs', logoFile: 'canterbury-bulldogs.png',
     players: [
-      { name: "Jacob Kiraz",                       pos: "wing",           tryRate: 0.5 },
-      { name: "Connor Tracey",                     pos: "fullback",       tryRate: 0.2143 },
-      { name: "Lachlan Galvin",                    pos: "halfback",       tryRate: 0.375 },
-      { name: "Jethro Rinakama",                   pos: "wing",           tryRate: 0.5 },
-      { name: "Matt Burton",                       pos: "centre",         tryRate: 0.2667 },
-      { name: "Sitili Tupouniua",                  pos: "lock",           tryRate: 0.2857 },
+      { name: "Jacob Kiraz",                       pos: "wing",           tryRate: 0.4615 },
+      { name: "Connor Tracey",                     pos: "fullback",       tryRate: 0.2 },
+      { name: "Lachlan Galvin",                    pos: "halfback",       tryRate: 0.3529 },
+      { name: "Jethro Rinakama",                   pos: "wing",           tryRate: 0.5455 },
+      { name: "Matt Burton",                       pos: "centre",         tryRate: 0.3125 },
+      { name: "Josh Curran",                       pos: "lock",           tryRate: 0.3846 },
     ],
   },
 
@@ -198,12 +198,12 @@ const NRL_TEAM_DATA = {
   'Wests Tigers': {
     emoji: '🐯', shortName: 'Tigers', venue: 'Campbelltown Stadium', wikiPage: 'Wests_Tigers', logoFile: 'wests-tigers.svg',
     players: [
-      { name: "Sunia Turuva",                      pos: "wing",           tryRate: 0.2353 },
-      { name: "Jahream Bula",                      pos: "fullback",       tryRate: 0.4286 },
-      { name: "Adam Doueihi",                      pos: "halfback",       tryRate: 0.6364 },
+      { name: "Sunia Turuva",                      pos: "wing",           tryRate: 0.2222 },
+      { name: "Jahream Bula",                      pos: "fullback",       tryRate: 0.4 },
+      { name: "Adam Doueihi",                      pos: "halfback",       tryRate: 0.5833 },
       { name: "Taylan May",                        pos: "centre",         tryRate: 0.6667 },
-      { name: "Jarome Luai",                       pos: "five-eighth",    tryRate: 0.3077 },
-      { name: "Jeral Skelton",                     pos: "wing",           tryRate: 0.3077 },
+      { name: "Jarome Luai",                       pos: "five-eighth",    tryRate: 0.2857 },
+      { name: "Jeral Skelton",                     pos: "wing",           tryRate: 0.2857 },
     ],
   },
 };

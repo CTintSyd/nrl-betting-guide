@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-18T11:11:39.771786+00:00",
+  "generatedAt": "2026-07-18T12:07:27.429244+00:00",
   "round": 20,
   "players": {
     "Kalyn Ponga": {
@@ -270,15 +270,15 @@
     },
     "Connor Tracey": {
       "tries": 3,
-      "games": 14,
-      "tryRate": 0.2143,
+      "games": 15,
+      "tryRate": 0.2,
       "team": "Canterbury Bulldogs",
       "position": "Fullback"
     },
     "Jacob Kiraz": {
       "tries": 6,
-      "games": 12,
-      "tryRate": 0.5,
+      "games": 13,
+      "tryRate": 0.4615,
       "team": "Canterbury Bulldogs",
       "position": "Winger"
     },
@@ -298,38 +298,38 @@
     },
     "Marcelo Montoya": {
       "tries": 1,
-      "games": 9,
-      "tryRate": 0.1111,
+      "games": 10,
+      "tryRate": 0.1,
       "team": "Canterbury Bulldogs",
-      "position": "Winger"
+      "position": "Reserve"
     },
     "Matt Burton": {
-      "tries": 4,
-      "games": 15,
-      "tryRate": 0.2667,
+      "tries": 5,
+      "games": 16,
+      "tryRate": 0.3125,
       "team": "Canterbury Bulldogs",
       "position": "Centre"
     },
     "Lachlan Galvin": {
       "tries": 6,
-      "games": 16,
-      "tryRate": 0.375,
+      "games": 17,
+      "tryRate": 0.3529,
       "team": "Canterbury Bulldogs",
       "position": "Halfback"
     },
     "Max King": {
       "tries": 1,
-      "games": 12,
-      "tryRate": 0.0833,
+      "games": 13,
+      "tryRate": 0.0769,
       "team": "Canterbury Bulldogs",
       "position": "Prop"
     },
     "Bailey Hayward": {
       "tries": 0,
-      "games": 16,
+      "games": 17,
       "tryRate": 0.0,
       "team": "Canterbury Bulldogs",
-      "position": "Interchange"
+      "position": "Hooker"
     },
     "Samuel Hughes": {
       "tries": 1,
@@ -340,22 +340,22 @@
     },
     "Viliame Kikau": {
       "tries": 1,
-      "games": 7,
-      "tryRate": 0.1429,
-      "team": "Canterbury Bulldogs",
-      "position": "2nd Row"
-    },
-    "Jacob Preston": {
-      "tries": 4,
-      "games": 12,
-      "tryRate": 0.3333,
+      "games": 8,
+      "tryRate": 0.125,
       "team": "Canterbury Bulldogs",
       "position": "Interchange"
     },
+    "Jacob Preston": {
+      "tries": 4,
+      "games": 13,
+      "tryRate": 0.3077,
+      "team": "Canterbury Bulldogs",
+      "position": "2nd Row"
+    },
     "Jaeman Salmon": {
       "tries": 1,
-      "games": 16,
-      "tryRate": 0.0625,
+      "games": 17,
+      "tryRate": 0.0588,
       "team": "Canterbury Bulldogs",
       "position": "2nd Row"
     },
@@ -375,17 +375,17 @@
     },
     "Harry Hayes": {
       "tries": 0,
-      "games": 13,
+      "games": 14,
       "tryRate": 0.0,
       "team": "Canterbury Bulldogs",
-      "position": "Lock"
+      "position": "Interchange"
     },
     "Josh Curran": {
-      "tries": 3,
-      "games": 12,
-      "tryRate": 0.25,
+      "tries": 5,
+      "games": 13,
+      "tryRate": 0.3846,
       "team": "Canterbury Bulldogs",
-      "position": "2nd Row"
+      "position": "Lock"
     },
     "Jake Turpin": {
       "tries": 0,
@@ -395,9 +395,9 @@
       "position": "Interchange"
     },
     "Enari Tuala": {
-      "tries": 2,
-      "games": 13,
-      "tryRate": 0.1538,
+      "tries": 3,
+      "games": 14,
+      "tryRate": 0.2143,
       "team": "Canterbury Bulldogs",
       "position": "Centre"
     },
@@ -2195,15 +2195,15 @@
     },
     "Jahream Bula": {
       "tries": 6,
-      "games": 14,
-      "tryRate": 0.4286,
+      "games": 15,
+      "tryRate": 0.4,
       "team": "Wests Tigers",
       "position": "Fullback"
     },
     "Sunia Turuva": {
       "tries": 4,
-      "games": 17,
-      "tryRate": 0.2353,
+      "games": 18,
+      "tryRate": 0.2222,
       "team": "Wests Tigers",
       "position": "Winger"
     },
@@ -2216,8 +2216,8 @@
     },
     "Heamasi Makasini": {
       "tries": 1,
-      "games": 12,
-      "tryRate": 0.0833,
+      "games": 13,
+      "tryRate": 0.0769,
       "team": "Wests Tigers",
       "position": "Centre"
     },
@@ -2230,43 +2230,43 @@
     },
     "Jarome Luai": {
       "tries": 4,
-      "games": 13,
-      "tryRate": 0.3077,
+      "games": 14,
+      "tryRate": 0.2857,
       "team": "Wests Tigers",
       "position": "Five-Eighth"
     },
     "Adam Doueihi": {
       "tries": 7,
-      "games": 11,
-      "tryRate": 0.6364,
+      "games": 12,
+      "tryRate": 0.5833,
       "team": "Wests Tigers",
       "position": "Halfback"
     },
     "Terrell May": {
       "tries": 1,
-      "games": 16,
-      "tryRate": 0.0625,
+      "games": 17,
+      "tryRate": 0.0588,
       "team": "Wests Tigers",
       "position": "Prop"
     },
     "Apisai Koroisau": {
       "tries": 2,
-      "games": 12,
-      "tryRate": 0.1667,
+      "games": 13,
+      "tryRate": 0.1538,
       "team": "Wests Tigers",
-      "position": "Hooker"
+      "position": "Interchange"
     },
     "Fonua Pole": {
       "tries": 0,
-      "games": 17,
+      "games": 18,
       "tryRate": 0.0,
       "team": "Wests Tigers",
       "position": "Interchange"
     },
     "Samuela Fainu": {
       "tries": 3,
-      "games": 9,
-      "tryRate": 0.3333,
+      "games": 10,
+      "tryRate": 0.3,
       "team": "Wests Tigers",
       "position": "2nd Row"
     },
@@ -2279,7 +2279,7 @@
     },
     "Alex Twal": {
       "tries": 0,
-      "games": 12,
+      "games": 13,
       "tryRate": 0.0,
       "team": "Wests Tigers",
       "position": "Lock"
@@ -2293,8 +2293,8 @@
     },
     "Sione Fainu": {
       "tries": 2,
-      "games": 16,
-      "tryRate": 0.125,
+      "games": 17,
+      "tryRate": 0.1176,
       "team": "Wests Tigers",
       "position": "2nd Row"
     },
@@ -2307,10 +2307,10 @@
     },
     "Alex Seyfarth": {
       "tries": 2,
-      "games": 17,
-      "tryRate": 0.1176,
+      "games": 18,
+      "tryRate": 0.1111,
       "team": "Wests Tigers",
-      "position": "Interchange"
+      "position": "Prop"
     },
     "Tristan Hope": {
       "tries": 0,
@@ -2321,8 +2321,8 @@
     },
     "Jeral Skelton": {
       "tries": 4,
-      "games": 13,
-      "tryRate": 0.3077,
+      "games": 14,
+      "tryRate": 0.2857,
       "team": "Wests Tigers",
       "position": "Winger"
     },
@@ -2419,10 +2419,10 @@
     },
     "Sean O'Sullivan": {
       "tries": 0,
-      "games": 8,
+      "games": 9,
       "tryRate": 0.0,
       "team": "Canterbury Bulldogs",
-      "position": "Interchange"
+      "position": "Five-Eighth"
     },
     "Reece Robson": {
       "tries": 3,
@@ -2601,14 +2601,14 @@
     },
     "Faaletino Tavana": {
       "tries": 3,
-      "games": 8,
-      "tryRate": 0.375,
+      "games": 9,
+      "tryRate": 0.3333,
       "team": "Wests Tigers",
       "position": "Reserve"
     },
     "Latu Fainu": {
       "tries": 0,
-      "games": 13,
+      "games": 14,
       "tryRate": 0.0,
       "team": "Wests Tigers",
       "position": "Interchange"
@@ -2629,10 +2629,10 @@
     },
     "Lipoi Hopoi": {
       "tries": 0,
-      "games": 11,
+      "games": 12,
       "tryRate": 0.0,
       "team": "Canterbury Bulldogs",
-      "position": "Reserve"
+      "position": "Interchange"
     },
     "Jonathan Sua": {
       "tries": 1,
@@ -2775,9 +2775,9 @@
       "position": "Reserve"
     },
     "Jethro Rinakama": {
-      "tries": 5,
-      "games": 10,
-      "tryRate": 0.5,
+      "tries": 6,
+      "games": 11,
+      "tryRate": 0.5455,
       "team": "Canterbury Bulldogs",
       "position": "Winger"
     },
@@ -2993,15 +2993,15 @@
     },
     "Leo Thompson": {
       "tries": 0,
-      "games": 11,
+      "games": 12,
       "tryRate": 0.0,
       "team": "Canterbury Bulldogs",
       "position": "Prop"
     },
     "Starford To'a": {
       "tries": 2,
-      "games": 9,
-      "tryRate": 0.2222,
+      "games": 10,
+      "tryRate": 0.2,
       "team": "Wests Tigers",
       "position": "Centre"
     },
@@ -3210,10 +3210,10 @@
     },
     "Jack Underhill": {
       "tries": 0,
-      "games": 7,
+      "games": 8,
       "tryRate": 0.0,
       "team": "Canterbury Bulldogs",
-      "position": "Interchange"
+      "position": "Reserve"
     },
     "Bayleigh Bentley-Hape": {
       "tries": 1,
@@ -3224,7 +3224,7 @@
     },
     "Ethan Roberts": {
       "tries": 0,
-      "games": 1,
+      "games": 2,
       "tryRate": 0.0,
       "team": "Wests Tigers",
       "position": "Interchange"
@@ -3469,10 +3469,10 @@
     },
     "Jared Haywood": {
       "tries": 0,
-      "games": 1,
+      "games": 2,
       "tryRate": 0.0,
       "team": "Wests Tigers",
-      "position": "Reserve"
+      "position": "Hooker"
     },
     "De La Salle Va'a": {
       "tries": 0,
@@ -3508,6 +3508,20 @@
       "tryRate": 0.0,
       "team": "Newcastle Knights",
       "position": "Interchange"
+    },
+    "Gordon Chan Kum Tong": {
+      "tries": 0,
+      "games": 1,
+      "tryRate": 0.0,
+      "team": "Canterbury Bulldogs",
+      "position": "Interchange"
+    },
+    "Kit Laulilii": {
+      "tries": 0,
+      "games": 1,
+      "tryRate": 0.0,
+      "team": "Wests Tigers",
+      "position": "Reserve"
     }
   }
 }

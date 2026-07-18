@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-07-18T11:12:04Z",
+  "updatedAt": "2026-07-18T12:07:45Z",
   "season": 2026,
-  "totalFavRecord": "88-57",
-  "totalLineRecord": "21-18",
-  "totalOuRecord": "15O-23U",
+  "totalFavRecord": "89-57",
+  "totalLineRecord": "22-18",
+  "totalOuRecord": "15O-24U",
   "rounds": [
     {
       "round": 1,
@@ -2334,11 +2334,26 @@
           "ouTotal": 46.5,
           "ouResult": "Under",
           "oddsSourced": true
+        },
+        {
+          "homeTeam": "Canterbury Bulldogs",
+          "awayTeam": "Wests Tigers",
+          "homeScore": 32,
+          "awayScore": 0,
+          "winner": "Canterbury Bulldogs",
+          "margin": 32,
+          "favourite": "Canterbury Bulldogs",
+          "favouriteWon": true,
+          "linePoint": -7.5,
+          "lineCovered": true,
+          "ouTotal": 46.5,
+          "ouResult": "Under",
+          "oddsSourced": true
         }
       ],
-      "favRecord": "4-1",
-      "lineRecord": "3-2",
-      "ouRecord": "1O-4U"
+      "favRecord": "5-1",
+      "lineRecord": "4-2",
+      "ouRecord": "1O-5U"
     }
   ]
 }
