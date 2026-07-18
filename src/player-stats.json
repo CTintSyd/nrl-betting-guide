@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-18T06:12:31.390099+00:00",
+  "generatedAt": "2026-07-18T08:11:42.062584+00:00",
   "round": 20,
   "players": {
     "Kalyn Ponga": {
@@ -1732,23 +1732,23 @@
       "position": "Interchange"
     },
     "Kaeo Weekes": {
-      "tries": 8,
-      "games": 17,
-      "tryRate": 0.4706,
+      "tries": 10,
+      "games": 18,
+      "tryRate": 0.5556,
       "team": "Canberra Raiders",
       "position": "Fullback"
     },
     "Savelio Tamale": {
       "tries": 7,
-      "games": 14,
-      "tryRate": 0.5,
+      "games": 15,
+      "tryRate": 0.4667,
       "team": "Canberra Raiders",
-      "position": "Winger"
+      "position": "Reserve"
     },
     "Simi Sasagi": {
       "tries": 5,
-      "games": 11,
-      "tryRate": 0.4545,
+      "games": 12,
+      "tryRate": 0.4167,
       "team": "Canberra Raiders",
       "position": "Centre"
     },
@@ -1761,66 +1761,66 @@
     },
     "Xavier Savage": {
       "tries": 8,
-      "games": 12,
-      "tryRate": 0.6667,
+      "games": 13,
+      "tryRate": 0.6154,
       "team": "Canberra Raiders",
       "position": "Winger"
     },
     "Ethan Strange": {
       "tries": 4,
-      "games": 14,
-      "tryRate": 0.2857,
+      "games": 15,
+      "tryRate": 0.2667,
       "team": "Canberra Raiders",
-      "position": "Interchange"
+      "position": "Five-Eighth"
     },
     "Ethan Sanders": {
       "tries": 2,
-      "games": 17,
-      "tryRate": 0.1176,
+      "games": 18,
+      "tryRate": 0.1111,
       "team": "Canberra Raiders",
       "position": "Halfback"
     },
     "Josh Papalii": {
       "tries": 0,
-      "games": 6,
+      "games": 7,
       "tryRate": 0.0,
       "team": "Canberra Raiders",
       "position": "Interchange"
     },
     "Tom Starling": {
       "tries": 2,
-      "games": 17,
-      "tryRate": 0.1176,
+      "games": 18,
+      "tryRate": 0.1111,
       "team": "Canberra Raiders",
       "position": "Interchange"
     },
     "Joseph Tapine": {
       "tries": 0,
-      "games": 17,
+      "games": 18,
       "tryRate": 0.0,
       "team": "Canberra Raiders",
       "position": "Prop"
     },
     "Hudson Young": {
-      "tries": 4,
-      "games": 13,
-      "tryRate": 0.3077,
+      "tries": 5,
+      "games": 14,
+      "tryRate": 0.3571,
       "team": "Canberra Raiders",
-      "position": "Interchange"
+      "position": "2nd Row"
     },
     "Noah Martin": {
-      "tries": 3,
-      "games": 9,
-      "tryRate": 0.3333,
+      "tries": 4,
+      "games": 10,
+      "tryRate": 0.4,
       "team": "Canberra Raiders",
       "position": "2nd Row"
     },
     "Corey Horsburgh": {
       "tries": 2,
-      "games": 17,
-      "tryRate": 0.1176,
+      "games": 18,
+      "tryRate": 0.1111,
       "team": "Canberra Raiders",
-      "position": "Prop"
+      "position": "Interchange"
     },
     "Jayden Brailey": {
       "tries": 0,
@@ -1831,36 +1831,36 @@
     },
     "Zac Hosking": {
       "tries": 4,
-      "games": 15,
-      "tryRate": 0.2667,
+      "games": 16,
+      "tryRate": 0.25,
       "team": "Canberra Raiders",
       "position": "Lock"
     },
     "Ata Mariota": {
       "tries": 0,
-      "games": 17,
+      "games": 18,
       "tryRate": 0.0,
       "team": "Canberra Raiders",
-      "position": "2nd Row"
+      "position": "Prop"
     },
     "Morgan Smithies": {
       "tries": 0,
-      "games": 17,
+      "games": 18,
       "tryRate": 0.0,
       "team": "Canberra Raiders",
       "position": "Reserve"
     },
     "Daine Laurie": {
       "tries": 1,
-      "games": 15,
-      "tryRate": 0.0667,
+      "games": 16,
+      "tryRate": 0.0625,
       "team": "Canberra Raiders",
-      "position": "Five-Eighth"
+      "position": "Interchange"
     },
     "Jed Stuart": {
-      "tries": 1,
-      "games": 14,
-      "tryRate": 0.0714,
+      "tries": 2,
+      "games": 15,
+      "tryRate": 0.1333,
       "team": "Canberra Raiders",
       "position": "Winger"
     },
@@ -1999,15 +1999,15 @@
     },
     "Jye Gray": {
       "tries": 3,
-      "games": 13,
-      "tryRate": 0.2308,
+      "games": 14,
+      "tryRate": 0.2143,
       "team": "South Sydney Rabbitohs",
-      "position": "Interchange"
+      "position": "Reserve"
     },
     "Alex Johnston": {
-      "tries": 19,
-      "games": 13,
-      "tryRate": 1.4615,
+      "tries": 20,
+      "games": 14,
+      "tryRate": 1.4286,
       "team": "South Sydney Rabbitohs",
       "position": "Winger"
     },
@@ -2020,36 +2020,36 @@
     },
     "Jack Wighton": {
       "tries": 2,
-      "games": 10,
-      "tryRate": 0.2,
+      "games": 11,
+      "tryRate": 0.1818,
       "team": "South Sydney Rabbitohs",
       "position": "Centre"
     },
     "Campbell Graham": {
       "tries": 7,
-      "games": 11,
-      "tryRate": 0.6364,
+      "games": 12,
+      "tryRate": 0.5833,
       "team": "South Sydney Rabbitohs",
       "position": "Winger"
     },
     "Cody Walker": {
-      "tries": 6,
-      "games": 15,
-      "tryRate": 0.4,
+      "tries": 7,
+      "games": 16,
+      "tryRate": 0.4375,
       "team": "South Sydney Rabbitohs",
       "position": "Five-Eighth"
     },
     "Ashton Ward": {
-      "tries": 0,
-      "games": 9,
-      "tryRate": 0.0,
+      "tries": 1,
+      "games": 10,
+      "tryRate": 0.1,
       "team": "South Sydney Rabbitohs",
       "position": "Halfback"
     },
     "Tevita Tatola": {
       "tries": 1,
-      "games": 16,
-      "tryRate": 0.0625,
+      "games": 17,
+      "tryRate": 0.0588,
       "team": "South Sydney Rabbitohs",
       "position": "Prop"
     },
@@ -2062,29 +2062,29 @@
     },
     "Keaon Koloamatangi": {
       "tries": 1,
-      "games": 16,
-      "tryRate": 0.0625,
+      "games": 17,
+      "tryRate": 0.0588,
       "team": "South Sydney Rabbitohs",
       "position": "Prop"
     },
     "David Fifita": {
       "tries": 3,
-      "games": 10,
-      "tryRate": 0.3,
+      "games": 11,
+      "tryRate": 0.2727,
       "team": "South Sydney Rabbitohs",
       "position": "2nd Row"
     },
     "Euan Aitken": {
       "tries": 4,
-      "games": 12,
-      "tryRate": 0.3333,
+      "games": 13,
+      "tryRate": 0.3077,
       "team": "South Sydney Rabbitohs",
       "position": "2nd Row"
     },
     "Cameron Murray": {
-      "tries": 2,
-      "games": 13,
-      "tryRate": 0.1538,
+      "tries": 3,
+      "games": 14,
+      "tryRate": 0.2143,
       "team": "South Sydney Rabbitohs",
       "position": "Lock"
     },
@@ -2097,15 +2097,15 @@
     },
     "Tallis Duncan": {
       "tries": 8,
-      "games": 16,
-      "tryRate": 0.5,
+      "games": 17,
+      "tryRate": 0.4706,
       "team": "South Sydney Rabbitohs",
       "position": "Centre"
     },
     "Lachlan Hubner": {
       "tries": 1,
-      "games": 15,
-      "tryRate": 0.0667,
+      "games": 16,
+      "tryRate": 0.0625,
       "team": "South Sydney Rabbitohs",
       "position": "Interchange"
     },
@@ -2160,8 +2160,8 @@
     },
     "Matthew Timoko": {
       "tries": 4,
-      "games": 13,
-      "tryRate": 0.3077,
+      "games": 14,
+      "tryRate": 0.2857,
       "team": "Canberra Raiders",
       "position": "Centre"
     },
@@ -2188,8 +2188,8 @@
     },
     "Latrell Siegwalt": {
       "tries": 1,
-      "games": 10,
-      "tryRate": 0.1,
+      "games": 11,
+      "tryRate": 0.0909,
       "team": "South Sydney Rabbitohs",
       "position": "Reserve"
     },
@@ -2524,8 +2524,8 @@
     },
     "Jamie Humphreys": {
       "tries": 2,
-      "games": 12,
-      "tryRate": 0.1667,
+      "games": 13,
+      "tryRate": 0.1538,
       "team": "South Sydney Rabbitohs",
       "position": "Interchange"
     },
@@ -2538,10 +2538,10 @@
     },
     "Liam Le Blanc": {
       "tries": 0,
-      "games": 8,
+      "games": 9,
       "tryRate": 0.0,
       "team": "South Sydney Rabbitohs",
-      "position": "Interchange"
+      "position": "Reserve"
     },
     "Patrick Herbert": {
       "tries": 1,
@@ -2811,7 +2811,7 @@
     },
     "Brandon Smith": {
       "tries": 0,
-      "games": 8,
+      "games": 9,
       "tryRate": 0.0,
       "team": "South Sydney Rabbitohs",
       "position": "Hooker"
@@ -2937,8 +2937,8 @@
     },
     "Matthew Dufty": {
       "tries": 2,
-      "games": 9,
-      "tryRate": 0.2222,
+      "games": 10,
+      "tryRate": 0.2,
       "team": "South Sydney Rabbitohs",
       "position": "Fullback"
     },
@@ -3006,9 +3006,9 @@
       "position": "Centre"
     },
     "Owen Pattie": {
-      "tries": 1,
-      "games": 10,
-      "tryRate": 0.1,
+      "tries": 2,
+      "games": 11,
+      "tryRate": 0.1818,
       "team": "Canberra Raiders",
       "position": "Hooker"
     },
@@ -3336,10 +3336,10 @@
     },
     "John Radel": {
       "tries": 1,
-      "games": 4,
-      "tryRate": 0.25,
+      "games": 5,
+      "tryRate": 0.2,
       "team": "South Sydney Rabbitohs",
-      "position": "Reserve"
+      "position": "Interchange"
     },
     "Dayne Jennings": {
       "tries": 1,

@@ -18,12 +18,12 @@ const NRL_TEAM_DATA = {
   'Canberra Raiders': {
     emoji: '🔋', shortName: 'Raiders', venue: 'GIO Stadium', wikiPage: 'Canberra_Raiders', logoFile: 'canberra-raiders.svg',
     players: [
-      { name: "Xavier Savage",                     pos: "wing",           tryRate: 0.6667 },
-      { name: "Kaeo Weekes",                       pos: "fullback",       tryRate: 0.4706 },
-      { name: "Ethan Sanders",                     pos: "halfback",       tryRate: 0.1176 },
-      { name: "Savelio Tamale",                    pos: "wing",           tryRate: 0.5 },
-      { name: "Simi Sasagi",                       pos: "centre",         tryRate: 0.4545 },
-      { name: "Zac Hosking",                       pos: "lock",           tryRate: 0.2667 },
+      { name: "Xavier Savage",                     pos: "wing",           tryRate: 0.6154 },
+      { name: "Kaeo Weekes",                       pos: "fullback",       tryRate: 0.5556 },
+      { name: "Ethan Strange",                     pos: "five-eighth",    tryRate: 0.2667 },
+      { name: "Hudson Young",                      pos: "lock",           tryRate: 0.3571 },
+      { name: "Simi Sasagi",                       pos: "centre",         tryRate: 0.4167 },
+      { name: "Zac Hosking",                       pos: "lock",           tryRate: 0.25 },
     ],
   },
 
@@ -162,12 +162,12 @@ const NRL_TEAM_DATA = {
   'South Sydney Rabbitohs': {
     emoji: '🐰', shortName: 'Rabbitohs', venue: 'Accor Stadium', wikiPage: 'South_Sydney_Rabbitohs', logoFile: 'south-sydney-rabbitohs.svg',
     players: [
-      { name: "Alex Johnston",                     pos: "wing",           tryRate: 1.4615 },
-      { name: "Matthew Dufty",                     pos: "fullback",       tryRate: 0.2222 },
-      { name: "Cody Walker",                       pos: "five-eighth",    tryRate: 0.4 },
+      { name: "Alex Johnston",                     pos: "wing",           tryRate: 1.4286 },
+      { name: "Matthew Dufty",                     pos: "fullback",       tryRate: 0.2 },
+      { name: "Cody Walker",                       pos: "five-eighth",    tryRate: 0.4375 },
       { name: "Latrell Mitchell",                  pos: "centre",         tryRate: 1.2222 },
-      { name: "Tallis Duncan",                     pos: "centre",         tryRate: 0.5 },
-      { name: "Campbell Graham",                   pos: "wing",           tryRate: 0.6364 },
+      { name: "Tallis Duncan",                     pos: "centre",         tryRate: 0.4706 },
+      { name: "Campbell Graham",                   pos: "wing",           tryRate: 0.5833 },
     ],
   },
 

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-18T06:12:36.157809+00:00",
+  "generatedAt": "2026-07-18T08:11:46.389431+00:00",
   "round": 20,
   "upcomingRound": 20,
   "ladder": [
@@ -77,15 +77,15 @@
       "pos": 6,
       "nick": "Rabbitohs",
       "name": "South Sydney Rabbitohs",
-      "played": 16,
+      "played": 17,
       "wins": 9,
-      "losses": 7,
+      "losses": 8,
       "drawn": 0,
-      "ptsFor": 458,
-      "ptsAgainst": 372,
-      "diff": 86,
+      "ptsFor": 482,
+      "ptsAgainst": 406,
+      "diff": 76,
       "pts": 24,
-      "streak": "1W"
+      "streak": "1L"
     },
     {
       "pos": 7,
@@ -145,6 +145,20 @@
     },
     {
       "pos": 11,
+      "nick": "Raiders",
+      "name": "Canberra Raiders",
+      "played": 18,
+      "wins": 8,
+      "losses": 10,
+      "drawn": 0,
+      "ptsFor": 379,
+      "ptsAgainst": 460,
+      "diff": -81,
+      "pts": 20,
+      "streak": "3W"
+    },
+    {
+      "pos": 12,
       "nick": "Bulldogs",
       "name": "Canterbury Bulldogs",
       "played": 16,
@@ -156,20 +170,6 @@
       "diff": -102,
       "pts": 20,
       "streak": "1L"
-    },
-    {
-      "pos": 12,
-      "nick": "Raiders",
-      "name": "Canberra Raiders",
-      "played": 17,
-      "wins": 7,
-      "losses": 10,
-      "drawn": 0,
-      "ptsFor": 345,
-      "ptsAgainst": 436,
-      "diff": -91,
-      "pts": 18,
-      "streak": "2W"
     },
     {
       "pos": 13,
@@ -277,7 +277,7 @@
       ]
     },
     "Canberra Raiders": {
-      "last5": "L L W W",
+      "last5": "L L W W W",
       "games": [
         {
           "round": 15,
@@ -306,6 +306,13 @@
           "opponent": "Canterbury Bulldogs",
           "home": false,
           "score": "16\u201340"
+        },
+        {
+          "round": 20,
+          "result": "W",
+          "opponent": "South Sydney Rabbitohs",
+          "home": true,
+          "score": "34\u201324"
         }
       ]
     },
@@ -680,7 +687,7 @@
       ]
     },
     "South Sydney Rabbitohs": {
-      "last5": "W W L W",
+      "last5": "W W L W L",
       "games": [
         {
           "round": 15,
@@ -709,6 +716,13 @@
           "opponent": "Newcastle Knights",
           "home": true,
           "score": "26\u201324"
+        },
+        {
+          "round": 20,
+          "result": "L",
+          "opponent": "Canberra Raiders",
+          "home": false,
+          "score": "34\u201324"
         }
       ]
     },

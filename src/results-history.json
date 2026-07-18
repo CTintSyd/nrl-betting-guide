@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-07-18T06:12:54Z",
+  "updatedAt": "2026-07-18T08:12:02Z",
   "season": 2026,
-  "totalFavRecord": "86-57",
-  "totalLineRecord": "20-17",
-  "totalOuRecord": "14O-22U",
+  "totalFavRecord": "87-57",
+  "totalLineRecord": "21-17",
+  "totalOuRecord": "15O-22U",
   "rounds": [
     {
       "round": 1,
@@ -2304,11 +2304,26 @@
           "ouTotal": 46.5,
           "ouResult": "Under",
           "oddsSourced": true
+        },
+        {
+          "homeTeam": "Canberra Raiders",
+          "awayTeam": "South Sydney Rabbitohs",
+          "homeScore": 34,
+          "awayScore": 24,
+          "winner": "Canberra Raiders",
+          "margin": 10,
+          "favourite": "Canberra Raiders",
+          "favouriteWon": true,
+          "linePoint": -1.5,
+          "lineCovered": true,
+          "ouTotal": 48.5,
+          "ouResult": "Over",
+          "oddsSourced": true
         }
       ],
-      "favRecord": "2-1",
-      "lineRecord": "2-1",
-      "ouRecord": "0O-3U"
+      "favRecord": "3-1",
+      "lineRecord": "3-1",
+      "ouRecord": "1O-3U"
     }
   ]
 }

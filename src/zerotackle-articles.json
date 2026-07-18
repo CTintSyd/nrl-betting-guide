@@ -1,9 +1,31 @@
 {
-  "updated": "2026-07-18T06:12:46Z",
+  "updated": "2026-07-18T08:11:55Z",
   "articles": [
     {
-      "title": "LIVE: Raiders vs Rabbitohs – Round 20, 2026",
-      "url": "https://www.zerotackle.com/live-raiders-rabbitohs-round-20-2026-mc10396482-235845/",
+      "title": "LIVE: Warriors vs Dragons – Round 20, 2026",
+      "url": "https://www.zerotackle.com/live-warriors-dragons-round-20-2026-mc10396483-235843/",
+      "description": "The New Zealand Warriors face the St George Illawarra Dragons in Round 20 of the 2026 NRL season. Follow the live scores, team lists, match statistics and key moments from the game at Go Media Stadium.",
+      "date": "Sat, 20 Jun 2026 07:30:00 +0000",
+      "teams": [
+        "St George Illawarra Dragons",
+        "New Zealand Warriors"
+      ],
+      "isRound": true
+    },
+    {
+      "title": "FINAL TEAMS: Bulldogs vs Wests Tigers – Round 20, 2026",
+      "url": "https://www.zerotackle.com/updated-team-lists-bulldogs-wests-tigers-10396484-235997/",
+      "description": "LATE MAIL: The Bulldogs and Wests Tigers have confirmed their lineups for the match at Accor Stadium.",
+      "date": "Sat, 18 Jul 2026 08:03:12 +0000",
+      "teams": [
+        "Canterbury Bulldogs",
+        "Wests Tigers"
+      ],
+      "isRound": true
+    },
+    {
+      "title": "FULL TIME: Raiders vs Rabbitohs – Round 20, 2026",
+      "url": "https://www.zerotackle.com/fulltime-raiders-rabbitohs-round-20-2026-mc10396482-235845/",
       "description": "The Canberra Raiders face the South Sydney Rabbitohs in Round 20 of the 2026 NRL season. Follow the live scores, team lists, match statistics and key moments from the game at GIO Stadium.",
       "date": "Sat, 20 Jun 2026 05:00:00 +0000",
       "teams": [
@@ -63,37 +85,6 @@
       "teams": [
         "Parramatta Eels",
         "Melbourne Storm"
-      ],
-      "isRound": false
-    },
-    {
-      "title": "FINAL TEAMS: Raiders vs Rabbitohs – Round 20, 2026",
-      "url": "https://www.zerotackle.com/updated-team-lists-raiders-rabbitohs-10396482-235987/",
-      "description": "LATE MAIL: The Raiders and Rabbitohs have confirmed their lineups for the match at GIO Stadium.",
-      "date": "Sat, 18 Jul 2026 03:27:11 +0000",
-      "teams": [
-        "South Sydney Rabbitohs",
-        "Canberra Raiders"
-      ],
-      "isRound": true
-    },
-    {
-      "title": "Out of character: Bellamy speaks on controversial officiating after Storm loss",
-      "url": "https://www.zerotackle.com/out-of-character-bellamy-speaks-on-controversial-officiating-after-storm-loss-236011/",
-      "description": "The Storm coach rarely dissects contentious calls.",
-      "date": "Sat, 18 Jul 2026 01:26:47 +0000",
-      "teams": [
-        "Melbourne Storm"
-      ],
-      "isRound": false
-    },
-    {
-      "title": "Holbrook defends Ponga after loss to the Sharks",
-      "url": "https://www.zerotackle.com/holbrook-defends-ponga-after-loss-to-the-sharks-236007/",
-      "description": "&#8220;That’s a lot to ask of anybody, let alone your best player.&#8221;",
-      "date": "Sat, 18 Jul 2026 00:37:45 +0000",
-      "teams": [
-        "Cronulla Sutherland Sharks"
       ],
       "isRound": false
     }
