@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-17T21:40:04.611Z",
-  "quotaRemaining": 122,
+  "updated": "2026-07-18T01:18:45.974Z",
+  "quotaRemaining": 119,
   "round": 20,
   "venueOverride": {
     "venue": "Suncorp Stadium",
@@ -42,8 +42,8 @@
         {
           "key": "tab",
           "name": "TAB",
-          "home": 1.9,
-          "away": 1.9
+          "home": 1.85,
+          "away": 1.95
         },
         {
           "key": "betright",
@@ -198,8 +198,8 @@
         {
           "key": "tab",
           "name": "TAB",
-          "home": 2.5,
-          "away": 1.53
+          "home": 2.45,
+          "away": 1.55
         },
         {
           "key": "betright",
@@ -302,6 +302,12 @@
         {
           "key": "tab",
           "name": "TAB",
+          "home": 4.4,
+          "away": 1.2
+        },
+        {
+          "key": "pointsbetau",
+          "name": "PointsBet",
           "home": 4.2,
           "away": 1.22
         }
@@ -338,6 +344,12 @@
           "name": "Sportsbet",
           "home": 2.27,
           "away": 1.64
+        },
+        {
+          "key": "pointsbetau",
+          "name": "PointsBet",
+          "home": 2.25,
+          "away": 1.62
         }
       ]
     },
@@ -372,6 +384,12 @@
           "name": "Sportsbet",
           "home": 1.43,
           "away": 2.85
+        },
+        {
+          "key": "pointsbetau",
+          "name": "PointsBet",
+          "home": 1.45,
+          "away": 2.7
         }
       ]
     },
@@ -412,6 +430,12 @@
           "name": "TAB",
           "home": 1.4,
           "away": 2.9
+        },
+        {
+          "key": "pointsbetau",
+          "name": "PointsBet",
+          "home": 1.38,
+          "away": 3
         }
       ]
     },
@@ -451,6 +475,12 @@
           "key": "tab",
           "name": "TAB",
           "home": 2.6,
+          "away": 1.5
+        },
+        {
+          "key": "pointsbetau",
+          "name": "PointsBet",
+          "home": 2.55,
           "away": 1.5
         }
       ]
@@ -492,6 +522,12 @@
           "name": "TAB",
           "home": 1.75,
           "away": 2.05
+        },
+        {
+          "key": "pointsbetau",
+          "name": "PointsBet",
+          "home": 1.85,
+          "away": 1.95
         }
       ]
     },
@@ -532,6 +568,12 @@
           "name": "TAB",
           "home": 1.9,
           "away": 1.9
+        },
+        {
+          "key": "pointsbetau",
+          "name": "PointsBet",
+          "home": 1.95,
+          "away": 1.85
         }
       ]
     },
@@ -572,6 +614,12 @@
           "name": "TAB",
           "home": 1.9,
           "away": 1.9
+        },
+        {
+          "key": "pointsbetau",
+          "name": "PointsBet",
+          "home": 1.85,
+          "away": 1.95
         }
       ]
     }
