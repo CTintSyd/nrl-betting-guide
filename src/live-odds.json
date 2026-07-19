@@ -1,52 +1,12 @@
 {
-  "updated": "2026-07-19T07:55:37.402Z",
-  "quotaRemaining": 89,
+  "updated": "2026-07-19T10:17:50.017Z",
+  "quotaRemaining": 86,
   "round": 21,
   "venueOverride": {
     "venue": "Suncorp Stadium",
     "until": "2026-05-18T00:00:00Z"
   },
   "games": [
-    {
-      "id": "a9110f7b518c2c1335b90ff7b0cd01fe",
-      "homeTeam": "Dolphins",
-      "awayTeam": "North Queensland Cowboys",
-      "commenceTime": "2026-07-19T06:14:00Z",
-      "bookmaker": "tab",
-      "h2h": {
-        "home": 1.02,
-        "away": 12
-      },
-      "line": {
-        "home": {
-          "odd": null,
-          "point": null
-        },
-        "away": {
-          "odd": null,
-          "point": null
-        }
-      },
-      "ou": {
-        "total": null,
-        "overOdd": null,
-        "underOdd": null
-      },
-      "bookmakerComparison": [
-        {
-          "key": "tab",
-          "name": "TAB",
-          "home": 1.02,
-          "away": 12
-        },
-        {
-          "key": "pointsbetau",
-          "name": "PointsBet",
-          "home": 1,
-          "away": 51
-        }
-      ]
-    },
     {
       "id": "5b6f4fd4a09bfc01fb30f420fc8d9224",
       "homeTeam": "Parramatta Eels",
@@ -82,8 +42,8 @@
         {
           "key": "tab",
           "name": "TAB",
-          "home": 4.6,
-          "away": 1.18
+          "home": 4.8,
+          "away": 1.17
         },
         {
           "key": "ladbrokes_au",
@@ -134,14 +94,14 @@
         {
           "key": "tab",
           "name": "TAB",
-          "home": 2.2,
-          "away": 1.65
+          "home": 2.1,
+          "away": 1.7
         },
         {
           "key": "ladbrokes_au",
           "name": "Ladbrokes",
-          "home": 2.3,
-          "away": 1.64
+          "home": 2.1,
+          "away": 1.75
         },
         {
           "key": "pointsbetau",
@@ -186,8 +146,8 @@
         {
           "key": "tab",
           "name": "TAB",
-          "home": 1.45,
-          "away": 2.7
+          "home": 1.5,
+          "away": 2.55
         },
         {
           "key": "ladbrokes_au",
@@ -290,20 +250,72 @@
         {
           "key": "tab",
           "name": "TAB",
-          "home": 2.45,
-          "away": 1.53
+          "home": 2.35,
+          "away": 1.58
         },
         {
           "key": "ladbrokes_au",
           "name": "Ladbrokes",
-          "home": 2.6,
-          "away": 1.5
+          "home": 2.45,
+          "away": 1.55
         },
         {
           "key": "pointsbetau",
           "name": "PointsBet",
           "home": 2.55,
           "away": 1.5
+        }
+      ]
+    },
+    {
+      "id": "2fabe52f9b04be8638582ca7cb6f998f",
+      "homeTeam": "North Queensland Cowboys",
+      "awayTeam": "Brisbane Broncos",
+      "commenceTime": "2026-07-25T09:35:00Z",
+      "bookmaker": "sportsbet",
+      "h2h": {
+        "home": 1.96,
+        "away": 1.88
+      },
+      "line": {
+        "home": {
+          "odd": 1.9,
+          "point": -0.5
+        },
+        "away": {
+          "odd": 1.9,
+          "point": 0.5
+        }
+      },
+      "ou": {
+        "total": 48.5,
+        "overOdd": 1.9,
+        "underOdd": 1.9
+      },
+      "bookmakerComparison": [
+        {
+          "key": "sportsbet",
+          "name": "Sportsbet",
+          "home": 1.96,
+          "away": 1.88
+        },
+        {
+          "key": "tab",
+          "name": "TAB",
+          "home": 2,
+          "away": 1.8
+        },
+        {
+          "key": "ladbrokes_au",
+          "name": "Ladbrokes",
+          "home": 1.9,
+          "away": 1.9
+        },
+        {
+          "key": "pointsbetau",
+          "name": "PointsBet",
+          "home": 2,
+          "away": 1.8
         }
       ]
     },
@@ -343,6 +355,12 @@
           "key": "tab",
           "name": "TAB",
           "home": 1.85,
+          "away": 1.95
+        },
+        {
+          "key": "ladbrokes_au",
+          "name": "Ladbrokes",
+          "home": 1.87,
           "away": 1.95
         },
         {
@@ -388,14 +406,20 @@
         {
           "key": "tab",
           "name": "TAB",
-          "home": 2.35,
-          "away": 1.58
+          "home": 2.4,
+          "away": 1.55
+        },
+        {
+          "key": "ladbrokes_au",
+          "name": "Ladbrokes",
+          "home": 2.25,
+          "away": 1.65
         },
         {
           "key": "pointsbetau",
           "name": "PointsBet",
-          "home": 2.3,
-          "away": 1.6
+          "home": 2.35,
+          "away": 1.58
         }
       ]
     }
