@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-07-18T13:53:53Z",
+  "updatedAt": "2026-07-19T06:26:09Z",
   "season": 2026,
-  "totalFavRecord": "89-57",
-  "totalLineRecord": "22-18",
-  "totalOuRecord": "15O-24U",
+  "totalFavRecord": "89-58",
+  "totalLineRecord": "22-19",
+  "totalOuRecord": "16O-24U",
   "rounds": [
     {
       "round": 1,
@@ -2349,11 +2349,26 @@
           "ouTotal": 46.5,
           "ouResult": "Under",
           "oddsSourced": true
+        },
+        {
+          "homeTeam": "Gold Coast Titans",
+          "awayTeam": "Manly Warringah Sea Eagles",
+          "homeScore": 38,
+          "awayScore": 32,
+          "winner": "Gold Coast Titans",
+          "margin": 6,
+          "favourite": "Manly Warringah Sea Eagles",
+          "favouriteWon": false,
+          "linePoint": 6.5,
+          "lineCovered": false,
+          "ouTotal": 48.5,
+          "ouResult": "Over",
+          "oddsSourced": true
         }
       ],
-      "favRecord": "5-1",
-      "lineRecord": "4-2",
-      "ouRecord": "1O-5U"
+      "favRecord": "5-2",
+      "lineRecord": "4-3",
+      "ouRecord": "2O-5U"
     }
   ]
 }
