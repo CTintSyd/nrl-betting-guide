@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-07-19T06:25:50.477490+00:00",
+  "generatedAt": "2026-07-19T08:42:34.928045+00:00",
   "round": 20,
-  "upcomingRound": 20,
+  "upcomingRound": 21,
   "ladder": [
     {
       "pos": 1,
@@ -61,6 +61,20 @@
     },
     {
       "pos": 5,
+      "nick": "Dolphins",
+      "name": "Dolphins",
+      "played": 18,
+      "wins": 11,
+      "losses": 7,
+      "drawn": 0,
+      "ptsFor": 488,
+      "ptsAgainst": 404,
+      "diff": 84,
+      "pts": 26,
+      "streak": "2L"
+    },
+    {
+      "pos": 6,
       "nick": "Knights",
       "name": "Newcastle Knights",
       "played": 18,
@@ -74,7 +88,7 @@
       "streak": "2L"
     },
     {
-      "pos": 6,
+      "pos": 7,
       "nick": "Rabbitohs",
       "name": "South Sydney Rabbitohs",
       "played": 17,
@@ -88,30 +102,16 @@
       "streak": "1L"
     },
     {
-      "pos": 7,
-      "nick": "Dolphins",
-      "name": "Dolphins",
-      "played": 17,
-      "wins": 10,
-      "losses": 7,
-      "drawn": 0,
-      "ptsFor": 452,
-      "ptsAgainst": 388,
-      "diff": 64,
-      "pts": 24,
-      "streak": "2L"
-    },
-    {
       "pos": 8,
       "nick": "Cowboys",
       "name": "North Queensland Cowboys",
-      "played": 17,
+      "played": 18,
       "wins": 10,
-      "losses": 7,
+      "losses": 8,
       "drawn": 0,
-      "ptsFor": 408,
-      "ptsAgainst": 424,
-      "diff": -16,
+      "ptsFor": 424,
+      "ptsAgainst": 460,
+      "diff": -36,
       "pts": 24,
       "streak": "2W"
     },
@@ -390,15 +390,8 @@
       ]
     },
     "Dolphins": {
-      "last5": "W W W L L",
+      "last5": "W W L L W",
       "games": [
-        {
-          "round": 15,
-          "result": "W",
-          "opponent": "Sydney Roosters",
-          "home": true,
-          "score": "48\u201310"
-        },
         {
           "round": 16,
           "result": "W",
@@ -426,6 +419,13 @@
           "opponent": "Cronulla Sutherland Sharks",
           "home": true,
           "score": "0\u201366"
+        },
+        {
+          "round": 20,
+          "result": "W",
+          "opponent": "North Queensland Cowboys",
+          "home": true,
+          "score": "36\u201316"
         }
       ]
     },
@@ -623,7 +623,7 @@
       ]
     },
     "North Queensland Cowboys": {
-      "last5": "L W W",
+      "last5": "L W W L",
       "games": [
         {
           "round": 16,
@@ -645,6 +645,13 @@
           "opponent": "Manly Warringah Sea Eagles",
           "home": false,
           "score": "18\u201319"
+        },
+        {
+          "round": 20,
+          "result": "L",
+          "opponent": "Dolphins",
+          "home": false,
+          "score": "36\u201316"
         }
       ]
     },

@@ -54,12 +54,12 @@ const NRL_TEAM_DATA = {
   'Dolphins': {
     emoji: '🐬', shortName: 'Dolphins', venue: 'Suncorp Stadium', wikiPage: 'Dolphins_NRL', logoFile: 'dolphins.png',
     players: [
-      { name: "Jamayne Isaako",                    pos: "wing",           tryRate: 0.8824 },
-      { name: "Hamiso Tabuai-Fidow",               pos: "fullback",       tryRate: 0.6667 },
-      { name: "Kodi Nikorima",                     pos: "five-eighth",    tryRate: 0.2143 },
-      { name: "Selwyn Cobbo",                      pos: "wing",           tryRate: 0.8333 },
-      { name: "Herbie Farnworth",                  pos: "centre",         tryRate: 0.5 },
-      { name: "Jake Averillo",                     pos: "centre",         tryRate: 0.6667 },
+      { name: "Jamayne Isaako",                    pos: "wing",           tryRate: 0.9444 },
+      { name: "Hamiso Tabuai-Fidow",               pos: "fullback",       tryRate: 0.6154 },
+      { name: "Kodi Nikorima",                     pos: "five-eighth",    tryRate: 0.2 },
+      { name: "Selwyn Cobbo",                      pos: "centre",         tryRate: 0.7692 },
+      { name: "Herbie Farnworth",                  pos: "centre",         tryRate: 0.4706 },
+      { name: "Connelly Lemuelu",                  pos: "lock",           tryRate: 0.2222 },
     ],
   },
 
@@ -126,12 +126,12 @@ const NRL_TEAM_DATA = {
   'North Queensland Cowboys': {
     emoji: '🤠', shortName: 'Cowboys', venue: 'Qld Country Bank Stadium', wikiPage: 'North_Queensland_Cowboys', logoFile: 'north-queensland-cowboys.svg',
     players: [
-      { name: "Braidon Burns",                     pos: "wing",           tryRate: 0.9231 },
-      { name: "Scott Drinkwater",                  pos: "fullback",       tryRate: 0.4706 },
-      { name: "Jaxon Purdue",                      pos: "five-eighth",    tryRate: 0.3529 },
-      { name: "Murray Taulagi",                    pos: "wing",           tryRate: 0.9167 },
-      { name: "Heilum Luki",                       pos: "lock",           tryRate: 0.4118 },
-      { name: "Tom Chester",                       pos: "centre",         tryRate: 0.4375 },
+      { name: "Braidon Burns",                     pos: "wing",           tryRate: 0.8571 },
+      { name: "Scott Drinkwater",                  pos: "fullback",       tryRate: 0.5 },
+      { name: "Jaxon Purdue",                      pos: "five-eighth",    tryRate: 0.3333 },
+      { name: "Murray Taulagi",                    pos: "wing",           tryRate: 0.8462 },
+      { name: "Heilum Luki",                       pos: "lock",           tryRate: 0.3889 },
+      { name: "Tom Chester",                       pos: "centre",         tryRate: 0.4118 },
     ],
   },
 

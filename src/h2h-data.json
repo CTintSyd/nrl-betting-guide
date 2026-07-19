@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-19T06:26:00Z",
+  "generatedAt": "2026-07-19T08:42:40Z",
   "matches": {
     "Parramatta Eels vs Penrith Panthers": {
       "homeTeam": "Parramatta Eels",
@@ -247,7 +247,7 @@
       "weather": null,
       "seasonStats": {
         "home": {
-          "winPct": 56.0,
+          "winPct": 53.0,
           "completionRate": 79.0,
           "avgScored": 28.0,
           "avgConceded": 23.0,
@@ -366,17 +366,17 @@
       "weather": null,
       "seasonStats": {
         "home": {
-          "winPct": 41.0,
+          "winPct": 44.0,
           "completionRate": 77.0,
-          "avgScored": 20.0,
+          "avgScored": 21.0,
           "avgConceded": 25.0,
           "winsAtVenue": 59.0,
           "winsOverall": 48.0
         },
         "away": {
-          "winPct": 41.0,
-          "completionRate": 80.0,
-          "avgScored": 20.0,
+          "winPct": 39.0,
+          "completionRate": 79.0,
+          "avgScored": 19.0,
           "avgConceded": 28.0,
           "winsAtVenue": 42.0,
           "winsOverall": 39.0
@@ -485,18 +485,18 @@
       "weather": null,
       "seasonStats": {
         "home": {
-          "winPct": 44.0,
+          "winPct": 47.0,
           "completionRate": 77.0,
-          "avgScored": 18.0,
-          "avgConceded": 24.0,
+          "avgScored": 19.0,
+          "avgConceded": 23.0,
           "winsAtVenue": 54.0,
           "winsOverall": 49.0
         },
         "away": {
-          "winPct": 69.0,
+          "winPct": 71.0,
           "completionRate": 82.0,
-          "avgScored": 29.0,
-          "avgConceded": 17.0,
+          "avgScored": 28.0,
+          "avgConceded": 16.0,
           "winsAtVenue": 41.0,
           "winsOverall": 44.0
         }
@@ -726,7 +726,7 @@
           "winPct": 12.0,
           "completionRate": 78.0,
           "avgScored": 15.0,
-          "avgConceded": 30.0,
+          "avgConceded": 29.0,
           "winsAtVenue": 33.0,
           "winsOverall": 46.0
         },
@@ -850,9 +850,9 @@
           "winsOverall": 50.0
         },
         "away": {
-          "winPct": 62.0,
+          "winPct": 65.0,
           "completionRate": 82.0,
-          "avgScored": 29.0,
+          "avgScored": 28.0,
           "avgConceded": 21.0,
           "winsAtVenue": 37.0,
           "winsOverall": 50.0

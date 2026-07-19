@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-19T06:25:45.767493+00:00",
+  "generatedAt": "2026-07-19T08:42:30.808272+00:00",
   "round": 20,
   "players": {
     "Kalyn Ponga": {
@@ -136,100 +136,100 @@
       "position": "2nd Row"
     },
     "Scott Drinkwater": {
-      "tries": 8,
-      "games": 17,
-      "tryRate": 0.4706,
+      "tries": 9,
+      "games": 18,
+      "tryRate": 0.5,
       "team": "North Queensland Cowboys",
       "position": "Fullback"
     },
     "Braidon Burns": {
       "tries": 12,
-      "games": 13,
-      "tryRate": 0.9231,
+      "games": 14,
+      "tryRate": 0.8571,
       "team": "North Queensland Cowboys",
       "position": "Winger"
     },
     "Jaxon Purdue": {
       "tries": 6,
-      "games": 17,
-      "tryRate": 0.3529,
+      "games": 18,
+      "tryRate": 0.3333,
       "team": "North Queensland Cowboys",
       "position": "Five-Eighth"
     },
     "Tom Chester": {
       "tries": 7,
-      "games": 16,
-      "tryRate": 0.4375,
+      "games": 17,
+      "tryRate": 0.4118,
       "team": "North Queensland Cowboys",
       "position": "Centre"
     },
     "Murray Taulagi": {
       "tries": 11,
-      "games": 12,
-      "tryRate": 0.9167,
+      "games": 13,
+      "tryRate": 0.8462,
       "team": "North Queensland Cowboys",
       "position": "Winger"
     },
     "Jake Clifford": {
       "tries": 6,
-      "games": 17,
-      "tryRate": 0.3529,
+      "games": 18,
+      "tryRate": 0.3333,
       "team": "North Queensland Cowboys",
-      "position": "Halfback"
+      "position": "Reserve"
     },
     "Tom Dearden": {
-      "tries": 1,
-      "games": 10,
-      "tryRate": 0.1,
+      "tries": 2,
+      "games": 11,
+      "tryRate": 0.1818,
       "team": "North Queensland Cowboys",
       "position": "Halfback"
     },
     "Coen Hess": {
       "tries": 1,
-      "games": 17,
-      "tryRate": 0.0588,
+      "games": 18,
+      "tryRate": 0.0556,
       "team": "North Queensland Cowboys",
       "position": "Interchange"
     },
     "Reed Mahoney": {
       "tries": 3,
-      "games": 16,
-      "tryRate": 0.1875,
+      "games": 17,
+      "tryRate": 0.1765,
       "team": "North Queensland Cowboys",
       "position": "Hooker"
     },
     "Jason Taumalolo": {
       "tries": 0,
-      "games": 16,
+      "games": 17,
       "tryRate": 0.0,
       "team": "North Queensland Cowboys",
       "position": "Prop"
     },
     "Heilum Luki": {
       "tries": 7,
-      "games": 17,
-      "tryRate": 0.4118,
+      "games": 18,
+      "tryRate": 0.3889,
       "team": "North Queensland Cowboys",
       "position": "2nd Row"
     },
     "Sam McIntyre": {
       "tries": 1,
-      "games": 16,
-      "tryRate": 0.0625,
+      "games": 17,
+      "tryRate": 0.0588,
       "team": "North Queensland Cowboys",
-      "position": "Reserve"
+      "position": "Interchange"
     },
     "Reuben Cotter": {
       "tries": 2,
-      "games": 14,
-      "tryRate": 0.1429,
+      "games": 15,
+      "tryRate": 0.1333,
       "team": "North Queensland Cowboys",
       "position": "Lock"
     },
     "Soni Luke": {
       "tries": 2,
-      "games": 14,
-      "tryRate": 0.1429,
+      "games": 15,
+      "tryRate": 0.1333,
       "team": "North Queensland Cowboys",
       "position": "Interchange"
     },
@@ -249,17 +249,17 @@
     },
     "Griffin Neame": {
       "tries": 0,
-      "games": 17,
+      "games": 18,
       "tryRate": 0.0,
       "team": "North Queensland Cowboys",
-      "position": "Interchange"
+      "position": "Prop"
     },
     "Matthew Lodge": {
       "tries": 0,
-      "games": 17,
+      "games": 18,
       "tryRate": 0.0,
       "team": "North Queensland Cowboys",
-      "position": "Reserve"
+      "position": "Interchange"
     },
     "Robert Derby": {
       "tries": 0,
@@ -1866,15 +1866,15 @@
     },
     "Hamiso Tabuai-Fidow": {
       "tries": 8,
-      "games": 12,
-      "tryRate": 0.6667,
+      "games": 13,
+      "tryRate": 0.6154,
       "team": "Dolphins",
       "position": "Fullback"
     },
     "Jamayne Isaako": {
-      "tries": 15,
-      "games": 17,
-      "tryRate": 0.8824,
+      "tries": 17,
+      "games": 18,
+      "tryRate": 0.9444,
       "team": "Dolphins",
       "position": "Winger"
     },
@@ -1887,22 +1887,22 @@
     },
     "Herbie Farnworth": {
       "tries": 8,
-      "games": 16,
-      "tryRate": 0.5,
+      "games": 17,
+      "tryRate": 0.4706,
       "team": "Dolphins",
       "position": "Centre"
     },
     "Selwyn Cobbo": {
       "tries": 10,
-      "games": 12,
-      "tryRate": 0.8333,
+      "games": 13,
+      "tryRate": 0.7692,
       "team": "Dolphins",
-      "position": "Winger"
+      "position": "Centre"
     },
     "Kodi Nikorima": {
       "tries": 3,
-      "games": 14,
-      "tryRate": 0.2143,
+      "games": 15,
+      "tryRate": 0.2,
       "team": "Dolphins",
       "position": "Five-Eighth"
     },
@@ -1914,44 +1914,44 @@
       "position": "Halfback"
     },
     "Tom Gilbert": {
-      "tries": 0,
-      "games": 16,
-      "tryRate": 0.0,
+      "tries": 1,
+      "games": 17,
+      "tryRate": 0.0588,
       "team": "Dolphins",
       "position": "Interchange"
     },
     "Thomas Flegler": {
       "tries": 1,
-      "games": 12,
-      "tryRate": 0.0833,
+      "games": 13,
+      "tryRate": 0.0769,
       "team": "Dolphins",
       "position": "Prop"
     },
     "Connelly Lemuelu": {
+      "tries": 4,
+      "games": 18,
+      "tryRate": 0.2222,
+      "team": "Dolphins",
+      "position": "2nd Row"
+    },
+    "Kulikefu Finefeuiaki": {
       "tries": 3,
       "games": 17,
       "tryRate": 0.1765,
       "team": "Dolphins",
       "position": "2nd Row"
     },
-    "Kulikefu Finefeuiaki": {
-      "tries": 3,
-      "games": 16,
-      "tryRate": 0.1875,
-      "team": "Dolphins",
-      "position": "2nd Row"
-    },
     "Morgan Knowles": {
       "tries": 1,
-      "games": 16,
-      "tryRate": 0.0625,
+      "games": 17,
+      "tryRate": 0.0588,
       "team": "Dolphins",
       "position": "Lock"
     },
     "Bradley Schneider": {
       "tries": 2,
-      "games": 15,
-      "tryRate": 0.1333,
+      "games": 16,
+      "tryRate": 0.125,
       "team": "Dolphins",
       "position": "Halfback"
     },
@@ -1963,9 +1963,9 @@
       "position": "2nd Row"
     },
     "Felise Kaufusi": {
-      "tries": 0,
-      "games": 17,
-      "tryRate": 0.0,
+      "tries": 1,
+      "games": 18,
+      "tryRate": 0.0556,
       "team": "Dolphins",
       "position": "Interchange"
     },
@@ -1978,7 +1978,7 @@
     },
     "Sebastian Su'a": {
       "tries": 0,
-      "games": 5,
+      "games": 6,
       "tryRate": 0.0,
       "team": "Dolphins",
       "position": "Reserve"
@@ -2390,9 +2390,9 @@
       "position": "Interchange"
     },
     "Max Plath": {
-      "tries": 1,
-      "games": 12,
-      "tryRate": 0.0833,
+      "tries": 2,
+      "games": 13,
+      "tryRate": 0.1538,
       "team": "Dolphins",
       "position": "Interchange"
     },
@@ -2559,8 +2559,8 @@
     },
     "Zac Laybutt": {
       "tries": 2,
-      "games": 15,
-      "tryRate": 0.1333,
+      "games": 16,
+      "tryRate": 0.125,
       "team": "North Queensland Cowboys",
       "position": "Centre"
     },
@@ -2622,7 +2622,7 @@
     },
     "Francis Molo": {
       "tries": 0,
-      "games": 13,
+      "games": 14,
       "tryRate": 0.0,
       "team": "Dolphins",
       "position": "Prop"
@@ -2713,8 +2713,8 @@
     },
     "Kurt Donoghoe": {
       "tries": 2,
-      "games": 10,
-      "tryRate": 0.2,
+      "games": 11,
+      "tryRate": 0.1818,
       "team": "Dolphins",
       "position": "Interchange"
     },
@@ -3013,9 +3013,9 @@
       "position": "Hooker"
     },
     "Jeremiah Nanai": {
-      "tries": 3,
-      "games": 5,
-      "tryRate": 0.6,
+      "tries": 4,
+      "games": 6,
+      "tryRate": 0.6667,
       "team": "North Queensland Cowboys",
       "position": "2nd Row"
     },
@@ -3035,17 +3035,17 @@
     },
     "Tevita Naufahu": {
       "tries": 3,
-      "games": 10,
-      "tryRate": 0.3,
+      "games": 11,
+      "tryRate": 0.2727,
       "team": "Dolphins",
       "position": "Winger"
     },
     "John Fineanganofo": {
       "tries": 0,
-      "games": 4,
+      "games": 5,
       "tryRate": 0.0,
       "team": "Dolphins",
-      "position": "Interchange"
+      "position": "Reserve"
     },
     "Josiah Pahulu": {
       "tries": 0,
@@ -3126,8 +3126,8 @@
     },
     "Jeremy Marshall-King": {
       "tries": 2,
-      "games": 9,
-      "tryRate": 0.2222,
+      "games": 10,
+      "tryRate": 0.2,
       "team": "Dolphins",
       "position": "Hooker"
     },
@@ -3245,10 +3245,10 @@
     },
     "Ethan King": {
       "tries": 0,
-      "games": 4,
+      "games": 5,
       "tryRate": 0.0,
       "team": "North Queensland Cowboys",
-      "position": "Interchange"
+      "position": "Reserve"
     },
     "Te Maire Martin": {
       "tries": 4,

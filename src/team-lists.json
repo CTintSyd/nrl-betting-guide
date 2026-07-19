@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-19T06:26:00.140660+00:00",
+  "generatedAt": "2026-07-19T08:42:40.380074+00:00",
   "round": 21,
   "games": [
     {
@@ -168,11 +168,32 @@
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/dragons/blake-lawrie/"
       },
       {
+        "name": "Kade Reed",
+        "injury": "Finger",
+        "expectedReturn": "Round 22",
+        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500022/Kade%20Reed%20_260119_Dragons_MK193.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/dragons/kade-reed/"
+      },
+      {
         "name": "Jaydn Su'A",
         "injury": "Pectoral",
         "expectedReturn": "Round 27",
         "imageUrl": "/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500022/Jaydn%20Su%27A%20_260119_Dragons_MK1187.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/dragons/jaydn-sua/"
+      },
+      {
+        "name": "Hame Sele",
+        "injury": "Achilles",
+        "expectedReturn": "TBC",
+        "imageUrl": "/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500022/Hame%20Sele%20_260119_Dragons_MK673.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/dragons/hame-sele/"
+      },
+      {
+        "name": "Hayden Buchanan",
+        "injury": "Shoulder",
+        "expectedReturn": "Next Season",
+        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500022/Hayden%20Buchanan%20_260119_Dragons_MK317.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/dragons/hayden-buchanan/"
       }
     ],
     "Parramatta Eels": [
