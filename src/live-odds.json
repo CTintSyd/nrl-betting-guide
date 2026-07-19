@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-19T10:17:50.017Z",
-  "quotaRemaining": 86,
+  "updated": "2026-07-19T12:47:59.898Z",
+  "quotaRemaining": 83,
   "round": 21,
   "venueOverride": {
     "venue": "Suncorp Stadium",
@@ -262,8 +262,8 @@
         {
           "key": "pointsbetau",
           "name": "PointsBet",
-          "home": 2.55,
-          "away": 1.5
+          "home": 2.4,
+          "away": 1.55
         }
       ]
     },
