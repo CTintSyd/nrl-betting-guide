@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-21T08:04:29.361Z",
-  "quotaRemaining": 41,
+  "updated": "2026-07-21T10:54:35.565Z",
+  "quotaRemaining": 38,
   "round": 21,
   "venueOverride": {
     "venue": "Suncorp Stadium",
@@ -48,8 +48,8 @@
         {
           "key": "betright",
           "name": "BetRight",
-          "home": 5.5,
-          "away": 1.15
+          "home": 5.25,
+          "away": 1.16
         },
         {
           "key": "ladbrokes_au",
@@ -100,8 +100,8 @@
         {
           "key": "betright",
           "name": "BetRight",
-          "home": 2.11,
-          "away": 1.73
+          "home": 2.15,
+          "away": 1.7
         },
         {
           "key": "ladbrokes_au",
@@ -118,16 +118,16 @@
       "commenceTime": "2026-07-24T10:00:00Z",
       "bookmaker": "sportsbet",
       "h2h": {
-        "home": 2,
-        "away": 1.85
+        "home": 2.01,
+        "away": 1.83
       },
       "line": {
         "home": {
-          "odd": 1.86,
+          "odd": 1.88,
           "point": 1.5
         },
         "away": {
-          "odd": 1.94,
+          "odd": 1.91,
           "point": -1.5
         }
       },
@@ -140,8 +140,8 @@
         {
           "key": "sportsbet",
           "name": "Sportsbet",
-          "home": 2,
-          "away": 1.85
+          "home": 2.01,
+          "away": 1.83
         },
         {
           "key": "tab",
@@ -152,8 +152,8 @@
         {
           "key": "betright",
           "name": "BetRight",
-          "home": 1.97,
-          "away": 1.83
+          "home": 2,
+          "away": 1.82
         },
         {
           "key": "ladbrokes_au",
@@ -204,7 +204,7 @@
         {
           "key": "betright",
           "name": "BetRight",
-          "home": 1.23,
+          "home": 1.22,
           "away": 4.25
         },
         {
@@ -302,8 +302,8 @@
         {
           "key": "tab",
           "name": "TAB",
-          "home": 2.3,
-          "away": 1.62
+          "home": 2.25,
+          "away": 1.65
         },
         {
           "key": "betright",
