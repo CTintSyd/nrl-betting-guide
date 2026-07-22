@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-21T21:52:30.402Z",
-  "quotaRemaining": 26,
+  "updated": "2026-07-22T01:23:13.561Z",
+  "quotaRemaining": 23,
   "round": 21,
   "venueOverride": {
     "venue": "Suncorp Stadium",
@@ -14,29 +14,29 @@
       "commenceTime": "2026-07-23T09:50:00Z",
       "bookmaker": "sportsbet",
       "h2h": {
-        "home": 5.1,
+        "home": 5.3,
         "away": 1.16
       },
       "line": {
         "home": {
-          "odd": 1.9,
-          "point": 14.5
+          "odd": 1.93,
+          "point": 15.5
         },
         "away": {
-          "odd": 1.9,
-          "point": -14.5
+          "odd": 1.87,
+          "point": -15.5
         }
       },
       "ou": {
         "total": 44.5,
-        "overOdd": 1.93,
-        "underOdd": 1.87
+        "overOdd": 1.89,
+        "underOdd": 1.91
       },
       "bookmakerComparison": [
         {
           "key": "sportsbet",
           "name": "Sportsbet",
-          "home": 5.1,
+          "home": 5.3,
           "away": 1.16
         },
         {
@@ -66,30 +66,30 @@
       "commenceTime": "2026-07-24T08:00:00Z",
       "bookmaker": "sportsbet",
       "h2h": {
-        "home": 2.15,
-        "away": 1.71
+        "home": 2.13,
+        "away": 1.72
       },
       "line": {
         "home": {
-          "odd": 1.83,
+          "odd": 1.81,
           "point": 2.5
         },
         "away": {
-          "odd": 1.98,
+          "odd": 2,
           "point": -2.5
         }
       },
       "ou": {
         "total": 45.5,
-        "overOdd": 1.86,
-        "underOdd": 1.95
+        "overOdd": 1.82,
+        "underOdd": 1.99
       },
       "bookmakerComparison": [
         {
           "key": "sportsbet",
           "name": "Sportsbet",
-          "home": 2.15,
-          "away": 1.71
+          "home": 2.13,
+          "away": 1.72
         },
         {
           "key": "tab",
@@ -118,16 +118,16 @@
       "commenceTime": "2026-07-24T10:00:00Z",
       "bookmaker": "sportsbet",
       "h2h": {
-        "home": 2.01,
-        "away": 1.83
+        "home": 2.04,
+        "away": 1.81
       },
       "line": {
         "home": {
-          "odd": 1.88,
+          "odd": 1.91,
           "point": 1.5
         },
         "away": {
-          "odd": 1.91,
+          "odd": 1.89,
           "point": -1.5
         }
       },
@@ -140,14 +140,14 @@
         {
           "key": "sportsbet",
           "name": "Sportsbet",
-          "home": 2.01,
-          "away": 1.83
+          "home": 2.04,
+          "away": 1.81
         },
         {
           "key": "tab",
           "name": "TAB",
-          "home": 1.9,
-          "away": 1.9
+          "home": 1.95,
+          "away": 1.85
         },
         {
           "key": "betright",
@@ -170,17 +170,17 @@
       "commenceTime": "2026-07-25T05:00:00Z",
       "bookmaker": "sportsbet",
       "h2h": {
-        "home": 1.22,
-        "away": 4.25
+        "home": 1.23,
+        "away": 4.1
       },
       "line": {
         "home": {
-          "odd": 1.9,
-          "point": -13.5
+          "odd": 1.95,
+          "point": -12.5
         },
         "away": {
-          "odd": 1.9,
-          "point": 13.5
+          "odd": 1.86,
+          "point": 12.5
         }
       },
       "ou": {
@@ -192,8 +192,8 @@
         {
           "key": "sportsbet",
           "name": "Sportsbet",
-          "home": 1.22,
-          "away": 4.25
+          "home": 1.23,
+          "away": 4.1
         },
         {
           "key": "tab",
@@ -302,8 +302,8 @@
         {
           "key": "tab",
           "name": "TAB",
-          "home": 2.25,
-          "away": 1.65
+          "home": 2.2,
+          "away": 1.67
         },
         {
           "key": "betright",
