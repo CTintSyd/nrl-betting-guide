@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T05:17:29.025354+00:00",
+  "generatedAt": "2026-07-23T05:33:43.373324+00:00",
   "round": 21,
   "games": [
     {
@@ -168,18 +168,6 @@
         "category": "reserve"
       },
       {
-        "number": 20,
-        "name": "Jonah Pezet",
-        "position": "Reserve",
-        "category": "reserve"
-      },
-      {
-        "number": 21,
-        "name": "Ryley Smith",
-        "position": "Reserve",
-        "category": "reserve"
-      },
-      {
         "number": 22,
         "name": "Will Penisini",
         "position": "Reserve",
@@ -188,21 +176,15 @@
     ],
     "Penrith Panthers": [
       {
-        "number": 1,
-        "name": "Dylan Edwards",
-        "position": "Fullback",
-        "category": "starting"
-      },
-      {
         "number": 2,
         "name": "Thomas Jenkins",
-        "position": "Winger",
+        "position": "Fullback",
         "category": "starting"
       },
       {
         "number": 3,
         "name": "Paul Alamoti",
-        "position": "Centre",
+        "position": "Winger",
         "category": "starting"
       },
       {
@@ -292,7 +274,7 @@
       {
         "number": 18,
         "name": "Izack Tago",
-        "position": "Interchange",
+        "position": "Centre",
         "category": "reserve"
       },
       {
@@ -304,13 +286,7 @@
       {
         "number": 20,
         "name": "Jaxen Edgar",
-        "position": "Reserve",
-        "category": "reserve"
-      },
-      {
-        "number": 21,
-        "name": "Sione Fonua",
-        "position": "Reserve",
+        "position": "Interchange",
         "category": "reserve"
       },
       {
@@ -2450,6 +2426,13 @@
         "expectedReturn": "Round 22",
         "imageUrl": "/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500014/Jack%20Cogger%20_260123_Panthers_MK816.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/panthers/jack-cogger/"
+      },
+      {
+        "name": "Dylan Edwards",
+        "injury": "Facial injury",
+        "expectedReturn": "Round 22",
+        "imageUrl": "/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500014/Dylan%20Edwards%20_260123_Panthers_MK2086.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/panthers/dylan-edwards/"
       },
       {
         "name": "Mitch Kenny",
