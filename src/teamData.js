@@ -138,24 +138,24 @@ const NRL_TEAM_DATA = {
   'Parramatta Eels': {
     emoji: '🐟', shortName: 'Eels', venue: 'CommBank Stadium', wikiPage: 'Parramatta_Eels', logoFile: 'parramatta-eels.svg',
     players: [
-      { name: "Josh Addo-Carr",                    pos: "wing",           tryRate: 0.375 },
-      { name: "Isaiah Iongi",                      pos: "fullback",       tryRate: 0.4 },
-      { name: "Ronald Volkman",                    pos: "five-eighth",    tryRate: 0.3333 },
-      { name: "Tallyn Da Silva",                   pos: "hooker",         tryRate: 0.3529 },
-      { name: "Kelma Tuilagi",                     pos: "lock",           tryRate: 0.25 },
-      { name: "Brian Kelly",                       pos: "wing",           tryRate: 0.2667 },
+      { name: "Josh Addo-Carr",                    pos: "wing",           tryRate: 0.3529 },
+      { name: "Isaiah Iongi",                      pos: "fullback",       tryRate: 0.3636 },
+      { name: "Ronald Volkman",                    pos: "five-eighth",    tryRate: 0.3077 },
+      { name: "Tallyn Da Silva",                   pos: "hooker",         tryRate: 0.3333 },
+      { name: "Brian Kelly",                       pos: "wing",           tryRate: 0.25 },
+      { name: "Sean Russell",                      pos: "centre",         tryRate: 0.2857 },
     ],
   },
 
   'Penrith Panthers': {
     emoji: '🐾', shortName: 'Panthers', venue: 'BlueBet Stadium', wikiPage: 'Penrith_Panthers', logoFile: 'penrith-panthers.png',
     players: [
-      { name: "Thomas Jenkins",                    pos: "wing",           tryRate: 1.4706 },
+      { name: "Thomas Jenkins",                    pos: "wing",           tryRate: 1.4444 },
       { name: "Dylan Edwards",                     pos: "fullback",       tryRate: 0.5882 },
-      { name: "Blaize Talagi",                     pos: "five-eighth",    tryRate: 0.2941 },
-      { name: "Brian To'o",                        pos: "wing",           tryRate: 0.7333 },
-      { name: "Casey McLean",                      pos: "centre",         tryRate: 0.4615 },
-      { name: "Nathan Cleary",                     pos: "halfback",       tryRate: 0.3571 },
+      { name: "Blaize Talagi",                     pos: "five-eighth",    tryRate: 0.2778 },
+      { name: "Brian To'o",                        pos: "wing",           tryRate: 0.6875 },
+      { name: "Casey McLean",                      pos: "centre",         tryRate: 0.5 },
+      { name: "Nathan Cleary",                     pos: "halfback",       tryRate: 0.3333 },
     ],
   },
 

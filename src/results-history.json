@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-07-23T05:33:54Z",
+  "updatedAt": "2026-07-23T11:53:12Z",
   "season": 2026,
-  "totalFavRecord": "89-59",
-  "totalLineRecord": "25-23",
-  "totalOuRecord": "20O-27U",
+  "totalFavRecord": "90-59",
+  "totalLineRecord": "25-24",
+  "totalOuRecord": "20O-28U",
   "rounds": [
     {
       "round": 1,
@@ -2384,6 +2384,29 @@
       "favRecord": "6-2",
       "lineRecord": "5-3",
       "ouRecord": "3O-5U"
+    },
+    {
+      "round": 21,
+      "games": [
+        {
+          "homeTeam": "Parramatta Eels",
+          "awayTeam": "Penrith Panthers",
+          "homeScore": 18,
+          "awayScore": 24,
+          "winner": "Penrith Panthers",
+          "margin": 6,
+          "favourite": "Penrith Panthers",
+          "favouriteWon": true,
+          "linePoint": 14.5,
+          "lineCovered": false,
+          "ouTotal": 44.5,
+          "ouResult": "Under",
+          "oddsSourced": true
+        }
+      ],
+      "favRecord": "1-0",
+      "lineRecord": "0-1",
+      "ouRecord": "0O-1U"
     }
   ]
 }
