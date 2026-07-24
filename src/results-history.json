@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-07-24T11:10:43Z",
+  "updatedAt": "2026-07-24T12:44:44Z",
   "season": 2026,
-  "totalFavRecord": "91-59",
-  "totalLineRecord": "25-25",
-  "totalOuRecord": "20O-29U",
+  "totalFavRecord": "92-59",
+  "totalLineRecord": "25-26",
+  "totalOuRecord": "21O-29U",
   "rounds": [
     {
       "round": 1,
@@ -2417,11 +2417,26 @@
           "ouTotal": 46.5,
           "ouResult": "Under",
           "oddsSourced": true
+        },
+        {
+          "homeTeam": "South Sydney Rabbitohs",
+          "awayTeam": "Melbourne Storm",
+          "homeScore": 28,
+          "awayScore": 26,
+          "winner": "South Sydney Rabbitohs",
+          "margin": 2,
+          "favourite": "South Sydney Rabbitohs",
+          "favouriteWon": true,
+          "linePoint": -4.5,
+          "lineCovered": false,
+          "ouTotal": 46.5,
+          "ouResult": "Over",
+          "oddsSourced": true
         }
       ],
-      "favRecord": "2-0",
-      "lineRecord": "0-2",
-      "ouRecord": "0O-2U"
+      "favRecord": "3-0",
+      "lineRecord": "0-3",
+      "ouRecord": "1O-2U"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T11:10:35.039840+00:00",
+  "generatedAt": "2026-07-24T12:44:34.615371+00:00",
   "round": 21,
   "games": [
     {
@@ -1600,6 +1600,13 @@
         "expectedReturn": "TBC",
         "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500005/Dayne_Jennings_BodyShot.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/south-sydney-rabbitohs/dayne-jennings/"
+      },
+      {
+        "name": "Brandon Smith",
+        "injury": "Calf",
+        "expectedReturn": "TBC",
+        "imageUrl": "/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500005/Brandon%20Smith_260113_Rabbitohs_MK1562.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/south-sydney-rabbitohs/brandon-smith/"
       },
       {
         "name": "Adam Elliott",

@@ -91,11 +91,11 @@ const NRL_TEAM_DATA = {
     emoji: '⛈️', shortName: 'Storm', venue: 'AAMI Park', wikiPage: 'Melbourne_Storm', logoFile: 'melbourne-storm.png',
     players: [
       { name: "Will Warbrick",                     pos: "wing",           tryRate: 0.8889 },
-      { name: "Sualauvi Faalogo",                  pos: "fullback",       tryRate: 0.7222 },
+      { name: "Sualauvi Faalogo",                  pos: "fullback",       tryRate: 0.7368 },
       { name: "Cameron Munster",                   pos: "five-eighth",    tryRate: 0.2667 },
-      { name: "Moses Leo",                         pos: "wing",           tryRate: 0.7273 },
-      { name: "Harry Grant",                       pos: "hooker",         tryRate: 0.3529 },
-      { name: "Jack Howarth",                      pos: "centre",         tryRate: 0.3333 },
+      { name: "Moses Leo",                         pos: "wing",           tryRate: 0.6667 },
+      { name: "Jack Howarth",                      pos: "centre",         tryRate: 0.3125 },
+      { name: "Nick Meaney",                       pos: "centre",         tryRate: 0.2667 },
     ],
   },
 
@@ -162,12 +162,12 @@ const NRL_TEAM_DATA = {
   'South Sydney Rabbitohs': {
     emoji: '🐰', shortName: 'Rabbitohs', venue: 'Accor Stadium', wikiPage: 'South_Sydney_Rabbitohs', logoFile: 'south-sydney-rabbitohs.svg',
     players: [
-      { name: "Alex Johnston",                     pos: "wing",           tryRate: 1.4286 },
-      { name: "Matthew Dufty",                     pos: "fullback",       tryRate: 0.2 },
-      { name: "Cody Walker",                       pos: "five-eighth",    tryRate: 0.4375 },
+      { name: "Alex Johnston",                     pos: "wing",           tryRate: 1.4 },
+      { name: "Matthew Dufty",                     pos: "fullback",       tryRate: 0.1818 },
+      { name: "Cody Walker",                       pos: "five-eighth",    tryRate: 0.4118 },
       { name: "Latrell Mitchell",                  pos: "centre",         tryRate: 1.2222 },
+      { name: "Campbell Graham",                   pos: "wing",           tryRate: 0.6923 },
       { name: "Tallis Duncan",                     pos: "centre",         tryRate: 0.4706 },
-      { name: "Campbell Graham",                   pos: "wing",           tryRate: 0.5833 },
     ],
   },
 

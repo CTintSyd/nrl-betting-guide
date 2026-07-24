@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T11:10:28.392935+00:00",
+  "generatedAt": "2026-07-24T12:44:26.241640+00:00",
   "round": 21,
   "upcomingRound": 21,
   "ladder": [
@@ -75,6 +75,20 @@
     },
     {
       "pos": 6,
+      "nick": "Rabbitohs",
+      "name": "South Sydney Rabbitohs",
+      "played": 18,
+      "wins": 10,
+      "losses": 8,
+      "drawn": 0,
+      "ptsFor": 510,
+      "ptsAgainst": 432,
+      "diff": 78,
+      "pts": 26,
+      "streak": "1L"
+    },
+    {
+      "pos": 7,
       "nick": "Knights",
       "name": "Newcastle Knights",
       "played": 19,
@@ -85,21 +99,7 @@
       "ptsAgainst": 445,
       "diff": 36,
       "pts": 26,
-      "streak": "3L"
-    },
-    {
-      "pos": 7,
-      "nick": "Rabbitohs",
-      "name": "South Sydney Rabbitohs",
-      "played": 17,
-      "wins": 9,
-      "losses": 8,
-      "drawn": 0,
-      "ptsFor": 482,
-      "ptsAgainst": 406,
-      "diff": 76,
-      "pts": 24,
-      "streak": "1L"
+      "streak": "2L"
     },
     {
       "pos": 8,
@@ -147,13 +147,13 @@
       "pos": 11,
       "nick": "Storm",
       "name": "Melbourne Storm",
-      "played": 18,
+      "played": 19,
       "wins": 8,
-      "losses": 10,
+      "losses": 11,
       "drawn": 0,
-      "ptsFor": 420,
-      "ptsAgainst": 430,
-      "diff": -10,
+      "ptsFor": 446,
+      "ptsAgainst": 458,
+      "diff": -12,
       "pts": 20,
       "streak": "1L"
     },
@@ -482,7 +482,7 @@
       ]
     },
     "Melbourne Storm": {
-      "last5": "W L W L",
+      "last5": "W L W L L",
       "games": [
         {
           "round": 16,
@@ -511,6 +511,13 @@
           "opponent": "Sydney Roosters",
           "home": false,
           "score": "14\u20136"
+        },
+        {
+          "round": 21,
+          "result": "L",
+          "opponent": "South Sydney Rabbitohs",
+          "home": false,
+          "score": "28\u201326"
         }
       ]
     },
@@ -694,7 +701,7 @@
       ]
     },
     "South Sydney Rabbitohs": {
-      "last5": "W L W L",
+      "last5": "W L W L W",
       "games": [
         {
           "round": 17,
@@ -723,6 +730,13 @@
           "opponent": "Canberra Raiders",
           "home": false,
           "score": "34\u201324"
+        },
+        {
+          "round": 21,
+          "result": "W",
+          "opponent": "Melbourne Storm",
+          "home": true,
+          "score": "28\u201326"
         }
       ]
     },
