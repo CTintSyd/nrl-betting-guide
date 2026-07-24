@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T11:53:00.868148+00:00",
+  "generatedAt": "2026-07-24T06:19:42.621969+00:00",
   "round": 21,
   "games": [
     {
@@ -602,12 +602,6 @@
         "category": "starting"
       },
       {
-        "number": 12,
-        "name": "Noah Martin",
-        "position": "2nd Row",
-        "category": "starting"
-      },
-      {
         "number": 13,
         "name": "Morgan Smithies",
         "position": "Lock",
@@ -640,7 +634,7 @@
       {
         "number": 18,
         "name": "Matty Nicholson",
-        "position": "Interchange",
+        "position": "2nd Row",
         "category": "reserve"
       },
       {
@@ -658,13 +652,7 @@
       {
         "number": 21,
         "name": "Vena Patuki-Case",
-        "position": "Reserve",
-        "category": "reserve"
-      },
-      {
-        "number": 22,
-        "name": "Sione Finau",
-        "position": "Reserve",
+        "position": "Interchange",
         "category": "reserve"
       }
     ],
@@ -1917,6 +1905,13 @@
         "expectedReturn": "TBC",
         "imageUrl": "/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500012/Bateman%2CJ%20260109_CD_0339.JPG.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/cowboys/john-bateman/"
+      },
+      {
+        "name": "Tom Dearden",
+        "injury": "Ankle",
+        "expectedReturn": "TBC",
+        "imageUrl": "/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500012/Dearden%2CT%20260109_CD_0477.JPG.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/cowboys/tom-dearden/"
       }
     ],
     "Dolphins": [
@@ -2070,8 +2065,8 @@
       },
       {
         "name": "Dylan Edwards",
-        "injury": "Facial injury",
-        "expectedReturn": "Round 22",
+        "injury": "Shoulder",
+        "expectedReturn": "TBC",
         "imageUrl": "/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500014/Dylan%20Edwards%20_260123_Panthers_MK2086.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/panthers/dylan-edwards/"
       },
@@ -2150,6 +2145,13 @@
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/raiders/owen-pattie/"
       },
       {
+        "name": "Noah Martin",
+        "injury": "Quad",
+        "expectedReturn": "TBC",
+        "imageUrl": "/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500013/Noah%20Martin%20_260121_Raiders_MK1680.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/raiders/noah-martin/"
+      },
+      {
         "name": "Hudson Young",
         "injury": "Achilles",
         "expectedReturn": "Next Season",
@@ -2158,6 +2160,13 @@
       }
     ],
     "Sydney Roosters": [
+      {
+        "name": "Lindsay Collins",
+        "injury": "Concussion",
+        "expectedReturn": "Round 23",
+        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500001/Lindsay%20Collins%20260203_Roosters1533.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/roosters/lindsay-collins/"
+      },
       {
         "name": "Angus Crichton",
         "injury": "Foot",
