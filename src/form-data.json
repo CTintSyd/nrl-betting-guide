@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T09:02:29.927246+00:00",
+  "generatedAt": "2026-07-24T11:10:28.392935+00:00",
   "round": 21,
   "upcomingRound": 21,
   "ladder": [
@@ -19,6 +19,20 @@
     },
     {
       "pos": 2,
+      "nick": "Roosters",
+      "name": "Sydney Roosters",
+      "played": 18,
+      "wins": 13,
+      "losses": 5,
+      "drawn": 0,
+      "ptsFor": 449,
+      "ptsAgainst": 364,
+      "diff": 85,
+      "pts": 32,
+      "streak": "4W"
+    },
+    {
+      "pos": 3,
       "nick": "Warriors",
       "name": "New Zealand Warriors",
       "played": 17,
@@ -30,20 +44,6 @@
       "diff": 202,
       "pts": 30,
       "streak": "2W"
-    },
-    {
-      "pos": 3,
-      "nick": "Roosters",
-      "name": "Sydney Roosters",
-      "played": 17,
-      "wins": 12,
-      "losses": 5,
-      "drawn": 0,
-      "ptsFor": 426,
-      "ptsAgainst": 342,
-      "diff": 84,
-      "pts": 30,
-      "streak": "4W"
     },
     {
       "pos": 4,
@@ -77,15 +77,15 @@
       "pos": 6,
       "nick": "Knights",
       "name": "Newcastle Knights",
-      "played": 18,
+      "played": 19,
       "wins": 11,
-      "losses": 7,
+      "losses": 8,
       "drawn": 0,
-      "ptsFor": 459,
-      "ptsAgainst": 422,
-      "diff": 37,
+      "ptsFor": 481,
+      "ptsAgainst": 445,
+      "diff": 36,
       "pts": 26,
-      "streak": "2L"
+      "streak": "3L"
     },
     {
       "pos": 7,
@@ -548,15 +548,8 @@
       ]
     },
     "Newcastle Knights": {
-      "last5": "W W W L L",
+      "last5": "W W L L L",
       "games": [
-        {
-          "round": 16,
-          "result": "W",
-          "opponent": "St George Illawarra Dragons",
-          "home": true,
-          "score": "22\u201320"
-        },
         {
           "round": 17,
           "result": "W",
@@ -584,6 +577,13 @@
           "opponent": "Cronulla Sutherland Sharks",
           "home": false,
           "score": "20\u201318"
+        },
+        {
+          "round": 21,
+          "result": "L",
+          "opponent": "Sydney Roosters",
+          "home": true,
+          "score": "22\u201323"
         }
       ]
     },
@@ -760,7 +760,7 @@
       ]
     },
     "Sydney Roosters": {
-      "last5": "W W W W",
+      "last5": "W W W W W",
       "games": [
         {
           "round": 16,
@@ -789,6 +789,13 @@
           "opponent": "Melbourne Storm",
           "home": true,
           "score": "14\u20136"
+        },
+        {
+          "round": 21,
+          "result": "W",
+          "opponent": "Newcastle Knights",
+          "home": false,
+          "score": "22\u201323"
         }
       ]
     },

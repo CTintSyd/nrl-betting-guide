@@ -102,12 +102,12 @@ const NRL_TEAM_DATA = {
   'Newcastle Knights': {
     emoji: '⚔️', shortName: 'Knights', venue: 'McDonald Jones Stadium', wikiPage: 'Newcastle_Knights', logoFile: 'newcastle-knights.png',
     players: [
-      { name: "Greg Marzhew",                      pos: "wing",           tryRate: 1.0 },
-      { name: "Kalyn Ponga",                       pos: "fullback",       tryRate: 0.4 },
-      { name: "Fletcher Sharpe",                   pos: "five-eighth",    tryRate: 0.4375 },
-      { name: "Dominic Young",                     pos: "wing",           tryRate: 0.8333 },
-      { name: "Dylan Lucas",                       pos: "lock",           tryRate: 0.6667 },
-      { name: "Trey Mooney",                       pos: "prop",           tryRate: 0.3125 },
+      { name: "Greg Marzhew",                      pos: "wing",           tryRate: 0.9444 },
+      { name: "Fletcher Sharpe",                   pos: "fullback",       tryRate: 0.4118 },
+      { name: "Dylan Brown",                       pos: "halfback",       tryRate: 0.1333 },
+      { name: "Dominic Young",                     pos: "wing",           tryRate: 0.8421 },
+      { name: "Dylan Lucas",                       pos: "lock",           tryRate: 0.625 },
+      { name: "Fletcher Hunt",                     pos: "centre",         tryRate: 0.4211 },
     ],
   },
 
@@ -186,12 +186,12 @@ const NRL_TEAM_DATA = {
   'Sydney Roosters': {
     emoji: '🐓', shortName: 'Roosters', venue: 'Allianz Stadium', wikiPage: 'Sydney_Roosters', logoFile: 'sydney-roosters.png',
     players: [
-      { name: "Mark Nawaqanitawase",               pos: "wing",           tryRate: 0.9231 },
-      { name: "James Tedesco",                     pos: "fullback",       tryRate: 0.4286 },
-      { name: "Sam Walker",                        pos: "halfback",       tryRate: 0.4 },
-      { name: "Daniel Tupou",                      pos: "wing",           tryRate: 1.0 },
-      { name: "Robert Toia",                       pos: "centre",         tryRate: 0.6429 },
-      { name: "Billy Smith",                       pos: "centre",         tryRate: 0.7778 },
+      { name: "Mark Nawaqanitawase",               pos: "wing",           tryRate: 0.8571 },
+      { name: "James Tedesco",                     pos: "fullback",       tryRate: 0.6 },
+      { name: "Sam Walker",                        pos: "halfback",       tryRate: 0.375 },
+      { name: "Daniel Tupou",                      pos: "wing",           tryRate: 0.9231 },
+      { name: "Robert Toia",                       pos: "centre",         tryRate: 0.6 },
+      { name: "Billy Smith",                       pos: "centre",         tryRate: 0.8 },
     ],
   },
 

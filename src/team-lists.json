@@ -1,13 +1,7 @@
 {
-  "generatedAt": "2026-07-24T09:02:37.751435+00:00",
+  "generatedAt": "2026-07-24T11:10:35.039840+00:00",
   "round": 21,
   "games": [
-    {
-      "matchCentreUrl": "/draw/nrl-premiership/2026/round-21/rabbitohs-v-storm/",
-      "kickoff": "2026-07-24T10:00:00Z",
-      "homeTeam": "South Sydney Rabbitohs",
-      "awayTeam": "Melbourne Storm"
-    },
     {
       "matchCentreUrl": "/draw/nrl-premiership/2026/round-21/raiders-v-wests-tigers/",
       "kickoff": "2026-07-25T05:00:00Z",
@@ -40,238 +34,6 @@
     }
   ],
   "teams": {
-    "South Sydney Rabbitohs": [
-      {
-        "number": 1,
-        "name": "Matthew Dufty",
-        "position": "Fullback",
-        "category": "starting"
-      },
-      {
-        "number": 2,
-        "name": "Alex Johnston",
-        "position": "Winger",
-        "category": "starting"
-      },
-      {
-        "number": 3,
-        "name": "Latrell Siegwalt",
-        "position": "Centre",
-        "category": "starting"
-      },
-      {
-        "number": 4,
-        "name": "Jack Wighton",
-        "position": "Centre",
-        "category": "starting"
-      },
-      {
-        "number": 5,
-        "name": "Campbell Graham",
-        "position": "Winger",
-        "category": "starting"
-      },
-      {
-        "number": 6,
-        "name": "Cody Walker",
-        "position": "Five-Eighth",
-        "category": "starting"
-      },
-      {
-        "number": 7,
-        "name": "Ashton Ward",
-        "position": "Halfback",
-        "category": "starting"
-      },
-      {
-        "number": 8,
-        "name": "Tevita Tatola",
-        "position": "Prop",
-        "category": "starting"
-      },
-      {
-        "number": 9,
-        "name": "Brandon Smith",
-        "position": "Hooker",
-        "category": "starting"
-      },
-      {
-        "number": 10,
-        "name": "Keaon Koloamatangi",
-        "position": "Prop",
-        "category": "starting"
-      },
-      {
-        "number": 12,
-        "name": "Euan Aitken",
-        "position": "2nd Row",
-        "category": "starting"
-      },
-      {
-        "number": 13,
-        "name": "Lachlan Hubner",
-        "position": "Interchange",
-        "category": "starting"
-      },
-      {
-        "number": 14,
-        "name": "Jayden Sullivan",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
-        "number": 15,
-        "name": "Jye Gray",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
-        "number": 16,
-        "name": "Liam Le Blanc",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
-        "number": 17,
-        "name": "Jamie Humphreys",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
-        "number": 18,
-        "name": "Bronson Garlick",
-        "position": "Lock",
-        "category": "reserve"
-      },
-      {
-        "number": 19,
-        "name": "John Radel",
-        "position": "2nd Row",
-        "category": "reserve"
-      },
-      {
-        "number": 20,
-        "name": "Thomas Fletcher",
-        "position": "Interchange",
-        "category": "reserve"
-      }
-    ],
-    "Melbourne Storm": [
-      {
-        "number": 1,
-        "name": "Sualauvi Faalogo",
-        "position": "Fullback",
-        "category": "starting"
-      },
-      {
-        "number": 2,
-        "name": "Siulagi Tuimalatu-Brown",
-        "position": "Winger",
-        "category": "starting"
-      },
-      {
-        "number": 3,
-        "name": "Jack Howarth",
-        "position": "Centre",
-        "category": "starting"
-      },
-      {
-        "number": 4,
-        "name": "Nick Meaney",
-        "position": "Centre",
-        "category": "starting"
-      },
-      {
-        "number": 5,
-        "name": "Moses Leo",
-        "position": "Winger",
-        "category": "starting"
-      },
-      {
-        "number": 6,
-        "name": "Tyran Wishart",
-        "position": "Five-Eighth",
-        "category": "starting"
-      },
-      {
-        "number": 7,
-        "name": "Jahrome Hughes",
-        "position": "Halfback",
-        "category": "starting"
-      },
-      {
-        "number": 8,
-        "name": "Stefano Utoikamanu",
-        "position": "Prop",
-        "category": "starting"
-      },
-      {
-        "number": 9,
-        "name": "Harry Grant",
-        "position": "Interchange",
-        "category": "starting"
-      },
-      {
-        "number": 10,
-        "name": "Josh King",
-        "position": "Prop",
-        "category": "starting"
-      },
-      {
-        "number": 11,
-        "name": "Cooper Clarke",
-        "position": "2nd Row",
-        "category": "starting"
-      },
-      {
-        "number": 12,
-        "name": "Oryn Keeley",
-        "position": "2nd Row",
-        "category": "starting"
-      },
-      {
-        "number": 13,
-        "name": "Trent Loiero",
-        "position": "Lock",
-        "category": "starting"
-      },
-      {
-        "number": 14,
-        "name": "Trent Toelau",
-        "position": "Hooker",
-        "category": "interchange"
-      },
-      {
-        "number": 15,
-        "name": "Alec MacDonald",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
-        "number": 16,
-        "name": "Angus Hinchey",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
-        "number": 17,
-        "name": "Jack Hetherington",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
-        "number": 18,
-        "name": "Stanley Huen",
-        "position": "Interchange",
-        "category": "reserve"
-      },
-      {
-        "number": 19,
-        "name": "Manaia Waitere",
-        "position": "Interchange",
-        "category": "reserve"
-      }
-    ],
     "Canberra Raiders": [
       {
         "number": 1,
@@ -776,7 +538,7 @@
       {
         "number": 3,
         "name": "Jaxon Purdue",
-        "position": "Centre",
+        "position": "Halfback",
         "category": "starting"
       },
       {
@@ -795,12 +557,6 @@
         "number": 6,
         "name": "Jake Clifford",
         "position": "Five-Eighth",
-        "category": "starting"
-      },
-      {
-        "number": 7,
-        "name": "Tom Dearden",
-        "position": "Halfback",
         "category": "starting"
       },
       {
@@ -866,7 +622,7 @@
       {
         "number": 18,
         "name": "Zac Laybutt",
-        "position": "Interchange",
+        "position": "Centre",
         "category": "reserve"
       },
       {
@@ -878,13 +634,7 @@
       {
         "number": 20,
         "name": "Sam McIntyre",
-        "position": "Reserve",
-        "category": "reserve"
-      },
-      {
-        "number": 21,
-        "name": "Kaiden Lahrs",
-        "position": "Reserve",
+        "position": "Interchange",
         "category": "reserve"
       },
       {
@@ -1012,18 +762,6 @@
       {
         "number": 20,
         "name": "Hayze Perham",
-        "position": "Reserve",
-        "category": "reserve"
-      },
-      {
-        "number": 21,
-        "name": "Jesse Arthars",
-        "position": "Reserve",
-        "category": "reserve"
-      },
-      {
-        "number": 22,
-        "name": "Joshua Coric",
         "position": "Reserve",
         "category": "reserve"
       }
@@ -1575,6 +1313,13 @@
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/broncos/aublix-tawha/"
       },
       {
+        "name": "Corey Jensen",
+        "injury": "Medical Episode",
+        "expectedReturn": "TBC",
+        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500011/Jensen.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/broncos/corey-jensen/"
+      },
+      {
         "name": "Brendan Piakura",
         "injury": "Concussion",
         "expectedReturn": "TBC",
@@ -1755,11 +1500,25 @@
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/knights/james-schiller/"
       },
       {
+        "name": "Dylan Brown",
+        "injury": "Knee",
+        "expectedReturn": "TBC",
+        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500003/Dylan%20Brown%20_260129_Knights_MK1866.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/knights/dylan-brown/"
+      },
+      {
         "name": "Dane Gagai",
         "injury": "Calf",
         "expectedReturn": "TBC",
         "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500003/Dane%20Gagai%20_260129_Knights_MK1405.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/knights/dane-gagai/"
+      },
+      {
+        "name": "Dylan Lucas",
+        "injury": "Ankle",
+        "expectedReturn": "TBC",
+        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500003/Dylan%20Lucas%20_260129_Knights_MK1927.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/knights/dylan-lucas/"
       },
       {
         "name": "Kalyn Ponga",
@@ -1889,6 +1648,13 @@
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/roosters/angus-crichton/"
       },
       {
+        "name": "Daniel Tupou",
+        "injury": "Shoulder",
+        "expectedReturn": "TBC",
+        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500001/Daniel%20Tupou%20260203_Roosters1405.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/roosters/daniel-tupou/"
+      },
+      {
         "name": "Blake Steep",
         "injury": "ACL",
         "expectedReturn": "Next Season",
@@ -1977,6 +1743,13 @@
         "expectedReturn": "Round 24",
         "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500021/Munster%2CC_260204_AR_3.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/storm/cameron-munster/"
+      },
+      {
+        "name": "Harry Grant",
+        "injury": "Hamstring",
+        "expectedReturn": "TBC",
+        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500021/Grant%2CH_260204_AR_18.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/storm/harry-grant/"
       },
       {
         "name": "Tui Kamikamica",

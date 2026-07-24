@@ -1,14 +1,46 @@
 {
-  "updated": "2026-07-24T09:02:39Z",
+  "updated": "2026-07-24T11:10:37Z",
   "articles": [
     {
-      "title": "LIVE: Knights vs Roosters – Round 21, 2026",
-      "url": "https://www.zerotackle.com/live-knights-roosters-round-21-2026-mc10396489-236070/",
+      "title": "LIVE: Rabbitohs vs Storm – Round 21, 2026",
+      "url": "https://www.zerotackle.com/live-rabbitohs-storm-round-21-2026-mc10396490-236068/",
+      "description": "The South Sydney Rabbitohs face the Melbourne Storm in Round 21 of the 2026 NRL season. Follow the live scores, team lists, match statistics and key moments from the game at Accor Stadium.",
+      "date": "Fri, 26 Jun 2026 10:00:00 +0000",
+      "teams": [
+        "South Sydney Rabbitohs",
+        "Melbourne Storm"
+      ],
+      "isRound": true
+    },
+    {
+      "title": "Knightmare: Dylan’s down as Lucas and Brown suffer horror injuries",
+      "url": "https://www.zerotackle.com/knightmare-dylans-down-as-lucas-and-brown-suffer-horror-injuries-236241/",
+      "description": "Newcastle lost their two star players in their loss/win against the Roosters.",
+      "date": "Fri, 24 Jul 2026 11:00:29 +0000",
+      "teams": [
+        "Sydney Roosters"
+      ],
+      "isRound": false
+    },
+    {
+      "title": "FULL TIME: Knights vs Roosters – Round 21, 2026",
+      "url": "https://www.zerotackle.com/fulltime-knights-roosters-round-21-2026-mc10396489-236070/",
       "description": "The Newcastle Knights face the Sydney Roosters in Round 21 of the 2026 NRL season. Follow the live scores, team lists, match statistics and key moments from the game at McDonald Jones Stadium.",
       "date": "Fri, 26 Jun 2026 08:00:00 +0000",
       "teams": [
         "Newcastle Knights",
         "Sydney Roosters"
+      ],
+      "isRound": true
+    },
+    {
+      "title": "Updated Team Lists: Cowboys vs Broncos – Round 21, 2026",
+      "url": "https://www.zerotackle.com/updated-team-lists-cowboys-vs-broncos-10396493-236239/",
+      "description": "The Cowboys and Broncos have cut their squads to 20 ahead of tomorrow's match at Queensland Country Bank Stadium.",
+      "date": "Fri, 24 Jul 2026 09:33:12 +0000",
+      "teams": [
+        "Brisbane Broncos",
+        "North Queensland Cowboys"
       ],
       "isRound": true
     },
@@ -42,38 +74,6 @@
         "Manly Warringah Sea Eagles"
       ],
       "isRound": false
-    },
-    {
-      "title": "Doueihi, Tigers to hold crisis meeting over future",
-      "url": "https://www.zerotackle.com/doueihi-tigers-to-hold-crisis-meeting-over-future-236231/",
-      "description": "Doueihi is not playing against the Raiders on Saturday.",
-      "date": "Fri, 24 Jul 2026 07:44:17 +0000",
-      "teams": [
-        "Canberra Raiders"
-      ],
-      "isRound": false
-    },
-    {
-      "title": "Updated Team Lists: Bulldogs vs Warriors – Round 21, 2026",
-      "url": "https://www.zerotackle.com/updated-team-lists-bulldogs-vs-warriors-10396492-236234/",
-      "description": "The Bulldogs and Warriors have cut their squads to 20 ahead of tomorrow's match at Accor Stadium.",
-      "date": "Fri, 24 Jul 2026 07:26:17 +0000",
-      "teams": [
-        "Canterbury Bulldogs",
-        "New Zealand Warriors"
-      ],
-      "isRound": true
-    },
-    {
-      "title": "FINAL TEAMS: Knights vs Roosters – Round 21, 2026",
-      "url": "https://www.zerotackle.com/updated-team-lists-knights-roosters-10396489-236198/",
-      "description": "LATE MAIL: The Knights and Roosters have confirmed their lineups for the match at McDonald Jones Stadium.",
-      "date": "Fri, 24 Jul 2026 06:27:12 +0000",
-      "teams": [
-        "Newcastle Knights",
-        "Sydney Roosters"
-      ],
-      "isRound": true
     }
   ]
 }

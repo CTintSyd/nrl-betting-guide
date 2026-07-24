@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-07-24T09:02:46Z",
+  "updatedAt": "2026-07-24T11:10:43Z",
   "season": 2026,
-  "totalFavRecord": "90-59",
-  "totalLineRecord": "25-24",
-  "totalOuRecord": "20O-28U",
+  "totalFavRecord": "91-59",
+  "totalLineRecord": "25-25",
+  "totalOuRecord": "20O-29U",
   "rounds": [
     {
       "round": 1,
@@ -2402,11 +2402,26 @@
           "ouTotal": 44.5,
           "ouResult": "Under",
           "oddsSourced": true
+        },
+        {
+          "homeTeam": "Newcastle Knights",
+          "awayTeam": "Sydney Roosters",
+          "homeScore": 22,
+          "awayScore": 23,
+          "winner": "Sydney Roosters",
+          "margin": 1,
+          "favourite": "Sydney Roosters",
+          "favouriteWon": true,
+          "linePoint": 2.5,
+          "lineCovered": false,
+          "ouTotal": 46.5,
+          "ouResult": "Under",
+          "oddsSourced": true
         }
       ],
-      "favRecord": "1-0",
-      "lineRecord": "0-1",
-      "ouRecord": "0O-1U"
+      "favRecord": "2-0",
+      "lineRecord": "0-2",
+      "ouRecord": "0O-2U"
     }
   ]
 }
