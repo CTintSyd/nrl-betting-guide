@@ -30,12 +30,12 @@ const NRL_TEAM_DATA = {
   'Canterbury Bulldogs': {
     emoji: '🐕', shortName: 'Bulldogs', venue: 'Accor Stadium', wikiPage: 'Canterbury-Bankstown_Bulldogs', logoFile: 'canterbury-bulldogs.png',
     players: [
-      { name: "Jacob Kiraz",                       pos: "wing",           tryRate: 0.4615 },
-      { name: "Connor Tracey",                     pos: "fullback",       tryRate: 0.2 },
-      { name: "Lachlan Galvin",                    pos: "halfback",       tryRate: 0.3529 },
-      { name: "Jethro Rinakama",                   pos: "wing",           tryRate: 0.5455 },
-      { name: "Matt Burton",                       pos: "centre",         tryRate: 0.3125 },
-      { name: "Josh Curran",                       pos: "lock",           tryRate: 0.3846 },
+      { name: "Jacob Kiraz",                       pos: "wing",           tryRate: 0.5 },
+      { name: "Connor Tracey",                     pos: "fullback",       tryRate: 0.1875 },
+      { name: "Lachlan Galvin",                    pos: "halfback",       tryRate: 0.3333 },
+      { name: "Jethro Rinakama",                   pos: "wing",           tryRate: 0.5 },
+      { name: "Matt Burton",                       pos: "centre",         tryRate: 0.2941 },
+      { name: "Stephen Crichton",                  pos: "five-eighth",    tryRate: 0.3571 },
     ],
   },
 
@@ -114,12 +114,12 @@ const NRL_TEAM_DATA = {
   'New Zealand Warriors': {
     emoji: '⚔️', shortName: 'Warriors', venue: 'Go Media Stadium', wikiPage: 'New_Zealand_Warriors', logoFile: 'new-zealand-warriors.svg',
     players: [
-      { name: "Dallin Watene-Zelezniak",           pos: "wing",           tryRate: 1.0625 },
-      { name: "Taine Tuaupiki",                    pos: "fullback",       tryRate: 0.1765 },
-      { name: "Te Maire Martin",                   pos: "halfback",       tryRate: 0.5 },
-      { name: "Alofiana Khan-Pereira",             pos: "wing",           tryRate: 1.0909 },
-      { name: "Erin Clark",                        pos: "lock",           tryRate: 0.2353 },
-      { name: "Ali Leiataua",                      pos: "centre",         tryRate: 0.2857 },
+      { name: "Dallin Watene-Zelezniak",           pos: "wing",           tryRate: 1.0 },
+      { name: "Taine Tuaupiki",                    pos: "fullback",       tryRate: 0.1667 },
+      { name: "Chanel Harris-Tavita",              pos: "five-eighth",    tryRate: 0.2353 },
+      { name: "Alofiana Khan-Pereira",             pos: "wing",           tryRate: 1.0 },
+      { name: "Erin Clark",                        pos: "lock",           tryRate: 0.2222 },
+      { name: "Ali Leiataua",                      pos: "centre",         tryRate: 0.2667 },
     ],
   },
 

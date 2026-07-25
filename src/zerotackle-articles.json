@@ -1,9 +1,20 @@
 {
-  "updated": "2026-07-25T08:32:55Z",
+  "updated": "2026-07-25T10:18:49Z",
   "articles": [
     {
-      "title": "LIVE: Bulldogs vs Warriors – Round 21, 2026",
-      "url": "https://www.zerotackle.com/live-bulldogs-warriors-round-21-2026-mc10396492-236064/",
+      "title": "LIVE: Cowboys vs Broncos – Round 21, 2026",
+      "url": "https://www.zerotackle.com/live-cowboys-broncos-round-21-2026-mc10396493-236062/",
+      "description": "The North Queensland Cowboys face the Brisbane Broncos in Round 21 of the 2026 NRL season. Follow the live scores, team lists, match statistics and key moments from the game at Queensland Country Bank Stadium.",
+      "date": "Sat, 27 Jun 2026 09:30:00 +0000",
+      "teams": [
+        "Brisbane Broncos",
+        "North Queensland Cowboys"
+      ],
+      "isRound": true
+    },
+    {
+      "title": "FULL TIME: Bulldogs vs Warriors – Round 21, 2026",
+      "url": "https://www.zerotackle.com/fulltime-bulldogs-warriors-round-21-2026-mc10396492-236064/",
       "description": "The Canterbury-Bankstown Bulldogs face the New Zealand Warriors in Round 21 of the 2026 NRL season. Follow the live scores, team lists, match statistics and key moments from the game at Accor Stadium.",
       "date": "Sat, 27 Jun 2026 07:30:00 +0000",
       "teams": [
@@ -87,16 +98,6 @@
         "Wests Tigers"
       ],
       "isRound": true
-    },
-    {
-      "title": "Knights confirm season-ending injuries for two stars",
-      "url": "https://www.zerotackle.com/knights-confirm-season-ending-injuries-for-two-stars-236256/",
-      "description": "The club has confirmed the season is over for its star duo.",
-      "date": "Sat, 25 Jul 2026 03:13:50 +0000",
-      "teams": [
-        "Newcastle Knights"
-      ],
-      "isRound": false
     }
   ]
 }
