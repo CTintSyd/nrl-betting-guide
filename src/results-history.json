@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-07-25T10:19:02Z",
+  "updatedAt": "2026-07-25T11:48:13Z",
   "season": 2026,
-  "totalFavRecord": "93-60",
-  "totalLineRecord": "26-27",
-  "totalOuRecord": "22O-30U",
+  "totalFavRecord": "94-60",
+  "totalLineRecord": "27-27",
+  "totalOuRecord": "22O-31U",
   "rounds": [
     {
       "round": 1,
@@ -2462,11 +2462,26 @@
           "ouTotal": 42.5,
           "ouResult": "Under",
           "oddsSourced": true
+        },
+        {
+          "homeTeam": "North Queensland Cowboys",
+          "awayTeam": "Brisbane Broncos",
+          "homeScore": 18,
+          "awayScore": 10,
+          "winner": "North Queensland Cowboys",
+          "margin": 8,
+          "favourite": "North Queensland Cowboys",
+          "favouriteWon": true,
+          "linePoint": -3.5,
+          "lineCovered": true,
+          "ouTotal": 48.5,
+          "ouResult": "Under",
+          "oddsSourced": true
         }
       ],
-      "favRecord": "4-1",
-      "lineRecord": "1-4",
-      "ouRecord": "2O-3U"
+      "favRecord": "5-1",
+      "lineRecord": "2-4",
+      "ouRecord": "2O-4U"
     }
   ]
 }
