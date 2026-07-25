@@ -18,12 +18,12 @@ const NRL_TEAM_DATA = {
   'Canberra Raiders': {
     emoji: '🔋', shortName: 'Raiders', venue: 'GIO Stadium', wikiPage: 'Canberra_Raiders', logoFile: 'canberra-raiders.svg',
     players: [
-      { name: "Xavier Savage",                     pos: "wing",           tryRate: 0.6154 },
-      { name: "Kaeo Weekes",                       pos: "fullback",       tryRate: 0.5556 },
-      { name: "Ethan Strange",                     pos: "five-eighth",    tryRate: 0.2667 },
+      { name: "Xavier Savage",                     pos: "wing",           tryRate: 0.6429 },
+      { name: "Kaeo Weekes",                       pos: "fullback",       tryRate: 0.5789 },
+      { name: "Ethan Strange",                     pos: "five-eighth",    tryRate: 0.3125 },
+      { name: "Matthew Timoko",                    pos: "centre",         tryRate: 0.3333 },
       { name: "Hudson Young",                      pos: "lock",           tryRate: 0.3571 },
-      { name: "Simi Sasagi",                       pos: "centre",         tryRate: 0.4167 },
-      { name: "Zac Hosking",                       pos: "lock",           tryRate: 0.25 },
+      { name: "Simi Sasagi",                       pos: "centre",         tryRate: 0.3846 },
     ],
   },
 
@@ -198,12 +198,12 @@ const NRL_TEAM_DATA = {
   'Wests Tigers': {
     emoji: '🐯', shortName: 'Tigers', venue: 'Campbelltown Stadium', wikiPage: 'Wests_Tigers', logoFile: 'wests-tigers.svg',
     players: [
-      { name: "Sunia Turuva",                      pos: "wing",           tryRate: 0.2222 },
-      { name: "Jahream Bula",                      pos: "fullback",       tryRate: 0.4 },
+      { name: "Jeral Skelton",                     pos: "wing",           tryRate: 0.2857 },
+      { name: "Jahream Bula",                      pos: "fullback",       tryRate: 0.375 },
       { name: "Adam Doueihi",                      pos: "halfback",       tryRate: 0.5833 },
       { name: "Taylan May",                        pos: "centre",         tryRate: 0.6667 },
-      { name: "Jarome Luai",                       pos: "five-eighth",    tryRate: 0.2857 },
-      { name: "Jeral Skelton",                     pos: "wing",           tryRate: 0.2857 },
+      { name: "Sunia Turuva",                      pos: "centre",         tryRate: 0.2105 },
+      { name: "Jarome Luai",                       pos: "five-eighth",    tryRate: 0.2667 },
     ],
   },
 };
