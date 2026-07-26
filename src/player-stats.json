@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25T13:52:53.794188+00:00",
+  "generatedAt": "2026-07-26T06:31:45.911909+00:00",
   "round": 21,
   "players": {
     "Kalyn Ponga": {
@@ -403,8 +403,8 @@
     },
     "Clinton Gutherson": {
       "tries": 2,
-      "games": 14,
-      "tryRate": 0.1429,
+      "games": 15,
+      "tryRate": 0.1333,
       "team": "St George Illawarra Dragons",
       "position": "Fullback"
     },
@@ -424,59 +424,59 @@
     },
     "Valentine Holmes": {
       "tries": 8,
-      "games": 17,
-      "tryRate": 0.4706,
+      "games": 18,
+      "tryRate": 0.4444,
       "team": "St George Illawarra Dragons",
       "position": "Centre"
     },
     "Setu Tu": {
       "tries": 8,
-      "games": 15,
-      "tryRate": 0.5333,
+      "games": 16,
+      "tryRate": 0.5,
       "team": "St George Illawarra Dragons",
       "position": "Winger"
     },
     "Kyle Flanagan": {
-      "tries": 0,
-      "games": 16,
-      "tryRate": 0.0,
+      "tries": 1,
+      "games": 17,
+      "tryRate": 0.0588,
       "team": "St George Illawarra Dragons",
       "position": "Halfback"
     },
     "Daniel Atkinson": {
       "tries": 1,
-      "games": 16,
-      "tryRate": 0.0625,
+      "games": 17,
+      "tryRate": 0.0588,
       "team": "St George Illawarra Dragons",
       "position": "Five-Eighth"
     },
     "Emre Guler": {
       "tries": 1,
-      "games": 15,
-      "tryRate": 0.0667,
+      "games": 16,
+      "tryRate": 0.0625,
       "team": "St George Illawarra Dragons",
       "position": "Reserve"
     },
     "Damien Cook": {
       "tries": 2,
-      "games": 17,
-      "tryRate": 0.1176,
+      "games": 18,
+      "tryRate": 0.1111,
       "team": "St George Illawarra Dragons",
       "position": "Hooker"
     },
     "Toby Couchman": {
       "tries": 0,
-      "games": 16,
+      "games": 17,
       "tryRate": 0.0,
       "team": "St George Illawarra Dragons",
       "position": "Prop"
     },
     "Luciano Leilua": {
       "tries": 2,
-      "games": 15,
-      "tryRate": 0.1333,
+      "games": 16,
+      "tryRate": 0.125,
       "team": "St George Illawarra Dragons",
-      "position": "Interchange"
+      "position": "Reserve"
     },
     "Jaydn Su'A": {
       "tries": 1,
@@ -487,8 +487,8 @@
     },
     "Hamish Stewart": {
       "tries": 3,
-      "games": 17,
-      "tryRate": 0.1765,
+      "games": 18,
+      "tryRate": 0.1667,
       "team": "St George Illawarra Dragons",
       "position": "2nd Row"
     },
@@ -501,7 +501,7 @@
     },
     "Josh Kerr": {
       "tries": 0,
-      "games": 17,
+      "games": 18,
       "tryRate": 0.0,
       "team": "St George Illawarra Dragons",
       "position": "Interchange"
@@ -515,22 +515,22 @@
     },
     "Ryan Couchman": {
       "tries": 0,
-      "games": 13,
+      "games": 14,
       "tryRate": 0.0,
       "team": "St George Illawarra Dragons",
       "position": "Lock"
     },
     "Lyhkan King-Togia": {
       "tries": 0,
-      "games": 13,
+      "games": 14,
       "tryRate": 0.0,
       "team": "St George Illawarra Dragons",
-      "position": "Reserve"
+      "position": "Interchange"
     },
     "Mathew Feagai": {
       "tries": 3,
-      "games": 13,
-      "tryRate": 0.2308,
+      "games": 14,
+      "tryRate": 0.2143,
       "team": "St George Illawarra Dragons",
       "position": "Centre"
     },
@@ -1190,7 +1190,7 @@
       "games": 11,
       "tryRate": 0.1818,
       "team": "Brisbane Broncos",
-      "position": "Reserve"
+      "position": "Interchange"
     },
     "Jaiyden Hunt": {
       "tries": 0,
@@ -1467,22 +1467,22 @@
     },
     "Keano Kini": {
       "tries": 3,
-      "games": 17,
-      "tryRate": 0.1765,
+      "games": 18,
+      "tryRate": 0.1667,
       "team": "Gold Coast Titans",
       "position": "Fullback"
     },
-    "Sialetili Faeamani": {
+    "Siale Faeamani": {
       "tries": 4,
-      "games": 8,
-      "tryRate": 0.5,
+      "games": 9,
+      "tryRate": 0.4444,
       "team": "Gold Coast Titans",
-      "position": "Winger"
+      "position": "Reserve"
     },
     "Jojo Fifita": {
       "tries": 7,
-      "games": 15,
-      "tryRate": 0.4667,
+      "games": 16,
+      "tryRate": 0.4375,
       "team": "Gold Coast Titans",
       "position": "Centre"
     },
@@ -1494,9 +1494,9 @@
       "position": "Reserve"
     },
     "Phillip Sami": {
-      "tries": 11,
-      "games": 17,
-      "tryRate": 0.6471,
+      "tries": 12,
+      "games": 18,
+      "tryRate": 0.6667,
       "team": "Gold Coast Titans",
       "position": "Winger"
     },
@@ -1509,50 +1509,50 @@
     },
     "Lachlan Ilias": {
       "tries": 0,
-      "games": 11,
+      "games": 12,
       "tryRate": 0.0,
       "team": "Gold Coast Titans",
       "position": "Reserve"
     },
     "Moeaki Fotuaika": {
       "tries": 1,
-      "games": 17,
-      "tryRate": 0.0588,
+      "games": 18,
+      "tryRate": 0.0556,
       "team": "Gold Coast Titans",
       "position": "Prop"
     },
     "Sam Verrills": {
       "tries": 1,
-      "games": 13,
-      "tryRate": 0.0769,
+      "games": 14,
+      "tryRate": 0.0714,
       "team": "Gold Coast Titans",
       "position": "Interchange"
     },
     "Tino Fa'asuamaleaui": {
-      "tries": 0,
-      "games": 14,
-      "tryRate": 0.0,
+      "tries": 1,
+      "games": 15,
+      "tryRate": 0.0667,
       "team": "Gold Coast Titans",
       "position": "Prop"
     },
     "Arama Hau": {
       "tries": 6,
-      "games": 17,
-      "tryRate": 0.3529,
+      "games": 18,
+      "tryRate": 0.3333,
       "team": "Gold Coast Titans",
       "position": "2nd Row"
     },
     "Beau Fermor": {
       "tries": 2,
-      "games": 17,
-      "tryRate": 0.1176,
+      "games": 18,
+      "tryRate": 0.1111,
       "team": "Gold Coast Titans",
       "position": "2nd Row"
     },
     "Chris Randall": {
       "tries": 1,
-      "games": 14,
-      "tryRate": 0.0714,
+      "games": 15,
+      "tryRate": 0.0667,
       "team": "Gold Coast Titans",
       "position": "Lock"
     },
@@ -1572,15 +1572,15 @@
     },
     "Klese Haas": {
       "tries": 0,
-      "games": 16,
+      "games": 17,
       "tryRate": 0.0,
       "team": "Gold Coast Titans",
       "position": "Interchange"
     },
     "Cooper Bai": {
       "tries": 2,
-      "games": 16,
-      "tryRate": 0.125,
+      "games": 17,
+      "tryRate": 0.1176,
       "team": "Gold Coast Titans",
       "position": "Interchange"
     },
@@ -1593,7 +1593,7 @@
     },
     "Zane Harrison": {
       "tries": 0,
-      "games": 12,
+      "games": 13,
       "tryRate": 0.0,
       "team": "Gold Coast Titans",
       "position": "Halfback"
@@ -2551,9 +2551,9 @@
       "position": "Centre"
     },
     "Jacob Liddle": {
-      "tries": 1,
-      "games": 9,
-      "tryRate": 0.1111,
+      "tries": 2,
+      "games": 10,
+      "tryRate": 0.2,
       "team": "St George Illawarra Dragons",
       "position": "Interchange"
     },
@@ -2565,15 +2565,15 @@
       "position": "Centre"
     },
     "Jayden Campbell": {
-      "tries": 8,
-      "games": 15,
-      "tryRate": 0.5333,
+      "tries": 9,
+      "games": 16,
+      "tryRate": 0.5625,
       "team": "Gold Coast Titans",
       "position": "Five-Eighth"
     },
     "Josh Patston": {
       "tries": 0,
-      "games": 12,
+      "games": 13,
       "tryRate": 0.0,
       "team": "Gold Coast Titans",
       "position": "Interchange"
@@ -2670,9 +2670,9 @@
       "position": "Reserve"
     },
     "Oliver Pascoe": {
-      "tries": 3,
-      "games": 14,
-      "tryRate": 0.2143,
+      "tries": 4,
+      "games": 15,
+      "tryRate": 0.2667,
       "team": "Gold Coast Titans",
       "position": "Hooker"
     },
@@ -2685,14 +2685,14 @@
     },
     "Jacob Halangahu": {
       "tries": 0,
-      "games": 8,
+      "games": 9,
       "tryRate": 0.0,
       "team": "St George Illawarra Dragons",
       "position": "Interchange"
     },
     "Loko Jnr Pasifiki Tonga": {
       "tries": 0,
-      "games": 12,
+      "games": 13,
       "tryRate": 0.0,
       "team": "St George Illawarra Dragons",
       "position": "Prop"
@@ -2705,9 +2705,9 @@
       "position": "Centre"
     },
     "Tyrell Sloan": {
-      "tries": 6,
-      "games": 13,
-      "tryRate": 0.4615,
+      "tries": 7,
+      "games": 14,
+      "tryRate": 0.5,
       "team": "St George Illawarra Dragons",
       "position": "Winger"
     },
@@ -2880,11 +2880,11 @@
       "position": "Reserve"
     },
     "Jaylan De Groot": {
-      "tries": 0,
-      "games": 11,
-      "tryRate": 0.0,
+      "tries": 2,
+      "games": 12,
+      "tryRate": 0.1667,
       "team": "Gold Coast Titans",
-      "position": "Reserve"
+      "position": "Centre"
     },
     "Adam Christensen": {
       "tries": 0,
@@ -3140,8 +3140,8 @@
     },
     "Dylan Egan": {
       "tries": 1,
-      "games": 9,
-      "tryRate": 0.1111,
+      "games": 10,
+      "tryRate": 0.1,
       "team": "St George Illawarra Dragons",
       "position": "2nd Row"
     },
@@ -3497,8 +3497,8 @@
     },
     "Dean Ieremia": {
       "tries": 1,
-      "games": 2,
-      "tryRate": 0.5,
+      "games": 3,
+      "tryRate": 0.3333,
       "team": "Gold Coast Titans",
       "position": "Winger"
     },
@@ -3556,7 +3556,7 @@
       "games": 1,
       "tryRate": 0.0,
       "team": "Brisbane Broncos",
-      "position": "Interchange"
+      "position": "Reserve"
     }
   }
 }

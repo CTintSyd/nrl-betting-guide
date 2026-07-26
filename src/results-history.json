@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-07-25T13:53:12Z",
+  "updatedAt": "2026-07-26T06:32:10Z",
   "season": 2026,
-  "totalFavRecord": "94-60",
-  "totalLineRecord": "27-27",
-  "totalOuRecord": "22O-31U",
+  "totalFavRecord": "95-60",
+  "totalLineRecord": "28-27",
+  "totalOuRecord": "23O-31U",
   "rounds": [
     {
       "round": 1,
@@ -2477,11 +2477,26 @@
           "ouTotal": 48.5,
           "ouResult": "Under",
           "oddsSourced": true
+        },
+        {
+          "homeTeam": "St George Illawarra Dragons",
+          "awayTeam": "Gold Coast Titans",
+          "homeScore": 18,
+          "awayScore": 38,
+          "winner": "Gold Coast Titans",
+          "margin": 20,
+          "favourite": "Gold Coast Titans",
+          "favouriteWon": true,
+          "linePoint": 0.5,
+          "lineCovered": true,
+          "ouTotal": 46.5,
+          "ouResult": "Over",
+          "oddsSourced": true
         }
       ],
-      "favRecord": "5-1",
-      "lineRecord": "2-4",
-      "ouRecord": "2O-4U"
+      "favRecord": "6-1",
+      "lineRecord": "3-4",
+      "ouRecord": "3O-4U"
     }
   ]
 }
