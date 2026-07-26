@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-07-26T06:32:10Z",
+  "updatedAt": "2026-07-26T09:02:22Z",
   "season": 2026,
-  "totalFavRecord": "95-60",
-  "totalLineRecord": "28-27",
-  "totalOuRecord": "23O-31U",
+  "totalFavRecord": "95-61",
+  "totalLineRecord": "28-28",
+  "totalOuRecord": "24O-31U",
   "rounds": [
     {
       "round": 1,
@@ -2492,11 +2492,26 @@
           "ouTotal": 46.5,
           "ouResult": "Over",
           "oddsSourced": true
+        },
+        {
+          "homeTeam": "Manly Warringah Sea Eagles",
+          "awayTeam": "Cronulla Sutherland Sharks",
+          "homeScore": 12,
+          "awayScore": 48,
+          "winner": "Cronulla Sutherland Sharks",
+          "margin": 36,
+          "favourite": "Manly Warringah Sea Eagles",
+          "favouriteWon": false,
+          "linePoint": -0.5,
+          "lineCovered": false,
+          "ouTotal": 47.5,
+          "ouResult": "Over",
+          "oddsSourced": true
         }
       ],
-      "favRecord": "6-1",
-      "lineRecord": "3-4",
-      "ouRecord": "3O-4U"
+      "favRecord": "6-2",
+      "lineRecord": "3-5",
+      "ouRecord": "4O-4U"
     }
   ]
 }

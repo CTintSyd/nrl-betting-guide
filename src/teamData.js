@@ -42,12 +42,12 @@ const NRL_TEAM_DATA = {
   'Cronulla Sutherland Sharks': {
     emoji: '🦈', shortName: 'Sharks', venue: 'PointsBet Stadium', wikiPage: 'Cronulla-Sutherland_Sharks', logoFile: 'cronulla-sharks.svg',
     players: [
-      { name: "Sione Katoa",                       pos: "wing",           tryRate: 0.8182 },
-      { name: "William Kennedy",                   pos: "fullback",       tryRate: 0.4706 },
-      { name: "Braydon Trindall",                  pos: "five-eighth",    tryRate: 0.4706 },
-      { name: "KL Iro",                            pos: "centre",         tryRate: 0.6875 },
-      { name: "Ronaldo Mulitalo",                  pos: "wing",           tryRate: 0.875 },
-      { name: "Teig Wilton",                       pos: "lock",           tryRate: 0.4 },
+      { name: "Sione Katoa",                       pos: "wing",           tryRate: 0.8333 },
+      { name: "William Kennedy",                   pos: "fullback",       tryRate: 0.5 },
+      { name: "Braydon Trindall",                  pos: "five-eighth",    tryRate: 0.4444 },
+      { name: "KL Iro",                            pos: "centre",         tryRate: 0.7059 },
+      { name: "Ronaldo Mulitalo",                  pos: "wing",           tryRate: 1.0 },
+      { name: "Teig Wilton",                       pos: "lock",           tryRate: 0.4375 },
     ],
   },
 
@@ -78,12 +78,12 @@ const NRL_TEAM_DATA = {
   'Manly Warringah Sea Eagles': {
     emoji: '🦅', shortName: 'Sea Eagles', venue: '4 Pines Park', wikiPage: 'Manly-Warringah_Sea_Eagles', logoFile: 'manly-sea-eagles.png',
     players: [
-      { name: "Lehi Hopoate",                      pos: "wing",           tryRate: 0.8235 },
-      { name: "Tom Trbojevic",                     pos: "fullback",       tryRate: 0.6364 },
-      { name: "Jamal Fogarty",                     pos: "halfback",       tryRate: 0.25 },
-      { name: "Jason Saab",                        pos: "wing",           tryRate: 0.7059 },
-      { name: "Haumole Olakau'atu",                pos: "lock",           tryRate: 0.5333 },
-      { name: "Reuben Garrick",                    pos: "centre",         tryRate: 0.4118 },
+      { name: "Jason Saab",                        pos: "wing",           tryRate: 0.6667 },
+      { name: "Lehi Hopoate",                      pos: "fullback",       tryRate: 0.7778 },
+      { name: "Jamal Fogarty",                     pos: "halfback",       tryRate: 0.2353 },
+      { name: "Tolutau Koula",                     pos: "wing",           tryRate: 0.5 },
+      { name: "Haumole Olakau'atu",                pos: "lock",           tryRate: 0.5 },
+      { name: "Reuben Garrick",                    pos: "centre",         tryRate: 0.3889 },
     ],
   },
 

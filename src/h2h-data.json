@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-26T06:32:00Z",
+  "generatedAt": "2026-07-26T09:02:14Z",
   "matches": {
     "North Queensland Cowboys vs Sydney Roosters": {
       "homeTeam": "North Queensland Cowboys",
@@ -9,10 +9,10 @@
       "weather": null,
       "seasonStats": {
         "home": {
-          "winPct": 56.0,
+          "winPct": 58.0,
           "completionRate": 77.0,
           "avgScored": 23.0,
-          "avgConceded": 25.0,
+          "avgConceded": 24.0,
           "winsAtVenue": 54.0,
           "winsOverall": 44.0
         },
@@ -255,10 +255,10 @@
           "winsOverall": 64.0
         },
         "away": {
-          "winPct": 47.0,
+          "winPct": 50.0,
           "completionRate": 77.0,
           "avgScored": 19.0,
-          "avgConceded": 23.0,
+          "avgConceded": 22.0,
           "winsAtVenue": 31.0,
           "winsOverall": 49.0
         }
@@ -374,10 +374,10 @@
           "winsOverall": 37.0
         },
         "away": {
-          "winPct": 71.0,
+          "winPct": 67.0,
           "completionRate": 82.0,
-          "avgScored": 28.0,
-          "avgConceded": 16.0,
+          "avgScored": 27.0,
+          "avgConceded": 17.0,
           "winsAtVenue": 52.0,
           "winsOverall": 44.0
         }
@@ -493,10 +493,10 @@
           "winsOverall": 53.0
         },
         "away": {
-          "winPct": 44.0,
-          "completionRate": 77.0,
-          "avgScored": 21.0,
-          "avgConceded": 25.0,
+          "winPct": 47.0,
+          "completionRate": 78.0,
+          "avgScored": 22.0,
+          "avgConceded": 24.0,
           "winsAtVenue": 33.0,
           "winsOverall": 48.0
         }
@@ -604,9 +604,9 @@
       "weather": null,
       "seasonStats": {
         "home": {
-          "winPct": 35.0,
+          "winPct": 33.0,
           "completionRate": 77.0,
-          "avgScored": 19.0,
+          "avgScored": 18.0,
           "avgConceded": 26.0,
           "winsAtVenue": 58.0,
           "winsOverall": 54.0
@@ -731,10 +731,10 @@
           "winsOverall": 50.0
         },
         "away": {
-          "winPct": 53.0,
+          "winPct": 56.0,
           "completionRate": 79.0,
           "avgScored": 28.0,
-          "avgConceded": 23.0,
+          "avgConceded": 24.0,
           "winsAtVenue": 27.0,
           "winsOverall": 44.0
         }
@@ -842,10 +842,10 @@
       "weather": null,
       "seasonStats": {
         "home": {
-          "winPct": 39.0,
+          "winPct": 37.0,
           "completionRate": 79.0,
           "avgScored": 19.0,
-          "avgConceded": 28.0,
+          "avgConceded": 30.0,
           "winsAtVenue": 38.0,
           "winsOverall": 39.0
         },
