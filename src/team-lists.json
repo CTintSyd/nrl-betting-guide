@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-29T05:19:31.599383+00:00",
+  "generatedAt": "2026-07-30T05:17:38.179018+00:00",
   "round": 22,
   "games": [
     {
@@ -138,12 +138,6 @@
         "category": "interchange"
       },
       {
-        "number": 15,
-        "name": "John Bateman",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
         "number": 16,
         "name": "Matthew Lodge",
         "position": "Interchange",
@@ -170,18 +164,12 @@
       {
         "number": 20,
         "name": "Kai O'Donnell",
-        "position": "Reserve",
+        "position": "Interchange",
         "category": "reserve"
       },
       {
         "number": 21,
         "name": "Liam Sutton",
-        "position": "Reserve",
-        "category": "reserve"
-      },
-      {
-        "number": 22,
-        "name": "Ronald Philitoga",
         "position": "Reserve",
         "category": "reserve"
       }
@@ -304,18 +292,6 @@
       {
         "number": 20,
         "name": "Tom Rodwell",
-        "position": "Reserve",
-        "category": "reserve"
-      },
-      {
-        "number": 21,
-        "name": "Benaiah Ioelu",
-        "position": "Reserve",
-        "category": "reserve"
-      },
-      {
-        "number": 22,
-        "name": "De La Salle Va'a",
         "position": "Reserve",
         "category": "reserve"
       }
@@ -2327,16 +2303,23 @@
     ],
     "St George Illawarra Dragons": [
       {
+        "name": "David Fale",
+        "injury": "Leg",
+        "expectedReturn": "Round 23",
+        "imageUrl": "/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500022/David%20Fale%20_260119_Dragons_MK873.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/dragons/david-fale/"
+      },
+      {
         "name": "Blake Lawrie",
         "injury": "Leg",
-        "expectedReturn": "Round 22",
+        "expectedReturn": "Round 23",
         "imageUrl": "/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500022/Blake%20Lawrie%20_260119_Dragons_MK730.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/dragons/blake-lawrie/"
       },
       {
         "name": "Kade Reed",
         "injury": "Finger",
-        "expectedReturn": "Round 22",
+        "expectedReturn": "Round 23",
         "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500022/Kade%20Reed%20_260119_Dragons_MK193.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/dragons/kade-reed/"
       },
@@ -2353,6 +2336,13 @@
         "expectedReturn": "TBC",
         "imageUrl": "/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500022/Hame%20Sele%20_260119_Dragons_MK673.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/dragons/hame-sele/"
+      },
+      {
+        "name": "Hayden Buchanan",
+        "injury": "Shoulder",
+        "expectedReturn": "Next Season",
+        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500022/Hayden%20Buchanan%20_260119_Dragons_MK317.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/dragons/hayden-buchanan/"
       }
     ],
     "Parramatta Eels": [
