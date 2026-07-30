@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-07-30T05:17:48Z",
+  "updatedAt": "2026-07-30T11:54:15Z",
   "season": 2026,
-  "totalFavRecord": "95-61",
-  "totalLineRecord": "28-28",
-  "totalOuRecord": "24O-31U",
+  "totalFavRecord": "96-61",
+  "totalLineRecord": "29-28",
+  "totalOuRecord": "25O-31U",
   "rounds": [
     {
       "round": 1,
@@ -2512,6 +2512,29 @@
       "favRecord": "6-2",
       "lineRecord": "3-5",
       "ouRecord": "4O-4U"
+    },
+    {
+      "round": 22,
+      "games": [
+        {
+          "homeTeam": "North Queensland Cowboys",
+          "awayTeam": "Sydney Roosters",
+          "homeScore": 12,
+          "awayScore": 82,
+          "winner": "Sydney Roosters",
+          "margin": 70,
+          "favourite": "Sydney Roosters",
+          "favouriteWon": true,
+          "linePoint": 4.5,
+          "lineCovered": true,
+          "ouTotal": 47.5,
+          "ouResult": "Over",
+          "oddsSourced": true
+        }
+      ],
+      "favRecord": "1-0",
+      "lineRecord": "1-0",
+      "ouRecord": "1O-0U"
     }
   ]
 }

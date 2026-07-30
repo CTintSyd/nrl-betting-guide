@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-30T05:17:23.433034+00:00",
-  "round": 21,
+  "generatedAt": "2026-07-30T11:53:46.552609+00:00",
+  "round": 22,
   "players": {
     "Kalyn Ponga": {
       "tries": 4,
@@ -137,43 +137,43 @@
     },
     "Scott Drinkwater": {
       "tries": 9,
-      "games": 19,
-      "tryRate": 0.4737,
+      "games": 20,
+      "tryRate": 0.45,
       "team": "North Queensland Cowboys",
       "position": "Fullback"
     },
     "Braidon Burns": {
-      "tries": 12,
-      "games": 15,
-      "tryRate": 0.8,
+      "tries": 13,
+      "games": 16,
+      "tryRate": 0.8125,
       "team": "North Queensland Cowboys",
       "position": "Winger"
     },
     "Jaxon Purdue": {
       "tries": 6,
-      "games": 19,
-      "tryRate": 0.3158,
+      "games": 20,
+      "tryRate": 0.3,
       "team": "North Queensland Cowboys",
       "position": "Halfback"
     },
     "Tom Chester": {
-      "tries": 7,
-      "games": 18,
-      "tryRate": 0.3889,
+      "tries": 8,
+      "games": 19,
+      "tryRate": 0.4211,
       "team": "North Queensland Cowboys",
       "position": "Centre"
     },
     "Murray Taulagi": {
       "tries": 11,
-      "games": 14,
-      "tryRate": 0.7857,
+      "games": 15,
+      "tryRate": 0.7333,
       "team": "North Queensland Cowboys",
       "position": "Winger"
     },
     "Jake Clifford": {
       "tries": 7,
-      "games": 19,
-      "tryRate": 0.3684,
+      "games": 20,
+      "tryRate": 0.35,
       "team": "North Queensland Cowboys",
       "position": "Five-Eighth"
     },
@@ -186,8 +186,8 @@
     },
     "Coen Hess": {
       "tries": 1,
-      "games": 19,
-      "tryRate": 0.0526,
+      "games": 20,
+      "tryRate": 0.05,
       "team": "North Queensland Cowboys",
       "position": "Interchange"
     },
@@ -200,49 +200,49 @@
     },
     "Jason Taumalolo": {
       "tries": 0,
-      "games": 18,
+      "games": 19,
       "tryRate": 0.0,
       "team": "North Queensland Cowboys",
       "position": "Prop"
     },
     "Heilum Luki": {
       "tries": 8,
-      "games": 19,
-      "tryRate": 0.4211,
+      "games": 20,
+      "tryRate": 0.4,
       "team": "North Queensland Cowboys",
       "position": "2nd Row"
     },
     "Sam McIntyre": {
       "tries": 1,
-      "games": 18,
-      "tryRate": 0.0556,
+      "games": 19,
+      "tryRate": 0.0526,
       "team": "North Queensland Cowboys",
-      "position": "Reserve"
+      "position": "Interchange"
     },
     "Reuben Cotter": {
       "tries": 2,
-      "games": 16,
-      "tryRate": 0.125,
+      "games": 17,
+      "tryRate": 0.1176,
       "team": "North Queensland Cowboys",
       "position": "Lock"
     },
     "Soni Luke": {
       "tries": 2,
-      "games": 16,
-      "tryRate": 0.125,
+      "games": 17,
+      "tryRate": 0.1176,
       "team": "North Queensland Cowboys",
-      "position": "Interchange"
+      "position": "Hooker"
     },
     "Thomas Mikaele": {
       "tries": 0,
-      "games": 16,
+      "games": 17,
       "tryRate": 0.0,
       "team": "North Queensland Cowboys",
-      "position": "Interchange"
+      "position": "Prop"
     },
     "Kai O'Donnell": {
       "tries": 0,
-      "games": 8,
+      "games": 9,
       "tryRate": 0.0,
       "team": "North Queensland Cowboys",
       "position": "Reserve"
@@ -256,7 +256,7 @@
     },
     "Matthew Lodge": {
       "tries": 0,
-      "games": 19,
+      "games": 20,
       "tryRate": 0.0,
       "team": "North Queensland Cowboys",
       "position": "Interchange"
@@ -934,9 +934,9 @@
       "position": "2nd Row"
     },
     "James Tedesco": {
-      "tries": 9,
-      "games": 15,
-      "tryRate": 0.6,
+      "tries": 11,
+      "games": 16,
+      "tryRate": 0.6875,
       "team": "Sydney Roosters",
       "position": "Fullback"
     },
@@ -955,29 +955,29 @@
       "position": "Centre"
     },
     "Mark Nawaqanitawase": {
-      "tries": 12,
-      "games": 14,
-      "tryRate": 0.8571,
+      "tries": 15,
+      "games": 15,
+      "tryRate": 1.0,
       "team": "Sydney Roosters",
       "position": "Winger"
     },
     "Daly Cherry-Evans": {
       "tries": 4,
-      "games": 18,
-      "tryRate": 0.2222,
+      "games": 19,
+      "tryRate": 0.2105,
       "team": "Sydney Roosters",
       "position": "Five-Eighth"
     },
     "Sam Walker": {
-      "tries": 6,
-      "games": 16,
-      "tryRate": 0.375,
+      "tries": 9,
+      "games": 17,
+      "tryRate": 0.5294,
       "team": "Sydney Roosters",
       "position": "Halfback"
     },
     "Naufahu Whyte": {
       "tries": 0,
-      "games": 18,
+      "games": 19,
       "tryRate": 0.0,
       "team": "Sydney Roosters",
       "position": "Prop"
@@ -1005,8 +1005,8 @@
     },
     "Nat Butcher": {
       "tries": 1,
-      "games": 17,
-      "tryRate": 0.0588,
+      "games": 18,
+      "tryRate": 0.0556,
       "team": "Sydney Roosters",
       "position": "2nd Row"
     },
@@ -1019,31 +1019,31 @@
     },
     "Connor Watson": {
       "tries": 1,
-      "games": 18,
-      "tryRate": 0.0556,
+      "games": 19,
+      "tryRate": 0.0526,
       "team": "Sydney Roosters",
-      "position": "Reserve"
+      "position": "Interchange"
     },
     "Siua Wong": {
       "tries": 3,
-      "games": 18,
-      "tryRate": 0.1667,
+      "games": 19,
+      "tryRate": 0.1579,
       "team": "Sydney Roosters",
       "position": "2nd Row"
     },
     "Egan Butcher": {
       "tries": 0,
-      "games": 15,
+      "games": 16,
       "tryRate": 0.0,
       "team": "Sydney Roosters",
       "position": "Interchange"
     },
     "Cody Ramsey": {
-      "tries": 1,
-      "games": 15,
-      "tryRate": 0.0667,
+      "tries": 2,
+      "games": 16,
+      "tryRate": 0.125,
       "team": "Sydney Roosters",
-      "position": "Reserve"
+      "position": "Interchange"
     },
     "Fetalaiga Pauga": {
       "tries": 0,
@@ -1053,11 +1053,11 @@
       "position": "Interchange"
     },
     "Salesi Foketi": {
-      "tries": 0,
-      "games": 18,
-      "tryRate": 0.0,
+      "tries": 1,
+      "games": 19,
+      "tryRate": 0.0526,
       "team": "Sydney Roosters",
-      "position": "Interchange"
+      "position": "Prop"
     },
     "Toby Rodwell": {
       "tries": 1,
@@ -2173,9 +2173,9 @@
       "position": "Reserve"
     },
     "Robert Toia": {
-      "tries": 9,
-      "games": 15,
-      "tryRate": 0.6,
+      "tries": 10,
+      "games": 16,
+      "tryRate": 0.625,
       "team": "Sydney Roosters",
       "position": "Centre"
     },
@@ -2342,10 +2342,10 @@
     },
     "Kaiden Lahrs": {
       "tries": 0,
-      "games": 2,
+      "games": 3,
       "tryRate": 0.0,
       "team": "North Queensland Cowboys",
-      "position": "Interchange"
+      "position": "Reserve"
     },
     "Jack Hetherington": {
       "tries": 0,
@@ -2426,8 +2426,8 @@
     },
     "Reece Robson": {
       "tries": 3,
-      "games": 14,
-      "tryRate": 0.2143,
+      "games": 15,
+      "tryRate": 0.2,
       "team": "Sydney Roosters",
       "position": "Hooker"
     },
@@ -2559,8 +2559,8 @@
     },
     "Zac Laybutt": {
       "tries": 2,
-      "games": 17,
-      "tryRate": 0.1176,
+      "games": 18,
+      "tryRate": 0.1111,
       "team": "North Queensland Cowboys",
       "position": "Centre"
     },
@@ -2586,11 +2586,11 @@
       "position": "Prop"
     },
     "Hugo Savala": {
-      "tries": 6,
-      "games": 14,
-      "tryRate": 0.4286,
+      "tries": 8,
+      "games": 15,
+      "tryRate": 0.5333,
       "team": "Sydney Roosters",
-      "position": "Interchange"
+      "position": "Centre"
     },
     "Luke Metcalf": {
       "tries": 0,
@@ -2839,24 +2839,24 @@
     },
     "Victor Radley": {
       "tries": 1,
-      "games": 12,
-      "tryRate": 0.0833,
+      "games": 13,
+      "tryRate": 0.0769,
       "team": "Sydney Roosters",
       "position": "Lock"
     },
     "Spencer Leniu": {
       "tries": 0,
-      "games": 14,
+      "games": 15,
       "tryRate": 0.0,
       "team": "Sydney Roosters",
-      "position": "Prop"
+      "position": "Interchange"
     },
     "Tommy Talau": {
-      "tries": 0,
-      "games": 8,
-      "tryRate": 0.0,
+      "tries": 1,
+      "games": 9,
+      "tryRate": 0.1111,
       "team": "Sydney Roosters",
-      "position": "Reserve"
+      "position": "Winger"
     },
     "Araz Nanva": {
       "tries": 1,
@@ -3014,8 +3014,8 @@
     },
     "Jeremiah Nanai": {
       "tries": 4,
-      "games": 7,
-      "tryRate": 0.5714,
+      "games": 8,
+      "tryRate": 0.5,
       "team": "North Queensland Cowboys",
       "position": "2nd Row"
     },
@@ -3133,10 +3133,10 @@
     },
     "Reece Foley": {
       "tries": 0,
-      "games": 4,
+      "games": 5,
       "tryRate": 0.0,
       "team": "Sydney Roosters",
-      "position": "Centre"
+      "position": "Reserve"
     },
     "Dylan Egan": {
       "tries": 1,
@@ -3245,10 +3245,10 @@
     },
     "Ethan King": {
       "tries": 0,
-      "games": 6,
+      "games": 7,
       "tryRate": 0.0,
       "team": "North Queensland Cowboys",
-      "position": "Reserve"
+      "position": "Interchange"
     },
     "Te Maire Martin": {
       "tries": 4,
@@ -3350,7 +3350,7 @@
     },
     "Taylor Losalu": {
       "tries": 0,
-      "games": 4,
+      "games": 5,
       "tryRate": 0.0,
       "team": "Sydney Roosters",
       "position": "Reserve"
