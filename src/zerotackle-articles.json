@@ -1,6 +1,39 @@
 {
-  "updated": "2026-07-31T06:37:43Z",
+  "updated": "2026-07-31T09:32:14Z",
   "articles": [
+    {
+      "title": "LIVE: Dragons vs Dolphins – Round 22, 2026",
+      "url": "https://www.zerotackle.com/live-dragons-dolphins-round-22-2026-mc10396498-236303/",
+      "description": "The St George Illawarra Dragons face the Dolphins in Round 22 of the 2026 NRL season. Follow the live scores, team lists, match statistics and key moments from the game at WIN Stadium.",
+      "date": "Fri, 03 Jul 2026 08:00:00 +0000",
+      "teams": [
+        "Dolphins",
+        "St George Illawarra Dragons"
+      ],
+      "isRound": true
+    },
+    {
+      "title": "FINAL TEAMS: Storm vs Bulldogs – Round 22, 2026",
+      "url": "https://www.zerotackle.com/updated-team-lists-storm-bulldogs-10396499-236418/",
+      "description": "LATE MAIL: The Storm and Bulldogs have confirmed their lineups for the match at AAMI Park.",
+      "date": "Fri, 31 Jul 2026 08:29:22 +0000",
+      "teams": [
+        "Canterbury Bulldogs",
+        "Melbourne Storm"
+      ],
+      "isRound": true
+    },
+    {
+      "title": "Updated Team Lists: Panthers vs Raiders – Round 22, 2026",
+      "url": "https://www.zerotackle.com/updated-team-lists-panthers-vs-raiders-10396501-236448/",
+      "description": "The Panthers and Raiders have cut their squads to 20 ahead of tomorrow's match at Glen Willow Oval.",
+      "date": "Fri, 31 Jul 2026 07:29:10 +0000",
+      "teams": [
+        "Penrith Panthers",
+        "Canberra Raiders"
+      ],
+      "isRound": true
+    },
     {
       "title": "FINAL TEAMS: Dragons vs Dolphins – Round 22, 2026",
       "url": "https://www.zerotackle.com/updated-team-lists-dragons-dolphins-10396498-236414/",
@@ -62,36 +95,6 @@
         "Penrith Panthers",
         "Manly Warringah Sea Eagles",
         "New Zealand Warriors"
-      ],
-      "isRound": false
-    },
-    {
-      "title": "Sydney gangland war forces Parramatta to stand down young prospect",
-      "url": "https://www.zerotackle.com/sydney-gangland-war-forces-parramatta-to-stand-down-young-prospect-236427/",
-      "description": "His family is an organised crime group with assassination plots against them.",
-      "date": "Fri, 31 Jul 2026 00:18:21 +0000",
-      "teams": [
-        "Parramatta Eels"
-      ],
-      "isRound": false
-    },
-    {
-      "title": "Young speaks on Nikorima signing, recruits’ future turns cloudy",
-      "url": "https://www.zerotackle.com/atkinson-236425/",
-      "description": "The Red V coach is reportedly ready to shake up his spine for the Dragon&#8217;s clash against the Dolphins.",
-      "date": "Thu, 30 Jul 2026 22:36:48 +0000",
-      "teams": [
-        "Dolphins"
-      ],
-      "isRound": false
-    },
-    {
-      "title": "Craig Bellamy sets retirement timeline",
-      "url": "https://www.zerotackle.com/craig-bellamy-sets-retirement-timeline-236423/",
-      "description": "The future of Bellamy and Munster at the Storm remains cloudy.",
-      "date": "Thu, 30 Jul 2026 21:42:48 +0000",
-      "teams": [
-        "Melbourne Storm"
       ],
       "isRound": false
     }

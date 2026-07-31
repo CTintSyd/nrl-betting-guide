@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T06:37:29.512469+00:00",
+  "generatedAt": "2026-07-31T09:32:00.001719+00:00",
   "round": 22,
   "players": {
     "Kalyn Ponga": {
@@ -217,7 +217,7 @@
       "games": 19,
       "tryRate": 0.0526,
       "team": "North Queensland Cowboys",
-      "position": "Interchange"
+      "position": "Reserve"
     },
     "Reuben Cotter": {
       "tries": 2,
@@ -245,7 +245,7 @@
       "games": 9,
       "tryRate": 0.0,
       "team": "North Queensland Cowboys",
-      "position": "Reserve"
+      "position": "Interchange"
     },
     "Griffin Neame": {
       "tries": 0,
@@ -1043,7 +1043,7 @@
       "games": 16,
       "tryRate": 0.125,
       "team": "Sydney Roosters",
-      "position": "Interchange"
+      "position": "Reserve"
     },
     "Fetalaiga Pauga": {
       "tries": 0,
@@ -3353,7 +3353,7 @@
       "games": 5,
       "tryRate": 0.0,
       "team": "Sydney Roosters",
-      "position": "Reserve"
+      "position": "Interchange"
     },
     "Rex Bassingthwaighte": {
       "tries": 1,
