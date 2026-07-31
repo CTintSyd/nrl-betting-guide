@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T11:54:04.731329+00:00",
+  "generatedAt": "2026-07-31T06:37:41.946132+00:00",
   "round": 22,
   "games": [
     {
@@ -60,12 +60,6 @@
         "category": "starting"
       },
       {
-        "number": 3,
-        "name": "Mathew Feagai",
-        "position": "Centre",
-        "category": "starting"
-      },
-      {
         "number": 4,
         "name": "Valentine Holmes",
         "position": "Centre",
@@ -80,7 +74,7 @@
       {
         "number": 6,
         "name": "Daniel Atkinson",
-        "position": "Five-Eighth",
+        "position": "Interchange",
         "category": "starting"
       },
       {
@@ -152,19 +146,19 @@
       {
         "number": 18,
         "name": "Moses Suli",
-        "position": "Interchange",
+        "position": "Centre",
         "category": "reserve"
       },
       {
         "number": 19,
         "name": "Lyhkan King-Togia",
-        "position": "Interchange",
+        "position": "Five-Eighth",
         "category": "reserve"
       },
       {
         "number": 20,
         "name": "Emre Guler",
-        "position": "Reserve",
+        "position": "Interchange",
         "category": "reserve"
       }
     ],
@@ -208,7 +202,7 @@
       {
         "number": 7,
         "name": "Bradley Schneider",
-        "position": "Halfback",
+        "position": "Interchange",
         "category": "starting"
       },
       {
@@ -278,15 +272,9 @@
         "category": "reserve"
       },
       {
-        "number": 19,
-        "name": "Jake Averillo",
-        "position": "Interchange",
-        "category": "reserve"
-      },
-      {
         "number": 22,
         "name": "Isaiya Katoa",
-        "position": "Reserve",
+        "position": "Halfback",
         "category": "reserve"
       }
     ],
@@ -654,18 +642,6 @@
         "name": "Jaylan De Groot",
         "position": "Reserve",
         "category": "reserve"
-      },
-      {
-        "number": 21,
-        "name": "Adam Christensen",
-        "position": "Reserve",
-        "category": "reserve"
-      },
-      {
-        "number": 22,
-        "name": "Jett Liu",
-        "position": "Reserve",
-        "category": "reserve"
       }
     ],
     "New Zealand Warriors": [
@@ -760,12 +736,6 @@
         "category": "interchange"
       },
       {
-        "number": 16,
-        "name": "Demitric Vaimauga",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
         "number": 17,
         "name": "Leka Halasima",
         "position": "Interchange",
@@ -784,15 +754,9 @@
         "category": "reserve"
       },
       {
-        "number": 21,
-        "name": "Rocco Berry",
-        "position": "Reserve",
-        "category": "reserve"
-      },
-      {
         "number": 22,
-        "name": "Luke Laulilii",
-        "position": "Reserve",
+        "name": "Riley Price",
+        "position": "Interchange",
         "category": "reserve"
       },
       {
@@ -2181,6 +2145,13 @@
         "expectedReturn": "Round 26",
         "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500001/Daniel%20Tupou%20260203_Roosters1405.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/roosters/daniel-tupou/"
+      },
+      {
+        "name": "James Tedesco",
+        "injury": "Ankle",
+        "expectedReturn": "TBC",
+        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500001/James%20Tedesco%20260203_Roosters813.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/roosters/james-tedesco/"
       },
       {
         "name": "Blake Steep",
