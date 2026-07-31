@@ -30,12 +30,12 @@ const NRL_TEAM_DATA = {
   'Canterbury Bulldogs': {
     emoji: '🐕', shortName: 'Bulldogs', venue: 'Accor Stadium', wikiPage: 'Canterbury-Bankstown_Bulldogs', logoFile: 'canterbury-bulldogs.png',
     players: [
-      { name: "Jacob Kiraz",                       pos: "wing",           tryRate: 0.5 },
-      { name: "Connor Tracey",                     pos: "fullback",       tryRate: 0.1875 },
-      { name: "Lachlan Galvin",                    pos: "halfback",       tryRate: 0.3333 },
-      { name: "Jethro Rinakama",                   pos: "wing",           tryRate: 0.5 },
-      { name: "Matt Burton",                       pos: "centre",         tryRate: 0.2941 },
-      { name: "Stephen Crichton",                  pos: "five-eighth",    tryRate: 0.3571 },
+      { name: "Jacob Kiraz",                       pos: "wing",           tryRate: 0.4667 },
+      { name: "Connor Tracey",                     pos: "fullback",       tryRate: 0.1765 },
+      { name: "Stephen Crichton",                  pos: "five-eighth",    tryRate: 0.4667 },
+      { name: "Jethro Rinakama",                   pos: "wing",           tryRate: 0.5385 },
+      { name: "Lachlan Galvin",                    pos: "halfback",       tryRate: 0.3158 },
+      { name: "Matt Burton",                       pos: "centre",         tryRate: 0.3333 },
     ],
   },
 
@@ -91,11 +91,11 @@ const NRL_TEAM_DATA = {
     emoji: '⛈️', shortName: 'Storm', venue: 'AAMI Park', wikiPage: 'Melbourne_Storm', logoFile: 'melbourne-storm.png',
     players: [
       { name: "Will Warbrick",                     pos: "wing",           tryRate: 0.8889 },
-      { name: "Sualauvi Faalogo",                  pos: "fullback",       tryRate: 0.7368 },
+      { name: "Sualauvi Faalogo",                  pos: "fullback",       tryRate: 0.75 },
       { name: "Cameron Munster",                   pos: "five-eighth",    tryRate: 0.2667 },
-      { name: "Moses Leo",                         pos: "wing",           tryRate: 0.6667 },
+      { name: "Moses Leo",                         pos: "wing",           tryRate: 0.7692 },
       { name: "Jack Howarth",                      pos: "centre",         tryRate: 0.3125 },
-      { name: "Nick Meaney",                       pos: "centre",         tryRate: 0.2667 },
+      { name: "Nick Meaney",                       pos: "centre",         tryRate: 0.25 },
     ],
   },
 

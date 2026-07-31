@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T11:47:08.377263+00:00",
+  "generatedAt": "2026-07-31T13:43:33.923138+00:00",
   "round": 22,
   "upcomingRound": 22,
   "ladder": [
@@ -103,6 +103,20 @@
     },
     {
       "pos": 8,
+      "nick": "Bulldogs",
+      "name": "Canterbury Bulldogs",
+      "played": 19,
+      "wins": 10,
+      "losses": 9,
+      "drawn": 0,
+      "ptsFor": 378,
+      "ptsAgainst": 422,
+      "diff": -44,
+      "pts": 26,
+      "streak": "3W"
+    },
+    {
+      "pos": 9,
       "nick": "Cowboys",
       "name": "North Queensland Cowboys",
       "played": 20,
@@ -116,7 +130,7 @@
       "streak": "1L"
     },
     {
-      "pos": 9,
+      "pos": 10,
       "nick": "Sea Eagles",
       "name": "Manly Warringah Sea Eagles",
       "played": 19,
@@ -128,20 +142,6 @@
       "diff": 90,
       "pts": 24,
       "streak": "4L"
-    },
-    {
-      "pos": 10,
-      "nick": "Bulldogs",
-      "name": "Canterbury Bulldogs",
-      "played": 18,
-      "wins": 9,
-      "losses": 9,
-      "drawn": 0,
-      "ptsFor": 342,
-      "ptsAgainst": 400,
-      "diff": -58,
-      "pts": 24,
-      "streak": "2W"
     },
     {
       "pos": 11,
@@ -161,15 +161,15 @@
       "pos": 12,
       "nick": "Storm",
       "name": "Melbourne Storm",
-      "played": 19,
+      "played": 20,
       "wins": 8,
-      "losses": 11,
+      "losses": 12,
       "drawn": 0,
-      "ptsFor": 446,
-      "ptsAgainst": 458,
-      "diff": -12,
+      "ptsFor": 468,
+      "ptsAgainst": 494,
+      "diff": -26,
       "pts": 20,
-      "streak": "2L"
+      "streak": "3L"
     },
     {
       "pos": 13,
@@ -310,7 +310,7 @@
       ]
     },
     "Canterbury Bulldogs": {
-      "last5": "W L W W",
+      "last5": "W L W W W",
       "games": [
         {
           "round": 17,
@@ -339,6 +339,13 @@
           "opponent": "New Zealand Warriors",
           "home": true,
           "score": "18\u20136"
+        },
+        {
+          "round": 22,
+          "result": "W",
+          "opponent": "Melbourne Storm",
+          "home": false,
+          "score": "22\u201336"
         }
       ]
     },
@@ -489,7 +496,7 @@
       ]
     },
     "Melbourne Storm": {
-      "last5": "L W L L",
+      "last5": "L W L L L",
       "games": [
         {
           "round": 17,
@@ -518,6 +525,13 @@
           "opponent": "South Sydney Rabbitohs",
           "home": false,
           "score": "28\u201326"
+        },
+        {
+          "round": 22,
+          "result": "L",
+          "opponent": "Canterbury Bulldogs",
+          "home": true,
+          "score": "22\u201336"
         }
       ]
     },
