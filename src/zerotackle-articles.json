@@ -1,14 +1,36 @@
 {
-  "updated": "2026-07-31T09:32:14Z",
+  "updated": "2026-07-31T11:47:16Z",
   "articles": [
     {
-      "title": "LIVE: Dragons vs Dolphins – Round 22, 2026",
-      "url": "https://www.zerotackle.com/live-dragons-dolphins-round-22-2026-mc10396498-236303/",
+      "title": "LIVE: Storm vs Bulldogs – Round 22, 2026",
+      "url": "https://www.zerotackle.com/live-storm-bulldogs-round-22-2026-mc10396499-236301/",
+      "description": "The Melbourne Storm face the Canterbury-Bankstown Bulldogs in Round 22 of the 2026 NRL season. Follow the live scores, team lists, match statistics and key moments from the game at AAMI Park.",
+      "date": "Fri, 03 Jul 2026 10:00:00 +0000",
+      "teams": [
+        "Canterbury Bulldogs",
+        "Melbourne Storm"
+      ],
+      "isRound": true
+    },
+    {
+      "title": "FULL TIME: Dragons vs Dolphins – Round 22, 2026",
+      "url": "https://www.zerotackle.com/fulltime-dragons-dolphins-round-22-2026-mc10396498-236303/",
       "description": "The St George Illawarra Dragons face the Dolphins in Round 22 of the 2026 NRL season. Follow the live scores, team lists, match statistics and key moments from the game at WIN Stadium.",
       "date": "Fri, 03 Jul 2026 08:00:00 +0000",
       "teams": [
         "Dolphins",
         "St George Illawarra Dragons"
+      ],
+      "isRound": true
+    },
+    {
+      "title": "Updated Team Lists: Broncos vs Knights – Round 22, 2026",
+      "url": "https://www.zerotackle.com/updated-team-lists-broncos-vs-knights-10396502-236453/",
+      "description": "The Broncos and Knights have cut their squads to 20 ahead of tomorrow's match at Suncorp Stadium.",
+      "date": "Fri, 31 Jul 2026 09:34:11 +0000",
+      "teams": [
+        "Brisbane Broncos",
+        "Newcastle Knights"
       ],
       "isRound": true
     },
@@ -75,28 +97,6 @@
         "New Zealand Warriors"
       ],
       "isRound": true
-    },
-    {
-      "title": "Anthony Seibold lands new NRL role",
-      "url": "https://www.zerotackle.com/anthony-seibold-lands-new-nrl-role-236433/",
-      "description": "He was sacked by the Sea Eagles earlier this year.",
-      "date": "Fri, 31 Jul 2026 03:26:29 +0000",
-      "teams": [
-        "Manly Warringah Sea Eagles"
-      ],
-      "isRound": false
-    },
-    {
-      "title": "Manly Sea Eagles win seven-team race for Warriors young gun",
-      "url": "https://www.zerotackle.com/manly-sea-eagles-win-seven-team-race-for-warriors-young-gun-236431/",
-      "description": "A clause allows him to leave the Warriors after he almost joined the Panthers last year.",
-      "date": "Fri, 31 Jul 2026 02:43:49 +0000",
-      "teams": [
-        "Penrith Panthers",
-        "Manly Warringah Sea Eagles",
-        "New Zealand Warriors"
-      ],
-      "isRound": false
     }
   ]
 }

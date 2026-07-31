@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-31T09:32:04.458612+00:00",
+  "generatedAt": "2026-07-31T11:47:08.377263+00:00",
   "round": 22,
   "upcomingRound": 22,
   "ladder": [
@@ -63,15 +63,15 @@
       "pos": 5,
       "nick": "Dolphins",
       "name": "Dolphins",
-      "played": 18,
-      "wins": 11,
+      "played": 19,
+      "wins": 12,
       "losses": 7,
       "drawn": 0,
-      "ptsFor": 488,
-      "ptsAgainst": 404,
-      "diff": 84,
-      "pts": 28,
-      "streak": "1W"
+      "ptsFor": 516,
+      "ptsAgainst": 426,
+      "diff": 90,
+      "pts": 30,
+      "streak": "2W"
     },
     {
       "pos": 6,
@@ -231,15 +231,15 @@
       "pos": 17,
       "nick": "Dragons",
       "name": "St George Illawarra Dragons",
-      "played": 18,
+      "played": 19,
       "wins": 2,
-      "losses": 16,
+      "losses": 17,
       "drawn": 0,
-      "ptsFor": 274,
-      "ptsAgainst": 541,
-      "diff": -267,
+      "ptsFor": 296,
+      "ptsAgainst": 569,
+      "diff": -273,
       "pts": 10,
-      "streak": "2L"
+      "streak": "3L"
     }
   ],
   "teams": {
@@ -376,7 +376,7 @@
       ]
     },
     "Dolphins": {
-      "last5": "W L L W",
+      "last5": "W L L W W",
       "games": [
         {
           "round": 17,
@@ -405,6 +405,13 @@
           "opponent": "North Queensland Cowboys",
           "home": true,
           "score": "36\u201316"
+        },
+        {
+          "round": 22,
+          "result": "W",
+          "opponent": "St George Illawarra Dragons",
+          "home": false,
+          "score": "22\u201328"
         }
       ]
     },
@@ -734,7 +741,7 @@
       ]
     },
     "St George Illawarra Dragons": {
-      "last5": "L W L L",
+      "last5": "L W L L L",
       "games": [
         {
           "round": 17,
@@ -763,6 +770,13 @@
           "opponent": "Gold Coast Titans",
           "home": true,
           "score": "18\u201338"
+        },
+        {
+          "round": 22,
+          "result": "L",
+          "opponent": "Dolphins",
+          "home": true,
+          "score": "22\u201328"
         }
       ]
     },
