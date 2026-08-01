@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T11:51:57.767560+00:00",
+  "generatedAt": "2026-08-01T13:45:42.882790+00:00",
   "round": 22,
   "games": [
     {
@@ -534,6 +534,13 @@
         "expectedReturn": "TBC",
         "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500011/P%20Riki.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/broncos/preston-riki/"
+      },
+      {
+        "name": "Xavier Willison",
+        "injury": "Leg",
+        "expectedReturn": "TBC",
+        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500011/Willison.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/broncos/xavier-willison/"
       }
     ],
     "Canterbury Bulldogs": [
