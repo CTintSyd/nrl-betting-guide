@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T08:57:36.617899+00:00",
+  "generatedAt": "2026-08-01T10:46:27.111197+00:00",
   "round": 22,
   "players": {
     "Kalyn Ponga": {
@@ -1208,29 +1208,29 @@
     },
     "Paul Alamoti": {
       "tries": 4,
-      "games": 18,
-      "tryRate": 0.2222,
+      "games": 19,
+      "tryRate": 0.2105,
       "team": "Penrith Panthers",
       "position": "Centre"
     },
     "Izack Tago": {
       "tries": 3,
-      "games": 18,
-      "tryRate": 0.1667,
+      "games": 19,
+      "tryRate": 0.1579,
       "team": "Penrith Panthers",
-      "position": "Reserve"
+      "position": "Interchange"
     },
     "Casey McLean": {
       "tries": 7,
-      "games": 14,
-      "tryRate": 0.5,
+      "games": 15,
+      "tryRate": 0.4667,
       "team": "Penrith Panthers",
       "position": "Centre"
     },
     "Brian To'o": {
       "tries": 11,
-      "games": 16,
-      "tryRate": 0.6875,
+      "games": 17,
+      "tryRate": 0.6471,
       "team": "Penrith Panthers",
       "position": "Winger"
     },
@@ -1243,14 +1243,14 @@
     },
     "Nathan Cleary": {
       "tries": 5,
-      "games": 15,
-      "tryRate": 0.3333,
+      "games": 16,
+      "tryRate": 0.3125,
       "team": "Penrith Panthers",
       "position": "Halfback"
     },
     "Moses Leota": {
       "tries": 0,
-      "games": 18,
+      "games": 19,
       "tryRate": 0.0,
       "team": "Penrith Panthers",
       "position": "Prop"
@@ -1264,14 +1264,14 @@
     },
     "Lindsay Smith": {
       "tries": 3,
-      "games": 18,
-      "tryRate": 0.1667,
+      "games": 19,
+      "tryRate": 0.1579,
       "team": "Penrith Panthers",
       "position": "Prop"
     },
     "Scott Sorensen": {
       "tries": 0,
-      "games": 18,
+      "games": 19,
       "tryRate": 0.0,
       "team": "Penrith Panthers",
       "position": "Interchange"
@@ -1285,22 +1285,22 @@
     },
     "Isaah Yeo": {
       "tries": 2,
-      "games": 15,
-      "tryRate": 0.1333,
+      "games": 16,
+      "tryRate": 0.125,
       "team": "Penrith Panthers",
       "position": "Lock"
     },
     "Jack Cogger": {
       "tries": 1,
-      "games": 13,
-      "tryRate": 0.0769,
+      "games": 14,
+      "tryRate": 0.0714,
       "team": "Penrith Panthers",
-      "position": "Halfback"
+      "position": "Five-Eighth"
     },
     "Isaiah Papali'i": {
-      "tries": 2,
-      "games": 17,
-      "tryRate": 0.1176,
+      "tries": 3,
+      "games": 18,
+      "tryRate": 0.1667,
       "team": "Penrith Panthers",
       "position": "2nd Row"
     },
@@ -1312,23 +1312,23 @@
       "position": "Interchange"
     },
     "Thomas Jenkins": {
-      "tries": 26,
-      "games": 18,
-      "tryRate": 1.4444,
+      "tries": 28,
+      "games": 19,
+      "tryRate": 1.4737,
       "team": "Penrith Panthers",
       "position": "Winger"
     },
     "Freddy Lussick": {
       "tries": 4,
-      "games": 18,
-      "tryRate": 0.2222,
+      "games": 19,
+      "tryRate": 0.2105,
       "team": "Penrith Panthers",
       "position": "Hooker"
     },
     "Billy Phillips": {
       "tries": 2,
-      "games": 17,
-      "tryRate": 0.1176,
+      "games": 18,
+      "tryRate": 0.1111,
       "team": "Penrith Panthers",
       "position": "Interchange"
     },
@@ -1733,15 +1733,15 @@
     },
     "Kaeo Weekes": {
       "tries": 11,
-      "games": 19,
-      "tryRate": 0.5789,
+      "games": 20,
+      "tryRate": 0.55,
       "team": "Canberra Raiders",
       "position": "Fullback"
     },
     "Savelio Tamale": {
       "tries": 7,
-      "games": 15,
-      "tryRate": 0.4667,
+      "games": 16,
+      "tryRate": 0.4375,
       "team": "Canberra Raiders",
       "position": "Reserve"
     },
@@ -1754,49 +1754,49 @@
     },
     "Sebastian Kris": {
       "tries": 4,
-      "games": 15,
-      "tryRate": 0.2667,
+      "games": 16,
+      "tryRate": 0.25,
       "team": "Canberra Raiders",
-      "position": "Reserve"
+      "position": "Centre"
     },
     "Xavier Savage": {
       "tries": 9,
-      "games": 14,
-      "tryRate": 0.6429,
+      "games": 15,
+      "tryRate": 0.6,
       "team": "Canberra Raiders",
       "position": "Winger"
     },
     "Ethan Strange": {
-      "tries": 5,
-      "games": 16,
-      "tryRate": 0.3125,
+      "tries": 6,
+      "games": 17,
+      "tryRate": 0.3529,
       "team": "Canberra Raiders",
       "position": "Five-Eighth"
     },
     "Ethan Sanders": {
       "tries": 3,
-      "games": 19,
-      "tryRate": 0.1579,
+      "games": 20,
+      "tryRate": 0.15,
       "team": "Canberra Raiders",
       "position": "Halfback"
     },
     "Josh Papalii": {
       "tries": 0,
-      "games": 8,
+      "games": 9,
       "tryRate": 0.0,
       "team": "Canberra Raiders",
       "position": "Interchange"
     },
     "Tom Starling": {
       "tries": 2,
-      "games": 19,
-      "tryRate": 0.1053,
+      "games": 20,
+      "tryRate": 0.1,
       "team": "Canberra Raiders",
-      "position": "Hooker"
+      "position": "Interchange"
     },
     "Joseph Tapine": {
       "tries": 0,
-      "games": 19,
+      "games": 20,
       "tryRate": 0.0,
       "team": "Canberra Raiders",
       "position": "Prop"
@@ -1817,8 +1817,8 @@
     },
     "Corey Horsburgh": {
       "tries": 2,
-      "games": 19,
-      "tryRate": 0.1053,
+      "games": 20,
+      "tryRate": 0.1,
       "team": "Canberra Raiders",
       "position": "Prop"
     },
@@ -1831,36 +1831,36 @@
     },
     "Zac Hosking": {
       "tries": 4,
-      "games": 17,
-      "tryRate": 0.2353,
+      "games": 18,
+      "tryRate": 0.2222,
       "team": "Canberra Raiders",
       "position": "2nd Row"
     },
     "Ata Mariota": {
       "tries": 0,
-      "games": 19,
+      "games": 20,
       "tryRate": 0.0,
       "team": "Canberra Raiders",
       "position": "2nd Row"
     },
     "Morgan Smithies": {
       "tries": 0,
-      "games": 19,
+      "games": 20,
       "tryRate": 0.0,
       "team": "Canberra Raiders",
       "position": "Lock"
     },
     "Daine Laurie": {
       "tries": 4,
-      "games": 17,
-      "tryRate": 0.2353,
+      "games": 18,
+      "tryRate": 0.2222,
       "team": "Canberra Raiders",
       "position": "Interchange"
     },
     "Jed Stuart": {
       "tries": 4,
-      "games": 16,
-      "tryRate": 0.25,
+      "games": 17,
+      "tryRate": 0.2353,
       "team": "Canberra Raiders",
       "position": "Winger"
     },
@@ -2159,15 +2159,15 @@
       "position": "Interchange"
     },
     "Matthew Timoko": {
-      "tries": 5,
-      "games": 15,
-      "tryRate": 0.3333,
+      "tries": 6,
+      "games": 16,
+      "tryRate": 0.375,
       "team": "Canberra Raiders",
       "position": "Centre"
     },
     "Joe Roddy": {
       "tries": 0,
-      "games": 7,
+      "games": 8,
       "tryRate": 0.0,
       "team": "Canberra Raiders",
       "position": "Reserve"
@@ -2432,15 +2432,15 @@
       "position": "Hooker"
     },
     "Liam Martin": {
-      "tries": 3,
-      "games": 10,
-      "tryRate": 0.3,
+      "tries": 5,
+      "games": 11,
+      "tryRate": 0.4545,
       "team": "Penrith Panthers",
       "position": "2nd Row"
     },
     "Jack Cole": {
       "tries": 0,
-      "games": 9,
+      "games": 10,
       "tryRate": 0.0,
       "team": "Penrith Panthers",
       "position": "Reserve"
@@ -2727,10 +2727,10 @@
     },
     "Billy Scott": {
       "tries": 0,
-      "games": 11,
+      "games": 12,
       "tryRate": 0.0,
       "team": "Penrith Panthers",
-      "position": "Interchange"
+      "position": "Reserve"
     },
     "Lazarus Vaalepu": {
       "tries": 0,
@@ -3007,8 +3007,8 @@
     },
     "Owen Pattie": {
       "tries": 2,
-      "games": 11,
-      "tryRate": 0.1818,
+      "games": 12,
+      "tryRate": 0.1667,
       "team": "Canberra Raiders",
       "position": "Hooker"
     },
@@ -3195,9 +3195,9 @@
       "position": "Reserve"
     },
     "Liam Henry": {
-      "tries": 2,
-      "games": 9,
-      "tryRate": 0.2222,
+      "tries": 3,
+      "games": 10,
+      "tryRate": 0.3,
       "team": "Penrith Panthers",
       "position": "Interchange"
     },
@@ -3531,16 +3531,16 @@
       "position": "Reserve"
     },
     "Jaxen Edgar": {
-      "tries": 0,
-      "games": 1,
-      "tryRate": 0.0,
+      "tries": 1,
+      "games": 2,
+      "tryRate": 0.5,
       "team": "Penrith Panthers",
       "position": "Fullback"
     },
     "Matty Nicholson": {
-      "tries": 0,
-      "games": 1,
-      "tryRate": 0.0,
+      "tries": 1,
+      "games": 2,
+      "tryRate": 0.5,
       "team": "Canberra Raiders",
       "position": "Interchange"
     },

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T08:57:39.664325+00:00",
+  "generatedAt": "2026-08-01T10:46:33.452647+00:00",
   "round": 22,
   "upcomingRound": 22,
   "ladder": [
@@ -7,15 +7,15 @@
       "pos": 1,
       "nick": "Panthers",
       "name": "Penrith Panthers",
-      "played": 18,
-      "wins": 14,
+      "played": 19,
+      "wins": 15,
       "losses": 4,
       "drawn": 0,
-      "ptsFor": 539,
-      "ptsAgainst": 255,
-      "diff": 284,
-      "pts": 34,
-      "streak": "1W"
+      "ptsFor": 581,
+      "ptsAgainst": 273,
+      "diff": 308,
+      "pts": 36,
+      "streak": "2W"
     },
     {
       "pos": 2,
@@ -147,15 +147,15 @@
       "pos": 11,
       "nick": "Raiders",
       "name": "Canberra Raiders",
-      "played": 19,
+      "played": 20,
       "wins": 9,
-      "losses": 10,
+      "losses": 11,
       "drawn": 0,
-      "ptsFor": 435,
-      "ptsAgainst": 470,
-      "diff": -35,
+      "ptsFor": 453,
+      "ptsAgainst": 512,
+      "diff": -59,
       "pts": 22,
-      "streak": "4W"
+      "streak": "1L"
     },
     {
       "pos": 12,
@@ -277,7 +277,7 @@
       ]
     },
     "Canberra Raiders": {
-      "last5": "W W W W",
+      "last5": "W W W W L",
       "games": [
         {
           "round": 17,
@@ -306,6 +306,13 @@
           "opponent": "Wests Tigers",
           "home": true,
           "score": "56\u201310"
+        },
+        {
+          "round": 22,
+          "result": "L",
+          "opponent": "Penrith Panthers",
+          "home": false,
+          "score": "42\u201318"
         }
       ]
     },
@@ -696,7 +703,7 @@
       ]
     },
     "Penrith Panthers": {
-      "last5": "L W L W",
+      "last5": "L W L W W",
       "games": [
         {
           "round": 17,
@@ -725,6 +732,13 @@
           "opponent": "Parramatta Eels",
           "home": false,
           "score": "18\u201324"
+        },
+        {
+          "round": 22,
+          "result": "W",
+          "opponent": "Canberra Raiders",
+          "home": true,
+          "score": "42\u201318"
         }
       ]
     },

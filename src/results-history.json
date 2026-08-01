@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-08-01T08:57:52Z",
+  "updatedAt": "2026-08-01T10:46:54Z",
   "season": 2026,
-  "totalFavRecord": "99-61",
-  "totalLineRecord": "31-30",
-  "totalOuRecord": "25O-35U",
+  "totalFavRecord": "100-61",
+  "totalLineRecord": "32-30",
+  "totalOuRecord": "26O-35U",
   "rounds": [
     {
       "round": 1,
@@ -2575,11 +2575,26 @@
           "ouTotal": 49.5,
           "ouResult": "Under",
           "oddsSourced": true
+        },
+        {
+          "homeTeam": "Penrith Panthers",
+          "awayTeam": "Canberra Raiders",
+          "homeScore": 42,
+          "awayScore": 18,
+          "winner": "Penrith Panthers",
+          "margin": 24,
+          "favourite": "Penrith Panthers",
+          "favouriteWon": true,
+          "linePoint": -11.5,
+          "lineCovered": true,
+          "ouTotal": 42.5,
+          "ouResult": "Over",
+          "oddsSourced": true
         }
       ],
-      "favRecord": "3-1",
-      "lineRecord": "2-2",
-      "ouRecord": "3O-1U"
+      "favRecord": "4-1",
+      "lineRecord": "3-2",
+      "ouRecord": "4O-1U"
     }
   ]
 }

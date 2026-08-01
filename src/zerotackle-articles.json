@@ -1,9 +1,20 @@
 {
-  "updated": "2026-08-01T08:57:46Z",
+  "updated": "2026-08-01T10:46:45Z",
   "articles": [
     {
-      "title": "LIVE: Panthers vs Raiders – Round 22, 2026",
-      "url": "https://www.zerotackle.com/live-panthers-raiders-round-22-2026-mc10396501-236297/",
+      "title": "LIVE: Broncos vs Knights – Round 22, 2026",
+      "url": "https://www.zerotackle.com/live-broncos-knights-round-22-2026-mc10396502-236295/",
+      "description": "The Brisbane Broncos face the Newcastle Knights in Round 22 of the 2026 NRL season. Follow the live scores, team lists, match statistics and key moments from the game at Suncorp Stadium.",
+      "date": "Sat, 04 Jul 2026 09:30:00 +0000",
+      "teams": [
+        "Brisbane Broncos",
+        "Newcastle Knights"
+      ],
+      "isRound": true
+    },
+    {
+      "title": "FULL TIME: Panthers vs Raiders – Round 22, 2026",
+      "url": "https://www.zerotackle.com/fulltime-panthers-raiders-round-22-2026-mc10396501-236297/",
       "description": "The Penrith Panthers face the Canberra Raiders in Round 22 of the 2026 NRL season. Follow the live scores, team lists, match statistics and key moments from the game at Glen Willow Oval.",
       "date": "Sat, 04 Jul 2026 07:30:00 +0000",
       "teams": [
@@ -73,17 +84,6 @@
       "teams": [
         "Penrith Panthers",
         "Canberra Raiders"
-      ],
-      "isRound": true
-    },
-    {
-      "title": "Updated Team Lists: Sharks vs Rabbitohs – Round 22, 2026",
-      "url": "https://www.zerotackle.com/updated-team-lists-sharks-vs-rabbitohs-10396503-236468/",
-      "description": "The Sharks and Rabbitohs have cut their squads to 20 ahead of tomorrow's match at Ocean Protect Stadium.",
-      "date": "Sat, 01 Aug 2026 03:58:12 +0000",
-      "teams": [
-        "South Sydney Rabbitohs",
-        "Cronulla Sutherland Sharks"
       ],
       "isRound": true
     }
