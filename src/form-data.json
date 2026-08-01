@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T06:37:23.824783+00:00",
+  "generatedAt": "2026-08-01T08:57:39.664325+00:00",
   "round": 22,
   "upcomingRound": 22,
   "ladder": [
@@ -35,15 +35,15 @@
       "pos": 3,
       "nick": "Warriors",
       "name": "New Zealand Warriors",
-      "played": 18,
-      "wins": 12,
+      "played": 19,
+      "wins": 13,
       "losses": 6,
       "drawn": 0,
-      "ptsFor": 496,
-      "ptsAgainst": 306,
-      "diff": 190,
-      "pts": 30,
-      "streak": "1L"
+      "ptsFor": 538,
+      "ptsAgainst": 312,
+      "diff": 226,
+      "pts": 32,
+      "streak": "1W"
     },
     {
       "pos": 4,
@@ -175,15 +175,15 @@
       "pos": 13,
       "nick": "Titans",
       "name": "Gold Coast Titans",
-      "played": 18,
+      "played": 19,
       "wins": 6,
-      "losses": 12,
+      "losses": 13,
       "drawn": 0,
-      "ptsFor": 373,
-      "ptsAgainst": 459,
-      "diff": -86,
+      "ptsFor": 379,
+      "ptsAgainst": 501,
+      "diff": -122,
       "pts": 18,
-      "streak": "2W"
+      "streak": "1L"
     },
     {
       "pos": 14,
@@ -423,7 +423,7 @@
       ]
     },
     "Gold Coast Titans": {
-      "last5": "L L W W",
+      "last5": "L L W W L",
       "games": [
         {
           "round": 17,
@@ -452,6 +452,13 @@
           "opponent": "St George Illawarra Dragons",
           "home": false,
           "score": "18\u201338"
+        },
+        {
+          "round": 22,
+          "result": "L",
+          "opponent": "New Zealand Warriors",
+          "home": true,
+          "score": "6\u201342"
         }
       ]
     },
@@ -536,7 +543,7 @@
       ]
     },
     "New Zealand Warriors": {
-      "last5": "L W W L",
+      "last5": "L W W L W",
       "games": [
         {
           "round": 17,
@@ -565,6 +572,13 @@
           "opponent": "Canterbury Bulldogs",
           "home": false,
           "score": "18\u20136"
+        },
+        {
+          "round": 22,
+          "result": "W",
+          "opponent": "Gold Coast Titans",
+          "home": false,
+          "score": "6\u201342"
         }
       ]
     },

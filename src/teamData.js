@@ -66,12 +66,12 @@ const NRL_TEAM_DATA = {
   'Gold Coast Titans': {
     emoji: '🌊', shortName: 'Titans', venue: 'Cbus Super Stadium', wikiPage: 'Gold_Coast_Titans', logoFile: 'gold-coast-titans.svg',
     players: [
-      { name: "Phillip Sami",                      pos: "wing",           tryRate: 0.6667 },
-      { name: "Keano Kini",                        pos: "fullback",       tryRate: 0.1667 },
-      { name: "Jayden Campbell",                   pos: "five-eighth",    tryRate: 0.5625 },
-      { name: "Jojo Fifita",                       pos: "centre",         tryRate: 0.4375 },
-      { name: "Arama Hau",                         pos: "lock",           tryRate: 0.3333 },
-      { name: "Oliver Pascoe",                     pos: "hooker",         tryRate: 0.2667 },
+      { name: "Phillip Sami",                      pos: "wing",           tryRate: 0.6316 },
+      { name: "Keano Kini",                        pos: "fullback",       tryRate: 0.1579 },
+      { name: "Jayden Campbell",                   pos: "five-eighth",    tryRate: 0.5294 },
+      { name: "Arama Hau",                         pos: "lock",           tryRate: 0.3684 },
+      { name: "Jojo Fifita",                       pos: "centre",         tryRate: 0.4118 },
+      { name: "Oliver Pascoe",                     pos: "hooker",         tryRate: 0.25 },
     ],
   },
 
@@ -115,11 +115,11 @@ const NRL_TEAM_DATA = {
     emoji: '⚔️', shortName: 'Warriors', venue: 'Go Media Stadium', wikiPage: 'New_Zealand_Warriors', logoFile: 'new-zealand-warriors.svg',
     players: [
       { name: "Dallin Watene-Zelezniak",           pos: "wing",           tryRate: 1.0 },
-      { name: "Taine Tuaupiki",                    pos: "fullback",       tryRate: 0.1667 },
-      { name: "Chanel Harris-Tavita",              pos: "five-eighth",    tryRate: 0.2353 },
+      { name: "Charnze Nicoll-Klokstad",           pos: "fullback",       tryRate: 0.6667 },
+      { name: "Te Maire Martin",                   pos: "halfback",       tryRate: 0.6 },
       { name: "Alofiana Khan-Pereira",             pos: "wing",           tryRate: 1.0 },
-      { name: "Erin Clark",                        pos: "lock",           tryRate: 0.2222 },
-      { name: "Ali Leiataua",                      pos: "centre",         tryRate: 0.2667 },
+      { name: "Leka Halasima",                     pos: "centre",         tryRate: 0.375 },
+      { name: "Chanel Harris-Tavita",              pos: "five-eighth",    tryRate: 0.2778 },
     ],
   },
 

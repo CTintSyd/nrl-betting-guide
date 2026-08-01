@@ -1,9 +1,41 @@
 {
-  "updated": "2026-08-01T06:37:35Z",
+  "updated": "2026-08-01T08:57:46Z",
   "articles": [
     {
-      "title": "LIVE: Titans vs Warriors – Round 22, 2026",
-      "url": "https://www.zerotackle.com/live-titans-warriors-round-22-2026-mc10396500-236299/",
+      "title": "LIVE: Panthers vs Raiders – Round 22, 2026",
+      "url": "https://www.zerotackle.com/live-panthers-raiders-round-22-2026-mc10396501-236297/",
+      "description": "The Penrith Panthers face the Canberra Raiders in Round 22 of the 2026 NRL season. Follow the live scores, team lists, match statistics and key moments from the game at Glen Willow Oval.",
+      "date": "Sat, 04 Jul 2026 07:30:00 +0000",
+      "teams": [
+        "Penrith Panthers",
+        "Canberra Raiders"
+      ],
+      "isRound": true
+    },
+    {
+      "title": "FINAL TEAMS: Broncos vs Knights – Round 22, 2026",
+      "url": "https://www.zerotackle.com/updated-team-lists-broncos-knights-10396502-236453/",
+      "description": "LATE MAIL: The Broncos and Knights have confirmed their lineups for the match at Suncorp Stadium.",
+      "date": "Sat, 01 Aug 2026 08:02:11 +0000",
+      "teams": [
+        "Brisbane Broncos",
+        "Newcastle Knights"
+      ],
+      "isRound": true
+    },
+    {
+      "title": "Brisbane Broncos begin search for more props",
+      "url": "https://www.zerotackle.com/brisbane-broncos-begin-search-for-more-props-236479/",
+      "description": "Two players have been floated, but Michael Maguire has confirmed they will need more names for 2027.",
+      "date": "Sat, 01 Aug 2026 07:21:10 +0000",
+      "teams": [
+        "Brisbane Broncos"
+      ],
+      "isRound": false
+    },
+    {
+      "title": "FULL TIME: Titans vs Warriors – Round 22, 2026",
+      "url": "https://www.zerotackle.com/fulltime-titans-warriors-round-22-2026-mc10396500-236299/",
       "description": "The Gold Coast Titans face the New Zealand Warriors in Round 22 of the 2026 NRL season. Follow the live scores, team lists, match statistics and key moments from the game at Cbus Super Stadium.",
       "date": "Sat, 04 Jul 2026 05:00:00 +0000",
       "teams": [
@@ -54,37 +86,6 @@
         "Cronulla Sutherland Sharks"
       ],
       "isRound": true
-    },
-    {
-      "title": "FINAL TEAMS: Titans vs Warriors – Round 22, 2026",
-      "url": "https://www.zerotackle.com/updated-team-lists-titans-warriors-10396500-236436/",
-      "description": "LATE MAIL: The Titans and Warriors have confirmed their lineups for the match at Cbus Super Stadium.",
-      "date": "Sat, 01 Aug 2026 03:29:11 +0000",
-      "teams": [
-        "Gold Coast Titans",
-        "New Zealand Warriors"
-      ],
-      "isRound": true
-    },
-    {
-      "title": "Couchman brothers going nowhere: Dragons score enormous double contract boost",
-      "url": "https://www.zerotackle.com/couchman-brothers-going-nowhere-dragons-score-enormous-double-contract-boost-236461/",
-      "description": "The brothers have confirmed their long-term futures.",
-      "date": "Sat, 01 Aug 2026 02:13:10 +0000",
-      "teams": [
-        "St George Illawarra Dragons"
-      ],
-      "isRound": false
-    },
-    {
-      "title": "Dean Young confirms halves combination for next week",
-      "url": "https://www.zerotackle.com/dean-young-confirms-halves-combination-for-next-week-236458/",
-      "description": "He made a late change for Friday's loss to the Dolphins.",
-      "date": "Sat, 01 Aug 2026 01:05:47 +0000",
-      "teams": [
-        "Dolphins"
-      ],
-      "isRound": false
     }
   ]
 }

@@ -1,13 +1,7 @@
 {
-  "generatedAt": "2026-08-01T06:37:33.783301+00:00",
+  "generatedAt": "2026-08-01T08:57:45.495616+00:00",
   "round": 22,
   "games": [
-    {
-      "matchCentreUrl": "/draw/nrl-premiership/2026/round-22/panthers-v-raiders/",
-      "kickoff": "2026-08-01T07:30:00Z",
-      "homeTeam": "Penrith Panthers",
-      "awayTeam": "Canberra Raiders"
-    },
     {
       "matchCentreUrl": "/draw/nrl-premiership/2026/round-22/broncos-v-knights/",
       "kickoff": "2026-08-01T09:35:00Z",
@@ -28,238 +22,6 @@
     }
   ],
   "teams": {
-    "Penrith Panthers": [
-      {
-        "number": 1,
-        "name": "Jaxen Edgar",
-        "position": "Fullback",
-        "category": "starting"
-      },
-      {
-        "number": 2,
-        "name": "Thomas Jenkins",
-        "position": "Winger",
-        "category": "starting"
-      },
-      {
-        "number": 3,
-        "name": "Paul Alamoti",
-        "position": "Centre",
-        "category": "starting"
-      },
-      {
-        "number": 4,
-        "name": "Casey McLean",
-        "position": "Centre",
-        "category": "starting"
-      },
-      {
-        "number": 5,
-        "name": "Brian To'o",
-        "position": "Winger",
-        "category": "starting"
-      },
-      {
-        "number": 6,
-        "name": "Jack Cogger",
-        "position": "Five-Eighth",
-        "category": "starting"
-      },
-      {
-        "number": 7,
-        "name": "Nathan Cleary",
-        "position": "Halfback",
-        "category": "starting"
-      },
-      {
-        "number": 8,
-        "name": "Moses Leota",
-        "position": "Prop",
-        "category": "starting"
-      },
-      {
-        "number": 9,
-        "name": "Freddy Lussick",
-        "position": "Hooker",
-        "category": "starting"
-      },
-      {
-        "number": 10,
-        "name": "Lindsay Smith",
-        "position": "Prop",
-        "category": "starting"
-      },
-      {
-        "number": 11,
-        "name": "Isaiah Papali'i",
-        "position": "2nd Row",
-        "category": "starting"
-      },
-      {
-        "number": 12,
-        "name": "Liam Martin",
-        "position": "2nd Row",
-        "category": "starting"
-      },
-      {
-        "number": 13,
-        "name": "Isaah Yeo",
-        "position": "Lock",
-        "category": "starting"
-      },
-      {
-        "number": 14,
-        "name": "Billy Scott",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
-        "number": 15,
-        "name": "Scott Sorensen",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
-        "number": 16,
-        "name": "Liam Henry",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
-        "number": 17,
-        "name": "Billy Phillips",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
-        "number": 18,
-        "name": "Izack Tago",
-        "position": "Interchange",
-        "category": "reserve"
-      },
-      {
-        "number": 19,
-        "name": "Jack Cole",
-        "position": "Interchange",
-        "category": "reserve"
-      }
-    ],
-    "Canberra Raiders": [
-      {
-        "number": 1,
-        "name": "Kaeo Weekes",
-        "position": "Fullback",
-        "category": "starting"
-      },
-      {
-        "number": 2,
-        "name": "Jed Stuart",
-        "position": "Winger",
-        "category": "starting"
-      },
-      {
-        "number": 4,
-        "name": "Matthew Timoko",
-        "position": "Centre",
-        "category": "starting"
-      },
-      {
-        "number": 5,
-        "name": "Xavier Savage",
-        "position": "Winger",
-        "category": "starting"
-      },
-      {
-        "number": 6,
-        "name": "Ethan Strange",
-        "position": "Five-Eighth",
-        "category": "starting"
-      },
-      {
-        "number": 7,
-        "name": "Ethan Sanders",
-        "position": "Halfback",
-        "category": "starting"
-      },
-      {
-        "number": 8,
-        "name": "Corey Horsburgh",
-        "position": "Prop",
-        "category": "starting"
-      },
-      {
-        "number": 9,
-        "name": "Owen Pattie",
-        "position": "Hooker",
-        "category": "starting"
-      },
-      {
-        "number": 10,
-        "name": "Joseph Tapine",
-        "position": "Prop",
-        "category": "starting"
-      },
-      {
-        "number": 11,
-        "name": "Zac Hosking",
-        "position": "2nd Row",
-        "category": "starting"
-      },
-      {
-        "number": 12,
-        "name": "Ata Mariota",
-        "position": "2nd Row",
-        "category": "starting"
-      },
-      {
-        "number": 13,
-        "name": "Morgan Smithies",
-        "position": "Lock",
-        "category": "starting"
-      },
-      {
-        "number": 14,
-        "name": "Tom Starling",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
-        "number": 15,
-        "name": "Matty Nicholson",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
-        "number": 16,
-        "name": "Josh Papalii",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
-        "number": 17,
-        "name": "Daine Laurie",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
-        "number": 18,
-        "name": "Sebastian Kris",
-        "position": "Centre",
-        "category": "reserve"
-      },
-      {
-        "number": 19,
-        "name": "Joe Roddy",
-        "position": "Interchange",
-        "category": "reserve"
-      },
-      {
-        "number": 21,
-        "name": "Savelio Tamale",
-        "position": "Interchange",
-        "category": "reserve"
-      }
-    ],
     "Brisbane Broncos": [
       {
         "number": 1,
@@ -364,12 +126,6 @@
         "category": "interchange"
       },
       {
-        "number": 18,
-        "name": "Luke Gale",
-        "position": "Interchange",
-        "category": "reserve"
-      },
-      {
         "number": 19,
         "name": "Hayze Perham",
         "position": "Interchange",
@@ -378,7 +134,7 @@
       {
         "number": 20,
         "name": "Gehamat Shibasaki",
-        "position": "Reserve",
+        "position": "Interchange",
         "category": "reserve"
       }
     ],
@@ -462,12 +218,6 @@
         "category": "starting"
       },
       {
-        "number": 14,
-        "name": "Harrison Graham",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
         "number": 15,
         "name": "Tyson Frizell",
         "position": "Interchange",
@@ -500,7 +250,7 @@
       {
         "number": 20,
         "name": "Toby Winter",
-        "position": "Reserve",
+        "position": "Interchange",
         "category": "reserve"
       }
     ],
@@ -1475,6 +1225,13 @@
         "expectedReturn": "TBC",
         "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500004/GRAY%2C%20Brock-%20Bodyshot.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/titans/brock-gray/"
+      },
+      {
+        "name": "Zane Harrison",
+        "injury": "Hamstring",
+        "expectedReturn": "TBC",
+        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500004/HARRISON%2C%20Zane-%20Bodyshot.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/titans/zane-harrison/"
       },
       {
         "name": "Jaimin Jolliffe",

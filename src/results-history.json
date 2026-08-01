@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-08-01T06:37:43Z",
+  "updatedAt": "2026-08-01T08:57:52Z",
   "season": 2026,
-  "totalFavRecord": "98-61",
-  "totalLineRecord": "30-30",
-  "totalOuRecord": "25O-34U",
+  "totalFavRecord": "99-61",
+  "totalLineRecord": "31-30",
+  "totalOuRecord": "25O-35U",
   "rounds": [
     {
       "round": 1,
@@ -2560,11 +2560,26 @@
           "ouTotal": 43.5,
           "ouResult": "Over",
           "oddsSourced": true
+        },
+        {
+          "homeTeam": "Gold Coast Titans",
+          "awayTeam": "New Zealand Warriors",
+          "homeScore": 6,
+          "awayScore": 42,
+          "winner": "New Zealand Warriors",
+          "margin": 36,
+          "favourite": "New Zealand Warriors",
+          "favouriteWon": true,
+          "linePoint": 4.5,
+          "lineCovered": true,
+          "ouTotal": 49.5,
+          "ouResult": "Under",
+          "oddsSourced": true
         }
       ],
-      "favRecord": "2-1",
-      "lineRecord": "1-2",
-      "ouRecord": "3O-0U"
+      "favRecord": "3-1",
+      "lineRecord": "2-2",
+      "ouRecord": "3O-1U"
     }
   ]
 }
