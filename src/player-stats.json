@@ -1,48 +1,48 @@
 {
-  "generatedAt": "2026-08-01T10:46:27.111197+00:00",
+  "generatedAt": "2026-08-01T11:51:45.024135+00:00",
   "round": 22,
   "players": {
     "Kalyn Ponga": {
       "tries": 4,
-      "games": 10,
-      "tryRate": 0.4,
+      "games": 11,
+      "tryRate": 0.3636,
       "team": "Newcastle Knights",
       "position": "Fullback"
     },
     "Dominic Young": {
-      "tries": 16,
-      "games": 19,
-      "tryRate": 0.8421,
+      "tries": 17,
+      "games": 20,
+      "tryRate": 0.85,
       "team": "Newcastle Knights",
       "position": "Winger"
     },
     "Dane Gagai": {
       "tries": 2,
-      "games": 18,
-      "tryRate": 0.1111,
+      "games": 19,
+      "tryRate": 0.1053,
       "team": "Newcastle Knights",
       "position": "Centre"
     },
     "Bradman Best": {
       "tries": 4,
-      "games": 11,
-      "tryRate": 0.3636,
+      "games": 12,
+      "tryRate": 0.3333,
       "team": "Newcastle Knights",
       "position": "Centre"
     },
     "Greg Marzhew": {
-      "tries": 17,
-      "games": 18,
-      "tryRate": 0.9444,
+      "tries": 19,
+      "games": 19,
+      "tryRate": 1.0,
       "team": "Newcastle Knights",
       "position": "Winger"
     },
     "Fletcher Sharpe": {
-      "tries": 7,
-      "games": 17,
-      "tryRate": 0.4118,
+      "tries": 9,
+      "games": 18,
+      "tryRate": 0.5,
       "team": "Newcastle Knights",
-      "position": "Fullback"
+      "position": "Five-Eighth"
     },
     "Dylan Brown": {
       "tries": 2,
@@ -59,16 +59,16 @@
       "position": "Prop"
     },
     "Phoenix Crossland": {
-      "tries": 2,
-      "games": 19,
-      "tryRate": 0.1053,
+      "tries": 3,
+      "games": 20,
+      "tryRate": 0.15,
       "team": "Newcastle Knights",
       "position": "Hooker"
     },
     "Trey Mooney": {
       "tries": 5,
-      "games": 17,
-      "tryRate": 0.2941,
+      "games": 18,
+      "tryRate": 0.2778,
       "team": "Newcastle Knights",
       "position": "Prop"
     },
@@ -81,35 +81,35 @@
     },
     "Jermaine McEwen": {
       "tries": 1,
-      "games": 15,
-      "tryRate": 0.0667,
+      "games": 16,
+      "tryRate": 0.0625,
       "team": "Newcastle Knights",
       "position": "2nd Row"
     },
     "Tyson Frizell": {
       "tries": 2,
-      "games": 17,
-      "tryRate": 0.1176,
+      "games": 18,
+      "tryRate": 0.1111,
       "team": "Newcastle Knights",
       "position": "Interchange"
     },
     "Sandon Smith": {
       "tries": 1,
-      "games": 18,
-      "tryRate": 0.0556,
+      "games": 19,
+      "tryRate": 0.0526,
       "team": "Newcastle Knights",
-      "position": "Five-Eighth"
+      "position": "Halfback"
     },
     "Mat Croker": {
       "tries": 1,
-      "games": 19,
-      "tryRate": 0.0526,
+      "games": 20,
+      "tryRate": 0.05,
       "team": "Newcastle Knights",
       "position": "Lock"
     },
     "Thomas Cant": {
       "tries": 0,
-      "games": 14,
+      "games": 15,
       "tryRate": 0.0,
       "team": "Newcastle Knights",
       "position": "Interchange"
@@ -123,15 +123,15 @@
     },
     "Fletcher Hunt": {
       "tries": 8,
-      "games": 19,
-      "tryRate": 0.4211,
+      "games": 20,
+      "tryRate": 0.4,
       "team": "Newcastle Knights",
-      "position": "Centre"
+      "position": "Reserve"
     },
     "Francis Manuleleua": {
       "tries": 1,
-      "games": 14,
-      "tryRate": 0.0714,
+      "games": 15,
+      "tryRate": 0.0667,
       "team": "Newcastle Knights",
       "position": "2nd Row"
     },
@@ -1067,51 +1067,51 @@
       "position": "Reserve"
     },
     "Reece Walsh": {
-      "tries": 5,
-      "games": 13,
-      "tryRate": 0.3846,
+      "tries": 6,
+      "games": 14,
+      "tryRate": 0.4286,
       "team": "Brisbane Broncos",
       "position": "Fullback"
     },
     "Josiah Karapani": {
       "tries": 6,
-      "games": 16,
-      "tryRate": 0.375,
+      "games": 17,
+      "tryRate": 0.3529,
       "team": "Brisbane Broncos",
       "position": "Winger"
     },
     "Kotoni Staggs": {
       "tries": 8,
-      "games": 15,
-      "tryRate": 0.5333,
+      "games": 16,
+      "tryRate": 0.5,
       "team": "Brisbane Broncos",
       "position": "Centre"
     },
     "Gehamat Shibasaki": {
       "tries": 3,
-      "games": 15,
-      "tryRate": 0.2,
+      "games": 16,
+      "tryRate": 0.1875,
       "team": "Brisbane Broncos",
-      "position": "Centre"
+      "position": "Reserve"
     },
     "Deine Mariner": {
       "tries": 3,
-      "games": 12,
-      "tryRate": 0.25,
+      "games": 13,
+      "tryRate": 0.2308,
       "team": "Brisbane Broncos",
-      "position": "Winger"
+      "position": "Centre"
     },
     "Ezra Mam": {
       "tries": 4,
-      "games": 16,
-      "tryRate": 0.25,
+      "games": 17,
+      "tryRate": 0.2353,
       "team": "Brisbane Broncos",
       "position": "Five-Eighth"
     },
     "Adam Reynolds": {
       "tries": 3,
-      "games": 13,
-      "tryRate": 0.2308,
+      "games": 14,
+      "tryRate": 0.2143,
       "team": "Brisbane Broncos",
       "position": "Halfback"
     },
@@ -1124,15 +1124,15 @@
     },
     "Cory Paix": {
       "tries": 2,
-      "games": 17,
-      "tryRate": 0.1176,
+      "games": 18,
+      "tryRate": 0.1111,
       "team": "Brisbane Broncos",
       "position": "Hooker"
     },
     "Payne Haas": {
       "tries": 1,
-      "games": 11,
-      "tryRate": 0.0909,
+      "games": 12,
+      "tryRate": 0.0833,
       "team": "Brisbane Broncos",
       "position": "Prop"
     },
@@ -1145,36 +1145,36 @@
     },
     "Jordan Riki": {
       "tries": 4,
-      "games": 16,
-      "tryRate": 0.25,
+      "games": 17,
+      "tryRate": 0.2353,
       "team": "Brisbane Broncos",
       "position": "2nd Row"
     },
     "Patrick Carrigan": {
       "tries": 1,
-      "games": 12,
-      "tryRate": 0.0833,
+      "games": 13,
+      "tryRate": 0.0769,
       "team": "Brisbane Broncos",
       "position": "Lock"
     },
     "Ben Hunt": {
       "tries": 0,
-      "games": 14,
+      "games": 15,
       "tryRate": 0.0,
       "team": "Brisbane Broncos",
       "position": "Interchange"
     },
     "Xavier Willison": {
       "tries": 5,
-      "games": 18,
-      "tryRate": 0.2778,
+      "games": 19,
+      "tryRate": 0.2632,
       "team": "Brisbane Broncos",
       "position": "2nd Row"
     },
     "Ben Talty": {
       "tries": 2,
-      "games": 18,
-      "tryRate": 0.1111,
+      "games": 19,
+      "tryRate": 0.1053,
       "team": "Brisbane Broncos",
       "position": "Interchange"
     },
@@ -1187,17 +1187,17 @@
     },
     "Grant Anderson": {
       "tries": 2,
-      "games": 11,
-      "tryRate": 0.1818,
+      "games": 12,
+      "tryRate": 0.1667,
       "team": "Brisbane Broncos",
-      "position": "Reserve"
+      "position": "Winger"
     },
     "Jaiyden Hunt": {
       "tries": 0,
-      "games": 9,
+      "games": 10,
       "tryRate": 0.0,
       "team": "Brisbane Broncos",
-      "position": "Reserve"
+      "position": "Interchange"
     },
     "Dylan Edwards": {
       "tries": 10,
@@ -2475,7 +2475,7 @@
     },
     "Cody Hopwood": {
       "tries": 0,
-      "games": 15,
+      "games": 16,
       "tryRate": 0.0,
       "team": "Newcastle Knights",
       "position": "Prop"
@@ -2615,10 +2615,10 @@
     },
     "Va'a Semu": {
       "tries": 0,
-      "games": 11,
+      "games": 12,
       "tryRate": 0.0,
       "team": "Brisbane Broncos",
-      "position": "Interchange"
+      "position": "Prop"
     },
     "Francis Molo": {
       "tries": 0,
@@ -2797,8 +2797,8 @@
     },
     "Hayze Perham": {
       "tries": 1,
-      "games": 10,
-      "tryRate": 0.1,
+      "games": 11,
+      "tryRate": 0.0909,
       "team": "Brisbane Broncos",
       "position": "Reserve"
     },
@@ -3420,7 +3420,7 @@
     },
     "Lachlan Crouch": {
       "tries": 0,
-      "games": 4,
+      "games": 5,
       "tryRate": 0.0,
       "team": "Newcastle Knights",
       "position": "Interchange"
@@ -3504,7 +3504,7 @@
     },
     "Brodie Jones": {
       "tries": 0,
-      "games": 2,
+      "games": 3,
       "tryRate": 0.0,
       "team": "Newcastle Knights",
       "position": "Interchange"
@@ -3553,7 +3553,7 @@
     },
     "Billy Walters": {
       "tries": 0,
-      "games": 1,
+      "games": 2,
       "tryRate": 0.0,
       "team": "Brisbane Broncos",
       "position": "Interchange"
@@ -3578,6 +3578,13 @@
       "tryRate": 0.0,
       "team": "New Zealand Warriors",
       "position": "Interchange"
+    },
+    "Toby Winter": {
+      "tries": 0,
+      "games": 1,
+      "tryRate": 0.0,
+      "team": "Newcastle Knights",
+      "position": "Reserve"
     }
   }
 }

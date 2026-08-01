@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-08-01T10:46:54Z",
+  "updatedAt": "2026-08-01T11:52:08Z",
   "season": 2026,
-  "totalFavRecord": "100-61",
-  "totalLineRecord": "32-30",
-  "totalOuRecord": "26O-35U",
+  "totalFavRecord": "100-62",
+  "totalLineRecord": "32-31",
+  "totalOuRecord": "26O-36U",
   "rounds": [
     {
       "round": 1,
@@ -2590,11 +2590,26 @@
           "ouTotal": 42.5,
           "ouResult": "Over",
           "oddsSourced": true
+        },
+        {
+          "homeTeam": "Brisbane Broncos",
+          "awayTeam": "Newcastle Knights",
+          "homeScore": 6,
+          "awayScore": 30,
+          "winner": "Newcastle Knights",
+          "margin": 24,
+          "favourite": "Brisbane Broncos",
+          "favouriteWon": false,
+          "linePoint": -3.5,
+          "lineCovered": false,
+          "ouTotal": 47.5,
+          "ouResult": "Under",
+          "oddsSourced": true
         }
       ],
-      "favRecord": "4-1",
-      "lineRecord": "3-2",
-      "ouRecord": "4O-1U"
+      "favRecord": "4-2",
+      "lineRecord": "3-3",
+      "ouRecord": "4O-2U"
     }
   ]
 }

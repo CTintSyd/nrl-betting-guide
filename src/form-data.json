@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T10:46:33.452647+00:00",
+  "generatedAt": "2026-08-01T11:51:48.971859+00:00",
   "round": 22,
   "upcomingRound": 22,
   "ladder": [
@@ -75,6 +75,20 @@
     },
     {
       "pos": 6,
+      "nick": "Knights",
+      "name": "Newcastle Knights",
+      "played": 20,
+      "wins": 12,
+      "losses": 8,
+      "drawn": 0,
+      "ptsFor": 511,
+      "ptsAgainst": 451,
+      "diff": 60,
+      "pts": 28,
+      "streak": "1W"
+    },
+    {
+      "pos": 7,
       "nick": "Rabbitohs",
       "name": "South Sydney Rabbitohs",
       "played": 18,
@@ -86,20 +100,6 @@
       "diff": 78,
       "pts": 26,
       "streak": "1W"
-    },
-    {
-      "pos": 7,
-      "nick": "Knights",
-      "name": "Newcastle Knights",
-      "played": 19,
-      "wins": 11,
-      "losses": 8,
-      "drawn": 0,
-      "ptsFor": 481,
-      "ptsAgainst": 445,
-      "diff": 36,
-      "pts": 26,
-      "streak": "3L"
     },
     {
       "pos": 8,
@@ -189,15 +189,15 @@
       "pos": 14,
       "nick": "Broncos",
       "name": "Brisbane Broncos",
-      "played": 18,
+      "played": 19,
       "wins": 6,
-      "losses": 12,
+      "losses": 13,
       "drawn": 0,
-      "ptsFor": 339,
-      "ptsAgainst": 471,
-      "diff": -132,
+      "ptsFor": 345,
+      "ptsAgainst": 501,
+      "diff": -156,
       "pts": 18,
-      "streak": "1L"
+      "streak": "2L"
     },
     {
       "pos": 15,
@@ -244,7 +244,7 @@
   ],
   "teams": {
     "Brisbane Broncos": {
-      "last5": "L L W L",
+      "last5": "L L W L L",
       "games": [
         {
           "round": 17,
@@ -273,6 +273,13 @@
           "opponent": "North Queensland Cowboys",
           "home": false,
           "score": "18\u201310"
+        },
+        {
+          "round": 22,
+          "result": "L",
+          "opponent": "Newcastle Knights",
+          "home": true,
+          "score": "6\u201330"
         }
       ]
     },
@@ -590,15 +597,8 @@
       ]
     },
     "Newcastle Knights": {
-      "last5": "W W L L L",
+      "last5": "W L L L W",
       "games": [
-        {
-          "round": 17,
-          "result": "W",
-          "opponent": "Wests Tigers",
-          "home": true,
-          "score": "12\u20136"
-        },
         {
           "round": 18,
           "result": "W",
@@ -626,6 +626,13 @@
           "opponent": "Sydney Roosters",
           "home": true,
           "score": "22\u201323"
+        },
+        {
+          "round": 22,
+          "result": "W",
+          "opponent": "Brisbane Broncos",
+          "home": false,
+          "score": "6\u201330"
         }
       ]
     },
