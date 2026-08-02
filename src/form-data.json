@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-02T06:28:00.944204+00:00",
+  "generatedAt": "2026-08-02T08:44:26.884963+00:00",
   "round": 22,
-  "upcomingRound": 22,
+  "upcomingRound": 23,
   "ladder": [
     {
       "pos": 1,
@@ -173,6 +173,20 @@
     },
     {
       "pos": 13,
+      "nick": "Eels",
+      "name": "Parramatta Eels",
+      "played": 19,
+      "wins": 7,
+      "losses": 12,
+      "drawn": 0,
+      "ptsFor": 365,
+      "ptsAgainst": 544,
+      "diff": -179,
+      "pts": 20,
+      "streak": "1W"
+    },
+    {
+      "pos": 14,
       "nick": "Titans",
       "name": "Gold Coast Titans",
       "played": 19,
@@ -186,7 +200,7 @@
       "streak": "1L"
     },
     {
-      "pos": 14,
+      "pos": 15,
       "nick": "Broncos",
       "name": "Brisbane Broncos",
       "played": 19,
@@ -200,30 +214,16 @@
       "streak": "2L"
     },
     {
-      "pos": 15,
-      "nick": "Eels",
-      "name": "Parramatta Eels",
-      "played": 18,
-      "wins": 6,
-      "losses": 12,
-      "drawn": 0,
-      "ptsFor": 349,
-      "ptsAgainst": 531,
-      "diff": -182,
-      "pts": 18,
-      "streak": "2L"
-    },
-    {
       "pos": 16,
       "nick": "Wests Tigers",
       "name": "Wests Tigers",
-      "played": 19,
+      "played": 20,
       "wins": 7,
-      "losses": 12,
+      "losses": 13,
       "drawn": 0,
-      "ptsFor": 365,
-      "ptsAgainst": 573,
-      "diff": -208,
+      "ptsFor": 378,
+      "ptsAgainst": 589,
+      "diff": -211,
       "pts": 18,
       "streak": "5L"
     },
@@ -684,7 +684,7 @@
       ]
     },
     "Parramatta Eels": {
-      "last5": "L W L L",
+      "last5": "L W L L W",
       "games": [
         {
           "round": 17,
@@ -713,6 +713,13 @@
           "opponent": "Penrith Panthers",
           "home": true,
           "score": "18\u201324"
+        },
+        {
+          "round": 22,
+          "result": "W",
+          "opponent": "Wests Tigers",
+          "home": false,
+          "score": "13\u201316"
         }
       ]
     },
@@ -880,13 +887,6 @@
       "last5": "L L L L L",
       "games": [
         {
-          "round": 17,
-          "result": "L",
-          "opponent": "Newcastle Knights",
-          "home": false,
-          "score": "12\u20136"
-        },
-        {
           "round": 18,
           "result": "L",
           "opponent": "St George Illawarra Dragons",
@@ -913,6 +913,13 @@
           "opponent": "Canberra Raiders",
           "home": false,
           "score": "56\u201310"
+        },
+        {
+          "round": 22,
+          "result": "L",
+          "opponent": "Parramatta Eels",
+          "home": true,
+          "score": "13\u201316"
         }
       ]
     }

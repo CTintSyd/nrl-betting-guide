@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-08-02T06:28:17Z",
+  "updatedAt": "2026-08-02T08:44:47Z",
   "season": 2026,
-  "totalFavRecord": "98-65",
-  "totalLineRecord": "28-24",
-  "totalOuRecord": "23O-28U",
+  "totalFavRecord": "99-65",
+  "totalLineRecord": "29-24",
+  "totalOuRecord": "23O-29U",
   "rounds": [
     {
       "round": 1,
@@ -2620,11 +2620,26 @@
           "ouTotal": 47.5,
           "ouResult": "Over",
           "oddsSourced": true
+        },
+        {
+          "homeTeam": "Wests Tigers",
+          "awayTeam": "Parramatta Eels",
+          "homeScore": 13,
+          "awayScore": 16,
+          "winner": "Parramatta Eels",
+          "margin": 3,
+          "favourite": "Parramatta Eels",
+          "favouriteWon": true,
+          "linePoint": 2.5,
+          "lineCovered": true,
+          "ouTotal": 49.5,
+          "ouResult": "Under",
+          "oddsSourced": true
         }
       ],
-      "favRecord": "5-2",
-      "lineRecord": "4-3",
-      "ouRecord": "5O-2U"
+      "favRecord": "6-2",
+      "lineRecord": "5-3",
+      "ouRecord": "5O-3U"
     }
   ]
 }

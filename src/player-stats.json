@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T06:27:57.533417+00:00",
+  "generatedAt": "2026-08-02T08:44:19.212630+00:00",
   "round": 22,
   "players": {
     "Kalyn Ponga": {
@@ -668,9 +668,9 @@
       "position": "Winger"
     },
     "Isaiah Iongi": {
-      "tries": 4,
-      "games": 11,
-      "tryRate": 0.3636,
+      "tries": 5,
+      "games": 12,
+      "tryRate": 0.4167,
       "team": "Parramatta Eels",
       "position": "Fullback"
     },
@@ -683,15 +683,15 @@
     },
     "Will Penisini": {
       "tries": 3,
-      "games": 6,
-      "tryRate": 0.5,
+      "games": 7,
+      "tryRate": 0.4286,
       "team": "Parramatta Eels",
       "position": "Centre"
     },
     "Brian Kelly": {
       "tries": 4,
-      "games": 16,
-      "tryRate": 0.25,
+      "games": 17,
+      "tryRate": 0.2353,
       "team": "Parramatta Eels",
       "position": "Winger"
     },
@@ -711,8 +711,8 @@
     },
     "Mitchell Moses": {
       "tries": 2,
-      "games": 13,
-      "tryRate": 0.1538,
+      "games": 14,
+      "tryRate": 0.1429,
       "team": "Parramatta Eels",
       "position": "Halfback"
     },
@@ -732,42 +732,42 @@
     },
     "Junior Paulo": {
       "tries": 1,
-      "games": 11,
-      "tryRate": 0.0909,
+      "games": 12,
+      "tryRate": 0.0833,
       "team": "Parramatta Eels",
       "position": "Interchange"
     },
     "Jack Williams": {
       "tries": 2,
-      "games": 18,
-      "tryRate": 0.1111,
+      "games": 19,
+      "tryRate": 0.1053,
       "team": "Parramatta Eels",
       "position": "Prop"
     },
     "Kitione Kautoga": {
       "tries": 2,
-      "games": 13,
-      "tryRate": 0.1538,
+      "games": 14,
+      "tryRate": 0.1429,
       "team": "Parramatta Eels",
       "position": "2nd Row"
     },
     "Jack De Belin": {
       "tries": 0,
-      "games": 16,
+      "games": 17,
       "tryRate": 0.0,
       "team": "Parramatta Eels",
       "position": "Lock"
     },
     "Dylan Walker": {
       "tries": 3,
-      "games": 18,
-      "tryRate": 0.1667,
+      "games": 19,
+      "tryRate": 0.1579,
       "team": "Parramatta Eels",
       "position": "Interchange"
     },
     "Sam Tuivaiti": {
       "tries": 0,
-      "games": 13,
+      "games": 14,
       "tryRate": 0.0,
       "team": "Parramatta Eels",
       "position": "Prop"
@@ -780,23 +780,23 @@
       "position": "Interchange"
     },
     "Tallyn Da Silva": {
-      "tries": 6,
-      "games": 18,
-      "tryRate": 0.3333,
+      "tries": 7,
+      "games": 19,
+      "tryRate": 0.3684,
       "team": "Parramatta Eels",
       "position": "Hooker"
     },
     "Kelma Tuilagi": {
       "tries": 4,
-      "games": 17,
-      "tryRate": 0.2353,
+      "games": 18,
+      "tryRate": 0.2222,
       "team": "Parramatta Eels",
-      "position": "Interchange"
+      "position": "2nd Row"
     },
     "Joash Papalii": {
       "tries": 5,
-      "games": 18,
-      "tryRate": 0.2778,
+      "games": 19,
+      "tryRate": 0.2632,
       "team": "Parramatta Eels",
       "position": "Reserve"
     },
@@ -2132,8 +2132,8 @@
     },
     "Josh Addo-Carr": {
       "tries": 6,
-      "games": 17,
-      "tryRate": 0.3529,
+      "games": 18,
+      "tryRate": 0.3333,
       "team": "Parramatta Eels",
       "position": "Winger"
     },
@@ -2145,9 +2145,9 @@
       "position": "Reserve"
     },
     "Jordan Samrani": {
-      "tries": 3,
-      "games": 11,
-      "tryRate": 0.2727,
+      "tries": 4,
+      "games": 12,
+      "tryRate": 0.3333,
       "team": "Parramatta Eels",
       "position": "Centre"
     },
@@ -2195,17 +2195,17 @@
     },
     "Jahream Bula": {
       "tries": 6,
-      "games": 16,
-      "tryRate": 0.375,
+      "games": 17,
+      "tryRate": 0.3529,
       "team": "Wests Tigers",
       "position": "Fullback"
     },
     "Sunia Turuva": {
       "tries": 4,
-      "games": 19,
-      "tryRate": 0.2105,
+      "games": 20,
+      "tryRate": 0.2,
       "team": "Wests Tigers",
-      "position": "Centre"
+      "position": "Winger"
     },
     "Taylan May": {
       "tries": 6,
@@ -2216,8 +2216,8 @@
     },
     "Heamasi Makasini": {
       "tries": 1,
-      "games": 13,
-      "tryRate": 0.0769,
+      "games": 14,
+      "tryRate": 0.0714,
       "team": "Wests Tigers",
       "position": "Centre"
     },
@@ -2230,43 +2230,43 @@
     },
     "Jarome Luai": {
       "tries": 4,
-      "games": 15,
-      "tryRate": 0.2667,
+      "games": 16,
+      "tryRate": 0.25,
       "team": "Wests Tigers",
       "position": "Five-Eighth"
     },
     "Adam Doueihi": {
-      "tries": 7,
-      "games": 12,
-      "tryRate": 0.5833,
+      "tries": 8,
+      "games": 13,
+      "tryRate": 0.6154,
       "team": "Wests Tigers",
       "position": "Halfback"
     },
     "Terrell May": {
       "tries": 1,
-      "games": 18,
-      "tryRate": 0.0556,
+      "games": 19,
+      "tryRate": 0.0526,
       "team": "Wests Tigers",
       "position": "Prop"
     },
     "Apisai Koroisau": {
       "tries": 2,
-      "games": 14,
-      "tryRate": 0.1429,
+      "games": 15,
+      "tryRate": 0.1333,
       "team": "Wests Tigers",
       "position": "Hooker"
     },
     "Fonua Pole": {
-      "tries": 0,
-      "games": 19,
-      "tryRate": 0.0,
+      "tries": 1,
+      "games": 20,
+      "tryRate": 0.05,
       "team": "Wests Tigers",
-      "position": "Prop"
+      "position": "Interchange"
     },
     "Samuela Fainu": {
       "tries": 3,
-      "games": 11,
-      "tryRate": 0.2727,
+      "games": 12,
+      "tryRate": 0.25,
       "team": "Wests Tigers",
       "position": "2nd Row"
     },
@@ -2279,7 +2279,7 @@
     },
     "Alex Twal": {
       "tries": 0,
-      "games": 14,
+      "games": 15,
       "tryRate": 0.0,
       "team": "Wests Tigers",
       "position": "Lock"
@@ -2293,10 +2293,10 @@
     },
     "Sione Fainu": {
       "tries": 2,
-      "games": 18,
-      "tryRate": 0.1111,
+      "games": 19,
+      "tryRate": 0.1053,
       "team": "Wests Tigers",
-      "position": "Interchange"
+      "position": "2nd Row"
     },
     "Royce Hunt": {
       "tries": 2,
@@ -2307,17 +2307,17 @@
     },
     "Alex Seyfarth": {
       "tries": 2,
-      "games": 19,
-      "tryRate": 0.1053,
+      "games": 20,
+      "tryRate": 0.1,
       "team": "Wests Tigers",
-      "position": "Interchange"
+      "position": "Prop"
     },
     "Tristan Hope": {
       "tries": 0,
-      "games": 10,
+      "games": 11,
       "tryRate": 0.0,
       "team": "Wests Tigers",
-      "position": "Interchange"
+      "position": "Reserve"
     },
     "Jeral Skelton": {
       "tries": 4,
@@ -2335,7 +2335,7 @@
     },
     "Harrison Edwards": {
       "tries": 0,
-      "games": 10,
+      "games": 11,
       "tryRate": 0.0,
       "team": "Parramatta Eels",
       "position": "Interchange"
@@ -2545,8 +2545,8 @@
     },
     "Patrick Herbert": {
       "tries": 1,
-      "games": 9,
-      "tryRate": 0.1111,
+      "games": 10,
+      "tryRate": 0.1,
       "team": "Wests Tigers",
       "position": "Centre"
     },
@@ -2867,8 +2867,8 @@
     },
     "Ronald Volkman": {
       "tries": 4,
-      "games": 13,
-      "tryRate": 0.3077,
+      "games": 14,
+      "tryRate": 0.2857,
       "team": "Parramatta Eels",
       "position": "Five-Eighth"
     },
@@ -2895,8 +2895,8 @@
     },
     "Tony Sukkar": {
       "tries": 1,
-      "games": 7,
-      "tryRate": 0.1429,
+      "games": 8,
+      "tryRate": 0.125,
       "team": "Wests Tigers",
       "position": "Interchange"
     },
@@ -2979,14 +2979,14 @@
     },
     "Toni Mataele": {
       "tries": 0,
-      "games": 8,
+      "games": 9,
       "tryRate": 0.0,
       "team": "Parramatta Eels",
       "position": "Reserve"
     },
     "Teancum Brown": {
       "tries": 0,
-      "games": 10,
+      "games": 11,
       "tryRate": 0.0,
       "team": "Parramatta Eels",
       "position": "Interchange"
@@ -3000,8 +3000,8 @@
     },
     "Starford To'a": {
       "tries": 2,
-      "games": 11,
-      "tryRate": 0.1818,
+      "games": 12,
+      "tryRate": 0.1667,
       "team": "Wests Tigers",
       "position": "Reserve"
     },
@@ -3168,7 +3168,7 @@
     },
     "Heath Mason": {
       "tries": 0,
-      "games": 4,
+      "games": 5,
       "tryRate": 0.0,
       "team": "Wests Tigers",
       "position": "Reserve"
@@ -3189,10 +3189,10 @@
     },
     "Charlie Murray": {
       "tries": 0,
-      "games": 6,
+      "games": 7,
       "tryRate": 0.0,
       "team": "Wests Tigers",
-      "position": "Reserve"
+      "position": "Interchange"
     },
     "Liam Henry": {
       "tries": 3,
@@ -3364,7 +3364,7 @@
     },
     "Junior Tupou": {
       "tries": 0,
-      "games": 2,
+      "games": 3,
       "tryRate": 0.0,
       "team": "Wests Tigers",
       "position": "Winger"
