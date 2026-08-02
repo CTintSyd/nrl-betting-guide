@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T10:20:40Z",
+  "generatedAt": "2026-08-02T11:42:08Z",
   "matches": {
     "Gold Coast Titans vs North Queensland Cowboys": {
       "homeTeam": "Gold Coast Titans",
@@ -602,18 +602,18 @@
       "weather": null,
       "seasonStats": {
         "home": {
-          "winPct": 56.0,
+          "winPct": 53.0,
           "completionRate": 79.0,
-          "avgScored": 28.0,
+          "avgScored": 27.0,
           "avgConceded": 24.0,
           "winsAtVenue": 32.0,
           "winsOverall": 44.0
         },
         "away": {
-          "winPct": 33.0,
-          "completionRate": 76.0,
+          "winPct": 37.0,
+          "completionRate": 75.0,
           "avgScored": 19.0,
-          "avgConceded": 29.0,
+          "avgConceded": 28.0,
           "winsAtVenue": 41.0,
           "winsOverall": 48.0
         }
