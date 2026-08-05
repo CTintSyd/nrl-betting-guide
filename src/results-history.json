@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-08-04T05:13:15Z",
+  "updatedAt": "2026-08-05T05:13:09Z",
   "season": 2026,
   "totalFavRecord": "99-65",
-  "totalLineRecord": "29-24",
-  "totalOuRecord": "23O-29U",
+  "totalLineRecord": "28-23",
+  "totalOuRecord": "22O-29U",
   "rounds": [
     {
       "round": 1,
@@ -160,11 +160,11 @@
           "margin": 34,
           "favourite": "New Zealand Warriors",
           "favouriteWon": true,
-          "linePoint": -4.5,
-          "lineCovered": true,
+          "linePoint": null,
+          "lineCovered": null,
           "ouTotal": null,
           "ouResult": null,
-          "oddsSourced": true
+          "oddsSourced": false
         },
         {
           "homeTeam": "Sydney Roosters",
@@ -258,7 +258,7 @@
         }
       ],
       "favRecord": "5-3",
-      "lineRecord": "1-0",
+      "lineRecord": null,
       "ouRecord": null
     },
     {
@@ -1960,11 +1960,11 @@
           "margin": 18,
           "favourite": "Gold Coast Titans",
           "favouriteWon": false,
-          "linePoint": -8.5,
-          "lineCovered": false,
-          "ouTotal": 36.5,
-          "ouResult": "Over",
-          "oddsSourced": true
+          "linePoint": null,
+          "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
+          "oddsSourced": false
         },
         {
           "homeTeam": "Brisbane Broncos",
@@ -2058,8 +2058,8 @@
         }
       ],
       "favRecord": "6-2",
-      "lineRecord": "2-1",
-      "ouRecord": "1O-2U"
+      "lineRecord": "2-0",
+      "ouRecord": "0O-2U"
     },
     {
       "round": 18,
