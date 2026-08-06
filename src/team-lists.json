@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T05:12:57.066358+00:00",
+  "generatedAt": "2026-08-06T05:25:56.597957+00:00",
   "round": 23,
   "games": [
     {
@@ -172,18 +172,6 @@
         "name": "Jaylan De Groot",
         "position": "Reserve",
         "category": "reserve"
-      },
-      {
-        "number": 21,
-        "name": "Siale Faeamani",
-        "position": "Reserve",
-        "category": "reserve"
-      },
-      {
-        "number": 22,
-        "name": "Jett Liu",
-        "position": "Reserve",
-        "category": "reserve"
       }
     ],
     "North Queensland Cowboys": [
@@ -296,26 +284,14 @@
         "category": "reserve"
       },
       {
-        "number": 19,
-        "name": "Kaiden Lahrs",
-        "position": "Interchange",
-        "category": "reserve"
-      },
-      {
         "number": 20,
         "name": "John Bateman",
-        "position": "Reserve",
+        "position": "Interchange",
         "category": "reserve"
       },
       {
         "number": 21,
         "name": "Liam Sutton",
-        "position": "Reserve",
-        "category": "reserve"
-      },
-      {
-        "number": 22,
-        "name": "Ronald Philitoga",
         "position": "Reserve",
         "category": "reserve"
       }
