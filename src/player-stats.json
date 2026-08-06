@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-06T05:25:37.909011+00:00",
-  "round": 22,
+  "generatedAt": "2026-08-06T12:04:55.033841+00:00",
+  "round": 23,
   "players": {
     "Kalyn Ponga": {
       "tries": 4,
@@ -137,43 +137,43 @@
     },
     "Scott Drinkwater": {
       "tries": 9,
-      "games": 20,
-      "tryRate": 0.45,
+      "games": 21,
+      "tryRate": 0.4286,
       "team": "North Queensland Cowboys",
       "position": "Fullback"
     },
     "Braidon Burns": {
       "tries": 13,
-      "games": 16,
-      "tryRate": 0.8125,
+      "games": 17,
+      "tryRate": 0.7647,
       "team": "North Queensland Cowboys",
       "position": "Winger"
     },
     "Jaxon Purdue": {
-      "tries": 6,
-      "games": 20,
-      "tryRate": 0.3,
+      "tries": 7,
+      "games": 21,
+      "tryRate": 0.3333,
       "team": "North Queensland Cowboys",
       "position": "Halfback"
     },
     "Tom Chester": {
       "tries": 8,
-      "games": 19,
-      "tryRate": 0.4211,
+      "games": 20,
+      "tryRate": 0.4,
       "team": "North Queensland Cowboys",
       "position": "Centre"
     },
     "Murray Taulagi": {
       "tries": 11,
-      "games": 15,
-      "tryRate": 0.7333,
+      "games": 16,
+      "tryRate": 0.6875,
       "team": "North Queensland Cowboys",
       "position": "Winger"
     },
     "Jake Clifford": {
-      "tries": 7,
-      "games": 20,
-      "tryRate": 0.35,
+      "tries": 8,
+      "games": 21,
+      "tryRate": 0.381,
       "team": "North Queensland Cowboys",
       "position": "Five-Eighth"
     },
@@ -186,8 +186,8 @@
     },
     "Coen Hess": {
       "tries": 1,
-      "games": 20,
-      "tryRate": 0.05,
+      "games": 21,
+      "tryRate": 0.0476,
       "team": "North Queensland Cowboys",
       "position": "Interchange"
     },
@@ -199,67 +199,67 @@
       "position": "Hooker"
     },
     "Jason Taumalolo": {
-      "tries": 0,
-      "games": 19,
-      "tryRate": 0.0,
+      "tries": 1,
+      "games": 20,
+      "tryRate": 0.05,
       "team": "North Queensland Cowboys",
       "position": "Prop"
     },
     "Heilum Luki": {
-      "tries": 8,
-      "games": 20,
-      "tryRate": 0.4,
+      "tries": 10,
+      "games": 21,
+      "tryRate": 0.4762,
       "team": "North Queensland Cowboys",
       "position": "2nd Row"
     },
     "Sam McIntyre": {
       "tries": 1,
-      "games": 19,
-      "tryRate": 0.0526,
+      "games": 20,
+      "tryRate": 0.05,
       "team": "North Queensland Cowboys",
-      "position": "Interchange"
+      "position": "Reserve"
     },
     "Reuben Cotter": {
       "tries": 2,
-      "games": 17,
-      "tryRate": 0.1176,
+      "games": 18,
+      "tryRate": 0.1111,
       "team": "North Queensland Cowboys",
       "position": "Lock"
     },
     "Soni Luke": {
       "tries": 2,
-      "games": 17,
-      "tryRate": 0.1176,
+      "games": 18,
+      "tryRate": 0.1111,
       "team": "North Queensland Cowboys",
       "position": "Hooker"
     },
     "Thomas Mikaele": {
       "tries": 0,
-      "games": 17,
+      "games": 18,
       "tryRate": 0.0,
       "team": "North Queensland Cowboys",
-      "position": "Prop"
+      "position": "Interchange"
     },
     "Kai O'Donnell": {
       "tries": 0,
-      "games": 9,
+      "games": 10,
       "tryRate": 0.0,
       "team": "North Queensland Cowboys",
-      "position": "Reserve"
+      "position": "2nd Row"
     },
     "Griffin Neame": {
       "tries": 0,
-      "games": 19,
+      "games": 20,
       "tryRate": 0.0,
       "team": "North Queensland Cowboys",
       "position": "Prop"
     },
     "Matthew Lodge": {
       "tries": 0,
-      "games": 20,
+      "games": 21,
       "tryRate": 0.0,
       "team": "North Queensland Cowboys",
-      "position": "Interchange"
+      "position": "Reserve"
     },
     "Robert Derby": {
       "tries": 0,
@@ -1467,8 +1467,8 @@
     },
     "Keano Kini": {
       "tries": 3,
-      "games": 19,
-      "tryRate": 0.1579,
+      "games": 20,
+      "tryRate": 0.15,
       "team": "Gold Coast Titans",
       "position": "Fullback"
     },
@@ -1481,8 +1481,8 @@
     },
     "Jojo Fifita": {
       "tries": 7,
-      "games": 17,
-      "tryRate": 0.4118,
+      "games": 18,
+      "tryRate": 0.3889,
       "team": "Gold Coast Titans",
       "position": "Centre"
     },
@@ -1494,72 +1494,72 @@
       "position": "Reserve"
     },
     "Phillip Sami": {
-      "tries": 12,
-      "games": 19,
-      "tryRate": 0.6316,
+      "tries": 14,
+      "games": 20,
+      "tryRate": 0.7,
       "team": "Gold Coast Titans",
       "position": "Winger"
     },
     "AJ Brimson": {
       "tries": 3,
-      "games": 17,
-      "tryRate": 0.1765,
+      "games": 18,
+      "tryRate": 0.1667,
       "team": "Gold Coast Titans",
-      "position": "Centre"
+      "position": "Halfback"
     },
     "Lachlan Ilias": {
       "tries": 0,
-      "games": 12,
+      "games": 13,
       "tryRate": 0.0,
       "team": "Gold Coast Titans",
       "position": "Reserve"
     },
     "Moeaki Fotuaika": {
       "tries": 1,
-      "games": 19,
-      "tryRate": 0.0526,
+      "games": 20,
+      "tryRate": 0.05,
       "team": "Gold Coast Titans",
       "position": "Prop"
     },
     "Sam Verrills": {
       "tries": 1,
-      "games": 15,
-      "tryRate": 0.0667,
+      "games": 16,
+      "tryRate": 0.0625,
       "team": "Gold Coast Titans",
-      "position": "Reserve"
+      "position": "Hooker"
     },
     "Tino Fa'asuamaleaui": {
       "tries": 1,
-      "games": 16,
-      "tryRate": 0.0625,
+      "games": 17,
+      "tryRate": 0.0588,
       "team": "Gold Coast Titans",
       "position": "Prop"
     },
     "Arama Hau": {
       "tries": 7,
-      "games": 19,
-      "tryRate": 0.3684,
+      "games": 20,
+      "tryRate": 0.35,
       "team": "Gold Coast Titans",
-      "position": "2nd Row"
+      "position": "Reserve"
     },
     "Beau Fermor": {
       "tries": 2,
-      "games": 19,
-      "tryRate": 0.1053,
+      "games": 20,
+      "tryRate": 0.1,
       "team": "Gold Coast Titans",
       "position": "2nd Row"
     },
     "Chris Randall": {
       "tries": 1,
-      "games": 16,
-      "tryRate": 0.0625,
+      "games": 17,
+      "tryRate": 0.0588,
       "team": "Gold Coast Titans",
       "position": "Lock"
     },
     "Kurtis Morrin": {
       "tries": 6,
-      "games": 17,
-      "tryRate": 0.3529,
+      "games": 18,
+      "tryRate": 0.3333,
       "team": "Gold Coast Titans",
       "position": "Interchange"
     },
@@ -1572,15 +1572,15 @@
     },
     "Klese Haas": {
       "tries": 0,
-      "games": 18,
+      "games": 19,
       "tryRate": 0.0,
       "team": "Gold Coast Titans",
       "position": "Interchange"
     },
     "Cooper Bai": {
       "tries": 2,
-      "games": 18,
-      "tryRate": 0.1111,
+      "games": 19,
+      "tryRate": 0.1053,
       "team": "Gold Coast Titans",
       "position": "Interchange"
     },
@@ -2559,24 +2559,24 @@
     },
     "Zac Laybutt": {
       "tries": 2,
-      "games": 18,
-      "tryRate": 0.1111,
+      "games": 19,
+      "tryRate": 0.1053,
       "team": "North Queensland Cowboys",
       "position": "Centre"
     },
     "Jayden Campbell": {
       "tries": 9,
-      "games": 17,
-      "tryRate": 0.5294,
+      "games": 18,
+      "tryRate": 0.5,
       "team": "Gold Coast Titans",
       "position": "Five-Eighth"
     },
     "Josh Patston": {
       "tries": 0,
-      "games": 14,
+      "games": 15,
       "tryRate": 0.0,
       "team": "Gold Coast Titans",
-      "position": "Interchange"
+      "position": "2nd Row"
     },
     "Simione Laiafi": {
       "tries": 0,
@@ -2671,10 +2671,10 @@
     },
     "Oliver Pascoe": {
       "tries": 4,
-      "games": 16,
-      "tryRate": 0.25,
+      "games": 17,
+      "tryRate": 0.2353,
       "team": "Gold Coast Titans",
-      "position": "Hooker"
+      "position": "Interchange"
     },
     "Jett Liu": {
       "tries": 0,
@@ -2881,10 +2881,10 @@
     },
     "Jaylan De Groot": {
       "tries": 2,
-      "games": 13,
-      "tryRate": 0.1538,
+      "games": 14,
+      "tryRate": 0.1429,
       "team": "Gold Coast Titans",
-      "position": "Reserve"
+      "position": "Centre"
     },
     "Adam Christensen": {
       "tries": 0,
@@ -3245,7 +3245,7 @@
     },
     "Ethan King": {
       "tries": 0,
-      "games": 7,
+      "games": 8,
       "tryRate": 0.0,
       "team": "North Queensland Cowboys",
       "position": "Interchange"
@@ -3406,7 +3406,7 @@
     },
     "John Bateman": {
       "tries": 0,
-      "games": 3,
+      "games": 4,
       "tryRate": 0.0,
       "team": "North Queensland Cowboys",
       "position": "Interchange"
@@ -3497,8 +3497,8 @@
     },
     "Dean Ieremia": {
       "tries": 1,
-      "games": 4,
-      "tryRate": 0.25,
+      "games": 5,
+      "tryRate": 0.2,
       "team": "Gold Coast Titans",
       "position": "Winger"
     },
