@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-06T08:11:56.598Z",
-  "quotaRemaining": 377,
+  "updated": "2026-08-06T11:11:00.936Z",
+  "quotaRemaining": 374,
   "round": 23,
   "venueOverride": {
     "venue": "Suncorp Stadium",
@@ -11,51 +11,45 @@
       "id": "dea9960c92c9a64fc9f2bdedbe204b62",
       "homeTeam": "Gold Coast Titans",
       "awayTeam": "North Queensland Cowboys",
-      "commenceTime": "2026-08-06T09:50:00Z",
+      "commenceTime": "2026-08-06T09:53:00Z",
       "bookmaker": "sportsbet",
       "h2h": {
-        "home": 2.51,
-        "away": 1.53
+        "home": 9.5,
+        "away": 1.04
       },
       "line": {
         "home": {
-          "odd": 1.9,
-          "point": 4.5
+          "odd": 1.98,
+          "point": 11.5
         },
         "away": {
-          "odd": 1.9,
-          "point": -4.5
+          "odd": 1.82,
+          "point": -11.5
         }
       },
       "ou": {
-        "total": 48.5,
-        "overOdd": 1.9,
-        "underOdd": 1.9
+        "total": 39.5,
+        "overOdd": 1.85,
+        "underOdd": 1.95
       },
       "bookmakerComparison": [
         {
           "key": "sportsbet",
           "name": "Sportsbet",
-          "home": 2.51,
-          "away": 1.53
+          "home": 9.5,
+          "away": 1.04
         },
         {
           "key": "tab",
           "name": "TAB",
-          "home": 2.4,
-          "away": 1.58
+          "home": 11,
+          "away": 1.03
         },
         {
-          "key": "betright",
-          "name": "BetRight",
-          "home": 2.4,
-          "away": 1.6
-        },
-        {
-          "key": "ladbrokes_au",
-          "name": "Ladbrokes",
-          "home": 2.55,
-          "away": 1.53
+          "key": "pointsbetau",
+          "name": "PointsBet",
+          "home": 8,
+          "away": 1.06
         }
       ]
     },
@@ -94,8 +88,8 @@
         {
           "key": "tab",
           "name": "TAB",
-          "home": 2.35,
-          "away": 1.6
+          "home": 2.3,
+          "away": 1.62
         },
         {
           "key": "betright",
@@ -118,48 +112,48 @@
       "commenceTime": "2026-08-07T10:00:00Z",
       "bookmaker": "sportsbet",
       "h2h": {
-        "home": 1.36,
-        "away": 3.17
+        "home": 1.54,
+        "away": 2.48
       },
       "line": {
         "home": {
           "odd": 1.9,
-          "point": -8.5
+          "point": -4.5
         },
         "away": {
           "odd": 1.9,
-          "point": 8.5
+          "point": 4.5
         }
       },
       "ou": {
         "total": 44.5,
-        "overOdd": 1.9,
-        "underOdd": 1.9
+        "overOdd": 1.89,
+        "underOdd": 1.91
       },
       "bookmakerComparison": [
         {
           "key": "sportsbet",
           "name": "Sportsbet",
-          "home": 1.36,
-          "away": 3.17
+          "home": 1.54,
+          "away": 2.48
         },
         {
           "key": "tab",
           "name": "TAB",
-          "home": 1.34,
-          "away": 3.3
+          "home": 1.55,
+          "away": 2.45
         },
         {
           "key": "betright",
           "name": "BetRight",
-          "home": 1.36,
-          "away": 3.15
+          "home": 1.55,
+          "away": 2.45
         },
         {
           "key": "ladbrokes_au",
           "name": "Ladbrokes",
-          "home": 1.36,
-          "away": 3.1
+          "home": 1.55,
+          "away": 2.45
         }
       ]
     },
@@ -198,8 +192,8 @@
         {
           "key": "tab",
           "name": "TAB",
-          "home": 2.1,
-          "away": 1.74
+          "home": 2.15,
+          "away": 1.7
         },
         {
           "key": "betright",
@@ -406,8 +400,8 @@
         {
           "key": "tab",
           "name": "TAB",
-          "home": 4.8,
-          "away": 1.18
+          "home": 5,
+          "away": 1.17
         },
         {
           "key": "betright",
@@ -560,40 +554,6 @@
       ]
     },
     {
-      "id": "b7c0b53f93d269a16ca0d947d2b7d549",
-      "homeTeam": "Parramatta Eels",
-      "awayTeam": "North Queensland Cowboys",
-      "commenceTime": "2026-08-15T07:30:00Z",
-      "bookmaker": "sportsbet",
-      "h2h": {
-        "home": 1.97,
-        "away": 1.87
-      },
-      "line": {
-        "home": {
-          "odd": 1.86,
-          "point": 1.5
-        },
-        "away": {
-          "odd": 1.95,
-          "point": -1.5
-        }
-      },
-      "ou": {
-        "total": 49.5,
-        "overOdd": 1.89,
-        "underOdd": 1.9
-      },
-      "bookmakerComparison": [
-        {
-          "key": "sportsbet",
-          "name": "Sportsbet",
-          "home": 1.97,
-          "away": 1.87
-        }
-      ]
-    },
-    {
       "id": "6000e0c5326b5736fd05ba5be257b67a",
       "homeTeam": "Brisbane Broncos",
       "awayTeam": "New Zealand Warriors",
@@ -624,40 +584,6 @@
           "name": "Sportsbet",
           "home": 2.39,
           "away": 1.58
-        }
-      ]
-    },
-    {
-      "id": "2394a3ca21c477463477e17c2341bf9b",
-      "homeTeam": "Newcastle Knights",
-      "awayTeam": "Gold Coast Titans",
-      "commenceTime": "2026-08-16T04:00:00Z",
-      "bookmaker": "sportsbet",
-      "h2h": {
-        "home": 1.45,
-        "away": 2.78
-      },
-      "line": {
-        "home": {
-          "odd": 1.9,
-          "point": -7.5
-        },
-        "away": {
-          "odd": 1.9,
-          "point": 7.5
-        }
-      },
-      "ou": {
-        "total": 49.5,
-        "overOdd": 1.9,
-        "underOdd": 1.9
-      },
-      "bookmakerComparison": [
-        {
-          "key": "sportsbet",
-          "name": "Sportsbet",
-          "home": 1.45,
-          "away": 2.78
         }
       ]
     },
