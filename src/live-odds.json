@@ -1,58 +1,12 @@
 {
-  "updated": "2026-08-06T11:11:00.936Z",
-  "quotaRemaining": 374,
+  "updated": "2026-08-06T13:30:23.403Z",
+  "quotaRemaining": 371,
   "round": 23,
   "venueOverride": {
     "venue": "Suncorp Stadium",
     "until": "2026-05-18T00:00:00Z"
   },
   "games": [
-    {
-      "id": "dea9960c92c9a64fc9f2bdedbe204b62",
-      "homeTeam": "Gold Coast Titans",
-      "awayTeam": "North Queensland Cowboys",
-      "commenceTime": "2026-08-06T09:53:00Z",
-      "bookmaker": "sportsbet",
-      "h2h": {
-        "home": 9.5,
-        "away": 1.04
-      },
-      "line": {
-        "home": {
-          "odd": 1.98,
-          "point": 11.5
-        },
-        "away": {
-          "odd": 1.82,
-          "point": -11.5
-        }
-      },
-      "ou": {
-        "total": 39.5,
-        "overOdd": 1.85,
-        "underOdd": 1.95
-      },
-      "bookmakerComparison": [
-        {
-          "key": "sportsbet",
-          "name": "Sportsbet",
-          "home": 9.5,
-          "away": 1.04
-        },
-        {
-          "key": "tab",
-          "name": "TAB",
-          "home": 11,
-          "away": 1.03
-        },
-        {
-          "key": "pointsbetau",
-          "name": "PointsBet",
-          "home": 8,
-          "away": 1.06
-        }
-      ]
-    },
     {
       "id": "bd9c3512f245893fddbc254cb8802ee2",
       "homeTeam": "New Zealand Warriors",
@@ -140,14 +94,14 @@
         {
           "key": "tab",
           "name": "TAB",
-          "home": 1.55,
-          "away": 2.45
+          "home": 1.53,
+          "away": 2.5
         },
         {
           "key": "betright",
           "name": "BetRight",
-          "home": 1.55,
-          "away": 2.45
+          "home": 1.54,
+          "away": 2.48
         },
         {
           "key": "ladbrokes_au",
@@ -400,8 +354,8 @@
         {
           "key": "tab",
           "name": "TAB",
-          "home": 5,
-          "away": 1.17
+          "home": 5.2,
+          "away": 1.16
         },
         {
           "key": "betright",
@@ -448,6 +402,12 @@
           "name": "Sportsbet",
           "home": 1.49,
           "away": 2.64
+        },
+        {
+          "key": "tab",
+          "name": "TAB",
+          "home": 1.5,
+          "away": 2.6
         }
       ]
     },
@@ -482,6 +442,12 @@
           "name": "Sportsbet",
           "home": 2.27,
           "away": 1.64
+        },
+        {
+          "key": "tab",
+          "name": "TAB",
+          "home": 2.25,
+          "away": 1.65
         }
       ]
     },
@@ -516,6 +482,12 @@
           "name": "Sportsbet",
           "home": 1.81,
           "away": 2.04
+        },
+        {
+          "key": "tab",
+          "name": "TAB",
+          "home": 1.8,
+          "away": 2
         }
       ]
     },
@@ -550,6 +522,12 @@
           "name": "Sportsbet",
           "home": 1.34,
           "away": 3.27
+        },
+        {
+          "key": "tab",
+          "name": "TAB",
+          "home": 1.3,
+          "away": 3.5
         }
       ]
     },
@@ -584,6 +562,12 @@
           "name": "Sportsbet",
           "home": 2.39,
           "away": 1.58
+        },
+        {
+          "key": "tab",
+          "name": "TAB",
+          "home": 2.45,
+          "away": 1.55
         }
       ]
     },
@@ -618,6 +602,18 @@
           "name": "Sportsbet",
           "home": 1.64,
           "away": 2.27
+        },
+        {
+          "key": "tab",
+          "name": "TAB",
+          "home": 1.65,
+          "away": 2.25
+        },
+        {
+          "key": "betright",
+          "name": "BetRight",
+          "home": 1.65,
+          "away": 2.24
         }
       ]
     }
