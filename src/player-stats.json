@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T09:03:20.105149+00:00",
+  "generatedAt": "2026-08-07T10:09:32.837190+00:00",
   "round": 23,
   "players": {
     "Kalyn Ponga": {
@@ -801,30 +801,30 @@
       "position": "Reserve"
     },
     "Charnze Nicoll-Klokstad": {
-      "tries": 8,
-      "games": 12,
-      "tryRate": 0.6667,
+      "tries": 9,
+      "games": 13,
+      "tryRate": 0.6923,
       "team": "New Zealand Warriors",
       "position": "Fullback"
     },
     "Dallin Watene-Zelezniak": {
       "tries": 18,
-      "games": 18,
-      "tryRate": 1.0,
+      "games": 19,
+      "tryRate": 0.9474,
       "team": "New Zealand Warriors",
       "position": "Winger"
     },
     "Ali Leiataua": {
       "tries": 4,
-      "games": 16,
-      "tryRate": 0.25,
+      "games": 17,
+      "tryRate": 0.2353,
       "team": "New Zealand Warriors",
       "position": "Centre"
     },
     "Adam Pompey": {
       "tries": 3,
-      "games": 14,
-      "tryRate": 0.2143,
+      "games": 15,
+      "tryRate": 0.2,
       "team": "New Zealand Warriors",
       "position": "Reserve"
     },
@@ -836,9 +836,9 @@
       "position": "Centre"
     },
     "Chanel Harris-Tavita": {
-      "tries": 5,
-      "games": 18,
-      "tryRate": 0.2778,
+      "tries": 6,
+      "games": 19,
+      "tryRate": 0.3158,
       "team": "New Zealand Warriors",
       "position": "Five-Eighth"
     },
@@ -851,15 +851,15 @@
     },
     "James Fisher-Harris": {
       "tries": 2,
-      "games": 16,
-      "tryRate": 0.125,
+      "games": 17,
+      "tryRate": 0.1176,
       "team": "New Zealand Warriors",
       "position": "Prop"
     },
     "Wayde Egan": {
       "tries": 2,
-      "games": 19,
-      "tryRate": 0.1053,
+      "games": 20,
+      "tryRate": 0.1,
       "team": "New Zealand Warriors",
       "position": "Hooker"
     },
@@ -872,29 +872,29 @@
     },
     "Kurt Capewell": {
       "tries": 2,
-      "games": 9,
-      "tryRate": 0.2222,
+      "games": 10,
+      "tryRate": 0.2,
       "team": "New Zealand Warriors",
       "position": "2nd Row"
     },
     "Jacob Laban": {
       "tries": 4,
-      "games": 19,
-      "tryRate": 0.2105,
+      "games": 20,
+      "tryRate": 0.2,
       "team": "New Zealand Warriors",
       "position": "2nd Row"
     },
     "Erin Clark": {
-      "tries": 4,
-      "games": 19,
-      "tryRate": 0.2105,
+      "tries": 5,
+      "games": 20,
+      "tryRate": 0.25,
       "team": "New Zealand Warriors",
       "position": "Lock"
     },
     "Sam Healey": {
       "tries": 2,
-      "games": 17,
-      "tryRate": 0.1176,
+      "games": 18,
+      "tryRate": 0.1111,
       "team": "New Zealand Warriors",
       "position": "Interchange"
     },
@@ -907,31 +907,31 @@
     },
     "Leka Halasima": {
       "tries": 6,
-      "games": 16,
-      "tryRate": 0.375,
+      "games": 17,
+      "tryRate": 0.3529,
       "team": "New Zealand Warriors",
       "position": "Centre"
     },
     "Tanner Stowers-Smith": {
       "tries": 0,
-      "games": 16,
+      "games": 17,
       "tryRate": 0.0,
       "team": "New Zealand Warriors",
       "position": "Interchange"
     },
     "Taine Tuaupiki": {
       "tries": 3,
-      "games": 18,
-      "tryRate": 0.1667,
+      "games": 19,
+      "tryRate": 0.1579,
       "team": "New Zealand Warriors",
-      "position": "Fullback"
+      "position": "Reserve"
     },
     "Morgan Gannon": {
       "tries": 0,
-      "games": 3,
+      "games": 4,
       "tryRate": 0.0,
       "team": "New Zealand Warriors",
-      "position": "2nd Row"
+      "position": "Interchange"
     },
     "James Tedesco": {
       "tries": 11,
@@ -1208,17 +1208,17 @@
     },
     "Paul Alamoti": {
       "tries": 4,
-      "games": 19,
-      "tryRate": 0.2105,
+      "games": 20,
+      "tryRate": 0.2,
       "team": "Penrith Panthers",
       "position": "Centre"
     },
     "Izack Tago": {
       "tries": 3,
-      "games": 19,
-      "tryRate": 0.1579,
+      "games": 20,
+      "tryRate": 0.15,
       "team": "Penrith Panthers",
-      "position": "Interchange"
+      "position": "Centre"
     },
     "Casey McLean": {
       "tries": 7,
@@ -1229,28 +1229,28 @@
     },
     "Brian To'o": {
       "tries": 11,
-      "games": 17,
-      "tryRate": 0.6471,
+      "games": 18,
+      "tryRate": 0.6111,
       "team": "Penrith Panthers",
       "position": "Winger"
     },
     "Blaize Talagi": {
       "tries": 5,
-      "games": 18,
-      "tryRate": 0.2778,
+      "games": 19,
+      "tryRate": 0.2632,
       "team": "Penrith Panthers",
-      "position": "Five-Eighth"
+      "position": "Reserve"
     },
     "Nathan Cleary": {
-      "tries": 5,
-      "games": 16,
-      "tryRate": 0.3125,
+      "tries": 6,
+      "games": 17,
+      "tryRate": 0.3529,
       "team": "Penrith Panthers",
       "position": "Halfback"
     },
     "Moses Leota": {
       "tries": 0,
-      "games": 19,
+      "games": 20,
       "tryRate": 0.0,
       "team": "Penrith Panthers",
       "position": "Prop"
@@ -1264,14 +1264,14 @@
     },
     "Lindsay Smith": {
       "tries": 3,
-      "games": 19,
-      "tryRate": 0.1579,
+      "games": 20,
+      "tryRate": 0.15,
       "team": "Penrith Panthers",
       "position": "Prop"
     },
     "Scott Sorensen": {
       "tries": 0,
-      "games": 19,
+      "games": 20,
       "tryRate": 0.0,
       "team": "Penrith Panthers",
       "position": "Interchange"
@@ -1285,8 +1285,8 @@
     },
     "Isaah Yeo": {
       "tries": 2,
-      "games": 16,
-      "tryRate": 0.125,
+      "games": 17,
+      "tryRate": 0.1176,
       "team": "Penrith Panthers",
       "position": "Lock"
     },
@@ -1299,8 +1299,8 @@
     },
     "Isaiah Papali'i": {
       "tries": 3,
-      "games": 18,
-      "tryRate": 0.1667,
+      "games": 19,
+      "tryRate": 0.1579,
       "team": "Penrith Panthers",
       "position": "2nd Row"
     },
@@ -1313,22 +1313,22 @@
     },
     "Thomas Jenkins": {
       "tries": 28,
-      "games": 19,
-      "tryRate": 1.4737,
+      "games": 20,
+      "tryRate": 1.4,
       "team": "Penrith Panthers",
       "position": "Winger"
     },
     "Freddy Lussick": {
       "tries": 4,
-      "games": 19,
-      "tryRate": 0.2105,
+      "games": 20,
+      "tryRate": 0.2,
       "team": "Penrith Panthers",
       "position": "Hooker"
     },
     "Billy Phillips": {
       "tries": 2,
-      "games": 18,
-      "tryRate": 0.1111,
+      "games": 19,
+      "tryRate": 0.1053,
       "team": "Penrith Panthers",
       "position": "Interchange"
     },
@@ -2153,8 +2153,8 @@
     },
     "Eddie Ieremia-Toeava": {
       "tries": 1,
-      "games": 12,
-      "tryRate": 0.0833,
+      "games": 13,
+      "tryRate": 0.0769,
       "team": "New Zealand Warriors",
       "position": "Interchange"
     },
@@ -2433,17 +2433,17 @@
     },
     "Liam Martin": {
       "tries": 5,
-      "games": 11,
-      "tryRate": 0.4545,
+      "games": 12,
+      "tryRate": 0.4167,
       "team": "Penrith Panthers",
       "position": "2nd Row"
     },
     "Jack Cole": {
       "tries": 0,
-      "games": 10,
+      "games": 11,
       "tryRate": 0.0,
       "team": "Penrith Panthers",
-      "position": "Reserve"
+      "position": "Five-Eighth"
     },
     "Trent Loiero": {
       "tries": 1,
@@ -2496,14 +2496,14 @@
     },
     "Alofiana Khan-Pereira": {
       "tries": 13,
-      "games": 13,
-      "tryRate": 1.0,
+      "games": 14,
+      "tryRate": 0.9286,
       "team": "New Zealand Warriors",
       "position": "Winger"
     },
     "Mitchell Barnett": {
       "tries": 0,
-      "games": 10,
+      "games": 11,
       "tryRate": 0.0,
       "team": "New Zealand Warriors",
       "position": "Prop"
@@ -2593,11 +2593,11 @@
       "position": "Centre"
     },
     "Luke Metcalf": {
-      "tries": 0,
-      "games": 8,
-      "tryRate": 0.0,
+      "tries": 2,
+      "games": 9,
+      "tryRate": 0.2222,
       "team": "New Zealand Warriors",
-      "position": "Reserve"
+      "position": "Halfback"
     },
     "Faaletino Tavana": {
       "tries": 4,
@@ -2727,7 +2727,7 @@
     },
     "Billy Scott": {
       "tries": 0,
-      "games": 12,
+      "games": 13,
       "tryRate": 0.0,
       "team": "Penrith Panthers",
       "position": "Reserve"
@@ -3196,8 +3196,8 @@
     },
     "Liam Henry": {
       "tries": 3,
-      "games": 10,
-      "tryRate": 0.3,
+      "games": 11,
+      "tryRate": 0.2727,
       "team": "Penrith Panthers",
       "position": "Interchange"
     },
@@ -3315,7 +3315,7 @@
     },
     "Luron Patea": {
       "tries": 0,
-      "games": 3,
+      "games": 4,
       "tryRate": 0.0,
       "team": "Penrith Panthers",
       "position": "Interchange"
@@ -3531,9 +3531,9 @@
       "position": "Reserve"
     },
     "Jaxen Edgar": {
-      "tries": 1,
-      "games": 2,
-      "tryRate": 0.5,
+      "tries": 2,
+      "games": 3,
+      "tryRate": 0.6667,
       "team": "Penrith Panthers",
       "position": "Fullback"
     },

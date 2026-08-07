@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-08-07T09:03:44Z",
+  "updatedAt": "2026-08-07T10:10:07Z",
   "season": 2026,
-  "totalFavRecord": "100-65",
-  "totalLineRecord": "24-21",
-  "totalOuRecord": "23O-22U",
+  "totalFavRecord": "100-66",
+  "totalLineRecord": "24-22",
+  "totalOuRecord": "23O-23U",
   "rounds": [
     {
       "round": 1,
@@ -2658,11 +2658,26 @@
           "ouTotal": 47.5,
           "ouResult": "Under",
           "oddsSourced": true
+        },
+        {
+          "homeTeam": "New Zealand Warriors",
+          "awayTeam": "Penrith Panthers",
+          "homeScore": 28,
+          "awayScore": 12,
+          "winner": "New Zealand Warriors",
+          "margin": 16,
+          "favourite": "Penrith Panthers",
+          "favouriteWon": false,
+          "linePoint": 5.5,
+          "lineCovered": false,
+          "ouTotal": 40.5,
+          "ouResult": "Under",
+          "oddsSourced": true
         }
       ],
-      "favRecord": "1-0",
-      "lineRecord": "1-0",
-      "ouRecord": "0O-1U"
+      "favRecord": "1-1",
+      "lineRecord": "1-1",
+      "ouRecord": "0O-2U"
     }
   ]
 }

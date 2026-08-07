@@ -1,14 +1,36 @@
 {
-  "updated": "2026-08-07T09:03:35Z",
+  "updated": "2026-08-07T10:09:54Z",
   "articles": [
     {
-      "title": "LIVE: Warriors vs Panthers – Round 23, 2026",
-      "url": "https://www.zerotackle.com/live-warriors-panthers-round-23-2026-mc10396507-236522/",
+      "title": "LIVE: Roosters vs Bulldogs – Round 23, 2026",
+      "url": "https://www.zerotackle.com/live-roosters-bulldogs-round-23-2026-mc10396508-236520/",
+      "description": "The Sydney Roosters face the Canterbury-Bankstown Bulldogs in Round 23 of the 2026 NRL season. Follow the live scores, team lists, match statistics and key moments from the game at Allianz Stadium.",
+      "date": "Fri, 10 Jul 2026 10:00:00 +0000",
+      "teams": [
+        "Canterbury Bulldogs",
+        "Sydney Roosters"
+      ],
+      "isRound": true
+    },
+    {
+      "title": "FULL TIME: Warriors vs Panthers – Round 23, 2026",
+      "url": "https://www.zerotackle.com/fulltime-warriors-panthers-round-23-2026-mc10396507-236522/",
       "description": "The New Zealand Warriors face the Penrith Panthers in Round 23 of the 2026 NRL season. Follow the live scores, team lists, match statistics and key moments from the game at Go Media Stadium.",
       "date": "Fri, 10 Jul 2026 08:00:00 +0000",
       "teams": [
         "Penrith Panthers",
         "New Zealand Warriors"
+      ],
+      "isRound": true
+    },
+    {
+      "title": "Updated Team Lists: Rabbitohs vs Eels – Round 23, 2026",
+      "url": "https://www.zerotackle.com/updated-team-lists-rabbitohs-vs-eels-10396511-236717/",
+      "description": "The Rabbitohs and Eels have cut their squads to 20 ahead of tomorrow's match at Allianz Stadium.",
+      "date": "Fri, 07 Aug 2026 09:32:50 +0000",
+      "teams": [
+        "Parramatta Eels",
+        "South Sydney Rabbitohs"
       ],
       "isRound": true
     },
@@ -65,17 +87,6 @@
         "Brisbane Broncos"
       ],
       "isRound": false
-    },
-    {
-      "title": "Updated Team Lists: Storm vs Sea Eagles – Round 23, 2026",
-      "url": "https://www.zerotackle.com/updated-team-lists-storm-vs-sea-eagles-10396509-236700/",
-      "description": "The Storm and Sea Eagles have cut their squads to 20 ahead of tomorrow's match at HBF Park.",
-      "date": "Fri, 07 Aug 2026 04:59:50 +0000",
-      "teams": [
-        "Manly Warringah Sea Eagles",
-        "Melbourne Storm"
-      ],
-      "isRound": true
     }
   ]
 }
