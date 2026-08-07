@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-06T12:05:15.744029+00:00",
+  "generatedAt": "2026-08-07T05:29:09.686958+00:00",
   "round": 23,
   "games": [
     {
@@ -548,12 +548,6 @@
         "category": "starting"
       },
       {
-        "number": 3,
-        "name": "Jack Howarth",
-        "position": "Centre",
-        "category": "starting"
-      },
-      {
         "number": 4,
         "name": "Nick Meaney",
         "position": "Centre",
@@ -640,7 +634,7 @@
       {
         "number": 18,
         "name": "Joe Chan",
-        "position": "Interchange",
+        "position": "Centre",
         "category": "reserve"
       },
       {
@@ -656,15 +650,9 @@
         "category": "reserve"
       },
       {
-        "number": 21,
-        "name": "Stanley Huen",
-        "position": "Reserve",
-        "category": "reserve"
-      },
-      {
         "number": 22,
         "name": "Manaia Waitere",
-        "position": "Reserve",
+        "position": "Interchange",
         "category": "reserve"
       }
     ],
@@ -724,12 +712,6 @@
         "category": "starting"
       },
       {
-        "number": 10,
-        "name": "Ethan Bullemor",
-        "position": "Prop",
-        "category": "starting"
-      },
-      {
         "number": 11,
         "name": "Haumole Olakau'atu",
         "position": "2nd Row",
@@ -762,7 +744,7 @@
       {
         "number": 16,
         "name": "Simione Laiafi",
-        "position": "Interchange",
+        "position": "Prop",
         "category": "interchange"
       },
       {
@@ -792,13 +774,7 @@
       {
         "number": 21,
         "name": "Nicholas Lenaz",
-        "position": "Reserve",
-        "category": "reserve"
-      },
-      {
-        "number": 22,
-        "name": "Hugo Hart",
-        "position": "Reserve",
+        "position": "Interchange",
         "category": "reserve"
       }
     ],
@@ -1940,18 +1916,18 @@
     ],
     "St George Illawarra Dragons": [
       {
+        "name": "Toby Couchman",
+        "injury": "Concussion",
+        "expectedReturn": "Round 24",
+        "imageUrl": "/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500022/Toby%20Couchman%20_260119_Dragons_MK060.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/dragons/toby-couchman/"
+      },
+      {
         "name": "Jaydn Su'A",
         "injury": "Pectoral",
         "expectedReturn": "Round 27",
         "imageUrl": "/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500022/Jaydn%20Su%27A%20_260119_Dragons_MK1187.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/dragons/jaydn-sua/"
-      },
-      {
-        "name": "Toby Couchman",
-        "injury": "Head knock",
-        "expectedReturn": "TBC",
-        "imageUrl": "/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500022/Toby%20Couchman%20_260119_Dragons_MK060.png?center=0.5%2C0.5",
-        "profileUrl": "https://www.nrl.com/players/nrl-premiership/dragons/toby-couchman/"
       },
       {
         "name": "Hame Sele",
@@ -2122,6 +2098,13 @@
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/sea-eagles/ben-trbojevic/"
       },
       {
+        "name": "Ethan Bullemor",
+        "injury": "Concussion",
+        "expectedReturn": "Round 25",
+        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500002/Ethan%20Bullemor%20_260128_SeaEgales_MK1030.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/sea-eagles/ethan-bullemor/"
+      },
+      {
         "name": "Caleb Navale",
         "injury": "ACL",
         "expectedReturn": "Round 25",
@@ -2188,6 +2171,13 @@
       }
     ],
     "Melbourne Storm": [
+      {
+        "name": "Jack Howarth",
+        "injury": "Shoulder",
+        "expectedReturn": "Round 24",
+        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500021/Howarth%2CJ_260204_AR_2.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/storm/jack-howarth/"
+      },
       {
         "name": "Ativalu Lisati",
         "injury": "Ankle",
