@@ -1,13 +1,7 @@
 {
-  "generatedAt": "2026-08-07T08:01:04.205310+00:00",
+  "generatedAt": "2026-08-07T09:03:33.830571+00:00",
   "round": 23,
   "games": [
-    {
-      "matchCentreUrl": "/draw/nrl-premiership/2026/round-23/warriors-v-panthers/",
-      "kickoff": "2026-08-07T08:00:00Z",
-      "homeTeam": "New Zealand Warriors",
-      "awayTeam": "Penrith Panthers"
-    },
     {
       "matchCentreUrl": "/draw/nrl-premiership/2026/round-23/roosters-v-bulldogs/",
       "kickoff": "2026-08-07T10:00:00Z",
@@ -46,238 +40,6 @@
     }
   ],
   "teams": {
-    "New Zealand Warriors": [
-      {
-        "number": 1,
-        "name": "Charnze Nicoll-Klokstad",
-        "position": "Fullback",
-        "category": "starting"
-      },
-      {
-        "number": 2,
-        "name": "Dallin Watene-Zelezniak",
-        "position": "Winger",
-        "category": "starting"
-      },
-      {
-        "number": 3,
-        "name": "Ali Leiataua",
-        "position": "Centre",
-        "category": "starting"
-      },
-      {
-        "number": 4,
-        "name": "Leka Halasima",
-        "position": "Centre",
-        "category": "starting"
-      },
-      {
-        "number": 5,
-        "name": "Alofiana Khan-Pereira",
-        "position": "Winger",
-        "category": "starting"
-      },
-      {
-        "number": 6,
-        "name": "Chanel Harris-Tavita",
-        "position": "Five-Eighth",
-        "category": "starting"
-      },
-      {
-        "number": 8,
-        "name": "James Fisher-Harris",
-        "position": "Prop",
-        "category": "starting"
-      },
-      {
-        "number": 9,
-        "name": "Wayde Egan",
-        "position": "Hooker",
-        "category": "starting"
-      },
-      {
-        "number": 10,
-        "name": "Mitchell Barnett",
-        "position": "Prop",
-        "category": "starting"
-      },
-      {
-        "number": 11,
-        "name": "Kurt Capewell",
-        "position": "2nd Row",
-        "category": "starting"
-      },
-      {
-        "number": 12,
-        "name": "Jacob Laban",
-        "position": "2nd Row",
-        "category": "starting"
-      },
-      {
-        "number": 13,
-        "name": "Erin Clark",
-        "position": "Lock",
-        "category": "starting"
-      },
-      {
-        "number": 14,
-        "name": "Sam Healey",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
-        "number": 15,
-        "name": "Tanner Stowers-Smith",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
-        "number": 16,
-        "name": "Morgan Gannon",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
-        "number": 17,
-        "name": "Eddie Ieremia-Toeava",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
-        "number": 18,
-        "name": "Luke Metcalf",
-        "position": "Halfback",
-        "category": "reserve"
-      },
-      {
-        "number": 20,
-        "name": "Taine Tuaupiki",
-        "position": "Interchange",
-        "category": "reserve"
-      },
-      {
-        "number": 23,
-        "name": "Adam Pompey",
-        "position": "Interchange",
-        "category": "reserve"
-      }
-    ],
-    "Penrith Panthers": [
-      {
-        "number": 1,
-        "name": "Jaxen Edgar",
-        "position": "Fullback",
-        "category": "starting"
-      },
-      {
-        "number": 2,
-        "name": "Thomas Jenkins",
-        "position": "Winger",
-        "category": "starting"
-      },
-      {
-        "number": 3,
-        "name": "Paul Alamoti",
-        "position": "Centre",
-        "category": "starting"
-      },
-      {
-        "number": 4,
-        "name": "Izack Tago",
-        "position": "Centre",
-        "category": "starting"
-      },
-      {
-        "number": 5,
-        "name": "Brian To'o",
-        "position": "Winger",
-        "category": "starting"
-      },
-      {
-        "number": 7,
-        "name": "Nathan Cleary",
-        "position": "Halfback",
-        "category": "starting"
-      },
-      {
-        "number": 8,
-        "name": "Moses Leota",
-        "position": "Prop",
-        "category": "starting"
-      },
-      {
-        "number": 9,
-        "name": "Freddy Lussick",
-        "position": "Hooker",
-        "category": "starting"
-      },
-      {
-        "number": 10,
-        "name": "Lindsay Smith",
-        "position": "Prop",
-        "category": "starting"
-      },
-      {
-        "number": 11,
-        "name": "Isaiah Papali'i",
-        "position": "2nd Row",
-        "category": "starting"
-      },
-      {
-        "number": 12,
-        "name": "Liam Martin",
-        "position": "2nd Row",
-        "category": "starting"
-      },
-      {
-        "number": 13,
-        "name": "Isaah Yeo",
-        "position": "Lock",
-        "category": "starting"
-      },
-      {
-        "number": 14,
-        "name": "Billy Scott",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
-        "number": 15,
-        "name": "Scott Sorensen",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
-        "number": 16,
-        "name": "Liam Henry",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
-        "number": 17,
-        "name": "Billy Phillips",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
-        "number": 18,
-        "name": "Jack Cole",
-        "position": "Five-Eighth",
-        "category": "reserve"
-      },
-      {
-        "number": 19,
-        "name": "Blaize Talagi",
-        "position": "Interchange",
-        "category": "reserve"
-      },
-      {
-        "number": 21,
-        "name": "Luron Patea",
-        "position": "Interchange",
-        "category": "reserve"
-      }
-    ],
     "Sydney Roosters": [
       {
         "number": 2,
@@ -330,7 +92,7 @@
       {
         "number": 10,
         "name": "Spencer Leniu",
-        "position": "Prop",
+        "position": "Interchange",
         "category": "starting"
       },
       {
@@ -366,7 +128,7 @@
       {
         "number": 16,
         "name": "Nat Butcher",
-        "position": "Interchange",
+        "position": "Prop",
         "category": "interchange"
       },
       {
@@ -391,12 +153,6 @@
         "number": 20,
         "name": "Rex Bassingthwaighte",
         "position": "Interchange",
-        "category": "reserve"
-      },
-      {
-        "number": 21,
-        "name": "Benaiah Ioelu",
-        "position": "Reserve",
         "category": "reserve"
       }
     ],
@@ -513,12 +269,6 @@
         "number": 20,
         "name": "Jake Turpin",
         "position": "Interchange",
-        "category": "reserve"
-      },
-      {
-        "number": 22,
-        "name": "Sean O'Sullivan",
-        "position": "Reserve",
         "category": "reserve"
       }
     ],

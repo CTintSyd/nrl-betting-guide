@@ -1,6 +1,39 @@
 {
-  "updated": "2026-08-07T08:01:06Z",
+  "updated": "2026-08-07T09:03:35Z",
   "articles": [
+    {
+      "title": "LIVE: Warriors vs Panthers – Round 23, 2026",
+      "url": "https://www.zerotackle.com/live-warriors-panthers-round-23-2026-mc10396507-236522/",
+      "description": "The New Zealand Warriors face the Penrith Panthers in Round 23 of the 2026 NRL season. Follow the live scores, team lists, match statistics and key moments from the game at Go Media Stadium.",
+      "date": "Fri, 10 Jul 2026 08:00:00 +0000",
+      "teams": [
+        "Penrith Panthers",
+        "New Zealand Warriors"
+      ],
+      "isRound": true
+    },
+    {
+      "title": "Penrith Panthers cop horror injury blow in Warriors ambush",
+      "url": "https://www.zerotackle.com/penrith-panthers-cop-horror-injury-blow-in-warriors-ambush-236715/",
+      "description": "He was taken off the field before halftime.",
+      "date": "Fri, 07 Aug 2026 08:48:07 +0000",
+      "teams": [
+        "Penrith Panthers",
+        "New Zealand Warriors"
+      ],
+      "isRound": false
+    },
+    {
+      "title": "FINAL TEAMS: Roosters vs Bulldogs – Round 23, 2026",
+      "url": "https://www.zerotackle.com/updated-team-lists-roosters-bulldogs-10396508-236672/",
+      "description": "LATE MAIL: The Roosters and Bulldogs have confirmed their lineups for the match at Allianz Stadium.",
+      "date": "Fri, 07 Aug 2026 08:27:52 +0000",
+      "teams": [
+        "Canterbury Bulldogs",
+        "Sydney Roosters"
+      ],
+      "isRound": true
+    },
     {
       "title": "Updated Team Lists: Dolphins vs Broncos – Round 23, 2026",
       "url": "https://www.zerotackle.com/updated-team-lists-dolphins-vs-broncos-10396510-236712/",
@@ -43,26 +76,6 @@
         "Melbourne Storm"
       ],
       "isRound": true
-    },
-    {
-      "title": "Panthers begin talks with four players on rivals November 1 wishlist",
-      "url": "https://www.zerotackle.com/panthers-begin-talks-with-four-players-on-rivals-november-1-wishlist-236690/",
-      "description": "The Panthers currently have 11 players off-contract at the end of 2027.",
-      "date": "Fri, 07 Aug 2026 02:22:28 +0000",
-      "teams": [
-        "Penrith Panthers"
-      ],
-      "isRound": false
-    },
-    {
-      "title": "Dad’s army: Why Broncos’ latest contract link makes no sense",
-      "url": "https://www.zerotackle.com/dads-army-why-broncos-latest-contract-link-makes-no-sense-236688/",
-      "description": "Michael Maguire's recruitment for 2027 is raising eyebrows.",
-      "date": "Fri, 07 Aug 2026 02:06:42 +0000",
-      "teams": [
-        "Brisbane Broncos"
-      ],
-      "isRound": false
     }
   ]
 }
