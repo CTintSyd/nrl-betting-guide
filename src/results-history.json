@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-08-07T11:55:29Z",
+  "updatedAt": "2026-08-07T12:42:03Z",
   "season": 2026,
-  "totalFavRecord": "100-66",
-  "totalLineRecord": "24-22",
-  "totalOuRecord": "23O-23U",
+  "totalFavRecord": "101-66",
+  "totalLineRecord": "24-23",
+  "totalOuRecord": "23O-24U",
   "rounds": [
     {
       "round": 1,
@@ -2673,11 +2673,26 @@
           "ouTotal": 40.5,
           "ouResult": "Under",
           "oddsSourced": true
+        },
+        {
+          "homeTeam": "Sydney Roosters",
+          "awayTeam": "Canterbury Bulldogs",
+          "homeScore": 20,
+          "awayScore": 18,
+          "winner": "Sydney Roosters",
+          "margin": 2,
+          "favourite": "Sydney Roosters",
+          "favouriteWon": true,
+          "linePoint": -8.5,
+          "lineCovered": false,
+          "ouTotal": 45.5,
+          "ouResult": "Under",
+          "oddsSourced": true
         }
       ],
-      "favRecord": "1-1",
-      "lineRecord": "1-1",
-      "ouRecord": "0O-2U"
+      "favRecord": "2-1",
+      "lineRecord": "1-2",
+      "ouRecord": "0O-3U"
     }
   ]
 }
