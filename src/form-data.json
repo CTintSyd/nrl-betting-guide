@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T05:59:16.786325+00:00",
+  "generatedAt": "2026-08-08T07:07:59.209980+00:00",
   "round": 23,
   "upcomingRound": 23,
   "ladder": [
@@ -133,18 +133,32 @@
       "pos": 10,
       "nick": "Sea Eagles",
       "name": "Manly Warringah Sea Eagles",
-      "played": 19,
+      "played": 20,
       "wins": 9,
-      "losses": 10,
+      "losses": 11,
       "drawn": 0,
-      "ptsFor": 485,
-      "ptsAgainst": 395,
-      "diff": 90,
+      "ptsFor": 505,
+      "ptsAgainst": 437,
+      "diff": 68,
       "pts": 24,
       "streak": "4L"
     },
     {
       "pos": 11,
+      "nick": "Storm",
+      "name": "Melbourne Storm",
+      "played": 21,
+      "wins": 9,
+      "losses": 12,
+      "drawn": 0,
+      "ptsFor": 510,
+      "ptsAgainst": 514,
+      "diff": -4,
+      "pts": 22,
+      "streak": "1W"
+    },
+    {
+      "pos": 12,
       "nick": "Raiders",
       "name": "Canberra Raiders",
       "played": 20,
@@ -156,20 +170,6 @@
       "diff": -59,
       "pts": 22,
       "streak": "1L"
-    },
-    {
-      "pos": 12,
-      "nick": "Storm",
-      "name": "Melbourne Storm",
-      "played": 20,
-      "wins": 8,
-      "losses": 12,
-      "drawn": 0,
-      "ptsFor": 468,
-      "ptsAgainst": 494,
-      "diff": -26,
-      "pts": 20,
-      "streak": "3L"
     },
     {
       "pos": 13,
@@ -197,7 +197,7 @@
       "ptsAgainst": 589,
       "diff": -211,
       "pts": 20,
-      "streak": "5L"
+      "streak": "4L"
     },
     {
       "pos": 15,
@@ -463,7 +463,7 @@
       ]
     },
     "Manly Warringah Sea Eagles": {
-      "last5": "L L L L",
+      "last5": "L L L L L",
       "games": [
         {
           "round": 18,
@@ -492,11 +492,18 @@
           "opponent": "Cronulla Sutherland Sharks",
           "home": true,
           "score": "12\u201348"
+        },
+        {
+          "round": 23,
+          "result": "L",
+          "opponent": "Melbourne Storm",
+          "home": false,
+          "score": "42\u201320"
         }
       ]
     },
     "Melbourne Storm": {
-      "last5": "W L L L",
+      "last5": "W L L L W",
       "games": [
         {
           "round": 19,
@@ -525,6 +532,13 @@
           "opponent": "Canterbury Bulldogs",
           "home": true,
           "score": "22\u201336"
+        },
+        {
+          "round": 23,
+          "result": "W",
+          "opponent": "Manly Warringah Sea Eagles",
+          "home": true,
+          "score": "42\u201320"
         }
       ]
     },

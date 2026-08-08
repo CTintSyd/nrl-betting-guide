@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-08-08T05:59:31Z",
+  "updatedAt": "2026-08-08T07:08:15Z",
   "season": 2026,
-  "totalFavRecord": "101-66",
-  "totalLineRecord": "24-23",
-  "totalOuRecord": "23O-24U",
+  "totalFavRecord": "101-67",
+  "totalLineRecord": "24-24",
+  "totalOuRecord": "24O-24U",
   "rounds": [
     {
       "round": 1,
@@ -2688,11 +2688,26 @@
           "ouTotal": 45.5,
           "ouResult": "Under",
           "oddsSourced": true
+        },
+        {
+          "homeTeam": "Melbourne Storm",
+          "awayTeam": "Manly Warringah Sea Eagles",
+          "homeScore": 42,
+          "awayScore": 20,
+          "winner": "Melbourne Storm",
+          "margin": 22,
+          "favourite": "Manly Warringah Sea Eagles",
+          "favouriteWon": false,
+          "linePoint": 0.5,
+          "lineCovered": false,
+          "ouTotal": 48.5,
+          "ouResult": "Over",
+          "oddsSourced": true
         }
       ],
-      "favRecord": "2-1",
-      "lineRecord": "1-2",
-      "ouRecord": "0O-3U"
+      "favRecord": "2-2",
+      "lineRecord": "1-3",
+      "ouRecord": "1O-3U"
     }
   ]
 }

@@ -1,6 +1,28 @@
 {
-  "updated": "2026-08-08T05:59:24Z",
+  "updated": "2026-08-08T07:08:08Z",
   "articles": [
+    {
+      "title": "FULL TIME: Storm vs Sea Eagles – Round 23, 2026",
+      "url": "https://www.zerotackle.com/fulltime-storm-sea-eagles-round-23-2026-mc10396509-236518/",
+      "description": "The Melbourne Storm face the Manly Sea Eagles in Round 23 of the 2026 NRL season. Follow the live scores, team lists, match statistics and key moments from the game at HBF Park.",
+      "date": "Sat, 11 Jul 2026 05:00:00 +0000",
+      "teams": [
+        "Manly Warringah Sea Eagles",
+        "Melbourne Storm"
+      ],
+      "isRound": true
+    },
+    {
+      "title": "Updated Team Lists: Dragons vs Sharks – Round 23, 2026",
+      "url": "https://www.zerotackle.com/updated-team-lists-dragons-vs-sharks-10396513-236742/",
+      "description": "The Dragons and Sharks have cut their squads to 20 ahead of tomorrow's match at St George Venues Jubilee Stadium.",
+      "date": "Sat, 08 Aug 2026 06:02:52 +0000",
+      "teams": [
+        "St George Illawarra Dragons",
+        "Cronulla Sutherland Sharks"
+      ],
+      "isRound": true
+    },
     {
       "title": "FINAL TEAMS: Dolphins vs Broncos – Round 23, 2026",
       "url": "https://www.zerotackle.com/updated-team-lists-dolphins-broncos-10396510-236712/",
@@ -9,17 +31,6 @@
       "teams": [
         "Brisbane Broncos",
         "Dolphins"
-      ],
-      "isRound": true
-    },
-    {
-      "title": "LIVE: Storm vs Sea Eagles – Round 23, 2026",
-      "url": "https://www.zerotackle.com/live-storm-sea-eagles-round-23-2026-mc10396509-236518/",
-      "description": "The Melbourne Storm face the Manly Sea Eagles in Round 23 of the 2026 NRL season. Follow the live scores, team lists, match statistics and key moments from the game at HBF Park.",
-      "date": "Sat, 11 Jul 2026 05:00:00 +0000",
-      "teams": [
-        "Manly Warringah Sea Eagles",
-        "Melbourne Storm"
       ],
       "isRound": true
     },
@@ -44,16 +55,6 @@
         "Canberra Raiders"
       ],
       "isRound": true
-    },
-    {
-      "title": "Ciraldo unhappy with “too many errors” amid unfortunate injury to Bulldogs forward",
-      "url": "https://www.zerotackle.com/ciraldo-unhappy-with-too-many-errors-amid-unfortunate-injury-to-bulldogs-forward-236729/",
-      "description": "Bulldogs hope to play better next week with season on the line.",
-      "date": "Sat, 08 Aug 2026 00:39:27 +0000",
-      "teams": [
-        "Canterbury Bulldogs"
-      ],
-      "isRound": false
     }
   ]
 }
