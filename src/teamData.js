@@ -6,12 +6,12 @@ const NRL_TEAM_DATA = {
   'Brisbane Broncos': {
     emoji: '🐻', shortName: 'Broncos', venue: 'Suncorp Stadium', wikiPage: 'Brisbane_Broncos', logoFile: 'brisbane-broncos.svg',
     players: [
-      { name: "Josiah Karapani",                   pos: "wing",           tryRate: 0.3529 },
-      { name: "Reece Walsh",                       pos: "fullback",       tryRate: 0.4286 },
-      { name: "Ezra Mam",                          pos: "five-eighth",    tryRate: 0.2353 },
-      { name: "Kotoni Staggs",                     pos: "centre",         tryRate: 0.5 },
-      { name: "Xavier Willison",                   pos: "lock",           tryRate: 0.2632 },
-      { name: "Jordan Riki",                       pos: "lock",           tryRate: 0.2353 },
+      { name: "Josiah Karapani",                   pos: "wing",           tryRate: 0.3333 },
+      { name: "Reece Walsh",                       pos: "fullback",       tryRate: 0.4 },
+      { name: "Ezra Mam",                          pos: "five-eighth",    tryRate: 0.3889 },
+      { name: "Kotoni Staggs",                     pos: "centre",         tryRate: 0.4706 },
+      { name: "Xavier Willison",                   pos: "prop",           tryRate: 0.3 },
+      { name: "Jordan Riki",                       pos: "lock",           tryRate: 0.2222 },
     ],
   },
 
@@ -54,12 +54,12 @@ const NRL_TEAM_DATA = {
   'Dolphins': {
     emoji: '🐬', shortName: 'Dolphins', venue: 'Suncorp Stadium', wikiPage: 'Dolphins_NRL', logoFile: 'dolphins.png',
     players: [
-      { name: "Jamayne Isaako",                    pos: "wing",           tryRate: 0.8947 },
-      { name: "Hamiso Tabuai-Fidow",               pos: "fullback",       tryRate: 0.6429 },
-      { name: "Kodi Nikorima",                     pos: "five-eighth",    tryRate: 0.1875 },
-      { name: "Selwyn Cobbo",                      pos: "wing",           tryRate: 0.8571 },
-      { name: "Herbie Farnworth",                  pos: "centre",         tryRate: 0.4444 },
-      { name: "Jake Averillo",                     pos: "centre",         tryRate: 0.6667 },
+      { name: "Jamayne Isaako",                    pos: "wing",           tryRate: 0.9 },
+      { name: "Hamiso Tabuai-Fidow",               pos: "fullback",       tryRate: 0.7333 },
+      { name: "Kodi Nikorima",                     pos: "five-eighth",    tryRate: 0.1765 },
+      { name: "Selwyn Cobbo",                      pos: "wing",           tryRate: 0.8667 },
+      { name: "Herbie Farnworth",                  pos: "centre",         tryRate: 0.4737 },
+      { name: "Connelly Lemuelu",                  pos: "lock",           tryRate: 0.3 },
     ],
   },
 

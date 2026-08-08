@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T09:04:06.736664+00:00",
+  "generatedAt": "2026-08-08T09:57:09.454663+00:00",
   "round": 23,
   "upcomingRound": 23,
   "ladder": [
@@ -63,15 +63,15 @@
       "pos": 5,
       "nick": "Dolphins",
       "name": "Dolphins",
-      "played": 19,
-      "wins": 12,
+      "played": 20,
+      "wins": 13,
       "losses": 7,
       "drawn": 0,
-      "ptsFor": 516,
-      "ptsAgainst": 426,
-      "diff": 90,
-      "pts": 30,
-      "streak": "2W"
+      "ptsFor": 556,
+      "ptsAgainst": 458,
+      "diff": 98,
+      "pts": 32,
+      "streak": "3W"
     },
     {
       "pos": 6,
@@ -197,7 +197,7 @@
       "ptsAgainst": 589,
       "diff": -211,
       "pts": 20,
-      "streak": "5L"
+      "streak": "4L"
     },
     {
       "pos": 15,
@@ -217,15 +217,15 @@
       "pos": 16,
       "nick": "Broncos",
       "name": "Brisbane Broncos",
-      "played": 19,
+      "played": 20,
       "wins": 6,
-      "losses": 13,
+      "losses": 14,
       "drawn": 0,
-      "ptsFor": 345,
-      "ptsAgainst": 501,
-      "diff": -156,
+      "ptsFor": 377,
+      "ptsAgainst": 541,
+      "diff": -164,
       "pts": 18,
-      "streak": "2L"
+      "streak": "3L"
     },
     {
       "pos": 17,
@@ -244,7 +244,7 @@
   ],
   "teams": {
     "Brisbane Broncos": {
-      "last5": "L W L L",
+      "last5": "L W L L L",
       "games": [
         {
           "round": 18,
@@ -273,6 +273,13 @@
           "opponent": "Newcastle Knights",
           "home": true,
           "score": "6\u201330"
+        },
+        {
+          "round": 23,
+          "result": "L",
+          "opponent": "Dolphins",
+          "home": false,
+          "score": "40\u201332"
         }
       ]
     },
@@ -390,7 +397,7 @@
       ]
     },
     "Dolphins": {
-      "last5": "L L W W",
+      "last5": "L L W W W",
       "games": [
         {
           "round": 18,
@@ -419,6 +426,13 @@
           "opponent": "St George Illawarra Dragons",
           "home": false,
           "score": "22\u201328"
+        },
+        {
+          "round": 23,
+          "result": "W",
+          "opponent": "Brisbane Broncos",
+          "home": true,
+          "score": "40\u201332"
         }
       ]
     },
