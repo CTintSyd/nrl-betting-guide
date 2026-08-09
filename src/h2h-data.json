@@ -1,136 +1,13 @@
 {
-  "generatedAt": "2026-08-08T13:04:12Z",
+  "generatedAt": "2026-08-09T04:57:53Z",
   "matches": {
-    "Canberra Raiders vs Newcastle Knights": {
-      "homeTeam": "Canberra Raiders",
-      "awayTeam": "Newcastle Knights",
-      "referee": {
-        "name": "Ashley Klein",
-        "url": "https://www.nrl.com/operations/the-officials/match-officials/ashley-klein/",
-        "img": "https://www.nrl.com/contentassets/83877c45ca144f2690d06991113ef234/kleina-referees-2023_nrl_0054-head-shot.png?center=0.37%2C0.52"
-      },
-      "groundConditions": "Good",
-      "weather": "Fine",
-      "seasonStats": {
-        "home": {
-          "winPct": 45.0,
-          "completionRate": 78.0,
-          "avgScored": 22.0,
-          "avgConceded": 25.0,
-          "winsAtVenue": 59.0,
-          "winsOverall": 48.0
-        },
-        "away": {
-          "winPct": 60.0,
-          "completionRate": 77.0,
-          "avgScored": 25.0,
-          "avgConceded": 22.0,
-          "winsAtVenue": 31.0,
-          "winsOverall": 44.0
-        }
-      },
-      "overall": {
-        "played": 51,
-        "homeWins": 24,
-        "awayWins": 25,
-        "draws": 2
-      },
-      "recent": {
-        "matches": [
-          {
-            "round": "Round 5",
-            "homeTeam": "Newcastle Knights",
-            "awayTeam": "Canberra Raiders",
-            "homeScore": 32,
-            "awayScore": 12,
-            "winner": "Newcastle Knights",
-            "url": "https://www.nrl.com/draw/nrl-premiership/2026/round-5/knights-v-raiders/"
-          },
-          {
-            "round": "Round 21",
-            "homeTeam": "Canberra Raiders",
-            "awayTeam": "Newcastle Knights",
-            "homeScore": 44,
-            "awayScore": 18,
-            "winner": "Canberra Raiders",
-            "url": "https://www.nrl.com/draw/nrl-premiership/2025/round-21/raiders-v-knights/"
-          }
-        ],
-        "team1Wins": 1,
-        "team2Wins": 1
-      },
-      "homeForm": [
-        {
-          "result": "Lost",
-          "summary": "vs Panthers",
-          "score": "18-42",
-          "url": "https://www.nrl.com/draw/nrl-premiership/2026/round-22/panthers-v-raiders/"
-        },
-        {
-          "result": "Won",
-          "summary": "vs Wests Tigers",
-          "score": "56-10",
-          "url": "https://www.nrl.com/draw/nrl-premiership/2026/round-21/raiders-v-wests-tigers/"
-        },
-        {
-          "result": "Won",
-          "summary": "vs Rabbitohs",
-          "score": "34-24",
-          "url": "https://www.nrl.com/draw/nrl-premiership/2026/round-20/raiders-v-rabbitohs/"
-        },
-        {
-          "result": "Won",
-          "summary": "vs Bulldogs",
-          "score": "40-16",
-          "url": "https://www.nrl.com/draw/nrl-premiership/2026/round-19/bulldogs-v-raiders/"
-        },
-        {
-          "result": "Won",
-          "summary": "vs Dragons",
-          "score": "24-16",
-          "url": "https://www.nrl.com/draw/nrl-premiership/2026/round-17/raiders-v-dragons/"
-        }
-      ],
-      "awayForm": [
-        {
-          "result": "Won",
-          "summary": "vs Broncos",
-          "score": "30-6",
-          "url": "https://www.nrl.com/draw/nrl-premiership/2026/round-22/broncos-v-knights/"
-        },
-        {
-          "result": "Lost",
-          "summary": "vs Roosters",
-          "score": "22-23",
-          "url": "https://www.nrl.com/draw/nrl-premiership/2026/round-21/knights-v-roosters/"
-        },
-        {
-          "result": "Lost",
-          "summary": "vs Sharks",
-          "score": "18-20",
-          "url": "https://www.nrl.com/draw/nrl-premiership/2026/round-20/sharks-v-knights/"
-        },
-        {
-          "result": "Lost",
-          "summary": "vs Rabbitohs",
-          "score": "24-26",
-          "url": "https://www.nrl.com/draw/nrl-premiership/2026/round-19/rabbitohs-v-knights/"
-        },
-        {
-          "result": "Won",
-          "summary": "vs Dolphins",
-          "score": "13-12",
-          "url": "https://www.nrl.com/draw/nrl-premiership/2026/round-18/knights-v-dolphins/"
-        }
-      ]
-    },
     "St George Illawarra Dragons vs Cronulla Sutherland Sharks": {
       "homeTeam": "St George Illawarra Dragons",
       "awayTeam": "Cronulla Sutherland Sharks",
       "referee": {
         "name": "Liam Kennedy",
         "url": "https://www.nrl.com/operations/the-officials/match-officials/liam-kennedy/",
-        "img": "https://www.nrl.com/contentassets/06ebf006376041dc8e76fca2d57e80da/kennedyl-referees-2023_nrl_0084-head-shot.png?center=0.41%2C0.5"
+        "img": "/contentassets/06ebf006376041dc8e76fca2d57e80da/kennedyl-referees-2023_nrl_0084-head-shot.png?center=0.41%2C0.5"
       },
       "groundConditions": "Good",
       "weather": "Fine",
