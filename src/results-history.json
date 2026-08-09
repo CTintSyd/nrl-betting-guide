@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-08-09T05:45:50Z",
+  "updatedAt": "2026-08-09T06:30:27Z",
   "season": 2026,
-  "totalFavRecord": "103-67",
-  "totalLineRecord": "25-25",
-  "totalOuRecord": "26O-24U",
+  "totalFavRecord": "103-68",
+  "totalLineRecord": "25-26",
+  "totalOuRecord": "27O-24U",
   "rounds": [
     {
       "round": 1,
@@ -2733,11 +2733,26 @@
           "ouTotal": 45.5,
           "ouResult": "Over",
           "oddsSourced": true
+        },
+        {
+          "homeTeam": "Canberra Raiders",
+          "awayTeam": "Newcastle Knights",
+          "homeScore": 24,
+          "awayScore": 30,
+          "winner": "Newcastle Knights",
+          "margin": 6,
+          "favourite": "Canberra Raiders",
+          "favouriteWon": false,
+          "linePoint": -4.5,
+          "lineCovered": false,
+          "ouTotal": 51.5,
+          "ouResult": "Over",
+          "oddsSourced": true
         }
       ],
-      "favRecord": "4-2",
-      "lineRecord": "2-4",
-      "ouRecord": "3O-3U"
+      "favRecord": "4-3",
+      "lineRecord": "2-5",
+      "ouRecord": "4O-3U"
     }
   ]
 }

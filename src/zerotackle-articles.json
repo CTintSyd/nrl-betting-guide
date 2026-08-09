@@ -1,9 +1,20 @@
 {
-  "updated": "2026-08-09T05:45:42Z",
+  "updated": "2026-08-09T06:30:18Z",
   "articles": [
     {
-      "title": "LIVE: Raiders vs Knights – Round 23, 2026",
-      "url": "https://www.zerotackle.com/live-raiders-knights-round-23-2026-mc10396512-236512/",
+      "title": "LIVE: Dragons vs Sharks – Round 23, 2026",
+      "url": "https://www.zerotackle.com/live-dragons-sharks-round-23-2026-mc10396513-236510/",
+      "description": "The St George Illawarra Dragons face the Cronulla Sharks in Round 23 of the 2026 NRL season. Follow the live scores, team lists, match statistics and key moments from the game at St George Venues Jubilee Stadium.",
+      "date": "Sun, 12 Jul 2026 06:05:00 +0000",
+      "teams": [
+        "St George Illawarra Dragons",
+        "Cronulla Sutherland Sharks"
+      ],
+      "isRound": true
+    },
+    {
+      "title": "FULL TIME: Raiders vs Knights – Round 23, 2026",
+      "url": "https://www.zerotackle.com/fulltime-raiders-knights-round-23-2026-mc10396512-236512/",
       "description": "The Canberra Raiders face the Newcastle Knights in Round 23 of the 2026 NRL season. Follow the live scores, team lists, match statistics and key moments from the game at GIO Stadium.",
       "date": "Sun, 12 Jul 2026 04:00:00 +0000",
       "teams": [
@@ -72,17 +83,6 @@
       "date": "Sun, 09 Aug 2026 00:47:43 +0000",
       "teams": [
         "South Sydney Rabbitohs"
-      ],
-      "isRound": false
-    },
-    {
-      "title": "Finals fight: Sea Eagles season soured after Storm defeat",
-      "url": "https://www.zerotackle.com/finals-fight-sea-eagles-season-soured-after-storm-defeat-236756/",
-      "description": "Their dream of a finals appearance has been crushed.",
-      "date": "Sun, 09 Aug 2026 00:23:50 +0000",
-      "teams": [
-        "Manly Warringah Sea Eagles",
-        "Melbourne Storm"
       ],
       "isRound": false
     }
