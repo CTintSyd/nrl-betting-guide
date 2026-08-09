@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T06:30:11.529370+00:00",
+  "generatedAt": "2026-08-09T07:34:51.196629+00:00",
   "round": 24,
   "games": [
     {
@@ -138,6 +138,13 @@
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/dragons/jaydn-sua/"
       },
       {
+        "name": "Mathew Feagai",
+        "injury": "Back",
+        "expectedReturn": "TBC",
+        "imageUrl": "/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500022/Mathew%20Feagai%20_260119_Dragons_MK771.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/dragons/mathew-feagai/"
+      },
+      {
         "name": "Hame Sele",
         "injury": "Achilles",
         "expectedReturn": "TBC",
@@ -210,6 +217,13 @@
         "expectedReturn": "TBC",
         "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500003/Bradman%20Best%20_260129_Knights_MK222.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/knights/bradman-best/"
+      },
+      {
+        "name": "Brodie Jones",
+        "injury": "Hamstring",
+        "expectedReturn": "TBC",
+        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500003/Brodie%20Jones%20_260129_Knights_MK640.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/knights/brodie-jones/"
       },
       {
         "name": "Dylan Brown",
