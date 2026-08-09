@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T09:10:26.326015+00:00",
+  "generatedAt": "2026-08-09T09:55:05.044515+00:00",
   "round": 24,
   "games": [
     {
@@ -425,6 +425,13 @@
         "expectedReturn": "Round 24",
         "imageUrl": "/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500028/Sifa%20Talakai_260114_Sharks_MK497a.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/sharks/siosifa-talakai/"
+      },
+      {
+        "name": "Jesse Ramien",
+        "injury": "Pectoral",
+        "expectedReturn": "TBC",
+        "imageUrl": "/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500028/Jesse%20Ramien_260114_Sharks_MK1804.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/sharks/jesse-ramien2/"
       }
     ],
     "Melbourne Storm": [
