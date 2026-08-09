@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-08-09T07:35:01Z",
+  "updatedAt": "2026-08-09T08:23:02Z",
   "season": 2026,
-  "totalFavRecord": "103-68",
-  "totalLineRecord": "25-26",
-  "totalOuRecord": "27O-24U",
+  "totalFavRecord": "103-69",
+  "totalLineRecord": "25-27",
+  "totalOuRecord": "27O-25U",
   "rounds": [
     {
       "round": 1,
@@ -2748,11 +2748,26 @@
           "ouTotal": 51.5,
           "ouResult": "Over",
           "oddsSourced": true
+        },
+        {
+          "homeTeam": "St George Illawarra Dragons",
+          "awayTeam": "Cronulla Sutherland Sharks",
+          "homeScore": 24,
+          "awayScore": 16,
+          "winner": "St George Illawarra Dragons",
+          "margin": 8,
+          "favourite": "Cronulla Sutherland Sharks",
+          "favouriteWon": false,
+          "linePoint": 14.5,
+          "lineCovered": false,
+          "ouTotal": 50.5,
+          "ouResult": "Under",
+          "oddsSourced": true
         }
       ],
-      "favRecord": "4-3",
-      "lineRecord": "2-5",
-      "ouRecord": "4O-3U"
+      "favRecord": "4-4",
+      "lineRecord": "2-6",
+      "ouRecord": "4O-4U"
     }
   ]
 }

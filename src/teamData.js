@@ -42,12 +42,12 @@ const NRL_TEAM_DATA = {
   'Cronulla Sutherland Sharks': {
     emoji: '🦈', shortName: 'Sharks', venue: 'PointsBet Stadium', wikiPage: 'Cronulla-Sutherland_Sharks', logoFile: 'cronulla-sharks.svg',
     players: [
-      { name: "Sione Katoa",                       pos: "wing",           tryRate: 0.7692 },
-      { name: "William Kennedy",                   pos: "fullback",       tryRate: 0.4737 },
-      { name: "Braydon Trindall",                  pos: "five-eighth",    tryRate: 0.4211 },
+      { name: "Sione Katoa",                       pos: "wing",           tryRate: 0.7857 },
+      { name: "William Kennedy",                   pos: "fullback",       tryRate: 0.45 },
+      { name: "Braydon Trindall",                  pos: "five-eighth",    tryRate: 0.4 },
       { name: "KL Iro",                            pos: "centre",         tryRate: 0.6667 },
-      { name: "Ronaldo Mulitalo",                  pos: "wing",           tryRate: 1.0 },
-      { name: "Teig Wilton",                       pos: "lock",           tryRate: 0.4118 },
+      { name: "Ronaldo Mulitalo",                  pos: "wing",           tryRate: 0.9091 },
+      { name: "Teig Wilton",                       pos: "lock",           tryRate: 0.3889 },
     ],
   },
 
@@ -174,12 +174,12 @@ const NRL_TEAM_DATA = {
   'St George Illawarra Dragons': {
     emoji: '🐉', shortName: 'Dragons', venue: 'Netstrata Jubilee Oval', wikiPage: 'St._George_Illawarra_Dragons', logoFile: 'st-george-illawarra.svg',
     players: [
-      { name: "Setu Tu",                           pos: "wing",           tryRate: 0.5294 },
-      { name: "Clinton Gutherson",                 pos: "fullback",       tryRate: 0.1875 },
-      { name: "Kyle Flanagan",                     pos: "halfback",       tryRate: 0.0556 },
-      { name: "Valentine Holmes",                  pos: "centre",         tryRate: 0.4211 },
-      { name: "Tyrell Sloan",                      pos: "wing",           tryRate: 0.5333 },
-      { name: "Mathew Feagai",                     pos: "centre",         tryRate: 0.2143 },
+      { name: "Tyrell Sloan",                      pos: "wing",           tryRate: 0.5625 },
+      { name: "Clinton Gutherson",                 pos: "fullback",       tryRate: 0.1765 },
+      { name: "Kyle Flanagan",                     pos: "halfback",       tryRate: 0.0526 },
+      { name: "Valentine Holmes",                  pos: "centre",         tryRate: 0.45 },
+      { name: "Hamish Stewart",                    pos: "lock",           tryRate: 0.2 },
+      { name: "Mathew Feagai",                     pos: "wing",           tryRate: 0.2 },
     ],
   },
 

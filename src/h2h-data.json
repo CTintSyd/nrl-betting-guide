@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T07:34:51Z",
+  "generatedAt": "2026-08-09T08:22:53Z",
   "matches": {
     "Penrith Panthers vs Sydney Roosters": {
       "homeTeam": "Penrith Panthers",
@@ -9,15 +9,15 @@
       "weather": null,
       "seasonStats": {
         "home": {
-          "winPct": 79.0,
+          "winPct": 75.0,
           "completionRate": 80.0,
-          "avgScored": 30.0,
-          "avgConceded": 14.0,
+          "avgScored": 29.0,
+          "avgConceded": 15.0,
           "winsAtVenue": 59.0,
           "winsOverall": 53.0
         },
         "away": {
-          "winPct": 74.0,
+          "winPct": 75.0,
           "completionRate": 78.0,
           "avgScored": 27.0,
           "avgConceded": 19.0,
@@ -128,15 +128,15 @@
       "weather": null,
       "seasonStats": {
         "home": {
-          "winPct": 47.0,
-          "completionRate": 79.0,
+          "winPct": 45.0,
+          "completionRate": 78.0,
           "avgScored": 25.0,
-          "avgConceded": 20.0,
+          "avgConceded": 21.0,
           "winsAtVenue": 61.0,
           "winsOverall": 50.0
         },
         "away": {
-          "winPct": 63.0,
+          "winPct": 65.0,
           "completionRate": 77.0,
           "avgScored": 27.0,
           "avgConceded": 22.0,
@@ -255,7 +255,7 @@
           "winsOverall": 49.0
         },
         "away": {
-          "winPct": 53.0,
+          "winPct": 55.0,
           "completionRate": 79.0,
           "avgScored": 27.0,
           "avgConceded": 24.0,
@@ -485,7 +485,7 @@
       "weather": null,
       "seasonStats": {
         "home": {
-          "winPct": 37.0,
+          "winPct": 35.0,
           "completionRate": 75.0,
           "avgScored": 19.0,
           "avgConceded": 28.0,
@@ -604,10 +604,10 @@
       "weather": null,
       "seasonStats": {
         "home": {
-          "winPct": 32.0,
-          "completionRate": 76.0,
+          "winPct": 30.0,
+          "completionRate": 77.0,
           "avgScored": 18.0,
-          "avgConceded": 26.0,
+          "avgConceded": 27.0,
           "winsAtVenue": 57.0,
           "winsOverall": 54.0
         },
