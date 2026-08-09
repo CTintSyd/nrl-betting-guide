@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-08T21:18:05.332Z",
-  "quotaRemaining": 320,
+  "updated": "2026-08-09T00:47:27.168Z",
+  "quotaRemaining": 317,
   "round": 23,
   "venueOverride": {
     "venue": "Suncorp Stadium",
@@ -14,42 +14,42 @@
       "commenceTime": "2026-08-09T04:00:00Z",
       "bookmaker": "sportsbet",
       "h2h": {
-        "home": 1.64,
-        "away": 2.26
+        "home": 1.57,
+        "away": 2.42
       },
       "line": {
         "home": {
-          "odd": 1.91,
-          "point": -2.5
+          "odd": 1.83,
+          "point": -3.5
         },
         "away": {
-          "odd": 1.89,
-          "point": 2.5
+          "odd": 1.98,
+          "point": 3.5
         }
       },
       "ou": {
-        "total": 44.5,
-        "overOdd": 1.94,
-        "underOdd": 1.86
+        "total": 43.5,
+        "overOdd": 1.81,
+        "underOdd": 2
       },
       "bookmakerComparison": [
         {
           "key": "sportsbet",
           "name": "Sportsbet",
-          "home": 1.64,
-          "away": 2.26
+          "home": 1.57,
+          "away": 2.42
         },
         {
           "key": "tab",
           "name": "TAB",
-          "home": 1.62,
-          "away": 2.3
+          "home": 1.6,
+          "away": 2.35
         },
         {
           "key": "betright",
           "name": "BetRight",
-          "home": 1.66,
-          "away": 2.22
+          "home": 1.65,
+          "away": 2.25
         },
         {
           "key": "ladbrokes_au",
@@ -66,48 +66,48 @@
       "commenceTime": "2026-08-09T06:05:00Z",
       "bookmaker": "sportsbet",
       "h2h": {
-        "home": 5.3,
-        "away": 1.16
+        "home": 5.5,
+        "away": 1.15
       },
       "line": {
         "home": {
-          "odd": 1.83,
+          "odd": 1.89,
           "point": 16.5
         },
         "away": {
-          "odd": 1.98,
+          "odd": 1.9,
           "point": -16.5
         }
       },
       "ou": {
-        "total": 49.5,
-        "overOdd": 1.83,
-        "underOdd": 1.98
+        "total": 48.5,
+        "overOdd": 1.9,
+        "underOdd": 1.9
       },
       "bookmakerComparison": [
         {
           "key": "sportsbet",
           "name": "Sportsbet",
-          "home": 5.3,
-          "away": 1.16
+          "home": 5.5,
+          "away": 1.15
         },
         {
           "key": "tab",
           "name": "TAB",
-          "home": 5.8,
-          "away": 1.14
+          "home": 6,
+          "away": 1.13
         },
         {
           "key": "betright",
           "name": "BetRight",
-          "home": 5.25,
-          "away": 1.16
+          "home": 5.5,
+          "away": 1.15
         },
         {
           "key": "ladbrokes_au",
           "name": "Ladbrokes",
-          "home": 5,
-          "away": 1.18
+          "home": 5.75,
+          "away": 1.14
         }
       ]
     },
@@ -146,7 +146,7 @@
         {
           "key": "tab",
           "name": "TAB",
-          "home": 1.7,
+          "home": 1.68,
           "away": 2.15
         },
         {
@@ -196,6 +196,12 @@
           "away": 1.58
         },
         {
+          "key": "tab",
+          "name": "TAB",
+          "home": 2.55,
+          "away": 1.5
+        },
+        {
           "key": "ladbrokes_au",
           "name": "Ladbrokes",
           "home": 2.4,
@@ -204,8 +210,8 @@
         {
           "key": "pointsbetau",
           "name": "PointsBet",
-          "home": 2.4,
-          "away": 1.57
+          "home": 2.55,
+          "away": 1.5
         }
       ]
     },
@@ -240,6 +246,12 @@
           "name": "Sportsbet",
           "home": 1.72,
           "away": 2.13
+        },
+        {
+          "key": "tab",
+          "name": "TAB",
+          "home": 1.68,
+          "away": 2.15
         },
         {
           "key": "ladbrokes_au",
@@ -340,6 +352,18 @@
           "away": 1.56
         },
         {
+          "key": "tab",
+          "name": "TAB",
+          "home": 2.3,
+          "away": 1.6
+        },
+        {
+          "key": "ladbrokes_au",
+          "name": "Ladbrokes",
+          "home": 2.25,
+          "away": 1.65
+        },
+        {
           "key": "pointsbetau",
           "name": "PointsBet",
           "home": 2.3,
@@ -378,6 +402,18 @@
           "name": "Sportsbet",
           "home": 2.58,
           "away": 1.51
+        },
+        {
+          "key": "tab",
+          "name": "TAB",
+          "home": 2.5,
+          "away": 1.52
+        },
+        {
+          "key": "ladbrokes_au",
+          "name": "Ladbrokes",
+          "home": 2.55,
+          "away": 1.52
         },
         {
           "key": "pointsbetau",
