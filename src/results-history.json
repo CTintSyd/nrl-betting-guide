@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-08-12T04:04:58Z",
+  "updatedAt": "2026-08-13T04:19:49Z",
   "season": 2026,
-  "totalFavRecord": "103-69",
-  "totalLineRecord": "25-27",
-  "totalOuRecord": "27O-25U",
+  "totalFavRecord": "104-68",
+  "totalLineRecord": "28-28",
+  "totalOuRecord": "30O-26U",
   "rounds": [
     {
       "round": 1,
@@ -32,11 +32,11 @@
           "margin": 1,
           "favourite": "Canterbury Bulldogs",
           "favouriteWon": true,
-          "linePoint": null,
-          "lineCovered": null,
-          "ouTotal": null,
-          "ouResult": null,
-          "oddsSourced": false
+          "linePoint": -7.5,
+          "lineCovered": false,
+          "ouTotal": 43.5,
+          "ouResult": "Under",
+          "oddsSourced": true
         },
         {
           "homeTeam": "Melbourne Storm",
@@ -92,11 +92,11 @@
           "margin": 40,
           "favourite": "Cronulla Sutherland Sharks",
           "favouriteWon": true,
-          "linePoint": null,
-          "lineCovered": null,
-          "ouTotal": null,
-          "ouResult": null,
-          "oddsSourced": false
+          "linePoint": -8.5,
+          "lineCovered": true,
+          "ouTotal": 50.5,
+          "ouResult": "Over",
+          "oddsSourced": true
         },
         {
           "homeTeam": "Manly Warringah Sea Eagles",
@@ -130,8 +130,8 @@
         }
       ],
       "favRecord": "5-3",
-      "lineRecord": null,
-      "ouRecord": null
+      "lineRecord": "1-1",
+      "ouRecord": "1O-1U"
     },
     {
       "round": 2,
@@ -233,13 +233,13 @@
           "awayScore": 36,
           "winner": "Newcastle Knights",
           "margin": 20,
-          "favourite": "Manly Warringah Sea Eagles",
-          "favouriteWon": false,
-          "linePoint": null,
-          "lineCovered": null,
-          "ouTotal": null,
-          "ouResult": null,
-          "oddsSourced": false
+          "favourite": "Newcastle Knights",
+          "favouriteWon": true,
+          "linePoint": 5.5,
+          "lineCovered": true,
+          "ouTotal": 50.5,
+          "ouResult": "Over",
+          "oddsSourced": true
         },
         {
           "homeTeam": "Dolphins",
@@ -257,9 +257,9 @@
           "oddsSourced": false
         }
       ],
-      "favRecord": "5-3",
-      "lineRecord": null,
-      "ouRecord": null
+      "favRecord": "6-2",
+      "lineRecord": "1-0",
+      "ouRecord": "1O-0U"
     },
     {
       "round": 3,
@@ -559,11 +559,11 @@
           "margin": 40,
           "favourite": "Penrith Panthers",
           "favouriteWon": true,
-          "linePoint": null,
-          "lineCovered": null,
-          "ouTotal": null,
-          "ouResult": null,
-          "oddsSourced": false
+          "linePoint": -9.5,
+          "lineCovered": true,
+          "ouTotal": 44.5,
+          "ouResult": "Over",
+          "oddsSourced": true
         },
         {
           "homeTeam": "St George Illawarra Dragons",
@@ -642,8 +642,8 @@
         }
       ],
       "favRecord": "2-6",
-      "lineRecord": "0-4",
-      "ouRecord": "2O-2U"
+      "lineRecord": "1-4",
+      "ouRecord": "3O-2U"
     },
     {
       "round": 6,
