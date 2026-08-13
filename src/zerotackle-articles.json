@@ -1,6 +1,80 @@
 {
-  "updated": "2026-08-13T04:19:42Z",
+  "updated": "2026-08-13T11:03:23Z",
   "articles": [
+    {
+      "title": "LIVE: Panthers vs Roosters – Round 24, 2026",
+      "url": "https://www.zerotackle.com/live-panthers-roosters-round-24-2026-mc10397667-236792/",
+      "description": "The Penrith Panthers face the Sydney Roosters in Round 24 of the 2026 NRL season. Follow the live scores, team lists, match statistics and key moments from the game at CommBank Stadium.",
+      "date": "Thu, 16 Jul 2026 09:50:00 +0000",
+      "teams": [
+        "Penrith Panthers",
+        "Sydney Roosters"
+      ],
+      "isRound": true
+    },
+    {
+      "title": "Updated Team Lists: Bulldogs vs Rabbitohs – Round 24, 2026",
+      "url": "https://www.zerotackle.com/updated-team-lists-bulldogs-vs-rabbitohs-10397669-236946/",
+      "description": "The Bulldogs and Rabbitohs have cut their squads to 20 ahead of tomorrow's match at Accor Stadium.",
+      "date": "Thu, 13 Aug 2026 09:59:03 +0000",
+      "teams": [
+        "Canterbury Bulldogs",
+        "South Sydney Rabbitohs"
+      ],
+      "isRound": true
+    },
+    {
+      "title": "FINAL TEAMS: Panthers vs Roosters – Round 24, 2026",
+      "url": "https://www.zerotackle.com/updated-team-lists-panthers-roosters-10397667-236909/",
+      "description": "LATE MAIL: The Panthers and Roosters have confirmed their lineups for the match at CommBank Stadium.",
+      "date": "Thu, 13 Aug 2026 08:18:27 +0000",
+      "teams": [
+        "Penrith Panthers",
+        "Sydney Roosters"
+      ],
+      "isRound": true
+    },
+    {
+      "title": "Updated Team Lists: Sea Eagles vs Dolphins – Round 24, 2026",
+      "url": "https://www.zerotackle.com/updated-team-lists-sea-eagles-vs-dolphins-10397668-236942/",
+      "description": "The Sea Eagles and Dolphins have cut their squads to 20 ahead of tomorrow's match at 4 Pines Park.",
+      "date": "Thu, 13 Aug 2026 07:59:55 +0000",
+      "teams": [
+        "Dolphins",
+        "Manly Warringah Sea Eagles"
+      ],
+      "isRound": true
+    },
+    {
+      "title": "Rabbitohs half free to explore options",
+      "url": "https://www.zerotackle.com/rabbitohs-half-free-to-explore-options-236939/",
+      "description": "The Brisbane Tigers product is free to speak with rival clubs.",
+      "date": "Thu, 13 Aug 2026 06:33:21 +0000",
+      "teams": [
+        "South Sydney Rabbitohs"
+      ],
+      "isRound": false
+    },
+    {
+      "title": "Cronulla Sharks confirm injury timeline for Jesse Ramien",
+      "url": "https://www.zerotackle.com/cronulla-sharks-confirm-injury-timeline-for-jesse-ramien-236933/",
+      "description": "He has suffered a pectoral muscle injury.",
+      "date": "Thu, 13 Aug 2026 06:11:16 +0000",
+      "teams": [
+        "Cronulla Sutherland Sharks"
+      ],
+      "isRound": false
+    },
+    {
+      "title": "Eels boss quits role at end of season",
+      "url": "https://www.zerotackle.com/eels-boss-quits-role-at-end-of-season-236932/",
+      "description": "He will step down at the conclusion off the Eels campaign this year.",
+      "date": "Thu, 13 Aug 2026 04:39:38 +0000",
+      "teams": [
+        "Parramatta Eels"
+      ],
+      "isRound": false
+    },
     {
       "title": "Cowboys star set to snub Roosters, link up with rival code",
       "url": "https://www.zerotackle.com/cowboys-star-set-to-snub-roosters-link-up-with-rival-code-236930/",
@@ -8,76 +82,6 @@
       "date": "Thu, 13 Aug 2026 03:55:20 +0000",
       "teams": [
         "North Queensland Cowboys",
-        "Sydney Roosters"
-      ],
-      "isRound": false
-    },
-    {
-      "title": "Cody Walker’s son signs long Rabbitohs deal",
-      "url": "https://www.zerotackle.com/cody-walkers-son-signs-long-rabbitohs-deal-236926/",
-      "description": "Walker&#8217;s eldest son is paving his own path for an NRL legacy.",
-      "date": "Thu, 13 Aug 2026 02:06:42 +0000",
-      "teams": [
-        "South Sydney Rabbitohs"
-      ],
-      "isRound": false
-    },
-    {
-      "title": "Raiders forward locks up new deal",
-      "url": "https://www.zerotackle.com/raiders-forward-locks-up-new-deal-236923/",
-      "description": "He has been a permanent fixture of Ricky Stuart's side since 2023.",
-      "date": "Thu, 13 Aug 2026 00:42:18 +0000",
-      "teams": [
-        "Canberra Raiders"
-      ],
-      "isRound": false
-    },
-    {
-      "title": "Rising talent signs contract extension with Storm",
-      "url": "https://www.zerotackle.com/rising-talent-signs-contract-extension-with-storm-236921/",
-      "description": "He was off-contract at the end of this season.",
-      "date": "Thu, 13 Aug 2026 00:27:13 +0000",
-      "teams": [
-        "Melbourne Storm"
-      ],
-      "isRound": false
-    },
-    {
-      "title": "Perth Bears land representative Raiders forward",
-      "url": "https://www.zerotackle.com/perth-bears-land-representative-raiders-forward-236922/",
-      "description": "The 28-year-old will pick up a pay-rise at the new club.",
-      "date": "Thu, 13 Aug 2026 00:23:09 +0000",
-      "teams": [
-        "Canberra Raiders"
-      ],
-      "isRound": false
-    },
-    {
-      "title": "Cowboys forward set for immediate club switch",
-      "url": "https://www.zerotackle.com/cowboys-forward-set-for-immediate-club-switch-nrl-236920/",
-      "description": "It will be Lodge&#8217;s seventh club since his NRL debut.",
-      "date": "Wed, 12 Aug 2026 23:52:35 +0000",
-      "teams": [
-        "North Queensland Cowboys"
-      ],
-      "isRound": false
-    },
-    {
-      "title": "COACH’S CORNER: Are the Panthers in trouble?",
-      "url": "https://www.zerotackle.com/coachs-corner-are-the-panthers-in-trouble-236912/",
-      "description": "History says we are asking the wrong question.",
-      "date": "Wed, 12 Aug 2026 22:57:09 +0000",
-      "teams": [
-        "Penrith Panthers"
-      ],
-      "isRound": false
-    },
-    {
-      "title": "Walker’s management provides contract negotiation update",
-      "url": "https://www.zerotackle.com/walkers-management-provides-contract-negotiation-update-236897/",
-      "description": "The Roosters halfback has his focus drawn to premiership success in 2026.",
-      "date": "Wed, 12 Aug 2026 22:32:51 +0000",
-      "teams": [
         "Sydney Roosters"
       ],
       "isRound": false

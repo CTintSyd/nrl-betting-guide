@@ -1,136 +1,13 @@
 {
-  "generatedAt": "2026-08-13T04:19:40Z",
+  "generatedAt": "2026-08-13T11:03:22Z",
   "matches": {
-    "Penrith Panthers vs Sydney Roosters": {
-      "homeTeam": "Penrith Panthers",
-      "awayTeam": "Sydney Roosters",
-      "referee": {
-        "name": "Adam Gee",
-        "url": "https://www.nrl.com/operations/the-officials/match-officials/adam-gee/",
-        "img": "/contentassets/e6dd07beef3848e49742de47445fda18/geea-referees-2023_nrl_0071-head-shot.png?center=0.37%2C0.52"
-      },
-      "groundConditions": "Good",
-      "weather": "Fine",
-      "seasonStats": {
-        "home": {
-          "winPct": 75.0,
-          "completionRate": 80.0,
-          "avgScored": 29.0,
-          "avgConceded": 15.0,
-          "winsAtVenue": 59.0,
-          "winsOverall": 53.0
-        },
-        "away": {
-          "winPct": 75.0,
-          "completionRate": 78.0,
-          "avgScored": 27.0,
-          "avgConceded": 19.0,
-          "winsAtVenue": 63.0,
-          "winsOverall": 56.0
-        }
-      },
-      "overall": {
-        "played": 51,
-        "homeWins": 30,
-        "awayWins": 21,
-        "draws": 0
-      },
-      "recent": {
-        "matches": [
-          {
-            "round": "Round 3",
-            "homeTeam": "Sydney Roosters",
-            "awayTeam": "Penrith Panthers",
-            "homeScore": 4,
-            "awayScore": 40,
-            "winner": "Penrith Panthers",
-            "url": "https://www.nrl.com/draw/nrl-premiership/2026/round-3/roosters-v-panthers/"
-          },
-          {
-            "round": "Round 7",
-            "homeTeam": "Sydney Roosters",
-            "awayTeam": "Penrith Panthers",
-            "homeScore": 12,
-            "awayScore": 40,
-            "winner": "Penrith Panthers",
-            "url": "https://www.nrl.com/draw/nrl-premiership/2025/round-7/roosters-v-panthers/"
-          }
-        ],
-        "team1Wins": 2,
-        "team2Wins": 0
-      },
-      "homeForm": [
-        {
-          "result": "Lost",
-          "summary": "vs Warriors",
-          "score": "12-28",
-          "url": "https://www.nrl.com/draw/nrl-premiership/2026/round-23/warriors-v-panthers/"
-        },
-        {
-          "result": "Won",
-          "summary": "vs Raiders",
-          "score": "42-18",
-          "url": "https://www.nrl.com/draw/nrl-premiership/2026/round-22/panthers-v-raiders/"
-        },
-        {
-          "result": "Won",
-          "summary": "vs Eels",
-          "score": "24-18",
-          "url": "https://www.nrl.com/draw/nrl-premiership/2026/round-21/eels-v-panthers/"
-        },
-        {
-          "result": "Lost",
-          "summary": "vs Broncos",
-          "score": "12-14",
-          "url": "https://www.nrl.com/draw/nrl-premiership/2026/round-20/panthers-v-broncos/"
-        },
-        {
-          "result": "Won",
-          "summary": "vs Rabbitohs",
-          "score": "36-14",
-          "url": "https://www.nrl.com/draw/nrl-premiership/2026/round-18/panthers-v-rabbitohs/"
-        }
-      ],
-      "awayForm": [
-        {
-          "result": "Won",
-          "summary": "vs Bulldogs",
-          "score": "20-18",
-          "url": "https://www.nrl.com/draw/nrl-premiership/2026/round-23/roosters-v-bulldogs/"
-        },
-        {
-          "result": "Won",
-          "summary": "vs Cowboys",
-          "score": "82-12",
-          "url": "https://www.nrl.com/draw/nrl-premiership/2026/round-22/cowboys-v-roosters/"
-        },
-        {
-          "result": "Won",
-          "summary": "vs Knights",
-          "score": "23-22",
-          "url": "https://www.nrl.com/draw/nrl-premiership/2026/round-21/knights-v-roosters/"
-        },
-        {
-          "result": "Won",
-          "summary": "vs Storm",
-          "score": "14-6",
-          "url": "https://www.nrl.com/draw/nrl-premiership/2026/round-20/roosters-v-storm/"
-        },
-        {
-          "result": "Won",
-          "summary": "vs Eels",
-          "score": "28-12",
-          "url": "https://www.nrl.com/draw/nrl-premiership/2026/round-19/roosters-v-eels/"
-        }
-      ]
-    },
     "Manly Warringah Sea Eagles vs Dolphins": {
       "homeTeam": "Manly Warringah Sea Eagles",
       "awayTeam": "Dolphins",
       "referee": {
         "name": "Grant Atkins",
         "url": "https://www.nrl.com/operations/the-officials/match-officials/grant-atkins/",
-        "img": "https://www.nrl.com/contentassets/0586ab6a55114404b178558792347181/atkinsg-referees-2023_nrl_0125-head-shot.png?center=0.38%2C0.51"
+        "img": "/contentassets/0586ab6a55114404b178558792347181/atkinsg-referees-2023_nrl_0125-head-shot.png?center=0.38%2C0.51"
       },
       "groundConditions": "Good",
       "weather": "Fine",
@@ -253,7 +130,7 @@
       "referee": {
         "name": "Ashley Klein",
         "url": "https://www.nrl.com/operations/the-officials/match-officials/ashley-klein/",
-        "img": "https://www.nrl.com/contentassets/83877c45ca144f2690d06991113ef234/kleina-referees-2023_nrl_0054-head-shot.png?center=0.37%2C0.52"
+        "img": "/contentassets/83877c45ca144f2690d06991113ef234/kleina-referees-2023_nrl_0054-head-shot.png?center=0.37%2C0.52"
       },
       "groundConditions": "Good",
       "weather": "Fine",
