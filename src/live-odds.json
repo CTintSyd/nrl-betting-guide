@@ -1,64 +1,12 @@
 {
-  "updated": "2026-08-13T09:51:46.457Z",
-  "quotaRemaining": 212,
+  "updated": "2026-08-13T12:41:05.711Z",
+  "quotaRemaining": 209,
   "round": 24,
   "venueOverride": {
     "venue": "Suncorp Stadium",
     "until": "2026-05-18T00:00:00Z"
   },
   "games": [
-    {
-      "id": "b7669bd7c9988ff268cc29cea050a996",
-      "homeTeam": "Penrith Panthers",
-      "awayTeam": "Sydney Roosters",
-      "commenceTime": "2026-08-13T09:53:00Z",
-      "bookmaker": "sportsbet",
-      "h2h": {
-        "home": 1.52,
-        "away": 2.52
-      },
-      "line": {
-        "home": {
-          "odd": 1.91,
-          "point": -5.5
-        },
-        "away": {
-          "odd": 1.91,
-          "point": 5.5
-        }
-      },
-      "ou": {
-        "total": 41.5,
-        "overOdd": 1.91,
-        "underOdd": 1.91
-      },
-      "bookmakerComparison": [
-        {
-          "key": "sportsbet",
-          "name": "Sportsbet",
-          "home": 1.52,
-          "away": 2.52
-        },
-        {
-          "key": "tab",
-          "name": "TAB",
-          "home": 1.53,
-          "away": 2.5
-        },
-        {
-          "key": "betright",
-          "name": "BetRight",
-          "home": 1.5,
-          "away": 2.6
-        },
-        {
-          "key": "ladbrokes_au",
-          "name": "Ladbrokes",
-          "home": 1.5,
-          "away": 2.65
-        }
-      ]
-    },
     {
       "id": "ca198148ce30963dbf7055903a19cee4",
       "homeTeam": "Manly Warringah Sea Eagles",
@@ -152,8 +100,8 @@
         {
           "key": "betright",
           "name": "BetRight",
-          "home": 1.62,
-          "away": 2.3
+          "home": 1.57,
+          "away": 2.4
         },
         {
           "key": "ladbrokes_au",
@@ -454,12 +402,6 @@
           "name": "Sportsbet",
           "home": 3.34,
           "away": 1.33
-        },
-        {
-          "key": "tab",
-          "name": "TAB",
-          "home": 3.3,
-          "away": 1.33
         }
       ]
     },
@@ -734,12 +676,6 @@
           "name": "Sportsbet",
           "home": 1.19,
           "away": 4.75
-        },
-        {
-          "key": "tab",
-          "name": "TAB",
-          "home": 1.15,
-          "away": 5.5
         }
       ]
     }
