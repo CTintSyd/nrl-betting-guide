@@ -1,13 +1,7 @@
 {
-  "updated": "2026-08-12T12:55:10.149Z",
+  "updated": "2026-08-13T12:56:07.676Z",
   "quotaRemaining": null,
   "games": {
-    "Penrith Panthers vs Sydney Roosters": {
-      "homeTeam": "Penrith Panthers",
-      "awayTeam": "Sydney Roosters",
-      "available": false,
-      "error": "API 422: {\"message\":\"Invalid markets: player_anytime_try_scorer, player_first_try_scorer\",\"error_code\":\"INVALID_MARKET\",\"details_url\":\"https://the-odds-api.com/liveapi/guides/v4/api-error-codes.html#invalid-market\"}\n"
-    },
     "Manly Warringah Sea Eagles vs Dolphins": {
       "homeTeam": "Manly Warringah Sea Eagles",
       "awayTeam": "Dolphins",
