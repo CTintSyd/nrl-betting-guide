@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-13T04:42:58.048Z",
-  "quotaRemaining": 218,
+  "updated": "2026-08-13T07:08:17.449Z",
+  "quotaRemaining": 215,
   "round": 24,
   "venueOverride": {
     "venue": "Suncorp Stadium",
@@ -19,18 +19,18 @@
       },
       "line": {
         "home": {
-          "odd": 1.91,
+          "odd": 1.93,
           "point": -4.5
         },
         "away": {
-          "odd": 1.89,
+          "odd": 1.87,
           "point": 4.5
         }
       },
       "ou": {
         "total": 42.5,
         "overOdd": 1.9,
-        "underOdd": 1.9
+        "underOdd": 1.89
       },
       "bookmakerComparison": [
         {
@@ -42,8 +42,8 @@
         {
           "key": "tab",
           "name": "TAB",
-          "home": 1.53,
-          "away": 2.5
+          "home": 1.55,
+          "away": 2.45
         },
         {
           "key": "betright",
@@ -94,8 +94,8 @@
         {
           "key": "tab",
           "name": "TAB",
-          "home": 3.3,
-          "away": 1.34
+          "home": 3.25,
+          "away": 1.35
         },
         {
           "key": "betright",
@@ -418,8 +418,8 @@
         {
           "key": "ladbrokes_au",
           "name": "Ladbrokes",
-          "home": 1.9,
-          "away": 1.9
+          "home": 1.95,
+          "away": 1.87
         }
       ]
     },
@@ -470,30 +470,30 @@
       "commenceTime": "2026-08-21T08:00:00Z",
       "bookmaker": "sportsbet",
       "h2h": {
-        "home": 1.65,
-        "away": 2.25
+        "home": 1.64,
+        "away": 2.27
       },
       "line": {
         "home": {
           "odd": 1.9,
-          "point": -2.5
+          "point": -3.5
         },
         "away": {
           "odd": 1.9,
-          "point": 2.5
+          "point": 3.5
         }
       },
       "ou": {
         "total": 51.5,
-        "overOdd": 1.89,
-        "underOdd": 1.91
+        "overOdd": 1.9,
+        "underOdd": 1.9
       },
       "bookmakerComparison": [
         {
           "key": "sportsbet",
           "name": "Sportsbet",
-          "home": 1.65,
-          "away": 2.25
+          "home": 1.64,
+          "away": 2.27
         },
         {
           "key": "tab",
