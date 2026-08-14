@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T10:31:35.890697+00:00",
+  "generatedAt": "2026-08-14T11:22:11.062956+00:00",
   "round": 24,
   "games": [
     {
@@ -1343,6 +1343,13 @@
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/bulldogs/samuel-hughes/"
       },
       {
+        "name": "Jethro Rinakama",
+        "injury": "Knee",
+        "expectedReturn": "TBC",
+        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500010/RINAKAMA%2CJ_20251212_2781.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/bulldogs/ratu-rinakama/"
+      },
+      {
         "name": "Sitili Tupouniua",
         "injury": "Hamstring",
         "expectedReturn": "TBC",
@@ -1523,6 +1530,13 @@
         "expectedReturn": "Round 26",
         "imageUrl": "/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500005/Talanoa%20Penitani_260113_Rabbitohs_MK1195.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/south-sydney-rabbitohs/talanoa-penitani/"
+      },
+      {
+        "name": "Adam Elliott",
+        "injury": "Groin",
+        "expectedReturn": "TBC",
+        "imageUrl": "/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500005/Adam%20Elliott_260115_Rabbitohs1027.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/south-sydney-rabbitohs/adam-elliott/"
       },
       {
         "name": "Dayne Jennings",
