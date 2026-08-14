@@ -1,13 +1,7 @@
 {
-  "generatedAt": "2026-08-14T06:51:55.054351+00:00",
+  "generatedAt": "2026-08-14T08:08:18.457677+00:00",
   "round": 24,
   "games": [
-    {
-      "matchCentreUrl": "/draw/nrl-premiership/2026/round-24/sea-eagles-v-dolphins/",
-      "kickoff": "2026-08-14T08:00:00Z",
-      "homeTeam": "Manly Warringah Sea Eagles",
-      "awayTeam": "Dolphins"
-    },
     {
       "matchCentreUrl": "/draw/nrl-premiership/2026/round-24/bulldogs-v-rabbitohs/",
       "kickoff": "2026-08-14T10:00:00Z",
@@ -46,238 +40,6 @@
     }
   ],
   "teams": {
-    "Manly Warringah Sea Eagles": [
-      {
-        "number": 1,
-        "name": "Clayton Faulalo",
-        "position": "Fullback",
-        "category": "starting"
-      },
-      {
-        "number": 2,
-        "name": "Jason Saab",
-        "position": "Winger",
-        "category": "starting"
-      },
-      {
-        "number": 3,
-        "name": "Tolutau Koula",
-        "position": "Centre",
-        "category": "starting"
-      },
-      {
-        "number": 4,
-        "name": "Reuben Garrick",
-        "position": "Centre",
-        "category": "starting"
-      },
-      {
-        "number": 5,
-        "name": "Lehi Hopoate",
-        "position": "Winger",
-        "category": "starting"
-      },
-      {
-        "number": 6,
-        "name": "Joey Walsh",
-        "position": "Five-Eighth",
-        "category": "starting"
-      },
-      {
-        "number": 7,
-        "name": "Jamal Fogarty",
-        "position": "Halfback",
-        "category": "starting"
-      },
-      {
-        "number": 8,
-        "name": "Simione Laiafi",
-        "position": "Prop",
-        "category": "starting"
-      },
-      {
-        "number": 9,
-        "name": "Brandon Wakeham",
-        "position": "Hooker",
-        "category": "starting"
-      },
-      {
-        "number": 10,
-        "name": "Nathan Brown",
-        "position": "Interchange",
-        "category": "starting"
-      },
-      {
-        "number": 11,
-        "name": "Haumole Olakau'atu",
-        "position": "2nd Row",
-        "category": "starting"
-      },
-      {
-        "number": 12,
-        "name": "Corey Waddell",
-        "position": "2nd Row",
-        "category": "starting"
-      },
-      {
-        "number": 13,
-        "name": "Jake Trbojevic",
-        "position": "Lock",
-        "category": "starting"
-      },
-      {
-        "number": 14,
-        "name": "Jake Simpkin",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
-        "number": 15,
-        "name": "Nicholas Lenaz",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
-        "number": 16,
-        "name": "Fletcher Baker",
-        "position": "Prop",
-        "category": "interchange"
-      },
-      {
-        "number": 17,
-        "name": "Jackson Shereb",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
-        "number": 18,
-        "name": "Josh Feledy",
-        "position": "Interchange",
-        "category": "reserve"
-      },
-      {
-        "number": 19,
-        "name": "Hugo Hart",
-        "position": "Interchange",
-        "category": "reserve"
-      }
-    ],
-    "Dolphins": [
-      {
-        "number": 1,
-        "name": "Hamiso Tabuai-Fidow",
-        "position": "Fullback",
-        "category": "starting"
-      },
-      {
-        "number": 2,
-        "name": "Jamayne Isaako",
-        "position": "Winger",
-        "category": "starting"
-      },
-      {
-        "number": 3,
-        "name": "Jack Bostock",
-        "position": "Centre",
-        "category": "starting"
-      },
-      {
-        "number": 4,
-        "name": "Herbie Farnworth",
-        "position": "Centre",
-        "category": "starting"
-      },
-      {
-        "number": 5,
-        "name": "Selwyn Cobbo",
-        "position": "Winger",
-        "category": "starting"
-      },
-      {
-        "number": 6,
-        "name": "Kodi Nikorima",
-        "position": "Five-Eighth",
-        "category": "starting"
-      },
-      {
-        "number": 7,
-        "name": "Isaiya Katoa",
-        "position": "Halfback",
-        "category": "starting"
-      },
-      {
-        "number": 8,
-        "name": "Thomas Flegler",
-        "position": "Prop",
-        "category": "starting"
-      },
-      {
-        "number": 9,
-        "name": "Jeremy Marshall-King",
-        "position": "Hooker",
-        "category": "starting"
-      },
-      {
-        "number": 10,
-        "name": "Francis Molo",
-        "position": "Interchange",
-        "category": "starting"
-      },
-      {
-        "number": 11,
-        "name": "Connelly Lemuelu",
-        "position": "2nd Row",
-        "category": "starting"
-      },
-      {
-        "number": 12,
-        "name": "Kulikefu Finefeuiaki",
-        "position": "2nd Row",
-        "category": "starting"
-      },
-      {
-        "number": 13,
-        "name": "Morgan Knowles",
-        "position": "Lock",
-        "category": "starting"
-      },
-      {
-        "number": 14,
-        "name": "Max Plath",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
-        "number": 15,
-        "name": "Ray Stone",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
-        "number": 16,
-        "name": "Tom Gilbert",
-        "position": "Prop",
-        "category": "interchange"
-      },
-      {
-        "number": 17,
-        "name": "Felise Kaufusi",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
-        "number": 18,
-        "name": "Bradley Schneider",
-        "position": "Interchange",
-        "category": "reserve"
-      },
-      {
-        "number": 21,
-        "name": "Tevita Naufahu",
-        "position": "Interchange",
-        "category": "reserve"
-      }
-    ],
     "Canterbury Bulldogs": [
       {
         "number": 1,
@@ -840,12 +602,6 @@
         "category": "starting"
       },
       {
-        "number": 13,
-        "name": "Jack De Belin",
-        "position": "Lock",
-        "category": "starting"
-      },
-      {
         "number": 14,
         "name": "Dylan Walker",
         "position": "Interchange",
@@ -854,7 +610,7 @@
       {
         "number": 15,
         "name": "Saxon Pryke",
-        "position": "Interchange",
+        "position": "Lock",
         "category": "interchange"
       },
       {
@@ -884,18 +640,12 @@
       {
         "number": 20,
         "name": "Kelma Tuilagi",
-        "position": "Reserve",
+        "position": "Interchange",
         "category": "reserve"
       },
       {
         "number": 21,
         "name": "Harrison Edwards",
-        "position": "Reserve",
-        "category": "reserve"
-      },
-      {
-        "number": 22,
-        "name": "Ryley Smith",
         "position": "Reserve",
         "category": "reserve"
       }
@@ -1018,18 +768,6 @@
       {
         "number": 20,
         "name": "Kaiden Lahrs",
-        "position": "Reserve",
-        "category": "reserve"
-      },
-      {
-        "number": 21,
-        "name": "Mason Kira",
-        "position": "Reserve",
-        "category": "reserve"
-      },
-      {
-        "number": 22,
-        "name": "Liam Sutton",
         "position": "Reserve",
         "category": "reserve"
       }
