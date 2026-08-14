@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T09:19:17.509506+00:00",
+  "generatedAt": "2026-08-14T10:31:28.654911+00:00",
   "round": 24,
   "upcomingRound": 24,
   "ladder": [
@@ -47,6 +47,20 @@
     },
     {
       "pos": 4,
+      "nick": "Dolphins",
+      "name": "Dolphins",
+      "played": 21,
+      "wins": 14,
+      "losses": 7,
+      "drawn": 0,
+      "ptsFor": 578,
+      "ptsAgainst": 458,
+      "diff": 120,
+      "pts": 34,
+      "streak": "4W"
+    },
+    {
+      "pos": 5,
       "nick": "Sharks",
       "name": "Cronulla Sutherland Sharks",
       "played": 20,
@@ -58,20 +72,6 @@
       "diff": 169,
       "pts": 32,
       "streak": "1L"
-    },
-    {
-      "pos": 5,
-      "nick": "Dolphins",
-      "name": "Dolphins",
-      "played": 20,
-      "wins": 13,
-      "losses": 7,
-      "drawn": 0,
-      "ptsFor": 556,
-      "ptsAgainst": 458,
-      "diff": 98,
-      "pts": 32,
-      "streak": "3W"
     },
     {
       "pos": 6,
@@ -133,13 +133,13 @@
       "pos": 10,
       "nick": "Sea Eagles",
       "name": "Manly Warringah Sea Eagles",
-      "played": 20,
+      "played": 21,
       "wins": 9,
-      "losses": 11,
+      "losses": 12,
       "drawn": 0,
       "ptsFor": 505,
-      "ptsAgainst": 437,
-      "diff": 68,
+      "ptsAgainst": 459,
+      "diff": 46,
       "pts": 24,
       "streak": "4L"
     },
@@ -397,7 +397,7 @@
       ]
     },
     "Dolphins": {
-      "last5": "L W W W",
+      "last5": "L W W W W",
       "games": [
         {
           "round": 19,
@@ -426,6 +426,13 @@
           "opponent": "Brisbane Broncos",
           "home": true,
           "score": "40\u201332"
+        },
+        {
+          "round": 24,
+          "result": "W",
+          "opponent": "Manly Warringah Sea Eagles",
+          "home": false,
+          "score": "0\u201322"
         }
       ]
     },
@@ -470,7 +477,7 @@
       ]
     },
     "Manly Warringah Sea Eagles": {
-      "last5": "L L L L",
+      "last5": "L L L L L",
       "games": [
         {
           "round": 19,
@@ -499,6 +506,13 @@
           "opponent": "Melbourne Storm",
           "home": false,
           "score": "42\u201320"
+        },
+        {
+          "round": 24,
+          "result": "L",
+          "opponent": "Dolphins",
+          "home": true,
+          "score": "0\u201322"
         }
       ]
     },

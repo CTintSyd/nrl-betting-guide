@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-08-14T09:19:34Z",
+  "updatedAt": "2026-08-14T10:31:43Z",
   "season": 2026,
-  "totalFavRecord": "102-71",
-  "totalLineRecord": "20-22",
-  "totalOuRecord": "21O-21U",
+  "totalFavRecord": "103-71",
+  "totalLineRecord": "21-22",
+  "totalOuRecord": "21O-22U",
   "rounds": [
     {
       "round": 1,
@@ -2786,11 +2786,26 @@
           "ouTotal": 41.5,
           "ouResult": "Under",
           "oddsSourced": true
+        },
+        {
+          "homeTeam": "Manly Warringah Sea Eagles",
+          "awayTeam": "Dolphins",
+          "homeScore": 0,
+          "awayScore": 22,
+          "winner": "Dolphins",
+          "margin": 22,
+          "favourite": "Dolphins",
+          "favouriteWon": true,
+          "linePoint": 2.5,
+          "lineCovered": true,
+          "ouTotal": 46.5,
+          "ouResult": "Under",
+          "oddsSourced": true
         }
       ],
-      "favRecord": "0-1",
-      "lineRecord": "0-1",
-      "ouRecord": "0O-1U"
+      "favRecord": "1-1",
+      "lineRecord": "1-1",
+      "ouRecord": "0O-2U"
     }
   ]
 }

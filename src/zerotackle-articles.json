@@ -1,14 +1,36 @@
 {
-  "updated": "2026-08-14T09:19:26Z",
+  "updated": "2026-08-14T10:31:37Z",
   "articles": [
     {
-      "title": "LIVE: Sea Eagles vs Dolphins – Round 24, 2026",
-      "url": "https://www.zerotackle.com/live-sea-eagles-dolphins-round-24-2026-mc10397668-236790/",
+      "title": "LIVE: Bulldogs vs Rabbitohs – Round 24, 2026",
+      "url": "https://www.zerotackle.com/live-bulldogs-rabbitohs-round-24-2026-mc10397669-236788/",
+      "description": "The Canterbury-Bankstown Bulldogs face the South Sydney Rabbitohs in Round 24 of the 2026 NRL season. Follow the live scores, team lists, match statistics and key moments from the game at Accor Stadium.",
+      "date": "Fri, 17 Jul 2026 10:00:00 +0000",
+      "teams": [
+        "Canterbury Bulldogs",
+        "South Sydney Rabbitohs"
+      ],
+      "isRound": true
+    },
+    {
+      "title": "FULL TIME: Sea Eagles vs Dolphins – Round 24, 2026",
+      "url": "https://www.zerotackle.com/fulltime-sea-eagles-dolphins-round-24-2026-mc10397668-236790/",
       "description": "The Manly Sea Eagles face the Dolphins in Round 24 of the 2026 NRL season. Follow the live scores, team lists, match statistics and key moments from the game at 4 Pines Park.",
       "date": "Fri, 17 Jul 2026 08:00:00 +0000",
       "teams": [
         "Dolphins",
         "Manly Warringah Sea Eagles"
+      ],
+      "isRound": true
+    },
+    {
+      "title": "Updated Team Lists: Broncos vs Warriors – Round 24, 2026",
+      "url": "https://www.zerotackle.com/updated-team-lists-broncos-vs-warriors-10397672-236985/",
+      "description": "The Broncos and Warriors have cut their squads to 20 ahead of tomorrow's match at Suncorp Stadium.",
+      "date": "Fri, 14 Aug 2026 09:32:56 +0000",
+      "teams": [
+        "Brisbane Broncos",
+        "New Zealand Warriors"
       ],
       "isRound": true
     },
@@ -55,16 +77,6 @@
         "Cronulla Sutherland Sharks"
       ],
       "isRound": true
-    },
-    {
-      "title": "Panthers lock up another re-signing ahead of November 1",
-      "url": "https://www.zerotackle.com/panthers-lock-up-another-re-signing-ahead-of-november-1-236974/",
-      "description": "The outside back has confirmed his future.",
-      "date": "Fri, 14 Aug 2026 05:11:39 +0000",
-      "teams": [
-        "Penrith Panthers"
-      ],
-      "isRound": false
     }
   ]
 }
