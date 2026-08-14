@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-08-13T11:03:30Z",
+  "updatedAt": "2026-08-14T05:25:40Z",
   "season": 2026,
-  "totalFavRecord": "104-68",
-  "totalLineRecord": "28-28",
-  "totalOuRecord": "30O-26U",
+  "totalFavRecord": "104-69",
+  "totalLineRecord": "28-29",
+  "totalOuRecord": "30O-27U",
   "rounds": [
     {
       "round": 1,
@@ -2768,6 +2768,29 @@
       "favRecord": "4-4",
       "lineRecord": "2-6",
       "ouRecord": "4O-4U"
+    },
+    {
+      "round": 24,
+      "games": [
+        {
+          "homeTeam": "Penrith Panthers",
+          "awayTeam": "Sydney Roosters",
+          "homeScore": 6,
+          "awayScore": 12,
+          "winner": "Sydney Roosters",
+          "margin": 6,
+          "favourite": "Penrith Panthers",
+          "favouriteWon": false,
+          "linePoint": -5.5,
+          "lineCovered": false,
+          "ouTotal": 41.5,
+          "ouResult": "Under",
+          "oddsSourced": true
+        }
+      ],
+      "favRecord": "0-1",
+      "lineRecord": "0-1",
+      "ouRecord": "0O-1U"
     }
   ]
 }
