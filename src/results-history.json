@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-08-14T11:22:21Z",
+  "updatedAt": "2026-08-14T12:05:27Z",
   "season": 2026,
-  "totalFavRecord": "103-71",
-  "totalLineRecord": "21-22",
-  "totalOuRecord": "21O-22U",
+  "totalFavRecord": "103-72",
+  "totalLineRecord": "21-23",
+  "totalOuRecord": "21O-23U",
   "rounds": [
     {
       "round": 1,
@@ -2801,11 +2801,26 @@
           "ouTotal": 46.5,
           "ouResult": "Under",
           "oddsSourced": true
+        },
+        {
+          "homeTeam": "Canterbury Bulldogs",
+          "awayTeam": "South Sydney Rabbitohs",
+          "homeScore": 6,
+          "awayScore": 22,
+          "winner": "South Sydney Rabbitohs",
+          "margin": 16,
+          "favourite": "Canterbury Bulldogs",
+          "favouriteWon": false,
+          "linePoint": -1.5,
+          "lineCovered": false,
+          "ouTotal": 43.5,
+          "ouResult": "Under",
+          "oddsSourced": true
         }
       ],
-      "favRecord": "1-1",
-      "lineRecord": "1-1",
-      "ouRecord": "0O-2U"
+      "favRecord": "1-2",
+      "lineRecord": "1-2",
+      "ouRecord": "0O-3U"
     }
   ]
 }

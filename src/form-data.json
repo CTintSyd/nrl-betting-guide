@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-14T11:22:00.319971+00:00",
+  "generatedAt": "2026-08-14T12:05:12.240676+00:00",
   "round": 24,
   "upcomingRound": 24,
   "ladder": [
@@ -75,6 +75,20 @@
     },
     {
       "pos": 6,
+      "nick": "Rabbitohs",
+      "name": "South Sydney Rabbitohs",
+      "played": 21,
+      "wins": 12,
+      "losses": 9,
+      "drawn": 0,
+      "ptsFor": 576,
+      "ptsAgainst": 494,
+      "diff": 82,
+      "pts": 30,
+      "streak": "1W"
+    },
+    {
+      "pos": 7,
       "nick": "Knights",
       "name": "Newcastle Knights",
       "played": 21,
@@ -86,20 +100,6 @@
       "diff": 66,
       "pts": 30,
       "streak": "2W"
-    },
-    {
-      "pos": 7,
-      "nick": "Rabbitohs",
-      "name": "South Sydney Rabbitohs",
-      "played": 20,
-      "wins": 11,
-      "losses": 9,
-      "drawn": 0,
-      "ptsFor": 554,
-      "ptsAgainst": 488,
-      "diff": 66,
-      "pts": 28,
-      "streak": "1W"
     },
     {
       "pos": 8,
@@ -119,13 +119,13 @@
       "pos": 9,
       "nick": "Bulldogs",
       "name": "Canterbury Bulldogs",
-      "played": 20,
+      "played": 21,
       "wins": 10,
-      "losses": 10,
+      "losses": 11,
       "drawn": 0,
-      "ptsFor": 396,
-      "ptsAgainst": 442,
-      "diff": -46,
+      "ptsFor": 402,
+      "ptsAgainst": 464,
+      "diff": -62,
       "pts": 26,
       "streak": "1L"
     },
@@ -317,15 +317,8 @@
       ]
     },
     "Canterbury Bulldogs": {
-      "last5": "L W W W L",
+      "last5": "W W W L L",
       "games": [
-        {
-          "round": 19,
-          "result": "L",
-          "opponent": "Canberra Raiders",
-          "home": true,
-          "score": "16\u201340"
-        },
         {
           "round": 20,
           "result": "W",
@@ -353,6 +346,13 @@
           "opponent": "Sydney Roosters",
           "home": false,
           "score": "20\u201318"
+        },
+        {
+          "round": 24,
+          "result": "L",
+          "opponent": "South Sydney Rabbitohs",
+          "home": true,
+          "score": "6\u201322"
         }
       ]
     },
@@ -750,15 +750,8 @@
       ]
     },
     "South Sydney Rabbitohs": {
-      "last5": "W L W L W",
+      "last5": "L W L W W",
       "games": [
-        {
-          "round": 19,
-          "result": "W",
-          "opponent": "Newcastle Knights",
-          "home": true,
-          "score": "26\u201324"
-        },
         {
           "round": 20,
           "result": "L",
@@ -786,6 +779,13 @@
           "opponent": "Parramatta Eels",
           "home": true,
           "score": "28\u201324"
+        },
+        {
+          "round": 24,
+          "result": "W",
+          "opponent": "Canterbury Bulldogs",
+          "home": false,
+          "score": "6\u201322"
         }
       ]
     },
