@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-15T08:03:29Z",
+  "updated": "2026-08-15T08:48:10Z",
   "articles": [
     {
       "title": "LIVE: Eels vs Cowboys – Round 24, 2026",
@@ -9,6 +9,17 @@
       "teams": [
         "North Queensland Cowboys",
         "Parramatta Eels"
+      ],
+      "isRound": true
+    },
+    {
+      "title": "FINAL TEAMS: Broncos vs Warriors – Round 24, 2026",
+      "url": "https://www.zerotackle.com/updated-team-lists-broncos-warriors-10397672-236985/",
+      "description": "LATE MAIL: The Broncos and Warriors have confirmed their lineups for the match at Suncorp Stadium.",
+      "date": "Sat, 15 Aug 2026 08:04:54 +0000",
+      "teams": [
+        "Brisbane Broncos",
+        "New Zealand Warriors"
       ],
       "isRound": true
     },
@@ -96,16 +107,6 @@
         "Cronulla Sutherland Sharks"
       ],
       "isRound": true
-    },
-    {
-      "title": "Panthers star signs long-term extension",
-      "url": "https://www.zerotackle.com/panthers-star-signs-long-term-extension-237009/",
-      "description": "The club has made a significant re-signing, keeping the star until the end of 2030.",
-      "date": "Sat, 15 Aug 2026 03:01:34 +0000",
-      "teams": [
-        "Penrith Panthers"
-      ],
-      "isRound": false
     }
   ]
 }
