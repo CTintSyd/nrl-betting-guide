@@ -1,110 +1,12 @@
 {
-  "updated": "2026-08-15T09:14:50.578Z",
-  "quotaRemaining": 164,
+  "updated": "2026-08-15T12:14:09.681Z",
+  "quotaRemaining": 161,
   "round": 24,
   "venueOverride": {
     "venue": "Suncorp Stadium",
     "until": "2026-05-18T00:00:00Z"
   },
   "games": [
-    {
-      "id": "b7c0b53f93d269a16ca0d947d2b7d549",
-      "homeTeam": "Parramatta Eels",
-      "awayTeam": "North Queensland Cowboys",
-      "commenceTime": "2026-08-15T07:31:00Z",
-      "bookmaker": "sportsbet",
-      "h2h": {
-        "home": 1.87,
-        "away": 1.81
-      },
-      "line": {
-        "home": {
-          "odd": 1.9,
-          "point": 0.5
-        },
-        "away": {
-          "odd": 1.89,
-          "point": -0.5
-        }
-      },
-      "ou": {
-        "total": null,
-        "overOdd": null,
-        "underOdd": null
-      },
-      "bookmakerComparison": [
-        {
-          "key": "sportsbet",
-          "name": "Sportsbet",
-          "home": 1.87,
-          "away": 1.81
-        },
-        {
-          "key": "tab",
-          "name": "TAB",
-          "home": 2.2,
-          "away": 1.65
-        },
-        {
-          "key": "pointsbetau",
-          "name": "PointsBet",
-          "home": 2,
-          "away": 1.75
-        }
-      ]
-    },
-    {
-      "id": "6000e0c5326b5736fd05ba5be257b67a",
-      "homeTeam": "Brisbane Broncos",
-      "awayTeam": "New Zealand Warriors",
-      "commenceTime": "2026-08-15T09:35:00Z",
-      "bookmaker": "sportsbet",
-      "h2h": {
-        "home": 2.79,
-        "away": 1.44
-      },
-      "line": {
-        "home": {
-          "odd": 1.91,
-          "point": 6.5
-        },
-        "away": {
-          "odd": 1.91,
-          "point": -6.5
-        }
-      },
-      "ou": {
-        "total": 45.5,
-        "overOdd": 1.82,
-        "underOdd": 1.99
-      },
-      "bookmakerComparison": [
-        {
-          "key": "sportsbet",
-          "name": "Sportsbet",
-          "home": 2.79,
-          "away": 1.44
-        },
-        {
-          "key": "tab",
-          "name": "TAB",
-          "home": 3,
-          "away": 1.4
-        },
-        {
-          "key": "betright",
-          "name": "BetRight",
-          "home": 3,
-          "away": 1.4
-        },
-        {
-          "key": "ladbrokes_au",
-          "name": "Ladbrokes",
-          "home": 2.9,
-          "away": 1.42
-        }
-      ]
-    },
     {
       "id": "2394a3ca21c477463477e17c2341bf9b",
       "homeTeam": "Newcastle Knights",
@@ -204,8 +106,8 @@
         {
           "key": "ladbrokes_au",
           "name": "Ladbrokes",
-          "home": 1.95,
-          "away": 1.87
+          "home": 1.87,
+          "away": 1.95
         }
       ]
     },
@@ -258,6 +160,92 @@
           "name": "PointsBet",
           "home": 3.3,
           "away": 1.32
+        }
+      ]
+    },
+    {
+      "id": "4d310c3d7cd71da77e895472652347fa",
+      "homeTeam": "Canberra Raiders",
+      "awayTeam": "Brisbane Broncos",
+      "commenceTime": "2026-08-21T08:00:00Z",
+      "bookmaker": "sportsbet",
+      "h2h": {
+        "home": 1.51,
+        "away": 2.56
+      },
+      "line": {
+        "home": {
+          "odd": 1.9,
+          "point": -5.5
+        },
+        "away": {
+          "odd": 1.9,
+          "point": 5.5
+        }
+      },
+      "ou": {
+        "total": 51.5,
+        "overOdd": 1.9,
+        "underOdd": 1.9
+      },
+      "bookmakerComparison": [
+        {
+          "key": "sportsbet",
+          "name": "Sportsbet",
+          "home": 1.51,
+          "away": 2.56
+        },
+        {
+          "key": "pointsbetau",
+          "name": "PointsBet",
+          "home": 1.65,
+          "away": 2.2
+        }
+      ]
+    },
+    {
+      "id": "14fbafe55f33edad77534b3bbd008362",
+      "homeTeam": "Dolphins",
+      "awayTeam": "Parramatta Eels",
+      "commenceTime": "2026-08-21T10:00:00Z",
+      "bookmaker": "sportsbet",
+      "h2h": {
+        "home": 1.25,
+        "away": 4
+      },
+      "line": {
+        "home": {
+          "odd": 1.9,
+          "point": -12.5
+        },
+        "away": {
+          "odd": 1.9,
+          "point": 12.5
+        }
+      },
+      "ou": {
+        "total": 51.5,
+        "overOdd": 1.9,
+        "underOdd": 1.9
+      },
+      "bookmakerComparison": [
+        {
+          "key": "sportsbet",
+          "name": "Sportsbet",
+          "home": 1.25,
+          "away": 4
+        },
+        {
+          "key": "tab",
+          "name": "TAB",
+          "home": 1.22,
+          "away": 4.25
+        },
+        {
+          "key": "pointsbetau",
+          "name": "PointsBet",
+          "home": 1.2,
+          "away": 4.4
         }
       ]
     },
@@ -346,22 +334,10 @@
           "away": 1.63
         },
         {
-          "key": "tab",
-          "name": "TAB",
-          "home": 2.3,
-          "away": 1.6
-        },
-        {
-          "key": "ladbrokes_au",
-          "name": "Ladbrokes",
-          "home": 2.3,
-          "away": 1.64
-        },
-        {
           "key": "pointsbetau",
           "name": "PointsBet",
-          "home": 2.25,
-          "away": 1.62
+          "home": 2.5,
+          "away": 1.52
         }
       ]
     },
@@ -424,30 +400,30 @@
       "commenceTime": "2026-08-23T04:00:00Z",
       "bookmaker": "sportsbet",
       "h2h": {
-        "home": 2.51,
-        "away": 1.53
+        "home": 2.65,
+        "away": 1.49
       },
       "line": {
         "home": {
-          "odd": 1.9,
-          "point": 4.5
+          "odd": 1.83,
+          "point": 6.5
         },
         "away": {
-          "odd": 1.9,
-          "point": -4.5
+          "odd": 1.98,
+          "point": -6.5
         }
       },
       "ou": {
         "total": 48.5,
-        "overOdd": 1.89,
-        "underOdd": 1.91
+        "overOdd": 1.9,
+        "underOdd": 1.9
       },
       "bookmakerComparison": [
         {
           "key": "sportsbet",
           "name": "Sportsbet",
-          "home": 2.51,
-          "away": 1.53
+          "home": 2.65,
+          "away": 1.49
         },
         {
           "key": "tab",
