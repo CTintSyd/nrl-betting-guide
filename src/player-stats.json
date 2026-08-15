@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T08:47:51.569207+00:00",
+  "generatedAt": "2026-08-15T09:32:29.380250+00:00",
   "round": 24,
   "players": {
     "Kalyn Ponga": {
@@ -137,43 +137,43 @@
     },
     "Scott Drinkwater": {
       "tries": 9,
-      "games": 21,
-      "tryRate": 0.4286,
+      "games": 22,
+      "tryRate": 0.4091,
       "team": "North Queensland Cowboys",
       "position": "Fullback"
     },
     "Braidon Burns": {
-      "tries": 13,
-      "games": 17,
-      "tryRate": 0.7647,
+      "tries": 14,
+      "games": 18,
+      "tryRate": 0.7778,
       "team": "North Queensland Cowboys",
       "position": "Winger"
     },
     "Jaxon Purdue": {
-      "tries": 7,
-      "games": 21,
-      "tryRate": 0.3333,
+      "tries": 8,
+      "games": 22,
+      "tryRate": 0.3636,
       "team": "North Queensland Cowboys",
       "position": "Halfback"
     },
     "Tom Chester": {
-      "tries": 8,
-      "games": 20,
-      "tryRate": 0.4,
+      "tries": 9,
+      "games": 21,
+      "tryRate": 0.4286,
       "team": "North Queensland Cowboys",
       "position": "Centre"
     },
     "Murray Taulagi": {
       "tries": 11,
-      "games": 16,
-      "tryRate": 0.6875,
+      "games": 17,
+      "tryRate": 0.6471,
       "team": "North Queensland Cowboys",
       "position": "Winger"
     },
     "Jake Clifford": {
       "tries": 8,
-      "games": 21,
-      "tryRate": 0.381,
+      "games": 22,
+      "tryRate": 0.3636,
       "team": "North Queensland Cowboys",
       "position": "Five-Eighth"
     },
@@ -186,70 +186,70 @@
     },
     "Coen Hess": {
       "tries": 1,
-      "games": 21,
-      "tryRate": 0.0476,
+      "games": 22,
+      "tryRate": 0.0455,
       "team": "North Queensland Cowboys",
       "position": "Interchange"
     },
     "Reed Mahoney": {
-      "tries": 3,
-      "games": 18,
-      "tryRate": 0.1667,
+      "tries": 4,
+      "games": 19,
+      "tryRate": 0.2105,
       "team": "North Queensland Cowboys",
       "position": "Hooker"
     },
     "Jason Taumalolo": {
       "tries": 1,
-      "games": 20,
-      "tryRate": 0.05,
+      "games": 21,
+      "tryRate": 0.0476,
       "team": "North Queensland Cowboys",
       "position": "Prop"
     },
     "Heilum Luki": {
       "tries": 10,
-      "games": 21,
-      "tryRate": 0.4762,
+      "games": 22,
+      "tryRate": 0.4545,
       "team": "North Queensland Cowboys",
       "position": "2nd Row"
     },
     "Sam McIntyre": {
       "tries": 1,
-      "games": 20,
-      "tryRate": 0.05,
+      "games": 21,
+      "tryRate": 0.0476,
       "team": "North Queensland Cowboys",
       "position": "Reserve"
     },
     "Reuben Cotter": {
-      "tries": 2,
-      "games": 18,
-      "tryRate": 0.1111,
+      "tries": 3,
+      "games": 19,
+      "tryRate": 0.1579,
       "team": "North Queensland Cowboys",
       "position": "Lock"
     },
     "Soni Luke": {
       "tries": 2,
-      "games": 18,
-      "tryRate": 0.1111,
+      "games": 19,
+      "tryRate": 0.1053,
       "team": "North Queensland Cowboys",
-      "position": "Hooker"
+      "position": "Interchange"
     },
     "Thomas Mikaele": {
       "tries": 0,
-      "games": 18,
+      "games": 19,
       "tryRate": 0.0,
       "team": "North Queensland Cowboys",
       "position": "Interchange"
     },
     "Kai O'Donnell": {
       "tries": 0,
-      "games": 10,
+      "games": 11,
       "tryRate": 0.0,
       "team": "North Queensland Cowboys",
       "position": "2nd Row"
     },
     "Griffin Neame": {
       "tries": 0,
-      "games": 20,
+      "games": 21,
       "tryRate": 0.0,
       "team": "North Queensland Cowboys",
       "position": "Prop"
@@ -683,24 +683,24 @@
     },
     "Will Penisini": {
       "tries": 3,
-      "games": 8,
-      "tryRate": 0.375,
+      "games": 9,
+      "tryRate": 0.3333,
       "team": "Parramatta Eels",
       "position": "Centre"
     },
     "Brian Kelly": {
       "tries": 4,
-      "games": 18,
-      "tryRate": 0.2222,
+      "games": 19,
+      "tryRate": 0.2105,
       "team": "Parramatta Eels",
       "position": "Winger"
     },
     "Sean Russell": {
       "tries": 4,
-      "games": 14,
-      "tryRate": 0.2857,
+      "games": 15,
+      "tryRate": 0.2667,
       "team": "Parramatta Eels",
-      "position": "Centre"
+      "position": "Interchange"
     },
     "Jonah Pezet": {
       "tries": 3,
@@ -711,8 +711,8 @@
     },
     "Mitchell Moses": {
       "tries": 2,
-      "games": 15,
-      "tryRate": 0.1333,
+      "games": 16,
+      "tryRate": 0.125,
       "team": "Parramatta Eels",
       "position": "Halfback"
     },
@@ -732,22 +732,22 @@
     },
     "Junior Paulo": {
       "tries": 1,
-      "games": 13,
-      "tryRate": 0.0769,
+      "games": 14,
+      "tryRate": 0.0714,
       "team": "Parramatta Eels",
-      "position": "Interchange"
+      "position": "Prop"
     },
     "Jack Williams": {
       "tries": 2,
-      "games": 20,
-      "tryRate": 0.1,
+      "games": 21,
+      "tryRate": 0.0952,
       "team": "Parramatta Eels",
       "position": "2nd Row"
     },
     "Kitione Kautoga": {
       "tries": 2,
-      "games": 15,
-      "tryRate": 0.1333,
+      "games": 16,
+      "tryRate": 0.125,
       "team": "Parramatta Eels",
       "position": "2nd Row"
     },
@@ -760,8 +760,8 @@
     },
     "Dylan Walker": {
       "tries": 3,
-      "games": 19,
-      "tryRate": 0.1579,
+      "games": 20,
+      "tryRate": 0.15,
       "team": "Parramatta Eels",
       "position": "Interchange"
     },
@@ -780,11 +780,11 @@
       "position": "Interchange"
     },
     "Tallyn Da Silva": {
-      "tries": 8,
-      "games": 20,
-      "tryRate": 0.4,
+      "tries": 10,
+      "games": 21,
+      "tryRate": 0.4762,
       "team": "Parramatta Eels",
-      "position": "Interchange"
+      "position": "Hooker"
     },
     "Kelma Tuilagi": {
       "tries": 4,
@@ -2131,9 +2131,9 @@
       "position": "Reserve"
     },
     "Josh Addo-Carr": {
-      "tries": 6,
-      "games": 19,
-      "tryRate": 0.3158,
+      "tries": 7,
+      "games": 20,
+      "tryRate": 0.35,
       "team": "Parramatta Eels",
       "position": "Winger"
     },
@@ -2145,9 +2145,9 @@
       "position": "Reserve"
     },
     "Jordan Samrani": {
-      "tries": 5,
-      "games": 13,
-      "tryRate": 0.3846,
+      "tries": 6,
+      "games": 14,
+      "tryRate": 0.4286,
       "team": "Parramatta Eels",
       "position": "Centre"
     },
@@ -2335,7 +2335,7 @@
     },
     "Harrison Edwards": {
       "tries": 0,
-      "games": 11,
+      "games": 12,
       "tryRate": 0.0,
       "team": "Parramatta Eels",
       "position": "Interchange"
@@ -2559,8 +2559,8 @@
     },
     "Zac Laybutt": {
       "tries": 2,
-      "games": 19,
-      "tryRate": 0.1053,
+      "games": 20,
+      "tryRate": 0.1,
       "team": "North Queensland Cowboys",
       "position": "Centre"
     },
@@ -2657,8 +2657,8 @@
     },
     "Luca Moretti": {
       "tries": 1,
-      "games": 14,
-      "tryRate": 0.0714,
+      "games": 15,
+      "tryRate": 0.0667,
       "team": "Parramatta Eels",
       "position": "Prop"
     },
@@ -2768,11 +2768,11 @@
       "position": "Reserve"
     },
     "Apa Twidle": {
-      "tries": 2,
-      "games": 6,
-      "tryRate": 0.3333,
+      "tries": 3,
+      "games": 7,
+      "tryRate": 0.4286,
       "team": "Parramatta Eels",
-      "position": "Reserve"
+      "position": "Fullback"
     },
     "Jethro Rinakama": {
       "tries": 7,
@@ -2866,9 +2866,9 @@
       "position": "Centre"
     },
     "Ronald Volkman": {
-      "tries": 5,
-      "games": 15,
-      "tryRate": 0.3333,
+      "tries": 6,
+      "games": 16,
+      "tryRate": 0.375,
       "team": "Parramatta Eels",
       "position": "Five-Eighth"
     },
@@ -2972,21 +2972,21 @@
     },
     "Saxon Pryke": {
       "tries": 0,
-      "games": 6,
+      "games": 7,
       "tryRate": 0.0,
       "team": "Parramatta Eels",
-      "position": "Interchange"
+      "position": "Lock"
     },
     "Toni Mataele": {
       "tries": 0,
-      "games": 10,
+      "games": 11,
       "tryRate": 0.0,
       "team": "Parramatta Eels",
       "position": "Reserve"
     },
     "Teancum Brown": {
       "tries": 0,
-      "games": 12,
+      "games": 13,
       "tryRate": 0.0,
       "team": "Parramatta Eels",
       "position": "Interchange"
@@ -3245,10 +3245,10 @@
     },
     "Ethan King": {
       "tries": 0,
-      "games": 8,
+      "games": 9,
       "tryRate": 0.0,
       "team": "North Queensland Cowboys",
-      "position": "Interchange"
+      "position": "Reserve"
     },
     "Te Maire Martin": {
       "tries": 6,
@@ -3406,7 +3406,7 @@
     },
     "John Bateman": {
       "tries": 0,
-      "games": 4,
+      "games": 5,
       "tryRate": 0.0,
       "team": "North Queensland Cowboys",
       "position": "Interchange"
@@ -3588,7 +3588,7 @@
     },
     "Jezaiah Funa": {
       "tries": 0,
-      "games": 1,
+      "games": 2,
       "tryRate": 0.0,
       "team": "Parramatta Eels",
       "position": "Reserve"

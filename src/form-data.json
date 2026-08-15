@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T08:47:54.837641+00:00",
+  "generatedAt": "2026-08-15T09:32:31.878445+00:00",
   "round": 24,
   "upcomingRound": 24,
   "ladder": [
@@ -105,13 +105,13 @@
       "pos": 8,
       "nick": "Cowboys",
       "name": "North Queensland Cowboys",
-      "played": 21,
+      "played": 22,
       "wins": 12,
-      "losses": 9,
+      "losses": 10,
       "drawn": 0,
-      "ptsFor": 484,
-      "ptsAgainst": 560,
-      "diff": -76,
+      "ptsFor": 514,
+      "ptsAgainst": 592,
+      "diff": -78,
       "pts": 28,
       "streak": "1W"
     },
@@ -175,14 +175,14 @@
       "pos": 13,
       "nick": "Eels",
       "name": "Parramatta Eels",
-      "played": 20,
-      "wins": 7,
+      "played": 21,
+      "wins": 8,
       "losses": 13,
       "drawn": 0,
-      "ptsFor": 389,
-      "ptsAgainst": 572,
-      "diff": -183,
-      "pts": 20,
+      "ptsFor": 421,
+      "ptsAgainst": 602,
+      "diff": -181,
+      "pts": 22,
       "streak": "1L"
     },
     {
@@ -637,15 +637,8 @@
       ]
     },
     "North Queensland Cowboys": {
-      "last5": "W L W L W",
+      "last5": "L W L W L",
       "games": [
-        {
-          "round": 19,
-          "result": "W",
-          "opponent": "Manly Warringah Sea Eagles",
-          "home": false,
-          "score": "18\u201319"
-        },
         {
           "round": 20,
           "result": "L",
@@ -673,11 +666,18 @@
           "opponent": "Gold Coast Titans",
           "home": false,
           "score": "8\u201330"
+        },
+        {
+          "round": 24,
+          "result": "L",
+          "opponent": "Parramatta Eels",
+          "home": false,
+          "score": "32\u201330"
         }
       ]
     },
     "Parramatta Eels": {
-      "last5": "L L W L",
+      "last5": "L L W L W",
       "games": [
         {
           "round": 19,
@@ -706,6 +706,13 @@
           "opponent": "South Sydney Rabbitohs",
           "home": false,
           "score": "28\u201324"
+        },
+        {
+          "round": 24,
+          "result": "W",
+          "opponent": "North Queensland Cowboys",
+          "home": true,
+          "score": "32\u201330"
         }
       ]
     },

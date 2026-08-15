@@ -126,24 +126,24 @@ const NRL_TEAM_DATA = {
   'North Queensland Cowboys': {
     emoji: '🤠', shortName: 'Cowboys', venue: 'Qld Country Bank Stadium', wikiPage: 'North_Queensland_Cowboys', logoFile: 'north-queensland-cowboys.svg',
     players: [
-      { name: "Braidon Burns",                     pos: "wing",           tryRate: 0.7647 },
-      { name: "Scott Drinkwater",                  pos: "fullback",       tryRate: 0.4286 },
-      { name: "Jake Clifford",                     pos: "five-eighth",    tryRate: 0.381 },
-      { name: "Murray Taulagi",                    pos: "wing",           tryRate: 0.6875 },
-      { name: "Heilum Luki",                       pos: "lock",           tryRate: 0.4762 },
-      { name: "Tom Chester",                       pos: "centre",         tryRate: 0.4 },
+      { name: "Braidon Burns",                     pos: "wing",           tryRate: 0.7778 },
+      { name: "Scott Drinkwater",                  pos: "fullback",       tryRate: 0.4091 },
+      { name: "Jaxon Purdue",                      pos: "halfback",       tryRate: 0.3636 },
+      { name: "Murray Taulagi",                    pos: "wing",           tryRate: 0.6471 },
+      { name: "Heilum Luki",                       pos: "lock",           tryRate: 0.4545 },
+      { name: "Tom Chester",                       pos: "centre",         tryRate: 0.4286 },
     ],
   },
 
   'Parramatta Eels': {
     emoji: '🐟', shortName: 'Eels', venue: 'CommBank Stadium', wikiPage: 'Parramatta_Eels', logoFile: 'parramatta-eels.svg',
     players: [
-      { name: "Josh Addo-Carr",                    pos: "wing",           tryRate: 0.3158 },
+      { name: "Josh Addo-Carr",                    pos: "wing",           tryRate: 0.35 },
       { name: "Isaiah Iongi",                      pos: "fullback",       tryRate: 0.3846 },
-      { name: "Ronald Volkman",                    pos: "five-eighth",    tryRate: 0.3333 },
-      { name: "Jordan Samrani",                    pos: "centre",         tryRate: 0.3846 },
-      { name: "Brian Kelly",                       pos: "wing",           tryRate: 0.2222 },
-      { name: "Kelma Tuilagi",                     pos: "lock",           tryRate: 0.2222 },
+      { name: "Ronald Volkman",                    pos: "five-eighth",    tryRate: 0.375 },
+      { name: "Tallyn Da Silva",                   pos: "hooker",         tryRate: 0.4762 },
+      { name: "Jordan Samrani",                    pos: "centre",         tryRate: 0.4286 },
+      { name: "Brian Kelly",                       pos: "wing",           tryRate: 0.2105 },
     ],
   },
 
