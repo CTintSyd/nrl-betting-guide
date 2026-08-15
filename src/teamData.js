@@ -18,12 +18,12 @@ const NRL_TEAM_DATA = {
   'Canberra Raiders': {
     emoji: '🔋', shortName: 'Raiders', venue: 'GIO Stadium', wikiPage: 'Canberra_Raiders', logoFile: 'canberra-raiders.svg',
     players: [
-      { name: "Xavier Savage",                     pos: "wing",           tryRate: 0.5625 },
-      { name: "Kaeo Weekes",                       pos: "fullback",       tryRate: 0.5238 },
-      { name: "Ethan Strange",                     pos: "five-eighth",    tryRate: 0.3333 },
+      { name: "Xavier Savage",                     pos: "wing",           tryRate: 0.5882 },
+      { name: "Kaeo Weekes",                       pos: "fullback",       tryRate: 0.5 },
+      { name: "Ethan Strange",                     pos: "five-eighth",    tryRate: 0.3158 },
+      { name: "Savelio Tamale",                    pos: "centre",         tryRate: 0.3889 },
       { name: "Simi Sasagi",                       pos: "centre",         tryRate: 0.5 },
-      { name: "Matthew Timoko",                    pos: "centre",         tryRate: 0.3529 },
-      { name: "Zac Hosking",                       pos: "lock",           tryRate: 0.2632 },
+      { name: "Jed Stuart",                        pos: "wing",           tryRate: 0.3158 },
     ],
   },
 
@@ -42,12 +42,12 @@ const NRL_TEAM_DATA = {
   'Cronulla Sutherland Sharks': {
     emoji: '🦈', shortName: 'Sharks', venue: 'PointsBet Stadium', wikiPage: 'Cronulla-Sutherland_Sharks', logoFile: 'cronulla-sharks.svg',
     players: [
-      { name: "Sione Katoa",                       pos: "wing",           tryRate: 0.7857 },
-      { name: "William Kennedy",                   pos: "fullback",       tryRate: 0.45 },
-      { name: "Braydon Trindall",                  pos: "five-eighth",    tryRate: 0.4 },
-      { name: "KL Iro",                            pos: "centre",         tryRate: 0.6667 },
-      { name: "Ronaldo Mulitalo",                  pos: "wing",           tryRate: 0.9091 },
-      { name: "Teig Wilton",                       pos: "lock",           tryRate: 0.3889 },
+      { name: "Sione Katoa",                       pos: "wing",           tryRate: 0.7333 },
+      { name: "William Kennedy",                   pos: "fullback",       tryRate: 0.4762 },
+      { name: "Braydon Trindall",                  pos: "five-eighth",    tryRate: 0.4286 },
+      { name: "KL Iro",                            pos: "centre",         tryRate: 0.6316 },
+      { name: "Ronaldo Mulitalo",                  pos: "wing",           tryRate: 0.8333 },
+      { name: "Teig Wilton",                       pos: "lock",           tryRate: 0.4211 },
     ],
   },
 

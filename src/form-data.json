@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T06:04:12.449326+00:00",
+  "generatedAt": "2026-08-15T07:00:28.851145+00:00",
   "round": 24,
   "upcomingRound": 24,
   "ladder": [
@@ -63,13 +63,13 @@
       "pos": 5,
       "nick": "Sharks",
       "name": "Cronulla Sutherland Sharks",
-      "played": 20,
+      "played": 21,
       "wins": 13,
-      "losses": 7,
+      "losses": 8,
       "drawn": 0,
-      "ptsFor": 584,
-      "ptsAgainst": 415,
-      "diff": 169,
+      "ptsFor": 604,
+      "ptsAgainst": 439,
+      "diff": 165,
       "pts": 32,
       "streak": "1L"
     },
@@ -161,14 +161,14 @@
       "pos": 12,
       "nick": "Raiders",
       "name": "Canberra Raiders",
-      "played": 21,
-      "wins": 9,
+      "played": 22,
+      "wins": 10,
       "losses": 12,
       "drawn": 0,
-      "ptsFor": 477,
-      "ptsAgainst": 542,
-      "diff": -65,
-      "pts": 22,
+      "ptsFor": 501,
+      "ptsAgainst": 562,
+      "diff": -61,
+      "pts": 24,
       "streak": "2L"
     },
     {
@@ -277,15 +277,8 @@
       ]
     },
     "Canberra Raiders": {
-      "last5": "W W W L L",
+      "last5": "W W L L W",
       "games": [
-        {
-          "round": 19,
-          "result": "W",
-          "opponent": "Canterbury Bulldogs",
-          "home": false,
-          "score": "16\u201340"
-        },
         {
           "round": 20,
           "result": "W",
@@ -313,6 +306,13 @@
           "opponent": "Newcastle Knights",
           "home": true,
           "score": "24\u201330"
+        },
+        {
+          "round": 24,
+          "result": "W",
+          "opponent": "Cronulla Sutherland Sharks",
+          "home": false,
+          "score": "20\u201324"
         }
       ]
     },
@@ -357,15 +357,8 @@
       ]
     },
     "Cronulla Sutherland Sharks": {
-      "last5": "W W W W L",
+      "last5": "W W W L L",
       "games": [
-        {
-          "round": 19,
-          "result": "W",
-          "opponent": "Dolphins",
-          "home": false,
-          "score": "0\u201366"
-        },
         {
           "round": 20,
           "result": "W",
@@ -393,6 +386,13 @@
           "opponent": "St George Illawarra Dragons",
           "home": false,
           "score": "24\u201316"
+        },
+        {
+          "round": 24,
+          "result": "L",
+          "opponent": "Canberra Raiders",
+          "home": true,
+          "score": "20\u201324"
         }
       ]
     },

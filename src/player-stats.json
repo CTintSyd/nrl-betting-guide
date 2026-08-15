@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T06:04:07.637965+00:00",
+  "generatedAt": "2026-08-15T07:00:26.089167+00:00",
   "round": 24,
   "players": {
     "Kalyn Ponga": {
@@ -1333,16 +1333,16 @@
       "position": "Interchange"
     },
     "William Kennedy": {
-      "tries": 9,
-      "games": 20,
-      "tryRate": 0.45,
+      "tries": 10,
+      "games": 21,
+      "tryRate": 0.4762,
       "team": "Cronulla Sutherland Sharks",
       "position": "Fullback"
     },
     "Sione Katoa": {
       "tries": 11,
-      "games": 14,
-      "tryRate": 0.7857,
+      "games": 15,
+      "tryRate": 0.7333,
       "team": "Cronulla Sutherland Sharks",
       "position": "Winger"
     },
@@ -1355,29 +1355,29 @@
     },
     "KL Iro": {
       "tries": 12,
-      "games": 18,
-      "tryRate": 0.6667,
+      "games": 19,
+      "tryRate": 0.6316,
       "team": "Cronulla Sutherland Sharks",
       "position": "Centre"
     },
     "Samuel Stonestreet": {
       "tries": 4,
-      "games": 14,
-      "tryRate": 0.2857,
+      "games": 15,
+      "tryRate": 0.2667,
       "team": "Cronulla Sutherland Sharks",
       "position": "Reserve"
     },
     "Braydon Trindall": {
-      "tries": 8,
-      "games": 20,
-      "tryRate": 0.4,
+      "tries": 9,
+      "games": 21,
+      "tryRate": 0.4286,
       "team": "Cronulla Sutherland Sharks",
       "position": "Five-Eighth"
     },
     "Nicho Hynes": {
       "tries": 7,
-      "games": 17,
-      "tryRate": 0.4118,
+      "games": 18,
+      "tryRate": 0.3889,
       "team": "Cronulla Sutherland Sharks",
       "position": "Halfback"
     },
@@ -1390,43 +1390,43 @@
     },
     "Blayke Brailey": {
       "tries": 2,
-      "games": 16,
-      "tryRate": 0.125,
+      "games": 17,
+      "tryRate": 0.1176,
       "team": "Cronulla Sutherland Sharks",
       "position": "Hooker"
     },
     "Thomas Hazelton": {
       "tries": 2,
-      "games": 19,
-      "tryRate": 0.1053,
+      "games": 20,
+      "tryRate": 0.1,
       "team": "Cronulla Sutherland Sharks",
       "position": "Interchange"
     },
     "Briton Nikora": {
       "tries": 3,
-      "games": 15,
-      "tryRate": 0.2,
+      "games": 16,
+      "tryRate": 0.1875,
       "team": "Cronulla Sutherland Sharks",
       "position": "2nd Row"
     },
     "Billy Burns": {
       "tries": 5,
-      "games": 20,
-      "tryRate": 0.25,
+      "games": 21,
+      "tryRate": 0.2381,
       "team": "Cronulla Sutherland Sharks",
       "position": "Interchange"
     },
     "Jesse Colquhoun": {
       "tries": 3,
-      "games": 18,
-      "tryRate": 0.1667,
+      "games": 19,
+      "tryRate": 0.1579,
       "team": "Cronulla Sutherland Sharks",
       "position": "Prop"
     },
     "Siosifa Talakai": {
       "tries": 5,
-      "games": 18,
-      "tryRate": 0.2778,
+      "games": 19,
+      "tryRate": 0.2632,
       "team": "Cronulla Sutherland Sharks",
       "position": "Interchange"
     },
@@ -1439,24 +1439,24 @@
     },
     "Oregon Kaufusi": {
       "tries": 1,
+      "games": 19,
+      "tryRate": 0.0526,
+      "team": "Cronulla Sutherland Sharks",
+      "position": "Prop"
+    },
+    "Braden Uele": {
+      "tries": 0,
+      "games": 7,
+      "tryRate": 0.0,
+      "team": "Cronulla Sutherland Sharks",
+      "position": "Reserve"
+    },
+    "Hohepa Puru": {
+      "tries": 1,
       "games": 18,
       "tryRate": 0.0556,
       "team": "Cronulla Sutherland Sharks",
       "position": "Interchange"
-    },
-    "Braden Uele": {
-      "tries": 0,
-      "games": 6,
-      "tryRate": 0.0,
-      "team": "Cronulla Sutherland Sharks",
-      "position": "Interchange"
-    },
-    "Hohepa Puru": {
-      "tries": 1,
-      "games": 17,
-      "tryRate": 0.0588,
-      "team": "Cronulla Sutherland Sharks",
-      "position": "Reserve"
     },
     "Chris Vea'ila": {
       "tries": 0,
@@ -1733,17 +1733,17 @@
     },
     "Kaeo Weekes": {
       "tries": 11,
-      "games": 21,
-      "tryRate": 0.5238,
+      "games": 22,
+      "tryRate": 0.5,
       "team": "Canberra Raiders",
       "position": "Fullback"
     },
     "Savelio Tamale": {
       "tries": 7,
-      "games": 17,
-      "tryRate": 0.4118,
+      "games": 18,
+      "tryRate": 0.3889,
       "team": "Canberra Raiders",
-      "position": "Reserve"
+      "position": "Centre"
     },
     "Simi Sasagi": {
       "tries": 7,
@@ -1754,50 +1754,50 @@
     },
     "Sebastian Kris": {
       "tries": 4,
-      "games": 16,
-      "tryRate": 0.25,
+      "games": 17,
+      "tryRate": 0.2353,
       "team": "Canberra Raiders",
-      "position": "Centre"
+      "position": "Reserve"
     },
     "Xavier Savage": {
-      "tries": 9,
-      "games": 16,
-      "tryRate": 0.5625,
+      "tries": 10,
+      "games": 17,
+      "tryRate": 0.5882,
       "team": "Canberra Raiders",
       "position": "Winger"
     },
     "Ethan Strange": {
       "tries": 6,
-      "games": 18,
-      "tryRate": 0.3333,
+      "games": 19,
+      "tryRate": 0.3158,
       "team": "Canberra Raiders",
       "position": "Five-Eighth"
     },
     "Ethan Sanders": {
       "tries": 3,
-      "games": 21,
-      "tryRate": 0.1429,
+      "games": 22,
+      "tryRate": 0.1364,
       "team": "Canberra Raiders",
       "position": "Halfback"
     },
     "Josh Papalii": {
       "tries": 0,
-      "games": 10,
+      "games": 11,
       "tryRate": 0.0,
       "team": "Canberra Raiders",
       "position": "Interchange"
     },
     "Tom Starling": {
       "tries": 2,
-      "games": 21,
-      "tryRate": 0.0952,
+      "games": 22,
+      "tryRate": 0.0909,
       "team": "Canberra Raiders",
-      "position": "Hooker"
+      "position": "Interchange"
     },
     "Joseph Tapine": {
-      "tries": 0,
-      "games": 21,
-      "tryRate": 0.0,
+      "tries": 1,
+      "games": 22,
+      "tryRate": 0.0455,
       "team": "Canberra Raiders",
       "position": "Prop"
     },
@@ -1831,36 +1831,36 @@
     },
     "Zac Hosking": {
       "tries": 5,
-      "games": 19,
-      "tryRate": 0.2632,
+      "games": 20,
+      "tryRate": 0.25,
       "team": "Canberra Raiders",
       "position": "2nd Row"
     },
     "Ata Mariota": {
       "tries": 0,
-      "games": 21,
+      "games": 22,
       "tryRate": 0.0,
       "team": "Canberra Raiders",
-      "position": "2nd Row"
+      "position": "Prop"
     },
     "Morgan Smithies": {
       "tries": 0,
-      "games": 21,
+      "games": 22,
       "tryRate": 0.0,
       "team": "Canberra Raiders",
       "position": "Lock"
     },
     "Daine Laurie": {
       "tries": 4,
-      "games": 19,
-      "tryRate": 0.2105,
+      "games": 20,
+      "tryRate": 0.2,
       "team": "Canberra Raiders",
       "position": "Interchange"
     },
     "Jed Stuart": {
-      "tries": 5,
-      "games": 18,
-      "tryRate": 0.2778,
+      "tries": 6,
+      "games": 19,
+      "tryRate": 0.3158,
       "team": "Canberra Raiders",
       "position": "Winger"
     },
@@ -2160,14 +2160,14 @@
     },
     "Matthew Timoko": {
       "tries": 6,
-      "games": 17,
-      "tryRate": 0.3529,
+      "games": 18,
+      "tryRate": 0.3333,
       "team": "Canberra Raiders",
       "position": "Centre"
     },
     "Joe Roddy": {
       "tries": 0,
-      "games": 9,
+      "games": 10,
       "tryRate": 0.0,
       "team": "Canberra Raiders",
       "position": "Interchange"
@@ -2510,15 +2510,15 @@
     },
     "Mawene Hiroti": {
       "tries": 2,
-      "games": 16,
-      "tryRate": 0.125,
+      "games": 17,
+      "tryRate": 0.1176,
       "team": "Cronulla Sutherland Sharks",
       "position": "Centre"
     },
     "Teig Wilton": {
-      "tries": 7,
-      "games": 18,
-      "tryRate": 0.3889,
+      "tries": 8,
+      "games": 19,
+      "tryRate": 0.4211,
       "team": "Cronulla Sutherland Sharks",
       "position": "2nd Row"
     },
@@ -3006,11 +3006,11 @@
       "position": "Reserve"
     },
     "Owen Pattie": {
-      "tries": 2,
-      "games": 13,
-      "tryRate": 0.1538,
+      "tries": 3,
+      "games": 14,
+      "tryRate": 0.2143,
       "team": "Canberra Raiders",
-      "position": "Interchange"
+      "position": "Hooker"
     },
     "Jeremiah Nanai": {
       "tries": 4,
@@ -3021,7 +3021,7 @@
     },
     "Cameron McInnes": {
       "tries": 0,
-      "games": 13,
+      "games": 14,
       "tryRate": 0.0,
       "team": "Cronulla Sutherland Sharks",
       "position": "Lock"
@@ -3203,8 +3203,8 @@
     },
     "Ronaldo Mulitalo": {
       "tries": 10,
-      "games": 11,
-      "tryRate": 0.9091,
+      "games": 12,
+      "tryRate": 0.8333,
       "team": "Cronulla Sutherland Sharks",
       "position": "Winger"
     },
@@ -3322,7 +3322,7 @@
     },
     "Vena Patuki-Case": {
       "tries": 0,
-      "games": 4,
+      "games": 5,
       "tryRate": 0.0,
       "team": "Canberra Raiders",
       "position": "Reserve"
@@ -3539,10 +3539,10 @@
     },
     "Matty Nicholson": {
       "tries": 1,
-      "games": 3,
-      "tryRate": 0.3333,
+      "games": 4,
+      "tryRate": 0.25,
       "team": "Canberra Raiders",
-      "position": "Reserve"
+      "position": "2nd Row"
     },
     "Javon Andrews": {
       "tries": 0,

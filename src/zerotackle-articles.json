@@ -1,14 +1,25 @@
 {
-  "updated": "2026-08-15T06:04:24Z",
+  "updated": "2026-08-15T07:00:36Z",
   "articles": [
     {
-      "title": "LIVE: Sharks vs Raiders – Round 24, 2026",
-      "url": "https://www.zerotackle.com/live-sharks-raiders-round-24-2026-mc10397670-236786/",
+      "title": "FULL TIME: Sharks vs Raiders – Round 24, 2026",
+      "url": "https://www.zerotackle.com/fulltime-sharks-raiders-round-24-2026-mc10397670-236786/",
       "description": "The Cronulla Sharks face the Canberra Raiders in Round 24 of the 2026 NRL season. Follow the live scores, team lists, match statistics and key moments from the game at Ocean Protect Stadium.",
       "date": "Sat, 18 Jul 2026 05:00:00 +0000",
       "teams": [
         "Canberra Raiders",
         "Cronulla Sutherland Sharks"
+      ],
+      "isRound": true
+    },
+    {
+      "title": "Updated Team Lists: Wests Tigers vs Dragons – Round 24, 2026",
+      "url": "https://www.zerotackle.com/updated-team-lists-wests-tigers-vs-dragons-10397674-237020/",
+      "description": "The Wests Tigers and Dragons have cut their squads to 20 ahead of tomorrow's match at CommBank Stadium.",
+      "date": "Sat, 15 Aug 2026 06:04:52 +0000",
+      "teams": [
+        "St George Illawarra Dragons",
+        "Wests Tigers"
       ],
       "isRound": true
     },
@@ -72,16 +83,6 @@
       "date": "Sat, 15 Aug 2026 03:01:34 +0000",
       "teams": [
         "Penrith Panthers"
-      ],
-      "isRound": false
-    },
-    {
-      "title": "Dolphins star sent for scans on hamstring injury",
-      "url": "https://www.zerotackle.com/dolphins-star-set-for-scans-on-hamstring-injury-237002/",
-      "description": "The Dolphins charge into the top four, but nervously await on results for a star forward.",
-      "date": "Sat, 15 Aug 2026 01:21:30 +0000",
-      "teams": [
-        "Dolphins"
       ],
       "isRound": false
     }
