@@ -6,12 +6,12 @@ const NRL_TEAM_DATA = {
   'Brisbane Broncos': {
     emoji: '🐻', shortName: 'Broncos', venue: 'Suncorp Stadium', wikiPage: 'Brisbane_Broncos', logoFile: 'brisbane-broncos.svg',
     players: [
-      { name: "Josiah Karapani",                   pos: "wing",           tryRate: 0.3333 },
-      { name: "Reece Walsh",                       pos: "fullback",       tryRate: 0.4 },
-      { name: "Ezra Mam",                          pos: "five-eighth",    tryRate: 0.3889 },
-      { name: "Kotoni Staggs",                     pos: "centre",         tryRate: 0.4706 },
-      { name: "Xavier Willison",                   pos: "prop",           tryRate: 0.3 },
-      { name: "Jordan Riki",                       pos: "lock",           tryRate: 0.2222 },
+      { name: "Josiah Karapani",                   pos: "wing",           tryRate: 0.3158 },
+      { name: "Reece Walsh",                       pos: "fullback",       tryRate: 0.375 },
+      { name: "Ezra Mam",                          pos: "five-eighth",    tryRate: 0.3684 },
+      { name: "Kotoni Staggs",                     pos: "centre",         tryRate: 0.4444 },
+      { name: "Xavier Willison",                   pos: "prop",           tryRate: 0.3333 },
+      { name: "Jordan Riki",                       pos: "lock",           tryRate: 0.2105 },
     ],
   },
 
@@ -114,11 +114,11 @@ const NRL_TEAM_DATA = {
   'New Zealand Warriors': {
     emoji: '⚔️', shortName: 'Warriors', venue: 'Go Media Stadium', wikiPage: 'New_Zealand_Warriors', logoFile: 'new-zealand-warriors.svg',
     players: [
-      { name: "Dallin Watene-Zelezniak",           pos: "wing",           tryRate: 0.9474 },
-      { name: "Charnze Nicoll-Klokstad",           pos: "fullback",       tryRate: 0.6923 },
-      { name: "Chanel Harris-Tavita",              pos: "five-eighth",    tryRate: 0.3158 },
-      { name: "Alofiana Khan-Pereira",             pos: "wing",           tryRate: 0.9286 },
-      { name: "Leka Halasima",                     pos: "centre",         tryRate: 0.3529 },
+      { name: "Dallin Watene-Zelezniak",           pos: "wing",           tryRate: 0.95 },
+      { name: "Charnze Nicoll-Klokstad",           pos: "fullback",       tryRate: 0.7143 },
+      { name: "Chanel Harris-Tavita",              pos: "five-eighth",    tryRate: 0.35 },
+      { name: "Alofiana Khan-Pereira",             pos: "wing",           tryRate: 0.9333 },
+      { name: "Leka Halasima",                     pos: "centre",         tryRate: 0.3889 },
       { name: "Te Maire Martin",                   pos: "halfback",       tryRate: 0.6 },
     ],
   },

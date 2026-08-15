@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-08-15T11:02:41Z",
+  "updatedAt": "2026-08-15T11:38:18Z",
   "season": 2026,
-  "totalFavRecord": "103-74",
-  "totalLineRecord": "21-25",
-  "totalOuRecord": "22O-24U",
+  "totalFavRecord": "104-74",
+  "totalLineRecord": "22-25",
+  "totalOuRecord": "23O-24U",
   "rounds": [
     {
       "round": 1,
@@ -2846,11 +2846,26 @@
           "ouTotal": 49.5,
           "ouResult": "Over",
           "oddsSourced": true
+        },
+        {
+          "homeTeam": "Brisbane Broncos",
+          "awayTeam": "New Zealand Warriors",
+          "homeScore": 6,
+          "awayScore": 40,
+          "winner": "New Zealand Warriors",
+          "margin": 34,
+          "favourite": "New Zealand Warriors",
+          "favouriteWon": true,
+          "linePoint": 4.5,
+          "lineCovered": true,
+          "ouTotal": 43.5,
+          "ouResult": "Over",
+          "oddsSourced": true
         }
       ],
-      "favRecord": "1-4",
-      "lineRecord": "1-4",
-      "ouRecord": "1O-4U"
+      "favRecord": "2-4",
+      "lineRecord": "2-4",
+      "ouRecord": "2O-4U"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-15T11:02:15.563240+00:00",
+  "generatedAt": "2026-08-15T11:37:55.316293+00:00",
   "round": 24,
   "players": {
     "Kalyn Ponga": {
@@ -801,30 +801,30 @@
       "position": "Reserve"
     },
     "Charnze Nicoll-Klokstad": {
-      "tries": 9,
-      "games": 13,
-      "tryRate": 0.6923,
+      "tries": 10,
+      "games": 14,
+      "tryRate": 0.7143,
       "team": "New Zealand Warriors",
       "position": "Fullback"
     },
     "Dallin Watene-Zelezniak": {
-      "tries": 18,
-      "games": 19,
-      "tryRate": 0.9474,
+      "tries": 19,
+      "games": 20,
+      "tryRate": 0.95,
       "team": "New Zealand Warriors",
       "position": "Winger"
     },
     "Ali Leiataua": {
-      "tries": 4,
-      "games": 17,
-      "tryRate": 0.2353,
+      "tries": 5,
+      "games": 18,
+      "tryRate": 0.2778,
       "team": "New Zealand Warriors",
       "position": "Centre"
     },
     "Adam Pompey": {
       "tries": 3,
-      "games": 15,
-      "tryRate": 0.2,
+      "games": 16,
+      "tryRate": 0.1875,
       "team": "New Zealand Warriors",
       "position": "Reserve"
     },
@@ -836,9 +836,9 @@
       "position": "Centre"
     },
     "Chanel Harris-Tavita": {
-      "tries": 6,
-      "games": 19,
-      "tryRate": 0.3158,
+      "tries": 7,
+      "games": 20,
+      "tryRate": 0.35,
       "team": "New Zealand Warriors",
       "position": "Five-Eighth"
     },
@@ -851,15 +851,15 @@
     },
     "James Fisher-Harris": {
       "tries": 2,
-      "games": 17,
-      "tryRate": 0.1176,
+      "games": 18,
+      "tryRate": 0.1111,
       "team": "New Zealand Warriors",
       "position": "Prop"
     },
     "Wayde Egan": {
       "tries": 2,
-      "games": 20,
-      "tryRate": 0.1,
+      "games": 21,
+      "tryRate": 0.0952,
       "team": "New Zealand Warriors",
       "position": "Hooker"
     },
@@ -872,59 +872,59 @@
     },
     "Kurt Capewell": {
       "tries": 2,
-      "games": 10,
-      "tryRate": 0.2,
+      "games": 11,
+      "tryRate": 0.1818,
       "team": "New Zealand Warriors",
       "position": "2nd Row"
     },
     "Jacob Laban": {
-      "tries": 4,
-      "games": 20,
-      "tryRate": 0.2,
+      "tries": 5,
+      "games": 21,
+      "tryRate": 0.2381,
       "team": "New Zealand Warriors",
       "position": "2nd Row"
     },
     "Erin Clark": {
       "tries": 5,
-      "games": 20,
-      "tryRate": 0.25,
+      "games": 21,
+      "tryRate": 0.2381,
       "team": "New Zealand Warriors",
       "position": "Lock"
     },
     "Sam Healey": {
       "tries": 2,
-      "games": 18,
-      "tryRate": 0.1111,
+      "games": 19,
+      "tryRate": 0.1053,
       "team": "New Zealand Warriors",
       "position": "Interchange"
     },
     "Demitric Vaimauga": {
       "tries": 0,
-      "games": 18,
+      "games": 19,
       "tryRate": 0.0,
       "team": "New Zealand Warriors",
-      "position": "Interchange"
+      "position": "Reserve"
     },
     "Leka Halasima": {
-      "tries": 6,
-      "games": 17,
-      "tryRate": 0.3529,
+      "tries": 7,
+      "games": 18,
+      "tryRate": 0.3889,
       "team": "New Zealand Warriors",
       "position": "Centre"
     },
     "Tanner Stowers-Smith": {
       "tries": 0,
-      "games": 17,
+      "games": 18,
       "tryRate": 0.0,
       "team": "New Zealand Warriors",
       "position": "Interchange"
     },
     "Taine Tuaupiki": {
       "tries": 3,
-      "games": 19,
-      "tryRate": 0.1579,
+      "games": 20,
+      "tryRate": 0.15,
       "team": "New Zealand Warriors",
-      "position": "Reserve"
+      "position": "Interchange"
     },
     "Morgan Gannon": {
       "tries": 0,
@@ -1068,43 +1068,43 @@
     },
     "Reece Walsh": {
       "tries": 6,
-      "games": 15,
-      "tryRate": 0.4,
+      "games": 16,
+      "tryRate": 0.375,
       "team": "Brisbane Broncos",
       "position": "Fullback"
     },
     "Josiah Karapani": {
       "tries": 6,
-      "games": 18,
-      "tryRate": 0.3333,
+      "games": 19,
+      "tryRate": 0.3158,
       "team": "Brisbane Broncos",
       "position": "Winger"
     },
     "Kotoni Staggs": {
       "tries": 8,
-      "games": 17,
-      "tryRate": 0.4706,
+      "games": 18,
+      "tryRate": 0.4444,
       "team": "Brisbane Broncos",
       "position": "Centre"
     },
     "Gehamat Shibasaki": {
       "tries": 3,
-      "games": 17,
-      "tryRate": 0.1765,
+      "games": 18,
+      "tryRate": 0.1667,
       "team": "Brisbane Broncos",
       "position": "Interchange"
     },
     "Deine Mariner": {
       "tries": 4,
-      "games": 14,
-      "tryRate": 0.2857,
+      "games": 15,
+      "tryRate": 0.2667,
       "team": "Brisbane Broncos",
       "position": "Centre"
     },
     "Ezra Mam": {
       "tries": 7,
-      "games": 18,
-      "tryRate": 0.3889,
+      "games": 19,
+      "tryRate": 0.3684,
       "team": "Brisbane Broncos",
       "position": "Five-Eighth"
     },
@@ -1131,43 +1131,43 @@
     },
     "Payne Haas": {
       "tries": 1,
-      "games": 13,
-      "tryRate": 0.0769,
+      "games": 14,
+      "tryRate": 0.0714,
       "team": "Brisbane Broncos",
       "position": "Prop"
     },
     "Jack Gosiewski": {
       "tries": 0,
-      "games": 11,
+      "games": 12,
       "tryRate": 0.0,
       "team": "Brisbane Broncos",
-      "position": "Reserve"
+      "position": "Interchange"
     },
     "Jordan Riki": {
       "tries": 4,
-      "games": 18,
-      "tryRate": 0.2222,
+      "games": 19,
+      "tryRate": 0.2105,
       "team": "Brisbane Broncos",
       "position": "2nd Row"
     },
     "Patrick Carrigan": {
       "tries": 1,
-      "games": 14,
-      "tryRate": 0.0714,
+      "games": 15,
+      "tryRate": 0.0667,
       "team": "Brisbane Broncos",
       "position": "Lock"
     },
     "Ben Hunt": {
       "tries": 0,
-      "games": 16,
+      "games": 17,
       "tryRate": 0.0,
       "team": "Brisbane Broncos",
       "position": "Reserve"
     },
     "Xavier Willison": {
-      "tries": 6,
-      "games": 20,
-      "tryRate": 0.3,
+      "tries": 7,
+      "games": 21,
+      "tryRate": 0.3333,
       "team": "Brisbane Broncos",
       "position": "Prop"
     },
@@ -1180,21 +1180,21 @@
     },
     "Aublix Tawha": {
       "tries": 0,
-      "games": 12,
+      "games": 13,
       "tryRate": 0.0,
       "team": "Brisbane Broncos",
       "position": "Interchange"
     },
     "Grant Anderson": {
       "tries": 2,
-      "games": 13,
-      "tryRate": 0.1538,
+      "games": 14,
+      "tryRate": 0.1429,
       "team": "Brisbane Broncos",
       "position": "Winger"
     },
     "Jaiyden Hunt": {
       "tries": 0,
-      "games": 11,
+      "games": 12,
       "tryRate": 0.0,
       "team": "Brisbane Broncos",
       "position": "2nd Row"
@@ -2153,8 +2153,8 @@
     },
     "Eddie Ieremia-Toeava": {
       "tries": 1,
-      "games": 13,
-      "tryRate": 0.0769,
+      "games": 14,
+      "tryRate": 0.0714,
       "team": "New Zealand Warriors",
       "position": "Interchange"
     },
@@ -2461,7 +2461,7 @@
     },
     "Blake Mozer": {
       "tries": 0,
-      "games": 5,
+      "games": 6,
       "tryRate": 0.0,
       "team": "Brisbane Broncos",
       "position": "Interchange"
@@ -2495,15 +2495,15 @@
       "position": "Interchange"
     },
     "Alofiana Khan-Pereira": {
-      "tries": 13,
-      "games": 14,
-      "tryRate": 0.9286,
+      "tries": 14,
+      "games": 15,
+      "tryRate": 0.9333,
       "team": "New Zealand Warriors",
       "position": "Winger"
     },
     "Mitchell Barnett": {
       "tries": 0,
-      "games": 11,
+      "games": 12,
       "tryRate": 0.0,
       "team": "New Zealand Warriors",
       "position": "Prop"
@@ -2594,8 +2594,8 @@
     },
     "Luke Metcalf": {
       "tries": 2,
-      "games": 9,
-      "tryRate": 0.2222,
+      "games": 10,
+      "tryRate": 0.2,
       "team": "New Zealand Warriors",
       "position": "Halfback"
     },
@@ -2615,10 +2615,10 @@
     },
     "Va'a Semu": {
       "tries": 0,
-      "games": 13,
+      "games": 14,
       "tryRate": 0.0,
       "team": "Brisbane Broncos",
-      "position": "Interchange"
+      "position": "Reserve"
     },
     "Francis Molo": {
       "tries": 0,
@@ -2790,8 +2790,8 @@
     },
     "Thomas Duffy": {
       "tries": 1,
-      "games": 12,
-      "tryRate": 0.0833,
+      "games": 13,
+      "tryRate": 0.0769,
       "team": "Brisbane Broncos",
       "position": "Halfback"
     },
@@ -3553,7 +3553,7 @@
     },
     "Billy Walters": {
       "tries": 0,
-      "games": 3,
+      "games": 4,
       "tryRate": 0.0,
       "team": "Brisbane Broncos",
       "position": "Hooker"
