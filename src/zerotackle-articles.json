@@ -1,9 +1,20 @@
 {
-  "updated": "2026-08-15T09:32:39Z",
+  "updated": "2026-08-15T10:01:29Z",
   "articles": [
     {
-      "title": "LIVE: Eels vs Cowboys – Round 24, 2026",
-      "url": "https://www.zerotackle.com/live-eels-cowboys-round-24-2026-mc10397671-236784/",
+      "title": "LIVE: Broncos vs Warriors – Round 24, 2026",
+      "url": "https://www.zerotackle.com/live-broncos-warriors-round-24-2026-mc10397672-236782/",
+      "description": "The Brisbane Broncos face the New Zealand Warriors in Round 24 of the 2026 NRL season. Follow the live scores, team lists, match statistics and key moments from the game at Suncorp Stadium.",
+      "date": "Sat, 18 Jul 2026 09:30:00 +0000",
+      "teams": [
+        "Brisbane Broncos",
+        "New Zealand Warriors"
+      ],
+      "isRound": true
+    },
+    {
+      "title": "FULL TIME: Eels vs Cowboys – Round 24, 2026",
+      "url": "https://www.zerotackle.com/fulltime-eels-cowboys-round-24-2026-mc10397671-236784/",
       "description": "The Parramatta Eels face the North Queensland Cowboys in Round 24 of the 2026 NRL season. Follow the live scores, team lists, match statistics and key moments from the game at CommBank Stadium.",
       "date": "Sat, 18 Jul 2026 07:30:00 +0000",
       "teams": [
@@ -94,17 +105,6 @@
       "teams": [
         "Newcastle Knights",
         "Gold Coast Titans"
-      ],
-      "isRound": true
-    },
-    {
-      "title": "FINAL TEAMS: Sharks vs Raiders – Round 24, 2026",
-      "url": "https://www.zerotackle.com/updated-team-lists-sharks-raiders-10397670-236977/",
-      "description": "LATE MAIL: The Sharks and Raiders have confirmed their lineups for the match at Ocean Protect Stadium.",
-      "date": "Sat, 15 Aug 2026 03:29:57 +0000",
-      "teams": [
-        "Canberra Raiders",
-        "Cronulla Sutherland Sharks"
       ],
       "isRound": true
     }
