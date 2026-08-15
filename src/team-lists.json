@@ -1,13 +1,7 @@
 {
-  "generatedAt": "2026-08-15T04:39:10.823105+00:00",
+  "generatedAt": "2026-08-15T05:05:13.687804+00:00",
   "round": 24,
   "games": [
-    {
-      "matchCentreUrl": "/draw/nrl-premiership/2026/round-24/sharks-v-raiders/",
-      "kickoff": "2026-08-15T05:00:00Z",
-      "homeTeam": "Cronulla Sutherland Sharks",
-      "awayTeam": "Canberra Raiders"
-    },
     {
       "matchCentreUrl": "/draw/nrl-premiership/2026/round-24/eels-v-cowboys/",
       "kickoff": "2026-08-15T07:30:00Z",
@@ -34,238 +28,6 @@
     }
   ],
   "teams": {
-    "Cronulla Sutherland Sharks": [
-      {
-        "number": 1,
-        "name": "William Kennedy",
-        "position": "Fullback",
-        "category": "starting"
-      },
-      {
-        "number": 2,
-        "name": "Sione Katoa",
-        "position": "Winger",
-        "category": "starting"
-      },
-      {
-        "number": 3,
-        "name": "Mawene Hiroti",
-        "position": "Centre",
-        "category": "starting"
-      },
-      {
-        "number": 4,
-        "name": "KL Iro",
-        "position": "Centre",
-        "category": "starting"
-      },
-      {
-        "number": 5,
-        "name": "Ronaldo Mulitalo",
-        "position": "Winger",
-        "category": "starting"
-      },
-      {
-        "number": 6,
-        "name": "Braydon Trindall",
-        "position": "Five-Eighth",
-        "category": "starting"
-      },
-      {
-        "number": 7,
-        "name": "Nicho Hynes",
-        "position": "Halfback",
-        "category": "starting"
-      },
-      {
-        "number": 8,
-        "name": "Oregon Kaufusi",
-        "position": "Prop",
-        "category": "starting"
-      },
-      {
-        "number": 9,
-        "name": "Blayke Brailey",
-        "position": "Hooker",
-        "category": "starting"
-      },
-      {
-        "number": 10,
-        "name": "Jesse Colquhoun",
-        "position": "Prop",
-        "category": "starting"
-      },
-      {
-        "number": 11,
-        "name": "Briton Nikora",
-        "position": "2nd Row",
-        "category": "starting"
-      },
-      {
-        "number": 12,
-        "name": "Teig Wilton",
-        "position": "2nd Row",
-        "category": "starting"
-      },
-      {
-        "number": 13,
-        "name": "Cameron McInnes",
-        "position": "Lock",
-        "category": "starting"
-      },
-      {
-        "number": 14,
-        "name": "Hohepa Puru",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
-        "number": 15,
-        "name": "Billy Burns",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
-        "number": 16,
-        "name": "Siosifa Talakai",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
-        "number": 17,
-        "name": "Thomas Hazelton",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
-        "number": 19,
-        "name": "Braden Uele",
-        "position": "Interchange",
-        "category": "reserve"
-      },
-      {
-        "number": 21,
-        "name": "Samuel Stonestreet",
-        "position": "Interchange",
-        "category": "reserve"
-      }
-    ],
-    "Canberra Raiders": [
-      {
-        "number": 1,
-        "name": "Kaeo Weekes",
-        "position": "Fullback",
-        "category": "starting"
-      },
-      {
-        "number": 2,
-        "name": "Jed Stuart",
-        "position": "Winger",
-        "category": "starting"
-      },
-      {
-        "number": 3,
-        "name": "Savelio Tamale",
-        "position": "Centre",
-        "category": "starting"
-      },
-      {
-        "number": 4,
-        "name": "Matthew Timoko",
-        "position": "Centre",
-        "category": "starting"
-      },
-      {
-        "number": 5,
-        "name": "Xavier Savage",
-        "position": "Winger",
-        "category": "starting"
-      },
-      {
-        "number": 6,
-        "name": "Ethan Strange",
-        "position": "Five-Eighth",
-        "category": "starting"
-      },
-      {
-        "number": 7,
-        "name": "Ethan Sanders",
-        "position": "Halfback",
-        "category": "starting"
-      },
-      {
-        "number": 8,
-        "name": "Ata Mariota",
-        "position": "Prop",
-        "category": "starting"
-      },
-      {
-        "number": 9,
-        "name": "Owen Pattie",
-        "position": "Hooker",
-        "category": "starting"
-      },
-      {
-        "number": 10,
-        "name": "Joseph Tapine",
-        "position": "Prop",
-        "category": "starting"
-      },
-      {
-        "number": 11,
-        "name": "Zac Hosking",
-        "position": "2nd Row",
-        "category": "starting"
-      },
-      {
-        "number": 12,
-        "name": "Matty Nicholson",
-        "position": "2nd Row",
-        "category": "starting"
-      },
-      {
-        "number": 13,
-        "name": "Morgan Smithies",
-        "position": "Lock",
-        "category": "starting"
-      },
-      {
-        "number": 14,
-        "name": "Tom Starling",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
-        "number": 15,
-        "name": "Joe Roddy",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
-        "number": 16,
-        "name": "Josh Papalii",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
-        "number": 17,
-        "name": "Daine Laurie",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
-        "number": 18,
-        "name": "Vena Patuki-Case",
-        "position": "Interchange",
-        "category": "reserve"
-      },
-      {
-        "number": 19,
-        "name": "Sebastian Kris",
-        "position": "Interchange",
-        "category": "reserve"
-      }
-    ],
     "Parramatta Eels": [
       {
         "number": 1,
@@ -1421,6 +1183,13 @@
       }
     ],
     "Newcastle Knights": [
+      {
+        "name": "Bradman Best",
+        "injury": "Calf",
+        "expectedReturn": "Round 25",
+        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500003/Bradman%20Best%20_260129_Knights_MK222.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/knights/bradman-best/"
+      },
       {
         "name": "Jacob Saifiti",
         "injury": "Hamstring",
