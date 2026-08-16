@@ -1,13 +1,7 @@
 {
-  "generatedAt": "2026-08-15T12:56:20.470323+00:00",
+  "generatedAt": "2026-08-16T04:28:45.279992+00:00",
   "round": 24,
   "games": [
-    {
-      "matchCentreUrl": "/draw/nrl-premiership/2026/round-24/knights-v-titans/",
-      "kickoff": "2026-08-16T04:00:00Z",
-      "homeTeam": "Newcastle Knights",
-      "awayTeam": "Gold Coast Titans"
-    },
     {
       "matchCentreUrl": "/draw/nrl-premiership/2026/round-24/wests-tigers-v-dragons/",
       "kickoff": "2026-08-16T06:05:00Z",
@@ -16,250 +10,6 @@
     }
   ],
   "teams": {
-    "Newcastle Knights": [
-      {
-        "number": 1,
-        "name": "Kalyn Ponga",
-        "position": "Fullback",
-        "category": "starting"
-      },
-      {
-        "number": 2,
-        "name": "Dominic Young",
-        "position": "Winger",
-        "category": "starting"
-      },
-      {
-        "number": 3,
-        "name": "Dane Gagai",
-        "position": "Centre",
-        "category": "starting"
-      },
-      {
-        "number": 5,
-        "name": "Greg Marzhew",
-        "position": "Winger",
-        "category": "starting"
-      },
-      {
-        "number": 6,
-        "name": "Fletcher Sharpe",
-        "position": "Five-Eighth",
-        "category": "starting"
-      },
-      {
-        "number": 7,
-        "name": "Sandon Smith",
-        "position": "Halfback",
-        "category": "starting"
-      },
-      {
-        "number": 8,
-        "name": "Cody Hopwood",
-        "position": "Prop",
-        "category": "starting"
-      },
-      {
-        "number": 9,
-        "name": "Phoenix Crossland",
-        "position": "Hooker",
-        "category": "starting"
-      },
-      {
-        "number": 10,
-        "name": "Trey Mooney",
-        "position": "Prop",
-        "category": "starting"
-      },
-      {
-        "number": 11,
-        "name": "Jermaine McEwen",
-        "position": "2nd Row",
-        "category": "starting"
-      },
-      {
-        "number": 12,
-        "name": "Francis Manuleleua",
-        "position": "2nd Row",
-        "category": "starting"
-      },
-      {
-        "number": 13,
-        "name": "Mat Croker",
-        "position": "Lock",
-        "category": "starting"
-      },
-      {
-        "number": 14,
-        "name": "Harrison Graham",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
-        "number": 15,
-        "name": "Tyson Frizell",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
-        "number": 16,
-        "name": "Lachlan Crouch",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
-        "number": 17,
-        "name": "Thomas Cant",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
-        "number": 18,
-        "name": "Fletcher Hunt",
-        "position": "Centre",
-        "category": "reserve"
-      },
-      {
-        "number": 19,
-        "name": "Pasami Saulo",
-        "position": "Interchange",
-        "category": "reserve"
-      },
-      {
-        "number": 21,
-        "name": "Diesel Hagan",
-        "position": "Reserve",
-        "category": "reserve"
-      },
-      {
-        "number": 22,
-        "name": "Toby Winter",
-        "position": "Interchange",
-        "category": "reserve"
-      }
-    ],
-    "Gold Coast Titans": [
-      {
-        "number": 1,
-        "name": "Keano Kini",
-        "position": "Fullback",
-        "category": "starting"
-      },
-      {
-        "number": 2,
-        "name": "Dean Ieremia",
-        "position": "Winger",
-        "category": "starting"
-      },
-      {
-        "number": 3,
-        "name": "Jojo Fifita",
-        "position": "Centre",
-        "category": "starting"
-      },
-      {
-        "number": 4,
-        "name": "AJ Brimson",
-        "position": "Centre",
-        "category": "starting"
-      },
-      {
-        "number": 5,
-        "name": "Phillip Sami",
-        "position": "Winger",
-        "category": "starting"
-      },
-      {
-        "number": 6,
-        "name": "Jayden Campbell",
-        "position": "Five-Eighth",
-        "category": "starting"
-      },
-      {
-        "number": 7,
-        "name": "Lachlan Ilias",
-        "position": "Halfback",
-        "category": "starting"
-      },
-      {
-        "number": 8,
-        "name": "Moeaki Fotuaika",
-        "position": "Prop",
-        "category": "starting"
-      },
-      {
-        "number": 9,
-        "name": "Oliver Pascoe",
-        "position": "Hooker",
-        "category": "starting"
-      },
-      {
-        "number": 10,
-        "name": "Tino Fa'asuamaleaui",
-        "position": "Prop",
-        "category": "starting"
-      },
-      {
-        "number": 11,
-        "name": "Josh Patston",
-        "position": "2nd Row",
-        "category": "starting"
-      },
-      {
-        "number": 12,
-        "name": "Beau Fermor",
-        "position": "2nd Row",
-        "category": "starting"
-      },
-      {
-        "number": 13,
-        "name": "Chris Randall",
-        "position": "Lock",
-        "category": "starting"
-      },
-      {
-        "number": 14,
-        "name": "Kurtis Morrin",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
-        "number": 15,
-        "name": "Klese Haas",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
-        "number": 16,
-        "name": "Cooper Bai",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
-        "number": 17,
-        "name": "Bodhi Sharpley",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
-        "number": 18,
-        "name": "Sam Verrills",
-        "position": "Interchange",
-        "category": "reserve"
-      },
-      {
-        "number": 19,
-        "name": "Jaylan De Groot",
-        "position": "Interchange",
-        "category": "reserve"
-      },
-      {
-        "number": 21,
-        "name": "Siale Faeamani",
-        "position": "Reserve",
-        "category": "reserve"
-      }
-    ],
     "Wests Tigers": [
       {
         "number": 1,
@@ -982,6 +732,13 @@
         "expectedReturn": "TBC",
         "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500004/GRAY%2C%20Brock-%20Bodyshot.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/titans/brock-gray/"
+      },
+      {
+        "name": "Dean Ieremia",
+        "injury": "Hamstring",
+        "expectedReturn": "TBC",
+        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500004/IREMIA%2C%20Dean-%20Bodyshot.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/titans/dean-ieremia/"
       },
       {
         "name": "Zane Harrison",
