@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-16T04:28:46Z",
+  "updated": "2026-08-16T05:02:17Z",
   "articles": [
     {
       "title": "LIVE: Knights vs Titans – Round 24, 2026",
@@ -9,6 +9,17 @@
       "teams": [
         "Newcastle Knights",
         "Gold Coast Titans"
+      ],
+      "isRound": true
+    },
+    {
+      "title": "FINAL TEAMS: Wests Tigers vs Dragons – Round 24, 2026",
+      "url": "https://www.zerotackle.com/updated-team-lists-wests-tigers-dragons-10397674-237020/",
+      "description": "LATE MAIL: The Wests Tigers and Dragons have confirmed their lineups for the match at CommBank Stadium.",
+      "date": "Sun, 16 Aug 2026 04:34:57 +0000",
+      "teams": [
+        "St George Illawarra Dragons",
+        "Wests Tigers"
       ],
       "isRound": true
     },
@@ -60,16 +71,6 @@
       "date": "Sat, 15 Aug 2026 23:15:17 +0000",
       "teams": [
         "Brisbane Broncos"
-      ],
-      "isRound": false
-    },
-    {
-      "title": "The rising Cook Island stars ready to unleash in the World Cup",
-      "url": "https://www.zerotackle.com/the-rising-cook-island-stars-ready-to-unleash-in-the-world-cup-236892/",
-      "description": "&#8220;The Panthers youngster to look out or in this years World Cup&#8221;",
-      "date": "Sat, 15 Aug 2026 21:49:07 +0000",
-      "teams": [
-        "Penrith Panthers"
       ],
       "isRound": false
     }

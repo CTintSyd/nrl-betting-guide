@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T04:28:45.279992+00:00",
+  "generatedAt": "2026-08-16T05:02:16.045542+00:00",
   "round": 24,
   "games": [
     {
@@ -84,12 +84,6 @@
         "category": "starting"
       },
       {
-        "number": 13,
-        "name": "Alex Twal",
-        "position": "Lock",
-        "category": "starting"
-      },
-      {
         "number": 14,
         "name": "Heath Mason",
         "position": "Interchange",
@@ -98,7 +92,7 @@
       {
         "number": 15,
         "name": "Sione Fainu",
-        "position": "Interchange",
+        "position": "Lock",
         "category": "interchange"
       },
       {
@@ -126,9 +120,9 @@
         "category": "reserve"
       },
       {
-        "number": 21,
+        "number": 20,
         "name": "Javon Andrews",
-        "position": "Reserve",
+        "position": "Interchange",
         "category": "reserve"
       }
     ],
@@ -136,7 +130,7 @@
       {
         "number": 2,
         "name": "Setu Tu",
-        "position": "Winger",
+        "position": "Interchange",
         "category": "starting"
       },
       {
@@ -178,7 +172,7 @@
       {
         "number": 9,
         "name": "Damien Cook",
-        "position": "Hooker",
+        "position": "Interchange",
         "category": "starting"
       },
       {
@@ -208,7 +202,7 @@
       {
         "number": 14,
         "name": "Jacob Liddle",
-        "position": "Interchange",
+        "position": "Hooker",
         "category": "interchange"
       },
       {
@@ -232,19 +226,13 @@
       {
         "number": 18,
         "name": "Daniel Atkinson",
-        "position": "Interchange",
+        "position": "Winger",
         "category": "reserve"
       },
       {
         "number": 19,
         "name": "Mathew Feagai",
         "position": "Fullback",
-        "category": "reserve"
-      },
-      {
-        "number": 20,
-        "name": "Josh Kerr",
-        "position": "Reserve",
         "category": "reserve"
       },
       {
