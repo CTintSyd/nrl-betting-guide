@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-16T03:37:58.351Z",
-  "quotaRemaining": 146,
+  "updated": "2026-08-16T06:19:34.685Z",
+  "quotaRemaining": 143,
   "round": 24,
   "venueOverride": {
     "venue": "Suncorp Stadium",
@@ -8,106 +8,54 @@
   },
   "games": [
     {
-      "id": "2394a3ca21c477463477e17c2341bf9b",
-      "homeTeam": "Newcastle Knights",
-      "awayTeam": "Gold Coast Titans",
-      "commenceTime": "2026-08-16T04:00:00Z",
-      "bookmaker": "sportsbet",
-      "h2h": {
-        "home": 1.28,
-        "away": 3.73
-      },
-      "line": {
-        "home": {
-          "odd": 1.91,
-          "point": -11.5
-        },
-        "away": {
-          "odd": 1.91,
-          "point": 11.5
-        }
-      },
-      "ou": {
-        "total": 49.5,
-        "overOdd": 1.84,
-        "underOdd": 1.98
-      },
-      "bookmakerComparison": [
-        {
-          "key": "sportsbet",
-          "name": "Sportsbet",
-          "home": 1.28,
-          "away": 3.73
-        },
-        {
-          "key": "tab",
-          "name": "TAB",
-          "home": 1.24,
-          "away": 4.1
-        },
-        {
-          "key": "betright",
-          "name": "BetRight",
-          "home": 1.27,
-          "away": 3.8
-        },
-        {
-          "key": "ladbrokes_au",
-          "name": "Ladbrokes",
-          "home": 1.25,
-          "away": 4
-        }
-      ]
-    },
-    {
       "id": "8db3fa2c656db68fa6184ed404b65806",
       "homeTeam": "Wests Tigers",
       "awayTeam": "St George Illawarra Dragons",
-      "commenceTime": "2026-08-16T06:05:00Z",
+      "commenceTime": "2026-08-16T06:06:00Z",
       "bookmaker": "sportsbet",
       "h2h": {
-        "home": 1.75,
-        "away": 2.1
+        "home": 1.67,
+        "away": 2.12
       },
       "line": {
         "home": {
-          "odd": 1.85,
+          "odd": 1.81,
           "point": -1.5
         },
         "away": {
-          "odd": 1.95,
+          "odd": 2,
           "point": 1.5
         }
       },
       "ou": {
-        "total": 47.5,
-        "overOdd": 1.89,
-        "underOdd": 1.91
+        "total": 38.5,
+        "overOdd": 1.95,
+        "underOdd": 1.85
       },
       "bookmakerComparison": [
         {
           "key": "sportsbet",
           "name": "Sportsbet",
-          "home": 1.75,
-          "away": 2.1
+          "home": 1.67,
+          "away": 2.12
         },
         {
           "key": "tab",
           "name": "TAB",
-          "home": 1.74,
-          "away": 2.1
+          "home": 1.75,
+          "away": 2.05
         },
         {
           "key": "betright",
           "name": "BetRight",
-          "home": 1.88,
-          "away": 1.92
+          "home": 1.87,
+          "away": 1.93
         },
         {
           "key": "ladbrokes_au",
           "name": "Ladbrokes",
-          "home": 1.87,
-          "away": 1.95
+          "home": 1.8,
+          "away": 2.02
         }
       ]
     },
@@ -170,42 +118,42 @@
       "commenceTime": "2026-08-21T08:00:00Z",
       "bookmaker": "sportsbet",
       "h2h": {
-        "home": 1.51,
-        "away": 2.58
+        "home": 1.44,
+        "away": 2.81
       },
       "line": {
         "home": {
-          "odd": 1.87,
-          "point": -5.5
+          "odd": 1.9,
+          "point": -6.5
         },
         "away": {
-          "odd": 1.93,
-          "point": 5.5
+          "odd": 1.9,
+          "point": 6.5
         }
       },
       "ou": {
         "total": 51.5,
-        "overOdd": 1.89,
-        "underOdd": 1.91
+        "overOdd": 1.9,
+        "underOdd": 1.9
       },
       "bookmakerComparison": [
         {
           "key": "sportsbet",
           "name": "Sportsbet",
-          "home": 1.51,
-          "away": 2.58
+          "home": 1.44,
+          "away": 2.81
         },
         {
           "key": "tab",
           "name": "TAB",
-          "home": 1.52,
-          "away": 2.5
+          "home": 1.48,
+          "away": 2.6
         },
         {
           "key": "ladbrokes_au",
           "name": "Ladbrokes",
-          "home": 1.5,
-          "away": 2.6
+          "home": 1.46,
+          "away": 2.75
         },
         {
           "key": "pointsbetau",
