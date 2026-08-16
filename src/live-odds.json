@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-15T21:10:11.340Z",
-  "quotaRemaining": 152,
+  "updated": "2026-08-16T00:34:54.042Z",
+  "quotaRemaining": 149,
   "round": 24,
   "venueOverride": {
     "venue": "Suncorp Stadium",
@@ -94,14 +94,14 @@
         {
           "key": "tab",
           "name": "TAB",
-          "home": 1.85,
-          "away": 1.95
+          "home": 1.8,
+          "away": 2
         },
         {
           "key": "betright",
           "name": "BetRight",
-          "home": 1.85,
-          "away": 1.95
+          "home": 1.92,
+          "away": 1.88
         },
         {
           "key": "ladbrokes_au",
@@ -196,10 +196,22 @@
           "away": 2.56
         },
         {
+          "key": "tab",
+          "name": "TAB",
+          "home": 1.53,
+          "away": 2.45
+        },
+        {
+          "key": "ladbrokes_au",
+          "name": "Ladbrokes",
+          "home": 1.5,
+          "away": 2.6
+        },
+        {
           "key": "pointsbetau",
           "name": "PointsBet",
-          "home": 1.65,
-          "away": 2.2
+          "home": 1.55,
+          "away": 2.45
         }
       ]
     },
@@ -238,8 +250,14 @@
         {
           "key": "tab",
           "name": "TAB",
-          "home": 1.22,
-          "away": 4.25
+          "home": 1.28,
+          "away": 3.6
+        },
+        {
+          "key": "ladbrokes_au",
+          "name": "Ladbrokes",
+          "home": 1.25,
+          "away": 4
         },
         {
           "key": "pointsbetau",
@@ -332,6 +350,18 @@
           "name": "Sportsbet",
           "home": 2.29,
           "away": 1.63
+        },
+        {
+          "key": "tab",
+          "name": "TAB",
+          "home": 2.2,
+          "away": 1.65
+        },
+        {
+          "key": "ladbrokes_au",
+          "name": "Ladbrokes",
+          "home": 2.3,
+          "away": 1.64
         },
         {
           "key": "pointsbetau",
@@ -429,6 +459,12 @@
           "key": "tab",
           "name": "TAB",
           "home": 2.55,
+          "away": 1.5
+        },
+        {
+          "key": "ladbrokes_au",
+          "name": "Ladbrokes",
+          "home": 2.6,
           "away": 1.5
         },
         {
