@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-08-16T07:25:11Z",
+  "updatedAt": "2026-08-16T07:54:35Z",
   "season": 2026,
-  "totalFavRecord": "105-74",
-  "totalLineRecord": "23-25",
-  "totalOuRecord": "24O-24U",
+  "totalFavRecord": "105-75",
+  "totalLineRecord": "23-26",
+  "totalOuRecord": "24O-25U",
   "rounds": [
     {
       "round": 1,
@@ -2876,11 +2876,26 @@
           "ouTotal": 49.5,
           "ouResult": "Over",
           "oddsSourced": true
+        },
+        {
+          "homeTeam": "Wests Tigers",
+          "awayTeam": "St George Illawarra Dragons",
+          "homeScore": 22,
+          "awayScore": 24,
+          "winner": "St George Illawarra Dragons",
+          "margin": 2,
+          "favourite": "Wests Tigers",
+          "favouriteWon": false,
+          "linePoint": -2.5,
+          "lineCovered": false,
+          "ouTotal": 47.5,
+          "ouResult": "Under",
+          "oddsSourced": true
         }
       ],
-      "favRecord": "3-4",
-      "lineRecord": "3-4",
-      "ouRecord": "3O-4U"
+      "favRecord": "3-5",
+      "lineRecord": "3-5",
+      "ouRecord": "3O-5U"
     }
   ]
 }

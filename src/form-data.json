@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-16T07:24:52.403339+00:00",
+  "generatedAt": "2026-08-16T07:54:17.162341+00:00",
   "round": 24,
-  "upcomingRound": 24,
+  "upcomingRound": 25,
   "ladder": [
     {
       "pos": 1,
@@ -189,13 +189,13 @@
       "pos": 14,
       "nick": "Wests Tigers",
       "name": "Wests Tigers",
-      "played": 20,
+      "played": 21,
       "wins": 7,
-      "losses": 13,
+      "losses": 14,
       "drawn": 0,
-      "ptsFor": 378,
-      "ptsAgainst": 589,
-      "diff": -211,
+      "ptsFor": 400,
+      "ptsAgainst": 613,
+      "diff": -213,
       "pts": 20,
       "streak": "4L"
     },
@@ -231,14 +231,14 @@
       "pos": 17,
       "nick": "Dragons",
       "name": "St George Illawarra Dragons",
-      "played": 20,
-      "wins": 3,
+      "played": 21,
+      "wins": 4,
       "losses": 17,
       "drawn": 0,
-      "ptsFor": 320,
-      "ptsAgainst": 585,
-      "diff": -265,
-      "pts": 12,
+      "ptsFor": 344,
+      "ptsAgainst": 607,
+      "diff": -263,
+      "pts": 14,
       "streak": "1W"
     }
   ],
@@ -804,7 +804,7 @@
       ]
     },
     "St George Illawarra Dragons": {
-      "last5": "L L L W",
+      "last5": "L L L W W",
       "games": [
         {
           "round": 20,
@@ -833,6 +833,13 @@
           "opponent": "Cronulla Sutherland Sharks",
           "home": true,
           "score": "24\u201316"
+        },
+        {
+          "round": 24,
+          "result": "W",
+          "opponent": "Wests Tigers",
+          "home": false,
+          "score": "22\u201324"
         }
       ]
     },
@@ -877,7 +884,7 @@
       ]
     },
     "Wests Tigers": {
-      "last5": "L L L L",
+      "last5": "L L L L L",
       "games": [
         {
           "round": 19,
@@ -906,6 +913,13 @@
           "opponent": "Parramatta Eels",
           "home": true,
           "score": "13\u201316"
+        },
+        {
+          "round": 24,
+          "result": "L",
+          "opponent": "St George Illawarra Dragons",
+          "home": true,
+          "score": "22\u201324"
         }
       ]
     }
