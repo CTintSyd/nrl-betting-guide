@@ -1,9 +1,31 @@
 {
-  "updated": "2026-08-16T06:01:09Z",
+  "updated": "2026-08-16T06:49:29Z",
   "articles": [
     {
-      "title": "LIVE: Knights vs Titans – Round 24, 2026",
-      "url": "https://www.zerotackle.com/live-knights-titans-round-24-2026-mc10397673-236780/",
+      "title": "LIVE: Wests Tigers vs Dragons – Round 24, 2026",
+      "url": "https://www.zerotackle.com/live-wests-tigers-dragons-round-24-2026-mc10397674-236778/",
+      "description": "The Wests Tigers face the St George Illawarra Dragons in Round 24 of the 2026 NRL season. Follow the live scores, team lists, match statistics and key moments from the game at CommBank Stadium.",
+      "date": "Sun, 19 Jul 2026 06:05:00 +0000",
+      "teams": [
+        "St George Illawarra Dragons",
+        "Wests Tigers"
+      ],
+      "isRound": true
+    },
+    {
+      "title": "Brisbane Broncos provide injury update on Reece Walsh",
+      "url": "https://www.zerotackle.com/brisbane-broncos-provide-injury-update-on-reece-walsh-237052/",
+      "description": "Walsh was injured on Saturday night against the Warriors.",
+      "date": "Sun, 16 Aug 2026 06:33:22 +0000",
+      "teams": [
+        "Brisbane Broncos",
+        "New Zealand Warriors"
+      ],
+      "isRound": false
+    },
+    {
+      "title": "FULL TIME: Knights vs Titans – Round 24, 2026",
+      "url": "https://www.zerotackle.com/fulltime-knights-titans-round-24-2026-mc10397673-236780/",
       "description": "The Newcastle Knights face the Gold Coast Titans in Round 24 of the 2026 NRL season. Follow the live scores, team lists, match statistics and key moments from the game at McDonald Jones Stadium.",
       "date": "Sun, 19 Jul 2026 04:00:00 +0000",
       "teams": [
@@ -41,26 +63,6 @@
       "date": "Sun, 16 Aug 2026 01:54:43 +0000",
       "teams": [
         "Sydney Roosters"
-      ],
-      "isRound": false
-    },
-    {
-      "title": "Payten vs Moses: The call that decided the Eels’ two-point victory",
-      "url": "https://www.zerotackle.com/payten-vs-moses-the-call-that-decided-the-eels-two-point-victory-237036/",
-      "description": "&#8220;I would hate for a big game to be decided by that call.&#8221;",
-      "date": "Sun, 16 Aug 2026 01:02:24 +0000",
-      "teams": [
-        "Parramatta Eels"
-      ],
-      "isRound": false
-    },
-    {
-      "title": "One sentence that made Maguire snap after 34 point loss",
-      "url": "https://www.zerotackle.com/one-sentence-that-made-maguire-snap-after-34-point-loss-237035/",
-      "description": "Broncos have only won one game in 12 weeks.",
-      "date": "Sun, 16 Aug 2026 00:07:02 +0000",
-      "teams": [
-        "Brisbane Broncos"
       ],
       "isRound": false
     }

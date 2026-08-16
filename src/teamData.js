@@ -66,12 +66,12 @@ const NRL_TEAM_DATA = {
   'Gold Coast Titans': {
     emoji: '🌊', shortName: 'Titans', venue: 'Cbus Super Stadium', wikiPage: 'Gold_Coast_Titans', logoFile: 'gold-coast-titans.svg',
     players: [
-      { name: "Phillip Sami",                      pos: "wing",           tryRate: 0.7 },
-      { name: "Keano Kini",                        pos: "fullback",       tryRate: 0.15 },
-      { name: "Jayden Campbell",                   pos: "five-eighth",    tryRate: 0.5 },
-      { name: "Jojo Fifita",                       pos: "centre",         tryRate: 0.3889 },
-      { name: "AJ Brimson",                        pos: "halfback",       tryRate: 0.1667 },
-      { name: "Jaylan De Groot",                   pos: "centre",         tryRate: 0.1429 },
+      { name: "Phillip Sami",                      pos: "wing",           tryRate: 0.6667 },
+      { name: "Keano Kini",                        pos: "fullback",       tryRate: 0.1429 },
+      { name: "Jayden Campbell",                   pos: "five-eighth",    tryRate: 0.5263 },
+      { name: "Jojo Fifita",                       pos: "centre",         tryRate: 0.3684 },
+      { name: "Oliver Pascoe",                     pos: "hooker",         tryRate: 0.2222 },
+      { name: "AJ Brimson",                        pos: "centre",         tryRate: 0.1579 },
     ],
   },
 
@@ -102,12 +102,12 @@ const NRL_TEAM_DATA = {
   'Newcastle Knights': {
     emoji: '⚔️', shortName: 'Knights', venue: 'McDonald Jones Stadium', wikiPage: 'Newcastle_Knights', logoFile: 'newcastle-knights.png',
     players: [
-      { name: "Dominic Young",                     pos: "wing",           tryRate: 0.9048 },
-      { name: "Kalyn Ponga",                       pos: "fullback",       tryRate: 0.4167 },
-      { name: "Fletcher Sharpe",                   pos: "five-eighth",    tryRate: 0.5263 },
-      { name: "Greg Marzhew",                      pos: "wing",           tryRate: 0.95 },
+      { name: "Greg Marzhew",                      pos: "wing",           tryRate: 1.0 },
+      { name: "Kalyn Ponga",                       pos: "fullback",       tryRate: 0.3846 },
+      { name: "Fletcher Sharpe",                   pos: "five-eighth",    tryRate: 0.6 },
+      { name: "Dominic Young",                     pos: "wing",           tryRate: 0.8636 },
       { name: "Dylan Lucas",                       pos: "lock",           tryRate: 0.625 },
-      { name: "Fletcher Hunt",                     pos: "centre",         tryRate: 0.381 },
+      { name: "Fletcher Hunt",                     pos: "centre",         tryRate: 0.4091 },
     ],
   },
 
