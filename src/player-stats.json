@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T10:15:56.693705+00:00",
+  "generatedAt": "2026-08-16T10:43:00.272553+00:00",
   "round": 24,
   "players": {
     "Kalyn Ponga": {
@@ -903,7 +903,7 @@
       "games": 19,
       "tryRate": 0.0,
       "team": "New Zealand Warriors",
-      "position": "Interchange"
+      "position": "Reserve"
     },
     "Leka Halasima": {
       "tries": 7,
@@ -924,7 +924,7 @@
       "games": 20,
       "tryRate": 0.15,
       "team": "New Zealand Warriors",
-      "position": "Reserve"
+      "position": "Interchange"
     },
     "Morgan Gannon": {
       "tries": 0,
@@ -1092,7 +1092,7 @@
       "games": 18,
       "tryRate": 0.1667,
       "team": "Brisbane Broncos",
-      "position": "Reserve"
+      "position": "Interchange"
     },
     "Deine Mariner": {
       "tries": 4,
@@ -1162,7 +1162,7 @@
       "games": 17,
       "tryRate": 0.0,
       "team": "Brisbane Broncos",
-      "position": "Interchange"
+      "position": "Reserve"
     },
     "Xavier Willison": {
       "tries": 7,
@@ -2464,7 +2464,7 @@
       "games": 6,
       "tryRate": 0.0,
       "team": "Brisbane Broncos",
-      "position": "Reserve"
+      "position": "Interchange"
     },
     "Tyson Gamble": {
       "tries": 0,
@@ -2618,7 +2618,7 @@
       "games": 14,
       "tryRate": 0.0,
       "team": "Brisbane Broncos",
-      "position": "Interchange"
+      "position": "Reserve"
     },
     "Francis Molo": {
       "tries": 0,
