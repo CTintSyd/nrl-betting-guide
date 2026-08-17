@@ -1,19 +1,7 @@
 {
-  "updated": "2026-08-15T22:08:38.656Z",
+  "updated": "2026-08-17T12:31:37.156Z",
   "quotaRemaining": null,
   "games": {
-    "Newcastle Knights vs Gold Coast Titans": {
-      "homeTeam": "Newcastle Knights",
-      "awayTeam": "Gold Coast Titans",
-      "available": false,
-      "error": "API 422: {\"message\":\"Invalid markets: player_anytime_try_scorer, player_first_try_scorer\",\"error_code\":\"INVALID_MARKET\",\"details_url\":\"https://the-odds-api.com/liveapi/guides/v4/api-error-codes.html#invalid-market\"}\n"
-    },
-    "Wests Tigers vs St George Illawarra Dragons": {
-      "homeTeam": "Wests Tigers",
-      "awayTeam": "St George Illawarra Dragons",
-      "available": false,
-      "error": "API 422: {\"message\":\"Invalid markets: player_anytime_try_scorer, player_first_try_scorer\",\"error_code\":\"INVALID_MARKET\",\"details_url\":\"https://the-odds-api.com/liveapi/guides/v4/api-error-codes.html#invalid-market\"}\n"
-    },
     "Melbourne Storm vs Penrith Panthers": {
       "homeTeam": "Melbourne Storm",
       "awayTeam": "Penrith Panthers",
