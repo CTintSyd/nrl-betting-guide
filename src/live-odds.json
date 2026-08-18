@@ -1,6 +1,6 @@
 {
-  "updated": "2026-08-18T09:20:12.576Z",
-  "quotaRemaining": 92,
+  "updated": "2026-08-18T12:20:36.693Z",
+  "quotaRemaining": 89,
   "round": 25,
   "venueOverride": {
     "venue": "Suncorp Stadium",
@@ -67,15 +67,15 @@
       "bookmaker": "sportsbet",
       "h2h": {
         "home": 1.31,
-        "away": 3.48
+        "away": 3.5
       },
       "line": {
         "home": {
-          "odd": 1.98,
+          "odd": 1.97,
           "point": -10.5
         },
         "away": {
-          "odd": 1.83,
+          "odd": 1.84,
           "point": 10.5
         }
       },
@@ -89,13 +89,13 @@
           "key": "sportsbet",
           "name": "Sportsbet",
           "home": 1.31,
-          "away": 3.48
+          "away": 3.5
         },
         {
           "key": "tab",
           "name": "TAB",
-          "home": 1.3,
-          "away": 3.5
+          "home": 1.28,
+          "away": 3.7
         },
         {
           "key": "betright",
@@ -198,8 +198,8 @@
         {
           "key": "tab",
           "name": "TAB",
-          "home": 1.45,
-          "away": 2.75
+          "home": 1.43,
+          "away": 2.85
         },
         {
           "key": "betright",
@@ -250,14 +250,14 @@
         {
           "key": "tab",
           "name": "TAB",
-          "home": 2.4,
-          "away": 1.58
+          "home": 2.35,
+          "away": 1.6
         },
         {
           "key": "betright",
           "name": "BetRight",
-          "home": 2.38,
-          "away": 1.58
+          "home": 2.35,
+          "away": 1.6
         },
         {
           "key": "ladbrokes_au",
@@ -393,8 +393,8 @@
       },
       "ou": {
         "total": 51.5,
-        "overOdd": 1.81,
-        "underOdd": 2
+        "overOdd": 1.83,
+        "underOdd": 1.98
       },
       "bookmakerComparison": [
         {
@@ -406,8 +406,8 @@
         {
           "key": "tab",
           "name": "TAB",
-          "home": 1.06,
-          "away": 9
+          "home": 1.05,
+          "away": 10
         },
         {
           "key": "betright",
