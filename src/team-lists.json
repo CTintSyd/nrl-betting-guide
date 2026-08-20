@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T02:53:51.492423+00:00",
+  "generatedAt": "2026-08-20T03:05:46.474926+00:00",
   "round": 25,
   "games": [
     {
@@ -162,21 +162,9 @@
         "category": "reserve"
       },
       {
-        "number": 19,
-        "name": "Manaia Waitere",
-        "position": "Interchange",
-        "category": "reserve"
-      },
-      {
-        "number": 20,
-        "name": "Davvy Moale",
-        "position": "Reserve",
-        "category": "reserve"
-      },
-      {
         "number": 21,
         "name": "Jack Hetherington",
-        "position": "Reserve",
+        "position": "Interchange",
         "category": "reserve"
       },
       {
@@ -302,20 +290,8 @@
         "category": "reserve"
       },
       {
-        "number": 20,
-        "name": "Jaxen Edgar",
-        "position": "Reserve",
-        "category": "reserve"
-      },
-      {
         "number": 21,
         "name": "Luke Garner",
-        "position": "Reserve",
-        "category": "reserve"
-      },
-      {
-        "number": 22,
-        "name": "Jesse McLean",
         "position": "Reserve",
         "category": "reserve"
       }
@@ -2299,13 +2275,6 @@
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/dragons/jaydn-sua/"
       },
       {
-        "name": "Clinton Gutherson",
-        "injury": "Knee",
-        "expectedReturn": "TBC",
-        "imageUrl": "/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500022/Clint%20Gutherson%20_260119_Dragons_MK1077.png?center=0.5%2C0.5",
-        "profileUrl": "https://www.nrl.com/players/nrl-premiership/dragons/clinton-gutherson/"
-      },
-      {
         "name": "Hame Sele",
         "injury": "Achilles",
         "expectedReturn": "TBC",
@@ -2325,6 +2294,13 @@
         "expectedReturn": "Next Season",
         "imageUrl": "/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500022/David%20Fale%20_260119_Dragons_MK873.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/dragons/david-fale/"
+      },
+      {
+        "name": "Clinton Gutherson",
+        "injury": "Knee",
+        "expectedReturn": "Next Season",
+        "imageUrl": "/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500022/Clint%20Gutherson%20_260119_Dragons_MK1077.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/dragons/clinton-gutherson/"
       }
     ],
     "Parramatta Eels": [
