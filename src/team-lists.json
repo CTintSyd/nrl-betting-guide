@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T08:04:35.647709+00:00",
+  "generatedAt": "2026-08-21T08:56:22.091523+00:00",
   "round": 25,
   "games": [
     {
@@ -104,7 +104,7 @@
       {
         "number": 11,
         "name": "Max Plath",
-        "position": "2nd Row",
+        "position": "Interchange",
         "category": "starting"
       },
       {
@@ -140,7 +140,7 @@
       {
         "number": 17,
         "name": "Brian Pouniu",
-        "position": "Interchange",
+        "position": "2nd Row",
         "category": "interchange"
       },
       {
@@ -154,19 +154,13 @@
         "name": "Jake Averillo",
         "position": "Interchange",
         "category": "reserve"
-      },
-      {
-        "number": 20,
-        "name": "Tevita Naufahu",
-        "position": "Reserve",
-        "category": "reserve"
       }
     ],
     "Parramatta Eels": [
       {
         "number": 1,
         "name": "Apa Twidle",
-        "position": "Fullback",
+        "position": "Interchange",
         "category": "starting"
       },
       {
@@ -238,7 +232,7 @@
       {
         "number": 13,
         "name": "Jack De Belin",
-        "position": "Lock",
+        "position": "Interchange",
         "category": "starting"
       },
       {
@@ -250,7 +244,7 @@
       {
         "number": 15,
         "name": "Saxon Pryke",
-        "position": "Interchange",
+        "position": "Lock",
         "category": "interchange"
       },
       {
@@ -268,19 +262,13 @@
       {
         "number": 18,
         "name": "Sean Russell",
-        "position": "Interchange",
+        "position": "Fullback",
         "category": "reserve"
       },
       {
         "number": 19,
         "name": "Kelma Tuilagi",
         "position": "Interchange",
-        "category": "reserve"
-      },
-      {
-        "number": 20,
-        "name": "Araz Nanva",
-        "position": "Reserve",
         "category": "reserve"
       }
     ],

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-21T08:04:36Z",
+  "updated": "2026-08-21T08:56:23Z",
   "articles": [
     {
       "title": "LIVE: Raiders vs Broncos – Round 25, 2026",
@@ -9,6 +9,17 @@
       "teams": [
         "Brisbane Broncos",
         "Canberra Raiders"
+      ],
+      "isRound": true
+    },
+    {
+      "title": "FINAL TEAMS: Dolphins vs Eels – Round 25, 2026",
+      "url": "https://www.zerotackle.com/updated-team-lists-dolphins-eels-10396526-237217/",
+      "description": "LATE MAIL: The Dolphins and Eels have confirmed their lineups for the match at Suncorp Stadium.",
+      "date": "Fri, 21 Aug 2026 08:28:10 +0000",
+      "teams": [
+        "Dolphins",
+        "Parramatta Eels"
       ],
       "isRound": true
     },
@@ -62,16 +73,6 @@
       "date": "Fri, 21 Aug 2026 03:07:25 +0000",
       "teams": [
         "Canberra Raiders"
-      ],
-      "isRound": false
-    },
-    {
-      "title": "Dragons players react to swift Emre Guler departure",
-      "url": "https://www.zerotackle.com/dragons-players-react-to-swift-emre-guler-departure-237198/",
-      "description": "&#8220;That was probably a bit of a shock for us today.&#8221;",
-      "date": "Thu, 20 Aug 2026 22:26:59 +0000",
-      "teams": [
-        "St George Illawarra Dragons"
       ],
       "isRound": false
     }
