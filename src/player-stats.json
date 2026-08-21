@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-20T10:33:31.898796+00:00",
-  "round": 24,
+  "generatedAt": "2026-08-21T04:29:23.876834+00:00",
+  "round": 25,
   "players": {
     "Kalyn Ponga": {
       "tries": 5,
@@ -536,8 +536,8 @@
     },
     "Sualauvi Faalogo": {
       "tries": 16,
-      "games": 21,
-      "tryRate": 0.7619,
+      "games": 22,
+      "tryRate": 0.7273,
       "team": "Melbourne Storm",
       "position": "Fullback"
     },
@@ -549,30 +549,30 @@
       "position": "Winger"
     },
     "Jack Howarth": {
-      "tries": 5,
-      "games": 16,
-      "tryRate": 0.3125,
+      "tries": 6,
+      "games": 17,
+      "tryRate": 0.3529,
       "team": "Melbourne Storm",
       "position": "Centre"
     },
     "Moses Leo": {
       "tries": 11,
-      "games": 14,
-      "tryRate": 0.7857,
+      "games": 15,
+      "tryRate": 0.7333,
       "team": "Melbourne Storm",
       "position": "Winger"
     },
     "Nick Meaney": {
       "tries": 4,
-      "games": 17,
-      "tryRate": 0.2353,
+      "games": 18,
+      "tryRate": 0.2222,
       "team": "Melbourne Storm",
       "position": "Centre"
     },
     "Cameron Munster": {
       "tries": 4,
-      "games": 16,
-      "tryRate": 0.25,
+      "games": 17,
+      "tryRate": 0.2353,
       "team": "Melbourne Storm",
       "position": "Five-Eighth"
     },
@@ -585,31 +585,31 @@
     },
     "Stefano Utoikamanu": {
       "tries": 2,
-      "games": 21,
-      "tryRate": 0.0952,
+      "games": 22,
+      "tryRate": 0.0909,
       "team": "Melbourne Storm",
       "position": "Prop"
     },
     "Harry Grant": {
       "tries": 6,
-      "games": 18,
-      "tryRate": 0.3333,
+      "games": 19,
+      "tryRate": 0.3158,
       "team": "Melbourne Storm",
-      "position": "Interchange"
+      "position": "Hooker"
     },
     "Josh King": {
       "tries": 2,
-      "games": 21,
-      "tryRate": 0.0952,
+      "games": 22,
+      "tryRate": 0.0909,
       "team": "Melbourne Storm",
       "position": "Prop"
     },
     "Joe Chan": {
       "tries": 2,
-      "games": 19,
-      "tryRate": 0.1053,
+      "games": 20,
+      "tryRate": 0.1,
       "team": "Melbourne Storm",
-      "position": "Centre"
+      "position": "Reserve"
     },
     "Ativalu Lisati": {
       "tries": 3,
@@ -620,22 +620,22 @@
     },
     "Alec MacDonald": {
       "tries": 1,
-      "games": 16,
-      "tryRate": 0.0625,
+      "games": 17,
+      "tryRate": 0.0588,
       "team": "Melbourne Storm",
       "position": "Interchange"
     },
     "Tyran Wishart": {
-      "tries": 3,
-      "games": 16,
-      "tryRate": 0.1875,
+      "tries": 4,
+      "games": 17,
+      "tryRate": 0.2353,
       "team": "Melbourne Storm",
-      "position": "Hooker"
+      "position": "Halfback"
     },
     "Cooper Clarke": {
       "tries": 2,
-      "games": 21,
-      "tryRate": 0.0952,
+      "games": 22,
+      "tryRate": 0.0909,
       "team": "Melbourne Storm",
       "position": "Interchange"
     },
@@ -661,9 +661,9 @@
       "position": "Reserve"
     },
     "Siulagi Tuimalatu-Brown": {
-      "tries": 2,
-      "games": 13,
-      "tryRate": 0.1538,
+      "tries": 3,
+      "games": 14,
+      "tryRate": 0.2143,
       "team": "Melbourne Storm",
       "position": "Winger"
     },
@@ -1201,8 +1201,8 @@
     },
     "Dylan Edwards": {
       "tries": 10,
-      "games": 18,
-      "tryRate": 0.5556,
+      "games": 19,
+      "tryRate": 0.5263,
       "team": "Penrith Panthers",
       "position": "Fullback"
     },
@@ -1215,22 +1215,22 @@
     },
     "Izack Tago": {
       "tries": 3,
-      "games": 21,
-      "tryRate": 0.1429,
+      "games": 22,
+      "tryRate": 0.1364,
       "team": "Penrith Panthers",
       "position": "Centre"
     },
     "Casey McLean": {
       "tries": 7,
-      "games": 15,
-      "tryRate": 0.4667,
+      "games": 16,
+      "tryRate": 0.4375,
       "team": "Penrith Panthers",
       "position": "Centre"
     },
     "Brian To'o": {
-      "tries": 11,
-      "games": 19,
-      "tryRate": 0.5789,
+      "tries": 14,
+      "games": 20,
+      "tryRate": 0.7,
       "team": "Penrith Panthers",
       "position": "Winger"
     },
@@ -1243,15 +1243,15 @@
     },
     "Nathan Cleary": {
       "tries": 6,
-      "games": 18,
-      "tryRate": 0.3333,
+      "games": 19,
+      "tryRate": 0.3158,
       "team": "Penrith Panthers",
       "position": "Halfback"
     },
     "Moses Leota": {
       "tries": 1,
-      "games": 21,
-      "tryRate": 0.0476,
+      "games": 22,
+      "tryRate": 0.0455,
       "team": "Penrith Panthers",
       "position": "Prop"
     },
@@ -1264,22 +1264,22 @@
     },
     "Lindsay Smith": {
       "tries": 3,
-      "games": 21,
-      "tryRate": 0.1429,
+      "games": 22,
+      "tryRate": 0.1364,
       "team": "Penrith Panthers",
       "position": "Lock"
     },
     "Scott Sorensen": {
       "tries": 0,
-      "games": 21,
+      "games": 22,
       "tryRate": 0.0,
       "team": "Penrith Panthers",
       "position": "Interchange"
     },
     "Luke Garner": {
       "tries": 3,
-      "games": 15,
-      "tryRate": 0.2,
+      "games": 16,
+      "tryRate": 0.1875,
       "team": "Penrith Panthers",
       "position": "Interchange"
     },
@@ -1292,15 +1292,15 @@
     },
     "Jack Cogger": {
       "tries": 1,
-      "games": 15,
-      "tryRate": 0.0667,
+      "games": 16,
+      "tryRate": 0.0625,
       "team": "Penrith Panthers",
       "position": "Five-Eighth"
     },
     "Isaiah Papali'i": {
       "tries": 3,
-      "games": 20,
-      "tryRate": 0.15,
+      "games": 21,
+      "tryRate": 0.1429,
       "team": "Penrith Panthers",
       "position": "2nd Row"
     },
@@ -1313,22 +1313,22 @@
     },
     "Thomas Jenkins": {
       "tries": 28,
-      "games": 21,
-      "tryRate": 1.3333,
+      "games": 22,
+      "tryRate": 1.2727,
       "team": "Penrith Panthers",
       "position": "Winger"
     },
     "Freddy Lussick": {
       "tries": 4,
-      "games": 21,
-      "tryRate": 0.1905,
+      "games": 22,
+      "tryRate": 0.1818,
       "team": "Penrith Panthers",
       "position": "Hooker"
     },
     "Billy Phillips": {
       "tries": 2,
-      "games": 20,
-      "tryRate": 0.1,
+      "games": 21,
+      "tryRate": 0.0952,
       "team": "Penrith Panthers",
       "position": "Interchange"
     },
@@ -1957,8 +1957,8 @@
     },
     "Oryn Keeley": {
       "tries": 2,
-      "games": 15,
-      "tryRate": 0.1333,
+      "games": 16,
+      "tryRate": 0.125,
       "team": "Melbourne Storm",
       "position": "2nd Row"
     },
@@ -2349,15 +2349,15 @@
     },
     "Jack Hetherington": {
       "tries": 0,
-      "games": 16,
+      "games": 17,
       "tryRate": 0.0,
       "team": "Melbourne Storm",
       "position": "Reserve"
     },
     "Angus Hinchey": {
       "tries": 1,
-      "games": 4,
-      "tryRate": 0.25,
+      "games": 5,
+      "tryRate": 0.2,
       "team": "Melbourne Storm",
       "position": "Interchange"
     },
@@ -2433,22 +2433,22 @@
     },
     "Liam Martin": {
       "tries": 5,
-      "games": 13,
-      "tryRate": 0.3846,
+      "games": 14,
+      "tryRate": 0.3571,
       "team": "Penrith Panthers",
       "position": "2nd Row"
     },
     "Jack Cole": {
       "tries": 0,
-      "games": 11,
+      "games": 12,
       "tryRate": 0.0,
       "team": "Penrith Panthers",
-      "position": "Five-Eighth"
+      "position": "Reserve"
     },
     "Trent Loiero": {
       "tries": 1,
-      "games": 18,
-      "tryRate": 0.0556,
+      "games": 19,
+      "tryRate": 0.0526,
       "team": "Melbourne Storm",
       "position": "Lock"
     },
@@ -2727,10 +2727,10 @@
     },
     "Billy Scott": {
       "tries": 0,
-      "games": 14,
+      "games": 15,
       "tryRate": 0.0,
       "team": "Penrith Panthers",
-      "position": "Reserve"
+      "position": "Interchange"
     },
     "Lazarus Vaalepu": {
       "tries": 0,
@@ -2916,7 +2916,7 @@
     },
     "Shawn Blore": {
       "tries": 0,
-      "games": 11,
+      "games": 12,
       "tryRate": 0.0,
       "team": "Melbourne Storm",
       "position": "2nd Row"
@@ -3084,10 +3084,10 @@
     },
     "Trent Toelau": {
       "tries": 1,
-      "games": 13,
-      "tryRate": 0.0769,
+      "games": 14,
+      "tryRate": 0.0714,
       "team": "Melbourne Storm",
-      "position": "Interchange"
+      "position": "Reserve"
     },
     "Jordan Uta": {
       "tries": 0,
@@ -3195,9 +3195,9 @@
       "position": "Interchange"
     },
     "Liam Henry": {
-      "tries": 3,
-      "games": 12,
-      "tryRate": 0.25,
+      "tries": 4,
+      "games": 13,
+      "tryRate": 0.3077,
       "team": "Penrith Panthers",
       "position": "Prop"
     },
@@ -3315,10 +3315,10 @@
     },
     "Luron Patea": {
       "tries": 0,
-      "games": 5,
+      "games": 6,
       "tryRate": 0.0,
       "team": "Penrith Panthers",
-      "position": "Interchange"
+      "position": "Reserve"
     },
     "Vena Patuki-Case": {
       "tries": 0,

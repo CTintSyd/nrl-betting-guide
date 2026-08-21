@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-08-20T10:34:04Z",
+  "updatedAt": "2026-08-21T04:29:43Z",
   "season": 2026,
-  "totalFavRecord": "104-76",
-  "totalLineRecord": "25-30",
-  "totalOuRecord": "29O-26U",
+  "totalFavRecord": "105-76",
+  "totalLineRecord": "25-31",
+  "totalOuRecord": "29O-27U",
   "rounds": [
     {
       "round": 1,
@@ -2896,6 +2896,29 @@
       "favRecord": "3-5",
       "lineRecord": "3-5",
       "ouRecord": "3O-5U"
+    },
+    {
+      "round": 25,
+      "games": [
+        {
+          "homeTeam": "Melbourne Storm",
+          "awayTeam": "Penrith Panthers",
+          "homeScore": 14,
+          "awayScore": 22,
+          "winner": "Penrith Panthers",
+          "margin": 8,
+          "favourite": "Penrith Panthers",
+          "favouriteWon": true,
+          "linePoint": 9.5,
+          "lineCovered": false,
+          "ouTotal": 44.5,
+          "ouResult": "Under",
+          "oddsSourced": true
+        }
+      ],
+      "favRecord": "1-0",
+      "lineRecord": "0-1",
+      "ouRecord": "0O-1U"
     }
   ]
 }
