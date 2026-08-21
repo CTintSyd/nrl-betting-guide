@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-08-21T09:27:46Z",
+  "updatedAt": "2026-08-21T10:00:04Z",
   "season": 2026,
-  "totalFavRecord": "102-79",
-  "totalLineRecord": "18-24",
-  "totalOuRecord": "21O-21U",
+  "totalFavRecord": "102-80",
+  "totalLineRecord": "18-25",
+  "totalOuRecord": "22O-21U",
   "rounds": [
     {
       "round": 1,
@@ -2914,11 +2914,26 @@
           "ouTotal": 44.5,
           "ouResult": "Under",
           "oddsSourced": true
+        },
+        {
+          "homeTeam": "Canberra Raiders",
+          "awayTeam": "Brisbane Broncos",
+          "homeScore": 30,
+          "awayScore": 34,
+          "winner": "Brisbane Broncos",
+          "margin": 4,
+          "favourite": "Canberra Raiders",
+          "favouriteWon": false,
+          "linePoint": -2.5,
+          "lineCovered": false,
+          "ouTotal": 50.5,
+          "ouResult": "Over",
+          "oddsSourced": true
         }
       ],
-      "favRecord": "1-0",
-      "lineRecord": "0-1",
-      "ouRecord": "0O-1U"
+      "favRecord": "1-1",
+      "lineRecord": "0-2",
+      "ouRecord": "1O-1U"
     }
   ]
 }

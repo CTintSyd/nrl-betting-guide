@@ -6,24 +6,24 @@ const NRL_TEAM_DATA = {
   'Brisbane Broncos': {
     emoji: '🐻', shortName: 'Broncos', venue: 'Suncorp Stadium', wikiPage: 'Brisbane_Broncos', logoFile: 'brisbane-broncos.svg',
     players: [
-      { name: "Josiah Karapani",                   pos: "wing",           tryRate: 0.3158 },
+      { name: "Josiah Karapani",                   pos: "wing",           tryRate: 0.3 },
       { name: "Reece Walsh",                       pos: "fullback",       tryRate: 0.375 },
-      { name: "Ezra Mam",                          pos: "five-eighth",    tryRate: 0.3684 },
-      { name: "Kotoni Staggs",                     pos: "centre",         tryRate: 0.4444 },
-      { name: "Xavier Willison",                   pos: "prop",           tryRate: 0.3333 },
-      { name: "Jordan Riki",                       pos: "lock",           tryRate: 0.2105 },
+      { name: "Ezra Mam",                          pos: "five-eighth",    tryRate: 0.4 },
+      { name: "Kotoni Staggs",                     pos: "centre",         tryRate: 0.4211 },
+      { name: "Xavier Willison",                   pos: "prop",           tryRate: 0.3182 },
+      { name: "Jordan Riki",                       pos: "lock",           tryRate: 0.2 },
     ],
   },
 
   'Canberra Raiders': {
     emoji: '🔋', shortName: 'Raiders', venue: 'GIO Stadium', wikiPage: 'Canberra_Raiders', logoFile: 'canberra-raiders.svg',
     players: [
-      { name: "Xavier Savage",                     pos: "wing",           tryRate: 0.5882 },
-      { name: "Kaeo Weekes",                       pos: "fullback",       tryRate: 0.5 },
-      { name: "Ethan Strange",                     pos: "five-eighth",    tryRate: 0.3158 },
-      { name: "Savelio Tamale",                    pos: "centre",         tryRate: 0.3889 },
-      { name: "Simi Sasagi",                       pos: "centre",         tryRate: 0.5 },
-      { name: "Jed Stuart",                        pos: "wing",           tryRate: 0.3158 },
+      { name: "Xavier Savage",                     pos: "wing",           tryRate: 0.5556 },
+      { name: "Kaeo Weekes",                       pos: "fullback",       tryRate: 0.5652 },
+      { name: "Ethan Strange",                     pos: "five-eighth",    tryRate: 0.3 },
+      { name: "Simi Sasagi",                       pos: "centre",         tryRate: 0.4667 },
+      { name: "Zac Hosking",                       pos: "lock",           tryRate: 0.2857 },
+      { name: "Jed Stuart",                        pos: "wing",           tryRate: 0.3 },
     ],
   },
 

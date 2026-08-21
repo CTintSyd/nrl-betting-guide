@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T09:27:21.610314+00:00",
+  "generatedAt": "2026-08-21T09:59:42.683792+00:00",
   "round": 25,
   "players": {
     "Kalyn Ponga": {
@@ -1075,36 +1075,36 @@
     },
     "Josiah Karapani": {
       "tries": 6,
-      "games": 19,
-      "tryRate": 0.3158,
+      "games": 20,
+      "tryRate": 0.3,
       "team": "Brisbane Broncos",
       "position": "Winger"
     },
     "Kotoni Staggs": {
       "tries": 8,
-      "games": 18,
-      "tryRate": 0.4444,
+      "games": 19,
+      "tryRate": 0.4211,
       "team": "Brisbane Broncos",
       "position": "Centre"
     },
     "Gehamat Shibasaki": {
       "tries": 3,
-      "games": 18,
-      "tryRate": 0.1667,
+      "games": 19,
+      "tryRate": 0.1579,
       "team": "Brisbane Broncos",
-      "position": "Interchange"
+      "position": "Reserve"
     },
     "Deine Mariner": {
       "tries": 4,
-      "games": 15,
-      "tryRate": 0.2667,
+      "games": 16,
+      "tryRate": 0.25,
       "team": "Brisbane Broncos",
       "position": "Centre"
     },
     "Ezra Mam": {
-      "tries": 7,
-      "games": 19,
-      "tryRate": 0.3684,
+      "tries": 8,
+      "games": 20,
+      "tryRate": 0.4,
       "team": "Brisbane Broncos",
       "position": "Five-Eighth"
     },
@@ -1130,44 +1130,44 @@
       "position": "Hooker"
     },
     "Payne Haas": {
-      "tries": 1,
-      "games": 14,
-      "tryRate": 0.0714,
+      "tries": 2,
+      "games": 15,
+      "tryRate": 0.1333,
       "team": "Brisbane Broncos",
       "position": "Prop"
     },
     "Jack Gosiewski": {
       "tries": 0,
-      "games": 12,
+      "games": 13,
       "tryRate": 0.0,
       "team": "Brisbane Broncos",
       "position": "Interchange"
     },
     "Jordan Riki": {
       "tries": 4,
-      "games": 19,
-      "tryRate": 0.2105,
+      "games": 20,
+      "tryRate": 0.2,
       "team": "Brisbane Broncos",
       "position": "2nd Row"
     },
     "Patrick Carrigan": {
       "tries": 1,
-      "games": 15,
-      "tryRate": 0.0667,
+      "games": 16,
+      "tryRate": 0.0625,
       "team": "Brisbane Broncos",
       "position": "Lock"
     },
     "Ben Hunt": {
       "tries": 0,
-      "games": 17,
+      "games": 18,
       "tryRate": 0.0,
       "team": "Brisbane Broncos",
-      "position": "Reserve"
+      "position": "Halfback"
     },
     "Xavier Willison": {
       "tries": 7,
-      "games": 21,
-      "tryRate": 0.3333,
+      "games": 22,
+      "tryRate": 0.3182,
       "team": "Brisbane Broncos",
       "position": "Prop"
     },
@@ -1180,21 +1180,21 @@
     },
     "Aublix Tawha": {
       "tries": 0,
-      "games": 13,
+      "games": 14,
       "tryRate": 0.0,
       "team": "Brisbane Broncos",
-      "position": "Interchange"
+      "position": "Reserve"
     },
     "Grant Anderson": {
-      "tries": 2,
-      "games": 14,
-      "tryRate": 0.1429,
+      "tries": 4,
+      "games": 15,
+      "tryRate": 0.2667,
       "team": "Brisbane Broncos",
       "position": "Winger"
     },
     "Jaiyden Hunt": {
       "tries": 0,
-      "games": 12,
+      "games": 13,
       "tryRate": 0.0,
       "team": "Brisbane Broncos",
       "position": "2nd Row"
@@ -1732,23 +1732,23 @@
       "position": "2nd Row"
     },
     "Kaeo Weekes": {
-      "tries": 11,
-      "games": 22,
-      "tryRate": 0.5,
+      "tries": 13,
+      "games": 23,
+      "tryRate": 0.5652,
       "team": "Canberra Raiders",
       "position": "Fullback"
     },
     "Savelio Tamale": {
       "tries": 7,
-      "games": 18,
-      "tryRate": 0.3889,
+      "games": 19,
+      "tryRate": 0.3684,
       "team": "Canberra Raiders",
-      "position": "Centre"
+      "position": "Reserve"
     },
     "Simi Sasagi": {
       "tries": 7,
-      "games": 14,
-      "tryRate": 0.5,
+      "games": 15,
+      "tryRate": 0.4667,
       "team": "Canberra Raiders",
       "position": "Centre"
     },
@@ -1761,43 +1761,43 @@
     },
     "Xavier Savage": {
       "tries": 10,
-      "games": 17,
-      "tryRate": 0.5882,
+      "games": 18,
+      "tryRate": 0.5556,
       "team": "Canberra Raiders",
       "position": "Winger"
     },
     "Ethan Strange": {
       "tries": 6,
-      "games": 19,
-      "tryRate": 0.3158,
+      "games": 20,
+      "tryRate": 0.3,
       "team": "Canberra Raiders",
       "position": "Five-Eighth"
     },
     "Ethan Sanders": {
       "tries": 3,
-      "games": 22,
-      "tryRate": 0.1364,
+      "games": 23,
+      "tryRate": 0.1304,
       "team": "Canberra Raiders",
       "position": "Halfback"
     },
     "Josh Papalii": {
       "tries": 0,
-      "games": 11,
+      "games": 12,
       "tryRate": 0.0,
       "team": "Canberra Raiders",
-      "position": "Interchange"
+      "position": "Prop"
     },
     "Tom Starling": {
       "tries": 2,
-      "games": 22,
-      "tryRate": 0.0909,
+      "games": 23,
+      "tryRate": 0.087,
       "team": "Canberra Raiders",
       "position": "Interchange"
     },
     "Joseph Tapine": {
       "tries": 1,
-      "games": 22,
-      "tryRate": 0.0455,
+      "games": 23,
+      "tryRate": 0.0435,
       "team": "Canberra Raiders",
       "position": "Prop"
     },
@@ -1817,10 +1817,10 @@
     },
     "Corey Horsburgh": {
       "tries": 2,
-      "games": 21,
-      "tryRate": 0.0952,
+      "games": 22,
+      "tryRate": 0.0909,
       "team": "Canberra Raiders",
-      "position": "Prop"
+      "position": "Interchange"
     },
     "Jayden Brailey": {
       "tries": 0,
@@ -1830,18 +1830,18 @@
       "position": "Interchange"
     },
     "Zac Hosking": {
-      "tries": 5,
-      "games": 20,
-      "tryRate": 0.25,
+      "tries": 6,
+      "games": 21,
+      "tryRate": 0.2857,
       "team": "Canberra Raiders",
       "position": "2nd Row"
     },
     "Ata Mariota": {
-      "tries": 0,
-      "games": 22,
-      "tryRate": 0.0,
+      "tries": 1,
+      "games": 23,
+      "tryRate": 0.0435,
       "team": "Canberra Raiders",
-      "position": "Prop"
+      "position": "Lock"
     },
     "Morgan Smithies": {
       "tries": 0,
@@ -1852,15 +1852,15 @@
     },
     "Daine Laurie": {
       "tries": 4,
-      "games": 20,
-      "tryRate": 0.2,
+      "games": 21,
+      "tryRate": 0.1905,
       "team": "Canberra Raiders",
       "position": "Interchange"
     },
     "Jed Stuart": {
       "tries": 6,
-      "games": 19,
-      "tryRate": 0.3158,
+      "games": 20,
+      "tryRate": 0.3,
       "team": "Canberra Raiders",
       "position": "Winger"
     },
@@ -2160,14 +2160,14 @@
     },
     "Matthew Timoko": {
       "tries": 6,
-      "games": 18,
-      "tryRate": 0.3333,
+      "games": 19,
+      "tryRate": 0.3158,
       "team": "Canberra Raiders",
       "position": "Centre"
     },
     "Joe Roddy": {
       "tries": 0,
-      "games": 10,
+      "games": 11,
       "tryRate": 0.0,
       "team": "Canberra Raiders",
       "position": "Interchange"
@@ -2461,7 +2461,7 @@
     },
     "Blake Mozer": {
       "tries": 0,
-      "games": 6,
+      "games": 7,
       "tryRate": 0.0,
       "team": "Brisbane Broncos",
       "position": "Interchange"
@@ -2615,10 +2615,10 @@
     },
     "Va'a Semu": {
       "tries": 0,
-      "games": 14,
+      "games": 15,
       "tryRate": 0.0,
       "team": "Brisbane Broncos",
-      "position": "Reserve"
+      "position": "Interchange"
     },
     "Francis Molo": {
       "tries": 0,
@@ -2790,17 +2790,17 @@
     },
     "Thomas Duffy": {
       "tries": 1,
-      "games": 13,
-      "tryRate": 0.0769,
-      "team": "Brisbane Broncos",
-      "position": "Halfback"
-    },
-    "Hayze Perham": {
-      "tries": 1,
-      "games": 11,
-      "tryRate": 0.0909,
+      "games": 14,
+      "tryRate": 0.0714,
       "team": "Brisbane Broncos",
       "position": "Reserve"
+    },
+    "Hayze Perham": {
+      "tries": 2,
+      "games": 12,
+      "tryRate": 0.1667,
+      "team": "Brisbane Broncos",
+      "position": "Fullback"
     },
     "Josh Rogers": {
       "tries": 0,
@@ -3006,9 +3006,9 @@
       "position": "Reserve"
     },
     "Owen Pattie": {
-      "tries": 3,
-      "games": 14,
-      "tryRate": 0.2143,
+      "tries": 4,
+      "games": 15,
+      "tryRate": 0.2667,
       "team": "Canberra Raiders",
       "position": "Hooker"
     },
@@ -3322,7 +3322,7 @@
     },
     "Vena Patuki-Case": {
       "tries": 0,
-      "games": 5,
+      "games": 6,
       "tryRate": 0.0,
       "team": "Canberra Raiders",
       "position": "Reserve"
@@ -3539,8 +3539,8 @@
     },
     "Matty Nicholson": {
       "tries": 1,
-      "games": 4,
-      "tryRate": 0.25,
+      "games": 5,
+      "tryRate": 0.2,
       "team": "Canberra Raiders",
       "position": "2nd Row"
     },
@@ -3552,9 +3552,9 @@
       "position": "Reserve"
     },
     "Billy Walters": {
-      "tries": 0,
-      "games": 4,
-      "tryRate": 0.0,
+      "tries": 1,
+      "games": 5,
+      "tryRate": 0.2,
       "team": "Brisbane Broncos",
       "position": "Hooker"
     },

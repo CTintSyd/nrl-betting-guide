@@ -1,14 +1,25 @@
 {
-  "updated": "2026-08-21T09:27:37Z",
+  "updated": "2026-08-21T09:59:57Z",
   "articles": [
     {
-      "title": "LIVE: Raiders vs Broncos – Round 25, 2026",
-      "url": "https://www.zerotackle.com/live-raiders-broncos-round-25-2026-mc10396525-237069/",
+      "title": "FULL TIME: Raiders vs Broncos – Round 25, 2026",
+      "url": "https://www.zerotackle.com/fulltime-raiders-broncos-round-25-2026-mc10396525-237069/",
       "description": "The Canberra Raiders face the Brisbane Broncos in Round 25 of the 2026 NRL season. Follow the live scores, team lists, match statistics and key moments from the game at GIO Stadium.",
       "date": "Fri, 24 Jul 2026 08:00:00 +0000",
       "teams": [
         "Brisbane Broncos",
         "Canberra Raiders"
+      ],
+      "isRound": true
+    },
+    {
+      "title": "Updated Team Lists: Dragons vs Bulldogs – Round 25, 2026",
+      "url": "https://www.zerotackle.com/updated-team-lists-dragons-vs-bulldogs-10396529-237245/",
+      "description": "The Dragons and Bulldogs have cut their squads to 20 ahead of tomorrow's match at Allianz Stadium.",
+      "date": "Fri, 21 Aug 2026 09:34:10 +0000",
+      "teams": [
+        "Canterbury Bulldogs",
+        "St George Illawarra Dragons"
       ],
       "isRound": true
     },
