@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T11:50:18.266439+00:00",
+  "generatedAt": "2026-08-21T12:28:50.071077+00:00",
   "round": 25,
   "upcomingRound": 25,
   "ladder": [
@@ -49,14 +49,14 @@
       "pos": 4,
       "nick": "Dolphins",
       "name": "Dolphins",
-      "played": 21,
-      "wins": 14,
+      "played": 22,
+      "wins": 15,
       "losses": 7,
       "drawn": 0,
-      "ptsFor": 578,
-      "ptsAgainst": 458,
-      "diff": 120,
-      "pts": 34,
+      "ptsFor": 612,
+      "ptsAgainst": 474,
+      "diff": 138,
+      "pts": 36,
       "streak": "4W"
     },
     {
@@ -175,15 +175,15 @@
       "pos": 13,
       "nick": "Eels",
       "name": "Parramatta Eels",
-      "played": 21,
+      "played": 22,
       "wins": 8,
-      "losses": 13,
+      "losses": 14,
       "drawn": 0,
-      "ptsFor": 421,
-      "ptsAgainst": 602,
-      "diff": -181,
+      "ptsFor": 437,
+      "ptsAgainst": 636,
+      "diff": -199,
       "pts": 22,
-      "streak": "1W"
+      "streak": "1L"
     },
     {
       "pos": 14,
@@ -404,7 +404,7 @@
       ]
     },
     "Dolphins": {
-      "last5": "W W W W",
+      "last5": "W W W W W",
       "games": [
         {
           "round": 20,
@@ -433,6 +433,13 @@
           "opponent": "Manly Warringah Sea Eagles",
           "home": false,
           "score": "0\u201322"
+        },
+        {
+          "round": 25,
+          "result": "W",
+          "opponent": "Parramatta Eels",
+          "home": true,
+          "score": "34\u201316"
         }
       ]
     },
@@ -670,7 +677,7 @@
       ]
     },
     "Parramatta Eels": {
-      "last5": "L W L W",
+      "last5": "L W L W L",
       "games": [
         {
           "round": 21,
@@ -699,6 +706,13 @@
           "opponent": "North Queensland Cowboys",
           "home": true,
           "score": "32\u201330"
+        },
+        {
+          "round": 25,
+          "result": "L",
+          "opponent": "Dolphins",
+          "home": false,
+          "score": "34\u201316"
         }
       ]
     },

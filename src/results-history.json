@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-08-21T11:50:32Z",
+  "updatedAt": "2026-08-21T12:29:10Z",
   "season": 2026,
-  "totalFavRecord": "102-80",
-  "totalLineRecord": "18-25",
-  "totalOuRecord": "22O-21U",
+  "totalFavRecord": "103-80",
+  "totalLineRecord": "19-25",
+  "totalOuRecord": "22O-22U",
   "rounds": [
     {
       "round": 1,
@@ -2929,11 +2929,26 @@
           "ouTotal": 50.5,
           "ouResult": "Over",
           "oddsSourced": true
+        },
+        {
+          "homeTeam": "Dolphins",
+          "awayTeam": "Parramatta Eels",
+          "homeScore": 34,
+          "awayScore": 16,
+          "winner": "Dolphins",
+          "margin": 18,
+          "favourite": "Dolphins",
+          "favouriteWon": true,
+          "linePoint": -13.5,
+          "lineCovered": true,
+          "ouTotal": 50.5,
+          "ouResult": "Under",
+          "oddsSourced": true
         }
       ],
-      "favRecord": "1-1",
-      "lineRecord": "0-2",
-      "ouRecord": "1O-1U"
+      "favRecord": "2-1",
+      "lineRecord": "1-2",
+      "ouRecord": "1O-2U"
     }
   ]
 }
