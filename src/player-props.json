@@ -1,19 +1,7 @@
 {
-  "updated": "2026-08-20T12:35:24.081Z",
+  "updated": "2026-08-21T12:34:15.982Z",
   "quotaRemaining": null,
   "games": {
-    "Canberra Raiders vs Brisbane Broncos": {
-      "homeTeam": "Canberra Raiders",
-      "awayTeam": "Brisbane Broncos",
-      "available": false,
-      "error": "API 422: {\"message\":\"Invalid markets: player_anytime_try_scorer, player_first_try_scorer\",\"error_code\":\"INVALID_MARKET\",\"details_url\":\"https://the-odds-api.com/liveapi/guides/v4/api-error-codes.html#invalid-market\"}\n"
-    },
-    "Dolphins vs Parramatta Eels": {
-      "homeTeam": "Dolphins",
-      "awayTeam": "Parramatta Eels",
-      "available": false,
-      "error": "API 422: {\"message\":\"Invalid markets: player_anytime_try_scorer, player_first_try_scorer\",\"error_code\":\"INVALID_MARKET\",\"details_url\":\"https://the-odds-api.com/liveapi/guides/v4/api-error-codes.html#invalid-market\"}\n"
-    },
     "Newcastle Knights vs Manly Warringah Sea Eagles": {
       "homeTeam": "Newcastle Knights",
       "awayTeam": "Manly Warringah Sea Eagles",
