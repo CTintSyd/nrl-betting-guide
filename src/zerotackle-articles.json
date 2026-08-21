@@ -1,6 +1,17 @@
 {
-  "updated": "2026-08-21T09:59:57Z",
+  "updated": "2026-08-21T10:31:38Z",
   "articles": [
+    {
+      "title": "LIVE: Dolphins vs Eels – Round 25, 2026",
+      "url": "https://www.zerotackle.com/live-dolphins-eels-round-25-2026-mc10396526-237067/",
+      "description": "The Dolphins face the Parramatta Eels in Round 25 of the 2026 NRL season. Follow the live scores, team lists, match statistics and key moments from the game at Suncorp Stadium.",
+      "date": "Fri, 24 Jul 2026 10:00:00 +0000",
+      "teams": [
+        "Dolphins",
+        "Parramatta Eels"
+      ],
+      "isRound": true
+    },
     {
       "title": "FULL TIME: Raiders vs Broncos – Round 25, 2026",
       "url": "https://www.zerotackle.com/fulltime-raiders-broncos-round-25-2026-mc10396525-237069/",
@@ -76,16 +87,6 @@
         "Manly Warringah Sea Eagles"
       ],
       "isRound": true
-    },
-    {
-      "title": "Hudson Young offered record-breaking deal as Raiders fight for key contract",
-      "url": "https://www.zerotackle.com/hudson-young-offered-record-breaking-deal-as-raiders-fight-for-key-contract-237230/",
-      "description": "The Raiders are desperate not to lose Young, but may not have a choice.",
-      "date": "Fri, 21 Aug 2026 03:07:25 +0000",
-      "teams": [
-        "Canberra Raiders"
-      ],
-      "isRound": false
     }
   ]
 }
