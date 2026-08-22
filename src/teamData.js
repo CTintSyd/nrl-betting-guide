@@ -78,12 +78,12 @@ const NRL_TEAM_DATA = {
   'Manly Warringah Sea Eagles': {
     emoji: '🦅', shortName: 'Sea Eagles', venue: '4 Pines Park', wikiPage: 'Manly-Warringah_Sea_Eagles', logoFile: 'manly-sea-eagles.png',
     players: [
-      { name: "Lehi Hopoate",                      pos: "wing",           tryRate: 0.7 },
-      { name: "Tom Trbojevic",                     pos: "fullback",       tryRate: 0.6364 },
-      { name: "Jamal Fogarty",                     pos: "halfback",       tryRate: 0.2105 },
-      { name: "Jason Saab",                        pos: "wing",           tryRate: 0.6 },
-      { name: "Tolutau Koula",                     pos: "centre",         tryRate: 0.5 },
-      { name: "Haumole Olakau'atu",                pos: "lock",           tryRate: 0.4444 },
+      { name: "Lehi Hopoate",                      pos: "wing",           tryRate: 0.7143 },
+      { name: "Tom Trbojevic",                     pos: "fullback",       tryRate: 0.5833 },
+      { name: "Clayton Faulalo",                   pos: "five-eighth",    tryRate: 0.5 },
+      { name: "Jason Saab",                        pos: "wing",           tryRate: 0.619 },
+      { name: "Tolutau Koula",                     pos: "centre",         tryRate: 0.4737 },
+      { name: "Reuben Garrick",                    pos: "centre",         tryRate: 0.381 },
     ],
   },
 
@@ -103,11 +103,11 @@ const NRL_TEAM_DATA = {
     emoji: '⚔️', shortName: 'Knights', venue: 'McDonald Jones Stadium', wikiPage: 'Newcastle_Knights', logoFile: 'newcastle-knights.png',
     players: [
       { name: "Greg Marzhew",                      pos: "wing",           tryRate: 1.0 },
-      { name: "Kalyn Ponga",                       pos: "fullback",       tryRate: 0.3846 },
-      { name: "Fletcher Sharpe",                   pos: "five-eighth",    tryRate: 0.6 },
-      { name: "Dominic Young",                     pos: "wing",           tryRate: 0.8636 },
+      { name: "Kalyn Ponga",                       pos: "fullback",       tryRate: 0.3571 },
+      { name: "Fletcher Sharpe",                   pos: "five-eighth",    tryRate: 0.5714 },
+      { name: "Dominic Young",                     pos: "wing",           tryRate: 0.8696 },
+      { name: "Fletcher Hunt",                     pos: "centre",         tryRate: 0.4783 },
       { name: "Dylan Lucas",                       pos: "lock",           tryRate: 0.625 },
-      { name: "Fletcher Hunt",                     pos: "centre",         tryRate: 0.4091 },
     ],
   },
 

@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-08-22T06:16:04Z",
+  "updatedAt": "2026-08-22T07:06:43Z",
   "season": 2026,
-  "totalFavRecord": "103-80",
-  "totalLineRecord": "19-25",
-  "totalOuRecord": "22O-22U",
+  "totalFavRecord": "103-81",
+  "totalLineRecord": "19-26",
+  "totalOuRecord": "23O-22U",
   "rounds": [
     {
       "round": 1,
@@ -2944,11 +2944,26 @@
           "ouTotal": 50.5,
           "ouResult": "Under",
           "oddsSourced": true
+        },
+        {
+          "homeTeam": "Newcastle Knights",
+          "awayTeam": "Manly Warringah Sea Eagles",
+          "homeScore": 24,
+          "awayScore": 44,
+          "winner": "Manly Warringah Sea Eagles",
+          "margin": 20,
+          "favourite": "Newcastle Knights",
+          "favouriteWon": false,
+          "linePoint": -5.5,
+          "lineCovered": false,
+          "ouTotal": 50.5,
+          "ouResult": "Over",
+          "oddsSourced": true
         }
       ],
-      "favRecord": "2-1",
-      "lineRecord": "1-2",
-      "ouRecord": "1O-2U"
+      "favRecord": "2-2",
+      "lineRecord": "1-3",
+      "ouRecord": "2O-2U"
     }
   ]
 }

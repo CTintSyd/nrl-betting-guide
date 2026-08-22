@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-08-22T06:15:43.334574+00:00",
+  "generatedAt": "2026-08-22T07:06:18.714578+00:00",
   "round": 25,
   "players": {
     "Kalyn Ponga": {
       "tries": 5,
-      "games": 13,
-      "tryRate": 0.3846,
+      "games": 14,
+      "tryRate": 0.3571,
       "team": "Newcastle Knights",
       "position": "Fullback"
     },
     "Dominic Young": {
-      "tries": 19,
-      "games": 22,
-      "tryRate": 0.8636,
+      "tries": 20,
+      "games": 23,
+      "tryRate": 0.8696,
       "team": "Newcastle Knights",
       "position": "Winger"
     },
@@ -25,22 +25,22 @@
     },
     "Bradman Best": {
       "tries": 4,
-      "games": 12,
-      "tryRate": 0.3333,
+      "games": 13,
+      "tryRate": 0.3077,
       "team": "Newcastle Knights",
       "position": "Centre"
     },
     "Greg Marzhew": {
-      "tries": 21,
-      "games": 21,
+      "tries": 22,
+      "games": 22,
       "tryRate": 1.0,
       "team": "Newcastle Knights",
       "position": "Winger"
     },
     "Fletcher Sharpe": {
       "tries": 12,
-      "games": 20,
-      "tryRate": 0.6,
+      "games": 21,
+      "tryRate": 0.5714,
       "team": "Newcastle Knights",
       "position": "Five-Eighth"
     },
@@ -53,22 +53,22 @@
     },
     "Jacob Saifiti": {
       "tries": 1,
-      "games": 16,
-      "tryRate": 0.0625,
+      "games": 17,
+      "tryRate": 0.0588,
       "team": "Newcastle Knights",
-      "position": "Prop"
+      "position": "Interchange"
     },
     "Phoenix Crossland": {
       "tries": 3,
-      "games": 21,
-      "tryRate": 0.1429,
+      "games": 22,
+      "tryRate": 0.1364,
       "team": "Newcastle Knights",
       "position": "Hooker"
     },
     "Trey Mooney": {
       "tries": 5,
-      "games": 20,
-      "tryRate": 0.25,
+      "games": 21,
+      "tryRate": 0.2381,
       "team": "Newcastle Knights",
       "position": "Prop"
     },
@@ -81,35 +81,35 @@
     },
     "Jermaine McEwen": {
       "tries": 1,
-      "games": 18,
-      "tryRate": 0.0556,
+      "games": 19,
+      "tryRate": 0.0526,
       "team": "Newcastle Knights",
       "position": "2nd Row"
     },
     "Tyson Frizell": {
       "tries": 2,
-      "games": 20,
-      "tryRate": 0.1,
+      "games": 21,
+      "tryRate": 0.0952,
       "team": "Newcastle Knights",
-      "position": "Interchange"
+      "position": "2nd Row"
     },
     "Sandon Smith": {
       "tries": 1,
-      "games": 21,
-      "tryRate": 0.0476,
+      "games": 22,
+      "tryRate": 0.0455,
       "team": "Newcastle Knights",
       "position": "Halfback"
     },
     "Mat Croker": {
       "tries": 1,
-      "games": 22,
-      "tryRate": 0.0455,
+      "games": 23,
+      "tryRate": 0.0435,
       "team": "Newcastle Knights",
       "position": "Lock"
     },
     "Thomas Cant": {
       "tries": 0,
-      "games": 17,
+      "games": 18,
       "tryRate": 0.0,
       "team": "Newcastle Knights",
       "position": "Interchange"
@@ -122,9 +122,9 @@
       "position": "Reserve"
     },
     "Fletcher Hunt": {
-      "tries": 9,
-      "games": 22,
-      "tryRate": 0.4091,
+      "tries": 11,
+      "games": 23,
+      "tryRate": 0.4783,
       "team": "Newcastle Knights",
       "position": "Centre"
     },
@@ -1600,36 +1600,36 @@
     },
     "Tom Trbojevic": {
       "tries": 7,
-      "games": 11,
-      "tryRate": 0.6364,
+      "games": 12,
+      "tryRate": 0.5833,
       "team": "Manly Warringah Sea Eagles",
       "position": "Fullback"
     },
     "Jason Saab": {
-      "tries": 12,
-      "games": 20,
-      "tryRate": 0.6,
+      "tries": 13,
+      "games": 21,
+      "tryRate": 0.619,
       "team": "Manly Warringah Sea Eagles",
       "position": "Winger"
     },
     "Tolutau Koula": {
       "tries": 9,
-      "games": 18,
-      "tryRate": 0.5,
+      "games": 19,
+      "tryRate": 0.4737,
       "team": "Manly Warringah Sea Eagles",
       "position": "Centre"
     },
     "Reuben Garrick": {
-      "tries": 7,
-      "games": 20,
-      "tryRate": 0.35,
+      "tries": 8,
+      "games": 21,
+      "tryRate": 0.381,
       "team": "Manly Warringah Sea Eagles",
       "position": "Centre"
     },
     "Lehi Hopoate": {
-      "tries": 14,
-      "games": 20,
-      "tryRate": 0.7,
+      "tries": 15,
+      "games": 21,
+      "tryRate": 0.7143,
       "team": "Manly Warringah Sea Eagles",
       "position": "Winger"
     },
@@ -1642,8 +1642,8 @@
     },
     "Jamal Fogarty": {
       "tries": 4,
-      "games": 19,
-      "tryRate": 0.2105,
+      "games": 20,
+      "tryRate": 0.2,
       "team": "Manly Warringah Sea Eagles",
       "position": "Halfback"
     },
@@ -1656,7 +1656,7 @@
     },
     "Jake Simpkin": {
       "tries": 0,
-      "games": 21,
+      "games": 22,
       "tryRate": 0.0,
       "team": "Manly Warringah Sea Eagles",
       "position": "Interchange"
@@ -1670,22 +1670,22 @@
     },
     "Haumole Olakau'atu": {
       "tries": 8,
-      "games": 18,
-      "tryRate": 0.4444,
+      "games": 19,
+      "tryRate": 0.4211,
       "team": "Manly Warringah Sea Eagles",
       "position": "2nd Row"
     },
     "Ben Trbojevic": {
       "tries": 5,
-      "games": 18,
-      "tryRate": 0.2778,
+      "games": 19,
+      "tryRate": 0.2632,
       "team": "Manly Warringah Sea Eagles",
       "position": "2nd Row"
     },
     "Jake Trbojevic": {
       "tries": 1,
-      "games": 21,
-      "tryRate": 0.0476,
+      "games": 22,
+      "tryRate": 0.0455,
       "team": "Manly Warringah Sea Eagles",
       "position": "Lock"
     },
@@ -1712,24 +1712,24 @@
     },
     "Nathan Brown": {
       "tries": 0,
-      "games": 16,
+      "games": 17,
       "tryRate": 0.0,
       "team": "Manly Warringah Sea Eagles",
-      "position": "Interchange"
+      "position": "Prop"
     },
     "Clayton Faulalo": {
-      "tries": 6,
-      "games": 13,
-      "tryRate": 0.4615,
+      "tries": 7,
+      "games": 14,
+      "tryRate": 0.5,
       "team": "Manly Warringah Sea Eagles",
-      "position": "Fullback"
+      "position": "Five-Eighth"
     },
     "Corey Waddell": {
       "tries": 1,
-      "games": 11,
-      "tryRate": 0.0909,
+      "games": 12,
+      "tryRate": 0.0833,
       "team": "Manly Warringah Sea Eagles",
-      "position": "2nd Row"
+      "position": "Replacement"
     },
     "Kaeo Weekes": {
       "tries": 13,
@@ -2370,24 +2370,24 @@
     },
     "Brandon Wakeham": {
       "tries": 2,
-      "games": 14,
-      "tryRate": 0.1429,
+      "games": 15,
+      "tryRate": 0.1333,
       "team": "Manly Warringah Sea Eagles",
       "position": "Hooker"
     },
     "Josh Feledy": {
-      "tries": 0,
-      "games": 15,
-      "tryRate": 0.0,
+      "tries": 3,
+      "games": 16,
+      "tryRate": 0.1875,
       "team": "Manly Warringah Sea Eagles",
-      "position": "Reserve"
+      "position": "Interchange"
     },
     "Harrison Graham": {
       "tries": 2,
-      "games": 17,
-      "tryRate": 0.1176,
+      "games": 18,
+      "tryRate": 0.1111,
       "team": "Newcastle Knights",
-      "position": "Reserve"
+      "position": "Interchange"
     },
     "Max Plath": {
       "tries": 3,
@@ -2475,7 +2475,7 @@
     },
     "Cody Hopwood": {
       "tries": 0,
-      "games": 18,
+      "games": 19,
       "tryRate": 0.0,
       "team": "Newcastle Knights",
       "position": "Prop"
@@ -2580,7 +2580,7 @@
     },
     "Simione Laiafi": {
       "tries": 0,
-      "games": 15,
+      "games": 16,
       "tryRate": 0.0,
       "team": "Manly Warringah Sea Eagles",
       "position": "Prop"
@@ -2643,10 +2643,10 @@
     },
     "Fletcher Baker": {
       "tries": 0,
-      "games": 3,
+      "games": 4,
       "tryRate": 0.0,
       "team": "Manly Warringah Sea Eagles",
-      "position": "Prop"
+      "position": "Reserve"
     },
     "Wilson De Courcey": {
       "tries": 0,
@@ -2965,10 +2965,10 @@
     },
     "Elijah Salesa-Leaumoana": {
       "tries": 0,
-      "games": 3,
+      "games": 4,
       "tryRate": 0.0,
       "team": "Newcastle Knights",
-      "position": "Interchange"
+      "position": "Reserve"
     },
     "Saxon Pryke": {
       "tries": 0,
@@ -3420,7 +3420,7 @@
     },
     "Lachlan Crouch": {
       "tries": 0,
-      "games": 7,
+      "games": 8,
       "tryRate": 0.0,
       "team": "Newcastle Knights",
       "position": "Interchange"
@@ -3483,7 +3483,7 @@
     },
     "Nicholas Lenaz": {
       "tries": 0,
-      "games": 5,
+      "games": 6,
       "tryRate": 0.0,
       "team": "Manly Warringah Sea Eagles",
       "position": "Interchange"
@@ -3581,10 +3581,10 @@
     },
     "Toby Winter": {
       "tries": 0,
-      "games": 3,
+      "games": 4,
       "tryRate": 0.0,
       "team": "Newcastle Knights",
-      "position": "Interchange"
+      "position": "Reserve"
     },
     "Jezaiah Funa": {
       "tries": 0,
@@ -3627,6 +3627,13 @@
       "tryRate": 2.0,
       "team": "Wests Tigers",
       "position": "Centre"
+    },
+    "Caleb Navale": {
+      "tries": 1,
+      "games": 1,
+      "tryRate": 1.0,
+      "team": "Manly Warringah Sea Eagles",
+      "position": "Interchange"
     }
   }
 }
