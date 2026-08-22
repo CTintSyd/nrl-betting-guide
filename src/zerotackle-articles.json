@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-22T07:48:27Z",
+  "updated": "2026-08-22T08:39:58Z",
   "articles": [
     {
       "title": "LIVE: Rabbitohs vs Warriors – Round 25, 2026",
@@ -9,6 +9,17 @@
       "teams": [
         "South Sydney Rabbitohs",
         "New Zealand Warriors"
+      ],
+      "isRound": true
+    },
+    {
+      "title": "FINAL TEAMS: Dragons vs Bulldogs – Round 25, 2026",
+      "url": "https://www.zerotackle.com/updated-team-lists-dragons-bulldogs-10396529-237245/",
+      "description": "LATE MAIL: The Dragons and Bulldogs have confirmed their lineups for the match at Allianz Stadium.",
+      "date": "Sat, 22 Aug 2026 08:02:12 +0000",
+      "teams": [
+        "Canterbury Bulldogs",
+        "St George Illawarra Dragons"
       ],
       "isRound": true
     },
@@ -93,17 +104,6 @@
       "teams": [
         "Cronulla Sutherland Sharks",
         "Gold Coast Titans"
-      ],
-      "isRound": true
-    },
-    {
-      "title": "FINAL TEAMS: Knights vs Sea Eagles – Round 25, 2026",
-      "url": "https://www.zerotackle.com/updated-team-lists-knights-sea-eagles-10396527-237233/",
-      "description": "LATE MAIL: The Knights and Sea Eagles have confirmed their lineups for the match at McDonald Jones Stadium.",
-      "date": "Sat, 22 Aug 2026 03:28:10 +0000",
-      "teams": [
-        "Newcastle Knights",
-        "Manly Warringah Sea Eagles"
       ],
       "isRound": true
     }
