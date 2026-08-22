@@ -1,6 +1,27 @@
 {
-  "updated": "2026-08-22T07:06:34Z",
+  "updated": "2026-08-22T07:48:27Z",
   "articles": [
+    {
+      "title": "LIVE: Rabbitohs vs Warriors – Round 25, 2026",
+      "url": "https://www.zerotackle.com/live-rabbitohs-warriors-round-25-2026-mc10396528-237063/",
+      "description": "The South Sydney Rabbitohs face the New Zealand Warriors in Round 25 of the 2026 NRL season. Follow the live scores, team lists, match statistics and key moments from the game at Accor Stadium.",
+      "date": "Sat, 25 Jul 2026 07:30:00 +0000",
+      "teams": [
+        "South Sydney Rabbitohs",
+        "New Zealand Warriors"
+      ],
+      "isRound": true
+    },
+    {
+      "title": "Eels backflip on plans with Volkman, utility allowed to leave",
+      "url": "https://www.zerotackle.com/eels-backflip-on-plans-with-volkman-utility-allowed-to-leave-237274/",
+      "description": "The Eels previously weren&#8217;t interested in extending Volkman.",
+      "date": "Sat, 22 Aug 2026 07:33:46 +0000",
+      "teams": [
+        "Parramatta Eels"
+      ],
+      "isRound": false
+    },
     {
       "title": "FULL TIME: Knights vs Sea Eagles – Round 25, 2026",
       "url": "https://www.zerotackle.com/fulltime-knights-sea-eagles-round-25-2026-mc10396527-237065/",
@@ -85,26 +106,6 @@
         "Manly Warringah Sea Eagles"
       ],
       "isRound": true
-    },
-    {
-      "title": "Castleford Tigers confirm Ryan Carr’s shocking departure",
-      "url": "https://www.zerotackle.com/castleford-tigers-confirm-ryan-carrs-shocking-departure-237260/",
-      "description": "Three NRL players from the Dragons have signed with the Super League club to join after this season.",
-      "date": "Sat, 22 Aug 2026 03:05:22 +0000",
-      "teams": [
-        "St George Illawarra Dragons"
-      ],
-      "isRound": false
-    },
-    {
-      "title": "Two Dolphins land on MRC’s desk after Friday night double header",
-      "url": "https://www.zerotackle.com/two-dolphins-land-on-mrcs-desk-after-friday-night-double-header-237259/",
-      "description": "Four players in total were charged by MRC from the two games.",
-      "date": "Sat, 22 Aug 2026 01:52:53 +0000",
-      "teams": [
-        "Dolphins"
-      ],
-      "isRound": false
     }
   ]
 }
