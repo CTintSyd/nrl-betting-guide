@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-08-22T11:03:00Z",
+  "updatedAt": "2026-08-22T11:39:14Z",
   "season": 2026,
-  "totalFavRecord": "104-81",
-  "totalLineRecord": "20-26",
-  "totalOuRecord": "24O-22U",
+  "totalFavRecord": "105-81",
+  "totalLineRecord": "21-26",
+  "totalOuRecord": "25O-22U",
   "rounds": [
     {
       "round": 1,
@@ -2974,11 +2974,26 @@
           "ouTotal": 45.5,
           "ouResult": "Over",
           "oddsSourced": true
+        },
+        {
+          "homeTeam": "St George Illawarra Dragons",
+          "awayTeam": "Canterbury Bulldogs",
+          "homeScore": 14,
+          "awayScore": 44,
+          "winner": "Canterbury Bulldogs",
+          "margin": 30,
+          "favourite": "Canterbury Bulldogs",
+          "favouriteWon": true,
+          "linePoint": 7.5,
+          "lineCovered": true,
+          "ouTotal": 43.5,
+          "ouResult": "Over",
+          "oddsSourced": true
         }
       ],
-      "favRecord": "3-2",
-      "lineRecord": "2-3",
-      "ouRecord": "3O-2U"
+      "favRecord": "4-2",
+      "lineRecord": "3-3",
+      "ouRecord": "4O-2U"
     }
   ]
 }

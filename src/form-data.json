@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T11:02:47.448411+00:00",
+  "generatedAt": "2026-08-22T11:38:58.378656+00:00",
   "round": 25,
   "upcomingRound": 25,
   "ladder": [
@@ -117,6 +117,20 @@
     },
     {
       "pos": 9,
+      "nick": "Bulldogs",
+      "name": "Canterbury Bulldogs",
+      "played": 22,
+      "wins": 11,
+      "losses": 11,
+      "drawn": 0,
+      "ptsFor": 446,
+      "ptsAgainst": 478,
+      "diff": -32,
+      "pts": 28,
+      "streak": "1W"
+    },
+    {
+      "pos": 10,
       "nick": "Sea Eagles",
       "name": "Manly Warringah Sea Eagles",
       "played": 22,
@@ -128,20 +142,6 @@
       "diff": 66,
       "pts": 26,
       "streak": "1W"
-    },
-    {
-      "pos": 10,
-      "nick": "Bulldogs",
-      "name": "Canterbury Bulldogs",
-      "played": 21,
-      "wins": 10,
-      "losses": 11,
-      "drawn": 0,
-      "ptsFor": 402,
-      "ptsAgainst": 464,
-      "diff": -62,
-      "pts": 26,
-      "streak": "2L"
     },
     {
       "pos": 11,
@@ -231,15 +231,15 @@
       "pos": 17,
       "nick": "Dragons",
       "name": "St George Illawarra Dragons",
-      "played": 21,
+      "played": 22,
       "wins": 4,
-      "losses": 17,
+      "losses": 18,
       "drawn": 0,
-      "ptsFor": 344,
-      "ptsAgainst": 607,
-      "diff": -263,
+      "ptsFor": 358,
+      "ptsAgainst": 651,
+      "diff": -293,
       "pts": 14,
-      "streak": "2W"
+      "streak": "1L"
     }
   ],
   "teams": {
@@ -324,15 +324,8 @@
       ]
     },
     "Canterbury Bulldogs": {
-      "last5": "W W W L L",
+      "last5": "W W L L W",
       "games": [
-        {
-          "round": 20,
-          "result": "W",
-          "opponent": "Wests Tigers",
-          "home": true,
-          "score": "32\u20130"
-        },
         {
           "round": 21,
           "result": "W",
@@ -360,6 +353,13 @@
           "opponent": "South Sydney Rabbitohs",
           "home": true,
           "score": "6\u201322"
+        },
+        {
+          "round": 25,
+          "result": "W",
+          "opponent": "St George Illawarra Dragons",
+          "home": false,
+          "score": "14\u201344"
         }
       ]
     },
@@ -804,15 +804,8 @@
       ]
     },
     "St George Illawarra Dragons": {
-      "last5": "L L L W W",
+      "last5": "L L W W L",
       "games": [
-        {
-          "round": 20,
-          "result": "L",
-          "opponent": "New Zealand Warriors",
-          "home": false,
-          "score": "20\u201312"
-        },
         {
           "round": 21,
           "result": "L",
@@ -840,6 +833,13 @@
           "opponent": "Wests Tigers",
           "home": false,
           "score": "22\u201324"
+        },
+        {
+          "round": 25,
+          "result": "L",
+          "opponent": "Canterbury Bulldogs",
+          "home": true,
+          "score": "14\u201344"
         }
       ]
     },
