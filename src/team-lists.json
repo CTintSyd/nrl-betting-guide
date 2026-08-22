@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T05:46:36.262677+00:00",
+  "generatedAt": "2026-08-22T06:15:56.047105+00:00",
   "round": 25,
   "games": [
     {
@@ -142,12 +142,6 @@
         "name": "Edward Kosi",
         "position": "Interchange",
         "category": "reserve"
-      },
-      {
-        "number": 21,
-        "name": "Thomas Fletcher",
-        "position": "Reserve",
-        "category": "reserve"
       }
     ],
     "New Zealand Warriors": [
@@ -166,7 +160,7 @@
       {
         "number": 3,
         "name": "Ali Leiataua",
-        "position": "Centre",
+        "position": "Interchange",
         "category": "starting"
       },
       {
@@ -256,19 +250,13 @@
       {
         "number": 18,
         "name": "Adam Pompey",
-        "position": "Interchange",
-        "category": "reserve"
-      },
-      {
-        "number": 20,
-        "name": "Morgan Gannon",
-        "position": "Interchange",
+        "position": "Centre",
         "category": "reserve"
       },
       {
         "number": 21,
         "name": "Jett Cleary",
-        "position": "Reserve",
+        "position": "Interchange",
         "category": "reserve"
       }
     ],
@@ -762,12 +750,6 @@
     ],
     "Sydney Roosters": [
       {
-        "number": 1,
-        "name": "James Tedesco",
-        "position": "Fullback",
-        "category": "starting"
-      },
-      {
         "number": 2,
         "name": "Billy Smith",
         "position": "Winger",
@@ -866,7 +848,7 @@
       {
         "number": 18,
         "name": "Cody Ramsey",
-        "position": "Interchange",
+        "position": "Fullback",
         "category": "reserve"
       },
       {
@@ -878,18 +860,12 @@
       {
         "number": 20,
         "name": "Rex Bassingthwaighte",
-        "position": "Reserve",
+        "position": "Interchange",
         "category": "reserve"
       },
       {
         "number": 21,
         "name": "Benaiah Ioelu",
-        "position": "Reserve",
-        "category": "reserve"
-      },
-      {
-        "number": 22,
-        "name": "Taylor Losalu",
         "position": "Reserve",
         "category": "reserve"
       }
@@ -1004,27 +980,15 @@
         "category": "reserve"
       },
       {
-        "number": 19,
-        "name": "Sunia Turuva",
-        "position": "Interchange",
-        "category": "reserve"
-      },
-      {
         "number": 20,
         "name": "Javon Andrews",
         "position": "Reserve",
         "category": "reserve"
       },
       {
-        "number": 21,
-        "name": "Charlie Murray",
-        "position": "Reserve",
-        "category": "reserve"
-      },
-      {
         "number": 22,
         "name": "Faaletino Tavana",
-        "position": "Reserve",
+        "position": "Interchange",
         "category": "reserve"
       }
     ]
@@ -1374,6 +1338,13 @@
         "expectedReturn": "TBC",
         "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500002/Ethan%20Bullemor%20_260128_SeaEgales_MK1030.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/sea-eagles/ethan-bullemor/"
+      },
+      {
+        "name": "Tolutau Koula",
+        "injury": "Ankle",
+        "expectedReturn": "TBC",
+        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500002/Tolu%20Koula%20_260128_SeaEgales_MK2447.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/sea-eagles/tolu-koula/"
       },
       {
         "name": "Siosiua Taukeiaho",

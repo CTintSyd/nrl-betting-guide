@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-22T05:46:37Z",
+  "updated": "2026-08-22T06:15:57Z",
   "articles": [
     {
       "title": "LIVE: Knights vs Sea Eagles – Round 25, 2026",
@@ -9,6 +9,28 @@
       "teams": [
         "Newcastle Knights",
         "Manly Warringah Sea Eagles"
+      ],
+      "isRound": true
+    },
+    {
+      "title": "Updated Team Lists: Roosters vs Wests Tigers – Round 25, 2026",
+      "url": "https://www.zerotackle.com/updated-team-lists-roosters-vs-wests-tigers-10396531-237270/",
+      "description": "The Roosters and Wests Tigers have cut their squads to 20 ahead of tomorrow's match at Allianz Stadium.",
+      "date": "Sat, 22 Aug 2026 06:04:10 +0000",
+      "teams": [
+        "Sydney Roosters",
+        "Wests Tigers"
+      ],
+      "isRound": true
+    },
+    {
+      "title": "FINAL TEAMS: Rabbitohs vs Warriors – Round 25, 2026",
+      "url": "https://www.zerotackle.com/updated-team-lists-rabbitohs-warriors-10396528-237240/",
+      "description": "LATE MAIL: The Rabbitohs and Warriors have confirmed their lineups for the match at Accor Stadium.",
+      "date": "Sat, 22 Aug 2026 05:58:11 +0000",
+      "teams": [
+        "South Sydney Rabbitohs",
+        "New Zealand Warriors"
       ],
       "isRound": true
     },
@@ -61,26 +83,6 @@
       "date": "Sat, 22 Aug 2026 01:52:53 +0000",
       "teams": [
         "Dolphins"
-      ],
-      "isRound": false
-    },
-    {
-      "title": "Dragons playmaker locks up new contract",
-      "url": "https://www.zerotackle.com/dragons-playmaker-locks-up-new-contract-237250/",
-      "description": "The Dragons have plenty of halves now locked in for 2027.",
-      "date": "Fri, 21 Aug 2026 22:53:48 +0000",
-      "teams": [
-        "St George Illawarra Dragons"
-      ],
-      "isRound": false
-    },
-    {
-      "title": "“I deserved what I got”: Atkinson reflects on NRL axing with fullback switch",
-      "url": "https://www.zerotackle.com/i-deserved-what-i-got-atkinson-reflects-on-nrl-axing-with-fullback-switch-237197/",
-      "description": "The former Sharks half made a solid return to the NRL side on Sunday.",
-      "date": "Fri, 21 Aug 2026 22:26:27 +0000",
-      "teams": [
-        "Cronulla Sutherland Sharks"
       ],
       "isRound": false
     }
