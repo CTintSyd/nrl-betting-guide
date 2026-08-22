@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-08-22T09:11:59Z",
+  "updatedAt": "2026-08-22T09:46:51Z",
   "season": 2026,
-  "totalFavRecord": "103-81",
-  "totalLineRecord": "19-26",
-  "totalOuRecord": "23O-22U",
+  "totalFavRecord": "104-81",
+  "totalLineRecord": "20-26",
+  "totalOuRecord": "24O-22U",
   "rounds": [
     {
       "round": 1,
@@ -2959,11 +2959,26 @@
           "ouTotal": 50.5,
           "ouResult": "Over",
           "oddsSourced": true
+        },
+        {
+          "homeTeam": "South Sydney Rabbitohs",
+          "awayTeam": "New Zealand Warriors",
+          "homeScore": 26,
+          "awayScore": 45,
+          "winner": "New Zealand Warriors",
+          "margin": 19,
+          "favourite": "New Zealand Warriors",
+          "favouriteWon": true,
+          "linePoint": 3.5,
+          "lineCovered": true,
+          "ouTotal": 45.5,
+          "ouResult": "Over",
+          "oddsSourced": true
         }
       ],
-      "favRecord": "2-2",
-      "lineRecord": "1-3",
-      "ouRecord": "2O-2U"
+      "favRecord": "3-2",
+      "lineRecord": "2-3",
+      "ouRecord": "3O-2U"
     }
   ]
 }

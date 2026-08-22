@@ -1,9 +1,20 @@
 {
-  "updated": "2026-08-22T09:11:52Z",
+  "updated": "2026-08-22T09:46:38Z",
   "articles": [
     {
-      "title": "LIVE: Rabbitohs vs Warriors – Round 25, 2026",
-      "url": "https://www.zerotackle.com/live-rabbitohs-warriors-round-25-2026-mc10396528-237063/",
+      "title": "LIVE: Dragons vs Bulldogs – Round 25, 2026",
+      "url": "https://www.zerotackle.com/live-dragons-bulldogs-round-25-2026-mc10396529-237061/",
+      "description": "The St George Illawarra Dragons face the Canterbury-Bankstown Bulldogs in Round 25 of the 2026 NRL season. Follow the live scores, team lists, match statistics and key moments from the game at Allianz Stadium.",
+      "date": "Sat, 25 Jul 2026 09:30:00 +0000",
+      "teams": [
+        "Canterbury Bulldogs",
+        "St George Illawarra Dragons"
+      ],
+      "isRound": true
+    },
+    {
+      "title": "FULL TIME: Rabbitohs vs Warriors – Round 25, 2026",
+      "url": "https://www.zerotackle.com/fulltime-rabbitohs-warriors-round-25-2026-mc10396528-237063/",
       "description": "The South Sydney Rabbitohs face the New Zealand Warriors in Round 25 of the 2026 NRL season. Follow the live scores, team lists, match statistics and key moments from the game at Accor Stadium.",
       "date": "Sat, 25 Jul 2026 07:30:00 +0000",
       "teams": [
@@ -95,17 +106,6 @@
         "Sydney Roosters"
       ],
       "isRound": false
-    },
-    {
-      "title": "Updated Team Lists: Titans vs Sharks – Round 25, 2026",
-      "url": "https://www.zerotackle.com/updated-team-lists-titans-vs-sharks-10396530-237264/",
-      "description": "The Titans and Sharks have cut their squads to 20 ahead of tomorrow's match at Cbus Super Stadium.",
-      "date": "Sat, 22 Aug 2026 03:58:09 +0000",
-      "teams": [
-        "Cronulla Sutherland Sharks",
-        "Gold Coast Titans"
-      ],
-      "isRound": true
     }
   ]
 }
