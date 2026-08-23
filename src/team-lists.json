@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T07:00:14.134069+00:00",
+  "generatedAt": "2026-08-23T07:35:56.438257+00:00",
   "round": 26,
   "games": [
     {
@@ -631,6 +631,13 @@
         "expectedReturn": "TBC",
         "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500023/Sunia%20Turuva%20260106_MK1098.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/wests-tigers/sunia-turuva/"
+      },
+      {
+        "name": "Alex Twal",
+        "injury": "Head knock",
+        "expectedReturn": "TBC",
+        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500023/Alex%20Twal%20260106_MK776-21.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/wests-tigers/alex-twal/"
       },
       {
         "name": "Adam Doueihi",
