@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-08-23T08:01:23Z",
+  "updatedAt": "2026-08-23T08:37:32Z",
   "season": 2026,
-  "totalFavRecord": "106-81",
-  "totalLineRecord": "21-27",
-  "totalOuRecord": "26O-22U",
+  "totalFavRecord": "106-82",
+  "totalLineRecord": "21-28",
+  "totalOuRecord": "26O-23U",
   "rounds": [
     {
       "round": 1,
@@ -3004,11 +3004,26 @@
           "ouTotal": 50.5,
           "ouResult": "Over",
           "oddsSourced": true
+        },
+        {
+          "homeTeam": "Sydney Roosters",
+          "awayTeam": "Wests Tigers",
+          "homeScore": 24,
+          "awayScore": 25,
+          "winner": "Wests Tigers",
+          "margin": 1,
+          "favourite": "Sydney Roosters",
+          "favouriteWon": false,
+          "linePoint": -15.5,
+          "lineCovered": false,
+          "ouTotal": 50.5,
+          "ouResult": "Under",
+          "oddsSourced": true
         }
       ],
-      "favRecord": "5-2",
-      "lineRecord": "3-4",
-      "ouRecord": "5O-2U"
+      "favRecord": "5-3",
+      "lineRecord": "3-5",
+      "ouRecord": "5O-3U"
     }
   ]
 }

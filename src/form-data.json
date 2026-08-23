@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-23T08:01:02.277336+00:00",
+  "generatedAt": "2026-08-23T08:37:09.204717+00:00",
   "round": 25,
-  "upcomingRound": 25,
+  "upcomingRound": 26,
   "ladder": [
     {
       "pos": 1,
@@ -35,13 +35,13 @@
       "pos": 3,
       "nick": "Roosters",
       "name": "Sydney Roosters",
-      "played": 21,
+      "played": 22,
       "wins": 16,
-      "losses": 5,
+      "losses": 6,
       "drawn": 0,
-      "ptsFor": 563,
-      "ptsAgainst": 400,
-      "diff": 163,
+      "ptsFor": 587,
+      "ptsAgainst": 425,
+      "diff": 162,
       "pts": 38,
       "streak": "5W"
     },
@@ -187,6 +187,20 @@
     },
     {
       "pos": 14,
+      "nick": "Wests Tigers",
+      "name": "Wests Tigers",
+      "played": 22,
+      "wins": 8,
+      "losses": 14,
+      "drawn": 0,
+      "ptsFor": 425,
+      "ptsAgainst": 637,
+      "diff": -212,
+      "pts": 22,
+      "streak": "4L"
+    },
+    {
+      "pos": 15,
       "nick": "Broncos",
       "name": "Brisbane Broncos",
       "played": 22,
@@ -198,20 +212,6 @@
       "diff": -194,
       "pts": 20,
       "streak": "1W"
-    },
-    {
-      "pos": 15,
-      "nick": "Wests Tigers",
-      "name": "Wests Tigers",
-      "played": 21,
-      "wins": 7,
-      "losses": 14,
-      "drawn": 0,
-      "ptsFor": 400,
-      "ptsAgainst": 613,
-      "diff": -213,
-      "pts": 20,
-      "streak": "4L"
     },
     {
       "pos": 16,
@@ -844,15 +844,8 @@
       ]
     },
     "Sydney Roosters": {
-      "last5": "W W W W W",
+      "last5": "W W W W L",
       "games": [
-        {
-          "round": 20,
-          "result": "W",
-          "opponent": "Melbourne Storm",
-          "home": true,
-          "score": "14\u20136"
-        },
         {
           "round": 21,
           "result": "W",
@@ -880,11 +873,18 @@
           "opponent": "Penrith Panthers",
           "home": false,
           "score": "6\u201312"
+        },
+        {
+          "round": 25,
+          "result": "L",
+          "opponent": "Wests Tigers",
+          "home": true,
+          "score": "24\u201325"
         }
       ]
     },
     "Wests Tigers": {
-      "last5": "L L L L",
+      "last5": "L L L L W",
       "games": [
         {
           "round": 20,
@@ -913,6 +913,13 @@
           "opponent": "St George Illawarra Dragons",
           "home": true,
           "score": "22\u201324"
+        },
+        {
+          "round": 25,
+          "result": "W",
+          "opponent": "Sydney Roosters",
+          "home": false,
+          "score": "24\u201325"
         }
       ]
     }
