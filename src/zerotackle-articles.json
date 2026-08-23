@@ -1,6 +1,17 @@
 {
-  "updated": "2026-08-23T06:02:55Z",
+  "updated": "2026-08-23T07:00:15Z",
   "articles": [
+    {
+      "title": "LIVE: Roosters vs Wests Tigers – Round 25, 2026",
+      "url": "https://www.zerotackle.com/live-roosters-wests-tigers-round-25-2026-mc10396531-237057/",
+      "description": "The Sydney Roosters face the Wests Tigers in Round 25 of the 2026 NRL season. Follow the live scores, team lists, match statistics and key moments from the game at Allianz Stadium.",
+      "date": "Sun, 26 Jul 2026 06:05:00 +0000",
+      "teams": [
+        "Sydney Roosters",
+        "Wests Tigers"
+      ],
+      "isRound": true
+    },
     {
       "title": "FULL TIME: Titans vs Sharks – Round 25, 2026",
       "url": "https://www.zerotackle.com/fulltime-titans-sharks-round-25-2026-mc10396530-237059/",
@@ -53,26 +64,6 @@
         "Gold Coast Titans"
       ],
       "isRound": true
-    },
-    {
-      "title": "Warriors star winger faces race against the clock after major injury blow",
-      "url": "https://www.zerotackle.com/warriors-star-winger-faces-race-against-the-clock-after-major-injury-blow-237287/",
-      "description": "Andrew Webster confirmed the extent of the injury on Sunday.",
-      "date": "Sun, 23 Aug 2026 01:32:04 +0000",
-      "teams": [
-        "New Zealand Warriors"
-      ],
-      "isRound": false
-    },
-    {
-      "title": "Broncos consider left-field contract for Michael Maguire amid review",
-      "url": "https://www.zerotackle.com/broncos-consider-left-field-contract-for-michael-maguire-amid-review-237283/",
-      "description": "The premiership-winning coach is under review after Brisbane’s dramatic fall.",
-      "date": "Sun, 23 Aug 2026 00:56:27 +0000",
-      "teams": [
-        "Brisbane Broncos"
-      ],
-      "isRound": false
     }
   ]
 }

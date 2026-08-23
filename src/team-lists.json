@@ -1,248 +1,57 @@
 {
-  "generatedAt": "2026-08-23T06:02:54.286215+00:00",
-  "round": 25,
+  "generatedAt": "2026-08-23T07:00:14.134069+00:00",
+  "round": 26,
   "games": [
     {
-      "matchCentreUrl": "/draw/nrl-premiership/2026/round-25/roosters-v-wests-tigers/",
-      "kickoff": "2026-08-23T06:05:00Z",
+      "matchCentreUrl": "/draw/nrl-premiership/2026/round-26/broncos-v-storm/",
+      "kickoff": "2026-08-27T09:50:00Z",
+      "homeTeam": "Brisbane Broncos",
+      "awayTeam": "Melbourne Storm"
+    },
+    {
+      "matchCentreUrl": "/draw/nrl-premiership/2026/round-26/sea-eagles-v-dragons/",
+      "kickoff": "2026-08-28T08:00:00Z",
+      "homeTeam": "Manly Warringah Sea Eagles",
+      "awayTeam": "St George Illawarra Dragons"
+    },
+    {
+      "matchCentreUrl": "/draw/nrl-premiership/2026/round-26/panthers-v-bulldogs/",
+      "kickoff": "2026-08-28T10:00:00Z",
+      "homeTeam": "Penrith Panthers",
+      "awayTeam": "Canterbury Bulldogs"
+    },
+    {
+      "matchCentreUrl": "/draw/nrl-premiership/2026/round-26/titans-v-rabbitohs/",
+      "kickoff": "2026-08-29T05:00:00Z",
+      "homeTeam": "Gold Coast Titans",
+      "awayTeam": "South Sydney Rabbitohs"
+    },
+    {
+      "matchCentreUrl": "/draw/nrl-premiership/2026/round-26/roosters-v-dolphins/",
+      "kickoff": "2026-08-29T07:30:00Z",
       "homeTeam": "Sydney Roosters",
+      "awayTeam": "Dolphins"
+    },
+    {
+      "matchCentreUrl": "/draw/nrl-premiership/2026/round-26/cowboys-v-wests-tigers/",
+      "kickoff": "2026-08-29T09:35:00Z",
+      "homeTeam": "North Queensland Cowboys",
       "awayTeam": "Wests Tigers"
+    },
+    {
+      "matchCentreUrl": "/draw/nrl-premiership/2026/round-26/warriors-v-knights/",
+      "kickoff": "2026-08-30T04:00:00Z",
+      "homeTeam": "New Zealand Warriors",
+      "awayTeam": "Newcastle Knights"
+    },
+    {
+      "matchCentreUrl": "/draw/nrl-premiership/2026/round-26/eels-v-sharks/",
+      "kickoff": "2026-08-30T06:05:00Z",
+      "homeTeam": "Parramatta Eels",
+      "awayTeam": "Cronulla Sutherland Sharks"
     }
   ],
-  "teams": {
-    "Sydney Roosters": [
-      {
-        "number": 2,
-        "name": "Billy Smith",
-        "position": "Winger",
-        "category": "starting"
-      },
-      {
-        "number": 3,
-        "name": "Hugo Savala",
-        "position": "Centre",
-        "category": "starting"
-      },
-      {
-        "number": 4,
-        "name": "Robert Toia",
-        "position": "Centre",
-        "category": "starting"
-      },
-      {
-        "number": 5,
-        "name": "Mark Nawaqanitawase",
-        "position": "Winger",
-        "category": "starting"
-      },
-      {
-        "number": 6,
-        "name": "Daly Cherry-Evans",
-        "position": "Five-Eighth",
-        "category": "starting"
-      },
-      {
-        "number": 7,
-        "name": "Sam Walker",
-        "position": "Halfback",
-        "category": "starting"
-      },
-      {
-        "number": 8,
-        "name": "Naufahu Whyte",
-        "position": "Prop",
-        "category": "starting"
-      },
-      {
-        "number": 9,
-        "name": "Reece Robson",
-        "position": "Hooker",
-        "category": "starting"
-      },
-      {
-        "number": 10,
-        "name": "Spencer Leniu",
-        "position": "Interchange",
-        "category": "starting"
-      },
-      {
-        "number": 11,
-        "name": "Salesi Foketi",
-        "position": "2nd Row",
-        "category": "starting"
-      },
-      {
-        "number": 12,
-        "name": "Siua Wong",
-        "position": "2nd Row",
-        "category": "starting"
-      },
-      {
-        "number": 13,
-        "name": "Victor Radley",
-        "position": "Lock",
-        "category": "starting"
-      },
-      {
-        "number": 14,
-        "name": "Connor Watson",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
-        "number": 15,
-        "name": "Lindsay Collins",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
-        "number": 16,
-        "name": "Nat Butcher",
-        "position": "Prop",
-        "category": "interchange"
-      },
-      {
-        "number": 17,
-        "name": "Egan Butcher",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
-        "number": 18,
-        "name": "Cody Ramsey",
-        "position": "Fullback",
-        "category": "reserve"
-      },
-      {
-        "number": 19,
-        "name": "Tommy Talau",
-        "position": "Interchange",
-        "category": "reserve"
-      },
-      {
-        "number": 20,
-        "name": "Rex Bassingthwaighte",
-        "position": "Interchange",
-        "category": "reserve"
-      }
-    ],
-    "Wests Tigers": [
-      {
-        "number": 1,
-        "name": "Jahream Bula",
-        "position": "Fullback",
-        "category": "starting"
-      },
-      {
-        "number": 2,
-        "name": "Junior Tupou",
-        "position": "Winger",
-        "category": "starting"
-      },
-      {
-        "number": 3,
-        "name": "Solomone Saukuru",
-        "position": "Centre",
-        "category": "starting"
-      },
-      {
-        "number": 4,
-        "name": "Patrick Herbert",
-        "position": "Centre",
-        "category": "starting"
-      },
-      {
-        "number": 5,
-        "name": "Jeral Skelton",
-        "position": "Winger",
-        "category": "starting"
-      },
-      {
-        "number": 6,
-        "name": "Jarome Luai",
-        "position": "Five-Eighth",
-        "category": "starting"
-      },
-      {
-        "number": 7,
-        "name": "Jock Madden",
-        "position": "Halfback",
-        "category": "starting"
-      },
-      {
-        "number": 8,
-        "name": "Terrell May",
-        "position": "Interchange",
-        "category": "starting"
-      },
-      {
-        "number": 9,
-        "name": "Apisai Koroisau",
-        "position": "Hooker",
-        "category": "starting"
-      },
-      {
-        "number": 10,
-        "name": "Fonua Pole",
-        "position": "Prop",
-        "category": "starting"
-      },
-      {
-        "number": 11,
-        "name": "Samuela Fainu",
-        "position": "2nd Row",
-        "category": "starting"
-      },
-      {
-        "number": 12,
-        "name": "Tony Sukkar",
-        "position": "2nd Row",
-        "category": "starting"
-      },
-      {
-        "number": 13,
-        "name": "Alex Twal",
-        "position": "Lock",
-        "category": "starting"
-      },
-      {
-        "number": 14,
-        "name": "Heath Mason",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
-        "number": 15,
-        "name": "Sione Fainu",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
-        "number": 16,
-        "name": "Alex Seyfarth",
-        "position": "Prop",
-        "category": "interchange"
-      },
-      {
-        "number": 17,
-        "name": "Bunty Afoa",
-        "position": "Interchange",
-        "category": "interchange"
-      },
-      {
-        "number": 18,
-        "name": "Tristan Hope",
-        "position": "Interchange",
-        "category": "reserve"
-      },
-      {
-        "number": 22,
-        "name": "Faaletino Tavana",
-        "position": "Interchange",
-        "category": "reserve"
-      }
-    ]
-  },
+  "teams": {},
   "casualties": {
     "Brisbane Broncos": [
       {
