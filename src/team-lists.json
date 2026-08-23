@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T09:59:01.513977+00:00",
+  "generatedAt": "2026-08-23T10:24:07.512871+00:00",
   "round": 26,
   "games": [
     {
@@ -567,6 +567,13 @@
       }
     ],
     "New Zealand Warriors": [
+      {
+        "name": "Ali Leiataua",
+        "injury": "Illness",
+        "expectedReturn": "Round 26",
+        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500032/Ali%20Leiataua-003.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/warriors/ali-leiataua/"
+      },
       {
         "name": "Te Maire Martin",
         "injury": "Hamstring",
