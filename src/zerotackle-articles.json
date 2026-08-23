@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-23T04:29:52Z",
+  "updated": "2026-08-23T05:04:13Z",
   "articles": [
     {
       "title": "LIVE: Titans vs Sharks – Round 25, 2026",
@@ -9,6 +9,17 @@
       "teams": [
         "Cronulla Sutherland Sharks",
         "Gold Coast Titans"
+      ],
+      "isRound": true
+    },
+    {
+      "title": "FINAL TEAMS: Roosters vs Wests Tigers – Round 25, 2026",
+      "url": "https://www.zerotackle.com/updated-team-lists-roosters-wests-tigers-10396531-237270/",
+      "description": "LATE MAIL: The Roosters and Wests Tigers have confirmed their lineups for the match at Allianz Stadium.",
+      "date": "Sun, 23 Aug 2026 04:32:12 +0000",
+      "teams": [
+        "Sydney Roosters",
+        "Wests Tigers"
       ],
       "isRound": true
     },
@@ -50,16 +61,6 @@
       "date": "Sun, 23 Aug 2026 00:56:27 +0000",
       "teams": [
         "Brisbane Broncos"
-      ],
-      "isRound": false
-    },
-    {
-      "title": "Finals race twist as Manly keep hopes alive",
-      "url": "https://www.zerotackle.com/finals-race-twist-as-manly-teams-keep-hopes-alive-237282/",
-      "description": "'Fozball' made a return in Newcastle on Saturday afternoon.",
-      "date": "Sun, 23 Aug 2026 00:29:54 +0000",
-      "teams": [
-        "Manly Warringah Sea Eagles"
       ],
       "isRound": false
     }
