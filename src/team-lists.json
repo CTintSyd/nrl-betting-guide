@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T05:04:11.735181+00:00",
+  "generatedAt": "2026-08-23T05:44:07.362619+00:00",
   "round": 25,
   "games": [
     {
@@ -713,6 +713,13 @@
         "expectedReturn": "Round 26",
         "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500004/PATSTON%2C%20Josh-%20Bodyshot.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/titans/josh-patston/"
+      },
+      {
+        "name": "Beau Fermor",
+        "injury": "Abdomen",
+        "expectedReturn": "TBC",
+        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500004/FERMOR%2C%20Beau-%20Bodyshot.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/titans/beau-fermor/"
       },
       {
         "name": "Brock Gray",
