@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T05:43:55.309099+00:00",
+  "generatedAt": "2026-08-23T06:02:42.363465+00:00",
   "round": 25,
   "players": {
     "Kalyn Ponga": {
@@ -1334,15 +1334,15 @@
     },
     "William Kennedy": {
       "tries": 10,
-      "games": 21,
-      "tryRate": 0.4762,
+      "games": 22,
+      "tryRate": 0.4545,
       "team": "Cronulla Sutherland Sharks",
       "position": "Fullback"
     },
     "Sione Katoa": {
-      "tries": 11,
-      "games": 15,
-      "tryRate": 0.7333,
+      "tries": 13,
+      "games": 16,
+      "tryRate": 0.8125,
       "team": "Cronulla Sutherland Sharks",
       "position": "Winger"
     },
@@ -1355,15 +1355,15 @@
     },
     "KL Iro": {
       "tries": 12,
-      "games": 19,
-      "tryRate": 0.6316,
+      "games": 20,
+      "tryRate": 0.6,
       "team": "Cronulla Sutherland Sharks",
       "position": "Centre"
     },
     "Samuel Stonestreet": {
       "tries": 4,
-      "games": 15,
-      "tryRate": 0.2667,
+      "games": 16,
+      "tryRate": 0.25,
       "team": "Cronulla Sutherland Sharks",
       "position": "Reserve"
     },
@@ -1376,57 +1376,57 @@
     },
     "Nicho Hynes": {
       "tries": 7,
-      "games": 18,
-      "tryRate": 0.3889,
+      "games": 19,
+      "tryRate": 0.3684,
       "team": "Cronulla Sutherland Sharks",
       "position": "Halfback"
     },
     "Addin Fonua-Blake": {
-      "tries": 1,
-      "games": 18,
-      "tryRate": 0.0556,
+      "tries": 2,
+      "games": 19,
+      "tryRate": 0.1053,
       "team": "Cronulla Sutherland Sharks",
       "position": "Prop"
     },
     "Blayke Brailey": {
       "tries": 2,
-      "games": 17,
-      "tryRate": 0.1176,
+      "games": 18,
+      "tryRate": 0.1111,
       "team": "Cronulla Sutherland Sharks",
       "position": "Hooker"
     },
     "Thomas Hazelton": {
       "tries": 2,
-      "games": 20,
-      "tryRate": 0.1,
+      "games": 21,
+      "tryRate": 0.0952,
       "team": "Cronulla Sutherland Sharks",
-      "position": "Interchange"
+      "position": "Lock"
     },
     "Briton Nikora": {
       "tries": 3,
-      "games": 16,
-      "tryRate": 0.1875,
+      "games": 17,
+      "tryRate": 0.1765,
       "team": "Cronulla Sutherland Sharks",
       "position": "2nd Row"
     },
     "Billy Burns": {
       "tries": 5,
-      "games": 21,
-      "tryRate": 0.2381,
+      "games": 22,
+      "tryRate": 0.2273,
       "team": "Cronulla Sutherland Sharks",
       "position": "Interchange"
     },
     "Jesse Colquhoun": {
       "tries": 3,
-      "games": 19,
-      "tryRate": 0.1579,
+      "games": 20,
+      "tryRate": 0.15,
       "team": "Cronulla Sutherland Sharks",
       "position": "Prop"
     },
     "Siosifa Talakai": {
       "tries": 5,
-      "games": 19,
-      "tryRate": 0.2632,
+      "games": 20,
+      "tryRate": 0.25,
       "team": "Cronulla Sutherland Sharks",
       "position": "Interchange"
     },
@@ -1439,10 +1439,10 @@
     },
     "Oregon Kaufusi": {
       "tries": 1,
-      "games": 19,
-      "tryRate": 0.0526,
+      "games": 20,
+      "tryRate": 0.05,
       "team": "Cronulla Sutherland Sharks",
-      "position": "Prop"
+      "position": "Interchange"
     },
     "Braden Uele": {
       "tries": 0,
@@ -1453,10 +1453,10 @@
     },
     "Hohepa Puru": {
       "tries": 1,
-      "games": 18,
-      "tryRate": 0.0556,
+      "games": 19,
+      "tryRate": 0.0526,
       "team": "Cronulla Sutherland Sharks",
-      "position": "Interchange"
+      "position": "Reserve"
     },
     "Chris Vea'ila": {
       "tries": 0,
@@ -1467,22 +1467,22 @@
     },
     "Keano Kini": {
       "tries": 3,
-      "games": 21,
-      "tryRate": 0.1429,
+      "games": 22,
+      "tryRate": 0.1364,
       "team": "Gold Coast Titans",
       "position": "Fullback"
     },
     "Siale Faeamani": {
       "tries": 4,
-      "games": 10,
-      "tryRate": 0.4,
+      "games": 11,
+      "tryRate": 0.3636,
       "team": "Gold Coast Titans",
       "position": "Reserve"
     },
     "Jojo Fifita": {
-      "tries": 7,
-      "games": 19,
-      "tryRate": 0.3684,
+      "tries": 8,
+      "games": 20,
+      "tryRate": 0.4,
       "team": "Gold Coast Titans",
       "position": "Centre"
     },
@@ -1494,32 +1494,32 @@
       "position": "Reserve"
     },
     "Phillip Sami": {
-      "tries": 14,
-      "games": 21,
-      "tryRate": 0.6667,
+      "tries": 15,
+      "games": 22,
+      "tryRate": 0.6818,
       "team": "Gold Coast Titans",
       "position": "Winger"
     },
     "AJ Brimson": {
-      "tries": 3,
-      "games": 19,
-      "tryRate": 0.1579,
+      "tries": 4,
+      "games": 20,
+      "tryRate": 0.2,
       "team": "Gold Coast Titans",
       "position": "Centre"
     },
     "Lachlan Ilias": {
       "tries": 1,
-      "games": 14,
-      "tryRate": 0.0714,
+      "games": 15,
+      "tryRate": 0.0667,
       "team": "Gold Coast Titans",
       "position": "Halfback"
     },
     "Moeaki Fotuaika": {
       "tries": 1,
-      "games": 21,
-      "tryRate": 0.0476,
+      "games": 22,
+      "tryRate": 0.0455,
       "team": "Gold Coast Titans",
-      "position": "Prop"
+      "position": "Interchange"
     },
     "Sam Verrills": {
       "tries": 1,
@@ -1530,38 +1530,38 @@
     },
     "Tino Fa'asuamaleaui": {
       "tries": 1,
-      "games": 18,
-      "tryRate": 0.0556,
+      "games": 19,
+      "tryRate": 0.0526,
       "team": "Gold Coast Titans",
       "position": "Prop"
     },
     "Arama Hau": {
       "tries": 7,
-      "games": 20,
-      "tryRate": 0.35,
+      "games": 21,
+      "tryRate": 0.3333,
       "team": "Gold Coast Titans",
       "position": "Reserve"
     },
     "Beau Fermor": {
       "tries": 4,
-      "games": 21,
-      "tryRate": 0.1905,
+      "games": 22,
+      "tryRate": 0.1818,
       "team": "Gold Coast Titans",
       "position": "2nd Row"
     },
     "Chris Randall": {
       "tries": 1,
-      "games": 18,
-      "tryRate": 0.0556,
+      "games": 19,
+      "tryRate": 0.0526,
       "team": "Gold Coast Titans",
-      "position": "Lock"
+      "position": "Interchange"
     },
     "Kurtis Morrin": {
       "tries": 7,
-      "games": 19,
-      "tryRate": 0.3684,
+      "games": 20,
+      "tryRate": 0.35,
       "team": "Gold Coast Titans",
-      "position": "Interchange"
+      "position": "2nd Row"
     },
     "Tukimihia Simpkins": {
       "tries": 0,
@@ -1572,24 +1572,24 @@
     },
     "Klese Haas": {
       "tries": 0,
-      "games": 20,
+      "games": 21,
       "tryRate": 0.0,
       "team": "Gold Coast Titans",
-      "position": "Interchange"
+      "position": "Prop"
     },
     "Cooper Bai": {
       "tries": 2,
-      "games": 20,
-      "tryRate": 0.1,
+      "games": 21,
+      "tryRate": 0.0952,
       "team": "Gold Coast Titans",
-      "position": "Interchange"
+      "position": "Lock"
     },
     "Luke Sommerton": {
       "tries": 0,
-      "games": 6,
+      "games": 7,
       "tryRate": 0.0,
       "team": "Gold Coast Titans",
-      "position": "Reserve"
+      "position": "Interchange"
     },
     "Zane Harrison": {
       "tries": 0,
@@ -2510,15 +2510,15 @@
     },
     "Mawene Hiroti": {
       "tries": 2,
-      "games": 17,
-      "tryRate": 0.1176,
+      "games": 18,
+      "tryRate": 0.1111,
       "team": "Cronulla Sutherland Sharks",
       "position": "Centre"
     },
     "Teig Wilton": {
       "tries": 8,
-      "games": 19,
-      "tryRate": 0.4211,
+      "games": 20,
+      "tryRate": 0.4,
       "team": "Cronulla Sutherland Sharks",
       "position": "2nd Row"
     },
@@ -2566,8 +2566,8 @@
     },
     "Jayden Campbell": {
       "tries": 10,
-      "games": 19,
-      "tryRate": 0.5263,
+      "games": 20,
+      "tryRate": 0.5,
       "team": "Gold Coast Titans",
       "position": "Five-Eighth"
     },
@@ -2671,8 +2671,8 @@
     },
     "Oliver Pascoe": {
       "tries": 4,
-      "games": 18,
-      "tryRate": 0.2222,
+      "games": 19,
+      "tryRate": 0.2105,
       "team": "Gold Coast Titans",
       "position": "Hooker"
     },
@@ -2881,8 +2881,8 @@
     },
     "Jaylan De Groot": {
       "tries": 2,
-      "games": 15,
-      "tryRate": 0.1333,
+      "games": 16,
+      "tryRate": 0.125,
       "team": "Gold Coast Titans",
       "position": "Winger"
     },
@@ -3020,11 +3020,11 @@
       "position": "2nd Row"
     },
     "Cameron McInnes": {
-      "tries": 0,
-      "games": 14,
-      "tryRate": 0.0,
+      "tries": 1,
+      "games": 15,
+      "tryRate": 0.0667,
       "team": "Cronulla Sutherland Sharks",
-      "position": "Lock"
+      "position": "Interchange"
     },
     "Preston Riki": {
       "tries": 0,
@@ -3202,9 +3202,9 @@
       "position": "Prop"
     },
     "Ronaldo Mulitalo": {
-      "tries": 10,
-      "games": 12,
-      "tryRate": 0.8333,
+      "tries": 12,
+      "games": 13,
+      "tryRate": 0.9231,
       "team": "Cronulla Sutherland Sharks",
       "position": "Winger"
     },
@@ -3308,10 +3308,10 @@
     },
     "Niwhai Puru": {
       "tries": 1,
-      "games": 3,
-      "tryRate": 0.3333,
+      "games": 4,
+      "tryRate": 0.25,
       "team": "Cronulla Sutherland Sharks",
-      "position": "Halfback"
+      "position": "Five-Eighth"
     },
     "Luron Patea": {
       "tries": 0,
@@ -3615,9 +3615,9 @@
       "position": "Reserve"
     },
     "Bodhi Sharpley": {
-      "tries": 0,
-      "games": 1,
-      "tryRate": 0.0,
+      "tries": 1,
+      "games": 2,
+      "tryRate": 0.5,
       "team": "Gold Coast Titans",
       "position": "Interchange"
     },

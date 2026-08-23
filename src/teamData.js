@@ -42,12 +42,12 @@ const NRL_TEAM_DATA = {
   'Cronulla Sutherland Sharks': {
     emoji: '🦈', shortName: 'Sharks', venue: 'PointsBet Stadium', wikiPage: 'Cronulla-Sutherland_Sharks', logoFile: 'cronulla-sharks.svg',
     players: [
-      { name: "Sione Katoa",                       pos: "wing",           tryRate: 0.7333 },
-      { name: "William Kennedy",                   pos: "fullback",       tryRate: 0.4762 },
+      { name: "Sione Katoa",                       pos: "wing",           tryRate: 0.8125 },
+      { name: "William Kennedy",                   pos: "fullback",       tryRate: 0.4545 },
       { name: "Braydon Trindall",                  pos: "five-eighth",    tryRate: 0.4286 },
-      { name: "KL Iro",                            pos: "centre",         tryRate: 0.6316 },
-      { name: "Ronaldo Mulitalo",                  pos: "wing",           tryRate: 0.8333 },
-      { name: "Teig Wilton",                       pos: "lock",           tryRate: 0.4211 },
+      { name: "KL Iro",                            pos: "centre",         tryRate: 0.6 },
+      { name: "Ronaldo Mulitalo",                  pos: "wing",           tryRate: 0.9231 },
+      { name: "Teig Wilton",                       pos: "lock",           tryRate: 0.4 },
     ],
   },
 
@@ -66,12 +66,12 @@ const NRL_TEAM_DATA = {
   'Gold Coast Titans': {
     emoji: '🌊', shortName: 'Titans', venue: 'Cbus Super Stadium', wikiPage: 'Gold_Coast_Titans', logoFile: 'gold-coast-titans.svg',
     players: [
-      { name: "Phillip Sami",                      pos: "wing",           tryRate: 0.6667 },
-      { name: "Keano Kini",                        pos: "fullback",       tryRate: 0.1429 },
-      { name: "Jayden Campbell",                   pos: "five-eighth",    tryRate: 0.5263 },
-      { name: "Jojo Fifita",                       pos: "centre",         tryRate: 0.3684 },
-      { name: "Oliver Pascoe",                     pos: "hooker",         tryRate: 0.2222 },
-      { name: "AJ Brimson",                        pos: "centre",         tryRate: 0.1579 },
+      { name: "Phillip Sami",                      pos: "wing",           tryRate: 0.6818 },
+      { name: "Keano Kini",                        pos: "fullback",       tryRate: 0.1364 },
+      { name: "Jayden Campbell",                   pos: "five-eighth",    tryRate: 0.5 },
+      { name: "Jojo Fifita",                       pos: "centre",         tryRate: 0.4 },
+      { name: "Kurtis Morrin",                     pos: "lock",           tryRate: 0.35 },
+      { name: "AJ Brimson",                        pos: "centre",         tryRate: 0.2 },
     ],
   },
 

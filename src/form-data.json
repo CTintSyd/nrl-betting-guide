@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T05:43:59.050646+00:00",
+  "generatedAt": "2026-08-23T06:02:45.329408+00:00",
   "round": 25,
   "upcomingRound": 25,
   "ladder": [
@@ -63,14 +63,14 @@
       "pos": 5,
       "nick": "Sharks",
       "name": "Cronulla Sutherland Sharks",
-      "played": 21,
-      "wins": 13,
+      "played": 22,
+      "wins": 14,
       "losses": 8,
       "drawn": 0,
-      "ptsFor": 604,
-      "ptsAgainst": 439,
-      "diff": 165,
-      "pts": 32,
+      "ptsFor": 634,
+      "ptsAgainst": 461,
+      "diff": 173,
+      "pts": 34,
       "streak": "2L"
     },
     {
@@ -217,13 +217,13 @@
       "pos": 16,
       "nick": "Titans",
       "name": "Gold Coast Titans",
-      "played": 21,
+      "played": 22,
       "wins": 6,
-      "losses": 15,
+      "losses": 16,
       "drawn": 0,
-      "ptsFor": 413,
-      "ptsAgainst": 567,
-      "diff": -154,
+      "ptsFor": 435,
+      "ptsAgainst": 597,
+      "diff": -162,
       "pts": 18,
       "streak": "3L"
     },
@@ -364,15 +364,8 @@
       ]
     },
     "Cronulla Sutherland Sharks": {
-      "last5": "W W W L L",
+      "last5": "W W L L W",
       "games": [
-        {
-          "round": 20,
-          "result": "W",
-          "opponent": "Newcastle Knights",
-          "home": true,
-          "score": "20\u201318"
-        },
         {
           "round": 21,
           "result": "W",
@@ -400,6 +393,13 @@
           "opponent": "Canberra Raiders",
           "home": true,
           "score": "20\u201324"
+        },
+        {
+          "round": 25,
+          "result": "W",
+          "opponent": "Gold Coast Titans",
+          "home": false,
+          "score": "22\u201330"
         }
       ]
     },
@@ -444,15 +444,8 @@
       ]
     },
     "Gold Coast Titans": {
-      "last5": "W W L L L",
+      "last5": "W L L L L",
       "games": [
-        {
-          "round": 20,
-          "result": "W",
-          "opponent": "Manly Warringah Sea Eagles",
-          "home": true,
-          "score": "38\u201332"
-        },
         {
           "round": 21,
           "result": "W",
@@ -480,6 +473,13 @@
           "opponent": "Newcastle Knights",
           "home": false,
           "score": "36\u201326"
+        },
+        {
+          "round": 25,
+          "result": "L",
+          "opponent": "Cronulla Sutherland Sharks",
+          "home": true,
+          "score": "22\u201330"
         }
       ]
     },
