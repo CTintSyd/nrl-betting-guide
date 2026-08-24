@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T13:11:33.455433+00:00",
+  "generatedAt": "2026-08-24T04:51:38.761836+00:00",
   "round": 26,
   "games": [
     {
@@ -395,6 +395,13 @@
         "expectedReturn": "Round 26",
         "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500001/Daniel%20Tupou%20260203_Roosters1405.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/roosters/daniel-tupou/"
+      },
+      {
+        "name": "Victor Radley",
+        "injury": "Head knock",
+        "expectedReturn": "TBC",
+        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500001/Victor%20Radiey%20260203_Roosters680.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/roosters/victor-radley/"
       },
       {
         "name": "Blake Steep",
