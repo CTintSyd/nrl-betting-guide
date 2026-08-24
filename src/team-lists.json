@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T07:07:24.302616+00:00",
+  "generatedAt": "2026-08-24T08:54:01.713625+00:00",
   "round": 26,
   "games": [
     {
@@ -62,13 +62,6 @@
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/broncos/brendan-piakura/"
       },
       {
-        "name": "Adam Reynolds",
-        "injury": "Calf",
-        "expectedReturn": "TBC",
-        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500011/Reynolds.png?center=0.5%2C0.5",
-        "profileUrl": "https://www.nrl.com/players/nrl-premiership/broncos/adam-reynolds/"
-      },
-      {
         "name": "Preston Riki",
         "injury": "Ankle",
         "expectedReturn": "TBC",
@@ -91,6 +84,13 @@
       }
     ],
     "Canterbury Bulldogs": [
+      {
+        "name": "Jonathan Sua",
+        "injury": "Suspension",
+        "expectedReturn": "Round 27",
+        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500010/SUA%2CJ_20251212_2800.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/bulldogs/jonathan-sua/"
+      },
       {
         "name": "Samuel Hughes",
         "injury": "Neck",
@@ -275,6 +275,20 @@
         "expectedReturn": "Next Season",
         "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500003/Dylan%20Lucas%20_260129_Knights_MK1927.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/knights/dylan-lucas/"
+      },
+      {
+        "name": "Tyson Frizell",
+        "injury": "Suspension",
+        "expectedReturn": "Finals",
+        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500003/Tyson%20Frizell%20_260129_Knights_MK400.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/knights/tyson-frizell/"
+      },
+      {
+        "name": "Dominic Young",
+        "injury": "Suspension",
+        "expectedReturn": "Finals",
+        "imageUrl": "/remote.axd?http://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500003/Dominic%20Young%20_260129_Knights_MK885.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/knights/dominic-young/"
       }
     ],
     "Penrith Panthers": [
@@ -291,6 +305,13 @@
         "expectedReturn": "TBC",
         "imageUrl": "/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500014/Isaah%20Yeo%20_260123_Panthers_MK886.png?center=0.5%2C0.5",
         "profileUrl": "https://www.nrl.com/players/nrl-premiership/panthers/isaah-yeo/"
+      },
+      {
+        "name": "Jack Cogger",
+        "injury": "Suspension",
+        "expectedReturn": "Finals",
+        "imageUrl": "/remote.axd?https://rugbyimages.statsperform.com/Player%20Bodyshots/111/2026/500014/Jack%20Cogger%20_260123_Panthers_MK816.png?center=0.5%2C0.5",
+        "profileUrl": "https://www.nrl.com/players/nrl-premiership/panthers/jack-cogger/"
       },
       {
         "name": "Mitch Kenny",
