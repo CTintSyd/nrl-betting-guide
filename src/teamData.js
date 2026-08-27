@@ -6,12 +6,12 @@ const NRL_TEAM_DATA = {
   'Brisbane Broncos': {
     emoji: '🐻', shortName: 'Broncos', venue: 'Suncorp Stadium', wikiPage: 'Brisbane_Broncos', logoFile: 'brisbane-broncos.svg',
     players: [
-      { name: "Josiah Karapani",                   pos: "wing",           tryRate: 0.3 },
+      { name: "Josiah Karapani",                   pos: "wing",           tryRate: 0.2857 },
       { name: "Reece Walsh",                       pos: "fullback",       tryRate: 0.375 },
-      { name: "Ezra Mam",                          pos: "five-eighth",    tryRate: 0.4 },
-      { name: "Kotoni Staggs",                     pos: "centre",         tryRate: 0.4211 },
-      { name: "Xavier Willison",                   pos: "prop",           tryRate: 0.3182 },
-      { name: "Jordan Riki",                       pos: "lock",           tryRate: 0.2 },
+      { name: "Ezra Mam",                          pos: "five-eighth",    tryRate: 0.4762 },
+      { name: "Kotoni Staggs",                     pos: "centre",         tryRate: 0.45 },
+      { name: "Xavier Willison",                   pos: "prop",           tryRate: 0.3043 },
+      { name: "Deine Mariner",                     pos: "centre",         tryRate: 0.2353 },
     ],
   },
 
@@ -91,11 +91,11 @@ const NRL_TEAM_DATA = {
     emoji: '⛈️', shortName: 'Storm', venue: 'AAMI Park', wikiPage: 'Melbourne_Storm', logoFile: 'melbourne-storm.png',
     players: [
       { name: "Will Warbrick",                     pos: "wing",           tryRate: 0.8889 },
-      { name: "Sualauvi Faalogo",                  pos: "fullback",       tryRate: 0.7273 },
-      { name: "Cameron Munster",                   pos: "five-eighth",    tryRate: 0.2353 },
-      { name: "Moses Leo",                         pos: "wing",           tryRate: 0.7333 },
-      { name: "Harry Grant",                       pos: "hooker",         tryRate: 0.3158 },
-      { name: "Jack Howarth",                      pos: "centre",         tryRate: 0.3529 },
+      { name: "Sualauvi Faalogo",                  pos: "fullback",       tryRate: 0.7391 },
+      { name: "Cameron Munster",                   pos: "five-eighth",    tryRate: 0.2222 },
+      { name: "Moses Leo",                         pos: "wing",           tryRate: 0.6875 },
+      { name: "Harry Grant",                       pos: "hooker",         tryRate: 0.3 },
+      { name: "Tyran Wishart",                     pos: "centre",         tryRate: 0.3333 },
     ],
   },
 

@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-08-26T03:01:25Z",
+  "updatedAt": "2026-08-27T12:44:50Z",
   "season": 2026,
-  "totalFavRecord": "106-82",
-  "totalLineRecord": "21-28",
-  "totalOuRecord": "26O-23U",
+  "totalFavRecord": "107-82",
+  "totalLineRecord": "22-28",
+  "totalOuRecord": "27O-23U",
   "rounds": [
     {
       "round": 1,
@@ -3024,6 +3024,29 @@
       "favRecord": "5-3",
       "lineRecord": "3-5",
       "ouRecord": "5O-3U"
+    },
+    {
+      "round": 26,
+      "games": [
+        {
+          "homeTeam": "Brisbane Broncos",
+          "awayTeam": "Melbourne Storm",
+          "homeScore": 20,
+          "awayScore": 46,
+          "winner": "Melbourne Storm",
+          "margin": 26,
+          "favourite": "Melbourne Storm",
+          "favouriteWon": true,
+          "linePoint": 0.5,
+          "lineCovered": true,
+          "ouTotal": 47.5,
+          "ouResult": "Over",
+          "oddsSourced": true
+        }
+      ],
+      "favRecord": "1-0",
+      "lineRecord": "1-0",
+      "ouRecord": "1O-0U"
     }
   ]
 }

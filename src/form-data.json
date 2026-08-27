@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-26T03:01:04.096089+00:00",
-  "round": 25,
+  "generatedAt": "2026-08-27T12:44:28.185855+00:00",
+  "round": 26,
   "upcomingRound": 26,
   "ladder": [
     {
@@ -147,15 +147,15 @@
       "pos": 11,
       "nick": "Storm",
       "name": "Melbourne Storm",
-      "played": 22,
-      "wins": 9,
+      "played": 23,
+      "wins": 10,
       "losses": 13,
       "drawn": 0,
-      "ptsFor": 524,
-      "ptsAgainst": 536,
-      "diff": -12,
-      "pts": 24,
-      "streak": "1L"
+      "ptsFor": 570,
+      "ptsAgainst": 556,
+      "diff": 14,
+      "pts": 26,
+      "streak": "1W"
     },
     {
       "pos": 12,
@@ -168,7 +168,7 @@
       "ptsFor": 531,
       "ptsAgainst": 596,
       "diff": -65,
-      "pts": 24,
+      "pts": 26,
       "streak": "1L"
     },
     {
@@ -203,15 +203,15 @@
       "pos": 15,
       "nick": "Broncos",
       "name": "Brisbane Broncos",
-      "played": 22,
+      "played": 23,
       "wins": 7,
-      "losses": 15,
+      "losses": 16,
       "drawn": 0,
-      "ptsFor": 417,
-      "ptsAgainst": 611,
-      "diff": -194,
+      "ptsFor": 437,
+      "ptsAgainst": 657,
+      "diff": -220,
       "pts": 20,
-      "streak": "1W"
+      "streak": "1L"
     },
     {
       "pos": 16,
@@ -244,15 +244,8 @@
   ],
   "teams": {
     "Brisbane Broncos": {
-      "last5": "L L L L W",
+      "last5": "L L L W L",
       "games": [
-        {
-          "round": 21,
-          "result": "L",
-          "opponent": "North Queensland Cowboys",
-          "home": false,
-          "score": "18\u201310"
-        },
         {
           "round": 22,
           "result": "L",
@@ -280,6 +273,13 @@
           "opponent": "Canberra Raiders",
           "home": false,
           "score": "30\u201334"
+        },
+        {
+          "round": 26,
+          "result": "L",
+          "opponent": "Melbourne Storm",
+          "home": true,
+          "score": "20\u201346"
         }
       ]
     },
@@ -404,15 +404,8 @@
       ]
     },
     "Dolphins": {
-      "last5": "W W W W W",
+      "last5": "W W W W",
       "games": [
-        {
-          "round": 20,
-          "result": "W",
-          "opponent": "North Queensland Cowboys",
-          "home": true,
-          "score": "36\u201316"
-        },
         {
           "round": 22,
           "result": "W",
@@ -484,15 +477,8 @@
       ]
     },
     "Manly Warringah Sea Eagles": {
-      "last5": "L L L L W",
+      "last5": "L L L W",
       "games": [
-        {
-          "round": 20,
-          "result": "L",
-          "opponent": "Gold Coast Titans",
-          "home": false,
-          "score": "38\u201332"
-        },
         {
           "round": 21,
           "result": "L",
@@ -524,15 +510,8 @@
       ]
     },
     "Melbourne Storm": {
-      "last5": "L L L W L",
+      "last5": "L L W L W",
       "games": [
-        {
-          "round": 20,
-          "result": "L",
-          "opponent": "Sydney Roosters",
-          "home": false,
-          "score": "14\u20136"
-        },
         {
           "round": 21,
           "result": "L",
@@ -560,6 +539,13 @@
           "opponent": "Penrith Panthers",
           "home": true,
           "score": "14\u201322"
+        },
+        {
+          "round": 26,
+          "result": "W",
+          "opponent": "Brisbane Broncos",
+          "home": false,
+          "score": "20\u201346"
         }
       ]
     },
@@ -644,15 +630,8 @@
       ]
     },
     "North Queensland Cowboys": {
-      "last5": "L W L W L",
+      "last5": "W L W L",
       "games": [
-        {
-          "round": 20,
-          "result": "L",
-          "opponent": "Dolphins",
-          "home": false,
-          "score": "36\u201316"
-        },
         {
           "round": 21,
           "result": "W",
@@ -884,15 +863,8 @@
       ]
     },
     "Wests Tigers": {
-      "last5": "L L L L W",
+      "last5": "L L L W",
       "games": [
-        {
-          "round": 20,
-          "result": "L",
-          "opponent": "Canterbury Bulldogs",
-          "home": false,
-          "score": "32\u20130"
-        },
         {
           "round": 21,
           "result": "L",

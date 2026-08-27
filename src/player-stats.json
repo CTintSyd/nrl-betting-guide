@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-08-26T03:01:00.782658+00:00",
-  "round": 25,
+  "generatedAt": "2026-08-27T12:44:24.936748+00:00",
+  "round": 26,
   "players": {
     "Kalyn Ponga": {
       "tries": 5,
@@ -535,9 +535,9 @@
       "position": "Winger"
     },
     "Sualauvi Faalogo": {
-      "tries": 16,
-      "games": 22,
-      "tryRate": 0.7273,
+      "tries": 17,
+      "games": 23,
+      "tryRate": 0.7391,
       "team": "Melbourne Storm",
       "position": "Fullback"
     },
@@ -557,50 +557,50 @@
     },
     "Moses Leo": {
       "tries": 11,
-      "games": 15,
-      "tryRate": 0.7333,
+      "games": 16,
+      "tryRate": 0.6875,
       "team": "Melbourne Storm",
       "position": "Winger"
     },
     "Nick Meaney": {
-      "tries": 4,
-      "games": 18,
-      "tryRate": 0.2222,
+      "tries": 5,
+      "games": 19,
+      "tryRate": 0.2632,
       "team": "Melbourne Storm",
       "position": "Centre"
     },
     "Cameron Munster": {
       "tries": 4,
-      "games": 17,
-      "tryRate": 0.2353,
+      "games": 18,
+      "tryRate": 0.2222,
       "team": "Melbourne Storm",
       "position": "Five-Eighth"
     },
     "Jahrome Hughes": {
       "tries": 3,
-      "games": 16,
-      "tryRate": 0.1875,
+      "games": 17,
+      "tryRate": 0.1765,
       "team": "Melbourne Storm",
       "position": "Halfback"
     },
     "Stefano Utoikamanu": {
-      "tries": 2,
-      "games": 22,
-      "tryRate": 0.0909,
+      "tries": 3,
+      "games": 23,
+      "tryRate": 0.1304,
       "team": "Melbourne Storm",
       "position": "Prop"
     },
     "Harry Grant": {
       "tries": 6,
-      "games": 19,
-      "tryRate": 0.3158,
+      "games": 20,
+      "tryRate": 0.3,
       "team": "Melbourne Storm",
       "position": "Hooker"
     },
     "Josh King": {
       "tries": 2,
-      "games": 22,
-      "tryRate": 0.0909,
+      "games": 23,
+      "tryRate": 0.087,
       "team": "Melbourne Storm",
       "position": "Prop"
     },
@@ -620,22 +620,22 @@
     },
     "Alec MacDonald": {
       "tries": 1,
-      "games": 17,
-      "tryRate": 0.0588,
+      "games": 18,
+      "tryRate": 0.0556,
       "team": "Melbourne Storm",
       "position": "Interchange"
     },
     "Tyran Wishart": {
-      "tries": 4,
-      "games": 17,
-      "tryRate": 0.2353,
+      "tries": 6,
+      "games": 18,
+      "tryRate": 0.3333,
       "team": "Melbourne Storm",
-      "position": "Halfback"
+      "position": "Centre"
     },
     "Cooper Clarke": {
       "tries": 2,
-      "games": 22,
-      "tryRate": 0.0909,
+      "games": 23,
+      "tryRate": 0.087,
       "team": "Melbourne Storm",
       "position": "Interchange"
     },
@@ -661,9 +661,9 @@
       "position": "Reserve"
     },
     "Siulagi Tuimalatu-Brown": {
-      "tries": 3,
-      "games": 14,
-      "tryRate": 0.2143,
+      "tries": 6,
+      "games": 15,
+      "tryRate": 0.4,
       "team": "Melbourne Storm",
       "position": "Winger"
     },
@@ -1075,36 +1075,36 @@
     },
     "Josiah Karapani": {
       "tries": 6,
-      "games": 20,
-      "tryRate": 0.3,
+      "games": 21,
+      "tryRate": 0.2857,
       "team": "Brisbane Broncos",
       "position": "Winger"
     },
     "Kotoni Staggs": {
-      "tries": 8,
-      "games": 19,
-      "tryRate": 0.4211,
+      "tries": 9,
+      "games": 20,
+      "tryRate": 0.45,
       "team": "Brisbane Broncos",
       "position": "Centre"
     },
     "Gehamat Shibasaki": {
       "tries": 3,
-      "games": 19,
-      "tryRate": 0.1579,
+      "games": 20,
+      "tryRate": 0.15,
       "team": "Brisbane Broncos",
       "position": "Reserve"
     },
     "Deine Mariner": {
       "tries": 4,
-      "games": 16,
-      "tryRate": 0.25,
+      "games": 17,
+      "tryRate": 0.2353,
       "team": "Brisbane Broncos",
       "position": "Centre"
     },
     "Ezra Mam": {
-      "tries": 8,
-      "games": 20,
-      "tryRate": 0.4,
+      "tries": 10,
+      "games": 21,
+      "tryRate": 0.4762,
       "team": "Brisbane Broncos",
       "position": "Five-Eighth"
     },
@@ -1131,43 +1131,43 @@
     },
     "Payne Haas": {
       "tries": 2,
-      "games": 15,
-      "tryRate": 0.1333,
+      "games": 16,
+      "tryRate": 0.125,
       "team": "Brisbane Broncos",
       "position": "Prop"
     },
     "Jack Gosiewski": {
       "tries": 0,
-      "games": 13,
+      "games": 14,
       "tryRate": 0.0,
       "team": "Brisbane Broncos",
       "position": "Interchange"
     },
     "Jordan Riki": {
       "tries": 4,
-      "games": 20,
-      "tryRate": 0.2,
+      "games": 21,
+      "tryRate": 0.1905,
       "team": "Brisbane Broncos",
       "position": "2nd Row"
     },
     "Patrick Carrigan": {
       "tries": 1,
-      "games": 16,
-      "tryRate": 0.0625,
+      "games": 17,
+      "tryRate": 0.0588,
       "team": "Brisbane Broncos",
       "position": "Lock"
     },
     "Ben Hunt": {
-      "tries": 0,
-      "games": 18,
-      "tryRate": 0.0,
+      "tries": 1,
+      "games": 19,
+      "tryRate": 0.0526,
       "team": "Brisbane Broncos",
       "position": "Halfback"
     },
     "Xavier Willison": {
       "tries": 7,
-      "games": 22,
-      "tryRate": 0.3182,
+      "games": 23,
+      "tryRate": 0.3043,
       "team": "Brisbane Broncos",
       "position": "Prop"
     },
@@ -1180,21 +1180,21 @@
     },
     "Aublix Tawha": {
       "tries": 0,
-      "games": 14,
+      "games": 15,
       "tryRate": 0.0,
       "team": "Brisbane Broncos",
-      "position": "Reserve"
+      "position": "Interchange"
     },
     "Grant Anderson": {
       "tries": 4,
-      "games": 15,
-      "tryRate": 0.2667,
+      "games": 16,
+      "tryRate": 0.25,
       "team": "Brisbane Broncos",
       "position": "Winger"
     },
     "Jaiyden Hunt": {
       "tries": 0,
-      "games": 13,
+      "games": 14,
       "tryRate": 0.0,
       "team": "Brisbane Broncos",
       "position": "2nd Row"
@@ -1957,8 +1957,8 @@
     },
     "Oryn Keeley": {
       "tries": 2,
-      "games": 16,
-      "tryRate": 0.125,
+      "games": 17,
+      "tryRate": 0.1176,
       "team": "Melbourne Storm",
       "position": "2nd Row"
     },
@@ -2349,15 +2349,15 @@
     },
     "Jack Hetherington": {
       "tries": 0,
-      "games": 17,
+      "games": 18,
       "tryRate": 0.0,
       "team": "Melbourne Storm",
       "position": "Reserve"
     },
     "Angus Hinchey": {
       "tries": 1,
-      "games": 5,
-      "tryRate": 0.2,
+      "games": 6,
+      "tryRate": 0.1667,
       "team": "Melbourne Storm",
       "position": "Interchange"
     },
@@ -2447,8 +2447,8 @@
     },
     "Trent Loiero": {
       "tries": 1,
-      "games": 19,
-      "tryRate": 0.0526,
+      "games": 20,
+      "tryRate": 0.05,
       "team": "Melbourne Storm",
       "position": "Lock"
     },
@@ -2461,7 +2461,7 @@
     },
     "Blake Mozer": {
       "tries": 0,
-      "games": 7,
+      "games": 8,
       "tryRate": 0.0,
       "team": "Brisbane Broncos",
       "position": "Interchange"
@@ -2615,7 +2615,7 @@
     },
     "Va'a Semu": {
       "tries": 0,
-      "games": 15,
+      "games": 16,
       "tryRate": 0.0,
       "team": "Brisbane Broncos",
       "position": "Interchange"
@@ -2790,15 +2790,15 @@
     },
     "Thomas Duffy": {
       "tries": 1,
-      "games": 14,
-      "tryRate": 0.0714,
+      "games": 15,
+      "tryRate": 0.0667,
       "team": "Brisbane Broncos",
       "position": "Reserve"
     },
     "Hayze Perham": {
       "tries": 2,
-      "games": 12,
-      "tryRate": 0.1667,
+      "games": 13,
+      "tryRate": 0.1538,
       "team": "Brisbane Broncos",
       "position": "Fullback"
     },
@@ -2916,7 +2916,7 @@
     },
     "Shawn Blore": {
       "tries": 0,
-      "games": 12,
+      "games": 13,
       "tryRate": 0.0,
       "team": "Melbourne Storm",
       "position": "2nd Row"
@@ -3084,8 +3084,8 @@
     },
     "Trent Toelau": {
       "tries": 1,
-      "games": 14,
-      "tryRate": 0.0714,
+      "games": 15,
+      "tryRate": 0.0667,
       "team": "Melbourne Storm",
       "position": "Reserve"
     },
@@ -3553,8 +3553,8 @@
     },
     "Billy Walters": {
       "tries": 1,
-      "games": 5,
-      "tryRate": 0.2,
+      "games": 6,
+      "tryRate": 0.1667,
       "team": "Brisbane Broncos",
       "position": "Hooker"
     },
@@ -3641,6 +3641,13 @@
       "tryRate": 0.0,
       "team": "New Zealand Warriors",
       "position": "Reserve"
+    },
+    "Marion Seve": {
+      "tries": 0,
+      "games": 1,
+      "tryRate": 0.0,
+      "team": "Melbourne Storm",
+      "position": "Interchange"
     }
   }
 }
