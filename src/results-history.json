@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-08-27T20:13:08Z",
+  "updatedAt": "2026-08-28T15:49:09Z",
   "season": 2026,
-  "totalFavRecord": "107-82",
-  "totalLineRecord": "22-28",
-  "totalOuRecord": "27O-23U",
+  "totalFavRecord": "109-82",
+  "totalLineRecord": "24-28",
+  "totalOuRecord": "28O-24U",
   "rounds": [
     {
       "round": 1,
@@ -3042,11 +3042,41 @@
           "ouTotal": 47.5,
           "ouResult": "Over",
           "oddsSourced": true
+        },
+        {
+          "homeTeam": "Manly Warringah Sea Eagles",
+          "awayTeam": "St George Illawarra Dragons",
+          "homeScore": 44,
+          "awayScore": 10,
+          "winner": "Manly Warringah Sea Eagles",
+          "margin": 34,
+          "favourite": "Manly Warringah Sea Eagles",
+          "favouriteWon": true,
+          "linePoint": -5.5,
+          "lineCovered": true,
+          "ouTotal": 45.5,
+          "ouResult": "Over",
+          "oddsSourced": true
+        },
+        {
+          "homeTeam": "Penrith Panthers",
+          "awayTeam": "Canterbury Bulldogs",
+          "homeScore": 24,
+          "awayScore": 10,
+          "winner": "Penrith Panthers",
+          "margin": 14,
+          "favourite": "Penrith Panthers",
+          "favouriteWon": true,
+          "linePoint": -8.5,
+          "lineCovered": true,
+          "ouTotal": 39.5,
+          "ouResult": "Under",
+          "oddsSourced": true
         }
       ],
-      "favRecord": "1-0",
-      "lineRecord": "1-0",
-      "ouRecord": "1O-0U"
+      "favRecord": "3-0",
+      "lineRecord": "3-0",
+      "ouRecord": "2O-1U"
     }
   ]
 }

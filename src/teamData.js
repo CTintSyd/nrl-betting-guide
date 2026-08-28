@@ -30,12 +30,12 @@ const NRL_TEAM_DATA = {
   'Canterbury Bulldogs': {
     emoji: '🐕', shortName: 'Bulldogs', venue: 'Accor Stadium', wikiPage: 'Canterbury-Bankstown_Bulldogs', logoFile: 'canterbury-bulldogs.png',
     players: [
-      { name: "Jacob Kiraz",                       pos: "wing",           tryRate: 0.5 },
-      { name: "Connor Tracey",                     pos: "fullback",       tryRate: 0.2 },
-      { name: "Lachlan Galvin",                    pos: "halfback",       tryRate: 0.3636 },
-      { name: "Matt Burton",                       pos: "centre",         tryRate: 0.381 },
-      { name: "Stephen Crichton",                  pos: "five-eighth",    tryRate: 0.3889 },
-      { name: "Jethro Rinakama",                   pos: "wing",           tryRate: 0.4667 },
+      { name: "Jacob Kiraz",                       pos: "wing",           tryRate: 0.4737 },
+      { name: "Connor Tracey",                     pos: "fullback",       tryRate: 0.1905 },
+      { name: "Lachlan Galvin",                    pos: "halfback",       tryRate: 0.3478 },
+      { name: "Matt Burton",                       pos: "centre",         tryRate: 0.4091 },
+      { name: "Stephen Crichton",                  pos: "five-eighth",    tryRate: 0.3684 },
+      { name: "Jacob Preston",                     pos: "lock",           tryRate: 0.3684 },
     ],
   },
 
@@ -78,12 +78,12 @@ const NRL_TEAM_DATA = {
   'Manly Warringah Sea Eagles': {
     emoji: '🦅', shortName: 'Sea Eagles', venue: '4 Pines Park', wikiPage: 'Manly-Warringah_Sea_Eagles', logoFile: 'manly-sea-eagles.png',
     players: [
-      { name: "Lehi Hopoate",                      pos: "wing",           tryRate: 0.7143 },
-      { name: "Tom Trbojevic",                     pos: "fullback",       tryRate: 0.5833 },
-      { name: "Clayton Faulalo",                   pos: "five-eighth",    tryRate: 0.5 },
-      { name: "Jason Saab",                        pos: "wing",           tryRate: 0.619 },
-      { name: "Tolutau Koula",                     pos: "centre",         tryRate: 0.4737 },
-      { name: "Reuben Garrick",                    pos: "centre",         tryRate: 0.381 },
+      { name: "Lehi Hopoate",                      pos: "wing",           tryRate: 0.7727 },
+      { name: "Tom Trbojevic",                     pos: "fullback",       tryRate: 0.6154 },
+      { name: "Clayton Faulalo",                   pos: "five-eighth",    tryRate: 0.5333 },
+      { name: "Jason Saab",                        pos: "wing",           tryRate: 0.6818 },
+      { name: "Reuben Garrick",                    pos: "centre",         tryRate: 0.4091 },
+      { name: "Haumole Olakau'atu",                pos: "lock",           tryRate: 0.45 },
     ],
   },
 
@@ -150,12 +150,12 @@ const NRL_TEAM_DATA = {
   'Penrith Panthers': {
     emoji: '🐾', shortName: 'Panthers', venue: 'BlueBet Stadium', wikiPage: 'Penrith_Panthers', logoFile: 'penrith-panthers.png',
     players: [
-      { name: "Thomas Jenkins",                    pos: "wing",           tryRate: 1.2727 },
-      { name: "Dylan Edwards",                     pos: "fullback",       tryRate: 0.5263 },
-      { name: "Nathan Cleary",                     pos: "halfback",       tryRate: 0.3158 },
-      { name: "Brian To'o",                        pos: "wing",           tryRate: 0.7 },
-      { name: "Casey McLean",                      pos: "centre",         tryRate: 0.4375 },
-      { name: "Liam Martin",                       pos: "lock",           tryRate: 0.3571 },
+      { name: "Thomas Jenkins",                    pos: "wing",           tryRate: 1.2174 },
+      { name: "Dylan Edwards",                     pos: "fullback",       tryRate: 0.5 },
+      { name: "Nathan Cleary",                     pos: "halfback",       tryRate: 0.3 },
+      { name: "Brian To'o",                        pos: "wing",           tryRate: 0.6667 },
+      { name: "Casey McLean",                      pos: "centre",         tryRate: 0.4706 },
+      { name: "Liam Martin",                       pos: "lock",           tryRate: 0.4667 },
     ],
   },
 
@@ -174,12 +174,12 @@ const NRL_TEAM_DATA = {
   'St George Illawarra Dragons': {
     emoji: '🐉', shortName: 'Dragons', venue: 'Netstrata Jubilee Oval', wikiPage: 'St._George_Illawarra_Dragons', logoFile: 'st-george-illawarra.svg',
     players: [
-      { name: "Tyrell Sloan",                      pos: "wing",           tryRate: 0.5556 },
+      { name: "Tyrell Sloan",                      pos: "wing",           tryRate: 0.5789 },
       { name: "Clinton Gutherson",                 pos: "fullback",       tryRate: 0.1765 },
-      { name: "Kyle Flanagan",                     pos: "halfback",       tryRate: 0.0476 },
-      { name: "Valentine Holmes",                  pos: "centre",         tryRate: 0.4545 },
-      { name: "Hamish Stewart",                    pos: "lock",           tryRate: 0.2273 },
-      { name: "Mathew Feagai",                     pos: "wing",           tryRate: 0.2941 },
+      { name: "Kyle Flanagan",                     pos: "halfback",       tryRate: 0.0455 },
+      { name: "Valentine Holmes",                  pos: "centre",         tryRate: 0.4348 },
+      { name: "Hamish Stewart",                    pos: "lock",           tryRate: 0.2174 },
+      { name: "Mathew Feagai",                     pos: "wing",           tryRate: 0.2778 },
     ],
   },
 
