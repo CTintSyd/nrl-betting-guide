@@ -126,12 +126,12 @@ const NRL_TEAM_DATA = {
   'North Queensland Cowboys': {
     emoji: '🤠', shortName: 'Cowboys', venue: 'Qld Country Bank Stadium', wikiPage: 'North_Queensland_Cowboys', logoFile: 'north-queensland-cowboys.svg',
     players: [
-      { name: "Braidon Burns",                     pos: "wing",           tryRate: 0.7778 },
-      { name: "Scott Drinkwater",                  pos: "fullback",       tryRate: 0.4091 },
-      { name: "Jaxon Purdue",                      pos: "halfback",       tryRate: 0.3636 },
+      { name: "Braidon Burns",                     pos: "wing",           tryRate: 0.7368 },
+      { name: "Scott Drinkwater",                  pos: "fullback",       tryRate: 0.3913 },
+      { name: "Jake Clifford",                     pos: "five-eighth",    tryRate: 0.3478 },
+      { name: "Heilum Luki",                       pos: "lock",           tryRate: 0.4783 },
+      { name: "Tom Chester",                       pos: "centre",         tryRate: 0.5 },
       { name: "Murray Taulagi",                    pos: "wing",           tryRate: 0.6471 },
-      { name: "Heilum Luki",                       pos: "lock",           tryRate: 0.4545 },
-      { name: "Tom Chester",                       pos: "centre",         tryRate: 0.4286 },
     ],
   },
 
@@ -198,12 +198,12 @@ const NRL_TEAM_DATA = {
   'Wests Tigers': {
     emoji: '🐯', shortName: 'Tigers', venue: 'Campbelltown Stadium', wikiPage: 'Wests_Tigers', logoFile: 'wests-tigers.svg',
     players: [
-      { name: "Jeral Skelton",                     pos: "wing",           tryRate: 0.4 },
-      { name: "Jahream Bula",                      pos: "fullback",       tryRate: 0.3158 },
+      { name: "Jeral Skelton",                     pos: "wing",           tryRate: 0.4375 },
+      { name: "Jahream Bula",                      pos: "fullback",       tryRate: 0.3 },
       { name: "Adam Doueihi",                      pos: "halfback",       tryRate: 0.5714 },
       { name: "Taylan May",                        pos: "centre",         tryRate: 0.6667 },
       { name: "Sunia Turuva",                      pos: "wing",           tryRate: 0.2381 },
-      { name: "Jarome Luai",                       pos: "five-eighth",    tryRate: 0.2222 },
+      { name: "Jarome Luai",                       pos: "five-eighth",    tryRate: 0.2105 },
     ],
   },
 };

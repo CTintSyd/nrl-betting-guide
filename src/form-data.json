@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-29T11:00:09.714383+00:00",
+  "generatedAt": "2026-08-29T15:35:33.689279+00:00",
   "round": 26,
   "upcomingRound": 26,
   "ladder": [
@@ -105,15 +105,15 @@
       "pos": 8,
       "nick": "Cowboys",
       "name": "North Queensland Cowboys",
-      "played": 22,
-      "wins": 12,
+      "played": 23,
+      "wins": 13,
       "losses": 10,
       "drawn": 0,
-      "ptsFor": 514,
-      "ptsAgainst": 592,
-      "diff": -78,
-      "pts": 30,
-      "streak": "1L"
+      "ptsFor": 538,
+      "ptsAgainst": 602,
+      "diff": -64,
+      "pts": 32,
+      "streak": "1W"
     },
     {
       "pos": 9,
@@ -189,15 +189,15 @@
       "pos": 14,
       "nick": "Wests Tigers",
       "name": "Wests Tigers",
-      "played": 22,
+      "played": 23,
       "wins": 8,
-      "losses": 14,
+      "losses": 15,
       "drawn": 0,
-      "ptsFor": 425,
-      "ptsAgainst": 637,
-      "diff": -212,
+      "ptsFor": 435,
+      "ptsAgainst": 661,
+      "diff": -226,
       "pts": 22,
-      "streak": "1W"
+      "streak": "1L"
     },
     {
       "pos": 15,
@@ -644,7 +644,7 @@
       ]
     },
     "North Queensland Cowboys": {
-      "last5": "W L W L",
+      "last5": "W L W L W",
       "games": [
         {
           "round": 21,
@@ -673,6 +673,13 @@
           "opponent": "Parramatta Eels",
           "home": false,
           "score": "32\u201330"
+        },
+        {
+          "round": 26,
+          "result": "W",
+          "opponent": "Wests Tigers",
+          "home": true,
+          "score": "24\u201310"
         }
       ]
     },
@@ -877,7 +884,7 @@
       ]
     },
     "Wests Tigers": {
-      "last5": "L L L W",
+      "last5": "L L L W L",
       "games": [
         {
           "round": 21,
@@ -906,6 +913,13 @@
           "opponent": "Sydney Roosters",
           "home": false,
           "score": "24\u201325"
+        },
+        {
+          "round": 26,
+          "result": "L",
+          "opponent": "North Queensland Cowboys",
+          "home": false,
+          "score": "24\u201310"
         }
       ]
     }

@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-08-29T11:00:26Z",
+  "updatedAt": "2026-08-29T15:35:46Z",
   "season": 2026,
-  "totalFavRecord": "110-83",
-  "totalLineRecord": "25-29",
-  "totalOuRecord": "29O-25U",
+  "totalFavRecord": "111-83",
+  "totalLineRecord": "26-29",
+  "totalOuRecord": "29O-26U",
   "rounds": [
     {
       "round": 1,
@@ -3102,11 +3102,26 @@
           "ouTotal": 46.5,
           "ouResult": "Under",
           "oddsSourced": true
+        },
+        {
+          "homeTeam": "North Queensland Cowboys",
+          "awayTeam": "Wests Tigers",
+          "homeScore": 24,
+          "awayScore": 10,
+          "winner": "North Queensland Cowboys",
+          "margin": 14,
+          "favourite": "North Queensland Cowboys",
+          "favouriteWon": true,
+          "linePoint": -13.5,
+          "lineCovered": true,
+          "ouTotal": 48.5,
+          "ouResult": "Under",
+          "oddsSourced": true
         }
       ],
-      "favRecord": "4-1",
-      "lineRecord": "4-1",
-      "ouRecord": "3O-2U"
+      "favRecord": "5-1",
+      "lineRecord": "5-1",
+      "ouRecord": "3O-3U"
     }
   ]
 }
