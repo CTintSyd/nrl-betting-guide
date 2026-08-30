@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-08-29T15:35:46Z",
+  "updatedAt": "2026-08-30T09:39:06Z",
   "season": 2026,
-  "totalFavRecord": "111-83",
-  "totalLineRecord": "26-29",
-  "totalOuRecord": "29O-26U",
+  "totalFavRecord": "112-84",
+  "totalLineRecord": "27-30",
+  "totalOuRecord": "31O-26U",
   "rounds": [
     {
       "round": 1,
@@ -3117,11 +3117,41 @@
           "ouTotal": 48.5,
           "ouResult": "Under",
           "oddsSourced": true
+        },
+        {
+          "homeTeam": "New Zealand Warriors",
+          "awayTeam": "Newcastle Knights",
+          "homeScore": 46,
+          "awayScore": 32,
+          "winner": "New Zealand Warriors",
+          "margin": 14,
+          "favourite": "New Zealand Warriors",
+          "favouriteWon": true,
+          "linePoint": -6.5,
+          "lineCovered": true,
+          "ouTotal": 45.5,
+          "ouResult": "Over",
+          "oddsSourced": true
+        },
+        {
+          "homeTeam": "Parramatta Eels",
+          "awayTeam": "Cronulla Sutherland Sharks",
+          "homeScore": 38,
+          "awayScore": 18,
+          "winner": "Parramatta Eels",
+          "margin": 20,
+          "favourite": "Cronulla Sutherland Sharks",
+          "favouriteWon": false,
+          "linePoint": 6.5,
+          "lineCovered": false,
+          "ouTotal": 51.5,
+          "ouResult": "Over",
+          "oddsSourced": true
         }
       ],
-      "favRecord": "5-1",
-      "lineRecord": "5-1",
-      "ouRecord": "3O-3U"
+      "favRecord": "6-2",
+      "lineRecord": "6-2",
+      "ouRecord": "5O-3U"
     }
   ]
 }

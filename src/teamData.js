@@ -42,12 +42,12 @@ const NRL_TEAM_DATA = {
   'Cronulla Sutherland Sharks': {
     emoji: '🦈', shortName: 'Sharks', venue: 'PointsBet Stadium', wikiPage: 'Cronulla-Sutherland_Sharks', logoFile: 'cronulla-sharks.svg',
     players: [
-      { name: "Sione Katoa",                       pos: "wing",           tryRate: 0.8125 },
-      { name: "William Kennedy",                   pos: "fullback",       tryRate: 0.4545 },
+      { name: "Sione Katoa",                       pos: "wing",           tryRate: 0.8824 },
+      { name: "William Kennedy",                   pos: "fullback",       tryRate: 0.4348 },
       { name: "Braydon Trindall",                  pos: "five-eighth",    tryRate: 0.4286 },
-      { name: "KL Iro",                            pos: "centre",         tryRate: 0.6 },
-      { name: "Ronaldo Mulitalo",                  pos: "wing",           tryRate: 0.9231 },
-      { name: "Teig Wilton",                       pos: "lock",           tryRate: 0.4 },
+      { name: "KL Iro",                            pos: "centre",         tryRate: 0.5714 },
+      { name: "Ronaldo Mulitalo",                  pos: "wing",           tryRate: 0.8571 },
+      { name: "Teig Wilton",                       pos: "lock",           tryRate: 0.381 },
     ],
   },
 
@@ -102,12 +102,12 @@ const NRL_TEAM_DATA = {
   'Newcastle Knights': {
     emoji: '⚔️', shortName: 'Knights', venue: 'McDonald Jones Stadium', wikiPage: 'Newcastle_Knights', logoFile: 'newcastle-knights.png',
     players: [
-      { name: "Greg Marzhew",                      pos: "wing",           tryRate: 1.0 },
-      { name: "Kalyn Ponga",                       pos: "fullback",       tryRate: 0.3571 },
-      { name: "Fletcher Sharpe",                   pos: "five-eighth",    tryRate: 0.5714 },
+      { name: "Greg Marzhew",                      pos: "wing",           tryRate: 1.0435 },
+      { name: "Kalyn Ponga",                       pos: "fullback",       tryRate: 0.3333 },
+      { name: "Fletcher Sharpe",                   pos: "five-eighth",    tryRate: 0.5455 },
       { name: "Dominic Young",                     pos: "wing",           tryRate: 0.8696 },
-      { name: "Fletcher Hunt",                     pos: "centre",         tryRate: 0.4783 },
       { name: "Dylan Lucas",                       pos: "lock",           tryRate: 0.625 },
+      { name: "Dane Gagai",                        pos: "centre",         tryRate: 0.2273 },
     ],
   },
 
@@ -117,9 +117,9 @@ const NRL_TEAM_DATA = {
       { name: "Dallin Watene-Zelezniak",           pos: "wing",           tryRate: 0.9524 },
       { name: "Charnze Nicoll-Klokstad",           pos: "fullback",       tryRate: 0.7143 },
       { name: "Chanel Harris-Tavita",              pos: "halfback",       tryRate: 0.381 },
-      { name: "Alofiana Khan-Pereira",             pos: "wing",           tryRate: 0.9375 },
-      { name: "Leka Halasima",                     pos: "centre",         tryRate: 0.4211 },
-      { name: "Jacob Laban",                       pos: "lock",           tryRate: 0.2727 },
+      { name: "Alofiana Khan-Pereira",             pos: "wing",           tryRate: 0.9412 },
+      { name: "Jacob Laban",                       pos: "lock",           tryRate: 0.3478 },
+      { name: "Leka Halasima",                     pos: "centre",         tryRate: 0.4 },
     ],
   },
 
@@ -138,12 +138,12 @@ const NRL_TEAM_DATA = {
   'Parramatta Eels': {
     emoji: '🐟', shortName: 'Eels', venue: 'CommBank Stadium', wikiPage: 'Parramatta_Eels', logoFile: 'parramatta-eels.svg',
     players: [
-      { name: "Josh Addo-Carr",                    pos: "wing",           tryRate: 0.3333 },
+      { name: "Josh Addo-Carr",                    pos: "wing",           tryRate: 0.3182 },
       { name: "Isaiah Iongi",                      pos: "fullback",       tryRate: 0.3846 },
-      { name: "Ronald Volkman",                    pos: "five-eighth",    tryRate: 0.4118 },
-      { name: "Tallyn Da Silva",                   pos: "hooker",         tryRate: 0.4545 },
-      { name: "Brian Kelly",                       pos: "wing",           tryRate: 0.25 },
-      { name: "Sean Russell",                      pos: "fullback",       tryRate: 0.25 },
+      { name: "Ronald Volkman",                    pos: "five-eighth",    tryRate: 0.4444 },
+      { name: "Tallyn Da Silva",                   pos: "hooker",         tryRate: 0.5217 },
+      { name: "Brian Kelly",                       pos: "wing",           tryRate: 0.2381 },
+      { name: "Sean Russell",                      pos: "centre",         tryRate: 0.2353 },
     ],
   },
 

@@ -1,10 +1,24 @@
 {
-  "generatedAt": "2026-08-29T15:35:33.689279+00:00",
+  "generatedAt": "2026-08-30T09:38:47.333007+00:00",
   "round": 26,
-  "upcomingRound": 26,
+  "upcomingRound": 27,
   "ladder": [
     {
       "pos": 1,
+      "nick": "Warriors",
+      "name": "New Zealand Warriors",
+      "played": 23,
+      "wins": 17,
+      "losses": 6,
+      "drawn": 0,
+      "ptsFor": 697,
+      "ptsAgainst": 388,
+      "diff": 309,
+      "pts": 40,
+      "streak": "5W"
+    },
+    {
+      "pos": 2,
       "nick": "Panthers",
       "name": "Penrith Panthers",
       "played": 23,
@@ -16,20 +30,6 @@
       "diff": 308,
       "pts": 40,
       "streak": "2W"
-    },
-    {
-      "pos": 2,
-      "nick": "Warriors",
-      "name": "New Zealand Warriors",
-      "played": 22,
-      "wins": 16,
-      "losses": 6,
-      "drawn": 0,
-      "ptsFor": 651,
-      "ptsAgainst": 356,
-      "diff": 295,
-      "pts": 38,
-      "streak": "4W"
     },
     {
       "pos": 3,
@@ -63,15 +63,15 @@
       "pos": 5,
       "nick": "Sharks",
       "name": "Cronulla Sutherland Sharks",
-      "played": 22,
+      "played": 23,
       "wins": 14,
-      "losses": 8,
+      "losses": 9,
       "drawn": 0,
-      "ptsFor": 634,
-      "ptsAgainst": 461,
-      "diff": 173,
+      "ptsFor": 652,
+      "ptsAgainst": 499,
+      "diff": 153,
       "pts": 34,
-      "streak": "1W"
+      "streak": "1L"
     },
     {
       "pos": 6,
@@ -91,15 +91,15 @@
       "pos": 7,
       "nick": "Knights",
       "name": "Newcastle Knights",
-      "played": 23,
+      "played": 24,
       "wins": 14,
-      "losses": 9,
+      "losses": 10,
       "drawn": 0,
-      "ptsFor": 601,
-      "ptsAgainst": 545,
-      "diff": 56,
+      "ptsFor": 633,
+      "ptsAgainst": 591,
+      "diff": 42,
       "pts": 32,
-      "streak": "1L"
+      "streak": "2L"
     },
     {
       "pos": 8,
@@ -175,15 +175,15 @@
       "pos": 13,
       "nick": "Eels",
       "name": "Parramatta Eels",
-      "played": 22,
-      "wins": 8,
+      "played": 23,
+      "wins": 9,
       "losses": 14,
       "drawn": 0,
-      "ptsFor": 437,
-      "ptsAgainst": 636,
-      "diff": -199,
-      "pts": 22,
-      "streak": "1L"
+      "ptsFor": 475,
+      "ptsAgainst": 654,
+      "diff": -179,
+      "pts": 24,
+      "streak": "1W"
     },
     {
       "pos": 14,
@@ -364,15 +364,8 @@
       ]
     },
     "Cronulla Sutherland Sharks": {
-      "last5": "W W L L W",
+      "last5": "W L L W L",
       "games": [
-        {
-          "round": 21,
-          "result": "W",
-          "opponent": "Manly Warringah Sea Eagles",
-          "home": false,
-          "score": "12\u201348"
-        },
         {
           "round": 22,
           "result": "W",
@@ -400,6 +393,13 @@
           "opponent": "Gold Coast Titans",
           "home": false,
           "score": "22\u201330"
+        },
+        {
+          "round": 26,
+          "result": "L",
+          "opponent": "Parramatta Eels",
+          "home": false,
+          "score": "38\u201318"
         }
       ]
     },
@@ -564,15 +564,8 @@
       ]
     },
     "New Zealand Warriors": {
-      "last5": "L W W W W",
+      "last5": "W W W W W",
       "games": [
-        {
-          "round": 21,
-          "result": "L",
-          "opponent": "Canterbury Bulldogs",
-          "home": false,
-          "score": "18\u20136"
-        },
         {
           "round": 22,
           "result": "W",
@@ -600,19 +593,19 @@
           "opponent": "South Sydney Rabbitohs",
           "home": false,
           "score": "26\u201345"
+        },
+        {
+          "round": 26,
+          "result": "W",
+          "opponent": "Newcastle Knights",
+          "home": true,
+          "score": "46\u201332"
         }
       ]
     },
     "Newcastle Knights": {
-      "last5": "L W W W L",
+      "last5": "W W W L L",
       "games": [
-        {
-          "round": 21,
-          "result": "L",
-          "opponent": "Sydney Roosters",
-          "home": true,
-          "score": "22\u201323"
-        },
         {
           "round": 22,
           "result": "W",
@@ -640,6 +633,13 @@
           "opponent": "Manly Warringah Sea Eagles",
           "home": true,
           "score": "24\u201344"
+        },
+        {
+          "round": 26,
+          "result": "L",
+          "opponent": "New Zealand Warriors",
+          "home": false,
+          "score": "46\u201332"
         }
       ]
     },
@@ -684,15 +684,8 @@
       ]
     },
     "Parramatta Eels": {
-      "last5": "L W L W L",
+      "last5": "W L W L W",
       "games": [
-        {
-          "round": 21,
-          "result": "L",
-          "opponent": "Penrith Panthers",
-          "home": true,
-          "score": "18\u201324"
-        },
         {
           "round": 22,
           "result": "W",
@@ -720,6 +713,13 @@
           "opponent": "Dolphins",
           "home": false,
           "score": "34\u201316"
+        },
+        {
+          "round": 26,
+          "result": "W",
+          "opponent": "Cronulla Sutherland Sharks",
+          "home": true,
+          "score": "38\u201318"
         }
       ]
     },
