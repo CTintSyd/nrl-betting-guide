@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-09-03T07:08:05Z",
+  "updatedAt": "2026-09-03T14:17:10Z",
   "season": 2026,
-  "totalFavRecord": "113-83",
-  "totalLineRecord": "23-25",
-  "totalOuRecord": "28O-20U",
+  "totalFavRecord": "113-84",
+  "totalLineRecord": "23-26",
+  "totalOuRecord": "29O-20U",
   "rounds": [
     {
       "round": 1,
@@ -3152,6 +3152,29 @@
       "favRecord": "6-2",
       "lineRecord": "6-2",
       "ouRecord": "5O-3U"
+    },
+    {
+      "round": 27,
+      "games": [
+        {
+          "homeTeam": "Canterbury Bulldogs",
+          "awayTeam": "Brisbane Broncos",
+          "homeScore": 20,
+          "awayScore": 34,
+          "winner": "Brisbane Broncos",
+          "margin": 14,
+          "favourite": "Canterbury Bulldogs",
+          "favouriteWon": false,
+          "linePoint": -10.5,
+          "lineCovered": false,
+          "ouTotal": 50.5,
+          "ouResult": "Over",
+          "oddsSourced": true
+        }
+      ],
+      "favRecord": "0-1",
+      "lineRecord": "0-1",
+      "ouRecord": "1O-0U"
     }
   ]
 }
