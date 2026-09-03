@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-03T07:26:34.195Z",
-  "quotaRemaining": 464,
+  "updated": "2026-09-03T13:04:33.338Z",
+  "quotaRemaining": 461,
   "round": 27,
   "venueOverride": {
     "venue": "Suncorp Stadium",
@@ -8,75 +8,23 @@
   },
   "games": [
     {
-      "id": "86d0e4a8f3cf46d03cd20bea471df24e",
-      "homeTeam": "Canterbury Bulldogs",
-      "awayTeam": "Brisbane Broncos",
-      "commenceTime": "2026-09-03T09:50:00Z",
-      "bookmaker": "sportsbet",
-      "h2h": {
-        "home": 1.4,
-        "away": 2.94
-      },
-      "line": {
-        "home": {
-          "odd": 1.95,
-          "point": -8.5
-        },
-        "away": {
-          "odd": 1.86,
-          "point": 8.5
-        }
-      },
-      "ou": {
-        "total": 51.5,
-        "overOdd": 1.89,
-        "underOdd": 1.91
-      },
-      "bookmakerComparison": [
-        {
-          "key": "sportsbet",
-          "name": "Sportsbet",
-          "home": 1.4,
-          "away": 2.94
-        },
-        {
-          "key": "tab",
-          "name": "TAB",
-          "home": 1.42,
-          "away": 2.9
-        },
-        {
-          "key": "betright",
-          "name": "BetRight",
-          "home": 1.4,
-          "away": 2.95
-        },
-        {
-          "key": "ladbrokes_au",
-          "name": "Ladbrokes",
-          "home": 1.4,
-          "away": 3
-        }
-      ]
-    },
-    {
       "id": "3f1642e62432f3eeec37a053d483cf24",
       "homeTeam": "Gold Coast Titans",
       "awayTeam": "Dolphins",
       "commenceTime": "2026-09-04T08:00:00Z",
       "bookmaker": "sportsbet",
       "h2h": {
-        "home": 3.9,
-        "away": 1.26
+        "home": 3.4,
+        "away": 1.32
       },
       "line": {
         "home": {
           "odd": 1.93,
-          "point": 13.5
+          "point": 11.5
         },
         "away": {
           "odd": 1.87,
-          "point": -13.5
+          "point": -11.5
         }
       },
       "ou": {
@@ -88,14 +36,14 @@
         {
           "key": "sportsbet",
           "name": "Sportsbet",
-          "home": 3.9,
-          "away": 1.26
+          "home": 3.4,
+          "away": 1.32
         },
         {
           "key": "tab",
           "name": "TAB",
-          "home": 3.8,
-          "away": 1.24
+          "home": 3.5,
+          "away": 1.27
         },
         {
           "key": "betright",
@@ -256,8 +204,8 @@
         {
           "key": "betright",
           "name": "BetRight",
-          "home": 1.5,
-          "away": 2.6
+          "home": 1.53,
+          "away": 2.5
         },
         {
           "key": "ladbrokes_au",
