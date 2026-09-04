@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-03T22:52:36.379Z",
-  "quotaRemaining": 455,
+  "updated": "2026-09-04T01:45:50.326Z",
+  "quotaRemaining": 452,
   "round": 27,
   "venueOverride": {
     "venue": "Suncorp Stadium",
@@ -42,14 +42,14 @@
         {
           "key": "tab",
           "name": "TAB",
-          "home": 3.3,
-          "away": 1.3
+          "home": 3.5,
+          "away": 1.27
         },
         {
           "key": "betright",
           "name": "BetRight",
-          "home": 3.3,
-          "away": 1.33
+          "home": 3.55,
+          "away": 1.3
         },
         {
           "key": "ladbrokes_au",
@@ -118,30 +118,30 @@
       "commenceTime": "2026-09-05T05:00:00Z",
       "bookmaker": "sportsbet",
       "h2h": {
-        "home": 1.34,
-        "away": 3.28
+        "home": 1.35,
+        "away": 3.2
       },
       "line": {
         "home": {
-          "odd": 1.82,
+          "odd": 1.83,
           "point": -9.5
         },
         "away": {
-          "odd": 1.99,
+          "odd": 1.98,
           "point": 9.5
         }
       },
       "ou": {
-        "total": 48.5,
-        "overOdd": 1.91,
-        "underOdd": 1.89
+        "total": 49.5,
+        "overOdd": 1.9,
+        "underOdd": 1.9
       },
       "bookmakerComparison": [
         {
           "key": "sportsbet",
           "name": "Sportsbet",
-          "home": 1.34,
-          "away": 3.28
+          "home": 1.35,
+          "away": 3.2
         },
         {
           "key": "tab",
@@ -222,29 +222,29 @@
       "commenceTime": "2026-09-05T09:35:00Z",
       "bookmaker": "sportsbet",
       "h2h": {
-        "home": 3.06,
+        "home": 3.07,
         "away": 1.38
       },
       "line": {
         "home": {
-          "odd": 1.89,
-          "point": 8.5
+          "odd": 1.9,
+          "point": 9.5
         },
         "away": {
-          "odd": 1.91,
-          "point": -8.5
+          "odd": 1.9,
+          "point": -9.5
         }
       },
       "ou": {
         "total": 50.5,
-        "overOdd": 1.91,
-        "underOdd": 1.89
+        "overOdd": 1.9,
+        "underOdd": 1.9
       },
       "bookmakerComparison": [
         {
           "key": "sportsbet",
           "name": "Sportsbet",
-          "home": 3.06,
+          "home": 3.07,
           "away": 1.38
         },
         {
