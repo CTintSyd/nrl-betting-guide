@@ -1,121 +1,6 @@
 {
-  "generatedAt": "2026-09-03T14:16:57Z",
+  "generatedAt": "2026-09-04T08:20:55Z",
   "matches": {
-    "Gold Coast Titans vs Dolphins": {
-      "homeTeam": "Gold Coast Titans",
-      "awayTeam": "Dolphins",
-      "referee": {
-        "name": "Wyatt Raymond",
-        "url": "https://www.nrl.com/operations/the-officials/match-officials/wyatt-raymond/",
-        "img": "https://www.nrl.com/contentassets/34ac6810f7c94b009f0b5f0cdb10a21e/raymondwyatt-referees-2023_nrl_0065-head-shot.png?center=0.38%2C0.51"
-      },
-      "groundConditions": "Good",
-      "weather": "Fine",
-      "seasonStats": {
-        "home": {
-          "winsAtVenue": 43.0,
-          "winsOverall": 37.0
-        },
-        "away": {
-          "winsAtVenue": 100.0,
-          "winsOverall": 51.0
-        }
-      },
-      "overall": {
-        "played": 7,
-        "homeWins": 1,
-        "awayWins": 6,
-        "draws": 0
-      },
-      "recent": {
-        "matches": [
-          {
-            "round": "Round 2",
-            "homeTeam": "Dolphins",
-            "awayTeam": "Gold Coast Titans",
-            "homeScore": 18,
-            "awayScore": 14,
-            "winner": "Dolphins",
-            "url": "https://www.nrl.com/draw/nrl-premiership/2026/round-2/dolphins-v-titans/"
-          },
-          {
-            "round": "Round 26",
-            "homeTeam": "Dolphins",
-            "awayTeam": "Gold Coast Titans",
-            "homeScore": 36,
-            "awayScore": 30,
-            "winner": "Dolphins",
-            "url": "https://www.nrl.com/draw/nrl-premiership/2025/round-26/dolphins-v-titans/"
-          }
-        ],
-        "team1Wins": 0,
-        "team2Wins": 2
-      },
-      "homeForm": [
-        {
-          "result": "Lost",
-          "summary": "vs Rabbitohs",
-          "score": "22-42",
-          "url": "https://www.nrl.com/draw/nrl-premiership/2026/round-26/titans-v-rabbitohs/"
-        },
-        {
-          "result": "Lost",
-          "summary": "vs Sharks",
-          "score": "22-30",
-          "url": "https://www.nrl.com/draw/nrl-premiership/2026/round-25/titans-v-sharks/"
-        },
-        {
-          "result": "Lost",
-          "summary": "vs Knights",
-          "score": "26-36",
-          "url": "https://www.nrl.com/draw/nrl-premiership/2026/round-24/knights-v-titans/"
-        },
-        {
-          "result": "Lost",
-          "summary": "vs Cowboys",
-          "score": "8-30",
-          "url": "https://www.nrl.com/draw/nrl-premiership/2026/round-23/titans-v-cowboys/"
-        },
-        {
-          "result": "Lost",
-          "summary": "vs Warriors",
-          "score": "6-42",
-          "url": "https://www.nrl.com/draw/nrl-premiership/2026/round-22/titans-v-warriors/"
-        }
-      ],
-      "awayForm": [
-        {
-          "result": "Won",
-          "summary": "vs Roosters",
-          "score": "26-12",
-          "url": "https://www.nrl.com/draw/nrl-premiership/2026/round-26/roosters-v-dolphins/"
-        },
-        {
-          "result": "Won",
-          "summary": "vs Eels",
-          "score": "34-16",
-          "url": "https://www.nrl.com/draw/nrl-premiership/2026/round-25/dolphins-v-eels/"
-        },
-        {
-          "result": "Won",
-          "summary": "vs Sea Eagles",
-          "score": "22-0",
-          "url": "https://www.nrl.com/draw/nrl-premiership/2026/round-24/sea-eagles-v-dolphins/"
-        },
-        {
-          "result": "Won",
-          "summary": "vs Broncos",
-          "score": "40-32",
-          "url": "https://www.nrl.com/draw/nrl-premiership/2026/round-23/dolphins-v-broncos/"
-        },
-        {
-          "result": "Won",
-          "summary": "vs Dragons",
-          "score": "28-22",
-          "url": "https://www.nrl.com/draw/nrl-premiership/2026/round-22/dragons-v-dolphins/"
-        }
-      ]
-    },
     "South Sydney Rabbitohs vs Sydney Roosters": {
       "homeTeam": "South Sydney Rabbitohs",
       "awayTeam": "Sydney Roosters",
@@ -128,10 +13,18 @@
       "weather": "Fine",
       "seasonStats": {
         "home": {
+          "winPct": 57.0,
+          "completionRate": 79.0,
+          "avgScored": 28.0,
+          "avgConceded": 24.0,
           "winsAtVenue": 33.0,
           "winsOverall": 44.0
         },
         "away": {
+          "winPct": 70.0,
+          "completionRate": 78.0,
+          "avgScored": 26.0,
+          "avgConceded": 19.0,
           "winsAtVenue": 64.0,
           "winsOverall": 56.0
         }
@@ -243,10 +136,18 @@
       "weather": "Fine",
       "seasonStats": {
         "home": {
+          "winPct": 74.0,
+          "completionRate": 82.0,
+          "avgScored": 30.0,
+          "avgConceded": 16.0,
           "winsAtVenue": 57.0,
           "winsOverall": 44.0
         },
         "away": {
+          "winPct": 48.0,
+          "completionRate": 78.0,
+          "avgScored": 25.0,
+          "avgConceded": 21.0,
           "winsAtVenue": 59.0,
           "winsOverall": 50.0
         }
@@ -354,10 +255,18 @@
       "weather": "Fine",
       "seasonStats": {
         "home": {
+          "winPct": 57.0,
+          "completionRate": 77.0,
+          "avgScored": 23.0,
+          "avgConceded": 26.0,
           "winsAtVenue": 54.0,
           "winsOverall": 44.0
         },
         "away": {
+          "winPct": 43.0,
+          "completionRate": 79.0,
+          "avgScored": 23.0,
+          "avgConceded": 25.0,
           "winsAtVenue": 17.0,
           "winsOverall": 48.0
         }
@@ -469,10 +378,18 @@
       "weather": "Fine",
       "seasonStats": {
         "home": {
+          "winPct": 61.0,
+          "completionRate": 82.0,
+          "avgScored": 28.0,
+          "avgConceded": 21.0,
           "winsAtVenue": 59.0,
           "winsOverall": 50.0
         },
         "away": {
+          "winPct": 43.0,
+          "completionRate": 80.0,
+          "avgScored": 24.0,
+          "avgConceded": 24.0,
           "winsAtVenue": 44.0,
           "winsOverall": 64.0
         }
