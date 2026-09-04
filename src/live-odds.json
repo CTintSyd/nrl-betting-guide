@@ -1,116 +1,12 @@
 {
-  "updated": "2026-09-04T07:28:49.418Z",
-  "quotaRemaining": 449,
+  "updated": "2026-09-04T12:59:02.773Z",
+  "quotaRemaining": 446,
   "round": 27,
   "venueOverride": {
     "venue": "Suncorp Stadium",
     "until": "2026-05-18T00:00:00Z"
   },
   "games": [
-    {
-      "id": "3f1642e62432f3eeec37a053d483cf24",
-      "homeTeam": "Gold Coast Titans",
-      "awayTeam": "Dolphins",
-      "commenceTime": "2026-09-04T08:00:00Z",
-      "bookmaker": "sportsbet",
-      "h2h": {
-        "home": 4,
-        "away": 1.24
-      },
-      "line": {
-        "home": {
-          "odd": 1.88,
-          "point": 12.5
-        },
-        "away": {
-          "odd": 1.92,
-          "point": -12.5
-        }
-      },
-      "ou": {
-        "total": 57.5,
-        "overOdd": 1.86,
-        "underOdd": 1.94
-      },
-      "bookmakerComparison": [
-        {
-          "key": "sportsbet",
-          "name": "Sportsbet",
-          "home": 4,
-          "away": 1.24
-        },
-        {
-          "key": "tab",
-          "name": "TAB",
-          "home": 3.7,
-          "away": 1.28
-        },
-        {
-          "key": "betright",
-          "name": "BetRight",
-          "home": 3.8,
-          "away": 1.27
-        },
-        {
-          "key": "ladbrokes_au",
-          "name": "Ladbrokes",
-          "home": 4.1,
-          "away": 1.24
-        }
-      ]
-    },
-    {
-      "id": "fb92cb15349e4a3c289c4e7532179ab7",
-      "homeTeam": "South Sydney Rabbitohs",
-      "awayTeam": "Sydney Roosters",
-      "commenceTime": "2026-09-04T10:00:00Z",
-      "bookmaker": "sportsbet",
-      "h2h": {
-        "home": 1.1,
-        "away": 7
-      },
-      "line": {
-        "home": {
-          "odd": 1.9,
-          "point": -21.5
-        },
-        "away": {
-          "odd": 1.9,
-          "point": 21.5
-        }
-      },
-      "ou": {
-        "total": 54.5,
-        "overOdd": 1.89,
-        "underOdd": 1.91
-      },
-      "bookmakerComparison": [
-        {
-          "key": "sportsbet",
-          "name": "Sportsbet",
-          "home": 1.1,
-          "away": 7
-        },
-        {
-          "key": "tab",
-          "name": "TAB",
-          "home": 1.1,
-          "away": 7
-        },
-        {
-          "key": "betright",
-          "name": "BetRight",
-          "home": 1.1,
-          "away": 7
-        },
-        {
-          "key": "ladbrokes_au",
-          "name": "Ladbrokes",
-          "home": 1.1,
-          "away": 7.25
-        }
-      ]
-    },
     {
       "id": "804c35bc0a885f37261852ffd5fade30",
       "homeTeam": "New Zealand Warriors",
@@ -146,14 +42,14 @@
         {
           "key": "tab",
           "name": "TAB",
-          "home": 1.38,
-          "away": 3.1
+          "home": 1.37,
+          "away": 3.15
         },
         {
           "key": "betright",
           "name": "BetRight",
           "home": 1.34,
-          "away": 3.25
+          "away": 3.3
         },
         {
           "key": "ladbrokes_au",
@@ -198,8 +94,8 @@
         {
           "key": "tab",
           "name": "TAB",
-          "home": 1.5,
-          "away": 2.6
+          "home": 1.53,
+          "away": 2.5
         },
         {
           "key": "betright",
@@ -222,8 +118,8 @@
       "commenceTime": "2026-09-05T09:35:00Z",
       "bookmaker": "sportsbet",
       "h2h": {
-        "home": 3.07,
-        "away": 1.38
+        "home": 3.17,
+        "away": 1.36
       },
       "line": {
         "home": {
@@ -244,8 +140,8 @@
         {
           "key": "sportsbet",
           "name": "Sportsbet",
-          "home": 3.07,
-          "away": 1.38
+          "home": 3.17,
+          "away": 1.36
         },
         {
           "key": "tab",
