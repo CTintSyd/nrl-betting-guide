@@ -54,24 +54,24 @@ const NRL_TEAM_DATA = {
   'Dolphins': {
     emoji: '🐬', shortName: 'Dolphins', venue: 'Suncorp Stadium', wikiPage: 'Dolphins_NRL', logoFile: 'dolphins.png',
     players: [
-      { name: "Jamayne Isaako",                    pos: "wing",           tryRate: 0.913 },
-      { name: "Hamiso Tabuai-Fidow",               pos: "fullback",       tryRate: 0.6111 },
-      { name: "Kodi Nikorima",                     pos: "five-eighth",    tryRate: 0.2 },
+      { name: "Jamayne Isaako",                    pos: "wing",           tryRate: 0.875 },
+      { name: "Hamiso Tabuai-Fidow",               pos: "fullback",       tryRate: 0.6842 },
+      { name: "Jake Averillo",                     pos: "five-eighth",    tryRate: 0.5455 },
       { name: "Selwyn Cobbo",                      pos: "wing",           tryRate: 0.9444 },
-      { name: "Herbie Farnworth",                  pos: "centre",         tryRate: 0.5455 },
-      { name: "Connelly Lemuelu",                  pos: "lock",           tryRate: 0.2857 },
+      { name: "Herbie Farnworth",                  pos: "centre",         tryRate: 0.5652 },
+      { name: "Jack Bostock",                      pos: "centre",         tryRate: 0.3571 },
     ],
   },
 
   'Gold Coast Titans': {
     emoji: '🌊', shortName: 'Titans', venue: 'Cbus Super Stadium', wikiPage: 'Gold_Coast_Titans', logoFile: 'gold-coast-titans.svg',
     players: [
-      { name: "Phillip Sami",                      pos: "wing",           tryRate: 0.6522 },
-      { name: "Keano Kini",                        pos: "fullback",       tryRate: 0.1304 },
-      { name: "Jayden Campbell",                   pos: "five-eighth",    tryRate: 0.4762 },
+      { name: "Phillip Sami",                      pos: "wing",           tryRate: 0.625 },
+      { name: "Keano Kini",                        pos: "fullback",       tryRate: 0.125 },
+      { name: "Jayden Campbell",                   pos: "five-eighth",    tryRate: 0.5455 },
       { name: "Jojo Fifita",                       pos: "centre",         tryRate: 0.4 },
-      { name: "Kurtis Morrin",                     pos: "lock",           tryRate: 0.3333 },
-      { name: "AJ Brimson",                        pos: "centre",         tryRate: 0.2381 },
+      { name: "Kurtis Morrin",                     pos: "lock",           tryRate: 0.3182 },
+      { name: "AJ Brimson",                        pos: "centre",         tryRate: 0.2727 },
     ],
   },
 
@@ -162,12 +162,12 @@ const NRL_TEAM_DATA = {
   'South Sydney Rabbitohs': {
     emoji: '🐰', shortName: 'Rabbitohs', venue: 'Accor Stadium', wikiPage: 'South_Sydney_Rabbitohs', logoFile: 'south-sydney-rabbitohs.svg',
     players: [
-      { name: "Alex Johnston",                     pos: "wing",           tryRate: 1.45 },
-      { name: "Matthew Dufty",                     pos: "fullback",       tryRate: 0.1875 },
-      { name: "Cody Walker",                       pos: "five-eighth",    tryRate: 0.3636 },
+      { name: "Alex Johnston",                     pos: "wing",           tryRate: 1.4286 },
+      { name: "Jye Gray",                          pos: "fullback",       tryRate: 0.1905 },
+      { name: "Jayden Sullivan",                   pos: "halfback",       tryRate: 0.05 },
+      { name: "Campbell Graham",                   pos: "wing",           tryRate: 0.7222 },
       { name: "Tallis Duncan",                     pos: "centre",         tryRate: 0.5714 },
-      { name: "Campbell Graham",                   pos: "wing",           tryRate: 0.6471 },
-      { name: "Euan Aitken",                       pos: "lock",           tryRate: 0.2941 },
+      { name: "Latrell Mitchell",                  pos: "centre",         tryRate: 1.0909 },
     ],
   },
 
@@ -189,8 +189,8 @@ const NRL_TEAM_DATA = {
       { name: "Mark Nawaqanitawase",               pos: "wing",           tryRate: 0.7895 },
       { name: "James Tedesco",                     pos: "fullback",       tryRate: 0.6471 },
       { name: "Sam Walker",                        pos: "halfback",       tryRate: 0.4762 },
+      { name: "Daniel Tupou",                      pos: "wing",           tryRate: 0.9286 },
       { name: "Robert Toia",                       pos: "centre",         tryRate: 0.6 },
-      { name: "Billy Smith",                       pos: "wing",           tryRate: 0.8571 },
       { name: "Hugo Savala",                       pos: "centre",         tryRate: 0.4211 },
     ],
   },

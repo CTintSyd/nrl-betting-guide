@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-09-04T08:21:03Z",
+  "updatedAt": "2026-09-04T12:49:53Z",
   "season": 2026,
-  "totalFavRecord": "113-84",
-  "totalLineRecord": "23-26",
-  "totalOuRecord": "29O-20U",
+  "totalFavRecord": "115-84",
+  "totalLineRecord": "24-27",
+  "totalOuRecord": "30O-21U",
   "rounds": [
     {
       "round": 1,
@@ -3170,11 +3170,41 @@
           "ouTotal": 50.5,
           "ouResult": "Over",
           "oddsSourced": true
+        },
+        {
+          "homeTeam": "Gold Coast Titans",
+          "awayTeam": "Dolphins",
+          "homeScore": 20,
+          "awayScore": 24,
+          "winner": "Dolphins",
+          "margin": 4,
+          "favourite": "Dolphins",
+          "favouriteWon": true,
+          "linePoint": 5.5,
+          "lineCovered": false,
+          "ouTotal": 56.5,
+          "ouResult": "Under",
+          "oddsSourced": true
+        },
+        {
+          "homeTeam": "South Sydney Rabbitohs",
+          "awayTeam": "Sydney Roosters",
+          "homeScore": 50,
+          "awayScore": 20,
+          "winner": "South Sydney Rabbitohs",
+          "margin": 30,
+          "favourite": "South Sydney Rabbitohs",
+          "favouriteWon": true,
+          "linePoint": -4.5,
+          "lineCovered": true,
+          "ouTotal": 48.5,
+          "ouResult": "Over",
+          "oddsSourced": true
         }
       ],
-      "favRecord": "0-1",
-      "lineRecord": "0-1",
-      "ouRecord": "1O-0U"
+      "favRecord": "2-1",
+      "lineRecord": "1-2",
+      "ouRecord": "2O-1U"
     }
   ]
 }
