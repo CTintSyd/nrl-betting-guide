@@ -1,25 +1,7 @@
 {
-  "updated": "2026-09-04T23:34:43.789Z",
+  "updated": "2026-09-05T23:25:50.649Z",
   "quotaRemaining": null,
   "games": {
-    "New Zealand Warriors vs Manly Warringah Sea Eagles": {
-      "homeTeam": "New Zealand Warriors",
-      "awayTeam": "Manly Warringah Sea Eagles",
-      "available": false,
-      "error": "API 422: {\"message\":\"Invalid markets: player_anytime_try_scorer, player_first_try_scorer\",\"error_code\":\"INVALID_MARKET\",\"details_url\":\"https://the-odds-api.com/liveapi/guides/v4/api-error-codes.html#invalid-market\"}\n"
-    },
-    "North Queensland Cowboys vs Canberra Raiders": {
-      "homeTeam": "North Queensland Cowboys",
-      "awayTeam": "Canberra Raiders",
-      "available": false,
-      "error": "API 422: {\"message\":\"Invalid markets: player_anytime_try_scorer, player_first_try_scorer\",\"error_code\":\"INVALID_MARKET\",\"details_url\":\"https://the-odds-api.com/liveapi/guides/v4/api-error-codes.html#invalid-market\"}\n"
-    },
-    "Cronulla Sutherland Sharks vs Melbourne Storm": {
-      "homeTeam": "Cronulla Sutherland Sharks",
-      "awayTeam": "Melbourne Storm",
-      "available": false,
-      "error": "API 422: {\"message\":\"Invalid markets: player_anytime_try_scorer, player_first_try_scorer\",\"error_code\":\"INVALID_MARKET\",\"details_url\":\"https://the-odds-api.com/liveapi/guides/v4/api-error-codes.html#invalid-market\"}\n"
-    },
     "St George Illawarra Dragons vs Parramatta Eels": {
       "homeTeam": "St George Illawarra Dragons",
       "awayTeam": "Parramatta Eels",
@@ -29,6 +11,18 @@
     "Penrith Panthers vs Wests Tigers": {
       "homeTeam": "Penrith Panthers",
       "awayTeam": "Wests Tigers",
+      "available": false,
+      "error": "API 422: {\"message\":\"Invalid markets: player_anytime_try_scorer, player_first_try_scorer\",\"error_code\":\"INVALID_MARKET\",\"details_url\":\"https://the-odds-api.com/liveapi/guides/v4/api-error-codes.html#invalid-market\"}\n"
+    },
+    "Cronulla Sutherland Sharks vs North Queensland Cowboys": {
+      "homeTeam": "Cronulla Sutherland Sharks",
+      "awayTeam": "North Queensland Cowboys",
+      "available": false,
+      "error": "API 422: {\"message\":\"Invalid markets: player_anytime_try_scorer, player_first_try_scorer\",\"error_code\":\"INVALID_MARKET\",\"details_url\":\"https://the-odds-api.com/liveapi/guides/v4/api-error-codes.html#invalid-market\"}\n"
+    },
+    "South Sydney Rabbitohs vs Newcastle Knights": {
+      "homeTeam": "South Sydney Rabbitohs",
+      "awayTeam": "Newcastle Knights",
       "available": false,
       "error": "API 422: {\"message\":\"Invalid markets: player_anytime_try_scorer, player_first_try_scorer\",\"error_code\":\"INVALID_MARKET\",\"details_url\":\"https://the-odds-api.com/liveapi/guides/v4/api-error-codes.html#invalid-market\"}\n"
     }
