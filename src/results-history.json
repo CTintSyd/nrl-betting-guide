@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-09-05T12:00:24Z",
+  "updatedAt": "2026-09-05T15:06:35Z",
   "season": 2026,
-  "totalFavRecord": "115-87",
-  "totalLineRecord": "18-20",
-  "totalOuRecord": "23O-15U",
+  "totalFavRecord": "113-89",
+  "totalLineRecord": "18-23",
+  "totalOuRecord": "26O-15U",
   "rounds": [
     {
       "round": 1,
@@ -926,13 +926,13 @@
           "awayScore": 34,
           "winner": "North Queensland Cowboys",
           "margin": 12,
-          "favourite": "North Queensland Cowboys",
-          "favouriteWon": true,
-          "linePoint": null,
-          "lineCovered": null,
-          "ouTotal": null,
-          "ouResult": null,
-          "oddsSourced": false
+          "favourite": "Cronulla Sutherland Sharks",
+          "favouriteWon": false,
+          "linePoint": 6.5,
+          "lineCovered": false,
+          "ouTotal": 47.5,
+          "ouResult": "Over",
+          "oddsSourced": true
         },
         {
           "homeTeam": "Brisbane Broncos",
@@ -1025,9 +1025,9 @@
           "oddsSourced": false
         }
       ],
-      "favRecord": "4-4",
-      "lineRecord": "0-1",
-      "ouRecord": "0O-1U"
+      "favRecord": "3-5",
+      "lineRecord": "0-2",
+      "ouRecord": "1O-1U"
     },
     {
       "round": 9,
@@ -1114,13 +1114,13 @@
           "awayScore": 38,
           "winner": "Newcastle Knights",
           "margin": 4,
-          "favourite": "Newcastle Knights",
-          "favouriteWon": true,
-          "linePoint": null,
-          "lineCovered": null,
-          "ouTotal": null,
-          "ouResult": null,
-          "oddsSourced": false
+          "favourite": "South Sydney Rabbitohs",
+          "favouriteWon": false,
+          "linePoint": 7.5,
+          "lineCovered": false,
+          "ouTotal": 47.5,
+          "ouResult": "Over",
+          "oddsSourced": true
         },
         {
           "homeTeam": "Cronulla Sutherland Sharks",
@@ -1153,9 +1153,9 @@
           "oddsSourced": false
         }
       ],
-      "favRecord": "5-3",
-      "lineRecord": null,
-      "ouRecord": null
+      "favRecord": "4-4",
+      "lineRecord": "0-1",
+      "ouRecord": "1O-0U"
     },
     {
       "round": 10,
@@ -2216,11 +2216,11 @@
           "margin": 2,
           "favourite": "South Sydney Rabbitohs",
           "favouriteWon": true,
-          "linePoint": null,
-          "lineCovered": null,
-          "ouTotal": null,
-          "ouResult": null,
-          "oddsSourced": false
+          "linePoint": -7.5,
+          "lineCovered": false,
+          "ouTotal": 47.5,
+          "ouResult": "Over",
+          "oddsSourced": true
         },
         {
           "homeTeam": "Manly Warringah Sea Eagles",
@@ -2254,8 +2254,8 @@
         }
       ],
       "favRecord": "3-4",
-      "lineRecord": null,
-      "ouRecord": null
+      "lineRecord": "0-1",
+      "ouRecord": "1O-0U"
     },
     {
       "round": 20,
