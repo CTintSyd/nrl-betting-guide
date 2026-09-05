@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T12:49:34.526967+00:00",
+  "generatedAt": "2026-09-05T08:17:43.885242+00:00",
   "round": 28,
   "upcomingRound": 28,
   "ladder": [],
@@ -224,15 +224,8 @@
       ]
     },
     "Manly Warringah Sea Eagles": {
-      "last5": "L L W W",
+      "last5": "L W W L L",
       "games": [
-        {
-          "round": 23,
-          "result": "L",
-          "opponent": "Melbourne Storm",
-          "home": false,
-          "score": "42\u201320"
-        },
         {
           "round": 24,
           "result": "L",
@@ -253,6 +246,20 @@
           "opponent": "St George Illawarra Dragons",
           "home": true,
           "score": "44\u201310"
+        },
+        {
+          "round": 27,
+          "result": "L",
+          "opponent": "New Zealand Warriors",
+          "home": false,
+          "score": "31\u201330"
+        },
+        {
+          "round": 28,
+          "result": "L",
+          "opponent": "New Zealand Warriors",
+          "home": false,
+          "score": "31\u201330"
         }
       ]
     },
@@ -283,15 +290,8 @@
       ]
     },
     "New Zealand Warriors": {
-      "last5": "W W W W",
+      "last5": "W W W W W",
       "games": [
-        {
-          "round": 23,
-          "result": "W",
-          "opponent": "Penrith Panthers",
-          "home": true,
-          "score": "28\u201312"
-        },
         {
           "round": 24,
           "result": "W",
@@ -312,6 +312,20 @@
           "opponent": "Newcastle Knights",
           "home": true,
           "score": "46\u201332"
+        },
+        {
+          "round": 27,
+          "result": "W",
+          "opponent": "Manly Warringah Sea Eagles",
+          "home": true,
+          "score": "31\u201330"
+        },
+        {
+          "round": 28,
+          "result": "W",
+          "opponent": "Manly Warringah Sea Eagles",
+          "home": true,
+          "score": "31\u201330"
         }
       ]
     },

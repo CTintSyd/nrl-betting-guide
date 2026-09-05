@@ -78,12 +78,12 @@ const NRL_TEAM_DATA = {
   'Manly Warringah Sea Eagles': {
     emoji: '🦅', shortName: 'Sea Eagles', venue: '4 Pines Park', wikiPage: 'Manly-Warringah_Sea_Eagles', logoFile: 'manly-sea-eagles.png',
     players: [
-      { name: "Lehi Hopoate",                      pos: "wing",           tryRate: 0.7727 },
-      { name: "Tom Trbojevic",                     pos: "fullback",       tryRate: 0.6154 },
-      { name: "Clayton Faulalo",                   pos: "five-eighth",    tryRate: 0.5333 },
-      { name: "Jason Saab",                        pos: "wing",           tryRate: 0.6818 },
-      { name: "Reuben Garrick",                    pos: "centre",         tryRate: 0.4091 },
-      { name: "Haumole Olakau'atu",                pos: "lock",           tryRate: 0.45 },
+      { name: "Lehi Hopoate",                      pos: "wing",           tryRate: 0.8261 },
+      { name: "Tom Trbojevic",                     pos: "fullback",       tryRate: 0.5714 },
+      { name: "Clayton Faulalo",                   pos: "five-eighth",    tryRate: 0.5 },
+      { name: "Jason Saab",                        pos: "wing",           tryRate: 0.6522 },
+      { name: "Reuben Garrick",                    pos: "centre",         tryRate: 0.4783 },
+      { name: "Haumole Olakau'atu",                pos: "lock",           tryRate: 0.4286 },
     ],
   },
 
@@ -115,10 +115,10 @@ const NRL_TEAM_DATA = {
     emoji: '⚔️', shortName: 'Warriors', venue: 'Go Media Stadium', wikiPage: 'New_Zealand_Warriors', logoFile: 'new-zealand-warriors.svg',
     players: [
       { name: "Dallin Watene-Zelezniak",           pos: "wing",           tryRate: 0.9524 },
-      { name: "Charnze Nicoll-Klokstad",           pos: "fullback",       tryRate: 0.7143 },
-      { name: "Chanel Harris-Tavita",              pos: "halfback",       tryRate: 0.381 },
-      { name: "Alofiana Khan-Pereira",             pos: "wing",           tryRate: 0.9412 },
-      { name: "Jacob Laban",                       pos: "lock",           tryRate: 0.3478 },
+      { name: "Taine Tuaupiki",                    pos: "fullback",       tryRate: 0.2609 },
+      { name: "Chanel Harris-Tavita",              pos: "five-eighth",    tryRate: 0.3636 },
+      { name: "Alofiana Khan-Pereira",             pos: "wing",           tryRate: 0.8889 },
+      { name: "Jacob Laban",                       pos: "lock",           tryRate: 0.3333 },
       { name: "Leka Halasima",                     pos: "centre",         tryRate: 0.4 },
     ],
   },

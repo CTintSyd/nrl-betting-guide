@@ -1,44 +1,11 @@
 {
-  "updated": "2026-09-04T12:49:45Z",
+  "updated": "2026-09-05T08:17:56Z",
   "articles": [
     {
-      "title": "FULL TIME: Rabbitohs vs Roosters – Round 27, 2026",
-      "url": "https://www.zerotackle.com/fulltime-rabbitohs-roosters-round-27-2026-mc10396544-237552/",
-      "description": "The South Sydney Rabbitohs face the Sydney Roosters in Round 27 of the 2026 NRL season. Follow the live scores, team lists, match statistics and key moments from the game at Allianz Stadium.",
-      "date": "Fri, 07 Aug 2026 10:00:00 +0000",
-      "teams": [
-        "South Sydney Rabbitohs",
-        "Sydney Roosters"
-      ],
-      "isRound": true
-    },
-    {
-      "title": "FULL TIME: Titans vs Dolphins – Round 27, 2026",
-      "url": "https://www.zerotackle.com/fulltime-titans-dolphins-round-27-2026-mc10396543-237554/",
-      "description": "The Gold Coast Titans face the Dolphins in Round 27 of the 2026 NRL season. Follow the live scores, team lists, match statistics and key moments from the game at Cbus Super Stadium.",
-      "date": "Fri, 07 Aug 2026 08:00:00 +0000",
-      "teams": [
-        "Dolphins",
-        "Gold Coast Titans"
-      ],
-      "isRound": true
-    },
-    {
-      "title": "Updated Team Lists: Sharks vs Storm – Round 27, 2026",
-      "url": "https://www.zerotackle.com/updated-team-lists-sharks-vs-storm-10396547-237733/",
-      "description": "The Sharks and Storm have cut their squads to 20 ahead of tomorrow's match at Ocean Protect Stadium.",
-      "date": "Fri, 04 Sep 2026 09:34:10 +0000",
-      "teams": [
-        "Cronulla Sutherland Sharks",
-        "Melbourne Storm"
-      ],
-      "isRound": true
-    },
-    {
-      "title": "Updated Team Lists: Cowboys vs Raiders – Round 27, 2026",
-      "url": "https://www.zerotackle.com/updated-team-lists-cowboys-vs-raiders-10396546-237728/",
-      "description": "The Cowboys and Raiders have cut their squads to 20 ahead of tomorrow's match at Queensland Country Bank Stadium.",
-      "date": "Fri, 04 Sep 2026 07:31:10 +0000",
+      "title": "LIVE: Cowboys vs Raiders – Round 27, 2026",
+      "url": "https://www.zerotackle.com/live-cowboys-raiders-round-27-2026-mc10396546-237548/",
+      "description": "The North Queensland Cowboys face the Canberra Raiders in Round 27 of the 2026 NRL season. Follow the live scores, team lists, match statistics and key moments from the game at Queensland Country Bank Stadium.",
+      "date": "Sat, 08 Aug 2026 07:30:00 +0000",
       "teams": [
         "North Queensland Cowboys",
         "Canberra Raiders"
@@ -46,43 +13,76 @@
       "isRound": true
     },
     {
-      "title": "Tyson Frizell linked with Sydney club to continue career",
-      "url": "https://www.zerotackle.com/tyson-frizell-linked-with-sydney-club-to-continue-career-237709/",
-      "description": "He is off-contract with the Knights at the end of this season.",
-      "date": "Fri, 04 Sep 2026 06:20:51 +0000",
+      "title": "FINAL TEAMS: Sharks vs Storm – Round 27, 2026",
+      "url": "https://www.zerotackle.com/updated-team-lists-sharks-storm-10396547-237733/",
+      "description": "LATE MAIL: The Sharks and Storm have confirmed their lineups for the match at Ocean Protect Stadium.",
+      "date": "Sat, 05 Sep 2026 08:04:10 +0000",
       "teams": [
-        "Newcastle Knights"
+        "Cronulla Sutherland Sharks",
+        "Melbourne Storm"
+      ],
+      "isRound": true
+    },
+    {
+      "title": "Andrew Johns delivers worrying Blaize Talagi prediction amid Panthers exile",
+      "url": "https://www.zerotackle.com/andrew-johns-delivers-worrying-blaize-talagi-prediction-amid-panthers-exile-237760/",
+      "description": "He has been named on the bench again for Sunday&#8217;s Tigers clash.",
+      "date": "Sat, 05 Sep 2026 07:18:17 +0000",
+      "teams": [
+        "Penrith Panthers"
       ],
       "isRound": false
     },
     {
-      "title": "Broncos land Knights rising star on two-year deal",
-      "url": "https://www.zerotackle.com/broncos-land-knights-rising-star-on-two-year-deal-237710/",
-      "description": "He was off contract at the end of the year.",
-      "date": "Fri, 04 Sep 2026 06:15:21 +0000",
+      "title": "FULL TIME: Warriors vs Sea Eagles – Round 27, 2026",
+      "url": "https://www.zerotackle.com/fulltime-warriors-sea-eagles-round-27-2026-mc10396545-237550/",
+      "description": "The New Zealand Warriors face the Manly Sea Eagles in Round 27 of the 2026 NRL season. Follow the live scores, team lists, match statistics and key moments from the game at Go Media Stadium.",
+      "date": "Sat, 08 Aug 2026 05:00:00 +0000",
       "teams": [
-        "Brisbane Broncos",
-        "Newcastle Knights"
+        "Manly Warringah Sea Eagles",
+        "New Zealand Warriors"
+      ],
+      "isRound": true
+    },
+    {
+      "title": "Updated Team Lists: Panthers vs Wests Tigers – Round 27, 2026",
+      "url": "https://www.zerotackle.com/updated-team-lists-panthers-vs-wests-tigers-10396549-237759/",
+      "description": "The Panthers and Wests Tigers have cut their squads to 20 ahead of tomorrow's match at CommBank Stadium.",
+      "date": "Sat, 05 Sep 2026 06:04:10 +0000",
+      "teams": [
+        "Penrith Panthers",
+        "Wests Tigers"
+      ],
+      "isRound": true
+    },
+    {
+      "title": "Updated Team Lists: Dragons vs Eels – Round 27, 2026",
+      "url": "https://www.zerotackle.com/updated-team-lists-dragons-vs-eels-10396548-237752/",
+      "description": "The Dragons and Eels have cut their squads to 20 ahead of tomorrow's match at WIN Stadium.",
+      "date": "Sat, 05 Sep 2026 04:01:08 +0000",
+      "teams": [
+        "St George Illawarra Dragons",
+        "Parramatta Eels"
+      ],
+      "isRound": true
+    },
+    {
+      "title": "Cameron Munster contract bombshell with Storm future hanging in balance",
+      "url": "https://www.zerotackle.com/cameron-munster-contract-bombshell-with-storm-future-hanging-in-balance-237749/",
+      "description": "He is off contract at the end of 2027 with rival clubs circling.",
+      "date": "Sat, 05 Sep 2026 02:39:11 +0000",
+      "teams": [
+        "Melbourne Storm"
       ],
       "isRound": false
     },
     {
-      "title": "Jeremiah Nanai makes shock contract call ahead of November 1",
-      "url": "https://www.zerotackle.com/jeremiah-nanai-makes-shock-contract-call-ahead-of-november-1-237720/",
-      "description": "There is a twist in the Maroon representative&#8217;s future at the Cowboys.",
-      "date": "Fri, 04 Sep 2026 06:05:52 +0000",
+      "title": "Ricky Stuart provides candid response on Hudson Young’s future",
+      "url": "https://www.zerotackle.com/ricky-stuart-provides-candid-response-on-hudson-youngs-future-237745/",
+      "description": "He is yet to extend at the Raiders and will explore PNG facilities this month.",
+      "date": "Sat, 05 Sep 2026 01:01:19 +0000",
       "teams": [
-        "North Queensland Cowboys"
-      ],
-      "isRound": false
-    },
-    {
-      "title": "Jai Arrow opens up on life with MND ahead of 100-game milestone",
-      "url": "https://www.zerotackle.com/jai-arrow-opens-up-on-life-with-mnd-ahead-of-100-game-milestone-237725/",
-      "description": "He will lead the Rabbitohs out for one last time on Friday night.",
-      "date": "Fri, 04 Sep 2026 06:02:21 +0000",
-      "teams": [
-        "South Sydney Rabbitohs"
+        "Canberra Raiders"
       ],
       "isRound": false
     }
