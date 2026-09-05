@@ -574,5 +574,101 @@
       "overOdd": 1.86,
       "underOdd": 1.95
     }
+  },
+  "1c21c2a6e5633e16d504589eae1c4172": {
+    "homeTeam": "Cronulla Sutherland Sharks",
+    "awayTeam": "North Queensland Cowboys",
+    "firstSeen": "2026-09-05T12:11:39.093Z",
+    "h2h": {
+      "home": 1.46,
+      "away": 2.72
+    },
+    "line": {
+      "home": {
+        "odd": 1.9,
+        "point": -6.5
+      },
+      "away": {
+        "odd": 1.9,
+        "point": 6.5
+      }
+    },
+    "ou": {
+      "total": 47.5,
+      "overOdd": 1.9,
+      "underOdd": 1.9
+    }
+  },
+  "df4cb1a117686ea9cbf178dc5e38b983": {
+    "homeTeam": "South Sydney Rabbitohs",
+    "awayTeam": "Newcastle Knights",
+    "firstSeen": "2026-09-05T12:11:39.093Z",
+    "h2h": {
+      "home": 1.39,
+      "away": 3.01
+    },
+    "line": {
+      "home": {
+        "odd": 1.83,
+        "point": -7.5
+      },
+      "away": {
+        "odd": 1.98,
+        "point": 7.5
+      }
+    },
+    "ou": {
+      "total": 47.5,
+      "overOdd": 1.9,
+      "underOdd": 1.9
+    }
+  },
+  "3e6260ba3b7217715e6c4011f56c28cf": {
+    "homeTeam": "South Sydney Rabbitohs",
+    "awayTeam": "Newcastle Knights",
+    "firstSeen": "2026-09-05T12:11:39.093Z",
+    "h2h": {
+      "home": 1.45,
+      "away": 2.75
+    },
+    "line": {
+      "home": {
+        "odd": 1.8,
+        "point": -6.5
+      },
+      "away": {
+        "odd": 2,
+        "point": 6.5
+      }
+    },
+    "ou": {
+      "total": null,
+      "overOdd": null,
+      "underOdd": null
+    }
+  },
+  "afdd959b6f83262c869fc65a1d7b6c51": {
+    "homeTeam": "Cronulla Sutherland Sharks",
+    "awayTeam": "North Queensland Cowboys",
+    "firstSeen": "2026-09-05T12:11:39.093Z",
+    "h2h": {
+      "home": 1.5,
+      "away": 2.55
+    },
+    "line": {
+      "home": {
+        "odd": 1.9,
+        "point": -6.5
+      },
+      "away": {
+        "odd": 1.9,
+        "point": 6.5
+      }
+    },
+    "ou": {
+      "total": null,
+      "overOdd": null,
+      "underOdd": null
+    }
   }
 }
