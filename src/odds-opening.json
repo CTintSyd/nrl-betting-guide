@@ -718,5 +718,53 @@
       "overOdd": 1.9,
       "underOdd": 1.9
     }
+  },
+  "453c6fc162e9b84517308af728f3f481": {
+    "homeTeam": "New Zealand Warriors",
+    "awayTeam": "Dolphins",
+    "firstSeen": "2026-09-06T12:25:46.811Z",
+    "h2h": {
+      "home": 1.54,
+      "away": 2.47
+    },
+    "line": {
+      "home": {
+        "odd": 1.9,
+        "point": -4.5
+      },
+      "away": {
+        "odd": 1.9,
+        "point": 4.5
+      }
+    },
+    "ou": {
+      "total": 47.5,
+      "overOdd": 1.9,
+      "underOdd": 1.9
+    }
+  },
+  "7d73ccff7c50260724db8ca3ccdb7b8d": {
+    "homeTeam": "Penrith Panthers",
+    "awayTeam": "Sydney Roosters",
+    "firstSeen": "2026-09-06T12:25:46.812Z",
+    "h2h": {
+      "home": 1.33,
+      "away": 3.35
+    },
+    "line": {
+      "home": {
+        "odd": 1.9,
+        "point": -9.5
+      },
+      "away": {
+        "odd": 1.9,
+        "point": 9.5
+      }
+    },
+    "ou": {
+      "total": 43.5,
+      "overOdd": 1.9,
+      "underOdd": 1.9
+    }
   }
 }
