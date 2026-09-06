@@ -1,6 +1,69 @@
 {
-  "updated": "2026-09-05T15:06:25Z",
+  "updated": "2026-09-06T08:16:17Z",
   "articles": [
+    {
+      "title": "FULL TIME: Panthers vs Wests Tigers – Round 27, 2026",
+      "url": "https://www.zerotackle.com/fulltime-panthers-wests-tigers-round-27-2026-mc10396549-237542/",
+      "description": "The Penrith Panthers face the Wests Tigers in Round 27 of the 2026 NRL season. Follow the live scores, team lists, match statistics and key moments from the game at CommBank Stadium.",
+      "date": "Sun, 09 Aug 2026 06:05:00 +0000",
+      "teams": [
+        "Penrith Panthers",
+        "Wests Tigers"
+      ],
+      "isRound": true
+    },
+    {
+      "title": "FULL TIME: Dragons vs Eels – Round 27, 2026",
+      "url": "https://www.zerotackle.com/fulltime-dragons-eels-round-27-2026-mc10396548-237544/",
+      "description": "The St George Illawarra Dragons face the Parramatta Eels in Round 27 of the 2026 NRL season. Follow the live scores, team lists, match statistics and key moments from the game at WIN Stadium.",
+      "date": "Sun, 09 Aug 2026 04:00:00 +0000",
+      "teams": [
+        "St George Illawarra Dragons",
+        "Parramatta Eels"
+      ],
+      "isRound": true
+    },
+    {
+      "title": "Bellamy reveals Storm’s Cameron Munster intentions after bombshell contract revelation",
+      "url": "https://www.zerotackle.com/bellamy-reveals-storms-cameron-munster-intentions-after-bombshell-contract-revelation-237773/",
+      "description": "Munster has told the Storm he is heading to November 1.",
+      "date": "Sun, 06 Sep 2026 03:27:58 +0000",
+      "teams": [
+        "Melbourne Storm"
+      ],
+      "isRound": false
+    },
+    {
+      "title": "Cronulla Sharks learn venue for Week 1 final",
+      "url": "https://www.zerotackle.com/cronulla-sharks-learn-venue-for-week-1-final-237772/",
+      "description": "There were two options on the table.",
+      "date": "Sun, 06 Sep 2026 03:13:40 +0000",
+      "teams": [
+        "Cronulla Sutherland Sharks"
+      ],
+      "isRound": false
+    },
+    {
+      "title": "MRC confirm eight players charged as Cowboys, Sharks cop finals blow",
+      "url": "https://www.zerotackle.com/mrc-confirm-eight-players-charged-as-cowboys-sharks-cop-finals-blow-237769/",
+      "description": "Two finals bound clubs are facing suspensions for players.",
+      "date": "Sun, 06 Sep 2026 02:10:55 +0000",
+      "teams": [
+        "North Queensland Cowboys",
+        "Cronulla Sutherland Sharks"
+      ],
+      "isRound": false
+    },
+    {
+      "title": "Craig Fitzgibbon takes officiating to task for second straight week",
+      "url": "https://www.zerotackle.com/craig-fitzgibbon-takes-officiating-to-task-for-second-straight-week-237768/",
+      "description": "The Sharks have lost four of their last five games.",
+      "date": "Sun, 06 Sep 2026 00:44:25 +0000",
+      "teams": [
+        "Cronulla Sutherland Sharks"
+      ],
+      "isRound": false
+    },
     {
       "title": "FULL TIME: Sharks vs Storm – Round 27, 2026",
       "url": "https://www.zerotackle.com/fulltime-sharks-storm-round-27-2026-mc10396547-237546/",
@@ -22,69 +85,6 @@
         "Canberra Raiders"
       ],
       "isRound": true
-    },
-    {
-      "title": "Andrew Johns delivers worrying Blaize Talagi prediction amid Panthers exile",
-      "url": "https://www.zerotackle.com/andrew-johns-delivers-worrying-blaize-talagi-prediction-amid-panthers-exile-237760/",
-      "description": "He has been named on the bench again for Sunday&#8217;s Tigers clash.",
-      "date": "Sat, 05 Sep 2026 07:18:17 +0000",
-      "teams": [
-        "Penrith Panthers"
-      ],
-      "isRound": false
-    },
-    {
-      "title": "FULL TIME: Warriors vs Sea Eagles – Round 27, 2026",
-      "url": "https://www.zerotackle.com/fulltime-warriors-sea-eagles-round-27-2026-mc10396545-237550/",
-      "description": "The New Zealand Warriors face the Manly Sea Eagles in Round 27 of the 2026 NRL season. Follow the live scores, team lists, match statistics and key moments from the game at Go Media Stadium.",
-      "date": "Sat, 08 Aug 2026 05:00:00 +0000",
-      "teams": [
-        "Manly Warringah Sea Eagles",
-        "New Zealand Warriors"
-      ],
-      "isRound": true
-    },
-    {
-      "title": "Updated Team Lists: Panthers vs Wests Tigers – Round 27, 2026",
-      "url": "https://www.zerotackle.com/updated-team-lists-panthers-vs-wests-tigers-10396549-237759/",
-      "description": "The Panthers and Wests Tigers have cut their squads to 20 ahead of tomorrow's match at CommBank Stadium.",
-      "date": "Sat, 05 Sep 2026 06:04:10 +0000",
-      "teams": [
-        "Penrith Panthers",
-        "Wests Tigers"
-      ],
-      "isRound": true
-    },
-    {
-      "title": "Updated Team Lists: Dragons vs Eels – Round 27, 2026",
-      "url": "https://www.zerotackle.com/updated-team-lists-dragons-vs-eels-10396548-237752/",
-      "description": "The Dragons and Eels have cut their squads to 20 ahead of tomorrow's match at WIN Stadium.",
-      "date": "Sat, 05 Sep 2026 04:01:08 +0000",
-      "teams": [
-        "St George Illawarra Dragons",
-        "Parramatta Eels"
-      ],
-      "isRound": true
-    },
-    {
-      "title": "Cameron Munster contract bombshell with Storm future hanging in balance",
-      "url": "https://www.zerotackle.com/cameron-munster-contract-bombshell-with-storm-future-hanging-in-balance-237749/",
-      "description": "He is off contract at the end of 2027 with rival clubs circling.",
-      "date": "Sat, 05 Sep 2026 02:39:11 +0000",
-      "teams": [
-        "Melbourne Storm"
-      ],
-      "isRound": false
-    },
-    {
-      "title": "Ricky Stuart provides candid response on Hudson Young’s future",
-      "url": "https://www.zerotackle.com/ricky-stuart-provides-candid-response-on-hudson-youngs-future-237745/",
-      "description": "He is yet to extend at the Raiders and will explore PNG facilities this month.",
-      "date": "Sat, 05 Sep 2026 01:01:19 +0000",
-      "teams": [
-        "Canberra Raiders"
-      ],
-      "isRound": false
     }
   ]
 }
