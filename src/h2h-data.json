@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-06T08:16:17Z",
+  "generatedAt": "2026-09-06T12:10:40Z",
   "matches": {
     "St George Illawarra Dragons vs Parramatta Eels": {
       "homeTeam": "St George Illawarra Dragons",
@@ -13,7 +13,7 @@
       "weather": "Fine",
       "seasonStats": {
         "home": {
-          "completionRate": 87.0
+          "completionRate": 85.0
         },
         "away": {
           "completionRate": 75.0
@@ -45,7 +45,7 @@
       "weather": "Fine",
       "seasonStats": {
         "home": {
-          "completionRate": 87.0
+          "completionRate": 85.0
         },
         "away": {
           "completionRate": 82.0
