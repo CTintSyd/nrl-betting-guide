@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-06T01:40:37.252Z",
-  "quotaRemaining": 416,
+  "updated": "2026-09-06T07:22:25.003Z",
+  "quotaRemaining": 413,
   "round": 27,
   "venueOverride": {
     "venue": "Suncorp Stadium",
@@ -8,106 +8,42 @@
   },
   "games": [
     {
-      "id": "ca40ee9c3c07f53a404f3619e5d74e1b",
-      "homeTeam": "St George Illawarra Dragons",
-      "awayTeam": "Parramatta Eels",
-      "commenceTime": "2026-09-06T04:00:00Z",
-      "bookmaker": "sportsbet",
-      "h2h": {
-        "home": 2.35,
-        "away": 1.6
-      },
-      "line": {
-        "home": {
-          "odd": 1.97,
-          "point": 3.5
-        },
-        "away": {
-          "odd": 1.84,
-          "point": -3.5
-        }
-      },
-      "ou": {
-        "total": 56.5,
-        "overOdd": 1.95,
-        "underOdd": 1.86
-      },
-      "bookmakerComparison": [
-        {
-          "key": "sportsbet",
-          "name": "Sportsbet",
-          "home": 2.35,
-          "away": 1.6
-        },
-        {
-          "key": "tab",
-          "name": "TAB",
-          "home": 2.4,
-          "away": 1.58
-        },
-        {
-          "key": "betright",
-          "name": "BetRight",
-          "home": 2.4,
-          "away": 1.58
-        },
-        {
-          "key": "ladbrokes_au",
-          "name": "Ladbrokes",
-          "home": 2.3,
-          "away": 1.64
-        }
-      ]
-    },
-    {
       "id": "5edc3d11d28da758bf742037dc882217",
       "homeTeam": "Penrith Panthers",
       "awayTeam": "Wests Tigers",
-      "commenceTime": "2026-09-06T06:05:00Z",
+      "commenceTime": "2026-09-06T06:07:00Z",
       "bookmaker": "sportsbet",
       "h2h": {
-        "home": 1.11,
-        "away": 6.7
+        "home": 1.01,
+        "away": 101
       },
       "line": {
         "home": {
-          "odd": 1.9,
-          "point": -19.5
+          "odd": 1.8,
+          "point": -33.5
         },
         "away": {
-          "odd": 1.9,
-          "point": 19.5
+          "odd": 2.02,
+          "point": 33.5
         }
       },
       "ou": {
-        "total": 49.5,
-        "overOdd": 1.89,
-        "underOdd": 1.91
+        "total": 51.5,
+        "overOdd": 1.84,
+        "underOdd": 1.96
       },
       "bookmakerComparison": [
         {
           "key": "sportsbet",
           "name": "Sportsbet",
-          "home": 1.11,
-          "away": 6.7
+          "home": 1.01,
+          "away": 101
         },
         {
-          "key": "tab",
-          "name": "TAB",
-          "home": 1.1,
-          "away": 7
-        },
-        {
-          "key": "betright",
-          "name": "BetRight",
-          "home": 1.1,
-          "away": 7
-        },
-        {
-          "key": "ladbrokes_au",
-          "name": "Ladbrokes",
-          "home": 1.08,
-          "away": 7.75
+          "key": "pointsbetau",
+          "name": "PointsBet",
+          "home": 1,
+          "away": 51
         }
       ]
     },
@@ -118,30 +54,30 @@
       "commenceTime": "2026-09-09T02:00:00Z",
       "bookmaker": "sportsbet",
       "h2h": {
-        "home": 1.46,
-        "away": 2.72
+        "home": 1.45,
+        "away": 2.78
       },
       "line": {
         "home": {
-          "odd": 1.9,
-          "point": -6.5
+          "odd": 1.87,
+          "point": -7.5
         },
         "away": {
-          "odd": 1.9,
-          "point": 6.5
+          "odd": 1.92,
+          "point": 7.5
         }
       },
       "ou": {
         "total": 47.5,
-        "overOdd": 1.9,
-        "underOdd": 1.9
+        "overOdd": 1.91,
+        "underOdd": 1.89
       },
       "bookmakerComparison": [
         {
           "key": "sportsbet",
           "name": "Sportsbet",
-          "home": 1.46,
-          "away": 2.72
+          "home": 1.45,
+          "away": 2.78
         }
       ]
     },
@@ -176,6 +112,74 @@
           "name": "Sportsbet",
           "home": 1.39,
           "away": 3.01
+        }
+      ]
+    },
+    {
+      "id": "908958ac78a103361857d1604b00a47b",
+      "homeTeam": "Penrith Panthers",
+      "awayTeam": "Sydney Roosters",
+      "commenceTime": "2026-09-09T02:10:00Z",
+      "bookmaker": "sportsbet",
+      "h2h": {
+        "home": 1.28,
+        "away": 3.73
+      },
+      "line": {
+        "home": {
+          "odd": 1.95,
+          "point": -10.5
+        },
+        "away": {
+          "odd": 1.86,
+          "point": 10.5
+        }
+      },
+      "ou": {
+        "total": 45.5,
+        "overOdd": 1.9,
+        "underOdd": 1.9
+      },
+      "bookmakerComparison": [
+        {
+          "key": "sportsbet",
+          "name": "Sportsbet",
+          "home": 1.28,
+          "away": 3.73
+        }
+      ]
+    },
+    {
+      "id": "3b9ba61e92873af05cd217be70177b8d",
+      "homeTeam": "New Zealand Warriors",
+      "awayTeam": "Dolphins",
+      "commenceTime": "2026-09-09T02:15:00Z",
+      "bookmaker": "sportsbet",
+      "h2h": {
+        "home": 1.54,
+        "away": 2.49
+      },
+      "line": {
+        "home": {
+          "odd": 1.9,
+          "point": -4.5
+        },
+        "away": {
+          "odd": 1.9,
+          "point": 4.5
+        }
+      },
+      "ou": {
+        "total": 46.5,
+        "overOdd": 1.9,
+        "underOdd": 1.9
+      },
+      "bookmakerComparison": [
+        {
+          "key": "sportsbet",
+          "name": "Sportsbet",
+          "home": 1.54,
+          "away": 2.49
         }
       ]
     },
