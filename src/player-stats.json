@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-06T12:10:30.056664+00:00",
+  "generatedAt": "2026-09-06T15:27:54.939321+00:00",
   "round": 27,
   "players": {
     "Kalyn Ponga": {
@@ -1421,7 +1421,7 @@
       "games": 22,
       "tryRate": 0.1364,
       "team": "Cronulla Sutherland Sharks",
-      "position": "Interchange"
+      "position": "Reserve"
     },
     "Siosifa Talakai": {
       "tries": 5,
@@ -2352,7 +2352,7 @@
       "games": 19,
       "tryRate": 0.0,
       "team": "Melbourne Storm",
-      "position": "Interchange"
+      "position": "Reserve"
     },
     "Angus Hinchey": {
       "tries": 1,
@@ -2646,7 +2646,7 @@
       "games": 6,
       "tryRate": 0.0,
       "team": "Manly Warringah Sea Eagles",
-      "position": "Interchange"
+      "position": "Reserve"
     },
     "Wilson De Courcey": {
       "tries": 0,
@@ -2926,7 +2926,7 @@
       "games": 5,
       "tryRate": 0.2,
       "team": "Melbourne Storm",
-      "position": "Reserve"
+      "position": "Interchange"
     },
     "Sione Fonua": {
       "tries": 0,
