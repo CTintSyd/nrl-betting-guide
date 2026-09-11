@@ -1,64 +1,12 @@
 {
-  "updated": "2026-09-11T07:32:49.577Z",
-  "quotaRemaining": 332,
+  "updated": "2026-09-11T13:04:46.548Z",
+  "quotaRemaining": 329,
   "round": 27,
   "venueOverride": {
     "venue": "Suncorp Stadium",
     "until": "2026-05-18T00:00:00Z"
   },
   "games": [
-    {
-      "id": "3e6260ba3b7217715e6c4011f56c28cf",
-      "homeTeam": "South Sydney Rabbitohs",
-      "awayTeam": "Newcastle Knights",
-      "commenceTime": "2026-09-11T09:50:00Z",
-      "bookmaker": "sportsbet",
-      "h2h": {
-        "home": 1.4,
-        "away": 2.97
-      },
-      "line": {
-        "home": {
-          "odd": 1.83,
-          "point": -7.5
-        },
-        "away": {
-          "odd": 1.98,
-          "point": 7.5
-        }
-      },
-      "ou": {
-        "total": 49.5,
-        "overOdd": 1.9,
-        "underOdd": 1.9
-      },
-      "bookmakerComparison": [
-        {
-          "key": "sportsbet",
-          "name": "Sportsbet",
-          "home": 1.4,
-          "away": 2.97
-        },
-        {
-          "key": "tab",
-          "name": "TAB",
-          "home": 1.36,
-          "away": 3.2
-        },
-        {
-          "key": "betright",
-          "name": "BetRight",
-          "home": 1.4,
-          "away": 3
-        },
-        {
-          "key": "ladbrokes_au",
-          "name": "Ladbrokes",
-          "home": 1.4,
-          "away": 3
-        }
-      ]
-    },
     {
       "id": "453c6fc162e9b84517308af728f3f481",
       "homeTeam": "New Zealand Warriors",
@@ -118,30 +66,30 @@
       "commenceTime": "2026-09-12T09:50:00Z",
       "bookmaker": "sportsbet",
       "h2h": {
-        "home": 1.45,
-        "away": 2.78
+        "home": 1.47,
+        "away": 2.67
       },
       "line": {
         "home": {
-          "odd": 1.9,
-          "point": -7.5
+          "odd": 1.91,
+          "point": -6.5
         },
         "away": {
-          "odd": 1.9,
-          "point": 7.5
+          "odd": 1.89,
+          "point": 6.5
         }
       },
       "ou": {
         "total": 47.5,
-        "overOdd": 1.9,
-        "underOdd": 1.9
+        "overOdd": 1.91,
+        "underOdd": 1.89
       },
       "bookmakerComparison": [
         {
           "key": "sportsbet",
           "name": "Sportsbet",
-          "home": 1.45,
-          "away": 2.78
+          "home": 1.47,
+          "away": 2.67
         },
         {
           "key": "tab",
@@ -152,8 +100,8 @@
         {
           "key": "betright",
           "name": "BetRight",
-          "home": 1.45,
-          "away": 2.75
+          "home": 1.44,
+          "away": 2.8
         },
         {
           "key": "ladbrokes_au",
