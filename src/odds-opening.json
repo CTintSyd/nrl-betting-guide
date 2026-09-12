@@ -574,5 +574,53 @@
       "overOdd": 1.9,
       "underOdd": 1.9
     }
+  },
+  "23efe85db95805b06da65f4667417a48": {
+    "homeTeam": "New Zealand Warriors",
+    "awayTeam": "Newcastle Knights",
+    "firstSeen": "2026-09-12T12:28:26.308Z",
+    "h2h": {
+      "home": 1.48,
+      "away": 2.65
+    },
+    "line": {
+      "home": {
+        "odd": 1.97,
+        "point": -6.5
+      },
+      "away": {
+        "odd": 1.84,
+        "point": 6.5
+      }
+    },
+    "ou": {
+      "total": 44.5,
+      "overOdd": 1.9,
+      "underOdd": 1.9
+    }
+  },
+  "d7235a00d072f43246d3d60597406b5f": {
+    "homeTeam": "New Zealand Warriors",
+    "awayTeam": "Newcastle Knights",
+    "firstSeen": "2026-09-12T12:28:26.308Z",
+    "h2h": {
+      "home": 1.47,
+      "away": 2.7
+    },
+    "line": {
+      "home": {
+        "odd": 1.8,
+        "point": -6.5
+      },
+      "away": {
+        "odd": 2,
+        "point": 6.5
+      }
+    },
+    "ou": {
+      "total": null,
+      "overOdd": null,
+      "underOdd": null
+    }
   }
 }
