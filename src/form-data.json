@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-11T12:55:17.192345+00:00",
+  "generatedAt": "2026-09-12T08:35:00.349644+00:00",
   "round": 28,
   "upcomingRound": 28,
   "ladder": [
@@ -21,13 +21,13 @@
       "pos": 2,
       "nick": "Warriors",
       "name": "New Zealand Warriors",
-      "played": 24,
+      "played": 25,
       "wins": 18,
-      "losses": 6,
+      "losses": 7,
       "drawn": 0,
-      "ptsFor": 728,
-      "ptsAgainst": 418,
-      "diff": 310,
+      "ptsFor": 744,
+      "ptsAgainst": 444,
+      "diff": 300,
       "pts": 42,
       "streak": "5W"
     },
@@ -35,14 +35,14 @@
       "pos": 3,
       "nick": "Dolphins",
       "name": "Dolphins",
-      "played": 24,
-      "wins": 17,
+      "played": 25,
+      "wins": 18,
       "losses": 7,
       "drawn": 0,
-      "ptsFor": 662,
-      "ptsAgainst": 506,
-      "diff": 156,
-      "pts": 40,
+      "ptsFor": 688,
+      "ptsAgainst": 522,
+      "diff": 166,
+      "pts": 42,
       "streak": "5W"
     },
     {
@@ -400,13 +400,6 @@
       "last5": "W W W W W",
       "games": [
         {
-          "round": 23,
-          "result": "W",
-          "opponent": "Brisbane Broncos",
-          "home": true,
-          "score": "40\u201332"
-        },
-        {
           "round": 24,
           "result": "W",
           "opponent": "Manly Warringah Sea Eagles",
@@ -433,6 +426,13 @@
           "opponent": "Gold Coast Titans",
           "home": false,
           "score": "20\u201324"
+        },
+        {
+          "round": 28,
+          "result": "W",
+          "opponent": "New Zealand Warriors",
+          "home": false,
+          "score": "16\u201326"
         }
       ]
     },
@@ -550,15 +550,8 @@
       ]
     },
     "New Zealand Warriors": {
-      "last5": "W W W W W",
+      "last5": "W W W W L",
       "games": [
-        {
-          "round": 23,
-          "result": "W",
-          "opponent": "Penrith Panthers",
-          "home": true,
-          "score": "28\u201312"
-        },
         {
           "round": 24,
           "result": "W",
@@ -586,6 +579,13 @@
           "opponent": "Manly Warringah Sea Eagles",
           "home": true,
           "score": "31\u201330"
+        },
+        {
+          "round": 28,
+          "result": "L",
+          "opponent": "Dolphins",
+          "home": true,
+          "score": "16\u201326"
         }
       ]
     },
