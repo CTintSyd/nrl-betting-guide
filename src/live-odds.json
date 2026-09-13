@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-12T22:41:19.974Z",
-  "quotaRemaining": 302,
+  "updated": "2026-09-13T01:48:23.061Z",
+  "quotaRemaining": 299,
   "round": 27,
   "venueOverride": {
     "venue": "Suncorp Stadium",
@@ -15,11 +15,11 @@
       "bookmaker": "sportsbet",
       "h2h": {
         "home": 1.35,
-        "away": 3.25
+        "away": 3.23
       },
       "line": {
         "home": {
-          "odd": 1.89,
+          "odd": 1.9,
           "point": -9.5
         },
         "away": {
@@ -28,28 +28,28 @@
         }
       },
       "ou": {
-        "total": 43.5,
-        "overOdd": 1.9,
-        "underOdd": 1.9
+        "total": 42.5,
+        "overOdd": 1.92,
+        "underOdd": 1.88
       },
       "bookmakerComparison": [
         {
           "key": "sportsbet",
           "name": "Sportsbet",
           "home": 1.35,
-          "away": 3.25
+          "away": 3.23
         },
         {
           "key": "tab",
           "name": "TAB",
-          "home": 1.36,
-          "away": 3.2
+          "home": 1.37,
+          "away": 3.15
         },
         {
           "key": "betright",
           "name": "BetRight",
-          "home": 1.35,
-          "away": 3.25
+          "home": 1.36,
+          "away": 3.2
         },
         {
           "key": "ladbrokes_au",
@@ -60,22 +60,22 @@
       ]
     },
     {
-      "id": "23efe85db95805b06da65f4667417a48",
+      "id": "d7235a00d072f43246d3d60597406b5f",
       "homeTeam": "New Zealand Warriors",
       "awayTeam": "Newcastle Knights",
-      "commenceTime": "2026-09-16T02:00:00Z",
+      "commenceTime": "2026-09-19T06:05:00Z",
       "bookmaker": "sportsbet",
       "h2h": {
-        "home": 1.47,
-        "away": 2.67
+        "home": 1.45,
+        "away": 2.76
       },
       "line": {
         "home": {
-          "odd": 1.96,
+          "odd": 1.9,
           "point": -6.5
         },
         "away": {
-          "odd": 1.85,
+          "odd": 1.9,
           "point": 6.5
         }
       },
@@ -88,37 +88,9 @@
         {
           "key": "sportsbet",
           "name": "Sportsbet",
-          "home": 1.47,
-          "away": 2.67
-        }
-      ]
-    },
-    {
-      "id": "d7235a00d072f43246d3d60597406b5f",
-      "homeTeam": "New Zealand Warriors",
-      "awayTeam": "Newcastle Knights",
-      "commenceTime": "2026-09-19T06:05:00Z",
-      "bookmaker": "tab",
-      "h2h": {
-        "home": 1.47,
-        "away": 2.7
-      },
-      "line": {
-        "home": {
-          "odd": 1.8,
-          "point": -6.5
+          "home": 1.45,
+          "away": 2.76
         },
-        "away": {
-          "odd": 2,
-          "point": 6.5
-        }
-      },
-      "ou": {
-        "total": null,
-        "overOdd": null,
-        "underOdd": null
-      },
-      "bookmakerComparison": [
         {
           "key": "tab",
           "name": "TAB",
@@ -126,14 +98,14 @@
           "away": 2.7
         },
         {
-          "key": "ladbrokes_au",
-          "name": "Ladbrokes",
+          "key": "betright",
+          "name": "BetRight",
           "home": 1.45,
           "away": 2.75
         },
         {
-          "key": "pointsbetau",
-          "name": "PointsBet",
+          "key": "ladbrokes_au",
+          "name": "Ladbrokes",
           "home": 1.45,
           "away": 2.75
         }
