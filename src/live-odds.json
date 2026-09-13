@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-13T07:43:02.577Z",
-  "quotaRemaining": 296,
+  "updated": "2026-09-13T13:30:37.429Z",
+  "quotaRemaining": 293,
   "round": 27,
   "venueOverride": {
     "venue": "Suncorp Stadium",
@@ -8,48 +8,54 @@
   },
   "games": [
     {
-      "id": "7d73ccff7c50260724db8ca3ccdb7b8d",
-      "homeTeam": "Penrith Panthers",
-      "awayTeam": "Sydney Roosters",
-      "commenceTime": "2026-09-13T06:07:00Z",
+      "id": "a5b4862cd5144843a4812f46fab6dcf4",
+      "homeTeam": "Sydney Roosters",
+      "awayTeam": "Cronulla Sutherland Sharks",
+      "commenceTime": "2026-09-19T09:50:00Z",
       "bookmaker": "sportsbet",
       "h2h": {
-        "home": 1.46,
-        "away": 2.6
+        "home": 1.44,
+        "away": 2.82
       },
       "line": {
         "home": {
-          "odd": 1.99,
-          "point": -1.5
+          "odd": 1.9,
+          "point": -6.5
         },
         "away": {
-          "odd": 1.81,
-          "point": 1.5
+          "odd": 1.9,
+          "point": 6.5
         }
       },
       "ou": {
-        "total": 29.5,
-        "overOdd": 1.69,
-        "underOdd": 2.17
+        "total": 45.5,
+        "overOdd": 1.9,
+        "underOdd": 1.89
       },
       "bookmakerComparison": [
         {
           "key": "sportsbet",
           "name": "Sportsbet",
-          "home": 1.46,
-          "away": 2.6
+          "home": 1.44,
+          "away": 2.82
         },
         {
           "key": "tab",
           "name": "TAB",
-          "home": 1.28,
-          "away": 3.6
+          "home": 1.4,
+          "away": 3
         },
         {
-          "key": "pointsbetau",
-          "name": "PointsBet",
-          "home": 1.65,
-          "away": 2.15
+          "key": "betright",
+          "name": "BetRight",
+          "home": 1.42,
+          "away": 2.88
+        },
+        {
+          "key": "ladbrokes_au",
+          "name": "Ladbrokes",
+          "home": 1.4,
+          "away": 3
         }
       ]
     },
@@ -88,14 +94,20 @@
         {
           "key": "tab",
           "name": "TAB",
-          "home": 1.47,
-          "away": 2.7
+          "home": 1.44,
+          "away": 2.8
+        },
+        {
+          "key": "betright",
+          "name": "BetRight",
+          "home": 1.48,
+          "away": 2.65
         },
         {
           "key": "ladbrokes_au",
           "name": "Ladbrokes",
-          "home": 1.45,
-          "away": 2.75
+          "home": 1.48,
+          "away": 2.7
         }
       ]
     }

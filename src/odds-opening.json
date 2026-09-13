@@ -622,5 +622,29 @@
       "overOdd": null,
       "underOdd": null
     }
+  },
+  "a5b4862cd5144843a4812f46fab6dcf4": {
+    "homeTeam": "Sydney Roosters",
+    "awayTeam": "Cronulla Sutherland Sharks",
+    "firstSeen": "2026-09-13T13:30:37.428Z",
+    "h2h": {
+      "home": 1.44,
+      "away": 2.82
+    },
+    "line": {
+      "home": {
+        "odd": 1.9,
+        "point": -6.5
+      },
+      "away": {
+        "odd": 1.9,
+        "point": 6.5
+      }
+    },
+    "ou": {
+      "total": 45.5,
+      "overOdd": 1.9,
+      "underOdd": 1.89
+    }
   }
 }
