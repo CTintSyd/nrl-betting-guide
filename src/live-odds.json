@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-13T01:48:23.061Z",
-  "quotaRemaining": 299,
+  "updated": "2026-09-13T07:43:02.577Z",
+  "quotaRemaining": 296,
   "round": 27,
   "venueOverride": {
     "venue": "Suncorp Stadium",
@@ -11,51 +11,45 @@
       "id": "7d73ccff7c50260724db8ca3ccdb7b8d",
       "homeTeam": "Penrith Panthers",
       "awayTeam": "Sydney Roosters",
-      "commenceTime": "2026-09-13T06:05:00Z",
+      "commenceTime": "2026-09-13T06:07:00Z",
       "bookmaker": "sportsbet",
       "h2h": {
-        "home": 1.35,
-        "away": 3.23
+        "home": 1.46,
+        "away": 2.6
       },
       "line": {
         "home": {
-          "odd": 1.9,
-          "point": -9.5
+          "odd": 1.99,
+          "point": -1.5
         },
         "away": {
-          "odd": 1.9,
-          "point": 9.5
+          "odd": 1.81,
+          "point": 1.5
         }
       },
       "ou": {
-        "total": 42.5,
-        "overOdd": 1.92,
-        "underOdd": 1.88
+        "total": 29.5,
+        "overOdd": 1.69,
+        "underOdd": 2.17
       },
       "bookmakerComparison": [
         {
           "key": "sportsbet",
           "name": "Sportsbet",
-          "home": 1.35,
-          "away": 3.23
+          "home": 1.46,
+          "away": 2.6
         },
         {
           "key": "tab",
           "name": "TAB",
-          "home": 1.37,
-          "away": 3.15
+          "home": 1.28,
+          "away": 3.6
         },
         {
-          "key": "betright",
-          "name": "BetRight",
-          "home": 1.36,
-          "away": 3.2
-        },
-        {
-          "key": "ladbrokes_au",
-          "name": "Ladbrokes",
-          "home": 1.35,
-          "away": 3.3
+          "key": "pointsbetau",
+          "name": "PointsBet",
+          "home": 1.65,
+          "away": 2.15
         }
       ]
     },
@@ -63,20 +57,20 @@
       "id": "d7235a00d072f43246d3d60597406b5f",
       "homeTeam": "New Zealand Warriors",
       "awayTeam": "Newcastle Knights",
-      "commenceTime": "2026-09-19T06:05:00Z",
+      "commenceTime": "2026-09-20T06:05:00Z",
       "bookmaker": "sportsbet",
       "h2h": {
-        "home": 1.45,
-        "away": 2.76
+        "home": 1.51,
+        "away": 2.57
       },
       "line": {
         "home": {
-          "odd": 1.9,
-          "point": -6.5
+          "odd": 1.84,
+          "point": -5.5
         },
         "away": {
-          "odd": 1.9,
-          "point": 6.5
+          "odd": 1.97,
+          "point": 5.5
         }
       },
       "ou": {
@@ -88,20 +82,14 @@
         {
           "key": "sportsbet",
           "name": "Sportsbet",
-          "home": 1.45,
-          "away": 2.76
+          "home": 1.51,
+          "away": 2.57
         },
         {
           "key": "tab",
           "name": "TAB",
           "home": 1.47,
           "away": 2.7
-        },
-        {
-          "key": "betright",
-          "name": "BetRight",
-          "home": 1.45,
-          "away": 2.75
         },
         {
           "key": "ladbrokes_au",
