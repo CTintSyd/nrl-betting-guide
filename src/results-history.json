@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-09-13T13:29:58Z",
+  "updatedAt": "2026-09-14T09:44:51Z",
   "season": 2026,
-  "totalFavRecord": "109-95",
-  "totalLineRecord": "14-21",
-  "totalOuRecord": "20O-15U",
+  "totalFavRecord": "110-94",
+  "totalLineRecord": "16-21",
+  "totalOuRecord": "21O-16U",
   "rounds": [
     {
       "round": 1,
@@ -715,13 +715,13 @@
           "awayScore": 34,
           "winner": "Sydney Roosters",
           "margin": 12,
-          "favourite": "Cronulla Sutherland Sharks",
-          "favouriteWon": false,
-          "linePoint": null,
-          "lineCovered": null,
-          "ouTotal": null,
-          "ouResult": null,
-          "oddsSourced": false
+          "favourite": "Sydney Roosters",
+          "favouriteWon": true,
+          "linePoint": 6.5,
+          "lineCovered": true,
+          "ouTotal": 45.5,
+          "ouResult": "Over",
+          "oddsSourced": true
         },
         {
           "homeTeam": "Melbourne Storm",
@@ -769,9 +769,9 @@
           "oddsSourced": false
         }
       ],
-      "favRecord": "2-6",
-      "lineRecord": "1-1",
-      "ouRecord": "2O-0U"
+      "favRecord": "3-5",
+      "lineRecord": "2-1",
+      "ouRecord": "3O-0U"
     },
     {
       "round": 7,
@@ -1922,16 +1922,16 @@
           "margin": 19,
           "favourite": "Sydney Roosters",
           "favouriteWon": true,
-          "linePoint": null,
-          "lineCovered": null,
-          "ouTotal": null,
-          "ouResult": null,
-          "oddsSourced": false
+          "linePoint": -6.5,
+          "lineCovered": true,
+          "ouTotal": 45.5,
+          "ouResult": "Under",
+          "oddsSourced": true
         }
       ],
       "favRecord": "6-1",
-      "lineRecord": null,
-      "ouRecord": null
+      "lineRecord": "1-0",
+      "ouRecord": "0O-1U"
     },
     {
       "round": 17,
