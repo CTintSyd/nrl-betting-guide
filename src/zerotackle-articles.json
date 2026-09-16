@@ -1,74 +1,46 @@
 {
-  "updated": "2026-09-15T07:08:41Z",
+  "updated": "2026-09-16T07:09:07Z",
   "articles": [
     {
-      "title": "Rapid fire Tuesday, semi-finals: Crichton again, Warriors late changes likely, Lucas a chance",
-      "url": "https://www.zerotackle.com/rapid-fire-tuesday-semi-finals-crichton-again-warriors-late-changes-likely-lucas-a-chance-238128/",
-      "description": "All the changes for the NRL semi-finals.",
-      "date": "Tue, 15 Sep 2026 07:00:27 +0000",
+      "title": "NRL fans could unlock cheaper footy trips with this rewards points move",
+      "url": "https://www.zerotackle.com/nrl-fans-could-unlock-cheaper-footy-trips-with-this-rewards-points-move-236706/",
+      "description": "Rugby league fans planning Finals, Las Vegas or Magic Round trips may want to act now.",
+      "date": "Wed, 16 Sep 2026 00:04:56 +0000",
+      "teams": [],
+      "isRound": true
+    },
+    {
+      "title": "Dolphins extend premiership-winning half and academy star",
+      "url": "https://www.zerotackle.com/dolphins-extend-premiership-winning-half-and-academy-star-238143/",
+      "description": "The duo have extended on multi-year deals.",
+      "date": "Wed, 16 Sep 2026 00:00:45 +0000",
       "teams": [
-        "New Zealand Warriors"
+        "Dolphins"
       ],
       "isRound": false
     },
     {
-      "title": "Raiders hooker linked with move to Sydney NRL club",
-      "url": "https://www.zerotackle.com/raiders-hooker-linked-with-move-to-sydney-nrl-club-238125/",
-      "description": "He has played over 150 NRL games for the Raiders.",
-      "date": "Tue, 15 Sep 2026 04:42:52 +0000",
+      "title": "Addo-Carr fighting to save career, hopes not to be sacked",
+      "url": "https://www.zerotackle.com/addo-carr-fighting-to-save-career-hopes-not-to-be-sacked-238139/",
+      "description": "The Eels winger has checked into rehab.",
+      "date": "Tue, 15 Sep 2026 22:08:56 +0000",
       "teams": [
-        "Canberra Raiders"
+        "Parramatta Eels"
       ],
       "isRound": false
     },
     {
-      "title": "North Queensland Cowboys confirm TWELVE player departures",
-      "url": "https://www.zerotackle.com/north-queensland-cowboys-confirm-twelve-player-departures-238121/",
-      "description": "The list is now official.",
-      "date": "Tue, 15 Sep 2026 02:22:35 +0000",
+      "title": "2026 NRL Finals: Why Warriors, Knights and Sharks can still win premiership",
+      "url": "https://www.zerotackle.com/2026-nrl-finals-why-warriors-knights-and-sharks-can-still-win-premiership-238084/",
+      "description": "Are the Panthers, Roosters and Dolphins certain to face off in the final?",
+      "date": "Tue, 15 Sep 2026 21:51:29 +0000",
       "teams": [
-        "North Queensland Cowboys"
-      ],
-      "isRound": false
-    },
-    {
-      "title": "Rabbitohs land junior representative forward",
-      "url": "https://www.zerotackle.com/rabbitohs-land-junior-representative-forward-238119/",
-      "description": "The rising prop will make the move to Sydney to train with the NRL squad.",
-      "date": "Tue, 15 Sep 2026 02:09:07 +0000",
-      "teams": [
-        "South Sydney Rabbitohs"
-      ],
-      "isRound": false
-    },
-    {
-      "title": "Wests Tigers rising star confirms NRL future",
-      "url": "https://www.zerotackle.com/wests-tigers-rising-star-confirms-nrl-future-238120/",
-      "description": "He has been with the Tigers since 2021.",
-      "date": "Tue, 15 Sep 2026 01:59:37 +0000",
-      "teams": [
-        "Wests Tigers"
-      ],
-      "isRound": false
-    },
-    {
-      "title": "Corey Parker delivers bold Panthers verdict after Cleary injury scare",
-      "url": "https://www.zerotackle.com/corey-parker-delivers-bold-panthers-verdict-after-cleary-injury-scare-238113/",
-      "description": "Penrith must weigh the risk of playing their halfback as questions remain over his fitness.",
-      "date": "Mon, 14 Sep 2026 23:42:11 +0000",
-      "teams": [
-        "Penrith Panthers"
-      ],
-      "isRound": false
-    },
-    {
-      "title": "Knights reveal ‘secret weapon’ behind finals win over Rabbitohs",
-      "url": "https://www.zerotackle.com/knights-reveal-secret-weapon-behind-finals-win-over-rabbitohs-238055/",
-      "description": "“When he comes in, you know things are starting to get real.&#8221;",
-      "date": "Mon, 14 Sep 2026 21:49:23 +0000",
-      "teams": [
+        "Dolphins",
         "Newcastle Knights",
-        "South Sydney Rabbitohs"
+        "Penrith Panthers",
+        "Sydney Roosters",
+        "Cronulla Sutherland Sharks",
+        "New Zealand Warriors"
       ],
       "isRound": false
     }
