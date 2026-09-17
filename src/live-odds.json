@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-17T02:09:45.084Z",
-  "quotaRemaining": 239,
+  "updated": "2026-09-17T08:04:50.795Z",
+  "quotaRemaining": 236,
   "round": 27,
   "venueOverride": {
     "venue": "Suncorp Stadium",
@@ -42,8 +42,8 @@
         {
           "key": "tab",
           "name": "TAB",
-          "home": 1.42,
-          "away": 2.9
+          "home": 1.4,
+          "away": 3
         },
         {
           "key": "betright",
@@ -66,7 +66,7 @@
       "commenceTime": "2026-09-20T06:05:00Z",
       "bookmaker": "sportsbet",
       "h2h": {
-        "home": 1.52,
+        "home": 1.51,
         "away": 2.57
       },
       "line": {
@@ -88,7 +88,7 @@
         {
           "key": "sportsbet",
           "name": "Sportsbet",
-          "home": 1.52,
+          "home": 1.51,
           "away": 2.57
         },
         {
@@ -100,8 +100,8 @@
         {
           "key": "betright",
           "name": "BetRight",
-          "home": 1.52,
-          "away": 2.55
+          "home": 1.5,
+          "away": 2.6
         },
         {
           "key": "ladbrokes_au",
