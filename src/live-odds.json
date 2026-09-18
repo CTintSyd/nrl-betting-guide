@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-18T01:56:36.042Z",
-  "quotaRemaining": 224,
+  "updated": "2026-09-18T07:40:47.551Z",
+  "quotaRemaining": 221,
   "round": 27,
   "venueOverride": {
     "venue": "Suncorp Stadium",
@@ -14,16 +14,16 @@
       "commenceTime": "2026-09-19T09:50:00Z",
       "bookmaker": "sportsbet",
       "h2h": {
-        "home": 1.44,
-        "away": 2.81
+        "home": 1.43,
+        "away": 2.86
       },
       "line": {
         "home": {
-          "odd": 1.91,
+          "odd": 1.9,
           "point": -6.5
         },
         "away": {
-          "odd": 1.89,
+          "odd": 1.9,
           "point": 6.5
         }
       },
@@ -36,8 +36,8 @@
         {
           "key": "sportsbet",
           "name": "Sportsbet",
-          "home": 1.44,
-          "away": 2.81
+          "home": 1.43,
+          "away": 2.86
         },
         {
           "key": "tab",
