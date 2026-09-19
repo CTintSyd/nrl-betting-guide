@@ -1,64 +1,12 @@
 {
-  "updated": "2026-09-19T07:36:27.022Z",
-  "quotaRemaining": 203,
+  "updated": "2026-09-19T12:44:40.713Z",
+  "quotaRemaining": 200,
   "round": 27,
   "venueOverride": {
     "venue": "Suncorp Stadium",
     "until": "2026-05-18T00:00:00Z"
   },
   "games": [
-    {
-      "id": "a5b4862cd5144843a4812f46fab6dcf4",
-      "homeTeam": "Sydney Roosters",
-      "awayTeam": "Cronulla Sutherland Sharks",
-      "commenceTime": "2026-09-19T09:50:00Z",
-      "bookmaker": "sportsbet",
-      "h2h": {
-        "home": 1.43,
-        "away": 2.86
-      },
-      "line": {
-        "home": {
-          "odd": 1.9,
-          "point": -6.5
-        },
-        "away": {
-          "odd": 1.9,
-          "point": 6.5
-        }
-      },
-      "ou": {
-        "total": 44.5,
-        "overOdd": 1.89,
-        "underOdd": 1.91
-      },
-      "bookmakerComparison": [
-        {
-          "key": "sportsbet",
-          "name": "Sportsbet",
-          "home": 1.43,
-          "away": 2.86
-        },
-        {
-          "key": "tab",
-          "name": "TAB",
-          "home": 1.43,
-          "away": 2.85
-        },
-        {
-          "key": "betright",
-          "name": "BetRight",
-          "home": 1.44,
-          "away": 2.8
-        },
-        {
-          "key": "ladbrokes_au",
-          "name": "Ladbrokes",
-          "home": 1.44,
-          "away": 2.8
-        }
-      ]
-    },
     {
       "id": "d7235a00d072f43246d3d60597406b5f",
       "homeTeam": "New Zealand Warriors",
@@ -94,20 +42,72 @@
         {
           "key": "tab",
           "name": "TAB",
-          "home": 1.45,
-          "away": 2.75
+          "home": 1.47,
+          "away": 2.7
         },
         {
           "key": "betright",
           "name": "BetRight",
-          "home": 1.5,
-          "away": 2.6
+          "home": 1.47,
+          "away": 2.7
         },
         {
           "key": "ladbrokes_au",
           "name": "Ladbrokes",
-          "home": 1.44,
-          "away": 2.8
+          "home": 1.5,
+          "away": 2.6
+        }
+      ]
+    },
+    {
+      "id": "d49bb202aa8f3c2d96be024b9fd432b8",
+      "homeTeam": "Dolphins",
+      "awayTeam": "Sydney Roosters",
+      "commenceTime": "2026-09-25T09:50:00Z",
+      "bookmaker": "sportsbet",
+      "h2h": {
+        "home": 1.66,
+        "away": 2.23
+      },
+      "line": {
+        "home": {
+          "odd": 1.9,
+          "point": -3.5
+        },
+        "away": {
+          "odd": 1.9,
+          "point": 3.5
+        }
+      },
+      "ou": {
+        "total": null,
+        "overOdd": null,
+        "underOdd": null
+      },
+      "bookmakerComparison": [
+        {
+          "key": "sportsbet",
+          "name": "Sportsbet",
+          "home": 1.66,
+          "away": 2.23
+        },
+        {
+          "key": "tab",
+          "name": "TAB",
+          "home": 1.65,
+          "away": 2.25
+        },
+        {
+          "key": "ladbrokes_au",
+          "name": "Ladbrokes",
+          "home": 1.6,
+          "away": 2.3
+        },
+        {
+          "key": "pointsbetau",
+          "name": "PointsBet",
+          "home": 1.55,
+          "away": 2.4
         }
       ]
     }

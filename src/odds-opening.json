@@ -454,5 +454,29 @@
       "overOdd": 1.9,
       "underOdd": 1.89
     }
+  },
+  "d49bb202aa8f3c2d96be024b9fd432b8": {
+    "homeTeam": "Dolphins",
+    "awayTeam": "Sydney Roosters",
+    "firstSeen": "2026-09-19T12:44:40.712Z",
+    "h2h": {
+      "home": 1.66,
+      "away": 2.23
+    },
+    "line": {
+      "home": {
+        "odd": 1.9,
+        "point": -3.5
+      },
+      "away": {
+        "odd": 1.9,
+        "point": 3.5
+      }
+    },
+    "ou": {
+      "total": null,
+      "overOdd": null,
+      "underOdd": null
+    }
   }
 }
