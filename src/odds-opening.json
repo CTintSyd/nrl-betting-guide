@@ -478,5 +478,29 @@
       "overOdd": null,
       "underOdd": null
     }
+  },
+  "770d7fe9484393c7406ee73d3c8fed47": {
+    "homeTeam": "Penrith Panthers",
+    "awayTeam": "Newcastle Knights",
+    "firstSeen": "2026-09-20T13:16:09.095Z",
+    "h2h": {
+      "home": 1.28,
+      "away": 3.7
+    },
+    "line": {
+      "home": {
+        "odd": 1.95,
+        "point": -10.5
+      },
+      "away": {
+        "odd": 1.86,
+        "point": 10.5
+      }
+    },
+    "ou": {
+      "total": 42.5,
+      "overOdd": 2,
+      "underOdd": 1.81
+    }
   }
 }
