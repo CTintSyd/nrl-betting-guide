@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-09-26T13:50:42Z",
+  "updatedAt": "2026-09-27T09:42:54Z",
   "season": 2026,
-  "totalFavRecord": "113-91",
-  "totalLineRecord": "13-15",
-  "totalOuRecord": "14O-12U",
+  "totalFavRecord": "114-90",
+  "totalLineRecord": "14-16",
+  "totalOuRecord": "16O-12U",
   "rounds": [
     {
       "round": 1,
@@ -875,11 +875,11 @@
           "margin": 14,
           "favourite": "Sydney Roosters",
           "favouriteWon": true,
-          "linePoint": null,
-          "lineCovered": null,
-          "ouTotal": null,
-          "ouResult": null,
-          "oddsSourced": false
+          "linePoint": -6.5,
+          "lineCovered": true,
+          "ouTotal": 41.5,
+          "ouResult": "Over",
+          "oddsSourced": true
         },
         {
           "homeTeam": "Parramatta Eels",
@@ -898,8 +898,8 @@
         }
       ],
       "favRecord": "5-3",
-      "lineRecord": null,
-      "ouRecord": null
+      "lineRecord": "1-0",
+      "ouRecord": "1O-0U"
     },
     {
       "round": 8,
@@ -2410,13 +2410,13 @@
           "awayScore": 23,
           "winner": "Sydney Roosters",
           "margin": 1,
-          "favourite": "Newcastle Knights",
-          "favouriteWon": false,
-          "linePoint": null,
-          "lineCovered": null,
-          "ouTotal": null,
-          "ouResult": null,
-          "oddsSourced": false
+          "favourite": "Sydney Roosters",
+          "favouriteWon": true,
+          "linePoint": 6.5,
+          "lineCovered": false,
+          "ouTotal": 41.5,
+          "ouResult": "Over",
+          "oddsSourced": true
         },
         {
           "homeTeam": "South Sydney Rabbitohs",
@@ -2509,9 +2509,9 @@
           "oddsSourced": false
         }
       ],
-      "favRecord": "4-4",
-      "lineRecord": null,
-      "ouRecord": null
+      "favRecord": "5-3",
+      "lineRecord": "0-1",
+      "ouRecord": "1O-0U"
     },
     {
       "round": 22,
