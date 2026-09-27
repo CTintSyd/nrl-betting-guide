@@ -502,5 +502,29 @@
       "overOdd": 2,
       "underOdd": 1.81
     }
+  },
+  "fecb5963b88c11d6da32cd493254dc14": {
+    "homeTeam": "Sydney Roosters",
+    "awayTeam": "Newcastle Knights",
+    "firstSeen": "2026-09-27T08:39:31.077Z",
+    "h2h": {
+      "home": 1.46,
+      "away": 2.78
+    },
+    "line": {
+      "home": {
+        "odd": 1.9,
+        "point": -6.5
+      },
+      "away": {
+        "odd": 1.9,
+        "point": 6.5
+      }
+    },
+    "ou": {
+      "total": 41.5,
+      "overOdd": 1.84,
+      "underOdd": 1.97
+    }
   }
 }

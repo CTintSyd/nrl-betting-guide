@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-27T02:15:46.674Z",
-  "quotaRemaining": 83,
+  "updated": "2026-09-27T08:39:31.078Z",
+  "quotaRemaining": 80,
   "round": 27,
   "venueOverride": {
     "venue": "Suncorp Stadium",
@@ -8,54 +8,54 @@
   },
   "games": [
     {
-      "id": "770d7fe9484393c7406ee73d3c8fed47",
-      "homeTeam": "Penrith Panthers",
+      "id": "fecb5963b88c11d6da32cd493254dc14",
+      "homeTeam": "Sydney Roosters",
       "awayTeam": "Newcastle Knights",
-      "commenceTime": "2026-09-27T06:05:00Z",
+      "commenceTime": "2026-10-04T08:30:00Z",
       "bookmaker": "sportsbet",
       "h2h": {
-        "home": 1.29,
-        "away": 3.75
+        "home": 1.46,
+        "away": 2.78
       },
       "line": {
         "home": {
-          "odd": 1.83,
-          "point": -9.5
+          "odd": 1.9,
+          "point": -6.5
         },
         "away": {
-          "odd": 1.98,
-          "point": 9.5
+          "odd": 1.9,
+          "point": 6.5
         }
       },
       "ou": {
         "total": 41.5,
-        "overOdd": 1.9,
-        "underOdd": 1.9
+        "overOdd": 1.84,
+        "underOdd": 1.97
       },
       "bookmakerComparison": [
         {
           "key": "sportsbet",
           "name": "Sportsbet",
-          "home": 1.29,
-          "away": 3.75
+          "home": 1.46,
+          "away": 2.78
         },
         {
           "key": "tab",
           "name": "TAB",
-          "home": 1.29,
-          "away": 3.6
-        },
-        {
-          "key": "betright",
-          "name": "BetRight",
-          "home": 1.31,
-          "away": 3.5
+          "home": 1.44,
+          "away": 2.85
         },
         {
           "key": "ladbrokes_au",
           "name": "Ladbrokes",
-          "home": 1.28,
-          "away": 3.8
+          "home": 1.45,
+          "away": 2.75
+        },
+        {
+          "key": "pointsbetau",
+          "name": "PointsBet",
+          "home": 1.45,
+          "away": 2.75
         }
       ]
     }
