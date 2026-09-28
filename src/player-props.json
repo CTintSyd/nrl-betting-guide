@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-26T23:59:58.863Z",
+  "updated": "2026-09-28T19:06:42.538Z",
   "quotaRemaining": null,
   "games": {
-    "Penrith Panthers vs Newcastle Knights": {
-      "homeTeam": "Penrith Panthers",
+    "Sydney Roosters vs Newcastle Knights": {
+      "homeTeam": "Sydney Roosters",
       "awayTeam": "Newcastle Knights",
       "available": false,
       "error": "API 422: {\"message\":\"Invalid markets: player_anytime_try_scorer, player_first_try_scorer\",\"error_code\":\"INVALID_MARKET\",\"details_url\":\"https://the-odds-api.com/liveapi/guides/v4/api-error-codes.html#invalid-market\"}\n"
