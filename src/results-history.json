@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-09-30T07:54:03Z",
+  "updatedAt": "2026-10-01T08:43:07Z",
   "season": 2026,
-  "totalFavRecord": "114-90",
-  "totalLineRecord": "14-16",
-  "totalOuRecord": "16O-12U",
+  "totalFavRecord": "115-89",
+  "totalLineRecord": "9-7",
+  "totalOuRecord": "10O-4U",
   "rounds": [
     {
       "round": 1,
@@ -173,13 +173,13 @@
           "awayScore": 18,
           "winner": "Sydney Roosters",
           "margin": 8,
-          "favourite": "South Sydney Rabbitohs",
-          "favouriteWon": false,
-          "linePoint": 4.5,
-          "lineCovered": false,
-          "ouTotal": 48.5,
-          "ouResult": "Under",
-          "oddsSourced": true
+          "favourite": "Sydney Roosters",
+          "favouriteWon": true,
+          "linePoint": null,
+          "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
+          "oddsSourced": false
         },
         {
           "homeTeam": "Wests Tigers",
@@ -250,16 +250,16 @@
           "margin": 4,
           "favourite": "Dolphins",
           "favouriteWon": true,
-          "linePoint": -5.5,
-          "lineCovered": false,
-          "ouTotal": 56.5,
-          "ouResult": "Under",
-          "oddsSourced": true
+          "linePoint": null,
+          "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
+          "oddsSourced": false
         }
       ],
-      "favRecord": "4-4",
-      "lineRecord": "0-2",
-      "ouRecord": "0O-2U"
+      "favRecord": "5-3",
+      "lineRecord": null,
+      "ouRecord": null
     },
     {
       "round": 3,
@@ -363,11 +363,11 @@
           "margin": 10,
           "favourite": "Parramatta Eels",
           "favouriteWon": true,
-          "linePoint": -3.5,
-          "lineCovered": true,
-          "ouTotal": 55.5,
-          "ouResult": "Under",
-          "oddsSourced": true
+          "linePoint": null,
+          "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
+          "oddsSourced": false
         },
         {
           "homeTeam": "North Queensland Cowboys",
@@ -386,8 +386,8 @@
         }
       ],
       "favRecord": "5-3",
-      "lineRecord": "3-0",
-      "ouRecord": "1O-2U"
+      "lineRecord": "2-0",
+      "ouRecord": "1O-1U"
     },
     {
       "round": 4,
@@ -941,13 +941,13 @@
           "awayScore": 12,
           "winner": "Brisbane Broncos",
           "margin": 20,
-          "favourite": "Canterbury Bulldogs",
-          "favouriteWon": false,
-          "linePoint": 10.5,
-          "lineCovered": false,
-          "ouTotal": 50.5,
-          "ouResult": "Under",
-          "oddsSourced": true
+          "favourite": "Brisbane Broncos",
+          "favouriteWon": true,
+          "linePoint": null,
+          "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
+          "oddsSourced": false
         },
         {
           "homeTeam": "St George Illawarra Dragons",
@@ -1025,9 +1025,9 @@
           "oddsSourced": false
         }
       ],
-      "favRecord": "4-4",
-      "lineRecord": "1-3",
-      "ouRecord": "2O-2U"
+      "favRecord": "5-3",
+      "lineRecord": "1-2",
+      "ouRecord": "2O-1U"
     },
     {
       "round": 9,
@@ -1581,13 +1581,13 @@
           "awayScore": 12,
           "winner": "Canberra Raiders",
           "margin": 14,
-          "favourite": "North Queensland Cowboys",
-          "favouriteWon": false,
-          "linePoint": 4.5,
-          "lineCovered": false,
-          "ouTotal": 55.5,
-          "ouResult": "Under",
-          "oddsSourced": true
+          "favourite": "Canberra Raiders",
+          "favouriteWon": true,
+          "linePoint": null,
+          "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
+          "oddsSourced": false
         },
         {
           "homeTeam": "Penrith Panthers",
@@ -1605,9 +1605,9 @@
           "oddsSourced": false
         }
       ],
-      "favRecord": "5-2",
-      "lineRecord": "0-1",
-      "ouRecord": "0O-1U"
+      "favRecord": "6-1",
+      "lineRecord": null,
+      "ouRecord": null
     },
     {
       "round": 14,
@@ -1694,13 +1694,13 @@
           "awayScore": 68,
           "winner": "Penrith Panthers",
           "margin": 68,
-          "favourite": "Penrith Panthers",
-          "favouriteWon": true,
-          "linePoint": 5.5,
-          "lineCovered": true,
-          "ouTotal": 47.5,
-          "ouResult": "Over",
-          "oddsSourced": true
+          "favourite": "Wests Tigers",
+          "favouriteWon": false,
+          "linePoint": null,
+          "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
+          "oddsSourced": false
         },
         {
           "homeTeam": "Cronulla Sutherland Sharks",
@@ -1733,9 +1733,9 @@
           "oddsSourced": false
         }
       ],
-      "favRecord": "5-3",
-      "lineRecord": "1-0",
-      "ouRecord": "1O-0U"
+      "favRecord": "4-4",
+      "lineRecord": null,
+      "ouRecord": null
     },
     {
       "round": 15,
@@ -3165,11 +3165,11 @@
           "margin": 14,
           "favourite": "Canterbury Bulldogs",
           "favouriteWon": false,
-          "linePoint": -10.5,
-          "lineCovered": false,
-          "ouTotal": 50.5,
-          "ouResult": "Over",
-          "oddsSourced": true
+          "linePoint": null,
+          "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
+          "oddsSourced": false
         },
         {
           "homeTeam": "Gold Coast Titans",
@@ -3178,13 +3178,13 @@
           "awayScore": 24,
           "winner": "Dolphins",
           "margin": 4,
-          "favourite": "Dolphins",
-          "favouriteWon": true,
-          "linePoint": 5.5,
-          "lineCovered": false,
-          "ouTotal": 56.5,
-          "ouResult": "Under",
-          "oddsSourced": true
+          "favourite": "Gold Coast Titans",
+          "favouriteWon": false,
+          "linePoint": null,
+          "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
+          "oddsSourced": false
         },
         {
           "homeTeam": "South Sydney Rabbitohs",
@@ -3195,11 +3195,11 @@
           "margin": 30,
           "favourite": "South Sydney Rabbitohs",
           "favouriteWon": true,
-          "linePoint": -4.5,
-          "lineCovered": true,
-          "ouTotal": 48.5,
-          "ouResult": "Over",
-          "oddsSourced": true
+          "linePoint": null,
+          "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
+          "oddsSourced": false
         },
         {
           "homeTeam": "New Zealand Warriors",
@@ -3210,11 +3210,11 @@
           "margin": 1,
           "favourite": "New Zealand Warriors",
           "favouriteWon": true,
-          "linePoint": -4.5,
-          "lineCovered": false,
-          "ouTotal": 48.5,
-          "ouResult": "Over",
-          "oddsSourced": true
+          "linePoint": null,
+          "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
+          "oddsSourced": false
         },
         {
           "homeTeam": "North Queensland Cowboys",
@@ -3225,11 +3225,11 @@
           "margin": 20,
           "favourite": "North Queensland Cowboys",
           "favouriteWon": false,
-          "linePoint": -4.5,
-          "lineCovered": false,
-          "ouTotal": 55.5,
-          "ouResult": "Over",
-          "oddsSourced": true
+          "linePoint": null,
+          "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
+          "oddsSourced": false
         },
         {
           "homeTeam": "Cronulla Sutherland Sharks",
@@ -3238,13 +3238,13 @@
           "awayScore": 24,
           "winner": "Melbourne Storm",
           "margin": 4,
-          "favourite": "Melbourne Storm",
-          "favouriteWon": true,
-          "linePoint": 1.5,
-          "lineCovered": true,
-          "ouTotal": 51.5,
-          "ouResult": "Under",
-          "oddsSourced": true
+          "favourite": "Cronulla Sutherland Sharks",
+          "favouriteWon": false,
+          "linePoint": null,
+          "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
+          "oddsSourced": false
         },
         {
           "homeTeam": "St George Illawarra Dragons",
@@ -3253,13 +3253,13 @@
           "awayScore": 22,
           "winner": "St George Illawarra Dragons",
           "margin": 2,
-          "favourite": "Parramatta Eels",
-          "favouriteWon": false,
-          "linePoint": 3.5,
-          "lineCovered": false,
-          "ouTotal": 55.5,
-          "ouResult": "Under",
-          "oddsSourced": true
+          "favourite": "St George Illawarra Dragons",
+          "favouriteWon": true,
+          "linePoint": null,
+          "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
+          "oddsSourced": false
         },
         {
           "homeTeam": "Penrith Panthers",
@@ -3270,16 +3270,16 @@
           "margin": 28,
           "favourite": "Penrith Panthers",
           "favouriteWon": true,
-          "linePoint": -5.5,
-          "lineCovered": true,
-          "ouTotal": 47.5,
-          "ouResult": "Over",
-          "oddsSourced": true
+          "linePoint": null,
+          "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
+          "oddsSourced": false
         }
       ],
-      "favRecord": "5-3",
-      "lineRecord": "3-5",
-      "ouRecord": "5O-3U"
+      "favRecord": "4-4",
+      "lineRecord": null,
+      "ouRecord": null
     }
   ]
 }
