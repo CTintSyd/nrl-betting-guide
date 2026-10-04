@@ -1,63 +1,10 @@
 {
-  "updated": "2026-10-04T03:12:19.179Z",
+  "updated": "2026-10-04T11:26:57.768Z",
   "quotaRemaining": 458,
   "round": 27,
   "venueOverride": {
     "venue": "Suncorp Stadium",
     "until": "2026-05-18T00:00:00Z"
   },
-  "games": [
-    {
-      "id": "fecb5963b88c11d6da32cd493254dc14",
-      "homeTeam": "Sydney Roosters",
-      "awayTeam": "Newcastle Knights",
-      "commenceTime": "2026-10-04T08:30:00Z",
-      "bookmaker": "sportsbet",
-      "h2h": {
-        "home": 1.43,
-        "away": 2.9
-      },
-      "line": {
-        "home": {
-          "odd": 1.98,
-          "point": -8.5
-        },
-        "away": {
-          "odd": 1.83,
-          "point": 8.5
-        }
-      },
-      "ou": {
-        "total": 42.5,
-        "overOdd": 1.91,
-        "underOdd": 1.89
-      },
-      "bookmakerComparison": [
-        {
-          "key": "sportsbet",
-          "name": "Sportsbet",
-          "home": 1.43,
-          "away": 2.9
-        },
-        {
-          "key": "tab",
-          "name": "TAB",
-          "home": 1.42,
-          "away": 3
-        },
-        {
-          "key": "betright",
-          "name": "BetRight",
-          "home": 1.45,
-          "away": 2.8
-        },
-        {
-          "key": "ladbrokes_au",
-          "name": "Ladbrokes",
-          "home": 1.44,
-          "away": 2.85
-        }
-      ]
-    }
-  ]
+  "games": []
 }
