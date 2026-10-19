@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-10-19T09:46:46Z",
+  "updatedAt": "2026-10-19T16:53:36Z",
   "season": 2026,
-  "totalFavRecord": "115-89",
-  "totalLineRecord": "4-1",
+  "totalFavRecord": "114-90",
+  "totalLineRecord": "2-1",
   "totalOuRecord": "3O-0U",
   "rounds": [
     {
@@ -1764,11 +1764,11 @@
           "margin": 38,
           "favourite": "Dolphins",
           "favouriteWon": true,
-          "linePoint": -3.5,
-          "lineCovered": true,
+          "linePoint": null,
+          "lineCovered": null,
           "ouTotal": null,
           "ouResult": null,
-          "oddsSourced": true
+          "oddsSourced": false
         },
         {
           "homeTeam": "New Zealand Warriors",
@@ -1817,7 +1817,7 @@
         }
       ],
       "favRecord": "4-1",
-      "lineRecord": "1-0",
+      "lineRecord": null,
       "ouRecord": null
     },
     {
@@ -3095,13 +3095,13 @@
           "awayScore": 26,
           "winner": "Dolphins",
           "margin": 14,
-          "favourite": "Dolphins",
-          "favouriteWon": true,
-          "linePoint": 3.5,
-          "lineCovered": true,
+          "favourite": "Sydney Roosters",
+          "favouriteWon": false,
+          "linePoint": null,
+          "lineCovered": null,
           "ouTotal": null,
           "ouResult": null,
-          "oddsSourced": true
+          "oddsSourced": false
         },
         {
           "homeTeam": "North Queensland Cowboys",
@@ -3149,8 +3149,8 @@
           "oddsSourced": false
         }
       ],
-      "favRecord": "6-2",
-      "lineRecord": "1-0",
+      "favRecord": "5-3",
+      "lineRecord": null,
       "ouRecord": null
     },
     {
