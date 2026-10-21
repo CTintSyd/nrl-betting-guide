@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-20T07:05:45Z",
+  "updatedAt": "2026-10-21T06:59:17Z",
   "season": 2026,
-  "totalFavRecord": "114-90",
-  "totalLineRecord": "2-1",
-  "totalOuRecord": "3O-0U",
+  "totalFavRecord": "113-91",
+  "totalLineRecord": "1-1",
+  "totalOuRecord": "2O-0U",
   "rounds": [
     {
       "round": 1,
@@ -1001,13 +1001,13 @@
           "awayScore": 44,
           "winner": "Penrith Panthers",
           "margin": 32,
-          "favourite": "Penrith Panthers",
-          "favouriteWon": true,
-          "linePoint": 10.5,
-          "lineCovered": true,
-          "ouTotal": 42.5,
-          "ouResult": "Over",
-          "oddsSourced": true
+          "favourite": "Newcastle Knights",
+          "favouriteWon": false,
+          "linePoint": null,
+          "lineCovered": null,
+          "ouTotal": null,
+          "ouResult": null,
+          "oddsSourced": false
         },
         {
           "homeTeam": "Manly Warringah Sea Eagles",
@@ -1025,9 +1025,9 @@
           "oddsSourced": false
         }
       ],
-      "favRecord": "6-2",
-      "lineRecord": "1-0",
-      "ouRecord": "1O-0U"
+      "favRecord": "5-3",
+      "lineRecord": null,
+      "ouRecord": null
     },
     {
       "round": 9,
