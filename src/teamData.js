@@ -138,11 +138,11 @@ const NRL_TEAM_DATA = {
   'Parramatta Eels': {
     emoji: '🐟', shortName: 'Eels', venue: 'CommBank Stadium', wikiPage: 'Parramatta_Eels', logoFile: 'parramatta-eels.svg',
     players: [
-      { name: "Josh Addo-Carr",                    pos: "wing",           tryRate: 0.3182 },
-      { name: "Isaiah Iongi",                      pos: "fullback",       tryRate: 0.4167 },
+      { name: "Josh Addo-Carr",                    pos: "wing",           tryRate: 0.3478 },
+      { name: "Isaiah Iongi",                      pos: "fullback",       tryRate: 0.3846 },
       { name: "Ronald Volkman",                    pos: "five-eighth",    tryRate: 0.4211 },
-      { name: "Tallyn Da Silva",                   pos: "hooker",         tryRate: 0.4348 },
-      { name: "Jordan Samrani",                    pos: "centre",         tryRate: 0.5333 },
+      { name: "Tallyn Da Silva",                   pos: "hooker",         tryRate: 0.5 },
+      { name: "Jordan Samrani",                    pos: "centre",         tryRate: 0.5 },
       { name: "Brian Kelly",                       pos: "wing",           tryRate: 0.2273 },
     ],
   },
@@ -175,11 +175,11 @@ const NRL_TEAM_DATA = {
     emoji: '🐉', shortName: 'Dragons', venue: 'Netstrata Jubilee Oval', wikiPage: 'St._George_Illawarra_Dragons', logoFile: 'st-george-illawarra.svg',
     players: [
       { name: "Tyrell Sloan",                      pos: "wing",           tryRate: 0.6 },
-      { name: "Clinton Gutherson",                 pos: "fullback",       tryRate: 0.1875 },
-      { name: "Kyle Flanagan",                     pos: "halfback",       tryRate: 0.0455 },
-      { name: "Valentine Holmes",                  pos: "centre",         tryRate: 0.4348 },
-      { name: "Hamish Stewart",                    pos: "lock",           tryRate: 0.2174 },
-      { name: "Mathew Feagai",                     pos: "wing",           tryRate: 0.2778 },
+      { name: "Clinton Gutherson",                 pos: "fullback",       tryRate: 0.1765 },
+      { name: "Kyle Flanagan",                     pos: "halfback",       tryRate: 0.0435 },
+      { name: "Valentine Holmes",                  pos: "centre",         tryRate: 0.4167 },
+      { name: "Hamish Stewart",                    pos: "lock",           tryRate: 0.2083 },
+      { name: "Mathew Feagai",                     pos: "wing",           tryRate: 0.2632 },
     ],
   },
 
