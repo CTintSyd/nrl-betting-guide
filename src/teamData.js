@@ -78,12 +78,12 @@ const NRL_TEAM_DATA = {
   'Manly Warringah Sea Eagles': {
     emoji: '🦅', shortName: 'Sea Eagles', venue: '4 Pines Park', wikiPage: 'Manly-Warringah_Sea_Eagles', logoFile: 'manly-sea-eagles.png',
     players: [
-      { name: "Lehi Hopoate",                      pos: "wing",           tryRate: 0.8261 },
+      { name: "Lehi Hopoate",                      pos: "wing",           tryRate: 0.8182 },
       { name: "Tom Trbojevic",                     pos: "fullback",       tryRate: 0.5714 },
-      { name: "Clayton Faulalo",                   pos: "five-eighth",    tryRate: 0.5 },
-      { name: "Jason Saab",                        pos: "wing",           tryRate: 0.6522 },
-      { name: "Reuben Garrick",                    pos: "centre",         tryRate: 0.4783 },
-      { name: "Haumole Olakau'atu",                pos: "lock",           tryRate: 0.4286 },
+      { name: "Clayton Faulalo",                   pos: "five-eighth",    tryRate: 0.4667 },
+      { name: "Jason Saab",                        pos: "wing",           tryRate: 0.6818 },
+      { name: "Reuben Garrick",                    pos: "centre",         tryRate: 0.5 },
+      { name: "Haumole Olakau'atu",                pos: "lock",           tryRate: 0.45 },
     ],
   },
 
@@ -150,11 +150,11 @@ const NRL_TEAM_DATA = {
   'Penrith Panthers': {
     emoji: '🐾', shortName: 'Panthers', venue: 'BlueBet Stadium', wikiPage: 'Penrith_Panthers', logoFile: 'penrith-panthers.png',
     players: [
-      { name: "Thomas Jenkins",                    pos: "wing",           tryRate: 1.25 },
-      { name: "Dylan Edwards",                     pos: "fullback",       tryRate: 0.5238 },
-      { name: "Nathan Cleary",                     pos: "halfback",       tryRate: 0.2857 },
-      { name: "Brian To'o",                        pos: "wing",           tryRate: 0.6818 },
-      { name: "Casey McLean",                      pos: "centre",         tryRate: 0.6111 },
+      { name: "Thomas Jenkins",                    pos: "wing",           tryRate: 1.3043 },
+      { name: "Dylan Edwards",                     pos: "fullback",       tryRate: 0.55 },
+      { name: "Nathan Cleary",                     pos: "halfback",       tryRate: 0.3 },
+      { name: "Brian To'o",                        pos: "wing",           tryRate: 0.6667 },
+      { name: "Casey McLean",                      pos: "centre",         tryRate: 0.6471 },
       { name: "Liam Martin",                       pos: "lock",           tryRate: 0.4375 },
     ],
   },
