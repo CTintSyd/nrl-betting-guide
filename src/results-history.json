@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-11-14T17:17:03Z",
+  "updatedAt": "2026-11-15T11:42:28Z",
   "season": 2026,
   "totalFavRecord": "112-92",
-  "totalLineRecord": null,
+  "totalLineRecord": "1-1",
   "totalOuRecord": null,
   "rounds": [
     {
@@ -747,11 +747,11 @@
           "margin": 42,
           "favourite": "Parramatta Eels",
           "favouriteWon": false,
-          "linePoint": null,
-          "lineCovered": null,
+          "linePoint": -3.5,
+          "lineCovered": false,
           "ouTotal": null,
           "ouResult": null,
-          "oddsSourced": false
+          "oddsSourced": true
         },
         {
           "homeTeam": "Wests Tigers",
@@ -770,7 +770,7 @@
         }
       ],
       "favRecord": "2-6",
-      "lineRecord": null,
+      "lineRecord": "0-1",
       "ouRecord": null
     },
     {
@@ -1259,11 +1259,11 @@
           "margin": 28,
           "favourite": "Melbourne Storm",
           "favouriteWon": true,
-          "linePoint": null,
-          "lineCovered": null,
+          "linePoint": -8.5,
+          "lineCovered": true,
           "ouTotal": null,
           "ouResult": null,
-          "oddsSourced": false
+          "oddsSourced": true
         },
         {
           "homeTeam": "Canberra Raiders",
@@ -1282,7 +1282,7 @@
         }
       ],
       "favRecord": "5-3",
-      "lineRecord": null,
+      "lineRecord": "1-0",
       "ouRecord": null
     },
     {
