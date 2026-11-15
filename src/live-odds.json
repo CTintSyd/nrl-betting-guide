@@ -1,10 +1,79 @@
 {
-  "updated": "2026-11-15T00:29:07.190Z",
-  "quotaRemaining": 500,
+  "updated": "2026-11-15T10:03:54.900Z",
+  "quotaRemaining": 497,
   "round": 27,
   "venueOverride": {
     "venue": "Suncorp Stadium",
     "until": "2026-05-18T00:00:00Z"
   },
-  "games": []
+  "games": [
+    {
+      "id": "f6a7f12a4dd65f00ba2f045d01694cd1",
+      "homeTeam": "Parramatta Eels",
+      "awayTeam": "Gold Coast Titans",
+      "commenceTime": "2027-02-28T02:30:00Z",
+      "bookmaker": "sportsbet",
+      "h2h": {
+        "home": 1.63,
+        "away": 2.28
+      },
+      "line": {
+        "home": {
+          "odd": 1.9,
+          "point": -3.5
+        },
+        "away": {
+          "odd": 1.9,
+          "point": 3.5
+        }
+      },
+      "ou": {
+        "total": null,
+        "overOdd": null,
+        "underOdd": null
+      },
+      "bookmakerComparison": [
+        {
+          "key": "sportsbet",
+          "name": "Sportsbet",
+          "home": 1.63,
+          "away": 2.28
+        }
+      ]
+    },
+    {
+      "id": "68c9cacfcfca3559d1c5ebff4e611910",
+      "homeTeam": "Melbourne Storm",
+      "awayTeam": "Wests Tigers",
+      "commenceTime": "2027-02-28T04:30:00Z",
+      "bookmaker": "sportsbet",
+      "h2h": {
+        "home": 1.34,
+        "away": 3.27
+      },
+      "line": {
+        "home": {
+          "odd": 1.9,
+          "point": -8.5
+        },
+        "away": {
+          "odd": 1.9,
+          "point": 8.5
+        }
+      },
+      "ou": {
+        "total": null,
+        "overOdd": null,
+        "underOdd": null
+      },
+      "bookmakerComparison": [
+        {
+          "key": "sportsbet",
+          "name": "Sportsbet",
+          "home": 1.34,
+          "away": 3.27
+        }
+      ]
+    }
+  ]
 }
