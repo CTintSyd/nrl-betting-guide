@@ -1,4 +1,18 @@
 {
-  "updated": "2026-11-15T01:25:02.696Z",
-  "games": {}
+  "updated": "2026-11-16T21:30:56.624Z",
+  "quotaRemaining": null,
+  "games": {
+    "Parramatta Eels vs Gold Coast Titans": {
+      "homeTeam": "Parramatta Eels",
+      "awayTeam": "Gold Coast Titans",
+      "available": false,
+      "error": "API 422: {\"message\":\"Invalid markets: player_anytime_try_scorer, player_first_try_scorer\",\"error_code\":\"INVALID_MARKET\",\"details_url\":\"https://the-odds-api.com/liveapi/guides/v4/api-error-codes.html#invalid-market\"}\n"
+    },
+    "Melbourne Storm vs Wests Tigers": {
+      "homeTeam": "Melbourne Storm",
+      "awayTeam": "Wests Tigers",
+      "available": false,
+      "error": "API 422: {\"message\":\"Invalid markets: player_anytime_try_scorer, player_first_try_scorer\",\"error_code\":\"INVALID_MARKET\",\"details_url\":\"https://the-odds-api.com/liveapi/guides/v4/api-error-codes.html#invalid-market\"}\n"
+    }
+  }
 }
