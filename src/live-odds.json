@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-18T00:07:54.515Z",
-  "quotaRemaining": 476,
+  "updated": "2026-11-18T10:49:50.934Z",
+  "quotaRemaining": 473,
   "round": 27,
   "venueOverride": {
     "venue": "Suncorp Stadium",
@@ -44,6 +44,12 @@
           "name": "TAB",
           "home": 1.65,
           "away": 2.25
+        },
+        {
+          "key": "ladbrokes_au",
+          "name": "Ladbrokes",
+          "home": 1.6,
+          "away": 2.35
         }
       ]
     },
@@ -84,6 +90,12 @@
           "name": "TAB",
           "home": 1.42,
           "away": 2.9
+        },
+        {
+          "key": "ladbrokes_au",
+          "name": "Ladbrokes",
+          "home": 1.36,
+          "away": 3.1
         }
       ]
     },
@@ -118,6 +130,12 @@
           "name": "Sportsbet",
           "home": 1.48,
           "away": 2.66
+        },
+        {
+          "key": "ladbrokes_au",
+          "name": "Ladbrokes",
+          "home": 1.5,
+          "away": 2.6
         }
       ]
     },
@@ -152,6 +170,12 @@
           "name": "Sportsbet",
           "home": 1.44,
           "away": 2.8
+        },
+        {
+          "key": "ladbrokes_au",
+          "name": "Ladbrokes",
+          "home": 1.45,
+          "away": 2.75
         }
       ]
     },
@@ -186,6 +210,12 @@
           "name": "Sportsbet",
           "home": 1.8,
           "away": 2.05
+        },
+        {
+          "key": "ladbrokes_au",
+          "name": "Ladbrokes",
+          "home": 1.8,
+          "away": 2
         }
       ]
     },
@@ -220,6 +250,12 @@
           "name": "Sportsbet",
           "home": 1.52,
           "away": 2.53
+        },
+        {
+          "key": "ladbrokes_au",
+          "name": "Ladbrokes",
+          "home": 1.55,
+          "away": 2.45
         }
       ]
     },
@@ -254,6 +290,52 @@
           "name": "Sportsbet",
           "home": 1.86,
           "away": 1.98
+        },
+        {
+          "key": "ladbrokes_au",
+          "name": "Ladbrokes",
+          "home": 1.85,
+          "away": 1.95
+        }
+      ]
+    },
+    {
+      "id": "d8a0446ea7b80f631c75c9da1d643f35",
+      "homeTeam": "Perth Bears",
+      "awayTeam": "Manly Warringah Sea Eagles",
+      "commenceTime": "2027-03-07T05:05:00Z",
+      "bookmaker": "sportsbet",
+      "h2h": {
+        "home": 2.3,
+        "away": 1.63
+      },
+      "line": {
+        "home": {
+          "odd": 1.91,
+          "point": 3.5
+        },
+        "away": {
+          "odd": 1.89,
+          "point": -3.5
+        }
+      },
+      "ou": {
+        "total": null,
+        "overOdd": null,
+        "underOdd": null
+      },
+      "bookmakerComparison": [
+        {
+          "key": "sportsbet",
+          "name": "Sportsbet",
+          "home": 2.3,
+          "away": 1.63
+        },
+        {
+          "key": "ladbrokes_au",
+          "name": "Ladbrokes",
+          "home": 2.25,
+          "away": 1.65
         }
       ]
     },
@@ -288,6 +370,12 @@
           "name": "Sportsbet",
           "home": 1.92,
           "away": 1.92
+        },
+        {
+          "key": "ladbrokes_au",
+          "name": "Ladbrokes",
+          "home": 1.9,
+          "away": 1.9
         }
       ]
     }
