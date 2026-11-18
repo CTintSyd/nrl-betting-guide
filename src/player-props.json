@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17T20:21:04.964Z",
+  "updated": "2026-11-18T19:51:08.131Z",
   "quotaRemaining": null,
   "games": {
     "Parramatta Eels vs Gold Coast Titans": {
@@ -11,6 +11,48 @@
     "Melbourne Storm vs Wests Tigers": {
       "homeTeam": "Melbourne Storm",
       "awayTeam": "Wests Tigers",
+      "available": false,
+      "error": "API 422: {\"message\":\"Invalid markets: player_anytime_try_scorer, player_first_try_scorer\",\"error_code\":\"INVALID_MARKET\",\"details_url\":\"https://the-odds-api.com/liveapi/guides/v4/api-error-codes.html#invalid-market\"}\n"
+    },
+    "Sydney Roosters vs Brisbane Broncos": {
+      "homeTeam": "Sydney Roosters",
+      "awayTeam": "Brisbane Broncos",
+      "available": false,
+      "error": "API 422: {\"message\":\"Invalid markets: player_anytime_try_scorer, player_first_try_scorer\",\"error_code\":\"INVALID_MARKET\",\"details_url\":\"https://the-odds-api.com/liveapi/guides/v4/api-error-codes.html#invalid-market\"}\n"
+    },
+    "New Zealand Warriors vs Canterbury Bulldogs": {
+      "homeTeam": "New Zealand Warriors",
+      "awayTeam": "Canterbury Bulldogs",
+      "available": false,
+      "error": "API 422: {\"message\":\"Invalid markets: player_anytime_try_scorer, player_first_try_scorer\",\"error_code\":\"INVALID_MARKET\",\"details_url\":\"https://the-odds-api.com/liveapi/guides/v4/api-error-codes.html#invalid-market\"}\n"
+    },
+    "St George Illawarra Dragons vs North Queensland Cowboys": {
+      "homeTeam": "St George Illawarra Dragons",
+      "awayTeam": "North Queensland Cowboys",
+      "available": false,
+      "error": "API 422: {\"message\":\"Invalid markets: player_anytime_try_scorer, player_first_try_scorer\",\"error_code\":\"INVALID_MARKET\",\"details_url\":\"https://the-odds-api.com/liveapi/guides/v4/api-error-codes.html#invalid-market\"}\n"
+    },
+    "Dolphins vs Cronulla Sutherland Sharks": {
+      "homeTeam": "Dolphins",
+      "awayTeam": "Cronulla Sutherland Sharks",
+      "available": false,
+      "error": "API 422: {\"message\":\"Invalid markets: player_anytime_try_scorer, player_first_try_scorer\",\"error_code\":\"INVALID_MARKET\",\"details_url\":\"https://the-odds-api.com/liveapi/guides/v4/api-error-codes.html#invalid-market\"}\n"
+    },
+    "Newcastle Knights vs Penrith Panthers": {
+      "homeTeam": "Newcastle Knights",
+      "awayTeam": "Penrith Panthers",
+      "available": false,
+      "error": "API 422: {\"message\":\"Invalid markets: player_anytime_try_scorer, player_first_try_scorer\",\"error_code\":\"INVALID_MARKET\",\"details_url\":\"https://the-odds-api.com/liveapi/guides/v4/api-error-codes.html#invalid-market\"}\n"
+    },
+    "Perth Bears vs Manly Warringah Sea Eagles": {
+      "homeTeam": "Perth Bears",
+      "awayTeam": "Manly Warringah Sea Eagles",
+      "available": false,
+      "error": "API 422: {\"message\":\"Invalid markets: player_anytime_try_scorer, player_first_try_scorer\",\"error_code\":\"INVALID_MARKET\",\"details_url\":\"https://the-odds-api.com/liveapi/guides/v4/api-error-codes.html#invalid-market\"}\n"
+    },
+    "Canberra Raiders vs South Sydney Rabbitohs": {
+      "homeTeam": "Canberra Raiders",
+      "awayTeam": "South Sydney Rabbitohs",
       "available": false,
       "error": "API 422: {\"message\":\"Invalid markets: player_anytime_try_scorer, player_first_try_scorer\",\"error_code\":\"INVALID_MARKET\",\"details_url\":\"https://the-odds-api.com/liveapi/guides/v4/api-error-codes.html#invalid-market\"}\n"
     }
