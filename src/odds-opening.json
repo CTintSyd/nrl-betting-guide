@@ -46,5 +46,149 @@
       "overOdd": null,
       "underOdd": null
     }
+  },
+  "ba4270aed9d29766f1452471c2929993": {
+    "homeTeam": "Sydney Roosters",
+    "awayTeam": "Brisbane Broncos",
+    "firstSeen": "2026-11-18T00:07:54.478Z",
+    "h2h": {
+      "home": 1.48,
+      "away": 2.66
+    },
+    "line": {
+      "home": {
+        "odd": 1.97,
+        "point": -6.5
+      },
+      "away": {
+        "odd": 1.84,
+        "point": 6.5
+      }
+    },
+    "ou": {
+      "total": null,
+      "overOdd": null,
+      "underOdd": null
+    }
+  },
+  "0815c9d9b45514f13d9aa16028d66b73": {
+    "homeTeam": "New Zealand Warriors",
+    "awayTeam": "Canterbury Bulldogs",
+    "firstSeen": "2026-11-18T00:07:54.479Z",
+    "h2h": {
+      "home": 1.44,
+      "away": 2.8
+    },
+    "line": {
+      "home": {
+        "odd": 1.9,
+        "point": -6.5
+      },
+      "away": {
+        "odd": 1.9,
+        "point": 6.5
+      }
+    },
+    "ou": {
+      "total": null,
+      "overOdd": null,
+      "underOdd": null
+    }
+  },
+  "39b3c775b6cead165b7c0e659696357f": {
+    "homeTeam": "St George Illawarra Dragons",
+    "awayTeam": "North Queensland Cowboys",
+    "firstSeen": "2026-11-18T00:07:54.479Z",
+    "h2h": {
+      "home": 1.8,
+      "away": 2.05
+    },
+    "line": {
+      "home": {
+        "odd": 1.9,
+        "point": -1.5
+      },
+      "away": {
+        "odd": 1.9,
+        "point": 1.5
+      }
+    },
+    "ou": {
+      "total": null,
+      "overOdd": null,
+      "underOdd": null
+    }
+  },
+  "b3832744e33550beff2ee8aa7927f031": {
+    "homeTeam": "Dolphins",
+    "awayTeam": "Cronulla Sutherland Sharks",
+    "firstSeen": "2026-11-18T00:07:54.479Z",
+    "h2h": {
+      "home": 1.52,
+      "away": 2.53
+    },
+    "line": {
+      "home": {
+        "odd": 1.9,
+        "point": -4.5
+      },
+      "away": {
+        "odd": 1.9,
+        "point": 4.5
+      }
+    },
+    "ou": {
+      "total": null,
+      "overOdd": null,
+      "underOdd": null
+    }
+  },
+  "6cf1cf7fcb1acaa685e825c8747c700e": {
+    "homeTeam": "Newcastle Knights",
+    "awayTeam": "Penrith Panthers",
+    "firstSeen": "2026-11-18T00:07:54.479Z",
+    "h2h": {
+      "home": 1.86,
+      "away": 1.98
+    },
+    "line": {
+      "home": {
+        "odd": 1.96,
+        "point": -1.5
+      },
+      "away": {
+        "odd": 1.85,
+        "point": 1.5
+      }
+    },
+    "ou": {
+      "total": null,
+      "overOdd": null,
+      "underOdd": null
+    }
+  },
+  "5708ae2a7844fc130805e900f94ae104": {
+    "homeTeam": "Canberra Raiders",
+    "awayTeam": "South Sydney Rabbitohs",
+    "firstSeen": "2026-11-18T00:07:54.479Z",
+    "h2h": {
+      "home": 1.92,
+      "away": 1.92
+    },
+    "line": {
+      "home": {
+        "odd": 1.9,
+        "point": -0.5
+      },
+      "away": {
+        "odd": 1.9,
+        "point": 0.5
+      }
+    },
+    "ou": {
+      "total": null,
+      "overOdd": null,
+      "underOdd": null
+    }
   }
 }
