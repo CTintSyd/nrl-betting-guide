@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-18T19:41:28.000Z",
-  "quotaRemaining": 470,
+  "updated": "2026-11-19T02:05:29.911Z",
+  "quotaRemaining": 467,
   "round": 27,
   "venueOverride": {
     "venue": "Suncorp Stadium",
@@ -132,6 +132,12 @@
           "away": 2.66
         },
         {
+          "key": "tab",
+          "name": "TAB",
+          "home": 1.47,
+          "away": 2.7
+        },
+        {
           "key": "ladbrokes_au",
           "name": "Ladbrokes",
           "home": 1.5,
@@ -170,6 +176,12 @@
           "name": "Sportsbet",
           "home": 1.44,
           "away": 2.8
+        },
+        {
+          "key": "tab",
+          "name": "TAB",
+          "home": 1.42,
+          "away": 2.85
         },
         {
           "key": "ladbrokes_au",
@@ -212,6 +224,12 @@
           "away": 2.05
         },
         {
+          "key": "tab",
+          "name": "TAB",
+          "home": 1.73,
+          "away": 2.1
+        },
+        {
           "key": "ladbrokes_au",
           "name": "Ladbrokes",
           "home": 1.8,
@@ -252,6 +270,12 @@
           "away": 2.53
         },
         {
+          "key": "tab",
+          "name": "TAB",
+          "home": 1.5,
+          "away": 2.6
+        },
+        {
           "key": "ladbrokes_au",
           "name": "Ladbrokes",
           "home": 1.55,
@@ -290,6 +314,12 @@
           "name": "Sportsbet",
           "home": 1.86,
           "away": 1.98
+        },
+        {
+          "key": "tab",
+          "name": "TAB",
+          "home": 1.85,
+          "away": 1.95
         },
         {
           "key": "ladbrokes_au",
@@ -370,6 +400,12 @@
           "name": "Sportsbet",
           "home": 1.92,
           "away": 1.92
+        },
+        {
+          "key": "tab",
+          "name": "TAB",
+          "home": 1.95,
+          "away": 1.85
         },
         {
           "key": "ladbrokes_au",
