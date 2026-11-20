@@ -214,5 +214,221 @@
       "overOdd": null,
       "underOdd": null
     }
+  },
+  "46be357614fc506a465db6e0c4703ca7": {
+    "homeTeam": "Parramatta Eels",
+    "awayTeam": "Canterbury Bulldogs",
+    "firstSeen": "2026-11-20T01:55:44.677Z",
+    "h2h": {
+      "home": 1.83,
+      "away": 2.01
+    },
+    "line": {
+      "home": {
+        "odd": 1.89,
+        "point": -1.5
+      },
+      "away": {
+        "odd": 1.91,
+        "point": 1.5
+      }
+    },
+    "ou": {
+      "total": null,
+      "overOdd": null,
+      "underOdd": null
+    }
+  },
+  "0fc40bbf00450ba0214ad4e462c2a9b4": {
+    "homeTeam": "St George Illawarra Dragons",
+    "awayTeam": "Dolphins",
+    "firstSeen": "2026-11-20T01:55:44.677Z",
+    "h2h": {
+      "home": 2.83,
+      "away": 1.43
+    },
+    "line": {
+      "home": {
+        "odd": 1.89,
+        "point": 6.5
+      },
+      "away": {
+        "odd": 1.91,
+        "point": -6.5
+      }
+    },
+    "ou": {
+      "total": null,
+      "overOdd": null,
+      "underOdd": null
+    }
+  },
+  "bf41334c66e11140694dea10e72ae99a": {
+    "homeTeam": "South Sydney Rabbitohs",
+    "awayTeam": "Sydney Roosters",
+    "firstSeen": "2026-11-20T01:55:44.677Z",
+    "h2h": {
+      "home": 2.22,
+      "away": 1.66
+    },
+    "line": {
+      "home": {
+        "odd": 1.89,
+        "point": 2.5
+      },
+      "away": {
+        "odd": 1.91,
+        "point": -2.5
+      }
+    },
+    "ou": {
+      "total": null,
+      "overOdd": null,
+      "underOdd": null
+    }
+  },
+  "9c981c69cc1554ab03fab965d724b6f2": {
+    "homeTeam": "Melbourne Storm",
+    "awayTeam": "Newcastle Knights",
+    "firstSeen": "2026-11-20T01:55:44.677Z",
+    "h2h": {
+      "home": 1.5,
+      "away": 2.61
+    },
+    "line": {
+      "home": {
+        "odd": 1.9,
+        "point": -5.5
+      },
+      "away": {
+        "odd": 1.9,
+        "point": 5.5
+      }
+    },
+    "ou": {
+      "total": null,
+      "overOdd": null,
+      "underOdd": null
+    }
+  },
+  "7fddb84e7a242eee48b32bab3f9f3a24": {
+    "homeTeam": "Perth Bears",
+    "awayTeam": "Canberra Raiders",
+    "firstSeen": "2026-11-20T01:55:44.677Z",
+    "h2h": {
+      "home": 2.17,
+      "away": 1.69
+    },
+    "line": {
+      "home": {
+        "odd": 1.9,
+        "point": 2.5
+      },
+      "away": {
+        "odd": 1.9,
+        "point": -2.5
+      }
+    },
+    "ou": {
+      "total": null,
+      "overOdd": null,
+      "underOdd": null
+    }
+  },
+  "faf294e12ca0d7c66ef4fb56d63667e5": {
+    "homeTeam": "Brisbane Broncos",
+    "awayTeam": "Wests Tigers",
+    "firstSeen": "2026-11-20T01:55:44.678Z",
+    "h2h": {
+      "home": 1.28,
+      "away": 3.7
+    },
+    "line": {
+      "home": {
+        "odd": 1.9,
+        "point": -10.5
+      },
+      "away": {
+        "odd": 1.9,
+        "point": 10.5
+      }
+    },
+    "ou": {
+      "total": null,
+      "overOdd": null,
+      "underOdd": null
+    }
+  },
+  "59b430e5d8704166ffc645bd7cd01fbf": {
+    "homeTeam": "Manly Warringah Sea Eagles",
+    "awayTeam": "Cronulla Sutherland Sharks",
+    "firstSeen": "2026-11-20T01:55:44.678Z",
+    "h2h": {
+      "home": 1.93,
+      "away": 1.91
+    },
+    "line": {
+      "home": {
+        "odd": 1.9,
+        "point": 0.5
+      },
+      "away": {
+        "odd": 1.9,
+        "point": -0.5
+      }
+    },
+    "ou": {
+      "total": null,
+      "overOdd": null,
+      "underOdd": null
+    }
+  },
+  "d58f09bd00cc9abff2bf0fcd15475de5": {
+    "homeTeam": "New Zealand Warriors",
+    "awayTeam": "Penrith Panthers",
+    "firstSeen": "2026-11-20T01:55:44.678Z",
+    "h2h": {
+      "home": 1.55,
+      "away": 2.46
+    },
+    "line": {
+      "home": {
+        "odd": 1.82,
+        "point": -3.5
+      },
+      "away": {
+        "odd": 1.99,
+        "point": 3.5
+      }
+    },
+    "ou": {
+      "total": null,
+      "overOdd": null,
+      "underOdd": null
+    }
+  },
+  "250fb74666ba609b09f57c4e9e3a83d8": {
+    "homeTeam": "North Queensland Cowboys",
+    "awayTeam": "Gold Coast Titans",
+    "firstSeen": "2026-11-20T01:55:44.678Z",
+    "h2h": {
+      "home": 1.53,
+      "away": 2.51
+    },
+    "line": {
+      "home": {
+        "odd": 1.91,
+        "point": -4.5
+      },
+      "away": {
+        "odd": 1.89,
+        "point": 4.5
+      }
+    },
+    "ou": {
+      "total": null,
+      "overOdd": null,
+      "underOdd": null
+    }
   }
 }

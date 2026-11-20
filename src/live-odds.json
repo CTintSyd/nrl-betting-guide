@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-19T19:41:48.172Z",
-  "quotaRemaining": 461,
+  "updated": "2026-11-20T01:55:44.678Z",
+  "quotaRemaining": 458,
   "round": 27,
   "venueOverride": {
     "venue": "Suncorp Stadium",
@@ -412,6 +412,312 @@
           "name": "Ladbrokes",
           "home": 1.9,
           "away": 1.9
+        }
+      ]
+    },
+    {
+      "id": "46be357614fc506a465db6e0c4703ca7",
+      "homeTeam": "Parramatta Eels",
+      "awayTeam": "Canterbury Bulldogs",
+      "commenceTime": "2027-03-11T09:00:00Z",
+      "bookmaker": "sportsbet",
+      "h2h": {
+        "home": 1.83,
+        "away": 2.01
+      },
+      "line": {
+        "home": {
+          "odd": 1.89,
+          "point": -1.5
+        },
+        "away": {
+          "odd": 1.91,
+          "point": 1.5
+        }
+      },
+      "ou": {
+        "total": null,
+        "overOdd": null,
+        "underOdd": null
+      },
+      "bookmakerComparison": [
+        {
+          "key": "sportsbet",
+          "name": "Sportsbet",
+          "home": 1.83,
+          "away": 2.01
+        }
+      ]
+    },
+    {
+      "id": "0fc40bbf00450ba0214ad4e462c2a9b4",
+      "homeTeam": "St George Illawarra Dragons",
+      "awayTeam": "Dolphins",
+      "commenceTime": "2027-03-12T07:00:00Z",
+      "bookmaker": "sportsbet",
+      "h2h": {
+        "home": 2.83,
+        "away": 1.43
+      },
+      "line": {
+        "home": {
+          "odd": 1.89,
+          "point": 6.5
+        },
+        "away": {
+          "odd": 1.91,
+          "point": -6.5
+        }
+      },
+      "ou": {
+        "total": null,
+        "overOdd": null,
+        "underOdd": null
+      },
+      "bookmakerComparison": [
+        {
+          "key": "sportsbet",
+          "name": "Sportsbet",
+          "home": 2.83,
+          "away": 1.43
+        }
+      ]
+    },
+    {
+      "id": "bf41334c66e11140694dea10e72ae99a",
+      "homeTeam": "South Sydney Rabbitohs",
+      "awayTeam": "Sydney Roosters",
+      "commenceTime": "2027-03-12T09:00:00Z",
+      "bookmaker": "sportsbet",
+      "h2h": {
+        "home": 2.22,
+        "away": 1.66
+      },
+      "line": {
+        "home": {
+          "odd": 1.89,
+          "point": 2.5
+        },
+        "away": {
+          "odd": 1.91,
+          "point": -2.5
+        }
+      },
+      "ou": {
+        "total": null,
+        "overOdd": null,
+        "underOdd": null
+      },
+      "bookmakerComparison": [
+        {
+          "key": "sportsbet",
+          "name": "Sportsbet",
+          "home": 2.22,
+          "away": 1.66
+        }
+      ]
+    },
+    {
+      "id": "9c981c69cc1554ab03fab965d724b6f2",
+      "homeTeam": "Melbourne Storm",
+      "awayTeam": "Newcastle Knights",
+      "commenceTime": "2027-03-13T04:00:00Z",
+      "bookmaker": "sportsbet",
+      "h2h": {
+        "home": 1.5,
+        "away": 2.61
+      },
+      "line": {
+        "home": {
+          "odd": 1.9,
+          "point": -5.5
+        },
+        "away": {
+          "odd": 1.9,
+          "point": 5.5
+        }
+      },
+      "ou": {
+        "total": null,
+        "overOdd": null,
+        "underOdd": null
+      },
+      "bookmakerComparison": [
+        {
+          "key": "sportsbet",
+          "name": "Sportsbet",
+          "home": 1.5,
+          "away": 2.61
+        }
+      ]
+    },
+    {
+      "id": "7fddb84e7a242eee48b32bab3f9f3a24",
+      "homeTeam": "Perth Bears",
+      "awayTeam": "Canberra Raiders",
+      "commenceTime": "2027-03-13T06:30:00Z",
+      "bookmaker": "sportsbet",
+      "h2h": {
+        "home": 2.17,
+        "away": 1.69
+      },
+      "line": {
+        "home": {
+          "odd": 1.9,
+          "point": 2.5
+        },
+        "away": {
+          "odd": 1.9,
+          "point": -2.5
+        }
+      },
+      "ou": {
+        "total": null,
+        "overOdd": null,
+        "underOdd": null
+      },
+      "bookmakerComparison": [
+        {
+          "key": "sportsbet",
+          "name": "Sportsbet",
+          "home": 2.17,
+          "away": 1.69
+        }
+      ]
+    },
+    {
+      "id": "faf294e12ca0d7c66ef4fb56d63667e5",
+      "homeTeam": "Brisbane Broncos",
+      "awayTeam": "Wests Tigers",
+      "commenceTime": "2027-03-13T08:35:00Z",
+      "bookmaker": "sportsbet",
+      "h2h": {
+        "home": 1.28,
+        "away": 3.7
+      },
+      "line": {
+        "home": {
+          "odd": 1.9,
+          "point": -10.5
+        },
+        "away": {
+          "odd": 1.9,
+          "point": 10.5
+        }
+      },
+      "ou": {
+        "total": null,
+        "overOdd": null,
+        "underOdd": null
+      },
+      "bookmakerComparison": [
+        {
+          "key": "sportsbet",
+          "name": "Sportsbet",
+          "home": 1.28,
+          "away": 3.7
+        }
+      ]
+    },
+    {
+      "id": "59b430e5d8704166ffc645bd7cd01fbf",
+      "homeTeam": "Manly Warringah Sea Eagles",
+      "awayTeam": "Cronulla Sutherland Sharks",
+      "commenceTime": "2027-03-14T03:00:00Z",
+      "bookmaker": "sportsbet",
+      "h2h": {
+        "home": 1.93,
+        "away": 1.91
+      },
+      "line": {
+        "home": {
+          "odd": 1.9,
+          "point": 0.5
+        },
+        "away": {
+          "odd": 1.9,
+          "point": -0.5
+        }
+      },
+      "ou": {
+        "total": null,
+        "overOdd": null,
+        "underOdd": null
+      },
+      "bookmakerComparison": [
+        {
+          "key": "sportsbet",
+          "name": "Sportsbet",
+          "home": 1.93,
+          "away": 1.91
+        }
+      ]
+    },
+    {
+      "id": "d58f09bd00cc9abff2bf0fcd15475de5",
+      "homeTeam": "New Zealand Warriors",
+      "awayTeam": "Penrith Panthers",
+      "commenceTime": "2027-03-14T05:05:00Z",
+      "bookmaker": "sportsbet",
+      "h2h": {
+        "home": 1.55,
+        "away": 2.46
+      },
+      "line": {
+        "home": {
+          "odd": 1.82,
+          "point": -3.5
+        },
+        "away": {
+          "odd": 1.99,
+          "point": 3.5
+        }
+      },
+      "ou": {
+        "total": null,
+        "overOdd": null,
+        "underOdd": null
+      },
+      "bookmakerComparison": [
+        {
+          "key": "sportsbet",
+          "name": "Sportsbet",
+          "home": 1.55,
+          "away": 2.46
+        }
+      ]
+    },
+    {
+      "id": "250fb74666ba609b09f57c4e9e3a83d8",
+      "homeTeam": "North Queensland Cowboys",
+      "awayTeam": "Gold Coast Titans",
+      "commenceTime": "2027-03-14T07:15:00Z",
+      "bookmaker": "sportsbet",
+      "h2h": {
+        "home": 1.53,
+        "away": 2.51
+      },
+      "line": {
+        "home": {
+          "odd": 1.91,
+          "point": -4.5
+        },
+        "away": {
+          "odd": 1.89,
+          "point": 4.5
+        }
+      },
+      "ou": {
+        "total": null,
+        "overOdd": null,
+        "underOdd": null
+      },
+      "bookmakerComparison": [
+        {
+          "key": "sportsbet",
+          "name": "Sportsbet",
+          "home": 1.53,
+          "away": 2.51
         }
       ]
     }
