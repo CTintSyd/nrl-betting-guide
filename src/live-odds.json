@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-21T01:51:19.179Z",
-  "quotaRemaining": 449,
+  "updated": "2026-11-21T10:23:23.535Z",
+  "quotaRemaining": 446,
   "round": 27,
   "venueOverride": {
     "venue": "Suncorp Stadium",
@@ -50,6 +50,12 @@
           "name": "Ladbrokes",
           "home": 1.6,
           "away": 2.35
+        },
+        {
+          "key": "pointsbetau",
+          "name": "PointsBet",
+          "home": 1.6,
+          "away": 2.35
         }
       ]
     },
@@ -96,6 +102,12 @@
           "name": "Ladbrokes",
           "home": 1.36,
           "away": 3.1
+        },
+        {
+          "key": "pointsbetau",
+          "name": "PointsBet",
+          "home": 1.35,
+          "away": 3.2
         }
       ]
     },
@@ -142,6 +154,12 @@
           "name": "Ladbrokes",
           "home": 1.5,
           "away": 2.6
+        },
+        {
+          "key": "pointsbetau",
+          "name": "PointsBet",
+          "home": 1.45,
+          "away": 2.75
         }
       ]
     },
@@ -186,6 +204,12 @@
         {
           "key": "ladbrokes_au",
           "name": "Ladbrokes",
+          "home": 1.45,
+          "away": 2.75
+        },
+        {
+          "key": "pointsbetau",
+          "name": "PointsBet",
           "home": 1.45,
           "away": 2.75
         }
@@ -234,6 +258,12 @@
           "name": "Ladbrokes",
           "home": 1.8,
           "away": 2
+        },
+        {
+          "key": "pointsbetau",
+          "name": "PointsBet",
+          "home": 1.8,
+          "away": 2
         }
       ]
     },
@@ -278,6 +308,12 @@
         {
           "key": "ladbrokes_au",
           "name": "Ladbrokes",
+          "home": 1.55,
+          "away": 2.45
+        },
+        {
+          "key": "pointsbetau",
+          "name": "PointsBet",
           "home": 1.55,
           "away": 2.45
         }
@@ -326,6 +362,12 @@
           "name": "Ladbrokes",
           "home": 1.85,
           "away": 1.95
+        },
+        {
+          "key": "pointsbetau",
+          "name": "PointsBet",
+          "home": 1.9,
+          "away": 1.9
         }
       ]
     },
@@ -366,6 +408,12 @@
           "name": "Ladbrokes",
           "home": 2.35,
           "away": 1.55
+        },
+        {
+          "key": "pointsbetau",
+          "name": "PointsBet",
+          "home": 2.6,
+          "away": 1.5
         }
       ]
     },
@@ -412,6 +460,12 @@
           "name": "Ladbrokes",
           "home": 1.9,
           "away": 1.9
+        },
+        {
+          "key": "pointsbetau",
+          "name": "PointsBet",
+          "home": 1.95,
+          "away": 1.85
         }
       ]
     },
